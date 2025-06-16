@@ -1,3 +1,5 @@
+import Link from "next/link";          // ← one import, at the top
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center gap-16 px-6 pb-24 sm:gap-20 sm:px-10">
@@ -13,12 +15,12 @@ export default function Home() {
           occasional photography.
         </p>
 
-        <a
+        <Link
           href="/#projects"
           className="mt-4 rounded-full bg-black text-white px-6 py-3 text-sm font-medium hover:bg-neutral-800 dark:bg-white dark:text-black dark:hover:bg-neutral-200 transition-colors"
         >
           View my work
-        </a>
+        </Link>
       </section>
 
       {/* ─────────── Quick links (cards) ─────────── */}
@@ -50,25 +52,22 @@ export default function Home() {
 }
 
 /* ─────────────────────────────── */
-function Card({
-  title,
-  href,
-  emoji,
-  desc,
-}: {
+type CardProps = {
   title: string;
   href: string;
   emoji: string;
   desc: string;
-}) {
+};
+
+function Card({ title, href, emoji, desc }: CardProps) {
   return (
-    <a
+    <Link
       href={href}
       className="flex flex-col gap-2 rounded-xl border border-neutral-200 p-6 text-center shadow-sm transition hover:-translate-y-[2px] hover:shadow-md dark:border-neutral-800"
     >
       <span className="text-4xl">{emoji}</span>
       <h2 className="text-lg font-semibold">{title}</h2>
       <p className="text-sm text-muted-foreground">{desc}</p>
-    </a>
+    </Link>
   );
 }
