@@ -2,9 +2,9 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="flex flex-col items-center gap-10 px-4 py-12 sm:px-8 bg-neutral-900 text-neutral-100 dark:text-neutral-100">
+    <main className="flex flex-col gap-10 bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12">
       {/* ─────────── Intro ─────────── */}
-      <section className="w-full max-w-3xl rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
+      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-center mb-4">
           Hey, I’m Pryce 👋
         </h1>
@@ -31,7 +31,7 @@ export default function About() {
       </section>
 
       {/* ─────────── Experience ─────────── */}
-      <section className="w-full max-w-3xl rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
+      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
         <h2 className="mb-6 text-2xl font-semibold text-center">Experience</h2>
         <ul className="flex flex-col gap-6">
           <li>
@@ -48,35 +48,42 @@ export default function About() {
           </li>
           <li>
             <h3 className="font-medium">
-              Purdue University – Undergraduate TA{" "}
+              Purdue Union Rack and Roll – Student Service Attendant{" "}
               <span className="font-normal text-muted-foreground">
-                · Jan 2024 – Dec 2024
+                · August 2023 – Present
               </span>
             </h3>
             <p className="text-sm text-muted-foreground">
-              Guided 200+ students through Computer Systems programming labs and
-              graded projects.
+              A student!
             </p>
           </li>
         </ul>
       </section>
 
       {/* ─────────── Featured Project ─────────── */}
-      <section className="w-full max-w-3xl rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
+      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md">
         <h2 className="mb-6 text-2xl font-semibold text-center">
-          Featured Project
+          Current Projects
         </h2>
+        <div className="flex flex-col gap-6">
         <ProjectCard
-          title="IoT Energy Monitor"
-          href="/projects/iot-energy-monitor"
-          emoji="🔋"
-          desc="Real-time energy dashboard built with Azure IoT Hub & Next.js."
+          title="This website!"
+          href="/projects/website-portfolio"
+          emoji="😊"
+          desc="A personal portfolio showcasing my projects, photography, and about me."
         />
+        <ProjectCard
+          title="Spotify Playlist Manager"
+          href="/projects/website-portfolio"
+          emoji="🎵"
+          desc="A web app to manage and curate Spotify playlists with AI recommendations."
+        />
+        </div>
       </section>
 
       {/* ─────────── Photography ─────────── */}
       <section
-        className="w-full max-w-5xl rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md"
+        className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md"
         id="photography"
       >
         <h2 className="mb-6 text-2xl font-semibold text-center">Photography</h2>
