@@ -6,7 +6,7 @@ export default function About() {
       {/* ─────────── Intro ─────────── */}
       <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md mb-6">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-center mb-4">
-          Hey, I'm Pryce 👋
+          Hey, I&apos;m Pryce 👋
         </h1>
         <p className="text-muted-foreground text-center mb-6">
           Senior computer-engineering student at Purdue, currently rotating
