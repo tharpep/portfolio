@@ -33,23 +33,35 @@ export default function About() {
         </div>
       </section>
 
-      {/* ─────────── Featured Project ─────────── */}
+      {/* ─────────── Featured Projects ─────────── */}
       <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md mb-6">
         <h2 className="mb-6 text-2xl font-semibold text-center font-mono tracking-wider drop-shadow-sm">
-          Current Projects
+          Featured Projects
         </h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
           <ProjectCard
-            title="This website!"
-            href="/projects/website-portfolio"
-            emoji="😊"
-            desc="A personal portfolio showcasing my projects, photography, and about me."
+            title="AI System Prompt Framework"
+            href="/projects/ai-system-prompt"
+            emoji="🤖"
+            desc="Company-wide AI prompt standard mandated by VP of Engineering, revolutionizing developer workflows."
           />
           <ProjectCard
-            title="Spotify Playlist Manager"
-            href="/projects/website-portfolio"
-            emoji="🎵"
-            desc="A web app to manage and curate Spotify playlists with AI recommendations."
+            title="Azure ETL Pipeline"
+            href="/projects/azure-etl-pipeline"
+            emoji="📊"
+            desc="Automated financial cost analysis reducing 3-hour manual process to 5-10 minutes."
+          />
+          <ProjectCard
+            title="DJ Pete Beat Sequencer"
+            href="/projects/dj-pete-beat-sequencer"
+            emoji="🎨"
+            desc="STM32 embedded firmware with RGB keypads presented at Purdue Spark Challenge."
+          />
+          <ProjectCard
+            title="Azure DevOps Scorecard"
+            href="/projects/devops-scorecard"
+            emoji="⚡"
+            desc="Real-time sprint visibility extension replacing 30+ minute check-in meetings."
           />
         </div>
       </section>
