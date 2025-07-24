@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
+  { href: "/custom-gpts", label: "Custom GPTs" },
   { href: "/about", label: "About" },
 ];
 
@@ -20,10 +21,10 @@ export default function Nav() {
           href="/" 
           className="flex items-center gap-3 group"
         >
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-cyan-500/20 transition-all duration-300 ease-out">
             <span className="text-white font-bold text-sm">PT</span>
           </div>
-          <span className="text-white font-semibold text-lg tracking-tight group-hover:text-cyan-300 transition-colors">
+          <span className="text-white font-semibold text-lg tracking-tight group-hover:text-cyan-300 transition-all duration-300 ease-out">
             Pryce Tharpe
           </span>
         </Link>
