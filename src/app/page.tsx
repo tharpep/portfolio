@@ -154,6 +154,16 @@ export default function Home() {
         </div>
       </section>
 
+      {/* ─────────── Hidden Photography Link ─────────── */}
+      <div className="mt-20 text-right">
+        <Link 
+          href="/photography" 
+          className="text-neutral-500 hover:text-neutral-400 text-sm transition-colors duration-300"
+        >
+          Photography →
+        </Link>
+      </div>
+
     </main>
   );
 }
