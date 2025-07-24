@@ -90,10 +90,10 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─────────── Experience & Education ─────────── */}
+      {/* ─────────── Experience ─────────── */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-          Experience & Education
+          Experience
         </h2>
         <div className="space-y-6">
           <ExperienceCard
@@ -109,7 +109,38 @@ export default function Home() {
             ]}
           />
           <ExperienceCard
-            title="Computer Engineering Student"
+            title="Student Service Attendant"
+            organization="Purdue Union Rack and Roll"
+            period="August 2023 – Present"
+            description="Front counter operations and facility management responsibilities, demonstrating reliability and customer service skills in team environments."
+            highlights={[
+              "Worked as part of small teams managing high-volume customer service operations",
+              "Responsible for opening and closing facility procedures",
+              "Maintained consistent performance standards in fast-paced environment"
+            ]}
+          />
+          <ExperienceCard
+            title="Counter Control"
+            organization="Royal Pin Woodland"
+            period="August 2021 – August 2024"
+            description="Front register operations and customer service in recreational facility, with additional training and leadership responsibilities."
+            highlights={[
+              "Served as primary front counter associate handling customer transactions",
+              "Provided lane service and facility support during peak hours",
+              "Trained new employees including supervisors, demonstrating leadership capabilities"
+            ]}
+          />
+        </div>
+      </section>
+
+      {/* ─────────── Education ─────────── */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          Education
+        </h2>
+        <div className="space-y-6">
+          <ExperienceCard
+            title="Computer Engineering, B.S."
             organization="Purdue University"
             period="August 2022 – May 2026"
             description="Honors Program, Goss Scholars Learning Community. Coursework spanning software engineering, machine learning, embedded systems, and data automation with hands-on project experience."
@@ -119,13 +150,6 @@ export default function Home() {
               "Built custom GPTs for system prompt engineering and career documentation",
               "Microsoft Certified: Azure Fundamentals (AZ-900)"
             ]}
-          />
-          <ExperienceCard
-            title="Student Service Attendant"
-            organization="Purdue Union Rack and Roll"
-            period="August 2023 – Present"
-            description="Front counter operations and facility management responsibilities, demonstrating reliability and customer service skills in team environments."
-            highlights={[]}
           />
         </div>
       </section>
