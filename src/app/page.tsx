@@ -1,31 +1,31 @@
 import Link from "next/link";
 
-export default function About() {
+export default function Home() {
   return (
-    <main className="flex flex-col gap-10 bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12">
-      {/* ─────────── Intro ─────────── */}
-      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md mb-6">
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl text-center mb-4">
-          Hey, I&apos;m Pryce 👋
+    <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
+      
+      {/* ─────────── Hero Intro ─────────── */}
+      <section className="text-center mb-16">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+          Hey, I'm Pryce 👋
         </h1>
-        <p className="text-muted-foreground text-center mb-6">
-          Senior computer-engineering student at Purdue, currently rotating
-          through the Cloud, Mobile &amp; DevOps teams at Mesh Systems. I love
-          building resilient cloud platforms, tinkering with IoT hardware, and
-          sharing what I learn along the way.
+        <p className="text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8">
+          Senior computer-engineering student at Purdue, currently rotating through the 
+          <span className="text-cyan-400 font-semibold"> Cloud, Mobile & DevOps teams</span> at Mesh Systems. 
+          I love building resilient cloud platforms, tinkering with IoT hardware, and sharing what I learn along the way.
         </p>
-        <div className="flex justify-between gap-6 w-full max-w-md mx-auto">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
           <Link
             href="/projects"
-            className="flex-1 min-w-[140px] rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 px-8 py-3 text-sm font-medium text-white transition shadow-sm hover:shadow-blue-400/40 hover:shadow-lg hover:brightness-105 text-center"
+            className="px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20"
           >
             View Projects
           </Link>
           <Link
             href="/Pryce_Tharpe_Resume.pdf"
-            className="flex-1 min-w-[140px] rounded-full border border-neutral-400 px-8 py-3 text-sm font-medium transition hover:bg-neutral-700 hover:shadow-cyan-400/40 hover:shadow-lg text-center flex items-center justify-center gap-2"
+            className="px-8 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-lg transition-all duration-300 hover:bg-neutral-700 flex items-center justify-center gap-2"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 inline-block mr-1">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v11m0 0-3.25-3.25M12 15.5l3.25-3.25M4.75 19.25h14.5" />
             </svg>
             Download CV
@@ -33,136 +33,175 @@ export default function About() {
         </div>
       </section>
 
+      {/* ─────────── Quick Impact Stats ─────────── */}
+      <section className="grid md:grid-cols-3 gap-6 mb-16">
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <div className="text-2xl font-bold text-cyan-400 mb-1">95%</div>
+          <div className="text-neutral-300 text-sm">Process Time Reduction</div>
+        </div>
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <div className="text-2xl font-bold text-emerald-400 mb-1">Company-wide</div>
+          <div className="text-neutral-300 text-sm">AI Standard Adoption</div>
+        </div>
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <div className="text-2xl font-bold text-blue-400 mb-1">7</div>
+          <div className="text-neutral-300 text-sm">Projects Delivered</div>
+        </div>
+      </section>
+
       {/* ─────────── Featured Projects ─────────── */}
-      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md mb-6">
-        <h2 className="mb-6 text-2xl font-semibold text-center font-mono tracking-wider drop-shadow-sm">
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
           Featured Projects
         </h2>
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
-          <ProjectCard
+        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2">
+          <FeaturedProjectCard
             title="AI System Prompt Framework"
             href="/projects/ai-system-prompt"
-            emoji="🤖"
-            desc="Company-wide AI prompt standard mandated by VP of Engineering, revolutionizing developer workflows."
+            desc="Company-wide AI prompt standard mandated by VP of Engineering"
+            tech="OpenAI API"
           />
-          <ProjectCard
+          <FeaturedProjectCard
             title="Azure ETL Pipeline"
             href="/projects/azure-etl-pipeline"
-            emoji="📊"
-            desc="Automated financial cost analysis reducing 3-hour manual process to 5-10 minutes."
+            desc="Automated financial analysis reducing 3-hour process to 5-10 minutes"
+            tech="Microsoft Fabric"
           />
-          <ProjectCard
+          <FeaturedProjectCard
             title="DJ Pete Beat Sequencer"
             href="/projects/dj-pete-beat-sequencer"
-            emoji="🎨"
-            desc="STM32 embedded firmware with RGB keypads presented at Purdue Spark Challenge."
+            desc="STM32 embedded firmware presented at Purdue Spark Challenge"
+            tech="STM32"
           />
-          <ProjectCard
+          <FeaturedProjectCard
             title="Azure DevOps Scorecard"
             href="/projects/devops-scorecard"
-            emoji="⚡"
-            desc="Real-time sprint visibility extension replacing 30+ minute check-in meetings."
+            desc="Real-time sprint visibility replacing 30+ minute meetings"
+            tech="React"
           />
         </div>
-      </section>
-
-      {/* ─────────── Experience ─────────── */}
-      <section className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md mb-6">
-        <h2 className="mb-6 text-2xl font-semibold text-center font-mono tracking-wider drop-shadow-sm">Experience</h2>
-        <ul className="flex flex-col gap-6">
-          <li>
-            <h3 className="font-medium">
-              Mesh Systems – Software Engineering Intern{" "}
-              <span className="font-normal text-muted-foreground">
-                · May 2025 – Present
-              </span>
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Automating Azure infrastructure, building DevOps pipelines, and
-              writing cloud APIs. (Full details coming soon.)
-            </p>
-          </li>
-          <li>
-            <h3 className="font-medium">
-              Purdue Union Rack and Roll – Student Service Attendant{" "}
-              <span className="font-normal text-muted-foreground">
-                · August 2023 – Present
-              </span>
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Worked at the front counter, usually as part of a team of 1 or 2. Responsible for opening and closing the facility.
-            </p>
-          </li>
-          <li>
-            <h3 className="font-medium">
-              Royal Pin Woodland – Counter Control
-              <span className="font-normal text-muted-foreground">
-                · August 2021 – August 2024
-              </span>
-            </h3>
-            <p className="text-sm text-muted-foreground">
-              Served as the first register at the front counter, provided lane service, and frequently trained new employees (including supervisors).
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      {/* ─────────── Photography ─────────── */}
-      <section
-        className="w-full rounded-xl border border-neutral-700 bg-neutral-800 p-6 sm:p-10 shadow-md"
-        id="photography"
-      >
-        <h2 className="mb-6 text-2xl font-semibold text-center font-mono tracking-wider drop-shadow-sm">Photography</h2>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-          <PhotoPlaceholder />
-          <PhotoPlaceholder />
-          <PhotoPlaceholder />
-        </div>
-        <div className="mt-6 text-center">
-          <Link
-            href="/photography"
-            className="inline-block text-sm font-medium underline underline-offset-4 transition-colors hover:text-neutral-300"
+        <div className="text-center mt-6">
+          <Link 
+            href="/projects" 
+            className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors"
           >
-            See full gallery →
+            View all projects →
           </Link>
         </div>
       </section>
+
+      {/* ─────────── Experience & Education ─────────── */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          Experience & Education
+        </h2>
+        <div className="space-y-6">
+          <ExperienceCard
+            title="Software Engineering Intern"
+            organization="Mesh Systems"
+            period="May 2025 – Present"
+            description="Rotating through Cloud, Mobile & DevOps teams in IoT-focused software solutions firm (150 employees, 3 locations). Leading AI enablement initiatives, building ETL pipelines, and developing Azure DevOps extensions."
+            highlights={[
+              "Co-developed company's master IDE prompt adopted as standard by VP of Engineering",
+              "Built Azure ETL pipeline reducing 13-step, 3-hour process to 5-10 minutes",
+              "Led company-wide AI enablement training across multiple departments",
+              "Architected React/Next.js Azure DevOps Sprint Scorecard extension"
+            ]}
+          />
+          <ExperienceCard
+            title="Computer Engineering Student"
+            organization="Purdue University"
+            period="August 2022 – May 2026"
+            description="Honors Program, Goss Scholars Learning Community. Coursework spanning software engineering, machine learning, embedded systems, and data automation with hands-on project experience."
+            highlights={[
+              "Developed STM32 embedded firmware for beat sequencer presented at Spark Challenge",
+              "Engineered automated FM radio detection using USRP and GNU Radio",
+              "Built custom GPTs for system prompt engineering and career documentation",
+              "Microsoft Certified: Azure Fundamentals (AZ-900)"
+            ]}
+          />
+          <ExperienceCard
+            title="Student Service Attendant"
+            organization="Purdue Union Rack and Roll"
+            period="August 2023 – Present"
+            description="Front counter operations and facility management responsibilities, demonstrating reliability and customer service skills in team environments."
+            highlights={[]}
+          />
+        </div>
+      </section>
+
     </main>
   );
 }
 
-/* ─────────── Helpers ─────────── */
-type ProjectCardProps = {
-  title: string;
-  href: string;
-  emoji: string;
-  desc: string;
-};
-
-function ProjectCard({ title, href, emoji, desc }: ProjectCardProps) {
+/* ─────────── Components ─────────── */
+function FeaturedProjectCard({ title, href, desc, tech }: { 
+  title: string; 
+  href: string; 
+  desc: string; 
+  tech: string; 
+}) {
   return (
     <Link
       href={href}
-      className="flex items-start gap-4 rounded-lg border border-neutral-700 bg-neutral-700 p-4 hover:bg-neutral-600 transition-transform duration-200 hover:scale-[1.03] hover:shadow-lg hover:shadow-blue-400/30"
+      className="group block rounded-xl border border-neutral-700 bg-neutral-800 p-6 hover:shadow-xl hover:shadow-cyan-400/10 hover:-translate-y-1 transition-all duration-300 hover:border-cyan-500/50"
     >
-      <span className="text-3xl">{emoji}</span>
-      <div className="flex-1">
-        <h3 className="font-semibold">{title}</h3>
-        <p className="text-sm text-muted-foreground">{desc}</p>
+      <div className="flex justify-between items-start mb-3">
+        <h3 className="font-bold text-lg text-white group-hover:text-cyan-300 transition-colors">
+          {title}
+        </h3>
+        <span className="px-2 py-1 text-xs font-medium bg-blue-900/30 text-blue-300 rounded-md border border-blue-700/50">
+          {tech}
+        </span>
       </div>
-      <MiniPhotoPlaceholder />
+      <p className="text-neutral-300 text-sm leading-relaxed mb-3">
+        {desc}
+      </p>
+      <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform">
+        View Details
+        <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+          <path d="M7 17l10-10M17 7H7v10"/>
+        </svg>
+      </div>
     </Link>
   );
 }
 
-function MiniPhotoPlaceholder() {
+function ExperienceCard({ 
+  title, 
+  organization, 
+  period, 
+  description, 
+  highlights 
+}: { 
+  title: string; 
+  organization: string; 
+  period: string; 
+  description: string; 
+  highlights: string[]; 
+}) {
   return (
-    <div className="w-24 h-24 rounded-md bg-neutral-600 ml-2 flex-shrink-0" />
-  );
-}
-
-function PhotoPlaceholder() {
-  return (
-    <div className="aspect-[4/3] w-full rounded-lg bg-neutral-600" />
+    <div className="rounded-xl border border-neutral-700 bg-gradient-to-br from-neutral-800 to-neutral-900 p-6">
+      <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start mb-4">
+        <div>
+          <h3 className="font-bold text-lg text-white">{title}</h3>
+          <p className="text-cyan-400 font-medium">{organization}</p>
+        </div>
+        <span className="text-neutral-400 text-sm font-mono mt-1 sm:mt-0">{period}</span>
+      </div>
+      <p className="text-neutral-300 text-sm leading-relaxed mb-4">
+        {description}
+      </p>
+      {highlights.length > 0 && (
+        <ul className="space-y-2">
+          {highlights.map((highlight, index) => (
+            <li key={index} className="flex items-start gap-2 text-sm text-neutral-300">
+              <span className="text-cyan-400 mt-1">•</span>
+              <span>{highlight}</span>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
   );
 }

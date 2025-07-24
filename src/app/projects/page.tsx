@@ -109,37 +109,12 @@ export default function Projects() {
         </div>
       </section>
 
-      {/* Project Categories */}
-      <div className="space-y-1">
-        {categories.map((category) => (
-          <CategorySection key={category.id} category={category} />
-        ))}
-      </div>
-
-      {/* Contact CTA */}
-      <section className="text-center mt-20 p-12 rounded-2xl bg-gradient-to-r from-neutral-800 to-neutral-900 border border-neutral-700">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-4">
-          Let's Build Something Amazing
-        </h2>
-        <p className="text-neutral-300 text-lg mb-6 max-w-2xl mx-auto">
-          Interested in collaborating or learning more about these projects? 
-          I'm always excited to discuss innovative solutions and technical challenges.
-        </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/about"
-            className="px-6 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-semibold rounded-lg transition-colors"
-          >
-            Get In Touch
-          </Link>
-          <Link
-            href="/photography"
-            className="px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-lg transition-colors"
-          >
-            View Photography
-          </Link>
-        </div>
-      </section>
+             {/* Project Categories */}
+       <div className="space-y-1">
+         {categories.map((category) => (
+           <CategorySection key={category.id} category={category} />
+         ))}
+       </div>
     </main>
   );
 }
