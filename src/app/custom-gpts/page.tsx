@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function CustomGPTs() {
   return (
     <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-16 min-h-screen">
