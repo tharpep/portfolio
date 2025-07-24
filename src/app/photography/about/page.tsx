@@ -50,7 +50,7 @@ export default function PhotographyAbout() {
                 cannot: the spontaneous magic of light, shadow, and human emotion converging in a single frame.
               </p>
               <p>
-                The technical precision I've developed as an engineer informs my photography—understanding 
+                The technical precision I&apos;ve developed as an engineer informs my photography—understanding 
                 light like I understand data, composing shots with the same methodical approach I use to 
                 architect software. Yet photography has taught me to embrace the unpredictable, to find 
                 beauty in the unplanned moments that no algorithm could predict.
@@ -83,7 +83,7 @@ export default function PhotographyAbout() {
               <div className="bg-gradient-to-br from-amber-900/20 to-neutral-900/40 rounded-lg p-6 border border-amber-800/30">
                 <h3 className="text-xl font-medium text-amber-200 mb-4">Storytelling Through Light</h3>
                 <p className="text-amber-100/80 leading-relaxed">
-                  Every photograph is a story told through light. I'm drawn to how different lighting 
+                  Every photograph is a story told through light. I&apos;m drawn to how different lighting 
                   conditions can completely transform a subject, revealing new narratives in familiar scenes.
                 </p>
               </div>
@@ -91,7 +91,7 @@ export default function PhotographyAbout() {
                 <h3 className="text-xl font-medium text-amber-200 mb-4">Continuous Learning</h3>
                 <p className="text-amber-100/80 leading-relaxed">
                   Like engineering, photography demands constant growth. Each shoot teaches me 
-                  something new about light, composition, or the art of seeing—there's always 
+                  something new about light, composition, or the art of seeing—there&apos;s always 
                   another layer to discover.
                 </p>
               </div>
@@ -106,18 +106,18 @@ export default function PhotographyAbout() {
             <div className="bg-gradient-to-br from-amber-900/20 to-neutral-900/40 rounded-lg p-8 border border-amber-800/30">
               <div className="space-y-6 text-amber-100/90 leading-relaxed">
                 <p>
-                  Right now, I'm particularly fascinated by the intersection of urban architecture 
-                  and natural light—how steel and glass can become canvases for the sun's daily performance. 
+                  Right now, I&apos;m particularly fascinated by the intersection of urban architecture 
+                  and natural light—how steel and glass can become canvases for the sun&apos;s daily performance. 
                   My recent work in New York City has been exploring this dynamic.
                 </p>
                 <p className="text-amber-200/70 italic">
-                  {/* PLACEHOLDER: Add current photography projects or themes you're exploring */}
-                  [PLACEHOLDER: Describe specific photography projects, techniques you're learning, 
-                  or themes you're currently exploring. For example: portrait work, landscape series, 
-                  street photography evolution, specific equipment you're mastering, etc.]
+                  {/* PLACEHOLDER: Add current photography projects or themes you&apos;re exploring */}
+                  [PLACEHOLDER: Describe specific photography projects, techniques you&apos;re learning, 
+                  or themes you&apos;re currently exploring. For example: portrait work, landscape series, 
+                  street photography evolution, specific equipment you&apos;re mastering, etc.]
                 </p>
                 <p>
-                  As my engineering career grows, I'm committed to keeping photography as a vital 
+                  As my engineering career grows, I&apos;m committed to keeping photography as a vital 
                   creative outlet. The two disciplines complement each other beautifully—engineering 
                   gives me the technical foundation and problem-solving skills, while photography 
                   keeps me connected to intuition, emotion, and the art of seeing.
@@ -137,7 +137,7 @@ export default function PhotographyAbout() {
                 <div className="space-y-3 text-amber-100/80">
                   <p className="text-amber-200/70 italic">
                     [PLACEHOLDER: List your camera bodies, lenses, and key equipment. 
-                    For example: "Canon 5D Mark IV, 24-70mm f/2.8L, 85mm f/1.4L" etc.]
+                    For example: &quot;Canon 5D Mark IV, 24-70mm f/2.8L, 85mm f/1.4L&quot; etc.]
                   </p>
                   <p>
                     I believe in learning my tools intimately rather than constantly upgrading. 
@@ -151,7 +151,7 @@ export default function PhotographyAbout() {
                 <div className="space-y-3 text-amber-100/80">
                   <p>
                     My approach to editing mirrors my engineering mindset: purposeful and precise. 
-                    I enhance what was already there rather than creating something that wasn't, 
+                    I enhance what was already there rather than creating something that wasn&apos;t, 
                     using post-processing to reveal the story I saw when I clicked the shutter.
                   </p>
                   <p className="text-amber-200/70 italic">
@@ -171,9 +171,9 @@ export default function PhotographyAbout() {
             <div className="bg-gradient-to-br from-amber-900/20 to-neutral-900/40 rounded-lg p-8 border border-amber-800/30">
               <div className="space-y-6 text-amber-100/90 leading-relaxed">
                 <p>
-                  Photography will always be more than a hobby for me—it's a way of seeing, 
+                  Photography will always be more than a hobby for me—it&apos;s a way of seeing, 
                   of staying connected to the world beyond screens and code. As I advance in my 
-                  engineering career, I'm excited to explore how these two passions might intersect 
+                                      engineering career, I&apos;m excited to explore how these two passions might intersect 
                   in unexpected ways.
                 </p>
                 <div className="grid md:grid-cols-2 gap-6 mt-8">
@@ -211,11 +211,11 @@ export default function PhotographyAbout() {
           {/* Connect */}
           <section className="text-center">
             <h2 className="text-3xl font-light tracking-wide text-amber-300 mb-8">
-              Let's Create Together
+              Let&apos;s Create Together
             </h2>
             <p className="text-amber-100/90 leading-relaxed mb-8 max-w-2xl mx-auto">
               Photography is about connection—between artist and subject, between viewer and moment. 
-              I'm always interested in collaborating with fellow creatives or simply sharing 
+              I&apos;m always interested in collaborating with fellow creatives or simply sharing 
               perspectives on the art of seeing.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">

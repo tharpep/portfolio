@@ -7,7 +7,7 @@ export default function Home() {
       {/* ─────────── Hero Intro ─────────── */}
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-          Hey, I'm Pryce 👋
+          Hey, I&apos;m Pryce 👋
         </h1>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8">
           Senior computer-engineering student at Purdue, currently rotating through the 

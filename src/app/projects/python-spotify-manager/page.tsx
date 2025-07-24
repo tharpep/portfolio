@@ -101,7 +101,7 @@ export default function PythonSpotifyManager() {
           <div className="relative z-10">
             <h3 className="text-xl font-bold text-white mb-4">Comprehensive Music Data Pipeline</h3>
             <p className="text-neutral-300 mb-6">
-              Advanced Python-based tools leveraging Spotify's Web API for comprehensive music data analysis, 
+              Advanced Python-based tools leveraging Spotify&apos;s Web API for comprehensive music data analysis, 
               playlist management, and listening pattern insights with sophisticated authentication and data processing workflows.
             </p>
             
@@ -246,7 +246,7 @@ export default function PythonSpotifyManager() {
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
             <h3 className="text-xl font-bold text-white mb-4">Authentication & API Integration</h3>
             <p className="text-neutral-300 mb-6">
-              Implemented secure OAuth 2.0 authentication flow with Spotify's Web API, including proper token management, 
+              Implemented secure OAuth 2.0 authentication flow with Spotify&apos;s Web API, including proper token management, 
               refresh handling, and rate limiting to ensure reliable and respectful API usage.
             </p>
             <div className="bg-neutral-800/50 rounded-lg p-4 font-mono text-sm">
@@ -257,8 +257,8 @@ export default function PythonSpotifyManager() {
                 <span className="text-blue-400">import</span> pandas <span className="text-blue-400">as</span> pd<br/><br/>
                 <span className="text-purple-400"># Configure OAuth with secure scopes</span><br/>
                 sp_oauth = SpotifyOAuth(<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;scope=<span className="text-green-300">"playlist-read-private user-library-read"</span>,<br/>
-                &nbsp;&nbsp;&nbsp;&nbsp;cache_path=<span className="text-green-300">".cache"</span><br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;scope=<span className="text-green-300">&quot;playlist-read-private user-library-read&quot;</span>,<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;cache_path=<span className="text-green-300">&quot;.cache&quot;</span><br/>
                 )
               </div>
             </div>

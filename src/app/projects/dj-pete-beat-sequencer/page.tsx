@@ -282,7 +282,7 @@ export default function DJPeteBeatSequencer() {
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
             <h3 className="text-xl font-bold text-white mb-4">Purdue Spark Challenge Recognition</h3>
             <p className="text-neutral-300 mb-4">
-              Presented at Purdue's premier innovation showcase, demonstrating the intersection of embedded systems engineering 
+              Presented at Purdue&apos;s premier innovation showcase, demonstrating the intersection of embedded systems engineering 
               and creative technology, highlighting both technical complexity and practical musical applications.
             </p>
             <div className="flex flex-wrap gap-2">

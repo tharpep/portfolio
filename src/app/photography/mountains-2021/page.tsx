@@ -20,7 +20,7 @@ export default function Mountains2021() {
                 </h1>
                 <div className="w-20 h-px bg-amber-400 mb-6"></div>
                 <p className="text-lg font-light text-amber-200/80 leading-relaxed max-w-2xl">
-                  Chasing light across mountain ranges, finding solitude and grandeur in nature's cathedral. 
+                  Chasing light across mountain ranges, finding solitude and grandeur in nature&apos;s cathedral. 
                   These landscapes speak to something deeper within us—the call of the wild, 
                   the humbling presence of ancient peaks, and the ever-changing dance between earth and sky.
                 </p>

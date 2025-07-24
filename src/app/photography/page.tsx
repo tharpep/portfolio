@@ -146,7 +146,7 @@ export default function Photography() {
             </h2>
             <div className="w-12 h-px bg-amber-400 mx-auto mb-8"></div>
             <p className="text-lg font-light text-amber-200/80 leading-relaxed mb-8">
-              Photography is about more than capturing what we see—it's about revealing what we feel. 
+              Photography is about more than capturing what we see—it&apos;s about revealing what we feel. 
               Every frame is an opportunity to freeze a moment that will never exist again, 
               to find beauty in the unexpected, and to tell stories that words cannot express.
             </p>

@@ -153,7 +153,7 @@ export default function FMRadioResearch() {
           />
           <FeatureCard 
             title="GNU Radio Integration"
-            description="Advanced signal processing workflows using GNU Radio's comprehensive DSP library and flowgraph architecture."
+                            description="Advanced signal processing workflows using GNU Radio&apos;s comprehensive DSP library and flowgraph architecture."
             icon="🔧"
           />
           <FeatureCard 
@@ -268,7 +268,7 @@ export default function FMRadioResearch() {
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
             <h3 className="text-xl font-bold text-white mb-4">Digital Signal Processing Framework</h3>
             <p className="text-neutral-300 mb-4">
-              Implemented sophisticated signal processing algorithms using GNU Radio's modular framework, 
+              Implemented sophisticated signal processing algorithms using GNU Radio&apos;s modular framework, 
               creating custom detection and demodulation workflows optimized for FM radio signal characteristics.
             </p>
             <div className="flex flex-wrap gap-2">

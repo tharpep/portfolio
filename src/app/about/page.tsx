@@ -50,20 +50,20 @@ export default function About() {
           </h2>
           <div className="space-y-4 text-neutral-300 leading-relaxed">
             <p>
-              I'm Pryce Tharpe, a Computer Engineering student at Purdue University currently 
+              I&apos;m Pryce Tharpe, a Computer Engineering student at Purdue University currently 
               rotating through Cloud, Mobile, and DevOps teams at Mesh Systems. My passion lies 
               at the intersection of <strong className="text-cyan-400">innovative technology</strong> and 
               <strong className="text-blue-400"> practical problem-solving</strong>.
             </p>
             <p>
-              At Mesh Systems, I've had the opportunity to work across multiple disciplines—from building 
+              At Mesh Systems, I&apos;ve had the opportunity to work across multiple disciplines—from building 
               Azure ETL pipelines that reduced processing time by 95%, to developing company-wide AI standards 
               that were mandated by our VP of Engineering. This diverse experience has taught me that the 
               best solutions often come from understanding both the technical depth and business context.
             </p>
             <p>
-              What drives me most is the ability to take complex problems and break them down into elegant, 
-              scalable solutions. Whether it's embedded firmware for music sequencers or enterprise AI frameworks, 
+                              What drives me most is the ability to take complex problems and break them down into elegant, 
+                scalable solutions. Whether it&apos;s embedded firmware for music sequencers or enterprise AI frameworks, 
               I believe in writing code that not only works but tells a story.
             </p>
           </div>
@@ -79,7 +79,7 @@ export default function About() {
               <h3 className="font-bold text-lg text-white mb-3">Build for Impact</h3>
               <p className="text-neutral-300 text-sm leading-relaxed">
                 Every line of code should serve a purpose. I focus on solutions that create measurable 
-                value—whether that's saving hours of manual work or enabling new capabilities.
+                                 value—whether that&apos;s saving hours of manual work or enabling new capabilities.
               </p>
             </div>
             <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
@@ -170,8 +170,8 @@ export default function About() {
           </h2>
           <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
             <p className="text-neutral-300 leading-relaxed mb-4">
-              When I'm not coding, you'll find me exploring the intersection of technology and creativity. 
-              I'm passionate about photography, capturing moments that tell stories—much like well-written code.
+                             When I&apos;m not coding, you&apos;ll find me exploring the intersection of technology and creativity. 
+                              I&apos;m passionate about photography, capturing moments that tell stories—much like well-written code.
             </p>
             <p className="text-neutral-300 leading-relaxed mb-4">
               {/* PLACEHOLDER: Add personal interests, hobbies, or activities */}
@@ -206,7 +206,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-cyan-400 mt-1">•</span>
-                  <span className="text-neutral-500 italic">[PLACEHOLDER: Add specific learning goals or certifications you're pursuing]</span>
+                  <span className="text-neutral-500 italic">[PLACEHOLDER: Add specific learning goals or certifications you&apos;re pursuing]</span>
                 </li>
               </ul>
             </div>
@@ -233,10 +233,10 @@ export default function About() {
         {/* Connect Section */}
         <section className="text-center">
           <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-            Let's Connect
+            Let&apos;s Connect
           </h2>
           <p className="text-neutral-300 leading-relaxed mb-8 max-w-2xl mx-auto">
-            I'm always interested in discussing new opportunities, technical challenges, 
+            I&apos;m always interested in discussing new opportunities, technical challenges, 
             or just connecting with fellow developers and creators.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
