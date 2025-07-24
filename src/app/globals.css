@@ -1,108 +1,52 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --accent-blue: #3b82f6;
-  --accent-cyan: #06b6d4;
-  --accent-blue-dark: #1e3a8a;
-  --nav-bg: rgba(255,255,255,0.85);
-  --nav-border: #e0e7ef;
-  --nav-link: #1e293b;
-  --nav-link-hover: #2563eb;
-  --nav-shadow: 0 2px 16px 0 rgba(59,130,246,0.08);
+/* ─────────── Professional Polish Styles ─────────── */
+
+/* Smooth scrolling for entire page */
+html {
+  scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Enhanced focus states for accessibility */
+:focus-visible {
+  outline: 2px solid #06b6d4;
+  outline-offset: 2px;
+  border-radius: 4px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --nav-bg: rgba(30,41,59,0.85);
-    --nav-border: #334155;
-    --nav-link: #e0e7ef;
-    --nav-link-hover: #38bdf8;
-    --nav-shadow: 0 2px 16px 0 rgba(34,211,238,0.08);
+/* Professional polish for selection */
+::selection {
+  background: #06b6d4;
+  color: #171717;
+}
+
+/* Custom scrollbar for modern browsers */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171717;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #525252;
+}
+
+/* Respect user preference for reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.text-muted-foreground {
-  color: rgb(160 160 160);
-}
-
-.bg-gradient-to-r {
-  background-image: linear-gradient(to right, var(--accent-blue), var(--accent-cyan));
-}
-
-.shadow-blue-400\/40 {
-  box-shadow: 0 4px 24px 0 rgba(96, 165, 250, 0.4);
-}
-
-.shadow-cyan-400\/40 {
-  box-shadow: 0 4px 24px 0 rgba(34, 211, 238, 0.4);
-}
-
-.hover\:shadow-lg:hover {
-  box-shadow: 0 8px 32px 0 rgba(59, 130, 246, 0.15);
-}
-
-hr {
-  border: none;
-  border-top: 1px solid var(--accent-blue-dark);
-  opacity: 0.2;
-}
-
-nav {
-  background: var(--nav-bg);
-  border-bottom: 1px solid var(--nav-border);
-  box-shadow: var(--nav-shadow);
-}
-
-nav a {
-  color: var(--nav-link);
-  transition: color 0.2s;
-}
-
-nav a:hover, nav a:focus {
-  color: var(--nav-link-hover);
-}
-
-/* Animated underline for nav links */
-nav a {
-  position: relative;
-}
-nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0.2em;
-  width: 100%;
-  height: 2px;
-  background: linear-gradient(90deg, var(--accent-blue), var(--accent-cyan));
-  border-radius: 1px;
-  transform: scaleX(0);
-  transition: transform 0.3s;
-  transform-origin: left;
-}
-nav a:hover::after, nav a:focus::after {
-  transform: scaleX(1);
-}
-
-/* Glassmorphism effect for nav */
-nav {
-  backdrop-filter: blur(12px) saturate(1.2);
-  -webkit-backdrop-filter: blur(12px) saturate(1.2);
 }
 
