@@ -9,23 +9,7 @@ function TechBadge({ tech }: { tech: string }) {
   );
 }
 
-function MetricCard({ value, label, color = "cyan" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    cyan: "from-cyan-900/20 to-cyan-800/20 border-cyan-700/50 text-cyan-400",
-    emerald: "from-emerald-900/20 to-emerald-800/20 border-emerald-700/50 text-emerald-400",
-    blue: "from-blue-900/20 to-blue-800/20 border-blue-700/50 text-blue-400",
-    orange: "from-orange-900/20 to-orange-800/20 border-orange-700/50 text-orange-400"
-  };
 
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'cyan' ? 'text-cyan-400' : color === 'emerald' ? 'text-emerald-400' : color === 'blue' ? 'text-blue-400' : 'text-orange-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
 
 function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
