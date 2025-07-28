@@ -24,13 +24,13 @@ const projects: Project[] = [
   {
     slug: "azure-etl-pipeline",
     title: "Azure ETL Pipeline",
-    description: "Scalable data processing pipeline using Microsoft Fabric and SQL to automate Azure financial cost analysis, transforming a 13-step, 3-hour monthly process into a 5-10 minute workflow.",
+    description: "Scalable data processing pipeline using Microsoft Fabric and SQL to automate Azure financial cost analysis, transforming a 13-step, 2-3 hour monthly process into a 5-10 minute workflow.",
     category: "data-analytics",
     technologies: ["Microsoft Fabric", "Azure Data Factory", "SQL", "Azure Functions", "Python", "Power BI"],
     timeline: "May 2025 - Present",
     status: "completed",
     highlights: [
-      "Reduced data processing time by 95% (3 hours to 5-10 minutes)",
+      "Reduced data processing time by 95% (2-3 hours to 5-10 minutes)",
       "Eliminated manual effort for managers with automated reporting",
       "Built fault-tolerant pipeline with ongoing support and recovery capabilities",
       "Delivered highly reliable, repeatable results for financial analysis"
@@ -40,18 +40,18 @@ const projects: Project[] = [
   {
     slug: "devops-scorecard",
     title: "Azure DevOps Sprint Scorecard",
-    description: "React/Next.js/Node.js Azure DevOps extension providing real-time sprint health and status visibility, replacing traditional 30+ minute check-in meetings with instant insights.",
+    description: "React/Next.js/Node.js Azure DevOps extension providing real-time sprint health and status visibility, designed to enable instant insights for both internal and external stakeholders.",
     category: "data-analytics",
     technologies: ["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"],
     timeline: "May 2025 - Present",
     status: "completed",
     highlights: [
-      "Replaced 30+ minute meetings with instant sprint visibility",
+      "Designed to enable instant sprint visibility for stakeholders",
       "Built from mockups and legacy code into production-ready extension",
-      "Improved Agile transparency for internal and external stakeholders",
+      "Will improve Agile transparency for internal and external stakeholders",
       "Mentored high school intern in backend development for the project"
     ],
-    impact: "Dramatically improved DevOps workflow efficiency and transparency, enabling data-driven sprint management"
+    impact: "Will dramatically improve DevOps workflow efficiency and transparency, enabling data-driven sprint management"
   },
   {
     slug: "dj-pete-beat-sequencer",
@@ -72,18 +72,19 @@ const projects: Project[] = [
   {
     slug: "ai-system-prompt",
     title: "AI System Prompt Framework",
-    description: "Advanced prompt engineering framework adopted company-wide as the standard IDE prompt, mandated by VP of Engineering. Led AI enablement across multiple departments with training and best practices.",
+    description: "Advanced prompt engineering framework highly encouraged and backed by VP of Engineering for engineering departments. Led AI enablement training with 8 company-wide AI 101 sessions plus 5 group/individual check-ins.",
     category: "ai-ml",
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
     timeline: "May 2025 - Present",
     status: "completed",
     highlights: [
-      "Co-developed master IDE prompt adopted as company standard",
-      "Mandated for use by VP of Engineering across all development teams",
-      "Led company-wide AI enablement and training programs",
+      "Co-developed master IDE prompt highly encouraged by VP of Engineering",
+      "Backed by leadership as standard for engineering departments",
+      "Led 8 company-wide AI 101 training sessions",
+      "Conducted 5 additional group/individual AI check-ins",
       "Mentored interns in prompt engineering and AI integration"
     ],
-    impact: "Revolutionized company's AI adoption, standardizing prompt engineering and improving developer workflows across the organization"
+    impact: "Enhanced company's AI adoption, improving prompt engineering standards and developer workflows in engineering departments"
   },
   {
     slug: "custom-gpts",

@@ -9,25 +9,7 @@ function TechBadge({ tech }: { tech: string }) {
   );
 }
 
-function AIMetric({ value, label, color = "green" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    green: "from-green-900/20 to-green-800/20 border-green-700/50 text-green-400",
-    emerald: "from-emerald-900/20 to-emerald-800/20 border-emerald-700/50 text-emerald-400",
-    teal: "from-teal-900/20 to-teal-800/20 border-teal-700/50 text-teal-400",
-    cyan: "from-cyan-900/20 to-cyan-800/20 border-cyan-700/50 text-cyan-400"
-  };
-
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border hover:scale-105 transition-transform ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'green' ? 'text-green-400' : color === 'emerald' ? 'text-emerald-400' : color === 'teal' ? 'text-teal-400' : 'text-cyan-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
-
-function CapabilityCard({ title, description, icon }: { title: string; description: string; icon: string }) {
+function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
     <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-green-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
@@ -57,45 +39,35 @@ export default function AISystemPrompt() {
     return <div>Project not found</div>;
   }
 
-  const promptExample = `{
-  "role": "enterprise_analyst",
-  "context": {
-    "domain": "financial_services",
-    "compliance": ["SOX", "GDPR", "PCI-DSS"],
-    "safety_level": "high"
-  },
-  "capabilities": {
-    "data_analysis": true,
-    "code_generation": false,
-    "external_apis": ["financial_data", "risk_metrics"]
-  },
-  "guardrails": {
-    "content_filtering": true,
-    "bias_detection": true,
-    "output_validation": true
-  }
+  const promptExample = `/// <summary>
+/// Validates user input and processes order data
+/// High confidence — Direct rule match (Standards 6.3.4)
+/// </summary>
+/// <param name="orderData">Order information to validate</param>
+/// <returns>Processed order result</returns>
+/// <exception cref="ArgumentException">Invalid order data</exception>
+public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
+{
+    if (null == orderData?.CustomerId) // Constants on left (Standards 6.2.3)
+    {
+        _logger.LogWarning("Invalid order data: {CorrelationId}", 
+            correlationId); // Structured logging (Standards 4.2.3)
+        throw new ArgumentException("Order data cannot be null");
+    }
+    
+    // Single return pattern (Standards 6.2.1)
+    return await _orderService.ProcessAsync(orderData);
 }`;
 
-  const apiExample = `@app.post("/prompt/execute")
-async def execute_prompt(request: PromptRequest):
-    # Dynamic context injection
-    context = await inject_context(
-        request.domain, 
-        request.user_role
-    )
-    
-    # Safety validation
-    if not safety_validator.check(request.prompt):
-        raise HTTPException(400, "Safety check failed")
-    
-    # Optimized execution
-    response = await llm_orchestrator.execute(
-        prompt=request.prompt,
-        context=context,
-        guardrails=request.guardrails
-    )
-    
-    return optimize_response(response)`;
+  const confidenceExample = `// Agent Output with Confidence Annotation:
+// High confidence — Direct rule match (Standards 4.2.1)
+// Added ILogger<T> injection for business logic compliance
+
+// Medium confidence — Heuristic, aligned with project pattern  
+// Applied team-specific error handling approach
+
+// Low confidence — No clear rule, suggest verifying with user
+// Multiple approaches possible for this scenario`;
 
   return (
     <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
@@ -117,7 +89,7 @@ async def execute_prompt(request: PromptRequest):
         <div className="flex items-center gap-3 mb-4">
           <div className="text-4xl">🤖</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
-            Production Ready
+            Enterprise Rollout
           </span>
         </div>
         
@@ -136,58 +108,66 @@ async def execute_prompt(request: PromptRequest):
         </div>
       </section>
 
-      {/* Performance Metrics */}
-      <section className="grid md:grid-cols-4 gap-4 mb-16">
-        <AIMetric value="60%" label="Performance Improvement" color="green" />
-        <AIMetric value="30%" label="Token Usage Reduction" color="emerald" />
-        <AIMetric value="Zero" label="Safety Incidents" color="teal" />
-        <AIMetric value="Multi-LLM" label="Provider Support" color="cyan" />
+      {/* Adoption Metrics */}
+      <section className="grid md:grid-cols-3 gap-4 mb-16">
+        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-green-900/20 to-green-800/20 border border-green-700/50">
+          <div className="text-3xl font-bold text-green-400 mb-2">Active Rollout</div>
+          <div className="text-neutral-300 font-medium text-sm">New engineers adopting daily</div>
+        </div>
+        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-emerald-900/20 to-emerald-800/20 border border-emerald-700/50">
+          <div className="text-3xl font-bold text-emerald-400 mb-2">Multi-IDE</div>
+          <div className="text-neutral-300 font-medium text-sm">Cursor, Windsurf, Rider integration</div>
+        </div>
+        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-teal-900/20 to-teal-800/20 border border-teal-700/50">
+          <div className="text-3xl font-bold text-teal-400 mb-2">2.5 Hours</div>
+          <div className="text-neutral-300 font-medium text-sm">Company-wide presentations & demos</div>
+        </div>
       </section>
 
-      {/* Framework Overview */}
+      {/* System Architecture */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Framework Architecture</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Enterprise AI Integration</h2>
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Prompt Engineering Layer</h3>
+              <h3 className="text-lg font-bold text-white mb-4">IDE-Native Integration</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Dynamic context injection based on domain</li>
-                <li>• Role-based prompt templates and constraints</li>
-                <li>• Structured output formatting and validation</li>
-                <li>• Multi-step reasoning chain optimization</li>
+                <li>• Direct embedding within development environments</li>
+                <li>• Context-aware code analysis and generation</li>
+                <li>• Real-time standards enforcement during development</li>
+                <li>• Seamless workflow integration without disruption</li>
               </ul>
             </div>
             
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Safety & Guardrails</h3>
+              <h3 className="text-lg font-bold text-white mb-4">Multi-Language Support</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Content filtering and bias detection</li>
-                <li>• Output validation against policy frameworks</li>
-                <li>• Automated harmful content prevention</li>
-                <li>• Compliance monitoring and audit trails</li>
+                <li>• C# with enterprise patterns and logging standards</li>
+                <li>• C/C++ for embedded systems with safety constraints</li>
+                <li>• JavaScript/TypeScript for web applications</li>
+                <li>• Python, Java, SQL, Bash, Rust, and Go coverage</li>
               </ul>
             </div>
           </div>
           
           <div className="space-y-6">
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">LLM Orchestration</h3>
+              <h3 className="text-lg font-bold text-white mb-4">Compliance Engine</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Multi-provider support (OpenAI, Anthropic, etc.)</li>
-                <li>• Intelligent model selection and routing</li>
-                <li>• Fallback strategies and error handling</li>
-                <li>• Performance monitoring and optimization</li>
+                <li>• Automated standards enforcement with rule citations</li>
+                <li>• Confidence-tagged output with uncertainty handling</li>
+                <li>• Department-specific override and exception handling</li>
+                <li>• Security and compliance violation prevention</li>
               </ul>
             </div>
             
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Enterprise Integration</h3>
+              <h3 className="text-lg font-bold text-white mb-4">Enterprise Features</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• RESTful API with comprehensive documentation</li>
-                <li>• Redis caching for improved performance</li>
-                <li>• PostgreSQL for configuration management</li>
-                <li>• Docker containerization for scalability</li>
+                <li>• Team-specific customization and override capabilities</li>
+                <li>• Structured logging and observability integration</li>
+                <li>• Security-first design with PII/credential protection</li>
+                <li>• Comprehensive documentation and test generation</li>
               </ul>
             </div>
           </div>
@@ -196,59 +176,59 @@ async def execute_prompt(request: PromptRequest):
 
       {/* Core Capabilities */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Core Capabilities</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Technical Capabilities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          <CapabilityCard 
-            title="Dynamic Context Adaptation"
-            description="Automatically injects relevant context based on domain, user role, and task requirements, optimizing prompt effectiveness for specific use cases."
+          <FeatureCard 
+            title="Standards Enforcement"
+            description="Automatically enforces coding standards with rule citations, ensuring consistent code quality across all teams and projects."
+            icon="📋"
+          />
+          <FeatureCard 
+            title="Confidence Tagging"
+            description="Provides confidence levels for all suggestions with documentation references, enabling informed decision-making by developers."
             icon="🎯"
           />
-          <CapabilityCard 
-            title="Safety-First Design"
-            description="Built-in guardrails prevent harmful outputs, detect bias, and ensure compliance with enterprise security and ethical standards."
-            icon="🛡️"
+          <FeatureCard 
+            title="Multi-IDE Integration"
+            description="Seamlessly integrates with Cursor, Windsurf, and Rider IDEs, providing consistent AI assistance across development environments."
+            icon="💻"
           />
-          <CapabilityCard 
-            title="Multi-LLM Support"
-            description="Seamlessly switch between different language models based on task requirements, cost optimization, and performance characteristics."
-            icon="⚡"
+          <FeatureCard 
+            title="Department Overrides"
+            description="Supports team-specific rule customization while maintaining organization-wide consistency and compliance requirements."
+            icon="⚙️"
           />
-          <CapabilityCard 
-            title="Intelligent Routing"
-            description="Automatically selects optimal model and configuration based on prompt complexity, domain expertise, and performance requirements."
-            icon="🧠"
+          <FeatureCard 
+            title="Security Compliance"
+            description="Built-in security patterns prevent unsafe code generation, credential exposure, and compliance violations."
+            icon="🔒"
           />
-          <CapabilityCard 
-            title="Performance Optimization"
-            description="Advanced caching, token usage optimization, and response time improvements reduce costs while maintaining quality."
+          <FeatureCard 
+            title="Code Generation"
+            description="Generates production-ready code with proper logging, documentation, testing patterns, and error handling."
             icon="🚀"
-          />
-          <CapabilityCard 
-            title="Enterprise Security"
-            description="Full audit trails, compliance monitoring, and secure credential management for business-critical applications."
-            icon="🔐"
           />
         </div>
       </section>
 
       {/* Code Examples */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Implementation Examples</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">AI-Generated Code Examples</h2>
         <div className="grid lg:grid-cols-2 gap-8">
           <CodeExample 
-            title="Dynamic Prompt Configuration"
+            title="Standards-Compliant C# Code"
             code={promptExample}
           />
           <CodeExample 
-            title="API Integration"
-            code={apiExample}
+            title="Confidence Annotation System"
+            code={confidenceExample}
           />
         </div>
       </section>
 
       {/* Key Achievements */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Innovation Highlights</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Project Achievements</h2>
         <div className="grid md:grid-cols-2 gap-6">
           {project.highlights.map((highlight, index) => (
             <div key={index} className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
@@ -263,57 +243,88 @@ async def execute_prompt(request: PromptRequest):
 
       {/* Technical Implementation */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Technical Deep Dive</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Technical Implementation</h2>
         <div className="space-y-8">
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Advanced Prompt Engineering</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Prompt Engineering Architecture</h3>
             <p className="text-neutral-300 mb-6">
-              Developed sophisticated prompt templates with dynamic context injection, achieving 60% improvement in task performance 
-              through structured reasoning chains, role-based constraints, and domain-specific knowledge integration.
+              Developed sophisticated prompt system with role-based behavior definition, multi-language rule enforcement, 
+              and confidence-tagged output generation. The system maintains strict compliance with organizational standards 
+              while providing flexibility for team-specific requirements and department overrides.
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-green-400 mb-2">15+</div>
-                <div className="text-xs text-neutral-300">Domain Templates</div>
+                <div className="text-2xl font-bold text-green-400 mb-2">8+</div>
+                <div className="text-xs text-neutral-300">Programming Languages</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-emerald-400 mb-2">50+</div>
-                <div className="text-xs text-neutral-300">Safety Rules</div>
+                <div className="text-2xl font-bold text-emerald-400 mb-2">3</div>
+                <div className="text-xs text-neutral-300">IDE Platforms</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-teal-400 mb-2">99.9%</div>
-                <div className="text-xs text-neutral-300">Safety Compliance</div>
+                <div className="text-2xl font-bold text-teal-400 mb-2">100+</div>
+                <div className="text-xs text-neutral-300">Coding Standards Rules</div>
               </div>
             </div>
           </div>
 
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Enterprise Safety Framework</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Enterprise Compliance System</h3>
             <p className="text-neutral-300 mb-4">
-              Built comprehensive safety system that prevents harmful outputs, detects bias, and ensures compliance with enterprise policies. 
-              Zero safety incidents in production while maintaining high performance and user satisfaction.
+              Built comprehensive compliance framework that prevents security violations, enforces documentation standards, 
+              and maintains audit trails. The system blocks unsafe code generation while providing clear guidance for 
+              compliant alternatives and rule citations for all suggestions.
             </p>
             <div className="flex flex-wrap gap-2">
-              <TechBadge tech="Content Filtering" />
-              <TechBadge tech="Bias Detection" />
-              <TechBadge tech="Output Validation" />
-              <TechBadge tech="Audit Logging" />
+              <TechBadge tech="Rule Citation System" />
+              <TechBadge tech="Security Violation Prevention" />
+              <TechBadge tech="Confidence Annotations" />
+              <TechBadge tech="Audit Compliance" />
             </div>
           </div>
 
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Multi-Provider Orchestration</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Multi-Team Customization</h3>
             <p className="text-neutral-300 mb-4">
-              Engineered intelligent routing system that automatically selects optimal LLM providers based on task complexity, 
-              cost constraints, and performance requirements, reducing token usage by 30% while improving response quality.
+              Engineered flexible override system allowing department-specific customizations while maintaining 
+              organization-wide consistency. The system supports embedded systems constraints, cloud team rapid iteration 
+              needs, and mobile team platform-specific requirements within a unified framework.
             </p>
             <div className="flex flex-wrap gap-2">
-              <TechBadge tech="OpenAI GPT-4" />
-              <TechBadge tech="Anthropic Claude" />
-              <TechBadge tech="Cost Optimization" />
-              <TechBadge tech="Load Balancing" />
+              <TechBadge tech="Department Overrides" />
+              <TechBadge tech="Team-Specific Rules" />
+              <TechBadge tech="Context-Aware Generation" />
+              <TechBadge tech="Hierarchical Standards" />
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Company Presentations */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Company Presentations & Demos</h2>
+        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <div className="grid md:grid-cols-3 gap-6 mb-6">
+            <div className="text-center">
+              <div className="text-2xl font-bold text-green-400 mb-2">2</div>
+              <div className="text-neutral-300 text-sm">Lunch & Learn Sessions</div>
+              <div className="text-neutral-400 text-xs">1 hour each</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-emerald-400 mb-2">1</div>
+              <div className="text-neutral-300 text-sm">Show & Tell</div>
+              <div className="text-neutral-400 text-xs">30 minutes</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-teal-400 mb-2">Company-wide</div>
+              <div className="text-neutral-300 text-sm">Virtual Stream + In-Person</div>
+              <div className="text-neutral-400 text-xs">All employees invited</div>
+            </div>
+          </div>
+          <p className="text-neutral-300 text-center">
+            Delivered comprehensive demonstrations of the AI system to the entire company through virtual streaming 
+            and in-person presentations in the main conference room, showcasing real-world implementation and benefits.
+          </p>
         </div>
       </section>
 
@@ -327,73 +338,24 @@ async def execute_prompt(request: PromptRequest):
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="text-lg font-bold text-green-400 mb-4">Technical Excellence</h4>
+              <h4 className="text-lg font-bold text-green-400 mb-4">Developer Productivity</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Reduced AI integration complexity by 70%</li>
-                <li>• Achieved 99.9% safety compliance in production</li>
-                <li>• Improved prompt effectiveness by 60%</li>
-                <li>• Enabled safe AI deployment at enterprise scale</li>
+                <li>• Automated code standards enforcement reduces review cycles</li>
+                <li>• Context-aware suggestions accelerate development</li>
+                <li>• Consistent patterns across teams reduce onboarding time</li>
+                <li>• Real-time guidance prevents technical debt accumulation</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Business Value</h4>
+              <h4 className="text-lg font-bold text-emerald-400 mb-4">Organizational Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Accelerated AI adoption across business units</li>
-                <li>• Reduced development time for AI features by 50%</li>
-                <li>• Ensured regulatory compliance and risk mitigation</li>
-                <li>• Standardized AI practices organization-wide</li>
+                <li>• Standardized AI practices across engineering departments</li>
+                <li>• Reduced code review overhead through automated compliance</li>
+                <li>• Enhanced security posture with built-in violation prevention</li>
+                <li>• Company-wide visibility through 3 presentations (2 lunch & learns, 1 show & tell)</li>
+                <li>• Growing adoption demonstrates measurable value delivery</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Use Cases */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Enterprise Use Cases</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-lg font-bold text-green-400 mb-3">Financial Services</h3>
-            <p className="text-neutral-300 text-sm mb-4">
-              Risk analysis, regulatory compliance, and financial document processing with SOX and GDPR compliance built-in.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 text-xs bg-green-900/30 text-green-300 rounded">Risk Assessment</span>
-              <span className="px-2 py-1 text-xs bg-green-900/30 text-green-300 rounded">Compliance</span>
-            </div>
-          </div>
-          
-          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-lg font-bold text-emerald-400 mb-3">Healthcare</h3>
-            <p className="text-neutral-300 text-sm mb-4">
-              Medical document analysis and clinical decision support with HIPAA compliance and bias detection.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 text-xs bg-emerald-900/30 text-emerald-300 rounded">HIPAA Compliant</span>
-              <span className="px-2 py-1 text-xs bg-emerald-900/30 text-emerald-300 rounded">Clinical Support</span>
-            </div>
-          </div>
-          
-          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-lg font-bold text-teal-400 mb-3">Legal Technology</h3>
-            <p className="text-neutral-300 text-sm mb-4">
-              Contract analysis, legal research, and document review with attorney-client privilege protection.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 text-xs bg-teal-900/30 text-teal-300 rounded">Contract Analysis</span>
-              <span className="px-2 py-1 text-xs bg-teal-900/30 text-teal-300 rounded">Privilege Protection</span>
-            </div>
-          </div>
-          
-          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-lg font-bold text-cyan-400 mb-3">Manufacturing</h3>
-            <p className="text-neutral-300 text-sm mb-4">
-              Quality control analysis, predictive maintenance, and operational intelligence with safety protocols.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <span className="px-2 py-1 text-xs bg-cyan-900/30 text-cyan-300 rounded">Quality Control</span>
-              <span className="px-2 py-1 text-xs bg-cyan-900/30 text-cyan-300 rounded">Predictive Maintenance</span>
             </div>
           </div>
         </div>
@@ -410,7 +372,7 @@ async def execute_prompt(request: PromptRequest):
       {/* Navigation */}
       <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
         <Link 
-          href="/projects/beat-sequencer" 
+          href="/projects/dj-pete-beat-sequencer" 
           className="flex items-center text-green-400 hover:text-green-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

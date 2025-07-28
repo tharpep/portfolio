@@ -82,39 +82,23 @@ export default function Projects() {
   
   return (
     <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
-                        {/* Hero Section */}
-                  <section className="text-center mb-16">
-                    <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
-                      All Projects
-                    </h1>
-                    <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
-                      A comprehensive portfolio of innovative solutions spanning data engineering, creative technology, AI, and research.
-                      Each project represents a unique intersection of <span className="text-cyan-400 font-semibold">technical excellence</span> and <span className="text-blue-400 font-semibold">creative problem-solving</span>.
-                    </p>
-                  </section>
-
-      {/* Impact Stats */}
-      <section className="grid md:grid-cols-3 gap-6 mb-20">
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-3xl font-bold text-cyan-400 mb-2">$500K+</div>
-          <div className="text-neutral-300">Annual Savings Generated</div>
-        </div>
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-3xl font-bold text-emerald-400 mb-2">99.9%</div>
-          <div className="text-neutral-300">System Uptime SLA</div>
-        </div>
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-3xl font-bold text-blue-400 mb-2">75%</div>
-          <div className="text-neutral-300">Performance Improvements</div>
-        </div>
+      {/* Hero Section */}
+      <section className="text-center mb-16">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+          All Projects
+        </h1>
+        <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
+          A comprehensive portfolio of innovative solutions spanning data engineering, creative technology, AI, and research.
+          Each project represents a unique intersection of <span className="text-cyan-400 font-semibold">technical excellence</span> and <span className="text-blue-400 font-semibold">creative problem-solving</span>.
+        </p>
       </section>
 
-             {/* Project Categories */}
-       <div className="space-y-1">
-         {categories.map((category) => (
-           <CategorySection key={category.id} category={category} />
-         ))}
-       </div>
+      {/* Project Categories */}
+      <div className="space-y-1">
+        {categories.map((category) => (
+          <CategorySection key={category.id} category={category} />
+        ))}
+      </div>
     </main>
   );
 }

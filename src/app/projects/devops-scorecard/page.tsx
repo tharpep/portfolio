@@ -85,12 +85,19 @@ export default function DevOpsScorecard() {
         </div>
       </section>
 
-      {/* Key Metrics */}
-      <section className="grid md:grid-cols-4 gap-4 mb-16">
-        <MetricCard value="100+" label="DevOps Metrics Tracked" color="cyan" />
-        <MetricCard value="80%" label="Manual Auditing Reduction" color="emerald" />
-        <MetricCard value="15+" label="Tool Integrations" color="blue" />
-        <MetricCard value="40%" label="Team Velocity Improvement" color="orange" />
+      {/* Project Overview */}
+      <section className="mb-16">
+        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Overview</h2>
+        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <p className="text-neutral-300 leading-relaxed mb-4">
+            Designed and built a comprehensive Azure DevOps extension to provide real-time sprint health and status visibility. 
+            The project transforms traditional status meetings into instant, data-driven insights for both internal teams and external stakeholders.
+          </p>
+          <p className="text-neutral-300 leading-relaxed">
+            Built from initial mockups and legacy code into a production-ready extension using React, Next.js, and Node.js, 
+            with full Azure DevOps Extension SDK integration and VSIX packaging for distribution.
+          </p>
+        </div>
       </section>
 
       {/* Features Overview */}

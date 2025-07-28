@@ -42,14 +42,14 @@ export default function Home() {
           <FeaturedProjectCard
             title="AI System Prompt Framework"
             href="/projects/ai-system-prompt"
-            desc="Company-wide AI prompt standard adopted and mandated by VP of Engineering"
+            desc="Company-wide AI prompt standard highly encouraged and backed by VP of Engineering for engineering departments"
             tech="OpenAI API"
             accent="cyan"
           />
           <FeaturedProjectCard
             title="Azure ETL Pipeline"
             href="/projects/azure-etl-pipeline"
-            desc="Automated financial analysis pipeline reducing processing time from 3 hours to 10 minutes"
+            desc="Automated financial analysis pipeline reducing processing time from 2-3 hours to 5-10 minutes"
             tech="Microsoft Fabric"
             accent="blue"
           />
@@ -91,9 +91,9 @@ export default function Home() {
             period="May 2025 – Present"
             description="Rotating through Cloud, Mobile & DevOps teams at IoT-focused software solutions firm. Leading AI enablement initiatives, building automated pipelines, and developing enterprise extensions."
             highlights={[
-              "Co-developed company's master IDE prompt adopted as standard by VP of Engineering",
-              "Built Azure ETL pipeline reducing 13-step manual process from 3 hours to 5-10 minutes",
-              "Led company-wide AI enablement training across multiple departments",
+              "Co-developed company's master IDE prompt highly encouraged and backed by VP of Engineering for engineering departments",
+              "Built Azure ETL pipeline reducing 13-step manual process from 2-3 hours to 5-10 minutes",
+              "Led 8 company-wide AI 101 training sessions plus 5 group/individual check-ins",
               "Architected React/Next.js Azure DevOps Sprint Scorecard extension from mockups to production"
             ]}
           />
