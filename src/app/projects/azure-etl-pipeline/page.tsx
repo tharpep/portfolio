@@ -82,7 +82,7 @@ export default function AzureETLPipeline() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1">•</span>
-                <span>Required 2-3 hours of manager time monthly</span>
+                <span>Required 2-3 hours of an engineer&apos;s time monthly</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-red-400 mt-1">•</span>

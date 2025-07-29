@@ -119,8 +119,8 @@ public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
           <div className="text-neutral-300 font-medium text-sm">Cursor, Windsurf, Rider integration</div>
         </div>
         <div className="text-center p-6 rounded-xl bg-gradient-to-br from-teal-900/20 to-teal-800/20 border border-teal-700/50">
-          <div className="text-3xl font-bold text-teal-400 mb-2">2.5 Hours</div>
-          <div className="text-neutral-300 font-medium text-sm">Company-wide presentations & demos</div>
+          <div className="text-3xl font-bold text-teal-400 mb-2">VP Endorsed</div>
+          <div className="text-neutral-300 font-medium text-sm">Engineering leadership backing</div>
         </div>
       </section>
 
@@ -190,7 +190,7 @@ public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
           />
           <FeatureCard 
             title="Multi-IDE Integration"
-            description="Seamlessly integrates with Cursor, Windsurf, and Rider IDEs, providing consistent AI assistance across development environments."
+            description="Seamlessly integrates with Cursor, Windsurf, and VsCode IDEs, providing consistent AI assistance across development environments."
             icon="💻"
           />
           <FeatureCard 
@@ -300,30 +300,25 @@ public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
         </div>
       </section>
 
-      {/* Company Presentations */}
+      {/* Company Implementation */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Company Presentations & Demos</h2>
+        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Company-wide Implementation</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="grid md:grid-cols-3 gap-6 mb-6">
+          <div className="grid md:grid-cols-2 gap-8 mb-6">
             <div className="text-center">
-              <div className="text-2xl font-bold text-green-400 mb-2">2</div>
-              <div className="text-neutral-300 text-sm">Lunch & Learn Sessions</div>
-              <div className="text-neutral-400 text-xs">1 hour each</div>
+              <div className="text-2xl font-bold text-green-400 mb-2">8</div>
+              <div className="text-neutral-300 text-sm">AI 101 Training Sessions</div>
+              <div className="text-neutral-400 text-xs">Company-wide rollout</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-emerald-400 mb-2">1</div>
-              <div className="text-neutral-300 text-sm">Show & Tell</div>
-              <div className="text-neutral-400 text-xs">30 minutes</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-teal-400 mb-2">Company-wide</div>
-              <div className="text-neutral-300 text-sm">Virtual Stream + In-Person</div>
-              <div className="text-neutral-400 text-xs">All employees invited</div>
+              <div className="text-2xl font-bold text-emerald-400 mb-2">5</div>
+              <div className="text-neutral-300 text-sm">Individual Check-ins</div>
+              <div className="text-neutral-400 text-xs">Personalized guidance</div>
             </div>
           </div>
           <p className="text-neutral-300 text-center">
-            Delivered comprehensive demonstrations of the AI system to the entire company through virtual streaming 
-            and in-person presentations in the main conference room, showcasing real-world implementation and benefits.
+            Led comprehensive AI enablement initiative through training sessions and mentorship, 
+            establishing AI standards across engineering departments.
           </p>
         </div>
       </section>
@@ -353,7 +348,7 @@ public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
                 <li>• Standardized AI practices across engineering departments</li>
                 <li>• Reduced code review overhead through automated compliance</li>
                 <li>• Enhanced security posture with built-in violation prevention</li>
-                <li>• Company-wide visibility through 3 presentations (2 lunch & learns, 1 show & tell)</li>
+                <li>• Company-wide AI training and mentorship program delivery</li>
                 <li>• Growing adoption demonstrates measurable value delivery</li>
               </ul>
             </div>

@@ -244,28 +244,6 @@ export default function FMRadioResearch() {
         <h2 className="text-3xl font-bold font-mono text-amber-300 mb-8">Research Methodology</h2>
         <div className="space-y-8">
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Software-Defined Radio Platform</h3>
-            <p className="text-neutral-300 mb-6">
-              Leveraged USRP (Universal Software Radio Peripheral) hardware platform for high-fidelity RF signal acquisition, 
-              enabling precise control over frequency, bandwidth, and sampling parameters for comprehensive FM signal analysis.
-            </p>
-            <div className="grid md:grid-cols-3 gap-4">
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-amber-400 mb-2">88-108MHz</div>
-                <div className="text-xs text-neutral-300">FM Broadcast Band</div>
-              </div>
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-red-400 mb-2">2 MSPS</div>
-                <div className="text-xs text-neutral-300">Sample Rate</div>
-              </div>
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-blue-400 mb-2">16-bit</div>
-                <div className="text-xs text-neutral-300">ADC Resolution</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
             <h3 className="text-xl font-bold text-white mb-4">Digital Signal Processing Framework</h3>
             <p className="text-neutral-300 mb-4">
               Implemented sophisticated signal processing algorithms using GNU Radio&apos;s modular framework, 

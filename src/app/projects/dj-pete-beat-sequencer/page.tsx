@@ -102,7 +102,7 @@ export default function DJPeteBeatSequencer() {
             <h3 className="text-xl font-bold text-white mb-4">STM32 Embedded System Design</h3>
             <p className="text-neutral-300 mb-6">
               Advanced embedded firmware leveraging STM32 microcontroller capabilities with multiple communication protocols, 
-              real-time audio processing, and sophisticated peripheral management for professional music production hardware.
+              real-time audio processing, and  peripheral management for music hardware.
             </p>
             
             {/* Hardware Block Diagram */}

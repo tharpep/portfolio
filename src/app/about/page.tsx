@@ -129,7 +129,7 @@ export default function About() {
             <div>
               <h3 className="font-bold text-lg text-white mb-3">Cloud & Infrastructure</h3>
               <div className="flex flex-wrap gap-2">
-                {["Microsoft Azure", "Azure Data Factory", "Azure Functions", "Docker", "CI/CD", "GitHub Actions"].map(tech => (
+                {["Microsoft Azure", "Azure Data Factory", "Azure Functions", "CI/CD", "GitHub Actions"].map(tech => (
                   <span key={tech} className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-md border border-cyan-700/50">
                     {tech}
                   </span>
@@ -141,7 +141,7 @@ export default function About() {
             <div>
               <h3 className="font-bold text-lg text-white mb-3">Frameworks & Tools</h3>
               <div className="flex flex-wrap gap-2">
-                {["React", "Next.js", "Node.js", "FastAPI", "LangChain", "Git/GitHub", "VSCode", "Linux"].map(tech => (
+                {["React", "Next.js", "Node.js", "RESTAPI", "Git/GitHub", "VSCode", "Linux"].map(tech => (
                   <span key={tech} className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-md border border-emerald-700/50">
                     {tech}
                   </span>
@@ -163,22 +163,20 @@ export default function About() {
           </div>
         </section>
 
-        {/* Personal Interests - PLACEHOLDER SECTION */}
+        {/* Personal Interests */}
         <section>
           <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             Beyond Code
           </h2>
           <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
             <p className="text-neutral-300 leading-relaxed mb-4">
-                             When I&apos;m not coding, you&apos;ll find me exploring the intersection of technology and creativity. 
-                              I&apos;m passionate about photography, capturing moments that tell stories—much like well-written code.
+              When I&apos;m not coding, you&apos;ll find me exploring the intersection of technology and creativity. 
+              I&apos;m passionate about photography, capturing moments that tell stories—much like well-written code.
             </p>
             <p className="text-neutral-300 leading-relaxed mb-4">
-              {/* PLACEHOLDER: Add personal interests, hobbies, or activities */}
-              <span className="text-neutral-500 italic">
-                [PLACEHOLDER: Add personal interests, hobbies, volunteer work, 
-                or other activities that show your personality and well-roundedness]
-              </span>
+              Check out my <Link href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors underline">photography portfolio</Link>, 
+              where I showcase my work capturing landscapes, wildlife, and urban scenes. The backend is powered by Azure Cloud 
+              for hosting and managing the image galleries, demonstrating how I apply my technical skills to creative pursuits.
             </p>
             <p className="text-neutral-300 leading-relaxed">
               I believe that diverse experiences outside of engineering make me a better problem solver 

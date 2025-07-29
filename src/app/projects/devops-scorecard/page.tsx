@@ -74,12 +74,13 @@ export default function DevOpsScorecard() {
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Overview</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <p className="text-neutral-300 leading-relaxed mb-4">
-            Designed and built a comprehensive Azure DevOps extension to provide real-time sprint health and status visibility. 
-            The project transforms traditional status meetings into instant, data-driven insights for both internal teams and external stakeholders.
+            Developed a comprehensive Azure DevOps extension that integrates a custom &quot;Sprint Summary&quot; board directly into 
+            Azure DevOps work items, providing real-time sprint health and status visibility for stakeholders.
           </p>
           <p className="text-neutral-300 leading-relaxed">
-            Built from initial mockups and legacy code into a production-ready extension using React, Next.js, and Node.js, 
-            with full Azure DevOps Extension SDK integration and VSIX packaging for distribution.
+            Built using Next.js for the embedded frontend and Azure API Web App for the backend, with secure Azure AD 
+            authentication and real-time data integration through the Azure DevOps REST API. The extension transforms 
+            traditional status meetings into instant, data-driven insights for both internal teams and external stakeholders.
           </p>
         </div>
       </section>
@@ -89,34 +90,34 @@ export default function DevOpsScorecard() {
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Core Capabilities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard 
-            title="Automated Assessment"
-            description="Continuously monitors CI/CD pipelines, security policies, and deployment practices across all teams and projects."
-            icon="🔄"
+            title="Sprint Summary Dashboard"
+            description="Clean, organized display of current sprint information including status, goals, achievements, and key metrics."
+            icon="📊"
           />
           <FeatureCard 
-            title="Interactive Dashboard"
-            description="Real-time visualization of DevOps maturity scores with drill-down capabilities and trend analysis."
-            icon="📈"
+            title="Goals & Achievements Tracking"
+            description="Visual representation of sprint goals with completion status and accomplishments throughout the sprint."
+            icon="🎯"
           />
           <FeatureCard 
-            title="Multi-Platform Integration"
-            description="Seamlessly connects with GitHub, Azure DevOps, Jenkins, Docker, Kubernetes, and monitoring tools."
+            title="Azure DevOps Integration"
+            description="Seamlessly integrates with Azure DevOps REST API and Azure AD authentication for secure data access."
             icon="🔗"
           />
           <FeatureCard 
-            title="Compliance Tracking"
-            description="Monitors adherence to security standards, deployment policies, and regulatory requirements."
-            icon="🛡️"
+            title="Impediments & Risks Management"
+            description="Clear visibility into sprint blockers, risks, and their impact levels with resolution planning."
+            icon="⚠️"
           />
           <FeatureCard 
-            title="Actionable Insights"
-            description="Provides specific recommendations and improvement plans based on industry best practices."
-            icon="💡"
+            title="Next Sprint Planning"
+            description="Overview of upcoming sprint goals and planning items to maintain forward momentum."
+            icon="📅"
           />
           <FeatureCard 
-            title="Team Benchmarking"
-            description="Compares team performance and identifies knowledge sharing opportunities across the organization."
-            icon="🏆"
+            title="Stakeholder Visibility"
+            description="Instant insights for both internal teams and external stakeholders through embedded dashboard."
+            icon="👥"
           />
         </div>
       </section>
@@ -129,20 +130,20 @@ export default function DevOpsScorecard() {
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
               <h3 className="text-lg font-bold text-white mb-4">Data Collection Layer</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• REST API integrations with DevOps platforms</li>
-                <li>• Webhook listeners for real-time updates</li>
-                <li>• Scheduled data synchronization jobs</li>
-                <li>• Custom metric collectors for specialized tools</li>
+                <li>• Azure DevOps REST API integration</li>
+                <li>• Real-time sprint and work item data fetching</li>
+                <li>• Webhook listeners for real-time updates (planned)</li>
+                <li>• Scheduled data synchronization jobs (planned)</li>
               </ul>
             </div>
             
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Analytics Engine</h3>
+              <h3 className="text-lg font-bold text-white mb-4">Data Presentation Layer</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Rule-based scoring algorithms</li>
-                <li>• Trend analysis and pattern recognition</li>
-                <li>• Comparative benchmarking logic</li>
-                <li>• Automated recommendation generation</li>
+                <li>• Sprint summary and status visualization</li>
+                <li>• Goals and achievements tracking display</li>
+                <li>• Impediments and risks identification</li>
+                <li>• Next sprint planning overview</li>
               </ul>
             </div>
           </div>
@@ -151,20 +152,20 @@ export default function DevOpsScorecard() {
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
               <h3 className="text-lg font-bold text-white mb-4">Visualization Layer</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Interactive Grafana dashboards</li>
-                <li>• Customizable team scorecards</li>
+                <li>• Embedded Next.js application within Azure DevOps UI</li>
+                <li>• Real-time sprint summary dashboard</li>
                 <li>• Executive summary reports</li>
-                <li>• Mobile-responsive interface</li>
+                <li>• Custom work item board integration</li>
               </ul>
             </div>
             
             <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
               <h3 className="text-lg font-bold text-white mb-4">Infrastructure</h3>
               <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Containerized microservices architecture</li>
-                <li>• Prometheus metrics collection</li>
-                <li>• PostgreSQL for configuration data</li>
-                <li>• Redis for caching and session management</li>
+                <li>• Azure API Web App backend services</li>
+                <li>• Azure DevOps REST API integration</li>
+                <li>• Azure AD authentication and authorization</li>
+                <li>• Azure Static Web Apps for frontend deployment</li>
               </ul>
             </div>
           </div>
@@ -191,51 +192,51 @@ export default function DevOpsScorecard() {
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Technical Implementation</h2>
         <div className="space-y-8">
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Automated Metric Collection</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Azure DevOps Data Integration</h3>
             <p className="text-neutral-300 mb-6">
-              Built comprehensive data collection system that automatically gathers DevOps metrics from multiple sources, 
-              eliminating manual reporting overhead and ensuring real-time accuracy across all team assessments.
+              Comprehensive data collection system that automatically gathers sprint information from Azure DevOps, 
+              providing real-time visibility into sprint health and progress for stakeholders.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h4 className="font-semibold text-cyan-400 mb-3">Supported Platforms</h4>
+                <h4 className="font-semibold text-cyan-400 mb-3">Platform Integration</h4>
                 <div className="flex flex-wrap gap-2">
-                  <TechBadge tech="GitHub Actions" />
                   <TechBadge tech="Azure DevOps" />
-                  <TechBadge tech="Jenkins" />
-                  <TechBadge tech="Docker Hub" />
+                  <TechBadge tech="Azure AD" />
+                  <TechBadge tech="Azure Static Web Apps" />
+                  <TechBadge tech="Azure API Web App" />
                 </div>
               </div>
               <div>
-                <h4 className="font-semibold text-cyan-400 mb-3">Metric Categories</h4>
+                <h4 className="font-semibold text-cyan-400 mb-3">Data Categories</h4>
                 <ul className="text-sm text-neutral-300 space-y-1">
-                  <li>• Build success rates and frequency</li>
-                  <li>• Deployment pipeline efficiency</li>
-                  <li>• Security scan compliance</li>
-                  <li>• Test coverage and quality gates</li>
+                  <li>• Sprint goals and achievements</li>
+                  <li>• Work item status and progress</li>
+                  <li>• Impediments and risk tracking</li>
+                  <li>• Next sprint planning items</li>
                 </ul>
               </div>
             </div>
           </div>
 
           <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Intelligent Scoring Algorithm</h3>
+            <h3 className="text-xl font-bold text-white mb-4">Sprint Data Visualization</h3>
             <p className="text-neutral-300 mb-6">
-              Developed weighted scoring system that evaluates teams across multiple DevOps dimensions, 
-              providing objective assessment and personalized improvement roadmaps for each team.
+              Clean, organized presentation of sprint information that transforms Azure DevOps work item data 
+              into an easily digestible format for both technical teams and business stakeholders.
             </p>
             <div className="grid md:grid-cols-3 gap-4">
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-cyan-400 mb-2">25%</div>
-                <div className="text-xs text-neutral-300">CI/CD Automation</div>
+                <div className="text-2xl font-bold text-cyan-400 mb-2">Goals</div>
+                <div className="text-xs text-neutral-300">Sprint Objectives</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-emerald-400 mb-2">30%</div>
-                <div className="text-xs text-neutral-300">Security & Compliance</div>
+                <div className="text-2xl font-bold text-emerald-400 mb-2">Status</div>
+                <div className="text-xs text-neutral-300">Health Indicators</div>
               </div>
               <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-blue-400 mb-2">45%</div>
-                <div className="text-xs text-neutral-300">Quality & Performance</div>
+                <div className="text-2xl font-bold text-blue-400 mb-2">Planning</div>
+                <div className="text-xs text-neutral-300">Next Sprint Items</div>
               </div>
             </div>
           </div>
@@ -266,22 +267,22 @@ export default function DevOpsScorecard() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="text-lg font-bold text-cyan-400 mb-4">Operational Improvements</h4>
+              <h4 className="text-lg font-bold text-cyan-400 mb-4">Operational Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Reduced audit preparation time from weeks to hours</li>
-                <li>• Increased deployment frequency by 3x across teams</li>
-                <li>• Improved mean time to recovery by 60%</li>
-                <li>• Achieved 95% compliance score across all teams</li>
+                <li>• Eliminates need for lengthy status meeting presentations</li>
+                <li>• Provides instant sprint visibility for stakeholders</li>
+                <li>• Reduces time spent gathering sprint status information</li>
+                <li>• Centralizes sprint health data in one accessible location</li>
               </ul>
             </div>
             
             <div>
               <h4 className="text-lg font-bold text-emerald-400 mb-4">Strategic Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Enabled data-driven DevOps strategy decisions</li>
-                <li>• Facilitated knowledge sharing between teams</li>
-                <li>• Reduced onboarding time for new developers</li>
-                <li>• Improved stakeholder confidence in delivery</li>
+                <li>• Improves transparency for external stakeholders</li>
+                <li>• Enables data-driven sprint planning decisions</li>
+                <li>• Enhances Agile process visibility and accountability</li>
+                <li>• Streamlines sprint review and retrospective preparation</li>
               </ul>
             </div>
           </div>
@@ -309,7 +310,7 @@ export default function DevOpsScorecard() {
         </Link>
         
         <Link 
-          href="/projects/beat-sequencer" 
+          href="/projects/dj-pete-beat-sequencer" 
           className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
         >
           Next Project

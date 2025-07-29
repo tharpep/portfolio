@@ -123,7 +123,7 @@ const projects: Project[] = [
     title: "FM Radio Detection & Demodulation",
     description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio, implementing robust signal processing workflows and automation scripts.",
     category: "research-engineering",
-    technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "MATLAB", "RF Engineering"],
+    technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
     timeline: "Academic Research - 2024",
     status: "completed",
     highlights: [

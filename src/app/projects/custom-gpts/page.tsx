@@ -128,14 +128,14 @@ export default function CustomGPTs() {
             <div className="relative z-10">
               <h3 className="text-xl font-bold text-white mb-4">Student Career Archivist GPT</h3>
               <p className="text-neutral-300 mb-6">
-                Professional career documentation assistant adopted internally by the company. Helps students and professionals 
+                Professional career documentation assistant. Helps students and professionals 
                 organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews.
               </p>
               
               <div className="grid md:grid-cols-3 gap-4">
                 <div className="p-4 rounded-lg bg-green-900/20 border border-green-700/50">
                   <h4 className="font-bold text-green-300 mb-2">Internal Adoption</h4>
-                  <p className="text-sm text-neutral-300">Used company-wide for career development</p>
+                  <p className="text-sm text-neutral-300">Streamlined career development processes</p>
                 </div>
                 <div className="p-4 rounded-lg bg-blue-900/20 border border-blue-700/50">
                   <h4 className="font-bold text-blue-300 mb-2">Achievement Extraction</h4>
