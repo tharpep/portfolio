@@ -110,18 +110,10 @@ export default function Mountains2021() {
         </section>
 
         {/* Footer */}
-        <footer className="py-12 px-6 border-t border-amber-900/20">
-          <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-            <div className="text-amber-200/60 text-sm font-light tracking-wide">
-              © 2025 Pryce Tharpe Photography
-            </div>
-            <Link 
-              href="/" 
-              className="text-amber-400/60 hover:text-amber-400 text-sm font-light tracking-wide transition-colors duration-300"
-            >
-              ← to dev portfolio
-            </Link>
-          </div>
+        <footer className="text-center border-t border-amber-900/20 pt-6">
+          <p className="text-neutral-400 text-sm">
+            Mountains • Fall 2021 • <span className="text-amber-400">Pryce Tharpe</span>
+          </p>
         </footer>
       </main>
     </>

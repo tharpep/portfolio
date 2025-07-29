@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getProjectBySlug } from "@/lib/getProjects";
+import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
 function TechBadge({ tech }: { tech: string }) {
   return (
@@ -20,6 +20,8 @@ function HighlightCard({ title, description }: { title: string; description: str
 
 export default function AzureETLPipeline() {
   const project = getProjectBySlug("azure-etl-pipeline");
+  const nextProject = getNextProject("azure-etl-pipeline");
+  const prevProject = getPreviousProject("azure-etl-pipeline");
   
   if (!project) {
     return <div>Project not found</div>;
@@ -270,18 +272,28 @@ export default function AzureETLPipeline() {
       {/* Navigation */}
       <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
         <Link 
-          href="/projects" 
-          className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+          href={`/projects/${prevProject?.slug}`}
+          className="flex items-center text-emerald-400 hover:text-emerald-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M19 12H5m7-7l-7 7 7 7"/>
           </svg>
-          All Projects
+          Previous Project
         </Link>
         
         <Link 
-          href="/projects/devops-scorecard" 
-          className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+          href="/projects" 
+          className="flex items-center text-emerald-400 hover:text-emerald-300 transition-colors"
+        >
+          All Projects
+          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path d="M5 12h14m-7-7l7 7-7 7"/>
+          </svg>
+        </Link>
+        
+        <Link 
+          href={`/projects/${nextProject?.slug}`}
+          className="flex items-center text-emerald-400 hover:text-emerald-300 transition-colors"
         >
           Next Project
           <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">

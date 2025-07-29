@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getProjectBySlug } from "@/lib/getProjects";
+import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
 function TechBadge({ tech }: { tech: string }) {
   return (
@@ -25,6 +25,8 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 
 export default function DevOpsScorecard() {
   const project = getProjectBySlug("devops-scorecard");
+  const nextProject = getNextProject("devops-scorecard");
+  const prevProject = getPreviousProject("devops-scorecard");
   
   if (!project) {
     return <div>Project not found</div>;
@@ -300,7 +302,7 @@ export default function DevOpsScorecard() {
       {/* Navigation */}
       <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
         <Link 
-          href="/projects/azure-etl-pipeline" 
+          href={`/projects/${prevProject?.slug}`}
           className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -310,7 +312,17 @@ export default function DevOpsScorecard() {
         </Link>
         
         <Link 
-          href="/projects/dj-pete-beat-sequencer" 
+          href="/projects" 
+          className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
+        >
+          All Projects
+          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path d="M5 12h14m-7-7l7 7-7 7"/>
+          </svg>
+        </Link>
+        
+        <Link 
+          href={`/projects/${nextProject?.slug}`}
           className="flex items-center text-cyan-400 hover:text-cyan-300 transition-colors"
         >
           Next Project

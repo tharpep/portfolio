@@ -184,3 +184,17 @@ export const getProjectsByCategory = (): ProjectCategory[] => {
 export const getProjectBySlug = (slug: string): Project | undefined => {
   return projects.find(p => p.slug === slug);
 };
+
+export const getNextProject = (currentSlug: string): Project | undefined => {
+  const currentIndex = projects.findIndex(p => p.slug === currentSlug);
+  if (currentIndex === -1) return undefined;
+  const nextIndex = (currentIndex + 1) % projects.length;
+  return projects[nextIndex];
+};
+
+export const getPreviousProject = (currentSlug: string): Project | undefined => {
+  const currentIndex = projects.findIndex(p => p.slug === currentSlug);
+  if (currentIndex === -1) return undefined;
+  const prevIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1;
+  return projects[prevIndex];
+};

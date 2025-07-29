@@ -64,7 +64,7 @@ export default function Nav() {
           {/* Right: Social Links & Mobile Menu Button */}
           <div className="flex items-center gap-2 sm:gap-4">
             <a
-              href="https://github.com/tharpep"
+              href="https://github.com/PryceTharpe"
               target="_blank"
               rel="noopener noreferrer"
               className="text-neutral-400 hover:text-cyan-300 transition-colors p-2 rounded-lg hover:bg-neutral-800/40"
@@ -78,21 +78,9 @@ export default function Nav() {
               href="https://www.linkedin.com/in/pryce-tharpe"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-neutral-400 hover:text-cyan-300 transition-colors p-2 rounded-lg hover:bg-neutral-800/40"
-              aria-label="LinkedIn"
+              className="px-6 py-2 bg-cyan-600 hover:bg-cyan-500 text-white rounded-lg transition-colors"
             >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.28c-.966 0-1.75-.79-1.75-1.76s.784-1.76 1.75-1.76 1.75.79 1.75 1.76-.784 1.76-1.75 1.76zm13.5 11.28h-3v-5.6c0-1.34-.03-3.07-1.87-3.07-1.87 0-2.16 1.46-2.16 2.97v5.7h-3v-10h2.89v1.36h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v5.61z" />
-              </svg>
-            </a>
-            <a
-              href="mailto:ptharpe@purdue.edu"
-              className="hidden sm:inline-flex items-center gap-2 px-3 py-2 bg-cyan-600 hover:bg-cyan-500 text-white font-medium rounded-lg transition-colors text-sm"
-            >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 2.25-10.5 8.25L3 9" />
-              </svg>
-              Contact
+              Connect on LinkedIn
             </a>
 
             {/* Mobile Menu Button */}
@@ -138,14 +126,16 @@ export default function Nav() {
               
               {/* Mobile Contact Button */}
               <a
-                href="mailto:ptharpe@purdue.edu"
+                href="https://www.linkedin.com/in/pryce-tharpe"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="sm:hidden inline-flex items-center justify-center gap-2 px-4 py-3 bg-cyan-600 hover:bg-cyan-500 text-white font-medium rounded-lg transition-colors mt-2"
                 onClick={closeMobileMenu}
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                  <path d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 2.25-10.5 8.25L3 9" />
+                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v5.61zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
-                Contact
+                Connect
               </a>
             </div>
           </div>

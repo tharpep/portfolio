@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getProjectBySlug } from "@/lib/getProjects";
+import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
 function TechBadge({ tech }: { tech: string }) {
   return (
@@ -41,6 +41,8 @@ function DataMetric({ value, label, color = "green" }: { value: string; label: s
 
 export default function PythonSpotifyManager() {
   const project = getProjectBySlug("python-spotify-manager");
+  const nextProject = getNextProject("python-spotify-manager");
+  const prevProject = getPreviousProject("python-spotify-manager");
   
   if (!project) {
     return <div>Project not found</div>;
@@ -337,8 +339,8 @@ export default function PythonSpotifyManager() {
       {/* Navigation */}
       <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
         <Link 
-          href="/projects/custom-gpts" 
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
+          href={`/projects/${prevProject?.slug}`}
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M19 12H5m7-7l-7 7 7 7"/>
@@ -347,8 +349,18 @@ export default function PythonSpotifyManager() {
         </Link>
         
         <Link 
-          href="/projects/fm-radio-research" 
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
+          href="/projects" 
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
+        >
+          All Projects
+          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path d="M5 12h14m-7-7l7 7-7 7"/>
+          </svg>
+        </Link>
+        
+        <Link 
+          href={`/projects/${nextProject?.slug}`}
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           Next Project
           <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
