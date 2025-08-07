@@ -1,0 +1,11 @@
+export default function Robots() {
+  const domain = "https://pryce-tharpe.dev";
+  return new Response(
+    `User-agent: *\nAllow: /\n\nSitemap: ${domain}/sitemap.xml\n`,
+    {
+      headers: { 'Content-Type': 'text/plain' },
+    }
+  );
+}
+
+

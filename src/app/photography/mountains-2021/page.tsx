@@ -1,11 +1,18 @@
 import Link from "next/link";
 import PhotoNav from "@/components/PhotoNav";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Mountain Peaks (2021) – Photography – Pryce Tharpe",
+  description: "Landscape photography from the 2021 Mountain Peaks collection.",
+  alternates: { canonical: "/photography/mountains-2021" },
+};
 
 export default function Mountains2021() {
   return (
     <>
       <PhotoNav />
-      <main className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
+      <main id="main" className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
         
         {/* Hero Section */}
         <section className="relative py-20 px-6 md:px-12 lg:px-20">

@@ -1,4 +1,10 @@
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About – Pryce Tharpe",
+  description: "About Pryce Tharpe: Computer Engineering student and software developer.",
+};
 
 // DEV PORTFOLIO ABOUT PAGE
 // This is the professional about page for the development portfolio
@@ -6,7 +12,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
+    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
       
       {/* Hero Section */}
       <section className="text-center mb-16">

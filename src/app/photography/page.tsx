@@ -1,5 +1,12 @@
 import Link from "next/link";
 import PhotoNav from "@/components/PhotoNav";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Photography – Pryce Tharpe",
+  description: "Photography portfolio and collections by Pryce Tharpe.",
+  alternates: { canonical: "/photography" },
+};
 
 const events = [
   {
@@ -83,7 +90,7 @@ export default function Photography() {
   return (
     <>
       <PhotoNav />
-      <main className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
+      <main id="main" className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
         
         {/* Hero Section */}
         <section className="relative h-screen flex items-center justify-center overflow-hidden">

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Pryce Tharpe" }],
   creator: "Pryce Tharpe",
   publisher: "Pryce Tharpe",
-  metadataBase: new URL('https://prycetharpe.com'),
+  metadataBase: new URL('https://pryce-tharpe.dev'),
   alternates: {
     canonical: '/',
   },
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development. View my projects and experience.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/vercel.svg',
         width: 1200,
         height: 630,
         alt: 'Pryce Tharpe - Software Engineer Portfolio',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pryce Tharpe - Software Engineer & Computer Engineering Student',
     description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development.',
-    images: ['/og-image.jpg'],
+    images: ['/vercel.svg'],
   },
   robots: {
     index: true,
@@ -61,6 +61,11 @@ export const metadata: Metadata = {
     google: 'your-google-verification-code',
   },
 };
+
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+} as const;
 
 export default function RootLayout({
   children,
@@ -102,6 +107,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
       >
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
+          Skip to content
+        </a>
         <ConditionalNav />
         {children}
       </body>

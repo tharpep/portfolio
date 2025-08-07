@@ -59,6 +59,7 @@ export default function PhotoNav() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-amber-100 hover:text-amber-300 transition-colors"
             aria-label="Toggle menu"
+            aria-expanded={menuOpen}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               {menuOpen ? (

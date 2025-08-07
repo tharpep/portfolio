@@ -54,6 +54,7 @@ export default function Nav() {
                       ? 'text-cyan-300 bg-neutral-800/60' 
                       : 'text-neutral-300 hover:text-white hover:bg-neutral-800/40'
                   }`}
+                  aria-current={isActive ? 'page' : undefined}
                 >
                   {link.label}
                 </Link>
@@ -88,6 +89,7 @@ export default function Nav() {
               onClick={toggleMobileMenu}
               className="md:hidden p-2 text-neutral-400 hover:text-white rounded-lg hover:bg-neutral-800/40 transition-colors"
               aria-label="Toggle mobile menu"
+              aria-expanded={mobileMenuOpen}
             >
               {mobileMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
