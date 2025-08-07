@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useEffect, useRef, useState, KeyboardEvent } from 'react';
 import { useAzurePhotos, AzurePhoto } from '@/hooks/useAzurePhotos';
 
 interface PhotoGalleryProps {
@@ -32,7 +33,13 @@ function PhotoCard({ photo, index }: PhotoCardProps) {
           alt={photo.title}
           fill
           className="object-cover transition-transform duration-500 group-hover:scale-105"
-          sizes={`${index % 5 === 0 ? '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 66vw' : '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'}`}
+          sizes={
+            index % 5 === 0
+              ? '(max-width: 640px) 100vw, (max-width: 1024px) 66vw, 50vw'
+              : '(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw'
+          }
+          placeholder="blur"
+          blurDataURL="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16'%3E%3Crect width='16' height='16' fill='%231a1a1a'/%3E%3C/svg%3E"
           priority={index < 3} // Prioritize first 3 images
         />
       </div>
@@ -105,8 +112,41 @@ function ErrorCard({ error, onRetry }: { error: string; onRetry: () => void }) {
   );
 }
 
+interface LightboxState {
+  isOpen: boolean;
+  index: number;
+}
+
 export default function PhotoGallery({ collection }: PhotoGalleryProps) {
   const { photos, loading, error, refetch } = useAzurePhotos(collection);
+  const [lightbox, setLightbox] = useState<LightboxState>({ isOpen: false, index: 0 });
+  const lightboxRef = useRef<HTMLDivElement | null>(null);
+  const openerRef = useRef<HTMLDivElement | null>(null);
+
+  const openLightbox = (index: number) => {
+    openerRef.current = document.activeElement as HTMLDivElement | null;
+    setLightbox({ isOpen: true, index });
+  };
+
+  const closeLightbox = () => {
+    setLightbox({ isOpen: false, index: 0 });
+    if (openerRef.current) {
+      openerRef.current.focus?.();
+    }
+  };
+
+  const onKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
+    if (!lightbox.isOpen) return;
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowRight') setLightbox(s => ({ ...s, index: Math.min(s.index + 1, photos.length - 1) }));
+    if (e.key === 'ArrowLeft') setLightbox(s => ({ ...s, index: Math.max(s.index - 1, 0) }));
+  };
+
+  useEffect(() => {
+    if (lightbox.isOpen && lightboxRef.current) {
+      lightboxRef.current.focus();
+    }
+  }, [lightbox.isOpen]);
 
   // Show error state
   if (error) {
@@ -147,10 +187,52 @@ export default function PhotoGallery({ collection }: PhotoGalleryProps) {
 
   // Render actual photos
   return (
-    <div className="grid gap-4 md:gap-6 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-      {photos.map((photo, i) => (
-        <PhotoCard key={photo.id} photo={photo} index={i} />
-      ))}
-    </div>
+    <>
+      <div className="grid gap-4 md:gap-6 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {photos.map((photo, i) => (
+          <div key={photo.id} tabIndex={0} onClick={() => openLightbox(i)} onKeyDown={(e) => { if (e.key === 'Enter') openLightbox(i); }}>
+            <PhotoCard photo={photo} index={i} />
+          </div>
+        ))}
+      </div>
+
+      {lightbox.isOpen && (
+        <div
+          ref={lightboxRef}
+          role="dialog"
+          aria-modal="true"
+          tabIndex={-1}
+          onKeyDown={onKeyDown}
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80"
+        >
+          <button
+            aria-label="Close"
+            onClick={closeLightbox}
+            className="absolute top-4 right-4 p-2 text-amber-100 hover:text-white focus:outline-none"
+          >
+            ✕
+          </button>
+          <div className="max-w-6xl w-full px-4">
+            <Image
+              src={photos[lightbox.index].secureUrl}
+              alt={photos[lightbox.index].title}
+              width={1600}
+              height={900}
+              className="w-full h-auto object-contain"
+              sizes="(max-width: 768px) 100vw, 80vw"
+              placeholder="blur"
+              blurDataURL="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='9'%3E%3Crect width='16' height='9' fill='%231a1a1a'/%3E%3C/svg%3E"
+              priority
+            />
+            <div className="mt-4 text-center text-amber-100/80">
+              <div className="text-sm">{photos[lightbox.index].title}</div>
+              {photos[lightbox.index].metadata?.date && (
+                <div className="text-xs text-amber-200/60">{new Date(photos[lightbox.index].metadata.date).toLocaleString()}</div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }

@@ -20,6 +20,7 @@ function ProjectCard({ project }: { project: Project }) {
     <Link
       href={`/projects/${project.slug}`}
       className="group block rounded-xl border border-neutral-700 bg-neutral-800 p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 transition-all duration-300 hover:border-cyan-500/50"
+      prefetch
     >
       <div className="flex items-start justify-between mb-4">
         <h3 className="font-bold text-xl font-mono tracking-wide text-white group-hover:text-cyan-300 transition-colors">

@@ -5,25 +5,23 @@ export default function Home() {
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-16 min-h-screen">
       
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="text-center mb-20">
-        <h1 className="text-5xl md:text-6xl font-bold font-mono tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">
-          Hey, I&apos;m Pryce 👋
+      <section className="text-center mb-16">
+        <h1 className="text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80">
+          Pryce Tharpe
         </h1>
-        <p className="text-xl md:text-2xl text-neutral-300 leading-relaxed max-w-4xl mx-auto mb-12">
-          Computer Engineering student at Purdue, rotating through 
-          <span className="text-cyan-400 font-semibold"> Cloud, Mobile & DevOps teams</span> at Mesh Systems. 
-          I build scalable systems, create AI solutions, and bridge the gap between complex problems and elegant code.
+        <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
+          Computer Engineering student at Purdue building scalable systems and thoughtful UIs across cloud, web, and embedded.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center max-w-md mx-auto">
           <Link
             href="/projects"
-            className="px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
+            className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
           >
             View Projects
           </Link>
           <Link
             href="/Pryce_Tharpe_Resume.pdf"
-            className="px-8 py-4 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800 flex items-center justify-center gap-2 group"
+            className="px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800 flex items-center justify-center gap-2 group"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 group-hover:translate-y-0.5 transition-transform">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 4.5v11m0 0-3.25-3.25M12 15.5l3.25-3.25M4.75 19.25h14.5" />
@@ -38,7 +36,7 @@ export default function Home() {
         <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Featured Projects
         </h2>
-        <div className="grid gap-6 md:grid-cols-2 max-w-6xl mx-auto">
+        <div className="grid gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
           <FeaturedProjectCard
             title="AI System Prompt Framework"
             href="/projects/ai-system-prompt"
@@ -143,16 +141,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ─────────── Hidden Photography Link ─────────── */}
-      <div className="mt-24 text-right">
-        <Link 
-          href="/photography" 
-          className="text-neutral-500 hover:text-neutral-400 text-sm transition-colors duration-300 group"
-        >
-          Photography 
-          <span className="inline-block group-hover:translate-x-1 transition-transform ml-1">→</span>
-        </Link>
-      </div>
+      {/* Photography link removed per user request */}
 
     </main>
   );

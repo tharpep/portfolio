@@ -6,7 +6,7 @@ export default function PhotoNav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-sm border-b border-amber-900/20 shadow-lg">
+    <nav className="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-sm border-b border-amber-900/20 shadow-lg" role="navigation" aria-label="Photography">
       <div className="flex items-center justify-between px-6 py-4">
         
         {/* Left: Photography Brand */}

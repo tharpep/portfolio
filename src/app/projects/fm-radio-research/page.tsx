@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "FM Radio Detection & Demodulation – Projects – Pryce Tharpe",
+  description: "USRP + GNU Radio research project for automated FM detection.",
+  alternates: { canonical: "/projects/fm-radio-research" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 

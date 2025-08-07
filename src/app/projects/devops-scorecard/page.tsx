@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Azure DevOps Scorecard – Projects – Pryce Tharpe",
+  description: "Real-time sprint visibility with a Next.js Azure DevOps extension.",
+  alternates: { canonical: "/projects/devops-scorecard" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 

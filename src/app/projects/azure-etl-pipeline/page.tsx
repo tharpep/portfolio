@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Azure ETL Pipeline – Projects – Pryce Tharpe",
+  description: "Automated financial analysis with Microsoft Fabric and Azure services.",
+  alternates: { canonical: "/projects/azure-etl-pipeline" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 

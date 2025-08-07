@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "DJ Pete Beat Sequencer – Projects – Pryce Tharpe",
+  description: "STM32 embedded firmware with RGB keypad interface.",
+  alternates: { canonical: "/projects/dj-pete-beat-sequencer" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 

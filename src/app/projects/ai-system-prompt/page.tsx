@@ -1,5 +1,12 @@
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "AI System Prompt Framework – Projects – Pryce Tharpe",
+  description: "Enterprise-ready prompt engineering framework with standards enforcement.",
+  alternates: { canonical: "/projects/ai-system-prompt" },
+};
 
 function TechBadge({ tech }: { tech: string }) {
   return (

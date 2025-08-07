@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Python Spotify Data Manager – Projects – Pryce Tharpe",
+  description: "Python tools for Spotify data manipulation and visualization.",
+  alternates: { canonical: "/projects/python-spotify-manager" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 

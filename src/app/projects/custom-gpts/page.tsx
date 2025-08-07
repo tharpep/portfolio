@@ -1,3 +1,10 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Advanced Custom GPTs – Projects – Pryce Tharpe",
+  description: "Custom GPTs for enterprise and personal productivity.",
+  alternates: { canonical: "/projects/custom-gpts" },
+};
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
