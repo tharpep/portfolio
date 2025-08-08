@@ -3,11 +3,13 @@ import { listSecurePhotos } from '@/lib/azure-photos';
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { collection: string } }
+  context: { params: Promise<{ collection: string }> }
 ) {
   try {
+    const { collection } = await context.params;
+
     // Validate collection parameter
-    if (!params.collection || params.collection.trim() === '') {
+    if (!collection || collection.trim() === '') {
       return NextResponse.json(
         { photos: [], success: false, error: 'Collection parameter is required' },
         { status: 400 }
@@ -15,9 +17,9 @@ export async function GET(
     }
 
     // Sanitize collection name to prevent path traversal
-    const sanitizedCollection = params.collection.replace(/[^a-zA-Z0-9\-_]/g, '');
+    const sanitizedCollection = collection.replace(/[^a-zA-Z0-9\-_]/g, '');
     
-    if (sanitizedCollection !== params.collection) {
+    if (sanitizedCollection !== collection) {
       return NextResponse.json(
         { photos: [], success: false, error: 'Invalid collection name' },
         { status: 400 }
@@ -48,7 +50,6 @@ export async function GET(
         photos: [], 
         success: false, 
         error: 'Failed to fetch photos',
-        collection: params.collection
       },
       { status: 500 }
     );

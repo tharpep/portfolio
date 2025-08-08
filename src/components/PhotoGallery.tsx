@@ -213,23 +213,31 @@ export default function PhotoGallery({ collection }: PhotoGalleryProps) {
             ✕
           </button>
           <div className="max-w-6xl w-full px-4">
-            <Image
-              src={photos[lightbox.index].secureUrl}
-              alt={photos[lightbox.index].title}
-              width={1600}
-              height={900}
-              className="w-full h-auto object-contain"
-              sizes="(max-width: 768px) 100vw, 80vw"
-              placeholder="blur"
-              blurDataURL="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='9'%3E%3Crect width='16' height='9' fill='%231a1a1a'/%3E%3C/svg%3E"
-              priority
-            />
-            <div className="mt-4 text-center text-amber-100/80">
-              <div className="text-sm">{photos[lightbox.index].title}</div>
-              {photos[lightbox.index].metadata?.date && (
-                <div className="text-xs text-amber-200/60">{new Date(photos[lightbox.index].metadata.date).toLocaleString()}</div>
-              )}
-            </div>
+            {(() => {
+              const selectedPhoto = photos[lightbox.index];
+              const selectedDate = selectedPhoto?.metadata?.date;
+              return (
+                <>
+                  <Image
+                    src={selectedPhoto.secureUrl}
+                    alt={selectedPhoto.title}
+                    width={1600}
+                    height={900}
+                    className="w-full h-auto object-contain"
+                    sizes="(max-width: 768px) 100vw, 80vw"
+                    placeholder="blur"
+                    blurDataURL="data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='9'%3E%3Crect width='16' height='9' fill='%231a1a1a'/%3E%3C/svg%3E"
+                    priority
+                  />
+                  <div className="mt-4 text-center text-amber-100/80">
+                    <div className="text-sm">{selectedPhoto.title}</div>
+                    {selectedDate && (
+                      <div className="text-xs text-amber-200/60">{new Date(selectedDate).toLocaleString()}</div>
+                    )}
+                  </div>
+                </>
+              );
+            })()}
           </div>
         </div>
       )}

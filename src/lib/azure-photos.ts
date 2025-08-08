@@ -1,4 +1,4 @@
-import { BlobServiceClient, BlobSASPermissions } from '@azure/storage-blob';
+import { BlobServiceClient, BlobSASPermissions, SASProtocol } from '@azure/storage-blob';
 
 const containerName = process.env.AZURE_STORAGE_CONTAINER_NAME || 'photos';
 
@@ -54,7 +54,7 @@ export async function getSecurePhotoUrl(
       permissions: BlobSASPermissions.parse('r'), // Read only
       startsOn: new Date(),
       expiresOn: new Date(Date.now() + expiryHours * 60 * 60 * 1000),
-      protocol: 'https' as const, // HTTPS only (SysPmt 13.1.1)
+      protocol: SASProtocol.Https, // HTTPS only (SysPmt 13.1.1)
     };
 
     const sasUrl = await blobClient.generateSasUrl(sasOptions);
