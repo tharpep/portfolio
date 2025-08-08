@@ -59,7 +59,7 @@ export async function getSecurePhotoUrl(
 
     const sasUrl = await blobClient.generateSasUrl(sasOptions);
     return sasUrl;
-  } catch (error) {
+  } catch {
     throw new Error('Failed to generate secure image URL');
   }
 }
@@ -101,7 +101,7 @@ export async function listSecurePhotos(collection: string): Promise<SecurePhoto[
               ...blob.metadata // Custom metadata from Azure
             }
           });
-        } catch (urlError) {
+        } catch {
           // Continue processing other photos
         }
       }
@@ -111,7 +111,7 @@ export async function listSecurePhotos(collection: string): Promise<SecurePhoto[
     return photos.sort((a, b) => 
       (b.metadata?.date || '').localeCompare(a.metadata?.date || '')
     );
-  } catch (error) {
+  } catch {
     return []; // Return empty array on error for graceful degradation
   }
 }
@@ -124,7 +124,7 @@ export async function getCollectionCover(collection: string): Promise<string | n
   try {
     const photos = await listSecurePhotos(collection);
     return photos.length > 0 ? photos[0].secureUrl : null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }
@@ -170,7 +170,7 @@ export async function getPhotoMetadata(blobPath: string): Promise<Record<string,
     const blobClient = containerClient.getBlobClient(blobPath);
     const properties = await blobClient.getProperties();
     return properties.metadata || null;
-  } catch (error) {
+  } catch {
     return null;
   }
 }

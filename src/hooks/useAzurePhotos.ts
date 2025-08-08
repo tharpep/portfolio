@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 
 export interface AzurePhoto {
   id: string;
@@ -33,7 +33,9 @@ export function useAzurePhotos(collection: string): UseAzurePhotosResult {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchPhotos = async () => {
+  type ApiPhoto = Omit<AzurePhoto, 'expiresAt'> & { expiresAt: string | Date };
+
+  const fetchPhotos = useCallback(async () => {
     if (!collection) {
       setError('Collection name is required');
       setLoading(false);
@@ -53,7 +55,7 @@ export function useAzurePhotos(collection: string): UseAzurePhotosResult {
 
       if (data.success) {
         // Convert expiresAt strings back to Date objects
-        const photosWithDates = data.photos.map((photo: any) => ({
+        const photosWithDates = (data.photos as ApiPhoto[]).map((photo) => ({
           ...photo,
           expiresAt: new Date(photo.expiresAt)
         }));
@@ -70,7 +72,7 @@ export function useAzurePhotos(collection: string): UseAzurePhotosResult {
     } finally {
       setLoading(false);
     }
-  };
+  }, [collection]);
 
   const refetch = () => {
     fetchPhotos();
@@ -78,7 +80,7 @@ export function useAzurePhotos(collection: string): UseAzurePhotosResult {
 
   useEffect(() => {
     fetchPhotos();
-  }, [collection]);
+  }, [fetchPhotos]);
 
   return { photos, loading, error, refetch };
 }
@@ -99,7 +101,9 @@ export function useCollectionCovers(collections: string[]): UseCollectionCoversR
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchCovers = async () => {
+  const collectionsKey = useMemo(() => collections.join(','), [collections]);
+
+  const fetchCovers = useCallback(async () => {
     if (!collections.length) {
       setLoading(false);
       return;
@@ -109,8 +113,7 @@ export function useCollectionCovers(collections: string[]): UseCollectionCoversR
       setLoading(true);
       setError(null);
 
-      const collectionsParam = collections.join(',');
-      const response = await fetch(`/api/photos/covers?collections=${encodeURIComponent(collectionsParam)}`);
+      const response = await fetch(`/api/photos/covers?collections=${encodeURIComponent(collectionsKey)}`);
       const data = await response.json();
 
       if (!response.ok) {
@@ -130,7 +133,7 @@ export function useCollectionCovers(collections: string[]): UseCollectionCoversR
     } finally {
       setLoading(false);
     }
-  };
+  }, [collections.length, collectionsKey]);
 
   const refetch = () => {
     fetchCovers();
@@ -138,7 +141,7 @@ export function useCollectionCovers(collections: string[]): UseCollectionCoversR
 
   useEffect(() => {
     fetchCovers();
-  }, [collections.join(',')]);
+  }, [fetchCovers]);
 
   return { covers, loading, error, refetch };
 }
@@ -166,7 +169,7 @@ export function usePhotoUrlValidation(photo: AzurePhoto | null) {
     const interval = setInterval(checkExpiration, 60000);
 
     return () => clearInterval(interval);
-  }, [photo?.expiresAt]);
+  }, [photo]);
 
   return isExpired;
 }

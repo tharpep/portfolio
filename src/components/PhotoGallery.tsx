@@ -180,7 +180,7 @@ export default function PhotoGallery({ collection }: PhotoGalleryProps) {
           </svg>
         </div>
         <h3 className="text-amber-100 text-lg font-light mb-2">No photos found</h3>
-        <p className="text-amber-300/60 text-sm">This collection doesn't contain any photos yet.</p>
+        <p className="text-amber-300/60 text-sm">This collection doesn&apos;t contain any photos yet.</p>
       </div>
     );
   }
