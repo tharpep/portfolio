@@ -5,8 +5,8 @@ A **Next.js 15 + TypeScript** app that showcases my engineering projects, code w
 
 | Environment | URL |
 |-------------|-----|
-| **Production (custom domain – coming soon)** | <https://prycetharpe.dev> |
-| **Current Vercel deployment** | <https://portfolio-seven-neon-7556zgb8u4.vercel.app> |
+| **Production** | <https://prycetharpe.dev> |
+| **Preview** | <https://portfolio-seven-neon-7556zgb8u4.vercel.app> |
 
 ---
 
