@@ -28,16 +28,6 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-function CodeExample({ title, code }: { title: string; code: string }) {
-  return (
-    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-      <h4 className="font-semibold text-green-400 mb-3">{title}</h4>
-      <pre className="text-xs text-neutral-300 bg-neutral-800/50 p-4 rounded-lg overflow-x-auto">
-        <code>{code}</code>
-      </pre>
-    </div>
-  );
-}
 
 export default function AISystemPrompt() {
   const project = getProjectBySlug("ai-system-prompt");
@@ -48,25 +38,6 @@ export default function AISystemPrompt() {
     return <div>Project not found</div>;
   }
 
-  const promptExample = `/// <summary>
-/// Validates user input and processes order data
-/// High confidence — Direct rule match (Standards 6.3.4)
-/// </summary>
-/// <param name="orderData">Order information to validate</param>
-/// <returns>Processed order result</returns>
-/// <exception cref="ArgumentException">Invalid order data</exception>
-public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
-{
-    if (null == orderData?.CustomerId) // Constants on left (Standards 6.2.3)
-    {
-        _logger.LogWarning("Invalid order data: {CorrelationId}", 
-            correlationId); // Structured logging (Standards 4.2.3)
-        throw new ArgumentException("Order data cannot be null");
-    }
-    
-    // Single return pattern (Standards 6.2.1)
-    return await _orderService.ProcessAsync(orderData);
-}`;
 
 
   return (
