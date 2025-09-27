@@ -28,23 +28,6 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-function GPTMetric({ value, label, color = "blue" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    blue: "from-blue-900/20 to-blue-800/20 border-blue-700/50 text-blue-400",
-    purple: "from-purple-900/20 to-purple-800/20 border-purple-700/50 text-purple-400",
-    green: "from-green-900/20 to-green-800/20 border-green-700/50 text-green-400",
-    cyan: "from-cyan-900/20 to-cyan-800/20 border-cyan-700/50 text-cyan-400"
-  };
-
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border hover:scale-105 transition-transform ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'blue' ? 'text-blue-400' : color === 'purple' ? 'text-purple-400' : color === 'green' ? 'text-green-400' : 'text-cyan-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
 
 export default function CustomGPTs() {
   const project = getProjectBySlug("custom-gpts");

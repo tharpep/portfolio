@@ -28,23 +28,6 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-function ResearchMetric({ value, label, color = "amber" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    amber: "from-amber-900/20 to-amber-800/20 border-amber-700/50 text-amber-400",
-    red: "from-red-900/20 to-red-800/20 border-red-700/50 text-red-400",
-    blue: "from-blue-900/20 to-blue-800/20 border-blue-700/50 text-blue-400",
-    green: "from-green-900/20 to-green-800/20 border-green-700/50 text-green-400"
-  };
-
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border hover:scale-105 transition-transform ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'amber' ? 'text-amber-400' : color === 'red' ? 'text-red-400' : color === 'blue' ? 'text-blue-400' : 'text-green-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
 
 export default function FMRadioResearch() {
   const project = getProjectBySlug("fm-radio-research");

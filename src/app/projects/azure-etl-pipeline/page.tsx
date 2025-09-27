@@ -16,14 +16,6 @@ function TechBadge({ tech }: { tech: string }) {
   );
 }
 
-function HighlightCard({ title, description }: { title: string; description: string }) {
-  return (
-    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-cyan-500/50 transition-colors">
-      <h3 className="font-bold text-cyan-400 mb-2">{title}</h3>
-      <p className="text-neutral-300 text-sm">{description}</p>
-    </div>
-  );
-}
 
 export default function AzureETLPipeline() {
   const project = getProjectBySlug("azure-etl-pipeline");

@@ -28,23 +28,6 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-function TechnicalMetric({ value, label, color = "purple" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    purple: "from-purple-900/20 to-purple-800/20 border-purple-700/50 text-purple-400",
-    pink: "from-pink-900/20 to-pink-800/20 border-pink-700/50 text-pink-400",
-    indigo: "from-indigo-900/20 to-indigo-800/20 border-indigo-700/50 text-indigo-400",
-    cyan: "from-cyan-900/20 to-cyan-800/20 border-cyan-700/50 text-cyan-400"
-  };
-
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border hover:scale-105 transition-transform ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'purple' ? 'text-purple-400' : color === 'pink' ? 'text-pink-400' : color === 'indigo' ? 'text-indigo-400' : 'text-cyan-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
 
 export default function DJPeteBeatSequencer() {
   const project = getProjectBySlug("dj-pete-beat-sequencer");

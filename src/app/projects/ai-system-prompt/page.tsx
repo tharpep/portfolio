@@ -68,15 +68,6 @@ public async Task<OrderResult> ProcessOrderAsync(OrderData orderData)
     return await _orderService.ProcessAsync(orderData);
 }`;
 
-  const confidenceExample = `// Agent Output with Confidence Annotation:
-// High confidence — Direct rule match (Standards 4.2.1)
-// Added ILogger<T> injection for business logic compliance
-
-// Medium confidence — Heuristic, aligned with project pattern  
-// Applied team-specific error handling approach
-
-// Low confidence — No clear rule, suggest verifying with user
-// Multiple approaches possible for this scenario`;
 
   return (
     <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
