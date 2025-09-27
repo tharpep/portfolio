@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import ConditionalNav from "@/components/ConditionalNav";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -113,6 +115,8 @@ export default function RootLayout({
         </a>
         <ConditionalNav />
         {children}
+        <Analytics />
+        <SpeedInsights />
         <div className="mt-auto border-t border-neutral-800/60 bg-neutral-900/80">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
             <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-neutral-500">
