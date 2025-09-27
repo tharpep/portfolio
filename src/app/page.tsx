@@ -20,7 +20,9 @@ export default function Home() {
             View Projects
           </Link>
           <Link
-            href="/Pryce_Tharpe_Resume.pdf"
+            href="/Pryce_Tharpe___No_PII.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800 flex items-center justify-center gap-2 group"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5 group-hover:translate-y-0.5 transition-transform">
@@ -47,7 +49,7 @@ export default function Home() {
                      <FeaturedProjectCard
              title="Azure ETL Pipeline"
              href="/projects/azure-etl-pipeline"
-             desc="Automated ETL pipeline with Microsoft Fabric and SQL, cutting monthly Azure reporting from 3 hours to under 10 minutes"
+             desc="Automated ETL pipeline with Microsoft Fabric and SQL, cutting monthly Azure reporting from 2-3 hours to 5-10 minutes"
              tech="Microsoft Fabric"
              accent="blue"
            />
@@ -92,7 +94,7 @@ export default function Home() {
                "Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams",
                "Built internal GPT-based tools and co-facilitated 17 short enablement sessions for 20+ engineers across multiple teams",
                "Designed and delivered Azure DevOps extension with real-time sprint dashboards for project tracking",
-               "Designed and launched automated ETL pipeline with Microsoft Fabric and SQL, cutting monthly Azure reporting from 3 hours to under 10 minutes"
+               "Designed and launched automated ETL pipeline with Microsoft Fabric and SQL, cutting monthly Azure reporting from 2-3 hours to 5-10 minutes"
              ]}
            />
           <ExperienceCard

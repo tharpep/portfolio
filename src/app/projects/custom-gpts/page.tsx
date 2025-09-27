@@ -94,76 +94,28 @@ export default function CustomGPTs() {
         </div>
       </section>
 
-      {/* Key Metrics */}
-      <section className="grid md:grid-cols-4 gap-4 mb-16">
-        <GPTMetric value="2+" label="Enterprise GPTs" color="blue" />
-        <GPTMetric value="Multi-Level" label="User Support" color="purple" />
-        <GPTMetric value="Internal" label="Company Adoption" color="green" />
-        <GPTMetric value="Workflow" label="Automation" color="cyan" />
-      </section>
 
-      {/* GPT Portfolio */}
+      {/* Custom GPTs */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Custom GPT Portfolio</h2>
-        <div className="space-y-8">
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600/10 via-purple-600/10 to-cyan-600/10"></div>
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold text-white mb-4">System Prompt Builder GPT</h3>
-              <p className="text-neutral-300 mb-6">
-                Sophisticated GPT designed to assist users at all skill levels in creating effective system prompts. 
-                Features adaptive guidance, best practice recommendations, and real-time prompt optimization for various AI applications.
-              </p>
-              
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="p-4 rounded-lg bg-blue-900/20 border border-blue-700/50">
-                  <h4 className="font-bold text-blue-300 mb-2">Multi-Level Support</h4>
-                  <p className="text-sm text-neutral-300">Adapts guidance from beginner to advanced users</p>
-                </div>
-                <div className="p-4 rounded-lg bg-purple-900/20 border border-purple-700/50">
-                  <h4 className="font-bold text-purple-300 mb-2">Best Practices</h4>
-                  <p className="text-sm text-neutral-300">Incorporates industry standards and proven techniques</p>
-                </div>
-                <div className="p-4 rounded-lg bg-cyan-900/20 border border-cyan-700/50">
-                  <h4 className="font-bold text-cyan-300 mb-2">Real-time Optimization</h4>
-                  <p className="text-sm text-neutral-300">Provides instant feedback and improvement suggestions</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 relative overflow-hidden">
-            <div className="absolute inset-0 bg-gradient-to-r from-green-600/10 via-blue-600/10 to-purple-600/10"></div>
-            <div className="relative z-10">
-              <h3 className="text-xl font-bold text-white mb-4">Student Career Archivist GPT</h3>
-              <p className="text-neutral-300 mb-6">
-                Professional career documentation assistant. Helps students and professionals 
-                organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews.
-              </p>
-              
-              <div className="grid md:grid-cols-3 gap-4">
-                <div className="p-4 rounded-lg bg-green-900/20 border border-green-700/50">
-                  <h4 className="font-bold text-green-300 mb-2">Internal Adoption</h4>
-                  <p className="text-sm text-neutral-300">Streamlined career development processes</p>
-                </div>
-                <div className="p-4 rounded-lg bg-blue-900/20 border border-blue-700/50">
-                  <h4 className="font-bold text-blue-300 mb-2">Achievement Extraction</h4>
-                  <p className="text-sm text-neutral-300">Identifies and quantifies professional accomplishments</p>
-                </div>
-                <div className="p-4 rounded-lg bg-purple-900/20 border border-purple-700/50">
-                  <h4 className="font-bold text-purple-300 mb-2">Narrative Building</h4>
-                  <p className="text-sm text-neutral-300">Crafts compelling professional stories and summaries</p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Custom GPTs</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <FeatureCard 
+            title="System Prompt Builder"
+            description="Sophisticated GPT designed to assist users at all skill levels in creating effective system prompts with adaptive guidance and best practice recommendations."
+            icon="🔧"
+          />
+          <FeatureCard 
+            title="Student Career Archivist"
+            description="Professional career documentation assistant that helps organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews."
+            icon="📚"
+          />
         </div>
       </section>
 
-      {/* Technical Features */}
+      {/* Technical Implementation */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Development Approach</h2>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Technical Implementation</h2>
+        <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="Advanced Prompt Engineering"
             description="Sophisticated prompt design incorporating context injection, role definition, and output formatting for consistent, high-quality responses."
@@ -175,118 +127,47 @@ export default function CustomGPTs() {
             icon="🎯"
           />
           <FeatureCard 
-            title="Adaptive Intelligence"
-            description="Dynamic adjustment of complexity and detail based on user skill level and context, ensuring appropriate guidance for every interaction."
-            icon="🧠"
-          />
-          <FeatureCard 
             title="Enterprise Integration"
             description="Seamless integration with business workflows and internal processes, designed for professional environments and team collaboration."
             icon="🏢"
           />
           <FeatureCard 
-            title="Quality Assurance"
-            description="Rigorous testing and validation processes ensuring reliable performance across diverse use cases and user scenarios."
-            icon="✅"
-          />
-          <FeatureCard 
-            title="Continuous Improvement"
-            description="Iterative development approach incorporating user feedback and performance analytics to enhance functionality over time."
-            icon="📈"
+            title="Performance Optimization"
+            description="Response time optimization through efficient prompt design, token usage minimization, and quality consistency across interaction patterns."
+            icon="⚡"
           />
         </div>
       </section>
 
-      {/* Implementation Details */}
+      {/* Project Impact & Achievements */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Technical Implementation</h2>
-        <div className="grid lg:grid-cols-2 gap-8">
-          <div className="space-y-6">
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Prompt Architecture</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Structured system message design with clear role definitions</li>
-                <li>• Context-aware response formatting and style adaptation</li>
-                <li>• Multi-turn conversation management with state preservation</li>
-                <li>• Error handling and graceful degradation strategies</li>
-              </ul>
-            </div>
-            
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">User Interface Design</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Conversational flow optimization for natural interaction</li>
-                <li>• Progressive disclosure of complex functionality</li>
-                <li>• Clear instruction patterns and example demonstrations</li>
-                <li>• Accessibility considerations for diverse user bases</li>
-              </ul>
-            </div>
-          </div>
-          
-          <div className="space-y-6">
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Enterprise Features</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Role-based functionality adaptation for team environments</li>
-                <li>• Integration with existing business processes and tools</li>
-                <li>• Data privacy and security compliance considerations</li>
-                <li>• Scalable architecture for organization-wide deployment</li>
-              </ul>
-            </div>
-            
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Performance Optimization</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Response time optimization through efficient prompt design</li>
-                <li>• Token usage minimization for cost-effective operation</li>
-                <li>• Quality consistency across different interaction patterns</li>
-                <li>• Monitoring and analytics integration for continuous improvement</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Achievements */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Project Achievements</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {project.highlights.map((highlight, index) => (
-            <div key={index} className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <div className="flex items-start gap-3">
-                <span className="text-blue-400 text-lg mt-1">🎯</span>
-                <p className="text-neutral-300">{highlight}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Business Impact */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Business Impact</h2>
+        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Project Impact & Achievements</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-blue-400 mb-4">Organizational Benefits</h4>
+              <h4 className="text-lg font-bold text-blue-400 mb-4">Key Achievements</h4>
+              <div className="space-y-3">
+                {project.highlights.map((highlight, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-blue-400 text-lg mt-1">🎯</span>
+                    <p className="text-neutral-300 text-sm">{highlight}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+            
+            <div>
+              <h4 className="text-lg font-bold text-purple-400 mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Standardized AI assistance across team workflows</li>
                 <li>• Reduced learning curve for AI tool adoption</li>
                 <li>• Improved consistency in prompt engineering practices</li>
                 <li>• Enhanced productivity through specialized automation</li>
-              </ul>
-            </div>
-            
-            <div>
-              <h4 className="text-lg font-bold text-purple-400 mb-4">Innovation Impact</h4>
-              <ul className="space-y-2 text-neutral-300">
                 <li>• Demonstrated practical AI integration in business workflows</li>
-                <li>• Pioneered custom GPT development for enterprise use</li>
-                <li>• Advanced understanding of prompt engineering principles</li>
                 <li>• Created reusable frameworks for future AI projects</li>
               </ul>
             </div>
@@ -296,8 +177,7 @@ export default function CustomGPTs() {
 
       {/* Project Timeline */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Project Timeline</h2>
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <span className="text-lg font-mono text-neutral-300">{project.timeline}</span>
         </div>
       </section>

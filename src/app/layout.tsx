@@ -83,7 +83,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Pryce Tharpe",
-              "url": "https://prycetharpe.com",
+              "url": "https://pryce-tharpe.dev",
               "sameAs": [
                 "https://www.linkedin.com/in/pryce-tharpe",
                 "https://github.com/prycetharpe",
@@ -106,6 +106,7 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        suppressHydrationWarning={true}
       >
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
           Skip to content

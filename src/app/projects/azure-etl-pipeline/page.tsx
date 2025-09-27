@@ -136,109 +136,30 @@ export default function AzureETLPipeline() {
       {/* Technical Implementation */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Technical Implementation</h2>
-        <div className="grid lg:grid-cols-2 gap-8">
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Data Extraction & Processing</h3>
-            <p className="text-neutral-300 mb-4">
-              Built automated system using Microsoft Fabric to extract Azure billing data and SQL for complex transformations, 
-              handling cost categorization and departmental allocation with built-in validation and error handling.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <TechBadge tech="Microsoft Fabric" />
-              <TechBadge tech="SQL Transformations" />
-              <TechBadge tech="Data Validation" />
-            </div>
-          </div>
-          
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Automation & Monitoring</h3>
-            <p className="text-neutral-300 mb-4">
-              Implemented monthly scheduling with comprehensive monitoring and recovery capabilities. 
-              Responsible for ongoing pipeline maintenance, database recovery, and continuous enhancements.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <TechBadge tech="Azure Functions" />
-              <TechBadge tech="Scheduled Execution" />
-              <TechBadge tech="Recovery Procedures" />
-            </div>
+        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+          <h3 className="text-xl font-bold text-white mb-4">Data Extraction & Processing</h3>
+          <p className="text-neutral-300 mb-4">
+            Built automated system using Microsoft Fabric to extract Azure billing data and SQL for complex transformations, 
+            handling cost categorization and departmental allocation with built-in validation and error handling.
+          </p>
+          <div className="flex flex-wrap gap-2">
+            <TechBadge tech="Microsoft Fabric" />
+            <TechBadge tech="SQL Transformations" />
+            <TechBadge tech="Data Validation" />
           </div>
         </div>
       </section>
 
-      {/* Key Achievements */}
+      {/* Key Achievements & Impact */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Key Achievements</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {project.highlights.map((highlight, index) => (
-            <HighlightCard 
-              key={index}
-              title={`Achievement ${index + 1}`}
-              description={highlight}
-            />
-          ))}
-        </div>
-      </section>
-
-      {/* Project Scope & Responsibilities */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Scope & Responsibilities</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Development & Implementation</h3>
-            <ul className="space-y-2 text-neutral-300">
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>End-to-end pipeline architecture and design</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Microsoft Fabric workspace configuration</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>SQL query optimization and data modeling</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Error handling and monitoring implementation</span>
-              </li>
-            </ul>
-          </div>
-          
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Ongoing Support</h3>
-            <ul className="space-y-2 text-neutral-300">
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Monthly pipeline monitoring and execution</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Database recovery and backup procedures</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Continuous enhancements based on business needs</span>
-              </li>
-              <li className="flex items-start gap-2">
-                <span className="text-cyan-400 mt-1">•</span>
-                <span>Performance optimization and scaling</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* Business Impact */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Business Impact</h2>
+        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Key Achievements & Impact</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
           </div>
           
-          <div className="text-center">
-            <div className="inline-block p-6 rounded-xl bg-cyan-900/20 border border-cyan-700/50 mb-6">
+          <div className="text-center mb-8">
+            <div className="inline-block p-6 rounded-xl bg-cyan-900/20 border border-cyan-700/50">
               <div className="text-4xl font-bold text-cyan-400 mb-2">95%</div>
               <div className="text-neutral-300 font-medium">Time Reduction (2-3 hours → 5-10 minutes)</div>
             </div>
@@ -246,21 +167,21 @@ export default function AzureETLPipeline() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="text-lg font-bold text-cyan-400 mb-4">Operational Benefits</h4>
+              <h4 className="text-lg font-bold text-cyan-400 mb-4">Key Achievements</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Eliminated manual effort for managers</li>
-                <li>• Improved data accuracy and consistency</li>
-                <li>• Enabled reliable monthly financial analysis</li>
-                <li>• Reduced risk of human error in calculations</li>
+                <li>• Transformed 13-step manual process into automated workflow</li>
+                <li>• Eliminated manual effort for managers with automated reporting</li>
+                <li>• Built fault-tolerant pipeline with ongoing support capabilities</li>
+                <li>• Delivered highly reliable, repeatable results for financial analysis</li>
               </ul>
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Technical Achievements</h4>
+              <h4 className="text-lg font-bold text-emerald-400 mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Transformed 13-step manual process into automated workflow</li>
-                <li>• Built resilient system with recovery capabilities</li>
-                <li>• Delivered highly reliable, repeatable results</li>
+                <li>• Improved data accuracy and consistency</li>
+                <li>• Enabled reliable monthly financial analysis</li>
+                <li>• Reduced risk of human error in calculations</li>
                 <li>• Presented solution at company sprint reviews</li>
               </ul>
             </div>
@@ -270,8 +191,7 @@ export default function AzureETLPipeline() {
 
       {/* Project Timeline */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Timeline</h2>
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <span className="text-lg font-mono text-neutral-300">{project.timeline}</span>
         </div>
       </section>

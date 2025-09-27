@@ -43,7 +43,7 @@ const projects: Project[] = [
     description: "React/Next.js/Node.js Azure DevOps extension providing real-time sprint health and status visibility, designed to enable instant insights for both internal and external stakeholders.",
     category: "data-analytics",
     technologies: ["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"],
-    timeline: "May 2025 - Present",
+    timeline: "June 2025 - Present",
     status: "completed",
     highlights: [
       "Designed to enable instant sprint visibility for stakeholders",
@@ -52,6 +52,22 @@ const projects: Project[] = [
       "Mentored high school intern in backend development for the project"
     ],
     impact: "Will dramatically improve DevOps workflow efficiency and transparency, enabling data-driven sprint management"
+  },
+  {
+    slug: "python-spotify-manager",
+    title: "Python Spotify Data Manager",
+    description: "Comprehensive Python-based tools for Spotify data manipulation and visualization using RESTful API integration, featuring advanced data analysis and playlist management capabilities.",
+    category: "data-analytics",
+    technologies: ["Python", "Spotify API", "Pandas", "RESTful APIs", "OAuth", "Data Visualization", "JSON"],
+    timeline: "2024 - Present",
+    status: "in-progress",
+    highlights: [
+      "Built robust API integration with Spotify's complex authentication system",
+      "Implemented advanced data analysis and visualization pipelines",
+      "Created automated playlist management and music data insights",
+      "Enhanced technical fluency in API consumption and data processing"
+    ],
+    impact: "Developed comprehensive music data analysis capabilities, providing insights into listening patterns and automated playlist curation"
   },
   {
     slug: "dj-pete-beat-sequencer",
@@ -72,17 +88,17 @@ const projects: Project[] = [
   {
     slug: "ai-system-prompt",
     title: "AI System Prompt Framework",
-    description: "Advanced prompt engineering framework highly encouraged and backed by VP of Engineering for engineering departments. Led AI enablement training with 8 company-wide AI 101 sessions plus 5 group/individual check-ins.",
+    description: "Advanced prompt engineering framework adopted across engineering departments. Co-led AI enablement training with 2 company-wide lunch and learns plus 17 group/individual check-ins.",
     category: "ai-ml",
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
-    timeline: "May 2025 - Present",
+    timeline: "August 2025 - Present",
     status: "completed",
     highlights: [
-      "Co-developed master IDE prompt highly encouraged by VP of Engineering",
-      "Backed by leadership as standard for engineering departments",
-      "Led 8 company-wide AI 101 training sessions",
-      "Conducted 5 additional group/individual AI check-ins",
-      "Mentored interns in prompt engineering and AI integration"
+      "Co-developed master IDE prompt adopted across engineering departments",
+      "Established AI standards and best practices for development teams",
+      "Co-led 2 company-wide lunch and learns on ChatGPT setup and master prompt usage",
+      "Conducted 17 group/individual AI check-ins and training sessions",
+      "Mentored an intern in prompt engineering and AI integration"
     ],
     impact: "Enhanced company's AI adoption, improving prompt engineering standards and developer workflows in engineering departments"
   },
@@ -103,22 +119,6 @@ const projects: Project[] = [
     impact: "Enhanced productivity and workflow automation through specialized AI tools tailored for specific business and educational needs"
   },
   {
-    slug: "python-spotify-manager",
-    title: "Python Spotify Data Manager",
-    description: "Comprehensive Python-based tools for Spotify data manipulation and visualization using RESTful API integration, featuring advanced data analysis and playlist management capabilities.",
-    category: "data-analytics",
-    technologies: ["Python", "Spotify API", "Pandas", "RESTful APIs", "OAuth", "Data Visualization", "JSON"],
-    timeline: "2024 - Present",
-    status: "in-progress",
-    highlights: [
-      "Built robust API integration with Spotify's complex authentication system",
-      "Implemented advanced data analysis and visualization pipelines",
-      "Created automated playlist management and music data insights",
-      "Enhanced technical fluency in API consumption and data processing"
-    ],
-    impact: "Developed comprehensive music data analysis capabilities, providing insights into listening patterns and automated playlist curation"
-  },
-  {
     slug: "fm-radio-research",
     title: "FM Radio Detection & Demodulation",
     description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio, implementing robust signal processing workflows and automation scripts.",
@@ -133,6 +133,22 @@ const projects: Project[] = [
       "Applied advanced RF engineering principles in software-defined radio"
     ],
     impact: "Advanced understanding of signal processing and RF systems through practical implementation of complex radio technologies"
+  },
+  {
+    slug: "personal-ai-system",
+    title: "Personal AI System",
+    description: "Comprehensive personal AI assistant with RAG capabilities, tool integration, and local-first architecture. Currently implementing MVP with document retrieval and knowledge synthesis.",
+    category: "ai-ml",
+    technologies: ["Python", "RAG", "Vector Databases", "LLM Gateway", "API Design", "Local AI", "Tool Integration"],
+    timeline: "2024 - Present",
+    status: "in-progress",
+    highlights: [
+      "Designed comprehensive API architecture with LLM Gateway and Personal API",
+      "Implemented RAG MVP with document ingestion and retrieval capabilities",
+      "Built tool allowlist system with strict validation and safety guardrails",
+      "Created local-first architecture with cloud fallback options"
+    ],
+    impact: "Developing a secure, extensible personal AI system that combines knowledge retrieval with intelligent tool orchestration"
   }
 ];
 

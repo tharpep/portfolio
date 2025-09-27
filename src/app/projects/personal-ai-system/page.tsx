@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "DJ Pete Beat Sequencer – Projects – Pryce Tharpe",
-  description: "STM32 embedded firmware with RGB keypad interface.",
-  alternates: { canonical: "/projects/dj-pete-beat-sequencer" },
+  title: "Personal AI System – Projects – Pryce Tharpe",
+  description: "Comprehensive personal AI assistant with RAG capabilities and tool integration.",
+  alternates: { canonical: "/projects/personal-ai-system" },
 };
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
@@ -28,28 +28,10 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-function TechnicalMetric({ value, label, color = "purple" }: { value: string; label: string; color?: string }) {
-  const colorClasses = {
-    purple: "from-purple-900/20 to-purple-800/20 border-purple-700/50 text-purple-400",
-    pink: "from-pink-900/20 to-pink-800/20 border-pink-700/50 text-pink-400",
-    indigo: "from-indigo-900/20 to-indigo-800/20 border-indigo-700/50 text-indigo-400",
-    cyan: "from-cyan-900/20 to-cyan-800/20 border-cyan-700/50 text-cyan-400"
-  };
-
-  return (
-    <div className={`text-center p-6 rounded-xl bg-gradient-to-br border hover:scale-105 transition-transform ${colorClasses[color as keyof typeof colorClasses]}`}>
-      <div className={`text-3xl font-bold mb-2 ${color === 'purple' ? 'text-purple-400' : color === 'pink' ? 'text-pink-400' : color === 'indigo' ? 'text-indigo-400' : 'text-cyan-400'}`}>
-        {value}
-      </div>
-      <div className="text-neutral-300 font-medium text-sm">{label}</div>
-    </div>
-  );
-}
-
-export default function DJPeteBeatSequencer() {
-  const project = getProjectBySlug("dj-pete-beat-sequencer");
-  const nextProject = getNextProject("dj-pete-beat-sequencer");
-  const prevProject = getPreviousProject("dj-pete-beat-sequencer");
+export default function PersonalAISystem() {
+  const project = getProjectBySlug("personal-ai-system");
+  const nextProject = getNextProject("personal-ai-system");
+  const prevProject = getPreviousProject("personal-ai-system");
   
   if (!project) {
     return <div>Project not found</div>;
@@ -73,9 +55,9 @@ export default function DJPeteBeatSequencer() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🎨</div>
-          <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
-            Purdue Spark Challenge
+          <div className="text-4xl animate-pulse">🤖</div>
+          <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
+            In Progress - RAG MVP
           </span>
         </div>
         
@@ -94,67 +76,56 @@ export default function DJPeteBeatSequencer() {
         </div>
       </section>
 
-      {/* Technical Architecture */}
+      {/* Core Capabilities */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Technical Architecture</h2>
-        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <h3 className="text-xl font-bold text-white mb-4">STM32 Embedded System</h3>
-          <p className="text-neutral-300 mb-6">
-            Advanced embedded firmware leveraging STM32 ARM Cortex-M4 microcontroller with multiple communication protocols 
-            and real-time audio processing for interactive music production hardware.
-          </p>
-          
-          <div className="grid md:grid-cols-4 gap-4 mb-6">
-            <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-              <div className="text-2xl font-bold text-purple-400 mb-2">168MHz</div>
-              <div className="text-xs text-neutral-300">ARM Cortex-M4</div>
-            </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-              <div className="text-2xl font-bold text-pink-400 mb-2">512KB</div>
-              <div className="text-xs text-neutral-300">Flash Memory</div>
-            </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-              <div className="text-2xl font-bold text-cyan-400 mb-2">192KB</div>
-              <div className="text-xs text-neutral-300">SRAM</div>
-            </div>
-            <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-              <div className="text-2xl font-bold text-indigo-400 mb-2">8x8</div>
-              <div className="text-xs text-neutral-300">RGB Matrix</div>
-            </div>
-          </div>
-          
-          <div className="flex flex-wrap gap-2">
-            <TechBadge tech="I2C Master/Slave" />
-            <TechBadge tech="SPI Full Duplex" />
-            <TechBadge tech="DMA Circular Mode" />
-            <TechBadge tech="GPIO Interrupt" />
-          </div>
+        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Core Capabilities</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <FeatureCard 
+            title="RAG Knowledge Retrieval"
+            description="Advanced retrieval-augmented generation system with document ingestion, vector search, and citation-based knowledge synthesis."
+            icon="📚"
+          />
+          <FeatureCard 
+            title="Tool Integration Framework"
+            description="Extensible tool allowlist system with strict validation, safety guardrails, and support for external API integrations."
+            icon="🔧"
+          />
+          <FeatureCard 
+            title="Local-First Architecture"
+            description="Privacy-focused design with local AI models (Ollama/vLLM) and cloud fallback options for optimal performance and security."
+            icon="🏠"
+          />
+          <FeatureCard 
+            title="API Gateway Design"
+            description="Comprehensive API architecture with LLM Gateway for language intelligence and Personal API for orchestration and routing."
+            icon="🌐"
+          />
         </div>
       </section>
 
-      {/* Key Features */}
+      {/* Technical Implementation */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Key Features</h2>
+        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Technical Implementation</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
-            title="Multi-Protocol Communication"
-            description="Implemented I2C and SPI communication protocols for seamless integration with Adafruit NeoTrellis RGB keypads and external peripherals."
-            icon="🔗"
+            title="LLM Gateway"
+            description="Dedicated service for language model interactions with streaming support, timeout management, and model routing capabilities."
+            icon="⚡"
           />
           <FeatureCard 
-            title="DMA-Driven Audio Processing"
-            description="Leveraged Direct Memory Access for real-time audio sample streaming to DAC, eliminating CPU bottlenecks in audio processing pipeline."
-            icon="🎵"
+            title="Document Processing"
+            description="Automated document ingestion with provenance tracking, ACL management, and vector database integration for efficient retrieval."
+            icon="📄"
           />
           <FeatureCard 
-            title="Real-time RGB Control"
-            description="Dynamic LED matrix management with per-key RGB control, creating visual feedback system synchronized with audio patterns."
-            icon="💡"
+            title="Tool Orchestration"
+            description="Intelligent routing system with JSON schema validation, uncertainty handling, and fallback mechanisms for reliable tool execution."
+            icon="🎯"
           />
           <FeatureCard 
-            title="Low-Level Optimization"
-            description="Hand-optimized ARM assembly routines for critical audio paths, achieving deterministic timing for professional music applications."
-            icon="⚙️"
+            title="Security & Privacy"
+            description="Comprehensive security model with PII redaction, bearer token authentication, and local-first data storage policies."
+            icon="🔒"
           />
         </div>
       </section>
@@ -173,7 +144,7 @@ export default function DJPeteBeatSequencer() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-purple-400 text-lg mt-1">⚡</span>
+                    <span className="text-purple-400 text-lg mt-1">🚀</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}
@@ -183,12 +154,12 @@ export default function DJPeteBeatSequencer() {
             <div>
               <h4 className="text-lg font-bold text-pink-400 mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Advanced embedded systems architecture design</li>
-                <li>• Real-time audio processing on resource-constrained hardware</li>
-                <li>• Multi-protocol communication stack implementation</li>
-                <li>• Professional-grade timing precision for music applications</li>
-                <li>• Demonstrated mastery of low-level embedded programming</li>
-                <li>• Applied real-time systems concepts in practical context</li>
+                <li>• Comprehensive API architecture with clear separation of concerns</li>
+                <li>• Advanced RAG implementation with citation tracking</li>
+                <li>• Extensible tool framework with safety-first design</li>
+                <li>• Local-first approach with cloud fallback capabilities</li>
+                <li>• Privacy-focused design with PII protection</li>
+                <li>• Scalable architecture supporting multiple connectors</li>
               </ul>
             </div>
           </div>
@@ -236,4 +207,4 @@ export default function DJPeteBeatSequencer() {
       </section>
     </main>
   );
-} 
+}

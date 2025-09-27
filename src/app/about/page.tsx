@@ -26,22 +26,6 @@ export default function About() {
         </p>
       </section>
 
-      {/* Quick Stats */}
-      <section className="grid md:grid-cols-3 gap-6 mb-16">
-        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-2xl font-bold text-cyan-400 mb-1">4+</div>
-          <div className="text-neutral-300 text-sm">Years Programming</div>
-        </div>
-        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-2xl font-bold text-emerald-400 mb-1">7+</div>
-          <div className="text-neutral-300 text-sm">Projects Completed</div>
-        </div>
-
-        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-2xl font-bold text-purple-400 mb-1">2026</div>
-          <div className="text-neutral-300 text-sm">Graduation Year</div>
-        </div>
-      </section>
 
       {/* Main Content */}
       <div className="max-w-4xl mx-auto space-y-16">
