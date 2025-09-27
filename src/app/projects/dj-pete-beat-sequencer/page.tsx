@@ -82,7 +82,7 @@ export default function DJPeteBeatSequencer() {
         <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Technical Architecture</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <h3 className="text-xl font-bold text-white mb-4">STM32 Embedded System</h3>
-          <p className="text-neutral-300 mb-6">
+            <p className="text-neutral-300 mb-6">
             Advanced embedded firmware leveraging STM32 ARM Cortex-M4 microcontroller with multiple communication protocols 
             and real-time audio processing for interactive music production hardware.
           </p>
@@ -91,21 +91,21 @@ export default function DJPeteBeatSequencer() {
             <div className="text-center p-4 rounded-lg bg-neutral-700/50">
               <div className="text-2xl font-bold text-purple-400 mb-2">168MHz</div>
               <div className="text-xs text-neutral-300">ARM Cortex-M4</div>
-            </div>
+              </div>
             <div className="text-center p-4 rounded-lg bg-neutral-700/50">
               <div className="text-2xl font-bold text-pink-400 mb-2">512KB</div>
               <div className="text-xs text-neutral-300">Flash Memory</div>
-            </div>
+              </div>
             <div className="text-center p-4 rounded-lg bg-neutral-700/50">
               <div className="text-2xl font-bold text-cyan-400 mb-2">192KB</div>
               <div className="text-xs text-neutral-300">SRAM</div>
-            </div>
+              </div>
             <div className="text-center p-4 rounded-lg bg-neutral-700/50">
               <div className="text-2xl font-bold text-indigo-400 mb-2">8x8</div>
               <div className="text-xs text-neutral-300">RGB Matrix</div>
+              </div>
             </div>
-          </div>
-          
+            
           <div className="flex flex-wrap gap-2">
             <TechBadge tech="I2C Master/Slave" />
             <TechBadge tech="SPI Full Duplex" />
