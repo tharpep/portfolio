@@ -64,8 +64,13 @@ export default function Nav() {
             })}
           </div>
 
-          {/* Right: Mobile Menu Button */}
-          <div className="flex items-center">
+          {/* Right: Desktop Contact & Mobile Menu Button */}
+          <div className="flex items-center gap-4">
+            {/* Desktop Contact Me */}
+            <div className="hidden md:block">
+              <ContactDropdownHeader />
+            </div>
+            
             {/* Mobile Menu Button */}
             <button 
               onClick={toggleMobileMenu}
