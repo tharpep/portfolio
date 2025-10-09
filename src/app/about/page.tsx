@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import ContactDropdownAbout from "@/components/ContactDropdownAbout";
+import SpotifyWidget from "@/components/SpotifyWidget";
+import { getSpotifyData } from "@/lib/spotify-data";
 
 export const metadata: Metadata = {
   title: "About – Pryce Tharpe",
@@ -11,7 +13,8 @@ export const metadata: Metadata = {
 // This is the professional about page for the development portfolio
 // Keep separate from photography about page at /photography/about
 
-export default function About() {
+export default async function About() {
+  const spotifyData = await getSpotifyData();
   return (
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
       
@@ -42,6 +45,21 @@ export default function About() {
             </p>
             <p>
               Through internships and projects, I have learned how to bridge academic rigor with practical software development. I have collaborated across teams, automated complex workflows, and explored emerging technologies. As I look ahead, I am driven to keep learning and contributing in environments where thoughtful design and scalable software meet real-world challenges.
+            </p>
+          </div>
+        </section>
+
+        {/* AI Philosophy Section */}
+        <section>
+          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+            My Approach to AI
+          </h2>
+          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
+            <p className="text-neutral-300 leading-relaxed mb-4">
+              I believe AI should be created with both innovation and responsibility in mind, focusing on technology that empowers people and respects creativity and the environment. I strive to build systems that are sustainable, transparent, and guided by human values.
+            </p>
+            <p className="text-neutral-300 leading-relaxed">
+              My experience co-developing AI frameworks and leading enablement sessions has reinforced my commitment to ethical AI development. I see AI as a tool to augment human capabilities, not replace them, and I&apos;m passionate about creating solutions that enhance productivity while maintaining the human touch that makes technology meaningful.
             </p>
           </div>
         </section>
@@ -108,7 +126,7 @@ export default function About() {
           <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             Beyond Code
           </h2>
-          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
+          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6 mb-8">
             <p className="text-neutral-300 leading-relaxed mb-4">
               When I&apos;m not coding, you&apos;ll find me exploring the intersection of technology and creativity. I&apos;m passionate about photography, and I&apos;m currently extending this site to showcase my work. I also enjoy building custom PCs and playing guitar and bass. These pursuits sharpen my attention to detail while giving me space to create in different ways.
             </p>
@@ -116,6 +134,16 @@ export default function About() {
               I believe that experiences outside of engineering make me a stronger problem solver and collaborator. Every perspective adds value to the development process.
             </p>
           </div>
+          
+          {/* Spotify Widget */}
+          {spotifyData && (
+            <div className="mb-8">
+              <p className="text-neutral-300 text-center mb-6 max-w-2xl mx-auto">
+                Music drives my creativity and focus during development. Here&apos;s what I have been listening to.
+              </p>
+              <SpotifyWidget data={spotifyData} />
+            </div>
+          )}
         </section>
 
         {/* Connect Section */}

@@ -45,3 +45,7 @@ next-env.d.ts
 
 # Private documents for AI context
 /private
+
+# Spotify scripts (local development only)
+/spotify-scripts/.env
+/spotify-scripts/.spotify_cache

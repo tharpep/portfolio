@@ -1,0 +1,68 @@
+{
+  "lastUpdated": "2025-10-09T19:32:13.697506Z",
+  "topArtistsYear": [
+    {
+      "name": "Kid Cudi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
+      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
+      "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+    },
+    {
+      "name": "Tyler, The Creator",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
+      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
+    },
+    {
+      "name": "Metro Boomin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb28f1e72b31e756ea3f3a51e7",
+      "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
+    }
+  ],
+  "topTracksWeek": [
+    {
+      "name": "RIP",
+      "artists": "Miguel",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e4e89e0fb8f94644dfbf785a",
+      "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
+    },
+    {
+      "name": "Super Stars",
+      "artists": "Yves Tumor",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb8648acba5bbab771ef0a45",
+      "spotifyUrl": "https://open.spotify.com/track/4dWltT1kwOojQQyZJMs5tw"
+    },
+    {
+      "name": "Ring Of Past (2025)",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/13UqmpJo3DKZOJkGA6aH5U"
+    },
+    {
+      "name": "Kerosene!",
+      "artists": "Yves Tumor",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb8648acba5bbab771ef0a45",
+      "spotifyUrl": "https://open.spotify.com/track/2OoKzfr7RB5o9cxHArUoIS"
+    },
+    {
+      "name": "Changes",
+      "artists": "Empire Of The Sun",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539b85bf093856207373e138",
+      "spotifyUrl": "https://open.spotify.com/track/5NolEMcA7mmw27vpyzvzIT"
+    }
+  ],
+  "topTrackDay": {
+    "name": "RIP",
+    "artists": "Miguel",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273e4e89e0fb8f94644dfbf785a",
+    "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
+  }
+}
