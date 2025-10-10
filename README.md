@@ -1,6 +1,6 @@
 # pryceTharpe.dev – Personal Portfolio
 
-A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, technical expertise, and personal interests. Features live Spotify data integration, photography galleries, and comprehensive project documentation.
+A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, technical expertise, and personal interests. Features live Spotify data integration, photography galleries(coming soon), and comprehensive project documentation.
 
 | Environment | URL |
 |-------------|-----|
@@ -83,7 +83,7 @@ src/
 - **Tech stack**: Python + Spotify API + GitHub Actions + TypeScript
 - **Location**: Featured on About page in "Beyond Code" section
 
-### **Photography Galleries**
+### **Photography Galleries** - in progress...
 - **Azure Blob Storage**: Secure, scalable image hosting
 - **Dynamic collections**: NYC 2025, Mountains 2021, Zoo 2022
 - **Optimized delivery**: SAS URLs with automatic expiration
@@ -119,43 +119,6 @@ graph LR
     E --> F[Live Portfolio]
 ```
 
----
-
-## 🌐 Deploy & Custom Domain
-
-1. **Connect GitHub** repo to Vercel → every push to `main` auto-deploys
-2. **Add domain** `prycetharpe.dev` in **Project ▸ Settings ▸ Domains** and follow DNS instructions
-3. **HTTPS** is issued automatically
-
-Manual redeploy of latest commit:
-```bash
-vercel --prod
-```
-
----
-
-## 🔐 Security & Privacy
-
-- **No hardcoded secrets**: All API keys stored in environment variables
-- **Secure image delivery**: Azure SAS URLs with time-limited access
-- **GitHub Secrets**: Spotify credentials encrypted and secure
-- **No PII exposure**: All personal data properly handled
-
----
-
-## 🗺️ Roadmap
-
-- [x] **Live Spotify integration** with automated data updates
-- [x] **Photography galleries** with Azure Blob Storage
-- [x] **AI philosophy section** showcasing ethical development approach
-- [x] **Comprehensive project documentation** with technical details
-- [ ] **Contact form** with email integration
-- [ ] **Blog section** for technical write-ups
-- [ ] **Performance optimization** with Lighthouse CI
-- [ ] **End-to-end testing** with Playwright
-
----
-
 ## 🎯 Key Features
 
 ### **Professional Portfolio**
@@ -166,7 +129,6 @@ vercel --prod
 ### **Personal Touch**
 - **Music Integration**: Live Spotify data showing current listening habits
 - **Photography**: Professional galleries showcasing creative work
-- **AI Philosophy**: Thoughtful approach to responsible AI development
 
 ### **Technical Excellence**
 - **Modern Stack**: Next.js 15, React 19, TypeScript, Tailwind CSS
@@ -186,10 +148,7 @@ vercel --prod
 
 ## 🤝 Contributing
 
-This is a personal portfolio, but I'm open to suggestions and improvements! Feel free to:
-- Open issues for bugs or suggestions
-- Submit pull requests for improvements
-- Reach out via [LinkedIn](https://www.linkedin.com/in/pryce-tharpe) or [email](mailto:tharpep_pro@outlook.com)
+This is a personal portfolio, but I'm open to suggestions and improvements! Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/pryce-tharpe) or [email](mailto:tharpep_pro@outlook.com)
 
 ---
 
