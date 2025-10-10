@@ -119,16 +119,16 @@ def get_top_track_day(sp: spotipy.Spotify) -> Dict[str, Any]:
 def update_spotify_data():
     """Main function to fetch and update Spotify data."""
     try:
-        print("🎵 Connecting to Spotify...")
+        print("Connecting to Spotify...")
         sp = get_spotify_client()
         
-        print("📊 Fetching your top artists for the year...")
+        print("Fetching your top artists for the year...")
         top_artists_year = get_top_artists_year(sp)
         
-        print("🎶 Fetching your top tracks for the week...")
+        print("Fetching your top tracks for the week...")
         top_tracks_week = get_top_tracks_week(sp)
         
-        print("⭐ Fetching your #1 track for today...")
+        print("Fetching your #1 track for today...")
         top_track_day = get_top_track_day(sp)
         
         # Create the data structure
@@ -144,18 +144,18 @@ def update_spotify_data():
         with open(output_path, 'w', encoding='utf-8') as f:
             json.dump(spotify_data, f, indent=2, ensure_ascii=False)
         
-        print(f"✅ Successfully updated Spotify data!")
-        print(f"📁 Data saved to: {output_path}")
-        print(f"🕒 Last updated: {spotify_data['lastUpdated']}")
+        print(f"Successfully updated Spotify data!")
+        print(f"Data saved to: {output_path}")
+        print(f"Last updated: {spotify_data['lastUpdated']}")
         
         # Print summary
-        print(f"\n📈 Summary:")
-        print(f"   • Top Artists: {len(top_artists_year)}")
-        print(f"   • Top Tracks: {len(top_tracks_week)}")
-        print(f"   • #1 Track: {top_track_day['name']}")
+        print(f"\nSummary:")
+        print(f"   - Top Artists: {len(top_artists_year)}")
+        print(f"   - Top Tracks: {len(top_tracks_week)}")
+        print(f"   - #1 Track: {top_track_day['name']}")
         
     except Exception as e:
-        print(f"❌ Error updating Spotify data: {e}")
+        print(f"Error updating Spotify data: {e}")
         sys.exit(1)
 
 if __name__ == "__main__":
