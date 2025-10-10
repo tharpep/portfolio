@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   description: "Python tools for Spotify data manipulation and visualization.",
   alternates: { canonical: "/projects/python-spotify-manager" },
 };
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -29,10 +32,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 }
 
 
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("python-spotify-manager");
+const nextProject = getNextProject("python-spotify-manager");
+const prevProject = getPreviousProject("python-spotify-manager");
+
 export default function PythonSpotifyManager() {
-  const project = getProjectBySlug("python-spotify-manager");
-  const nextProject = getNextProject("python-spotify-manager");
-  const prevProject = getPreviousProject("python-spotify-manager");
   
   if (!project) {
     return <div>Project not found</div>;

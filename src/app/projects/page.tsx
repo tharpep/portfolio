@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   description: "Portfolio projects across data, AI, creative tech, and research.",
 };
 
+// Enable static generation for better performance
+export const dynamic = 'force-static';
+
 function TechBadge({ tech }: { tech: string }) {
   return (
     <span className="px-2 py-1 text-xs font-medium bg-blue-900/30 text-blue-300 rounded-md border border-blue-700/50">
@@ -20,7 +23,7 @@ function ProjectCard({ project }: { project: Project }) {
     <Link
       href={`/projects/${project.slug}`}
       className="group block rounded-xl border border-neutral-700 bg-neutral-800 p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 transition-all duration-300 hover:border-cyan-500/50"
-      prefetch
+      prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
         <h3 className="font-bold text-xl font-mono tracking-wide text-white group-hover:text-cyan-300 transition-colors">
@@ -84,8 +87,10 @@ function CategorySection({ category }: { category: ProjectCategory }) {
   );
 }
 
+// Pre-compute categories at build time for better performance
+const categories = getProjectsByCategory();
+
 export default function Projects() {
-  const categories = getProjectsByCategory();
   
   return (
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">

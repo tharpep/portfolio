@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   description: "Real-time sprint visibility with a Next.js Azure DevOps extension.",
   alternates: { canonical: "/projects/devops-scorecard" },
 };
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -30,10 +33,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-export default function DevOpsScorecard() {
-  const project = getProjectBySlug("devops-scorecard");
-  const nextProject = getNextProject("devops-scorecard");
-  const prevProject = getPreviousProject("devops-scorecard");
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("devops-scorecard");
+const nextProject = getNextProject("devops-scorecard");
+const prevProject = getPreviousProject("devops-scorecard");
+
+export default function DevopsScorecard() {
   
   if (!project) {
     return <div>Project not found</div>;

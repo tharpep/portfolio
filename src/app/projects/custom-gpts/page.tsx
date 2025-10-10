@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   description: "Custom GPTs for enterprise and personal productivity.",
   alternates: { canonical: "/projects/custom-gpts" },
 };
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -29,10 +32,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 }
 
 
-export default function CustomGPTs() {
-  const project = getProjectBySlug("custom-gpts");
-  const nextProject = getNextProject("custom-gpts");
-  const prevProject = getPreviousProject("custom-gpts");
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("custom-gpts");
+const nextProject = getNextProject("custom-gpts");
+const prevProject = getPreviousProject("custom-gpts");
+
+export default function CustomGpts() {
   
   if (!project) {
     return <div>Project not found</div>;

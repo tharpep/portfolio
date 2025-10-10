@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
 export const metadata: Metadata = {
   title: "Azure ETL Pipeline – Projects – Pryce Tharpe",
   description: "Automated financial analysis with Microsoft Fabric and Azure services.",
   alternates: { canonical: "/projects/azure-etl-pipeline" },
 };
-import Link from "next/link";
-import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 
 function TechBadge({ tech }: { tech: string }) {
   return (
@@ -17,10 +20,12 @@ function TechBadge({ tech }: { tech: string }) {
 }
 
 
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("azure-etl-pipeline");
+const nextProject = getNextProject("azure-etl-pipeline");
+const prevProject = getPreviousProject("azure-etl-pipeline");
+
 export default function AzureETLPipeline() {
-  const project = getProjectBySlug("azure-etl-pipeline");
-  const nextProject = getNextProject("azure-etl-pipeline");
-  const prevProject = getPreviousProject("azure-etl-pipeline");
   
   if (!project) {
     return <div>Project not found</div>;

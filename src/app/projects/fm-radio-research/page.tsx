@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   description: "USRP + GNU Radio research project for automated FM detection.",
   alternates: { canonical: "/projects/fm-radio-research" },
 };
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -29,10 +32,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 }
 
 
-export default function FMRadioResearch() {
-  const project = getProjectBySlug("fm-radio-research");
-  const nextProject = getNextProject("fm-radio-research");
-  const prevProject = getPreviousProject("fm-radio-research");
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("fm-radio-research");
+const nextProject = getNextProject("fm-radio-research");
+const prevProject = getPreviousProject("fm-radio-research");
+
+export default function FmRadioResearch() {
   
   if (!project) {
     return <div>Project not found</div>;

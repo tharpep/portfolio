@@ -1,12 +1,15 @@
 import type { Metadata } from "next";
+import Link from "next/link";
+import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
 export const metadata: Metadata = {
   title: "DJ Pete Beat Sequencer – Projects – Pryce Tharpe",
   description: "STM32 embedded firmware with RGB keypad interface.",
   alternates: { canonical: "/projects/dj-pete-beat-sequencer" },
 };
-import Link from "next/link";
-import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 
 function TechBadge({ tech }: { tech: string }) {
   return (
@@ -29,10 +32,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 }
 
 
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("dj-pete-beat-sequencer");
+const nextProject = getNextProject("dj-pete-beat-sequencer");
+const prevProject = getPreviousProject("dj-pete-beat-sequencer");
+
 export default function DJPeteBeatSequencer() {
-  const project = getProjectBySlug("dj-pete-beat-sequencer");
-  const nextProject = getNextProject("dj-pete-beat-sequencer");
-  const prevProject = getPreviousProject("dj-pete-beat-sequencer");
   
   if (!project) {
     return <div>Project not found</div>;

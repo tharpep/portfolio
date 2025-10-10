@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   description: "Comprehensive personal AI assistant with RAG capabilities and tool integration.",
   alternates: { canonical: "/projects/personal-ai-system" },
 };
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -28,10 +31,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-export default function PersonalAISystem() {
-  const project = getProjectBySlug("personal-ai-system");
-  const nextProject = getNextProject("personal-ai-system");
-  const prevProject = getPreviousProject("personal-ai-system");
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("personal-ai-system");
+const nextProject = getNextProject("personal-ai-system");
+const prevProject = getPreviousProject("personal-ai-system");
+
+export default function PersonalAiSystem() {
   
   if (!project) {
     return <div>Project not found</div>;

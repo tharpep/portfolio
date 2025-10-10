@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   alternates: { canonical: "/projects/ai-system-prompt" },
 };
 
+// Enable static generation for better performance
+export const dynamic = 'force-static';
+
 function TechBadge({ tech }: { tech: string }) {
   return (
     <span className="px-3 py-1 text-sm font-medium bg-green-900/30 text-green-300 rounded-full border border-green-700/50">
@@ -29,10 +32,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
 }
 
 
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("ai-system-prompt");
+const nextProject = getNextProject("ai-system-prompt");
+const prevProject = getPreviousProject("ai-system-prompt");
+
 export default function AISystemPrompt() {
-  const project = getProjectBySlug("ai-system-prompt");
-  const nextProject = getNextProject("ai-system-prompt");
-  const prevProject = getPreviousProject("ai-system-prompt");
   
   if (!project) {
     return <div>Project not found</div>;
