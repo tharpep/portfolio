@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-10T06:21:26.746366Z",
+  "lastUpdated": "2025-10-11T06:18:42.557534Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
     },
     {
-      "name": "Super Stars",
-      "artists": "Yves Tumor",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb8648acba5bbab771ef0a45",
-      "spotifyUrl": "https://open.spotify.com/track/4dWltT1kwOojQQyZJMs5tw"
-    },
-    {
       "name": "Ring Of Past (2025)",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
       "spotifyUrl": "https://open.spotify.com/track/13UqmpJo3DKZOJkGA6aH5U"
+    },
+    {
+      "name": "Super Stars",
+      "artists": "Yves Tumor",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb8648acba5bbab771ef0a45",
+      "spotifyUrl": "https://open.spotify.com/track/4dWltT1kwOojQQyZJMs5tw"
     },
     {
       "name": "Kerosene!",
