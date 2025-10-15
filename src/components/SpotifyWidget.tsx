@@ -1,5 +1,4 @@
 import { SpotifyDisplayData } from '@/lib/spotify-types';
-import { formatLastUpdated } from '@/lib/spotify-data';
 
 interface SpotifyWidgetProps {
   data: SpotifyDisplayData;
