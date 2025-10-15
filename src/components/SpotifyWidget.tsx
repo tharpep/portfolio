@@ -8,14 +8,10 @@ interface SpotifyWidgetProps {
 export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
   return (
     <section className="mb-20">
-      <div className="flex items-center justify-between mb-8">
+      <div className="mb-8">
         <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-400">
           My Music
         </h2>
-        <div className="flex items-center gap-2 text-sm text-neutral-400">
-          <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-          <span>{formatLastUpdated(data.lastUpdated)}</span>
-        </div>
       </div>
 
       <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
