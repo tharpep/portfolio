@@ -2,6 +2,14 @@
 
 /* ─────────── Professional Polish Styles ─────────── */
 
+:root {
+  --color-cyan: #06b6d4; /* cyan-500 */
+  --color-cyan-400: #22d3ee; /* cyan-400 */
+  --color-blue: #3b82f6; /* blue-500 */
+  --color-amber: #f59e0b; /* amber-500 */
+  --color-amber-300: #fcd34d; /* amber-300 */
+}
+
 /* Smooth scrolling for entire page */
 html {
   scroll-behavior: smooth;
@@ -9,14 +17,14 @@ html {
 
 /* Enhanced focus states for accessibility */
 :focus-visible {
-  outline: 2px solid #06b6d4;
+  outline: 2px solid var(--color-cyan);
   outline-offset: 2px;
   border-radius: 4px;
 }
 
 /* Professional polish for selection */
 ::selection {
-  background: #06b6d4;
+  background: var(--color-cyan);
   color: #171717;
 }
 
@@ -49,4 +57,11 @@ html {
     scroll-behavior: auto !important;
   }
 }
+
+/* Typographic rhythm for long-form content */
+.prose-relaxed p {
+  line-height: 1.8;
+  max-width: 65ch;
+}
+
 

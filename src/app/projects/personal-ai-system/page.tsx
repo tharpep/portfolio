@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advanced Custom GPTs – Projects – Pryce Tharpe",
-  description: "Custom GPTs for enterprise and personal productivity.",
-  alternates: { canonical: "/projects/custom-gpts" },
+  title: "Personal AI System – Projects – Pryce Tharpe",
+  description: "Comprehensive personal AI assistant with RAG capabilities and tool integration.",
+  alternates: { canonical: "/projects/personal-ai-system" },
 };
 
 // Enable static generation for better performance
@@ -13,7 +13,7 @@ import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getP
 
 function TechBadge({ tech }: { tech: string }) {
   return (
-    <span className="px-3 py-1 text-sm font-medium bg-blue-900/30 text-blue-300 rounded-full border border-blue-700/50">
+    <span className="px-3 py-1 text-sm font-medium bg-purple-900/30 text-purple-300 rounded-full border border-purple-700/50">
       {tech}
     </span>
   );
@@ -21,23 +21,22 @@ function TechBadge({ tech }: { tech: string }) {
 
 function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
-    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-blue-500/50 transition-all duration-300 group">
+    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-purple-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
-        <h3 className="font-bold text-blue-400 group-hover:text-blue-300 transition-colors">{title}</h3>
+        <h3 className="font-bold text-purple-400 group-hover:text-purple-300 transition-colors">{title}</h3>
       </div>
       <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
     </div>
   );
 }
 
-
 // Pre-compute data at build time for better performance
-const project = getProjectBySlug("custom-gpts");
-const nextProject = getNextProject("custom-gpts");
-const prevProject = getPreviousProject("custom-gpts");
+const project = getProjectBySlug("personal-ai-system");
+const nextProject = getNextProject("personal-ai-system");
+const prevProject = getPreviousProject("personal-ai-system");
 
-export default function CustomGpts() {
+export default function PersonalAiSystem() {
   
   if (!project) {
     return <div>Project not found</div>;
@@ -49,7 +48,7 @@ export default function CustomGpts() {
       <nav className="mb-8">
         <Link 
           href="/projects" 
-          className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
+          className="inline-flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M19 12H5m7-7l-7 7 7 7"/>
@@ -62,12 +61,12 @@ export default function CustomGpts() {
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
           <div className="text-4xl animate-pulse">🤖</div>
-          <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
-            Enterprise Adopted
+          <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
+            In Progress - RAG MVP
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400">
           {project.title}
         </h1>
         
@@ -82,54 +81,63 @@ export default function CustomGpts() {
         </div>
       </section>
 
-
-      {/* Custom GPTs */}
+      {/* Core Capabilities */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Custom GPTs</h2>
+        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Core Capabilities</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
-            title="System Prompt Builder"
-            description="Sophisticated GPT designed to assist users at all skill levels in creating effective system prompts with adaptive guidance and best practice recommendations."
+            title="RAG Knowledge Retrieval"
+            description="Advanced retrieval-augmented generation system with document ingestion, vector search, and citation-based knowledge synthesis."
+            icon="📚"
+          />
+          <FeatureCard 
+            title="Tool Integration Framework"
+            description="Extensible tool allowlist system with strict validation, safety guardrails, and support for external API integrations."
             icon="🔧"
           />
           <FeatureCard 
-            title="Student Career Archivist"
-            description="Professional career documentation assistant that helps organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews."
-            icon="📚"
+            title="Local-First Architecture"
+            description="Privacy-focused design with local AI models (Ollama/vLLM) and cloud fallback options for optimal performance and security."
+            icon="🏠"
+          />
+          <FeatureCard 
+            title="API Gateway Design"
+            description="Comprehensive API architecture with LLM Gateway for language intelligence and Personal API for orchestration and routing."
+            icon="🌐"
           />
         </div>
       </section>
 
       {/* Technical Implementation */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Technical Implementation</h2>
+        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Technical Implementation</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
-            title="Advanced Prompt Engineering"
-            description="Sophisticated prompt design incorporating context injection, role definition, and output formatting for consistent, high-quality responses."
-            icon="🔧"
+            title="LLM Gateway"
+            description="Dedicated service for language model interactions with streaming support, timeout management, and model routing capabilities."
+            icon="⚡"
           />
           <FeatureCard 
-            title="User Experience Focus"
-            description="Intuitive conversation flows designed to guide users naturally through complex processes while maintaining engagement and clarity."
+            title="Document Processing"
+            description="Automated document ingestion with provenance tracking, ACL management, and vector database integration for efficient retrieval."
+            icon="📄"
+          />
+          <FeatureCard 
+            title="Tool Orchestration"
+            description="Intelligent routing system with JSON schema validation, uncertainty handling, and fallback mechanisms for reliable tool execution."
             icon="🎯"
           />
           <FeatureCard 
-            title="Enterprise Integration"
-            description="Seamless integration with business workflows and internal processes, designed for professional environments and team collaboration."
-            icon="🏢"
-          />
-          <FeatureCard 
-            title="Performance Optimization"
-            description="Response time optimization through efficient prompt design, token usage minimization, and quality consistency across interaction patterns."
-            icon="⚡"
+            title="Security & Privacy"
+            description="Comprehensive security model with PII redaction, bearer token authentication, and local-first data storage policies."
+            icon="🔒"
           />
         </div>
       </section>
 
       {/* Project Impact & Achievements */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Project Impact & Achievements</h2>
+        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Project Impact & Achievements</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
@@ -137,11 +145,11 @@ export default function CustomGpts() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-blue-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-purple-400 mb-4">Key Achievements</h4>
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg mt-1">🎯</span>
+                    <span className="text-purple-400 text-lg mt-1">🚀</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}
@@ -149,14 +157,14 @@ export default function CustomGpts() {
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-purple-400 mb-4">Business Benefits</h4>
+              <h4 className="text-lg font-bold text-pink-400 mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Standardized AI assistance across team workflows</li>
-                <li>• Reduced learning curve for AI tool adoption</li>
-                <li>• Improved consistency in prompt engineering practices</li>
-                <li>• Enhanced productivity through specialized automation</li>
-                <li>• Demonstrated practical AI integration in business workflows</li>
-                <li>• Created reusable frameworks for future AI projects</li>
+                <li>• Comprehensive API architecture with clear separation of concerns</li>
+                <li>• Advanced RAG implementation with citation tracking</li>
+                <li>• Extensible tool framework with safety-first design</li>
+                <li>• Local-first approach with cloud fallback capabilities</li>
+                <li>• Privacy-focused design with PII protection</li>
+                <li>• Scalable architecture supporting multiple connectors</li>
               </ul>
             </div>
           </div>
@@ -174,7 +182,7 @@ export default function CustomGpts() {
       <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
         <Link 
           href={`/projects/${prevProject?.slug}`}
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M19 12H5m7-7l-7 7 7 7"/>
@@ -184,7 +192,7 @@ export default function CustomGpts() {
         
         <Link 
           href="/projects" 
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           All Projects
           <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -194,7 +202,7 @@ export default function CustomGpts() {
         
         <Link 
           href={`/projects/${nextProject?.slug}`}
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
+          className="flex items-center text-purple-400 hover:text-purple-300 transition-colors"
         >
           Next Project
           <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -204,4 +212,4 @@ export default function CustomGpts() {
       </section>
     </main>
   );
-} 
+}

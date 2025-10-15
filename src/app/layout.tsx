@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import ConditionalNav from "@/components/ConditionalNav";
+import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Pryce Tharpe" }],
   creator: "Pryce Tharpe",
   publisher: "Pryce Tharpe",
-  metadataBase: new URL('https://prycetharpe.com'),
+  metadataBase: new URL('https://pryce-tharpe.dev'),
   alternates: {
     canonical: '/',
   },
@@ -33,7 +35,7 @@ export const metadata: Metadata = {
     description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development. View my projects and experience.',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/vercel.svg',
         width: 1200,
         height: 630,
         alt: 'Pryce Tharpe - Software Engineer Portfolio',
@@ -44,7 +46,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Pryce Tharpe - Software Engineer & Computer Engineering Student',
     description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development.',
-    images: ['/og-image.jpg'],
+    images: ['/vercel.svg'],
   },
   robots: {
     index: true,
@@ -62,6 +64,11 @@ export const metadata: Metadata = {
   },
 };
 
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+} as const;
+
 export default function RootLayout({
   children,
 }: {
@@ -78,7 +85,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Pryce Tharpe",
-              "url": "https://prycetharpe.com",
+              "url": "https://pryce-tharpe.dev",
               "sameAs": [
                 "https://www.linkedin.com/in/pryce-tharpe",
                 "https://github.com/prycetharpe",
@@ -101,9 +108,41 @@ export default function RootLayout({
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        suppressHydrationWarning={true}
       >
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
+          Skip to content
+        </a>
         <ConditionalNav />
         {children}
+        <Analytics />
+        <SpeedInsights />
+        <div className="mt-auto border-t border-neutral-800/60 bg-neutral-900/80">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-neutral-500">
+              <div>© {new Date().getFullYear()} Pryce Tharpe</div>
+              <div className="flex items-center gap-4">
+                <a 
+                  href="mailto:tharpep_pro@outlook.com"
+                  className="hover:text-neutral-300 transition-colors flex items-center gap-1"
+                >
+                  <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  tharpep_pro@outlook.com
+                </a>
+                <a 
+                  href="https://www.linkedin.com/in/pryce-tharpe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-neutral-300 transition-colors"
+                >
+                  LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </body>
     </html>
   );

@@ -1,11 +1,18 @@
 import Link from "next/link";
 import PhotoNav from "@/components/PhotoNav";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Wildlife (2022) – Photography – Pryce Tharpe",
+  description: "Wildlife portraits and natural moments from the 2022 collection.",
+  alternates: { canonical: "/photography/zoo-2022" },
+};
 
 export default function Zoo2022() {
   return (
     <>
       <PhotoNav />
-      <main className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
+      <main id="main" className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
         
         {/* Hero Section */}
         <section className="relative py-20 px-6 md:px-12 lg:px-20">

@@ -1,0 +1,57 @@
+name: Update Spotify Data
+
+on:
+  schedule:
+    # Run daily at 5 PM UTC (midday for better listening data)
+    - cron: '0 17 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  update-spotify-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install spotipy python-dotenv
+      
+      - name: Fetch Spotify data
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+        run: |
+          cd spotify-scripts
+          python fetch_spotify_data_github.py
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add src/data/spotify-data.json
+          git commit -m "Update Spotify data [skip ci]"
+          git push
+      
+      - name: No changes detected
+        if: steps.verify-changed-files.outputs.changed == 'false'
+        run: echo "No changes to Spotify data detected"

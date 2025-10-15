@@ -1,11 +1,19 @@
 import Link from "next/link";
 import PhotoNav from "@/components/PhotoNav";
+import PhotoGallery from "@/components/PhotoGallery";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "New York City (2025) – Photography – Pryce Tharpe",
+  description: "Urban landscapes and moments from New York City, 2025 collection.",
+  alternates: { canonical: "/photography/nyc-2025" },
+};
 
 export default function NYC2025() {
   return (
     <>
       <PhotoNav />
-      <main className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
+      <main id="main" className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
         
         {/* Hero Section */}
         <section className="relative py-20 px-6 md:px-12 lg:px-20">
@@ -41,44 +49,7 @@ export default function NYC2025() {
         {/* Gallery Grid */}
         <section className="pb-20 px-6 md:px-12 lg:px-20">
           <div className="max-w-7xl mx-auto">
-            <div className="grid gap-4 md:gap-6 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              {[...Array(12)].map((_, i) => (
-                <div 
-                  key={i} 
-                  className={`
-                    group relative overflow-hidden bg-gradient-to-br from-neutral-800 to-neutral-900 
-                    hover:shadow-2xl hover:shadow-amber-400/10 transition-all duration-500 cursor-pointer
-                    ${i % 5 === 0 ? 'md:col-span-2 md:row-span-2' : ''}
-                    ${i % 7 === 0 ? 'lg:row-span-2' : ''}
-                  `}
-                  style={{
-                    aspectRatio: i % 5 === 0 ? '3/2' : i % 3 === 0 ? '4/5' : '1/1'
-                  }}
-                >
-                  {/* Image Placeholder */}
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <svg className="w-12 h-12 text-amber-400/20 group-hover:text-amber-400/40 transition-colors duration-500" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
-                      <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                      <circle cx="8.5" cy="8.5" r="1.5"/>
-                      <polyline points="21,15 16,10 5,21"/>
-                    </svg>
-                  </div>
-                  
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-black/20 group-hover:bg-black/40 transition-all duration-500"></div>
-                  
-                  {/* Hover Info */}
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-500">
-                    <div className="text-center">
-                      <div className="text-amber-100 text-sm font-light tracking-wide mb-2">
-                        NYC Street {i + 1}
-                      </div>
-                      <div className="w-8 h-px bg-amber-400 mx-auto"></div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+            <PhotoGallery collection="nyc-2025" />
           </div>
         </section>
 

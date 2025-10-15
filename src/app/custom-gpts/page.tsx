@@ -77,14 +77,6 @@ export default function CustomGPTs() {
             link="https://chatgpt.com/g/g-685dcb4de8ec8191b120d4a5b983a320-system-prompt-architect"
             accent="purple"
           />
-          <GPTCard
-            title="BoilerPlanner"
-            description="Purdue University course planning assistant that tracks, prioritizes, and intelligently manages semester tasks. Currently in active development with expanded features planned."
-            category="Academic Planning"
-            link="https://chatgpt.com/g/g-684ae29456508191bdbb52e29feb7002-boilerplanner"
-            status="development"
-            accent="emerald"
-          />
         </div>
       </section>
 

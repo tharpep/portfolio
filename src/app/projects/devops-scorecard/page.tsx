@@ -1,3 +1,13 @@
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Azure DevOps Scorecard – Projects – Pryce Tharpe",
+  description: "Real-time sprint visibility with a Next.js Azure DevOps extension.",
+  alternates: { canonical: "/projects/devops-scorecard" },
+};
+
+// Enable static generation for better performance
+export const dynamic = 'force-static';
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
 
@@ -23,10 +33,12 @@ function FeatureCard({ title, description, icon }: { title: string; description:
   );
 }
 
-export default function DevOpsScorecard() {
-  const project = getProjectBySlug("devops-scorecard");
-  const nextProject = getNextProject("devops-scorecard");
-  const prevProject = getPreviousProject("devops-scorecard");
+// Pre-compute data at build time for better performance
+const project = getProjectBySlug("devops-scorecard");
+const nextProject = getNextProject("devops-scorecard");
+const prevProject = getPreviousProject("devops-scorecard");
+
+export default function DevopsScorecard() {
   
   if (!project) {
     return <div>Project not found</div>;
@@ -80,14 +92,14 @@ export default function DevOpsScorecard() {
             Azure DevOps work items, providing real-time sprint health and status visibility for stakeholders.
           </p>
           <p className="text-neutral-300 leading-relaxed">
-            Built using Next.js for the embedded frontend and Azure API Web App for the backend, with secure Azure AD 
-            authentication and real-time data integration through the Azure DevOps REST API. The extension transforms 
-            traditional status meetings into instant, data-driven insights for both internal teams and external stakeholders.
+            Built using Next.js for the embedded frontend and Azure API Web App for the backend, with real-time data 
+            integration through the Azure DevOps REST API. The extension transforms traditional status meetings into 
+            instant, data-driven insights for both internal teams and external stakeholders.
           </p>
         </div>
       </section>
 
-      {/* Features Overview */}
+      {/* Core Capabilities */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Core Capabilities</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -103,7 +115,7 @@ export default function DevOpsScorecard() {
           />
           <FeatureCard 
             title="Azure DevOps Integration"
-            description="Seamlessly integrates with Azure DevOps REST API and Azure AD authentication for secure data access."
+            description="Seamlessly integrates with Azure DevOps REST API for secure data access within the Azure DevOps environment."
             icon="🔗"
           />
           <FeatureCard 
@@ -118,7 +130,7 @@ export default function DevOpsScorecard() {
           />
           <FeatureCard 
             title="Stakeholder Visibility"
-            description="Instant insights for both internal teams and external stakeholders through embedded dashboard."
+            description="Data-driven insights for both internal teams and external stakeholders through embedded dashboard."
             icon="👥"
           />
         </div>
@@ -126,165 +138,60 @@ export default function DevOpsScorecard() {
 
       {/* Technical Architecture */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">System Architecture</h2>
-        <div className="grid lg:grid-cols-2 gap-8">
-          <div className="space-y-6">
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Data Collection Layer</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Azure DevOps REST API integration</li>
-                <li>• Real-time sprint and work item data fetching</li>
-                <li>• Webhook listeners for real-time updates (planned)</li>
-                <li>• Scheduled data synchronization jobs (planned)</li>
-              </ul>
-            </div>
-            
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Data Presentation Layer</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Sprint summary and status visualization</li>
-                <li>• Goals and achievements tracking display</li>
-                <li>• Impediments and risks identification</li>
-                <li>• Next sprint planning overview</li>
-              </ul>
-            </div>
+        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Technical Architecture</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+            <h3 className="text-lg font-bold text-white mb-4">Backend & Data Integration</h3>
+            <ul className="space-y-2 text-neutral-300 text-sm">
+              <li>• Azure API Web App backend services</li>
+              <li>• Azure DevOps REST API integration</li>
+              <li>• Azure DevOps native authentication</li>
+              <li>• Sprint and work item data fetching</li>
+            </ul>
           </div>
           
-          <div className="space-y-6">
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Visualization Layer</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Embedded Next.js application within Azure DevOps UI</li>
-                <li>• Real-time sprint summary dashboard</li>
-                <li>• Executive summary reports</li>
-                <li>• Custom work item board integration</li>
-              </ul>
-            </div>
-            
-            <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <h3 className="text-lg font-bold text-white mb-4">Infrastructure</h3>
-              <ul className="space-y-2 text-neutral-300 text-sm">
-                <li>• Azure API Web App backend services</li>
-                <li>• Azure DevOps REST API integration</li>
-                <li>• Azure AD authentication and authorization</li>
-                <li>• Azure Static Web Apps for frontend deployment</li>
-              </ul>
-            </div>
+          <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+            <h3 className="text-lg font-bold text-white mb-4">Frontend & Visualization</h3>
+            <ul className="space-y-2 text-neutral-300 text-sm">
+              <li>• Embedded Next.js application within Azure DevOps UI</li>
+              <li>• Sprint summary dashboard and status visualization</li>
+              <li>• Goals, achievements, and impediments tracking</li>
+              <li>• Azure Static Web Apps for frontend deployment</li>
+            </ul>
           </div>
         </div>
       </section>
 
-      {/* Key Achievements */}
+      {/* Impact & Results */}
       <section className="mb-16">
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Impact & Results</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          {project.highlights.map((highlight, index) => (
-            <div key={index} className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-              <div className="flex items-start gap-3">
-                <span className="text-cyan-400 text-lg mt-1">✓</span>
-                <p className="text-neutral-300">{highlight}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      {/* Implementation Details */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Technical Implementation</h2>
-        <div className="space-y-8">
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Azure DevOps Data Integration</h3>
-            <p className="text-neutral-300 mb-6">
-              Comprehensive data collection system that automatically gathers sprint information from Azure DevOps, 
-              providing real-time visibility into sprint health and progress for stakeholders.
-            </p>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-semibold text-cyan-400 mb-3">Platform Integration</h4>
-                <div className="flex flex-wrap gap-2">
-                  <TechBadge tech="Azure DevOps" />
-                  <TechBadge tech="Azure AD" />
-                  <TechBadge tech="Azure Static Web Apps" />
-                  <TechBadge tech="Azure API Web App" />
-                </div>
-              </div>
-              <div>
-                <h4 className="font-semibold text-cyan-400 mb-3">Data Categories</h4>
-                <ul className="text-sm text-neutral-300 space-y-1">
-                  <li>• Sprint goals and achievements</li>
-                  <li>• Work item status and progress</li>
-                  <li>• Impediments and risk tracking</li>
-                  <li>• Next sprint planning items</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Sprint Data Visualization</h3>
-            <p className="text-neutral-300 mb-6">
-              Clean, organized presentation of sprint information that transforms Azure DevOps work item data 
-              into an easily digestible format for both technical teams and business stakeholders.
-            </p>
-            <div className="grid md:grid-cols-3 gap-4">
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-cyan-400 mb-2">Goals</div>
-                <div className="text-xs text-neutral-300">Sprint Objectives</div>
-              </div>
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-emerald-400 mb-2">Status</div>
-                <div className="text-xs text-neutral-300">Health Indicators</div>
-              </div>
-              <div className="text-center p-4 rounded-lg bg-neutral-700/50">
-                <div className="text-2xl font-bold text-blue-400 mb-2">Planning</div>
-                <div className="text-xs text-neutral-300">Next Sprint Items</div>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-            <h3 className="text-xl font-bold text-white mb-4">Dashboard & Reporting</h3>
-            <p className="text-neutral-300 mb-4">
-              Created intuitive dashboard system that transforms complex DevOps metrics into actionable insights, 
-              enabling teams to track progress and executives to understand organizational DevOps maturity at a glance.
-            </p>
-            <div className="flex flex-wrap gap-2">
-              <TechBadge tech="Real-time Updates" />
-              <TechBadge tech="Custom Filters" />
-              <TechBadge tech="Export Capabilities" />
-              <TechBadge tech="Mobile Responsive" />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Business Impact */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Business Impact</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
           </div>
           
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-cyan-400 mb-4">Operational Benefits</h4>
-              <ul className="space-y-2 text-neutral-300">
-                <li>• Eliminates need for lengthy status meeting presentations</li>
-                <li>• Provides instant sprint visibility for stakeholders</li>
-                <li>• Reduces time spent gathering sprint status information</li>
-                <li>• Centralizes sprint health data in one accessible location</li>
-              </ul>
+              <h4 className="text-lg font-bold text-cyan-400 mb-4">Key Achievements</h4>
+              <div className="space-y-3">
+                {project.highlights.map((highlight, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <span className="text-cyan-400 text-lg mt-1">✓</span>
+                    <p className="text-neutral-300 text-sm">{highlight}</p>
+                  </div>
+                ))}
+              </div>
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Strategic Benefits</h4>
+              <h4 className="text-lg font-bold text-emerald-400 mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
+                <li>• Eliminates need for lengthy status meeting presentations</li>
+                <li>• Provides sprint visibility for stakeholders</li>
+                <li>• Reduces time spent gathering sprint status information</li>
                 <li>• Improves transparency for external stakeholders</li>
                 <li>• Enables data-driven sprint planning decisions</li>
                 <li>• Enhances Agile process visibility and accountability</li>
-                <li>• Streamlines sprint review and retrospective preparation</li>
               </ul>
             </div>
           </div>
@@ -293,8 +200,7 @@ export default function DevOpsScorecard() {
 
       {/* Project Timeline */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Timeline</h2>
-        <div className="text-center p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <span className="text-lg font-mono text-neutral-300">{project.timeline}</span>
         </div>
       </section>

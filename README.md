@@ -1,12 +1,11 @@
+# pryceTharpe.dev – Personal Portfolio
 
-# pryceTharpe.dev – Personal Portfolio + Photography Site
-
-A **Next.js 15 + TypeScript** app that showcases my engineering projects, code write-ups, and photography.
+A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, technical expertise, and personal interests. Features live Spotify data integration, photography galleries(coming soon), and comprehensive project documentation.
 
 | Environment | URL |
 |-------------|-----|
-| **Production (custom domain – coming soon)** | <https://prycetharpe.dev> |
-| **Current Vercel deployment** | <https://portfolio-seven-neon-7556zgb8u4.vercel.app> |
+| **Production** | <https://prycetharpe.dev> |
+| **Preview** | <https://portfolio-seven-neon-7556zgb8u4.vercel.app> |
 
 ---
 
@@ -21,6 +20,7 @@ A **Next.js 15 + TypeScript** app that showcases my engineering projects, code w
 | Language         | **TypeScript (strict)**     | Path alias `@/*`                                                     |
 | Styling          | **Tailwind CSS**            | Utility-first, JIT build                                             |
 | Hosting / CI-CD  | **Vercel (Hobby)**          | Auto-deploy on `main`, preview URLs per PR                           |
+| Analytics        | **Vercel Analytics**        | Performance monitoring and insights                                  |
 
 ---
 
@@ -28,7 +28,7 @@ A **Next.js 15 + TypeScript** app that showcases my engineering projects, code w
 
 ```bash
 # 0 Clone
-git clone https://github.com/<your-github>/portfolio.git
+git clone https://github.com/prycetharpe/portfolio.git
 cd portfolio
 
 # 1 Install deps
@@ -37,9 +37,9 @@ pnpm install        # or npm / yarn / bun
 # 2 Run dev server
 pnpm dev
 # → http://localhost:3000
+```
 
 ---
-```
 
 ## 📂 Project Structure
 
@@ -47,18 +47,47 @@ pnpm dev
 src/
 │
 ├─ app/                  # Next.js routes
-│   ├─ layout.tsx        # Root layout (fonts + Nav)
-│   ├─ page.tsx          # Landing page
-│   ├─ projects/         # Engineering posts   (next)
-│   └─ photography/      # Gallery route       (next)
+│   ├─ layout.tsx        # Root layout (fonts + Nav + Analytics)
+│   ├─ page.tsx          # Landing page (Featured Projects + Experience)
+│   ├─ about/            # About page with AI philosophy & Spotify widget
+│   ├─ projects/         # Engineering project pages
+│   ├─ photography/      # Photography galleries
+│   └─ api/              # API routes (Azure photos, future endpoints)
 │
-├─ components/           # Re-usable UI
-│   ├─ Nav.tsx
-│   └─ Card.tsx
+├─ components/           # Re-usable UI components
+│   ├─ Nav.tsx           # Navigation component
+│   ├─ SpotifyWidget.tsx # Live Spotify data display
+│   ├─ PhotoGallery.tsx  # Photography gallery components
+│   └─ ContactDropdown*.tsx # Contact form components
 │
-├─ content/              # MDX project entries (future)
-└─ lib/                  # Server-only helpers (future)
+├─ lib/                  # Utilities and data management
+│   ├─ getProjects.ts    # Project data and categorization
+│   ├─ spotify-data.ts   # Spotify data loading utilities
+│   ├─ spotify-types.ts  # TypeScript interfaces
+│   └─ azure-photos.ts   # Azure Blob Storage integration
+│
+├─ data/                 # Static data files
+│   └─ spotify-data.json # Live Spotify listening data
+│
+└─ hooks/                # Custom React hooks
+    └─ useAzurePhotos.ts # Azure photo loading hook
 ```
+
+---
+
+## 🎵 Live Features
+
+### **Spotify Integration**
+- **Real-time data**: Top artists, tracks, and daily favorites
+- **Automated updates**: GitHub Actions fetch fresh data daily
+- **Tech stack**: Python + Spotify API + GitHub Actions + TypeScript
+- **Location**: Featured on About page in "Beyond Code" section
+
+### **Photography Galleries** - in progress...
+- **Azure Blob Storage**: Secure, scalable image hosting
+- **Dynamic collections**: NYC 2025, Mountains 2021, Zoo 2022
+- **Optimized delivery**: SAS URLs with automatic expiration
+- **Responsive design**: Mobile-first gallery layouts
 
 ---
 
@@ -70,31 +99,41 @@ src/
 | `pnpm build`  | Production build → `.next/`                  |
 | `pnpm start`  | Run the **built** app locally                |
 | `pnpm lint`   | ESLint + TypeScript checks                   |
-| `pnpm format` | Prettier via Husky pre-commit hook           |
 
 ---
 
-## 🌐 Deploy & Custom Domain
+## 🤖 Automation & DevOps
 
-1. **Connect GitHub** repo to Vercel → every push to `main` auto-deploys.
-2. **Add domain** `prycetharpe.dev` in **Project ▸ Settings ▸ Domains** and follow DNS instructions.
-3. HTTPS is issued automatically.
+### **GitHub Actions**
+- **Spotify Data Sync**: Daily automated updates of listening data
+- **Auto-deployment**: Vercel integration for seamless deployments
+- **Security**: Secrets management for API credentials
 
-Manual redeploy of latest commit:
-
-```bash
-vercel --prod
+### **Data Pipeline**
+```mermaid
+graph LR
+    A[Spotify API] --> B[Python Script]
+    B --> C[GitHub Actions]
+    C --> D[JSON Update]
+    D --> E[Vercel Deploy]
+    E --> F[Live Portfolio]
 ```
 
----
+## 🎯 Key Features
 
-## 🗺️ Roadmap
+### **Professional Portfolio**
+- **Featured Projects**: AI System Prompt, Azure ETL Pipeline, DJ Pete Beat Sequencer
+- **Experience Timeline**: Mesh Systems internship, Purdue education
+- **Technical Skills**: Full-stack development, cloud engineering, AI/ML
 
-* [ ] MDX-powered `/projects` list + dynamic pages
-* [ ] `/photography` gallery with `next/image` & lightbox
-* [ ] `/api/contact` → Resend email relay
-* [ ] Lighthouse CI (performance ≥ 90) in GitHub Actions
-* [ ] Playwright end-to-end smoke test
+### **Personal Touch**
+- **Music Integration**: Live Spotify data showing current listening habits
+- **Photography**: Professional galleries showcasing creative work
+
+### **Technical Excellence**
+- **Modern Stack**: Next.js 15, React 19, TypeScript, Tailwind CSS
+- **Performance**: Optimized images, fast loading, responsive design
+- **Automation**: GitHub Actions, automated deployments, live data updates
 
 ---
 
@@ -103,9 +142,14 @@ vercel --prod
 * **Next.js Docs** – [https://nextjs.org/docs](https://nextjs.org/docs)
 * **Tailwind Docs** – [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
 * **Vercel Deploy** – [https://nextjs.org/docs/app/building-your-application/deploying](https://nextjs.org/docs/app/building-your-application/deploying)
-* **pnpm Guide** – [https://pnpm.io/motivation](https://pnpm.io/motivation)
+* **Spotify Web API** – [https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api)
+
+---
+
+## 🤝 Contributing
+
+This is a personal portfolio, but I'm open to suggestions and improvements! Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/pryce-tharpe) or [email](mailto:tharpep_pro@outlook.com)
 
 ---
 
 © 2025 Pryce Tharpe
-

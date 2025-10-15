@@ -1,5 +1,12 @@
 import Link from "next/link";
 import PhotoNav from "@/components/PhotoNav";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Photography – Pryce Tharpe",
+  description: "About the photography work and creative philosophy of Pryce Tharpe.",
+  alternates: { canonical: "/photography/about" },
+};
 
 // PHOTOGRAPHY ABOUT PAGE
 // This is the artistic about page for the photography portfolio
@@ -9,7 +16,7 @@ export default function PhotographyAbout() {
   return (
     <>
       <PhotoNav />
-      <main className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
+      <main id="main" className="min-h-screen bg-gradient-to-br from-black via-neutral-900 to-black text-amber-50">
         
         {/* Hero Section */}
         <section className="relative py-20 px-6 md:px-12 lg:px-20">

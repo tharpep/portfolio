@@ -6,7 +6,7 @@ export default function PhotoNav() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-sm border-b border-amber-900/20 shadow-lg">
+    <nav className="sticky top-0 z-50 w-full bg-black/90 backdrop-blur-sm border-b border-amber-900/20 shadow-lg" role="navigation" aria-label="Photography">
       <div className="flex items-center justify-between px-6 py-4">
         
         {/* Left: Photography Brand */}
@@ -59,6 +59,7 @@ export default function PhotoNav() {
             onClick={() => setMenuOpen(!menuOpen)}
             className="md:hidden text-amber-100 hover:text-amber-300 transition-colors"
             aria-label="Toggle menu"
+            aria-expanded={menuOpen}
           >
             <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
               {menuOpen ? (
