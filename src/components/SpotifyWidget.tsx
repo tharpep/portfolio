@@ -6,17 +6,17 @@ interface SpotifyWidgetProps {
 
 export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
   return (
-    <section className="mb-20">
+    <section className="mb-20 px-4 md:px-0">
       <div className="mb-8">
         <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-400">
           My Music
         </h2>
       </div>
 
-      <div className="grid gap-8 md:grid-cols-3 max-w-6xl mx-auto">
+      <div className="grid gap-6 grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto">
         
         {/* Top Track Today */}
-        <div className="md:col-span-1 flex flex-col">
+        <div className="flex flex-col">
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">#1</span>
             Today&apos;s Top Song
@@ -26,7 +26,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
               <img 
                 src={data.topTrackDay.albumImage} 
                 alt={`${data.topTrackDay.name} album cover`}
-                className="w-40 h-40 rounded-xl shadow-lg group-hover:scale-105 transition-transform"
+                className="w-32 h-32 md:w-40 md:h-40 rounded-xl shadow-lg group-hover:scale-105 transition-transform"
               />
               <div className="w-full">
                 <h4 className="font-semibold text-white group-hover:text-green-300 transition-colors mb-2 text-lg">
@@ -52,7 +52,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
         </div>
 
         {/* Top 5 Songs This Week */}
-        <div className="md:col-span-1">
+        <div>
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">Top 5</span>
             This Week
@@ -95,7 +95,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
         </div>
 
         {/* Top 5 Artists This Year */}
-        <div className="md:col-span-1">
+        <div>
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">Top 5</span>
             Artists This Year
