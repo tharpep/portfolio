@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-22T17:10:52.892672Z",
+  "lastUpdated": "2025-10-23T17:10:23.559270Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -31,7 +31,7 @@
     {
       "name": "RIP",
       "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e4e89e0fb8f94644dfbf785a",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cc1eaff118cae872085fe3e8",
       "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
     },
     {
@@ -55,14 +55,14 @@
     {
       "name": "My Old Ways",
       "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731b24e8e651055d60354d1aa1",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     }
   ],
   "topTrackDay": {
     "name": "RIP",
     "artists": "Miguel",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273e4e89e0fb8f94644dfbf785a",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273cc1eaff118cae872085fe3e8",
     "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
   }
 }
