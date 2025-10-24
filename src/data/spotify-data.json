@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-23T17:10:23.559270Z",
+  "lastUpdated": "2025-10-24T17:10:43.959351Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -31,8 +31,8 @@
     {
       "name": "RIP",
       "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cc1eaff118cae872085fe3e8",
-      "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
+      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
     },
     {
       "name": "Say, Can You Hear",
@@ -47,22 +47,22 @@
       "spotifyUrl": "https://open.spotify.com/track/13UqmpJo3DKZOJkGA6aH5U"
     },
     {
-      "name": "Please Do Not Lean (feat. BADBADNOTGOOD) - Bonus",
-      "artists": "Daniel Caesar, BADBADNOTGOOD",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e242f18dafe885fcf425fe1f",
-      "spotifyUrl": "https://open.spotify.com/track/0BYuy4jQEMJzyo6rySSQpC"
-    },
-    {
       "name": "My Old Ways",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
+    },
+    {
+      "name": "Please Do Not Lean (feat. BADBADNOTGOOD) - Bonus",
+      "artists": "Daniel Caesar, BADBADNOTGOOD",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e242f18dafe885fcf425fe1f",
+      "spotifyUrl": "https://open.spotify.com/track/0BYuy4jQEMJzyo6rySSQpC"
     }
   ],
   "topTrackDay": {
     "name": "RIP",
     "artists": "Miguel",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273cc1eaff118cae872085fe3e8",
-    "spotifyUrl": "https://open.spotify.com/track/2WBKIq4LHfxg29Uo1R2arA"
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
+    "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
   }
 }
