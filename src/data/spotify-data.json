@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-24T17:10:43.959351Z",
+  "lastUpdated": "2025-10-25T17:09:03.977455Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
     },
     {
-      "name": "Tyler, The Creator",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
-      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
-    },
-    {
       "name": "Metro Boomin",
       "image": "https://i.scdn.co/image/ab6761610000e5eb28f1e72b31e756ea3f3a51e7",
       "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
+    },
+    {
+      "name": "Tyler, The Creator",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
+      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
     }
   ],
   "topTracksWeek": [
