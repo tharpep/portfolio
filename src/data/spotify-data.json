@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-28T17:11:15.092574Z",
+  "lastUpdated": "2025-10-29T17:11:15.702843Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
     },
     {
-      "name": "Ring Of Past (2025)",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/13UqmpJo3DKZOJkGA6aH5U"
-    },
-    {
       "name": "My Old Ways",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
@@ -57,6 +51,12 @@
       "artists": "Daniel Caesar, BADBADNOTGOOD",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273e242f18dafe885fcf425fe1f",
       "spotifyUrl": "https://open.spotify.com/track/0BYuy4jQEMJzyo6rySSQpC"
+    },
+    {
+      "name": "Ring Of Past (2025)",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/13UqmpJo3DKZOJkGA6aH5U"
     }
   ],
   "topTrackDay": {
