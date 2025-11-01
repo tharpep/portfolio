@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-10-31T17:11:01.172048Z",
+  "lastUpdated": "2025-11-01T17:08:27.900601Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "RIP",
-      "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
-      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
-    },
-    {
       "name": "Say, Can You Hear",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
       "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
+    },
+    {
+      "name": "RIP",
+      "artists": "Miguel",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
+      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
     },
     {
       "name": "My Old Ways",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "RIP",
-    "artists": "Miguel",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
-    "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
+    "name": "Say, Can You Hear",
+    "artists": "Men I Trust",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
+    "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
   }
 }
