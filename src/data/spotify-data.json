@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-02T17:09:07.770800Z",
+  "lastUpdated": "2025-11-03T17:10:54.501264Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
     },
     {
-      "name": "RIP",
-      "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
-      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
-    },
-    {
       "name": "My Old Ways",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
+    },
+    {
+      "name": "RIP",
+      "artists": "Miguel",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
+      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
     },
     {
       "name": "Please Do Not Lean (feat. BADBADNOTGOOD) - Bonus",
