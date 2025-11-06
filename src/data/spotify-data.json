@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T17:11:20.468081Z",
+  "lastUpdated": "2025-11-06T17:12:06.685844Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,18 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
-      "name": "Say, Can You Hear",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
-      "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
-    },
-    {
-      "name": "RIP",
-      "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273539abadc429d3e3858339414",
-      "spotifyUrl": "https://open.spotify.com/track/13CG8iNoZEwv5WuSODTQTW"
-    },
-    {
       "name": "My Muse",
       "artists": "Leon Thomas",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
@@ -57,6 +45,18 @@
       "artists": "Magdalena Bay",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2737a21a301aa0eafc2ec9e8582",
       "spotifyUrl": "https://open.spotify.com/track/7ISwaPtdHn0D5LlqZAFrh0"
+    },
+    {
+      "name": "Say, Can You Hear",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
+      "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
+    },
+    {
+      "name": "Please Do Not Lean (feat. BADBADNOTGOOD) - Bonus",
+      "artists": "Daniel Caesar, BADBADNOTGOOD",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e242f18dafe885fcf425fe1f",
+      "spotifyUrl": "https://open.spotify.com/track/0BYuy4jQEMJzyo6rySSQpC"
     }
   ],
   "topTrackDay": {
