@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-07T17:10:22.387541Z",
+  "lastUpdated": "2025-11-08T17:08:40.949945Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -22,9 +22,9 @@
       "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
     },
     {
-      "name": "Tyler, The Creator",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
-      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
+      "name": "Travis Scott",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
+      "spotifyUrl": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
     }
   ],
   "topTracksWeek": [
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/7ISwaPtdHn0D5LlqZAFrh0"
     },
     {
-      "name": "Say, Can You Hear",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
-      "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
-    },
-    {
       "name": "Genie",
       "artists": "Crumb",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
       "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
+    },
+    {
+      "name": "Say, Can You Hear",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273decea73a56e51ebe439bed2a",
+      "spotifyUrl": "https://open.spotify.com/track/16Ky4KZFBlAnFzsgQOn5MT"
     }
   ],
   "topTrackDay": {
