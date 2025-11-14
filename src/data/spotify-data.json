@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-13T17:12:42.665770Z",
+  "lastUpdated": "2025-11-14T17:10:43.460605Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -22,18 +22,12 @@
       "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
     },
     {
-      "name": "Travis Scott",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb19c2790744c792d05570bb71",
-      "spotifyUrl": "https://open.spotify.com/artist/0Y5tJX1MQlPlqiwlOH1tJY"
+      "name": "Tyler, The Creator",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
+      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
     }
   ],
   "topTracksWeek": [
-    {
-      "name": "My Old Ways",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
-    },
     {
       "name": "My Muse",
       "artists": "Leon Thomas",
@@ -53,6 +47,12 @@
       "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
     },
     {
+      "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
+      "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
+      "spotifyUrl": "https://open.spotify.com/track/4Hff1IjRbLGeLgFgxvHflk"
+    },
+    {
       "name": "Obsolete",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "My Old Ways",
-    "artists": "Tame Impala",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-    "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
+    "name": "My Muse",
+    "artists": "Leon Thomas",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+    "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
   }
 }
