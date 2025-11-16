@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-15T17:08:30.175769Z",
+  "lastUpdated": "2025-11-16T17:09:13.189381Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,10 +29,10 @@
   ],
   "topTracksWeek": [
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
+      "name": "Genie",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
+      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
     },
     {
       "name": "Paint Me A Picture",
@@ -41,10 +41,10 @@
       "spotifyUrl": "https://open.spotify.com/track/7ISwaPtdHn0D5LlqZAFrh0"
     },
     {
-      "name": "Genie",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
+      "name": "My Muse",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     },
     {
       "name": "My Old Ways",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "My Muse",
-    "artists": "Leon Thomas",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-    "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
+    "name": "Genie",
+    "artists": "Crumb",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
+    "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
   }
 }
