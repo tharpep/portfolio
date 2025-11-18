@@ -19,3 +19,20 @@ furnished to do so, subject to the following conditions:
    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
    SOFTWARE.
+
+---
+
+## EXCLUSIONS
+
+This MIT License applies ONLY to the source code, configuration files, and 
+build tooling of this portfolio website. The following content is EXCLUDED 
+from this license and is subject to separate licensing terms (see 
+LICENSE-PERSONAL.md):
+
+- Personal data files (resumes, CVs, personal documents)
+- Project descriptions, highlights, and personal work content
+- Photography and images (when present)
+- Spotify listening data and personal music preferences
+- Any other personal content, biographical information, or creative works
+
+All excluded content remains All Rights Reserved by Pryce Tharpe.

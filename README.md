@@ -152,4 +152,21 @@ This is a personal portfolio, but I'm open to suggestions and improvements! Feel
 
 ---
 
+## 📄 License
+
+This portfolio uses **dual licensing**:
+
+- **MIT License** (see [LICENSE](LICENSE)) - Applies to source code, configuration files, and build tooling. You are free to use, modify, and distribute the code.
+
+- **All Rights Reserved** (see [LICENSE-PERSONAL.md](LICENSE-PERSONAL.md)) - Applies to personal content including:
+  - Resume/CV documents
+  - Project descriptions and personal work content
+  - Spotify listening data
+  - Photography and images
+  - Personal biographical information
+
+The code is open source, but personal content remains protected. Feel free to fork and adapt the codebase for your own portfolio!
+
+---
+
 © 2025 Pryce Tharpe
