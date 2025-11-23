@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-22T17:09:05.962257Z",
+  "lastUpdated": "2025-11-23T17:09:44.768650Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
-    },
-    {
       "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
       "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
@@ -57,6 +51,12 @@
       "artists": "Brent Faiyaz",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733f7febc8a37f4e2002528e1b",
       "spotifyUrl": "https://open.spotify.com/track/55Doxe1XJGnB88uYpLf6xW"
+    },
+    {
+      "name": "Husk",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
+      "spotifyUrl": "https://open.spotify.com/track/0iMSUfh4oQplV5OrmrlIbm"
     }
   ],
   "topTrackDay": {
