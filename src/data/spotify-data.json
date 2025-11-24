@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-23T17:09:44.768650Z",
+  "lastUpdated": "2025-11-24T17:11:18.952654Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Genie",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
-    },
-    {
       "name": "My Old Ways",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
+    },
+    {
+      "name": "Genie",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
+      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
     },
     {
       "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "Genie",
-    "artists": "Crumb",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-    "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
+    "name": "My Old Ways",
+    "artists": "Tame Impala",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+    "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
   }
 }
