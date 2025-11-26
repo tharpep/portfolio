@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-25T17:12:40.025911Z",
+  "lastUpdated": "2025-11-26T17:10:55.151730Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
-      "name": "Genie",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
-    },
-    {
       "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
       "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
@@ -57,6 +51,12 @@
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
       "spotifyUrl": "https://open.spotify.com/track/0iMSUfh4oQplV5OrmrlIbm"
+    },
+    {
+      "name": "Genie",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
+      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
     }
   ],
   "topTrackDay": {
