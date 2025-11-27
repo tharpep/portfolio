@@ -49,7 +49,6 @@ export default function AzureETLPipeline() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl">📊</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Deployed
           </span>

@@ -62,7 +62,6 @@ export default function DevopsScorecard() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl">📊</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Deployed
           </span>
@@ -106,27 +105,27 @@ export default function DevopsScorecard() {
           <FeatureCard 
             title="Sprint Summary Dashboard"
             description="Clean, organized display of current sprint information including status, goals, achievements, and key metrics."
-            icon="📊"
+            icon=""
           />
           <FeatureCard 
             title="Goals & Achievements Tracking"
             description="Visual representation of sprint goals with completion status and accomplishments throughout the sprint."
-            icon="🎯"
+            icon=""
           />
           <FeatureCard 
             title="Azure DevOps Integration"
             description="Seamlessly integrates with Azure DevOps REST API for secure data access within the Azure DevOps environment."
-            icon="🔗"
+            icon=""
           />
           <FeatureCard 
             title="Impediments & Risks Management"
             description="Clear visibility into sprint blockers, risks, and their impact levels with resolution planning."
-            icon="⚠️"
+            icon=""
           />
           <FeatureCard 
             title="Next Sprint Planning"
             description="Overview of upcoming sprint goals and planning items to maintain forward momentum."
-            icon="📅"
+            icon=""
           />
           <FeatureCard 
             title="Stakeholder Visibility"
@@ -176,7 +175,7 @@ export default function DevopsScorecard() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-cyan-400 text-lg mt-1">✓</span>
+                    <span className="text-cyan-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

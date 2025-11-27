@@ -60,7 +60,6 @@ export default function Portfolio() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl">🌐</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Live & Active
           </span>
@@ -118,22 +117,22 @@ export default function Portfolio() {
           <FeatureCard 
             title="Modern Web Stack"
             description="Built with Next.js 15 App Router, React 19 Server Components, TypeScript strict mode, and Tailwind CSS for utility-first styling and optimal performance."
-            icon="⚡"
+            icon=""
           />
           <FeatureCard 
             title="Spotify Integration"
             description="Live music data display with Python scripts fetching top artists, tracks, and daily favorites via Spotify API, updated daily via GitHub Actions."
-            icon="🎵"
+            icon=""
           />
           <FeatureCard 
             title="Automated Deployments"
             description="GitHub Actions workflow for daily automated Spotify data updates with secure secrets management and Vercel auto-deployment on every push."
-            icon="🚀"
+            icon=""
           />
           <FeatureCard 
             title="Cloud Storage Integration"
             description="Azure Blob Storage integration for scalable image hosting with dynamic SAS URLs, optimized delivery, and secure access controls."
-            icon="☁️"
+            icon=""
           />
         </div>
       </section>
@@ -152,7 +151,7 @@ export default function Portfolio() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-cyan-400 text-lg mt-1">✓</span>
+                    <span className="text-cyan-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

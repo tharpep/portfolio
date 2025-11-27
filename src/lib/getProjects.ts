@@ -137,7 +137,7 @@ const projects: Project[] = [
   },
   {
     slug: "personal-ai-system",
-    title: "MY-AI - Privacy-Focused Personal AI Assistant",
+    title: "MY-AI - Personal AI Assistant",
     description: "Privacy-first local AI assistant platform featuring Retrieval Augmented Generation (RAG) with personal document knowledge bases and extensible tool integration. Architected a modular system with local-first processing using Ollama and optional cloud fallbacks.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"],
@@ -197,28 +197,28 @@ export const projectCategories: ProjectCategory[] = [
     id: "data-analytics",
     name: "Data & Analytics",
     description: "Scalable solutions transforming raw data into actionable insights through advanced ETL pipelines, real-time processing, and intelligent automation.",
-    icon: "📊",
+    icon: "",
     projects: projects.filter(p => p.category === "data-analytics")
   },
   {
     id: "creative-tech",
     name: "Creative Technology",
     description: "Innovative applications bridging art and engineering, combining technical excellence with creative expression to build engaging user experiences.",
-    icon: "🎨",
+    icon: "",
     projects: projects.filter(p => p.category === "creative-tech")
   },
   {
     id: "ai-ml",
     name: "AI & Machine Learning",
     description: "Cutting-edge AI solutions leveraging machine learning, natural language processing, and prompt engineering to solve complex business challenges.",
-    icon: "🤖",
+    icon: "",
     projects: projects.filter(p => p.category === "ai-ml")
   },
   {
     id: "hardware-embedded",
     name: "Hardware & Embedded Systems",
     description: "Low-level systems engineering projects exploring embedded firmware, signal processing, and RF technologies in hardware and software systems.",
-    icon: "⚙️",
+    icon: "",
     projects: projects.filter(p => p.category === "hardware-embedded")
   }
 ];

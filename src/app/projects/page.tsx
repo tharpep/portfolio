@@ -67,7 +67,6 @@ function CategorySection({ category }: { category: ProjectCategory }) {
   return (
     <section className="mb-16">
       <div className="flex items-center gap-4 mb-6">
-        <div className="text-4xl">{category.icon}</div>
         <div>
           <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-2">
             {category.name}

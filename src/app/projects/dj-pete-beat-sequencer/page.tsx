@@ -61,7 +61,6 @@ export default function DJPeteBeatSequencer() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🎨</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Purdue Spark Challenge
           </span>
@@ -142,22 +141,22 @@ export default function DJPeteBeatSequencer() {
           <FeatureCard 
             title="Multi-Protocol Communication"
             description="Implemented I2C and SPI communication protocols for seamless integration with Adafruit NeoTrellis RGB keypads and external peripherals."
-            icon="🔗"
+            icon=""
           />
           <FeatureCard 
             title="DMA-Driven Audio Processing"
             description="Leveraged Direct Memory Access for real-time audio sample streaming to DAC, eliminating CPU bottlenecks in audio processing pipeline."
-            icon="🎵"
+            icon=""
           />
           <FeatureCard 
             title="Real-time RGB Control"
             description="Dynamic LED matrix management with per-key RGB control, creating visual feedback system synchronized with audio patterns."
-            icon="💡"
+            icon=""
           />
           <FeatureCard 
             title="Low-Level Optimization"
             description="Hand-optimized ARM assembly routines for critical audio paths, achieving deterministic timing for professional music applications."
-            icon="⚙️"
+            icon=""
           />
         </div>
       </section>
@@ -176,7 +175,7 @@ export default function DJPeteBeatSequencer() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-purple-400 text-lg mt-1">⚡</span>
+                    <span className="text-purple-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

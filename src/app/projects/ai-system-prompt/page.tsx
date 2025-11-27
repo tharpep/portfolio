@@ -63,7 +63,6 @@ export default function AISystemPrompt() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl">🤖</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Enterprise Rollout
           </span>
@@ -92,22 +91,22 @@ export default function AISystemPrompt() {
           <FeatureCard 
             title="Standards Enforcement"
             description="Automatically enforces coding standards with rule citations, ensuring consistent code quality across all teams and projects."
-            icon="📋"
+            icon=""
           />
           <FeatureCard 
             title="Multi-IDE Integration"
             description="Seamlessly integrates with Cursor, Windsurf, and VsCode IDEs, providing consistent AI assistance across development environments."
-            icon="💻"
+            icon=""
           />
           <FeatureCard 
             title="Security Compliance"
             description="Built-in security patterns prevent unsafe code generation, credential exposure, and compliance violations."
-            icon="🔒"
+            icon=""
           />
           <FeatureCard 
             title="Multi-Language Support"
             description="Supports C#, C/C++, JavaScript/TypeScript, Python, Java, SQL, Bash, Rust, and Go with language-specific patterns and standards."
-            icon="🌐"
+            icon=""
           />
         </div>
       </section>
@@ -127,7 +126,7 @@ export default function AISystemPrompt() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-green-400 text-lg mt-1">✓</span>
+                    <span className="text-green-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

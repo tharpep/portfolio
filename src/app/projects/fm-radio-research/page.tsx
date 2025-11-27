@@ -61,7 +61,6 @@ export default function FmRadioResearch() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🔬</div>
           <span className="px-3 py-1 text-xs font-medium bg-blue-900/30 text-blue-300 rounded-full border border-blue-700/50">
             Academic Research
           </span>
@@ -91,22 +90,22 @@ export default function FmRadioResearch() {
           <FeatureCard 
             title="Automated Signal Detection"
             description="Sophisticated algorithms for identifying FM radio signals across the spectrum with configurable sensitivity and frequency scanning capabilities."
-            icon="🎯"
+            icon=""
           />
           <FeatureCard 
             title="Real-time Demodulation"
             description="High-performance FM demodulation pipeline converting RF signals to baseband audio with minimal latency and distortion."
-            icon="⚡"
+            icon=""
           />
           <FeatureCard 
             title="GNU Radio Integration"
             description="Advanced signal processing workflows using GNU Radio's comprehensive DSP library and flowgraph architecture."
-            icon="🔧"
+            icon=""
           />
           <FeatureCard 
             title="USRP Hardware Control"
             description="Direct interface with USRP software-defined radio hardware for precise frequency control, gain adjustment, and sampling configuration."
-            icon="📻"
+            icon=""
           />
         </div>
       </section>

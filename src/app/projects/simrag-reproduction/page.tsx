@@ -60,7 +60,6 @@ export default function SimRAGReproduction() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl">🔬</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Completed
           </span>
@@ -103,22 +102,22 @@ export default function SimRAGReproduction() {
           <FeatureCard 
             title="Unified AI Gateway"
             description="Provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection for optimal performance."
-            icon="🌐"
+            icon=""
           />
           <FeatureCard 
             title="RAG Implementation"
             description="Complete RAG system with Sentence Transformers for embeddings, Qdrant vector storage, and context-aware question answering with source citations."
-            icon="📚"
+            icon=""
           />
           <FeatureCard 
             title="Model Training"
             description="Successfully trained and tested model on personal hardware, demonstrating practical ML engineering skills beyond typical academic projects."
-            icon="🧠"
+            icon=""
           />
           <FeatureCard 
             title="Experiment Framework"
             description="Structured experiment framework for research reproducibility with comprehensive logging, result tracking, and automated testing."
-            icon="🔬"
+            icon=""
           />
         </div>
       </section>
@@ -137,7 +136,7 @@ export default function SimRAGReproduction() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-indigo-400 text-lg mt-1">✓</span>
+                    <span className="text-indigo-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

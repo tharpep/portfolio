@@ -61,7 +61,6 @@ export default function CustomGpts() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🤖</div>
           <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
             Enterprise Adopted
           </span>
@@ -90,12 +89,12 @@ export default function CustomGpts() {
           <FeatureCard 
             title="System Prompt Builder"
             description="Sophisticated GPT designed to assist users at all skill levels in creating effective system prompts with adaptive guidance and best practice recommendations."
-            icon="🔧"
+            icon=""
           />
           <FeatureCard 
             title="Student Career Archivist"
             description="Professional career documentation assistant that helps organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews."
-            icon="📚"
+            icon=""
           />
         </div>
       </section>
@@ -107,12 +106,12 @@ export default function CustomGpts() {
           <FeatureCard 
             title="Advanced Prompt Engineering"
             description="Sophisticated prompt design incorporating context injection, role definition, and output formatting for consistent, high-quality responses."
-            icon="🔧"
+            icon=""
           />
           <FeatureCard 
             title="User Experience Focus"
             description="Intuitive conversation flows designed to guide users naturally through complex processes while maintaining engagement and clarity."
-            icon="🎯"
+            icon=""
           />
           <FeatureCard 
             title="Enterprise Integration"
@@ -122,7 +121,7 @@ export default function CustomGpts() {
           <FeatureCard 
             title="Performance Optimization"
             description="Response time optimization through efficient prompt design, token usage minimization, and quality consistency across interaction patterns."
-            icon="⚡"
+            icon=""
           />
         </div>
       </section>
@@ -141,7 +140,7 @@ export default function CustomGpts() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-blue-400 text-lg mt-1">🎯</span>
+                    <span className="text-blue-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

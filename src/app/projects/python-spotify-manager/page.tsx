@@ -61,7 +61,6 @@ export default function PythonSpotifyManager() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🎵</div>
           <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
             In Progress
           </span>
@@ -91,22 +90,22 @@ export default function PythonSpotifyManager() {
           <FeatureCard 
             title="Advanced Authentication"
             description="Robust OAuth 2.0 implementation with secure token management, refresh handling, and user privacy protection following Spotify's API guidelines."
-            icon="🔒"
+            icon=""
           />
           <FeatureCard 
             title="Data Analysis Pipeline"
             description="Comprehensive data processing using Pandas for music analytics, listening pattern analysis, and statistical insights generation."
-            icon="📊"
+            icon=""
           />
           <FeatureCard 
             title="Playlist Management"
             description="Automated playlist creation, modification, and optimization tools with intelligent music curation and recommendation features."
-            icon="🎶"
+            icon=""
           />
           <FeatureCard 
             title="Music Insights"
             description="Deep analysis of listening habits, genre preferences, and temporal patterns providing actionable insights into music consumption."
-            icon="🎯"
+            icon=""
           />
         </div>
       </section>
@@ -127,7 +126,7 @@ export default function PythonSpotifyManager() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-green-400 text-lg mt-1">🎵</span>
+                    <span className="text-green-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}

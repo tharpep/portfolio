@@ -60,7 +60,6 @@ export default function PersonalAiSystem() {
       {/* Hero Section */}
       <section className="mb-16">
         <div className="flex items-center gap-3 mb-4">
-          <div className="text-4xl animate-pulse">🤖</div>
           <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
             In Progress - RAG MVP
           </span>
@@ -103,22 +102,22 @@ export default function PersonalAiSystem() {
           <FeatureCard 
             title="RAG Knowledge Retrieval"
             description="Advanced retrieval-augmented generation system with document ingestion, vector search, and citation-based knowledge synthesis."
-            icon="📚"
+            icon=""
           />
           <FeatureCard 
             title="Tool Integration Framework"
             description="Extensible tool allowlist system with strict validation, safety guardrails, and support for external API integrations."
-            icon="🔧"
+            icon=""
           />
           <FeatureCard 
             title="Local-First Architecture"
             description="Privacy-focused design with local AI models (Ollama/vLLM) and cloud fallback options for optimal performance and security."
-            icon="🏠"
+            icon=""
           />
           <FeatureCard 
             title="API Gateway Design"
             description="Comprehensive API architecture with LLM Gateway for language intelligence and Personal API for orchestration and routing."
-            icon="🌐"
+            icon=""
           />
         </div>
       </section>
@@ -130,22 +129,22 @@ export default function PersonalAiSystem() {
           <FeatureCard 
             title="LLM Gateway"
             description="Dedicated service for language model interactions with streaming support, timeout management, and model routing capabilities."
-            icon="⚡"
+            icon=""
           />
           <FeatureCard 
             title="Document Processing"
             description="Automated document ingestion with provenance tracking, ACL management, and vector database integration for efficient retrieval."
-            icon="📄"
+            icon=""
           />
           <FeatureCard 
             title="Tool Orchestration"
             description="Intelligent routing system with JSON schema validation, uncertainty handling, and fallback mechanisms for reliable tool execution."
-            icon="🎯"
+            icon=""
           />
           <FeatureCard 
             title="Security & Privacy"
             description="Comprehensive security model with PII redaction, bearer token authentication, and local-first data storage policies."
-            icon="🔒"
+            icon=""
           />
         </div>
       </section>
@@ -164,7 +163,7 @@ export default function PersonalAiSystem() {
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
-                    <span className="text-purple-400 text-lg mt-1">🚀</span>
+                    <span className="text-purple-400 text-lg mt-1">•</span>
                     <p className="text-neutral-300 text-sm">{highlight}</p>
                   </div>
                 ))}
