@@ -83,7 +83,8 @@ const projects: Project[] = [
       "Presented at Purdue Spark Challenge showcasing technical innovation",
       "Demonstrated expertise in low-level hardware programming and real-time systems"
     ],
-    impact: "Showcased embedded systems expertise through creative music technology, bridging hardware and artistic expression"
+    impact: "Showcased embedded systems expertise through creative music technology, bridging hardware and artistic expression",
+    githubUrl: "https://github.com/tharpep/ECE362-Project"
   },
   {
     slug: "ai-system-prompt",
@@ -122,7 +123,7 @@ const projects: Project[] = [
     slug: "fm-radio-research",
     title: "FM Radio Detection & Demodulation",
     description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio, implementing robust signal processing workflows and automation scripts.",
-    category: "research-engineering",
+    category: "hardware-embedded",
     technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
     timeline: "Academic Research - 2024",
     status: "completed",
@@ -136,19 +137,58 @@ const projects: Project[] = [
   },
   {
     slug: "personal-ai-system",
-    title: "Personal AI System",
-    description: "Comprehensive personal AI assistant with RAG capabilities, tool integration, and local-first architecture. Currently implementing MVP with document retrieval and knowledge synthesis.",
+    title: "MY-AI - Privacy-Focused Personal AI Assistant",
+    description: "Privacy-first local AI assistant platform featuring Retrieval Augmented Generation (RAG) with personal document knowledge bases and extensible tool integration. Architected a modular system with local-first processing using Ollama and optional cloud fallbacks.",
     category: "ai-ml",
-    technologies: ["Python", "RAG", "Vector Databases", "LLM Gateway", "API Design", "Local AI", "Tool Integration"],
-    timeline: "2024 - Present",
+    technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"],
+    timeline: "August 2025 - Present",
     status: "in-progress",
     highlights: [
-      "Designed comprehensive API architecture with LLM Gateway and Personal API",
-      "Implemented RAG MVP with document ingestion and retrieval capabilities",
-      "Built tool allowlist system with strict validation and safety guardrails",
-      "Created local-first architecture with cloud fallback options"
+      "Designed unified AI provider interface with OpenAI-compatible endpoints supporting dynamic provider/model selection",
+      "Implemented full document ingestion pipeline with chunking, Qdrant vector storage, and cited answer retrieval",
+      "Created extensible tool framework with registry system, parameter validation, and allowlist security",
+      "Built SQLite-based request tracking system with unique request IDs and performance metrics",
+      "Developed comprehensive Typer-based CLI with interactive chat, demos, and tab completion support"
     ],
-    impact: "Developing a secure, extensible personal AI system that combines knowledge retrieval with intelligent tool orchestration"
+    impact: "Developing a secure, extensible personal AI system that combines knowledge retrieval with intelligent tool orchestration",
+    githubUrl: "https://github.com/tharpep/MY-AI"
+  },
+  {
+    slug: "portfolio",
+    title: "Portfolio Website",
+    description: "Modern portfolio website with Next.js 15 App Router featuring live Spotify integration, automated data updates via GitHub Actions, and dynamic photography galleries with Azure Blob Storage.",
+    category: "creative-tech",
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API", "Azure Blob Storage"],
+    timeline: "May 2025 - Present",
+    status: "in-progress",
+    highlights: [
+      "Built with Next.js 15 App Router, React 19 Server Components, and TypeScript strict mode",
+      "Implemented live Spotify data display with Python scripts fetching top artists, tracks, and daily favorites",
+      "Created GitHub Actions workflow for daily automated Spotify data updates with secure secrets management",
+      "Integrated Azure Blob Storage for scalable image hosting with dynamic SAS URLs and optimized delivery",
+      "Configured auto-deployment on Vercel with preview URLs per PR for seamless development workflow"
+    ],
+    impact: "Showcasing professional projects and technical expertise through a modern, performant web presence with automated content updates",
+    githubUrl: "https://github.com/tharpep/portfolio",
+    demoUrl: "https://prycetharpe.dev"
+  },
+  {
+    slug: "simrag-reproduction",
+    title: "SimRAG Reproduction Study",
+    description: "Educational reproduction study of SimRAG paper focusing on similarity-based Retrieval Augmented Generation techniques. Built clean, modular implementation for learning RAG fundamentals and fine-tuning concepts.",
+    category: "ai-ml",
+    technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
+    timeline: "August - December 2025",
+    status: "completed",
+    highlights: [
+      "Designed provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection",
+      "Built RAG system with Sentence Transformers for embeddings, Qdrant vector storage, and context-aware question answering",
+      "Implemented both synchronous and asynchronous API calls for flexible integration patterns",
+      "Successfully trained and tested model on personal hardware, demonstrating practical ML engineering skills",
+      "Created comprehensive test suite with mocked external dependencies for reproducible testing"
+    ],
+    impact: "Advanced understanding of RAG fundamentals and fine-tuning concepts through hands-on implementation, demonstrating practical ML engineering beyond academic requirements",
+    githubUrl: "https://github.com/tharpep/SimRAG-Reproduction"
   }
 ];
 
@@ -175,11 +215,11 @@ export const projectCategories: ProjectCategory[] = [
     projects: projects.filter(p => p.category === "ai-ml")
   },
   {
-    id: "research-engineering",
-    name: "Research & Engineering",
-    description: "Academic and research projects exploring advanced engineering concepts, signal processing, and emerging technologies in hardware and software systems.",
-    icon: "🔬",
-    projects: projects.filter(p => p.category === "research-engineering")
+    id: "hardware-embedded",
+    name: "Hardware & Embedded Systems",
+    description: "Low-level systems engineering projects exploring embedded firmware, signal processing, and RF technologies in hardware and software systems.",
+    icon: "⚙️",
+    projects: projects.filter(p => p.category === "hardware-embedded")
   }
 ];
 
