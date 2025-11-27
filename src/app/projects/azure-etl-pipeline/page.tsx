@@ -55,7 +55,7 @@ export default function AzureETLPipeline() {
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
           {project.title}
         </h1>
         
@@ -102,7 +102,7 @@ export default function AzureETLPipeline() {
           </div>
           
           <div className="p-8 rounded-xl bg-gradient-to-br from-green-900/10 to-green-800/10 border border-green-700/50">
-            <h3 className="text-xl font-bold text-green-400 mb-4 flex items-center gap-2">
+            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
@@ -164,7 +164,7 @@ export default function AzureETLPipeline() {
           
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h4 className="text-lg font-bold text-cyan-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Transformed 13-step manual process into automated workflow</li>
                 <li>• Eliminated manual effort for managers with automated reporting</li>
@@ -174,7 +174,7 @@ export default function AzureETLPipeline() {
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Business Benefits</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Improved data accuracy and consistency</li>
                 <li>• Enabled reliable monthly financial analysis</li>

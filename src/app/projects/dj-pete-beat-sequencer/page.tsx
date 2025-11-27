@@ -24,7 +24,7 @@ function FeatureCard({ title, description, icon }: { title: string; description:
     <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-purple-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
-        <h3 className="font-bold text-purple-400 group-hover:text-purple-300 transition-colors">{title}</h3>
+        <h3 className="font-bold text-white">{title}</h3>
       </div>
       <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
     </div>
@@ -67,7 +67,7 @@ export default function DJPeteBeatSequencer() {
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-rose-400 to-orange-400">
           {project.title}
         </h1>
         
@@ -172,7 +172,7 @@ export default function DJPeteBeatSequencer() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-purple-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -184,7 +184,7 @@ export default function DJPeteBeatSequencer() {
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-pink-400 mb-4">Technical Innovation</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Advanced embedded systems architecture design</li>
                 <li>• Real-time audio processing on resource-constrained hardware</li>

@@ -4,7 +4,7 @@ export default function CustomGPTs() {
       
       {/* Hero Section */}
       <section className="text-center mb-16">
-        <h1 className="text-4xl md:text-5xl font-bold font-mono tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-400 to-purple-500">
+        <h1 className="text-4xl md:text-5xl font-bold font-mono tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-400 to-emerald-500">
           Custom GPTs
         </h1>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto mb-8">
@@ -15,7 +15,7 @@ export default function CustomGPTs() {
 
       {/* Company GPTs */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8">
+        <h2 className="text-3xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-400 mb-8">
           Enterprise Solutions
         </h2>
         <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
@@ -38,7 +38,7 @@ export default function CustomGPTs() {
 
       {/* Personal GPTs */}
       <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8">
+        <h2 className="text-3xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-teal-400 mb-8">
           Personal Projects
         </h2>
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto">

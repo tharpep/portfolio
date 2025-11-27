@@ -24,7 +24,7 @@ function FeatureCard({ title, description, icon }: { title: string; description:
     <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-amber-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
-        <h3 className="font-bold text-amber-400 group-hover:text-amber-300 transition-colors">{title}</h3>
+        <h3 className="font-bold text-white">{title}</h3>
       </div>
       <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
     </div>
@@ -67,7 +67,7 @@ export default function FmRadioResearch() {
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-red-400 to-blue-400">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 via-orange-400 to-red-400">
           {project.title}
         </h1>
         
@@ -123,7 +123,7 @@ export default function FmRadioResearch() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-amber-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">

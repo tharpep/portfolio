@@ -24,7 +24,7 @@ function FeatureCard({ title, description, icon }: { title: string; description:
     <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-green-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
-        <h3 className="font-bold text-green-400 group-hover:text-green-300 transition-colors">{title}</h3>
+        <h3 className="font-bold text-white">{title}</h3>
       </div>
       <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
     </div>
@@ -123,7 +123,7 @@ export default function AISystemPrompt() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-green-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -135,7 +135,7 @@ export default function AISystemPrompt() {
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Technical Implementation</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Technical Implementation</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Developed sophisticated prompt system with role-based behavior</li>
                 <li>• Multi-language rule enforcement across 8+ programming languages</li>

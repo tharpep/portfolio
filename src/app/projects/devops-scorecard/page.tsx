@@ -26,7 +26,7 @@ function FeatureCard({ title, description, icon }: { title: string; description:
     <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-cyan-500/50 transition-colors">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-2xl">{icon}</span>
-        <h3 className="font-bold text-cyan-400">{title}</h3>
+        <h3 className="font-bold text-white">{title}</h3>
       </div>
       <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
     </div>
@@ -68,7 +68,7 @@ export default function DevopsScorecard() {
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
           {project.title}
         </h1>
         
@@ -172,7 +172,7 @@ export default function DevopsScorecard() {
           
           <div className="grid md:grid-cols-2 gap-8 mb-8">
             <div>
-              <h4 className="text-lg font-bold text-cyan-400 mb-4">Key Achievements</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <div className="space-y-3">
                 {project.highlights.map((highlight, index) => (
                   <div key={index} className="flex items-start gap-3">
@@ -184,7 +184,7 @@ export default function DevopsScorecard() {
             </div>
             
             <div>
-              <h4 className="text-lg font-bold text-emerald-400 mb-4">Business Benefits</h4>
+              <h4 className="text-lg font-bold text-white mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
                 <li>• Eliminates need for lengthy status meeting presentations</li>
                 <li>• Provides sprint visibility for stakeholders</li>
