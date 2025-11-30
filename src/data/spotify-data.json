@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-29T17:09:47.271470Z",
+  "lastUpdated": "2025-11-30T17:10:07.777215Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4Hff1IjRbLGeLgFgxvHflk"
     },
     {
+      "name": "Genie",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
+      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
+    },
+    {
       "name": "Husk",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
@@ -51,12 +57,6 @@
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
-    },
-    {
-      "name": "Genie",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
     }
   ],
   "topTrackDay": {
