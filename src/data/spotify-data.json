@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-30T17:10:07.777215Z",
+  "lastUpdated": "2025-12-01T17:13:52.041529Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
+      "name": "Loser",
+      "artists": "Tame Impala",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
+    },
+    {
       "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
       "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
@@ -51,12 +57,6 @@
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
       "spotifyUrl": "https://open.spotify.com/track/0iMSUfh4oQplV5OrmrlIbm"
-    },
-    {
-      "name": "Loser",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
     }
   ],
   "topTrackDay": {
