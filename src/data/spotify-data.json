@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-03T17:15:54.238599Z",
+  "lastUpdated": "2025-12-04T17:15:16.259636Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
     },
     {
-      "name": "Metro Boomin",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb28f1e72b31e756ea3f3a51e7",
-      "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
-    },
-    {
       "name": "Tyler, The Creator",
       "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
       "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
+    },
+    {
+      "name": "Metro Boomin",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb28f1e72b31e756ea3f3a51e7",
+      "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
     }
   ],
   "topTracksWeek": [
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
     },
     {
-      "name": "Husk",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
-      "spotifyUrl": "https://open.spotify.com/track/0iMSUfh4oQplV5OrmrlIbm"
-    },
-    {
       "name": "Simulation Swarm",
       "artists": "Big Thief",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
       "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
     },
     {
-      "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
-      "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27319d85a472f328a6ed9b704cf",
-      "spotifyUrl": "https://open.spotify.com/track/4Hff1IjRbLGeLgFgxvHflk"
+      "name": "Chaeri",
+      "artists": "Magdalena Bay",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730ecbdac77e72dc16719a3e89",
+      "spotifyUrl": "https://open.spotify.com/track/1ZkfNNoRrgt69wTjcmJZE9"
+    },
+    {
+      "name": "Husk",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738cc6e41e41c4e7d2087fe384",
+      "spotifyUrl": "https://open.spotify.com/track/0iMSUfh4oQplV5OrmrlIbm"
     }
   ],
   "topTrackDay": {
