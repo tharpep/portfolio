@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-18T17:11:58.772438Z",
+  "lastUpdated": "2025-12-06T17:09:30.507356Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -17,9 +17,9 @@
       "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
     },
     {
-      "name": "Metro Boomin",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb28f1e72b31e756ea3f3a51e7",
-      "spotifyUrl": "https://open.spotify.com/artist/0iEtIxbK0KxaSlF7G42ZOp"
+      "name": "A$AP Rocky",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5c58c41a506a0d6b32cc6cad",
+      "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
     },
     {
       "name": "Tyler, The Creator",
@@ -29,28 +29,28 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Genie",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-      "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
-    },
-    {
-      "name": "Paint Me A Picture",
-      "artists": "Magdalena Bay",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2737a21a301aa0eafc2ec9e8582",
-      "spotifyUrl": "https://open.spotify.com/track/7ISwaPtdHn0D5LlqZAFrh0"
-    },
-    {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
-    },
-    {
       "name": "My Old Ways",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
+    },
+    {
+      "name": "Loser",
+      "artists": "Tame Impala",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+      "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
+    },
+    {
+      "name": "Simulation Swarm",
+      "artists": "Big Thief",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
+      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
+    },
+    {
+      "name": "Chaeri",
+      "artists": "Magdalena Bay",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730ecbdac77e72dc16719a3e89",
+      "spotifyUrl": "https://open.spotify.com/track/1ZkfNNoRrgt69wTjcmJZE9"
     },
     {
       "name": "DARE (feat. Shaun Ryder & Roses Gabor)",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "Genie",
-    "artists": "Crumb",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273bb3e501c722092adc923cff8",
-    "spotifyUrl": "https://open.spotify.com/track/56ZxX074rrDbB8AM9fxqtw"
+    "name": "My Old Ways",
+    "artists": "Tame Impala",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
+    "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
   }
 }
