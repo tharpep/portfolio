@@ -222,35 +222,45 @@ export default function Portfolio() {
 
               {/* Navigation */}
               <div>
-                <h3 className="text-sm font-bold font-mono text-cyan-300 uppercase tracking-wider mb-3">Navigate</h3>
+                <h3 className="text-sm font-bold font-mono text-cyan-300 uppercase tracking-wider mb-4">Navigate</h3>
                 <div className="space-y-3">
-                  <Link
-                    href={`/projects/${prevProject?.slug}`}
-                    className="flex items-center gap-2 text-neutral-300 hover:text-cyan-300 transition-colors text-sm"
-                  >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path d="M19 12H5m7-7l-7 7 7 7"/>
-                    </svg>
-                    Previous Project
-                  </Link>
+                  {prevProject && (
+                    <Link
+                      href={`/projects/${prevProject.slug}`}
+                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
+                    >
+                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                        <path d="M19 12H5m7-7l-7 7 7 7"/>
+                      </svg>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Previous</div>
+                        <div className="text-sm text-neutral-300 group-hover:text-cyan-300 font-medium leading-snug">{prevProject.title}</div>
+                      </div>
+                    </Link>
+                  )}
                   <Link
                     href="/projects"
-                    className="flex items-center gap-2 text-neutral-300 hover:text-cyan-300 transition-colors text-sm"
+                    className="group flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
                   >
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                       <path d="M4 6h16M4 12h16M4 18h16"/>
                     </svg>
-                    All Projects
+                    <span className="text-sm text-neutral-300 group-hover:text-cyan-300">All Projects</span>
                   </Link>
-                  <Link
-                    href={`/projects/${nextProject?.slug}`}
-                    className="flex items-center gap-2 text-neutral-300 hover:text-cyan-300 transition-colors text-sm"
-                  >
-                    Next Project
-                    <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path d="M5 12h14m-7-7l7 7-7 7"/>
-                    </svg>
-                  </Link>
+                  {nextProject && (
+                    <Link
+                      href={`/projects/${nextProject.slug}`}
+                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
+                    >
+                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                        <path d="M5 12h14m-7-7l7 7-7 7"/>
+                      </svg>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Next</div>
+                        <div className="text-sm text-neutral-300 group-hover:text-cyan-300 font-medium leading-snug">{nextProject.title}</div>
+                      </div>
+                    </Link>
+                  )}
                 </div>
               </div>
 

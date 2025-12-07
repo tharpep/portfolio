@@ -11,27 +11,6 @@ export const metadata: Metadata = {
 // Enable static generation for better performance
 export const dynamic = 'force-static';
 
-function TechBadge({ tech }: { tech: string }) {
-  return (
-    <span className="px-3 py-1 text-sm font-medium bg-green-900/30 text-green-300 rounded-full border border-green-700/50">
-      {tech}
-    </span>
-  );
-}
-
-function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
-  return (
-    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-green-500/50 transition-all duration-300 group">
-      <div className="flex items-center gap-3 mb-3">
-        <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
-        <h3 className="font-bold text-white">{title}</h3>
-      </div>
-      <p className="text-neutral-300 text-sm leading-relaxed">{description}</p>
-    </div>
-  );
-}
-
-
 // Pre-compute data at build time for better performance
 const project = getProjectBySlug("ai-system-prompt");
 const nextProject = getNextProject("ai-system-prompt");
@@ -43,151 +22,209 @@ export default function AISystemPrompt() {
     return <div>Project not found</div>;
   }
 
-
-
   return (
-    <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
-      {/* Navigation */}
-      <nav className="mb-8">
-        <Link 
-          href="/projects" 
-          className="inline-flex items-center text-green-400 hover:text-green-300 transition-colors"
-        >
-          <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path d="M19 12H5m7-7l-7 7 7 7"/>
-          </svg>
-          Back to Projects
-        </Link>
-      </nav>
+    <main className="bg-neutral-900 text-neutral-100 min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-10 md:py-12">
 
-      {/* Hero Section */}
-      <section className="mb-16">
-        <div className="flex items-center gap-3 mb-4">
-          <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
-            Enterprise Rollout
-          </span>
-        </div>
-        
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400 via-emerald-400 to-teal-400">
-          {project.title}
-        </h1>
-        
-        <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mb-8">
-          {project.description}
-        </p>
-        
-        <div className="flex flex-wrap gap-3">
-          {project.technologies.map((tech) => (
-            <TechBadge key={tech} tech={tech} />
-          ))}
-        </div>
-      </section>
+        {/* Back Navigation */}
+        <nav className="mb-8">
+          <Link
+            href="/projects"
+            className="inline-flex items-center text-emerald-400 hover:text-emerald-300 transition-colors text-sm"
+          >
+            <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+              <path d="M19 12H5m7-7l-7 7 7 7"/>
+            </svg>
+            Back to Projects
+          </Link>
+        </nav>
 
+        {/* Main Layout: Content + Sidebar */}
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12">
 
-      {/* Core Capabilities */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Core Capabilities</h2>
-        <div className="grid md:grid-cols-2 gap-6">
-          <FeatureCard 
-            title="Standards Enforcement"
-            description="Automatically enforces coding standards with rule citations, ensuring consistent code quality across all teams and projects."
-            icon=""
-          />
-          <FeatureCard 
-            title="Multi-IDE Integration"
-            description="Seamlessly integrates with Cursor, Windsurf, and VsCode IDEs, providing consistent AI assistance across development environments."
-            icon=""
-          />
-          <FeatureCard 
-            title="Security Compliance"
-            description="Built-in security patterns prevent unsafe code generation, credential exposure, and compliance violations."
-            icon=""
-          />
-          <FeatureCard 
-            title="Multi-Language Support"
-            description="Supports C#, C/C++, JavaScript/TypeScript, Python, Java, SQL, Bash, Rust, and Go with language-specific patterns and standards."
-            icon=""
-          />
-        </div>
-      </section>
+          {/* Main Content - Left Column */}
+          <div className="flex-1 lg:max-w-4xl">
 
+            {/* Hero */}
+            <div className="mb-12">
+              {/* Status and Timeline */}
+              <div className="flex items-center gap-3 mb-6">
+                <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                  Enterprise Rollout
+                </span>
+                <span className="text-sm text-neutral-400 font-mono">{project.timeline}</span>
+              </div>
 
-      {/* Project Impact & Achievements */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Project Impact & Achievements</h2>
-        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <div className="text-center mb-8">
-            <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
-          </div>
-          
-          <div className="grid md:grid-cols-2 gap-8 mb-8">
-            <div>
-              <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
-              <div className="space-y-3">
-                {project.highlights.map((highlight, index) => (
-                  <div key={index} className="flex items-start gap-3">
-                    <span className="text-green-400 text-lg mt-1">•</span>
-                    <p className="text-neutral-300 text-sm">{highlight}</p>
-                  </div>
-                ))}
+              {/* Title */}
+              <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-green-400/90 via-emerald-400/90 to-teal-400/90">
+                {project.title}
+              </h1>
+
+              {/* Description */}
+              <p className="text-xl text-neutral-300 leading-relaxed mb-6">
+                {project.description}
+              </p>
+
+              {/* Tech Stack Pills */}
+              <div className="flex flex-wrap gap-2 mb-8">
+                <span className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                  Prompt Engineering
+                </span>
+                <span className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                  OpenAI API
+                </span>
+                <span className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                  Cursor IDE
+                </span>
+                <span className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                  Windsurf IDE
+                </span>
               </div>
             </div>
-            
-            <div>
-              <h4 className="text-lg font-bold text-white mb-4">Technical Implementation</h4>
-              <ul className="space-y-2 text-neutral-300">
-                <li>• Developed sophisticated prompt system with role-based behavior</li>
-                <li>• Multi-language rule enforcement across 8+ programming languages</li>
-                <li>• Confidence-tagged output with uncertainty handling</li>
-                <li>• Department-specific override and exception handling</li>
-                <li>• Security-first design with PII/credential protection</li>
-                <li>• Comprehensive documentation and test generation</li>
-              </ul>
-            </div>
+
+            {/* Divider */}
+            <div className="h-px bg-gradient-to-r from-emerald-500/30 via-emerald-500/10 to-transparent mb-12"></div>
+
+            {/* Framework Design Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4">Framework Design</h2>
+              <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
+                <p>
+                  Master IDE prompt standardizing AI-assisted coding workflows across engineering departments.
+                </p>
+                <p>
+                  Enforces coding standards with rule citations. Built-in security patterns prevent unsafe code generation and credential exposure.
+                </p>
+                <p>
+                  Supports C#, C/C++, JavaScript/TypeScript, Python, Java, SQL, Bash, Rust, and Go with language-specific patterns.
+                </p>
+              </div>
+            </section>
+
+            {/* Enterprise Integration Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4">Enterprise Integration</h2>
+              <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
+                <p>
+                  Integrates with Cursor, Windsurf, and VS Code IDEs for consistent AI assistance.
+                </p>
+                <p>
+                  Department-specific overrides allow teams to adapt while maintaining core standards. Confidence-tagged output indicates when to verify suggestions.
+                </p>
+              </div>
+            </section>
+
+            {/* Training & Enablement Section */}
+            <section className="mb-12">
+              <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4">Training & Enablement</h2>
+              <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
+                <p>
+                  Co-led 2 company-wide lunch and learns on ChatGPT setup and master prompt usage.
+                </p>
+                <p>
+                  Conducted 17 group/individual AI check-ins and training sessions. Mentored an intern in prompt engineering.
+                </p>
+              </div>
+            </section>
+
           </div>
+
+          {/* Sidebar - Right Column */}
+          <aside className="lg:w-96 lg:sticky lg:top-8 lg:self-start">
+            <div className="rounded-xl border border-neutral-700 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-6 space-y-8">
+
+              {/* Tech Stack */}
+              <div>
+                <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Tech Stack</h3>
+                <ul className="space-y-2 text-neutral-300 text-sm">
+                  <li>• OpenAI API</li>
+                  <li>• Prompt Engineering</li>
+                  <li>• Cursor IDE</li>
+                  <li>• Windsurf IDE</li>
+                  <li>• Python</li>
+                  <li>• Custom GPTs</li>
+                </ul>
+              </div>
+
+              {/* Divider */}
+              <div className="h-px bg-neutral-700"></div>
+
+              {/* Key Features */}
+              <div>
+                <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Key Features</h3>
+                <ul className="space-y-2 text-neutral-300 text-sm">
+                  <li>• Standards enforcement</li>
+                  <li>• Multi-IDE integration</li>
+                  <li>• Security compliance</li>
+                  <li>• Multi-language support</li>
+                </ul>
+              </div>
+
+              {/* Divider */}
+              <div className="h-px bg-neutral-700"></div>
+
+              {/* Achievements */}
+              <div>
+                <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
+                <ul className="space-y-2 text-neutral-300 text-sm">
+                  {project.highlights.map((highlight, index) => (
+                    <li key={index} className="text-xs">• {highlight}</li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Divider */}
+              <div className="h-px bg-neutral-700"></div>
+
+              {/* Navigation */}
+              <div>
+                <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-4">Navigate</h3>
+                <div className="space-y-3">
+                  {prevProject && (
+                    <Link
+                      href={`/projects/${prevProject.slug}`}
+                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
+                    >
+                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                        <path d="M19 12H5m7-7l-7 7 7 7"/>
+                      </svg>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Previous</div>
+                        <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium leading-snug">{prevProject.title}</div>
+                      </div>
+                    </Link>
+                  )}
+                  <Link
+                    href="/projects"
+                    className="group flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
+                  >
+                    <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                      <path d="M4 6h16M4 12h16M4 18h16"/>
+                    </svg>
+                    <span className="text-sm text-neutral-300 group-hover:text-emerald-300">All Projects</span>
+                  </Link>
+                  {nextProject && (
+                    <Link
+                      href={`/projects/${nextProject.slug}`}
+                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
+                    >
+                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                        <path d="M5 12h14m-7-7l7 7-7 7"/>
+                      </svg>
+                      <div className="flex-1 min-w-0">
+                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Next</div>
+                        <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium leading-snug">{nextProject.title}</div>
+                      </div>
+                    </Link>
+                  )}
+                </div>
+              </div>
+
+            </div>
+          </aside>
+
         </div>
-      </section>
-
-
-      {/* Project Timeline */}
-      <section className="mb-16">
-        <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
-          <span className="text-lg font-mono text-neutral-300">{project.timeline}</span>
-        </div>
-      </section>
-
-      {/* Navigation */}
-      <section className="flex justify-between items-center pt-12 border-t border-neutral-700">
-        <Link 
-          href={`/projects/${prevProject?.slug}`}
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
-        >
-          <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path d="M19 12H5m7-7l-7 7 7 7"/>
-          </svg>
-          Previous Project
-        </Link>
-        
-        <Link 
-          href="/projects" 
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
-        >
-          All Projects
-          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path d="M5 12h14m-7-7l7 7-7 7"/>
-          </svg>
-        </Link>
-        
-        <Link 
-          href={`/projects/${nextProject?.slug}`}
-          className="flex items-center text-green-400 hover:text-green-300 transition-colors"
-        >
-          Next Project
-          <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path d="M5 12h14m-7-7l7 7-7 7"/>
-          </svg>
-        </Link>
-      </section>
+      </div>
     </main>
   );
-} 
+}
