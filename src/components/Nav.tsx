@@ -8,7 +8,6 @@ import ResumeDropdown from "./ResumeDropdown";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
-  { href: "/custom-gpts", label: "Custom GPTs" },
   { href: "/about", label: "About" },
 ];
 

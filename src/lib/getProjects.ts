@@ -73,7 +73,7 @@ const projects: Project[] = [
     slug: "dj-pete-beat-sequencer",
     title: "DJ Pete Beat Sequencer",
     description: "Embedded firmware for STM32 microcontrollers featuring advanced I2C, DMA, DAC, SPI integration with Adafruit NeoTrellis RGB keypads for interactive music production.",
-    category: "creative-tech",
+    category: "hardware-embedded",
     technologies: ["STM32", "C", "I2C", "DMA", "DAC", "SPI", "Adafruit NeoTrellis", "Embedded Systems"],
     timeline: "Academic Project - 2024",
     status: "completed",
@@ -157,7 +157,7 @@ const projects: Project[] = [
     slug: "portfolio",
     title: "Portfolio Website",
     description: "Modern portfolio website with Next.js 15 App Router featuring live Spotify integration, automated data updates via GitHub Actions, and dynamic photography galleries with Azure Blob Storage.",
-    category: "creative-tech",
+    category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API", "Azure Blob Storage"],
     timeline: "May 2025 - Present",
     status: "in-progress",
@@ -189,10 +189,71 @@ const projects: Project[] = [
     ],
     impact: "Advanced understanding of RAG fundamentals and fine-tuning concepts through hands-on implementation, demonstrating practical ML engineering beyond academic requirements",
     githubUrl: "https://github.com/tharpep/SimRAG-Reproduction"
+  },
+  {
+    slug: "ece461-model-registry",
+    title: "Trustworthy Model Registry",
+    description: "Group project building a model registry with AWS deployment. Led AWS infrastructure setup (ECS/Fargate) and implemented three evaluation metrics: Reproducibility, Reviewedness, and Treescore.",
+    category: "devops-cloud",
+    technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
+    timeline: "Fall 2025 (August - December 2025)",
+    status: "in-progress",
+    highlights: [
+      "Designed and deployed AWS ECS/Fargate infrastructure for containerized application hosting",
+      "Implemented Reproducibility metric analyzing example code availability and validity",
+      "Implemented Reviewedness metric calculating fraction of code added via reviewed pull requests",
+      "Implemented Treescore metric computing average net score of parent models in lineage graph",
+      "Simulated real software engineering workflow with weekly milestones and client requirements"
+    ],
+    impact: "Demonstrated cloud infrastructure expertise and metric design skills in team-based software engineering project",
+    githubUrl: "https://github.com/Anjali-Vanamala/ECE461_Part2"
+  },
+  {
+    slug: "team35-seniordesign",
+    title: "Senior Design GenAI Subsystem",
+    description: "Built the complete generative AI subsystem for a multi-platform cognitive coaching application. Designed and implemented RAG system, artifact generation, and interactive chat with conversation context.",
+    category: "ai-ml",
+    technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
+    timeline: "Fall 2025 (August - December 2025)",
+    status: "in-progress",
+    highlights: [
+      "Architected and implemented complete RAG system with Qdrant vector storage and document ingestion pipeline",
+      "Built artifact generation system (flashcards, MCQ, insights) with schema validation and template system",
+      "Developed interactive chat service with three-layer context (RAG + Summary + Recent messages)",
+      "Created FastAPI backend with comprehensive CLI interface for artifact generation and chat",
+      "Integrated multiple AI providers (Ollama, Purdue GenAI API) with automatic provider selection"
+    ],
+    impact: "Delivered production-ready GenAI subsystem enabling educational artifact generation and contextual AI assistance for cognitive coaching platform",
+    githubUrl: "https://github.com/tharpep/team35-seniordesign"
+  },
+  {
+    slug: "tradingcard-collection-manager",
+    title: "Trading Card Collection Manager",
+    description: "Full-stack web application for managing trading card collections with multi-user authentication. Built to learn user authentication, data isolation, and Supabase integration.",
+    category: "full-stack",
+    technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
+    timeline: "Fall 2025 (August - December 2025)",
+    status: "in-progress",
+    highlights: [
+      "Implemented multi-user authentication with Supabase Auth and JWT token management",
+      "Built Row Level Security (RLS) policies for proper data isolation between users",
+      "Created admin CLI for system management with full access to all user data",
+      "Designed responsive React frontend with Shadcn UI components and Tailwind CSS",
+      "Currently on pause after completing core authentication and user management functionality"
+    ],
+    impact: "Gained hands-on experience with modern authentication patterns, database security, and multi-user application architecture",
+    githubUrl: "https://github.com/tharpep/tradingcard_project"
   }
 ];
 
 export const projectCategories: ProjectCategory[] = [
+  {
+    id: "ai-ml",
+    name: "AI & Machine Learning",
+    description: "Cutting-edge AI solutions leveraging machine learning, natural language processing, and prompt engineering to solve complex business challenges.",
+    icon: "",
+    projects: projects.filter(p => p.category === "ai-ml")
+  },
   {
     id: "data-analytics",
     name: "Data & Analytics",
@@ -201,18 +262,18 @@ export const projectCategories: ProjectCategory[] = [
     projects: projects.filter(p => p.category === "data-analytics")
   },
   {
-    id: "creative-tech",
-    name: "Creative Technology",
-    description: "Innovative applications bridging art and engineering, combining technical excellence with creative expression to build engaging user experiences.",
+    id: "devops-cloud",
+    name: "DevOps & Cloud",
+    description: "Cloud infrastructure, deployment automation, and DevOps practices for scalable, reliable software delivery.",
     icon: "",
-    projects: projects.filter(p => p.category === "creative-tech")
+    projects: projects.filter(p => p.category === "devops-cloud")
   },
   {
-    id: "ai-ml",
-    name: "AI & Machine Learning",
-    description: "Cutting-edge AI solutions leveraging machine learning, natural language processing, and prompt engineering to solve complex business challenges.",
+    id: "full-stack",
+    name: "Full-Stack Development",
+    description: "End-to-end web applications combining frontend and backend technologies with modern frameworks and best practices.",
     icon: "",
-    projects: projects.filter(p => p.category === "ai-ml")
+    projects: projects.filter(p => p.category === "full-stack")
   },
   {
     id: "hardware-embedded",
@@ -225,7 +286,7 @@ export const projectCategories: ProjectCategory[] = [
 
 // Helper function to get featured projects for home page
 export const getFeaturedProjects = (): Project[] => {
-  const featuredSlugs = ["ai-system-prompt", "azure-etl-pipeline", "dj-pete-beat-sequencer", "devops-scorecard"];
+  const featuredSlugs = ["ai-system-prompt", "personal-ai-system", "simrag-reproduction", "devops-scorecard"];
   return projects.filter(p => featuredSlugs.includes(p.slug));
 };
 

@@ -50,17 +50,10 @@ export default function Home() {
         </h2>
         <div className="grid gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
           <FeaturedProjectCard
-            title="Azure DevOps Scorecard"
-            href="/projects/devops-scorecard"
-            desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
-            tech="React"
-            accent="emerald"
-          />
-          <FeaturedProjectCard
-            title="SimRAG Reproduction"
-            href="/projects/simrag-reproduction"
-            desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
-            tech="Python"
+            title="AI System Prompt Framework"
+            href="/projects/ai-system-prompt"
+            desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
+            tech="OpenAI API"
             accent="cyan"
           />
           <FeaturedProjectCard
@@ -70,16 +63,27 @@ export default function Home() {
             tech="Python"
             accent="purple"
           />
+          <FeaturedProjectCard
+            title="SimRAG Reproduction"
+            href="/projects/simrag-reproduction"
+            desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
+            tech="Python"
+            accent="blue"
+          />
+          <FeaturedProjectCard
+            title="Azure DevOps Scorecard"
+            href="/projects/devops-scorecard"
+            desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
+            tech="React"
+            accent="emerald"
+          />
         </div>
         <div className="text-center mt-10">
-          <p className="text-neutral-400 mb-4">
-            More projects including Azure ETL Pipeline, DJ Pete Beat Sequencer, and other data, AI, and cloud systems work.
-          </p>
           <Link
             href="/projects"
             className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
           >
-            View all projects
+            View all projects 
             <span className="inline-block group-hover:translate-x-1 transition-transform ml-1">→</span>
           </Link>
         </div>
