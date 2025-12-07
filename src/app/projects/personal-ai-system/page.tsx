@@ -21,7 +21,7 @@ function TechBadge({ tech }: { tech: string }) {
 
 function FeatureCard({ title, description, icon }: { title: string; description: string; icon: string }) {
   return (
-    <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-purple-500/50 transition-all duration-300 group">
+    <div className="p-4 sm:p-5 md:p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 hover:border-purple-500/50 transition-all duration-300 group">
       <div className="flex items-center gap-3 mb-3">
         <span className="text-3xl group-hover:scale-110 transition-transform">{icon}</span>
         <h3 className="font-bold text-white">{title}</h3>
@@ -43,7 +43,7 @@ export default function PersonalAiSystem() {
   }
 
   return (
-    <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
+    <main className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
       {/* Navigation */}
       <nav className="mb-8">
         <Link 
@@ -58,18 +58,18 @@ export default function PersonalAiSystem() {
       </nav>
 
       {/* Hero Section */}
-      <section className="mb-16">
+      <section className="mb-8 sm:mb-12 md:mb-16">
         <div className="flex items-center gap-3 mb-4">
           <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
             In Progress - RAG MVP
           </span>
         </div>
         
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400">
+        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-400 to-cyan-400">
           {project.title}
         </h1>
         
-        <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mb-8">
+        <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-4xl mb-8">
           {project.description}
         </p>
         
@@ -96,8 +96,8 @@ export default function PersonalAiSystem() {
       </section>
 
       {/* Core Capabilities */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Core Capabilities</h2>
+      <section className="mb-8 sm:mb-12 md:mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold font-mono text-purple-300 mb-8">Core Capabilities</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="RAG Knowledge Retrieval"
@@ -123,8 +123,8 @@ export default function PersonalAiSystem() {
       </section>
 
       {/* Technical Implementation */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Technical Implementation</h2>
+      <section className="mb-8 sm:mb-12 md:mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold font-mono text-purple-300 mb-8">Technical Implementation</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="LLM Gateway"
@@ -150,9 +150,9 @@ export default function PersonalAiSystem() {
       </section>
 
       {/* Project Impact & Achievements */}
-      <section className="mb-16">
-        <h2 className="text-3xl font-bold font-mono text-purple-300 mb-8">Project Impact & Achievements</h2>
-        <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+      <section className="mb-8 sm:mb-12 md:mb-16">
+        <h2 className="text-2xl sm:text-3xl font-bold font-mono text-purple-300 mb-8">Project Impact & Achievements</h2>
+        <div className="p-4 sm:p-6 md:p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <div className="text-center mb-8">
             <h3 className="text-2xl font-bold text-white mb-4">{project.impact}</h3>
           </div>
@@ -186,7 +186,7 @@ export default function PersonalAiSystem() {
       </section>
 
       {/* Project Timeline */}
-      <section className="mb-16">
+      <section className="mb-8 sm:mb-12 md:mb-16">
         <div className="text-center p-4 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <span className="text-lg font-mono text-neutral-300">{project.timeline}</span>
         </div>

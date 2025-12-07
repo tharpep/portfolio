@@ -2,14 +2,14 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-16 min-h-screen">
+    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-12 md:py-16 min-h-screen">
       
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="text-center mb-16">
-        <h1 className="text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80">
+      <section className="text-center mb-8 sm:mb-12 md:mb-16">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80">
           Pryce Tharpe
         </h1>
-        <p className="text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
+        <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
           Computer Engineering student at Purdue exploring software development through embedded systems, cloud automation, and AI integration.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
@@ -35,17 +35,17 @@ export default function Home() {
 
       {/* ─────────── Brief Story ─────────── */}
       <section className="text-center mb-20 max-w-4xl mx-auto">
-        <p className="text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-6 text-left">
+        <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
           I build full-stack applications and integrate AI into production environments.
-          At Mesh Systems, I've worked on cloud automation, AI enablement across engineering
+          At Mesh Systems, I&apos;ve worked on cloud automation, AI enablement across engineering
           teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
           and solving problems I care about.
         </p>
       </section>
 
       {/* ─────────── Featured Projects ─────────── */}
-      <section className="mb-20">
-        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+      <section className="mb-12 sm:mb-16 md:mb-20">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Featured Projects
         </h2>
         <div className="grid gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
@@ -90,12 +90,12 @@ export default function Home() {
       </section>
 
       {/* ─────────── Current Work ─────────── */}
-      <section className="mb-20">
-        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+      <section className="mb-12 sm:mb-16 md:mb-20">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Currently
         </h2>
         <div className="max-w-3xl mx-auto">
-          <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-8">
+          <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 sm:p-6 md:p-8">
             <ul className="space-y-4 text-neutral-300 text-lg">
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
@@ -119,12 +119,12 @@ export default function Home() {
       </section>
 
       {/* ─────────── Let's Connect ─────────── */}
-      <section className="mb-20">
-        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+      <section className="mb-12 sm:mb-16 md:mb-20">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Let&apos;s Connect
         </h2>
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-lg text-neutral-300 leading-relaxed mb-8">
+          <p className="text-base sm:text-lg text-neutral-300 leading-relaxed mb-8">
             I&apos;m looking for full-time software engineering roles and enjoy talking about AI, cloud systems, or interesting technical problems.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
@@ -214,7 +214,7 @@ function FeaturedProjectCard({
   return (
     <Link
       href={href}
-      className={`group block rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${accentClasses[accent]}`}
+      className={`group block rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 sm:p-6 md:p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${accentClasses[accent]}`}
     >
       <div className="flex justify-between items-start mb-4">
         <h3 className={`font-bold text-xl text-white transition-colors ${textClasses[accent]}`}>

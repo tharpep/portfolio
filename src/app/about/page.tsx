@@ -16,57 +16,52 @@ export const metadata: Metadata = {
 export default async function About() {
   const spotifyData = await getSpotifyData();
   return (
-    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
+    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
       
       {/* Hero Section */}
-      <section className="text-center mb-16">
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
+      <section className="text-center mb-8 sm:mb-12 md:mb-16">
+        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
           About Me
         </h1>
-        <p className="text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
-          Computer Engineering student and software developer passionate about 
-          <span className="text-cyan-400 font-semibold"> thoughtful software design</span> and 
-          <span className="text-blue-400 font-semibold"> practical problem-solving</span>.
+        <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
+          Computer Engineering student building software that works in the real world.
         </p>
       </section>
 
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto space-y-16">
+      <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12 md:space-y-16">
         
         {/* Bio Section */}
         <section>
-          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             My Journey
           </h2>
           <div className="space-y-4 text-neutral-300 leading-relaxed">
             <p>
-              I am a senior in Computer Engineering at Purdue University, where I have focused on software systems and building tools that make an impact. My journey has taken me from hands-on embedded systems coursework to cloud and AI engineering in industry. This mix has given me a perspective that combines low-level technical depth with high-level systems thinking.
-            </p>
-            <p>
-              Through internships and projects, I have learned how to bridge academic rigor with practical software development. I have collaborated across teams, automated complex workflows, and explored emerging technologies. As I look ahead, I am driven to keep learning and contributing in environments where thoughtful design and scalable software meet real-world challenges.
+              I&apos;m a senior in Computer Engineering at Purdue, focused on software systems that solve real problems. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me a perspective that spans from low-level code to cloud-scale systems. I&apos;ve worked across teams, automated workflows that save hours of manual work, and built AI tools that people actually use.
             </p>
           </div>
         </section>
 
         {/* AI Philosophy Section */}
         <section>
-          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             My Approach to AI
           </h2>
-          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6">
+          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6">
             <p className="text-neutral-300 leading-relaxed mb-4">
-              I believe AI should be created with both innovation and responsibility in mind, focusing on technology that empowers people and respects creativity and the environment. I strive to build systems that are sustainable, transparent, and guided by human values.
+              I think AI works best when it amplifies what people can do rather than replacing them. At Mesh Systems, I co-developed an AI prompt framework and led training sessions to help engineers use AI tools effectively. The goal was making AI actually useful for daily work, not just impressive in demos.
             </p>
             <p className="text-neutral-300 leading-relaxed">
-              My experience co-developing AI frameworks and leading enablement sessions has reinforced my commitment to ethical AI development. I see AI as a tool to augment human capabilities, not replace them, and I&apos;m passionate about creating solutions that enhance productivity while maintaining the human touch that makes technology meaningful.
+              My personal projects explore RAG systems and local-first AI tools. I&apos;m interested in building AI that respects privacy, runs where you need it, and solves problems you actually have.
             </p>
           </div>
         </section>
 
         {/* Skills & Technologies */}
         <section>
-          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             Technical Expertise
           </h2>
           <div className="space-y-6">
@@ -123,15 +118,12 @@ export default async function About() {
 
         {/* Personal Interests */}
         <section>
-          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             Beyond Code
           </h2>
-          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-6 mb-8">
-            <p className="text-neutral-300 leading-relaxed mb-4">
-              When I&apos;m not coding, you&apos;ll find me exploring the intersection of technology and creativity. I&apos;m passionate about photography, and I&apos;m currently extending this site to showcase my work. I also enjoy building custom PCs and playing guitar and bass. These pursuits sharpen my attention to detail while giving me space to create in different ways.
-            </p>
+          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6 mb-8">
             <p className="text-neutral-300 leading-relaxed">
-              I believe that experiences outside of engineering make me a stronger problem solver and collaborator. Every perspective adds value to the development process.
+              Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
             </p>
           </div>
           
@@ -148,12 +140,11 @@ export default async function About() {
 
         {/* Connect Section */}
         <section className="text-center">
-          <h2 className="text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
             Let&apos;s Connect
           </h2>
           <p className="text-neutral-300 leading-relaxed mb-8 max-w-2xl mx-auto">
-            I&apos;m always interested in discussing new opportunities, technical challenges, 
-            or just connecting with fellow developers and creators.
+            I&apos;m looking for full-time software engineering roles and always up for talking about interesting technical problems.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
             <Link
