@@ -59,7 +59,7 @@ const projects: Project[] = [
     description: "Comprehensive Python-based tools for Spotify data manipulation and visualization using RESTful API integration, featuring advanced data analysis and playlist management capabilities.",
     category: "data-analytics",
     technologies: ["Python", "Spotify API", "Pandas", "RESTful APIs", "OAuth", "Data Visualization", "JSON"],
-    timeline: "2024 - Present",
+    timeline: "January 2024 - Present",
     status: "in-progress",
     highlights: [
       "Built robust API integration with Spotify's complex authentication system",
@@ -75,7 +75,7 @@ const projects: Project[] = [
     description: "Embedded firmware for STM32 microcontrollers featuring advanced I2C, DMA, DAC, SPI integration with Adafruit NeoTrellis RGB keypads for interactive music production.",
     category: "hardware-embedded",
     technologies: ["STM32", "C", "I2C", "DMA", "DAC", "SPI", "Adafruit NeoTrellis", "Embedded Systems"],
-    timeline: "Academic Project - 2024",
+    timeline: "2024",
     status: "completed",
     highlights: [
       "Implemented complex embedded systems with multiple communication protocols",
@@ -109,7 +109,7 @@ const projects: Project[] = [
     description: "Designed and deployed sophisticated custom GPTs for enterprise and personal use, including a system prompt builder and student career archivist adopted internally by the company.",
     category: "ai-ml",
     technologies: ["OpenAI GPT", "Custom GPT Development", "Prompt Engineering", "API Integration", "Workflow Automation"],
-    timeline: "2024 - Present",
+    timeline: "January 2024 - Present",
     status: "completed",
     highlights: [
       "Built system prompt builder for all skill levels",
@@ -125,7 +125,7 @@ const projects: Project[] = [
     description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio, implementing robust signal processing workflows and automation scripts.",
     category: "hardware-embedded",
     technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
-    timeline: "Academic Research - 2024",
+    timeline: "2024",
     status: "completed",
     highlights: [
       "Engineered automated FM radio detection and demodulation system",
@@ -156,16 +156,15 @@ const projects: Project[] = [
   {
     slug: "portfolio",
     title: "Portfolio Website",
-    description: "Modern portfolio website with Next.js 15 App Router featuring live Spotify integration, automated data updates via GitHub Actions, and dynamic photography galleries with Azure Blob Storage.",
+    description: "Modern portfolio website with Next.js 15 App Router featuring live Spotify integration and automated data updates via GitHub Actions.",
     category: "full-stack",
-    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API", "Azure Blob Storage"],
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
     timeline: "May 2025 - Present",
     status: "in-progress",
     highlights: [
       "Built with Next.js 15 App Router, React 19 Server Components, and TypeScript strict mode",
       "Implemented live Spotify data display with Python scripts fetching top artists, tracks, and daily favorites",
       "Created GitHub Actions workflow for daily automated Spotify data updates with secure secrets management",
-      "Integrated Azure Blob Storage for scalable image hosting with dynamic SAS URLs and optimized delivery",
       "Configured auto-deployment on Vercel with preview URLs per PR for seamless development workflow"
     ],
     impact: "Showcasing professional projects and technical expertise through a modern, performant web presence with automated content updates",
@@ -178,7 +177,7 @@ const projects: Project[] = [
     description: "Educational reproduction study of SimRAG paper focusing on similarity-based Retrieval Augmented Generation techniques. Built clean, modular implementation for learning RAG fundamentals and fine-tuning concepts.",
     category: "ai-ml",
     technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
-    timeline: "August - December 2025",
+    timeline: "August 2025 - December 2025",
     status: "completed",
     highlights: [
       "Designed provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection",
@@ -196,7 +195,7 @@ const projects: Project[] = [
     description: "Group project building a model registry with AWS deployment. Led AWS infrastructure setup (ECS/Fargate) and implemented three evaluation metrics: Reproducibility, Reviewedness, and Treescore.",
     category: "devops-cloud",
     technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
-    timeline: "Fall 2025 (August - December 2025)",
+    timeline: "August 2025 - December 2025",
     status: "in-progress",
     highlights: [
       "Designed and deployed AWS ECS/Fargate infrastructure for containerized application hosting",
@@ -214,7 +213,7 @@ const projects: Project[] = [
     description: "Built the complete generative AI subsystem for a multi-platform cognitive coaching application. Designed and implemented RAG system, artifact generation, and interactive chat with conversation context.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
-    timeline: "Fall 2025 (August - December 2025)",
+    timeline: "August 2025 - December 2025",
     status: "in-progress",
     highlights: [
       "Architected and implemented complete RAG system with Qdrant vector storage and document ingestion pipeline",
@@ -232,7 +231,7 @@ const projects: Project[] = [
     description: "Full-stack web application for managing trading card collections with multi-user authentication. Built to learn user authentication, data isolation, and Supabase integration.",
     category: "full-stack",
     technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
-    timeline: "Fall 2025 (August - December 2025)",
+    timeline: "August 2025 - December 2025",
     status: "in-progress",
     highlights: [
       "Implemented multi-user authentication with Supabase Auth and JWT token management",

@@ -129,11 +129,6 @@ export default function Portfolio() {
             description="GitHub Actions workflow for daily automated Spotify data updates with secure secrets management and Vercel auto-deployment on every push."
             icon=""
           />
-          <FeatureCard 
-            title="Cloud Storage Integration"
-            description="Azure Blob Storage integration for scalable image hosting with dynamic SAS URLs, optimized delivery, and secure access controls."
-            icon=""
-          />
         </div>
       </section>
 
@@ -164,7 +159,6 @@ export default function Portfolio() {
                 <li>• Python + Spotify API + GitHub Actions → JSON → Vercel auto-deploy pipeline</li>
                 <li>• TypeScript path aliases (`@/*`) and strict type checking</li>
                 <li>• Vercel Analytics for performance monitoring</li>
-                <li>• Mobile-first responsive gallery layouts</li>
                 <li>• Next.js Image Optimization for fast loading</li>
                 <li>• SEO optimization with metadata, OpenGraph, and structured data</li>
               </ul>
