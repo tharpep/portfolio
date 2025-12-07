@@ -22,7 +22,7 @@ function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className="group block rounded-xl border border-neutral-700 bg-neutral-800 p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 transition-all duration-300 hover:border-cyan-500/50"
+      className="group block rounded-xl border border-neutral-700 bg-neutral-800 p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 hover:border-cyan-500/50"
       prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
@@ -95,12 +95,12 @@ export default function Projects() {
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
       {/* Hero Section */}
       <section className="text-center mb-16">
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
+        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
           All Projects
         </h1>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
-          A comprehensive portfolio of innovative solutions spanning data engineering, creative technology, AI, and research.
-          Each project represents a unique intersection of <span className="text-cyan-400 font-semibold">technical excellence</span> and <span className="text-blue-400 font-semibold">creative problem-solving</span>.
+          Projects spanning data pipelines, AI systems, full-stack development, and research.
+          From embedded systems to cloud automation, these reflect what I've built and learned.
         </p>
       </section>
 

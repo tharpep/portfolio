@@ -33,8 +33,11 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
+
       {/* ─────────── Brief Story ─────────── */}
-      <section className="text-center mb-20 max-w-4xl mx-auto">
+      <section className="text-center mb-12 sm:mb-16 md:mb-20 max-w-4xl mx-auto">
         <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
           I build full-stack applications and integrate AI into production environments.
           At Mesh Systems, I&apos;ve worked on cloud automation, AI enablement across engineering
@@ -42,6 +45,9 @@ export default function Home() {
           and solving problems I care about.
         </p>
       </section>
+
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
 
       {/* ─────────── Featured Projects ─────────── */}
       <section className="mb-12 sm:mb-16 md:mb-20">
@@ -89,6 +95,9 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
+
       {/* ─────────── Current Work ─────────── */}
       <section className="mb-12 sm:mb-16 md:mb-20">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
@@ -117,6 +126,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
 
       {/* ─────────── Let's Connect ─────────── */}
       <section className="mb-12 sm:mb-16 md:mb-20">
@@ -214,7 +226,7 @@ function FeaturedProjectCard({
   return (
     <Link
       href={href}
-      className={`group block rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 sm:p-6 md:p-8 hover:shadow-xl hover:-translate-y-1 transition-all duration-300 ${accentClasses[accent]}`}
+      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 sm:p-6 md:p-8 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ${accentClasses[accent]}`}
     >
       <div className="flex justify-between items-start mb-4">
         <h3 className={`font-bold text-xl text-white transition-colors ${textClasses[accent]}`}>

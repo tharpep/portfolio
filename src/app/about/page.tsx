@@ -20,7 +20,7 @@ export default async function About() {
       
       {/* Hero Section */}
       <section className="text-center mb-8 sm:mb-12 md:mb-16">
-        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-teal-500">
+        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
           About Me
         </h1>
         <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
