@@ -100,7 +100,7 @@ export default function Projects() {
         </h1>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
           Projects spanning data pipelines, AI systems, full-stack development, and research.
-          From embedded systems to cloud automation, these reflect what I've built and learned.
+          From embedded systems to cloud automation, these reflect what I&apos;ve built and learned.
         </p>
       </section>
 

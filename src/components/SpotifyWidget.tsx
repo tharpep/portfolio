@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import { SpotifyDisplayData } from '@/lib/spotify-types';
 
 interface SpotifyWidgetProps {
@@ -23,9 +24,11 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
           </h3>
           <div className="rounded-xl border border-green-500/30 bg-gradient-to-br from-green-900/20 to-emerald-900/20 p-6 hover:border-green-400/50 transition-all duration-300 group flex-1 flex flex-col justify-center">
             <div className="flex flex-col items-center text-center gap-6">
-              <img 
+              <Image 
                 src={data.topTrackDay.albumImage} 
                 alt={`${data.topTrackDay.name} album cover`}
+                width={160}
+                height={160}
                 className="w-32 h-32 md:w-40 md:h-40 rounded-xl shadow-lg group-hover:scale-105 transition-transform"
               />
               <div className="w-full">
@@ -66,9 +69,11 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}
                 </span>
-                <img 
+                <Image 
                   src={track.albumImage} 
                   alt={`${track.name} album cover`}
+                  width={40}
+                  height={40}
                   className="w-10 h-10 rounded group-hover:scale-105 transition-transform"
                 />
                 <div className="flex-1 min-w-0">
@@ -109,9 +114,11 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}
                 </span>
-                <img 
+                <Image 
                   src={artist.image} 
                   alt={`${artist.name} profile`}
+                  width={40}
+                  height={40}
                   className="w-10 h-10 rounded-full group-hover:scale-105 transition-transform"
                 />
                 <div className="flex-1 min-w-0">
