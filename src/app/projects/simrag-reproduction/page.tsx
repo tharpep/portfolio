@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
-import MermaidDiagram from "@/components/MermaidDiagram";
 
 export const metadata: Metadata = {
   title: "SimRAG Reproduction Study – Projects – Pryce Tharpe",
@@ -133,38 +132,31 @@ export default function SimRAGReproduction() {
                 <p>
                   Two-stage fine-tuning process: instruction following, then domain adaptation with synthetic QA pairs.
                 </p>
-                <div className="bg-neutral-800/50 border border-neutral-700 rounded-lg p-8 overflow-x-auto min-h-[400px] flex items-center justify-center">
-                  <div className="min-w-[1200px]">
-                    <MermaidDiagram
-                      chart={`flowchart LR
-    Start([Start]) --> Setup[Setup & Config]
-    Setup --> Ingest[Document Ingestion]
-    Ingest --> Stage1[Stage 1: Instruction Following]
-    Stage1 --> Train1[QLoRA Training<br/>~3-4 hours]
-    Train1 --> GenerateQA[Generate QA Pairs]
-    GenerateQA --> Stage2[Stage 2: Domain Adaptation]
-    Stage2 --> Train2[QLoRA Training<br/>~3-4 hours]
-    Train2 --> Test{Testing}
-    Test --> Baseline[Baseline RAG]
-    Test --> FineTuned[Fine-tuned RAG]
-    Baseline --> Compare[Compare Results]
-    FineTuned --> Compare
-    Compare --> Results[Display Results]
-    Results --> End([End])
-    
-    style Start fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000
-    style Setup fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000
-    style End fill:#b3e5fc,stroke:#0277bd,stroke-width:2px,color:#000
-    style Ingest fill:#c8e6c9,stroke:#388e3c,stroke-width:2px,color:#000
-    style Train1 fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px,color:#000
-    style Train2 fill:#e1bee7,stroke:#7b1fa2,stroke-width:2px,color:#000
-    style GenerateQA fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000
-    style Baseline fill:#ffccbc,stroke:#e64a19,stroke-width:2px,color:#000
-    style FineTuned fill:#ffccbc,stroke:#e64a19,stroke-width:2px,color:#000
-    style Compare fill:#ffccbc,stroke:#e64a19,stroke-width:2px,color:#000
-    style Test fill:#ffccbc,stroke:#e64a19,stroke-width:2px,color:#000
-    style Results fill:#fff9c4,stroke:#f57f17,stroke-width:2px,color:#000`}
-                    />
+                
+                <div className="bg-neutral-800/50 border border-neutral-700 rounded-lg p-6 space-y-4">
+                  <div>
+                    <h3 className="text-base font-semibold text-amber-200 mb-1">Setup & Document Ingestion</h3>
+                    <p className="text-sm text-neutral-400">Load documents, chunk text, generate embeddings, store in Qdrant.</p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-base font-semibold text-amber-200 mb-1">Stage 1: Instruction Following</h3>
+                    <p className="text-sm text-neutral-400">QLoRA fine-tuning on general instructions (~4-6 hours).</p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-base font-semibold text-amber-200 mb-1">Generate QA Pairs</h3>
+                    <p className="text-sm text-neutral-400">Create domain-specific training data from documents.</p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-base font-semibold text-amber-200 mb-1">Stage 2: Domain Adaptation</h3>
+                    <p className="text-sm text-neutral-400">QLoRA fine-tuning on domain QA dataset (~30 minutes).</p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-base font-semibold text-amber-200 mb-1">Testing & Comparison</h3>
+                    <p className="text-sm text-neutral-400">Compare baseline RAG vs fine-tuned RAG performance.</p>
                   </div>
                 </div>
               </div>
