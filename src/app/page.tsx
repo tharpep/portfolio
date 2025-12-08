@@ -89,7 +89,7 @@ export default function Home() {
             href="/projects"
             className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
           >
-            View all projects 
+            View all projects
             <span className="inline-block group-hover:translate-x-1 transition-transform ml-1">→</span>
           </Link>
         </div>

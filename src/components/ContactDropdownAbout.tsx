@@ -28,7 +28,7 @@ export default function ContactDropdownAbout() {
         onClick={() => setIsOpen(!isOpen)}
         className="px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2"
       >
-        Contact Me
+        Say Hello
         <svg 
           className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} 
           fill="none" 
