@@ -10,7 +10,7 @@ export default function Home() {
           Pryce Tharpe
         </h1>
         <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-          Computer Engineering student at Purdue exploring software development through embedded systems, cloud automation, and AI integration.
+          Computer Engineering student at Purdue exploring software development through full-stack development, cloud automation, and AI integration.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
           <Link
@@ -40,7 +40,7 @@ export default function Home() {
       <section className="text-center mb-12 sm:mb-16 md:mb-20 max-w-4xl mx-auto">
         <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
           I build full-stack applications and integrate AI into production environments.
-          At Mesh Systems, I&apos;ve worked on cloud automation, AI enablement across engineering
+          In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
           teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
           and solving problems I care about.
         </p>
@@ -116,7 +116,7 @@ export default function Home() {
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Leading AI enablement sessions and building internal tools</span>
+                <span>Building personal projects that solve problems I encounter daily</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
