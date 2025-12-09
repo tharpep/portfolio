@@ -39,9 +39,6 @@ importers:
       '@tailwindcss/postcss':
         specifier: ^4
         version: 4.1.10
-      '@types/mermaid':
-        specifier: ^9.2.0
-        version: 9.2.0
       '@types/node':
         specifier: ^20
         version: 20.19.1
@@ -645,10 +642,6 @@ packages:
 
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
-
-  '@types/mermaid@9.2.0':
-    resolution: {integrity: sha512-AlvLWYer6u4BkO4QzMkHo0t9RkvVIgqggVZmO+5snUiuX2caTKqtdqygX6GeE1VQa/TnXw9WoH0spcmHtG0inQ==}
-    deprecated: This is a stub types definition. mermaid provides its own type definitions, so you do not need this installed.
 
   '@types/node@20.19.1':
     resolution: {integrity: sha512-jJD50LtlD2dodAEO653i3YF04NWak6jN3ky+Ri3Em3mGR39/glWiboM/IePaRbgwSfqM1TpGXfAg8ohn/4dTgA==}
@@ -2998,10 +2991,6 @@ snapshots:
   '@types/json-schema@7.0.15': {}
 
   '@types/json5@0.0.29': {}
-
-  '@types/mermaid@9.2.0':
-    dependencies:
-      mermaid: 11.12.2
 
   '@types/node@20.19.1':
     dependencies:
