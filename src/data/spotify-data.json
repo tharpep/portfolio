@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-08T17:13:02.073047Z",
+  "lastUpdated": "2025-12-09T17:13:30.796478Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
-      "name": "Simulation Swarm",
-      "artists": "Big Thief",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
-      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
-    },
-    {
       "name": "Loser",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
       "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
+    },
+    {
+      "name": "Simulation Swarm",
+      "artists": "Big Thief",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
+      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
     },
     {
       "name": "Warning Sign",
