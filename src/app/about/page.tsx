@@ -1,6 +1,5 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import ContactDropdownAbout from "@/components/ContactDropdownAbout";
 import SpotifyWidget from "@/components/SpotifyWidget";
 import { getSpotifyData } from "@/lib/spotify-data";
 
@@ -23,11 +22,10 @@ export default async function About() {
         <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
           About Me
         </h1>
-        <p className="text-lg sm:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto">
-          Computer Engineering student building software that works in the real world.
-        </p>
       </section>
 
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
 
       {/* Main Content */}
       <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12 md:space-y-16">
@@ -39,7 +37,7 @@ export default async function About() {
           </h2>
           <div className="space-y-4 text-neutral-300 leading-relaxed">
             <p>
-              I&apos;m a senior in Computer Engineering at Purdue, focused on software systems that solve real problems. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me a perspective that spans from low-level code to cloud-scale systems. I&apos;ve worked across teams, automated workflows that save hours of manual work, and built AI tools that people actually use.
+              I&apos;m a senior in Computer Engineering at Purdue, focused on software systems that solve real problems. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me a perspective that spans from low-level code to cloud-scale systems.
             </p>
           </div>
         </section>
@@ -92,28 +90,6 @@ export default async function About() {
             </p>
           </div>
         </section>
-
-        {/* Connect Section */}
-        <section className="text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-            Let&apos;s Connect
-          </h2>
-          <p className="text-neutral-300 leading-relaxed mb-8 max-w-2xl mx-auto">
-            I&apos;m looking for full-time software engineering roles and always up for talking about interesting technical problems.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-md mx-auto">
-            <Link
-              href="/projects"
-              className="px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 text-center"
-            >
-              View My Work
-            </Link>
-            <div className="flex justify-center">
-              <ContactDropdownAbout />
-            </div>
-          </div>
-        </section>
-
 
       </div>
     </main>
