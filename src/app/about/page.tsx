@@ -18,8 +18,8 @@ export default async function About() {
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
       
       {/* Hero Section */}
-      <section className="text-center mb-8 sm:mb-12 md:mb-16">
-        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
+      <section className="text-center mb-8 sm:mb-12 md:mb-16 py-4 sm:py-6">
+        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
           About Me
         </h1>
       </section>
