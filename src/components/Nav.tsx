@@ -37,9 +37,9 @@ export default function Nav() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 w-full bg-neutral-900 transition-all duration-300 ${
+      className={`sticky top-0 z-50 w-full bg-transparent transition-all duration-300 ${
         mounted && scrolled
-          ? 'shadow-lg'
+          ? 'shadow-lg shadow-black/20'
           : ''
       }`}
       role="navigation"

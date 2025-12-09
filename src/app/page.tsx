@@ -2,14 +2,9 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main id="main" className="bg-neutral-900 text-neutral-100">
-      
+    <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="relative text-center min-h-screen flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28 rounded-3xl overflow-hidden">
-        {/* Subtle gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/5 via-transparent to-blue-500/5 pointer-events-none" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-cyan-500/10 via-transparent to-transparent pointer-events-none" />
-        
+      <section className="relative text-center min-h-screen flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28">
         {/* Content */}
         <div className="relative z-10">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
@@ -39,29 +34,31 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Animated Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
-          <a
-            href="#content"
-            className="flex flex-col items-center gap-2 text-cyan-400/60 hover:text-cyan-400 transition-colors group"
-            aria-label="Scroll to content"
-          >
-            <span className="text-xs font-mono tracking-wider">Scroll</span>
-            <svg 
-              className="w-6 h-6 animate-bounce" 
-              fill="none" 
-              stroke="currentColor" 
-              strokeWidth="2" 
-              viewBox="0 0 24 24"
+        {/* Animated Scroll Indicator - positioned at bottom 12% for visibility */}
+        <div className="absolute bottom-[12%] left-1/2 -translate-x-1/2 z-10">
+          <div className="animate-fade-in">
+            <a
+              href="#content"
+              className="flex flex-col items-center gap-2 text-cyan-400/60 hover:text-cyan-400 transition-colors group"
+              aria-label="Scroll to content"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </a>
+              <span className="text-xs font-mono tracking-wider">Scroll</span>
+              <svg 
+                className="w-6 h-6 animate-bounce" 
+                fill="none" 
+                stroke="currentColor" 
+                strokeWidth="2" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+              </svg>
+            </a>
+          </div>
         </div>
       </section>
 
       {/* Main Content Section */}
-      <div id="content" className="px-4 sm:px-8 md:px-16 lg:px-32 py-12 sm:py-16 md:py-20 lg:py-24">
+      <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 py-12 sm:py-16 md:py-20 lg:py-24">
 
       {/* ─────────── Brief Story ─────────── */}
       <section className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24 max-w-4xl mx-auto">
