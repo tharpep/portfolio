@@ -59,63 +59,6 @@ export default async function About() {
           </div>
         </section>
 
-        {/* Skills & Technologies */}
-        <section>
-          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-            Technical Expertise
-          </h2>
-          <div className="space-y-6">
-            
-            {/* Programming Languages */}
-            <div>
-              <h3 className="font-bold text-lg text-white mb-3">Programming Languages</h3>
-              <div className="flex flex-wrap gap-2">
-                {["Python", "C", "C++", "JavaScript", "TypeScript", "C#", "SQL", "Assembly"].map(tech => (
-                  <span key={tech} className="px-3 py-1 text-sm font-medium bg-blue-900/30 text-blue-300 rounded-md border border-blue-700/50">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Cloud & Infrastructure */}
-            <div>
-              <h3 className="font-bold text-lg text-white mb-3">Cloud & Infrastructure</h3>
-              <div className="flex flex-wrap gap-2">
-                {["Microsoft Azure", "Azure Data Factory", "Azure DevOps", "Microsoft Fabric", "Container Apps", "CI/CD", "GitHub Actions"].map(tech => (
-                  <span key={tech} className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-md border border-cyan-700/50">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Frameworks & Tools */}
-            <div>
-              <h3 className="font-bold text-lg text-white mb-3">Frameworks & Tools</h3>
-              <div className="flex flex-wrap gap-2">
-                {["React", "Next.js", "Node.js", "REST API", "Git/GitHub", "VSCode", "Linux", "Prompt Engineering", "AI Agents"].map(tech => (
-                  <span key={tech} className="px-3 py-1 text-sm font-medium bg-emerald-900/30 text-emerald-300 rounded-md border border-emerald-700/50">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-
-            {/* Hardware & Embedded */}
-            <div>
-              <h3 className="font-bold text-lg text-white mb-3">Hardware & Embedded</h3>
-              <div className="flex flex-wrap gap-2">
-                {["STM32", "USRP", "I2C", "SPI", "DMA", "DAC", "Circuit Design", "KiCAD"].map(tech => (
-                  <span key={tech} className="px-3 py-1 text-sm font-medium bg-purple-900/30 text-purple-300 rounded-md border border-purple-700/50">
-                    {tech}
-                  </span>
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Personal Interests */}
         <section>
           <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
@@ -126,7 +69,7 @@ export default async function About() {
               Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
             </p>
           </div>
-          
+
           {/* Spotify Widget */}
           {spotifyData && (
             <div className="mb-8">
@@ -136,6 +79,18 @@ export default async function About() {
               <SpotifyWidget data={spotifyData} />
             </div>
           )}
+        </section>
+
+        {/* Technical Background */}
+        <section>
+          <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+            Technical Background
+          </h2>
+          <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6">
+            <p className="text-neutral-300 leading-relaxed">
+              I work across the full stack, from embedded C on STM32 microcontrollers to React and Next.js frontends, with Python, Azure, and AI systems in between. I&apos;m equally comfortable debugging low-level hardware protocols and architecting cloud data pipelines. For the complete technical breakdown, check out my <Link href="/resume" className="text-cyan-400 hover:text-cyan-300 transition-colors underline">resume</Link>.
+            </p>
+          </div>
         </section>
 
         {/* Connect Section */}
