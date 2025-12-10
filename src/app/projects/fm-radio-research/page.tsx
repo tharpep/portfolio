@@ -89,22 +89,22 @@ export default function FmRadioResearch() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="Automated Signal Detection"
-            description="Sophisticated algorithms for identifying FM radio signals across the spectrum with configurable sensitivity and frequency scanning capabilities."
+            description="Algorithms for identifying FM radio signals across the spectrum with configurable sensitivity and frequency scanning capabilities."
             icon=""
           />
           <FeatureCard 
             title="Real-time Demodulation"
-            description="High-performance FM demodulation pipeline converting RF signals to baseband audio with minimal latency and distortion."
+            description="FM demodulation pipeline converting RF signals to baseband audio with low latency and distortion."
             icon=""
           />
           <FeatureCard 
             title="GNU Radio Integration"
-            description="Advanced signal processing workflows using GNU Radio's comprehensive DSP library and flowgraph architecture."
+            description="Signal processing workflows using GNU Radio's DSP library and flowgraph architecture."
             icon=""
           />
           <FeatureCard 
             title="USRP Hardware Control"
-            description="Direct interface with USRP software-defined radio hardware for precise frequency control, gain adjustment, and sampling configuration."
+            description="Direct interface with USRP software-defined radio hardware for frequency control, gain adjustment, and sampling configuration."
             icon=""
           />
         </div>
@@ -136,12 +136,12 @@ export default function FmRadioResearch() {
             <div>
               <h4 className="text-lg font-bold text-red-400 mb-4">Technical Contributions</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Advanced RF engineering and signal processing expertise</li>
+                <li>• RF engineering and signal processing experience</li>
                 <li>• Practical implementation of SDR technology in research</li>
                 <li>• Automated experimental framework development</li>
-                <li>• Real-time digital signal processing optimization</li>
-                <li>• Deep understanding of radio frequency engineering principles</li>
-                <li>• Hands-on experience with professional SDR hardware</li>
+                <li>• Digital signal processing optimization</li>
+                <li>• Understanding of radio frequency engineering principles</li>
+                <li>• Hands-on experience with SDR hardware</li>
               </ul>
             </div>
           </div>

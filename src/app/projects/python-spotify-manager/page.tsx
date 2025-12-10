@@ -88,23 +88,23 @@ export default function PythonSpotifyManager() {
         <h2 className="text-3xl font-bold font-mono text-green-300 mb-8">Core Capabilities</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
-            title="Advanced Authentication"
-            description="Robust OAuth 2.0 implementation with secure token management, refresh handling, and user privacy protection following Spotify's API guidelines."
+            title="Authentication"
+            description="OAuth 2.0 implementation with secure token management, refresh handling, and user privacy protection following Spotify's API guidelines."
             icon=""
           />
           <FeatureCard 
             title="Data Analysis Pipeline"
-            description="Comprehensive data processing using Pandas for music analytics, listening pattern analysis, and statistical insights generation."
+            description="Data processing using Pandas for music analytics, listening pattern analysis, and statistical insights generation."
             icon=""
           />
           <FeatureCard 
             title="Playlist Management"
-            description="Automated playlist creation, modification, and optimization tools with intelligent music curation and recommendation features."
+            description="Automated playlist creation, modification, and optimization tools with music curation and recommendation features."
             icon=""
           />
           <FeatureCard 
             title="Music Insights"
-            description="Deep analysis of listening habits, genre preferences, and temporal patterns providing actionable insights into music consumption."
+            description="Analysis of listening habits, genre preferences, and temporal patterns providing insights into music consumption."
             icon=""
           />
         </div>
@@ -136,7 +136,7 @@ export default function PythonSpotifyManager() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Skills</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Advanced API integration and authentication patterns</li>
+                <li>• API integration and authentication patterns</li>
                 <li>• Data processing and analysis with Python ecosystem</li>
                 <li>• RESTful API consumption best practices</li>
                 <li>• OAuth 2.0 security implementation experience</li>

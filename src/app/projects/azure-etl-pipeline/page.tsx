@@ -114,11 +114,11 @@ export default function AzureETLPipeline() {
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-400 mt-1">•</span>
-                <span>Zero manager involvement in routine operations</span>
+                <span>Minimal manager involvement in routine operations</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-400 mt-1">•</span>
-                <span>Reliable, consistent data processing with validation</span>
+                <span>Reliable data processing with validation</span>
               </li>
               <li className="flex items-start gap-2">
                 <span className="text-green-400 mt-1">•</span>
@@ -135,7 +135,7 @@ export default function AzureETLPipeline() {
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <h3 className="text-xl font-bold text-white mb-4">Data Extraction & Processing</h3>
           <p className="text-neutral-300 mb-4">
-            Built automated system using Microsoft Fabric to extract Azure billing data and SQL for complex transformations, 
+            Built automated system using Microsoft Fabric to extract Azure billing data and SQL for transformations, 
             handling cost categorization and departmental allocation with built-in validation and error handling.
           </p>
           <div className="flex flex-wrap gap-2">
@@ -165,10 +165,10 @@ export default function AzureETLPipeline() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Transformed 13-step manual process into automated workflow</li>
-                <li>• Eliminated manual effort for managers with automated reporting</li>
-                <li>• Built fault-tolerant pipeline with ongoing support capabilities</li>
-                <li>• Delivered highly reliable, repeatable results for financial analysis</li>
+                <li>• Automated 13-step manual process into workflow</li>
+                <li>• Eliminated routine manager tasks with automated reporting</li>
+                <li>• Built fault-tolerant pipeline with error recovery and monitoring</li>
+                <li>• Delivered reliable, repeatable results for financial analysis</li>
               </ul>
             </div>
             

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Senior Design GenAI Subsystem – Projects – Pryce Tharpe",
-  description: "Built the complete generative AI subsystem for a multi-platform cognitive coaching application with RAG, artifact generation, and interactive chat.",
+  description: "Built the generative AI subsystem for a multi-platform cognitive coaching application with RAG, artifact generation, and interactive chat.",
   alternates: { canonical: "/projects/team35-seniordesign" },
 };
 
@@ -101,12 +101,12 @@ export default function Team35SeniorDesign() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="RAG System"
-            description="Complete retrieval-augmented generation system with Qdrant vector storage, document ingestion pipeline, and context-aware retrieval for educational content."
+            description="Retrieval-augmented generation system with Qdrant vector storage, document ingestion pipeline, and context-aware retrieval for educational content."
             icon=""
           />
           <FeatureCard 
             title="Artifact Generation"
-            description="Built comprehensive artifact generation system creating flashcards, multiple-choice questions, and insights with schema validation and template-based generation."
+            description="Built artifact generation system creating flashcards, multiple-choice questions, and insights with schema validation and template-based generation."
             icon=""
           />
           <FeatureCard 
@@ -128,7 +128,7 @@ export default function Team35SeniorDesign() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="FastAPI Backend"
-            description="Built comprehensive FastAPI backend with RESTful endpoints for artifact generation, chat interactions, and document management with proper error handling."
+            description="Built FastAPI backend with RESTful endpoints for artifact generation, chat interactions, and document management with error handling."
             icon=""
           />
           <FeatureCard 
@@ -138,7 +138,7 @@ export default function Team35SeniorDesign() {
           />
           <FeatureCard 
             title="Vector Storage"
-            description="Implemented Qdrant vector database integration with persistent collections, semantic search, and efficient document retrieval for RAG operations."
+            description="Implemented Qdrant vector database integration with persistent collections, semantic search, and document retrieval for RAG operations."
             icon=""
           />
           <FeatureCard 
@@ -173,12 +173,12 @@ export default function Team35SeniorDesign() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Complete GenAI subsystem architecture and implementation</li>
-                <li>• Advanced RAG system with multi-layer context management</li>
-                <li>• Production-ready artifact generation with schema validation</li>
+                <li>• GenAI subsystem architecture and implementation</li>
+                <li>• RAG system with multi-layer context management</li>
+                <li>• Artifact generation with schema validation</li>
                 <li>• Multi-provider AI integration with automatic selection</li>
-                <li>• Comprehensive CLI and API interfaces</li>
-                <li>• Original work demonstrating full-stack AI system design</li>
+                <li>• CLI and API interfaces</li>
+                <li>• Full-stack AI system design</li>
               </ul>
             </div>
           </div>

@@ -101,7 +101,7 @@ export default function SimRAGReproduction() {
                   Reproduction study of the SimRAG paper exploring similarity-based Retrieval Augmented Generation techniques.
                 </p>
                 <p>
-                  Built a clean, modular implementation to understand RAG fundamentals, fine-tuning concepts, and practical ML engineering workflows.
+                  Built a modular implementation to understand RAG fundamentals, fine-tuning concepts, and practical ML engineering workflows.
                 </p>
                 <p>
                   Focused on learning through implementation rather than just theoretical understanding.
@@ -114,10 +114,10 @@ export default function SimRAGReproduction() {
               <h2 className="text-2xl font-bold font-mono text-amber-300 mb-4">System Architecture</h2>
               <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
                 <p>
-                  Designed provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection for optimal performance.
+                  Designed provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection.
                 </p>
                 <p>
-                  Built complete RAG system with Sentence Transformers for embeddings, Qdrant vector storage, and context-aware question answering with source citations.
+                  Built RAG system with Sentence Transformers for embeddings, Qdrant vector storage, and context-aware question answering with source citations.
                 </p>
                 <p>
                   Implemented both synchronous and asynchronous API calls for flexible integration patterns.
@@ -167,13 +167,13 @@ export default function SimRAGReproduction() {
               <h2 className="text-2xl font-bold font-mono text-amber-300 mb-4">Implementation Details</h2>
               <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
                 <p>
-                  Successfully trained and tested model on personal hardware, demonstrating practical ML engineering skills beyond typical academic requirements.
+                  Successfully trained and tested model on personal hardware, demonstrating practical ML engineering skills.
                 </p>
                 <p>
-                  Created comprehensive test suite with mocked external dependencies for reproducible testing and validation.
+                  Created test suite with mocked external dependencies for reproducible testing and validation.
                 </p>
                 <p>
-                  Structured experiment framework for research reproducibility with comprehensive logging, result tracking, and automated testing.
+                  Experiment framework for research reproducibility with logging, result tracking, and automated testing.
                 </p>
               </div>
             </section>
@@ -207,9 +207,9 @@ export default function SimRAGReproduction() {
                 <h3 className="text-sm font-bold font-mono text-amber-300 uppercase tracking-wider mb-3">Key Features</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
                   <li>• Provider-agnostic LLM interface</li>
-                  <li>• Complete RAG implementation</li>
+                  <li>• RAG implementation</li>
                   <li>• Vector storage with Qdrant</li>
-                  <li>• Comprehensive test suite</li>
+                  <li>• Test suite</li>
                 </ul>
               </div>
 

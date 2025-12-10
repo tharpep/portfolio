@@ -101,7 +101,7 @@ export default function ECE461ModelRegistry() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="AWS Infrastructure"
-            description="Designed and deployed containerized application infrastructure using AWS ECS and Fargate, including task definitions, security groups, and networking configuration."
+            description="Containerized application infrastructure using AWS ECS and Fargate, including task definitions, security groups, and networking configuration."
             icon=""
           />
           <FeatureCard 
@@ -116,7 +116,7 @@ export default function ECE461ModelRegistry() {
           />
           <FeatureCard 
             title="Model Registry System"
-            description="Built comprehensive model registry with CRUD operations, search functionality, lineage tracking, and model evaluation capabilities."
+            description="Built model registry with CRUD operations, search functionality, lineage tracking, and model evaluation capabilities."
             icon=""
           />
         </div>
@@ -128,17 +128,17 @@ export default function ECE461ModelRegistry() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="AWS ECS/Fargate Deployment"
-            description="Configured containerized deployment with Docker, ECR repositories, task definitions, and automated CI/CD pipelines via GitHub Actions."
+            description="Containerized deployment with Docker, ECR repositories, task definitions, and automated CI/CD pipelines via GitHub Actions."
             icon=""
           />
           <FeatureCard 
             title="Reproducibility Metric"
-            description="Analyzes model repositories for example code availability, validates code structure, and scores based on demonstration capability."
+            description="Analyzes model repositories for example code availability, checks code structure, and scores based on demonstration capability."
             icon=""
           />
           <FeatureCard 
             title="Reviewedness Metric"
-            description="Calculates fraction of code introduced via reviewed pull requests over the last 2 years, ensuring code quality through peer review."
+            description="Calculates fraction of code introduced via reviewed pull requests over the last 2 years, indicating code quality through peer review."
             icon=""
           />
           <FeatureCard 
@@ -173,7 +173,6 @@ export default function ECE461ModelRegistry() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Cloud infrastructure design and deployment expertise</li>
                 <li>• Metric design and implementation for model evaluation</li>
                 <li>• Container orchestration with AWS ECS/Fargate</li>
                 <li>• CI/CD pipeline automation with GitHub Actions</li>

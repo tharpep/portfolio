@@ -101,17 +101,17 @@ export default function TradingCardCollectionManager() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="Authentication System"
-            description="Implemented multi-user authentication with Supabase Auth, JWT token management, and secure session handling for user access control."
+            description="Multi-user authentication with Supabase Auth, JWT token management, and secure session handling for user access control."
             icon=""
           />
           <FeatureCard 
             title="Data Isolation"
-            description="Built Row Level Security (RLS) policies ensuring users can only access their own card collections while maintaining system-wide admin capabilities."
+            description="Built Row Level Security (RLS) policies restricting users to their own card collections while maintaining system-wide admin capabilities."
             icon=""
           />
           <FeatureCard 
             title="Admin CLI"
-            description="Created comprehensive admin CLI for system management with full access to all user data, statistics, and batch operations."
+            description="Created admin CLI for system management with full access to all user data, statistics, and batch operations."
             icon=""
           />
           <FeatureCard 
@@ -128,7 +128,7 @@ export default function TradingCardCollectionManager() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="Supabase Integration"
-            description="Integrated Supabase for PostgreSQL database, authentication, and Row Level Security policies with proper connection pooling and error handling."
+            description="Integrated Supabase for PostgreSQL database, authentication, and Row Level Security policies with connection pooling and error handling."
             icon=""
           />
           <FeatureCard 
@@ -138,7 +138,7 @@ export default function TradingCardCollectionManager() {
           />
           <FeatureCard 
             title="Repository Pattern"
-            description="Implemented clean data access layer with repository pattern, service layer for business logic, and proper separation of concerns."
+            description="Data access layer with repository pattern, service layer for business logic, and separation of concerns."
             icon=""
           />
           <FeatureCard 
@@ -173,7 +173,6 @@ export default function TradingCardCollectionManager() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Modern authentication patterns with Supabase Auth</li>
                 <li>• Database security with Row Level Security policies</li>
                 <li>• Multi-user application architecture</li>
                 <li>• Admin CLI for system management</li>

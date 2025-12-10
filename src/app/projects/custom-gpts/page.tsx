@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Advanced Custom GPTs – Projects – Pryce Tharpe",
+  title: "Custom GPTs – Projects – Pryce Tharpe",
   description: "Custom GPTs for enterprise and personal productivity.",
   alternates: { canonical: "/projects/custom-gpts" },
 };
@@ -88,12 +88,12 @@ export default function CustomGpts() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="System Prompt Builder"
-            description="Sophisticated GPT designed to assist users at all skill levels in creating effective system prompts with adaptive guidance and best practice recommendations."
+            description="GPT designed to assist users at all skill levels in creating effective system prompts with guidance and best practice recommendations."
             icon=""
           />
           <FeatureCard 
             title="Student Career Archivist"
-            description="Professional career documentation assistant that helps organize achievements, extract key accomplishments, and prepare compelling career narratives for applications and interviews."
+            description="Career documentation assistant that helps organize achievements, extract key accomplishments, and prepare career narratives for applications and interviews."
             icon=""
           />
         </div>
@@ -104,23 +104,23 @@ export default function CustomGpts() {
         <h2 className="text-3xl font-bold font-mono text-blue-300 mb-8">Technical Implementation</h2>
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
-            title="Advanced Prompt Engineering"
-            description="Sophisticated prompt design incorporating context injection, role definition, and output formatting for consistent, high-quality responses."
+            title="Prompt Engineering"
+            description="Prompt design incorporating context injection, role definition, and output formatting for consistent responses."
             icon=""
           />
           <FeatureCard 
             title="User Experience Focus"
-            description="Intuitive conversation flows designed to guide users naturally through complex processes while maintaining engagement and clarity."
+            description="Conversation flows designed to guide users through complex processes while maintaining engagement and clarity."
             icon=""
           />
           <FeatureCard 
             title="Enterprise Integration"
-            description="Seamless integration with business workflows and internal processes, designed for professional environments and team collaboration."
+            description="Integration with business workflows and internal processes, designed for professional environments and team collaboration."
             icon="🏢"
           />
           <FeatureCard 
             title="Performance Optimization"
-            description="Response time optimization through efficient prompt design, token usage minimization, and quality consistency across interaction patterns."
+            description="Response time optimization through prompt design, token usage minimization, and quality consistency across interaction patterns."
             icon=""
           />
         </div>
@@ -150,10 +150,8 @@ export default function CustomGpts() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Standardized AI assistance across team workflows</li>
                 <li>• Reduced learning curve for AI tool adoption</li>
                 <li>• Improved consistency in prompt engineering practices</li>
-                <li>• Enhanced productivity through specialized automation</li>
                 <li>• Demonstrated practical AI integration in business workflows</li>
                 <li>• Created reusable frameworks for future AI projects</li>
               </ul>

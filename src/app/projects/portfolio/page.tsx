@@ -62,7 +62,7 @@ export default function Portfolio() {
 
               {/* Description */}
               <p className="text-xl text-neutral-300 leading-relaxed mb-6">
-                Personal portfolio with live Spotify integration and automated deployments.
+                Portfolio with live Spotify integration and automated deployments.
               </p>
 
               {/* Tech Stack Pills */}

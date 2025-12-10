@@ -87,13 +87,12 @@ export default function DevopsScorecard() {
         <h2 className="text-3xl font-bold font-mono text-cyan-300 mb-8">Project Overview</h2>
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <p className="text-neutral-300 leading-relaxed mb-4">
-            Developed a comprehensive Azure DevOps extension that integrates a custom &quot;Sprint Summary&quot; board directly into 
-            Azure DevOps work items, providing real-time sprint health and status visibility for stakeholders.
+            Developed an Azure DevOps extension with sprint goals, next sprint goals, summaries, impediments, links to tasks, and delivery status that integrates a custom &quot;Sprint Summary&quot; board directly into 
+            Azure DevOps work items, providing sprint health and status visibility for stakeholders.
           </p>
           <p className="text-neutral-300 leading-relaxed">
-            Built using Next.js for the embedded frontend and Azure API Web App for the backend, with real-time data 
-            integration through the Azure DevOps REST API. The extension transforms traditional status meetings into 
-            instant, data-driven insights for both internal teams and external stakeholders.
+            Built using Next.js for the embedded frontend and Azure API Web App for the backend, with data 
+            integration through the Azure DevOps REST API. The extension provides instant, data-driven insights for status meetings for both internal teams and external stakeholders.
           </p>
         </div>
       </section>
@@ -104,7 +103,7 @@ export default function DevopsScorecard() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           <FeatureCard 
             title="Sprint Summary Dashboard"
-            description="Clean, organized display of current sprint information including status, goals, achievements, and key metrics."
+            description="Organized display of current sprint information including status, goals, achievements, and key metrics."
             icon=""
           />
           <FeatureCard 
@@ -114,7 +113,7 @@ export default function DevopsScorecard() {
           />
           <FeatureCard 
             title="Azure DevOps Integration"
-            description="Seamlessly integrates with Azure DevOps REST API for secure data access within the Azure DevOps environment."
+            description="Integrates with Azure DevOps REST API for secure data access within the Azure DevOps environment."
             icon=""
           />
           <FeatureCard 
@@ -185,12 +184,11 @@ export default function DevopsScorecard() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Business Benefits</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Eliminates need for lengthy status meeting presentations</li>
+                <li>• Reduces need for lengthy status meeting presentations</li>
                 <li>• Provides sprint visibility for stakeholders</li>
                 <li>• Reduces time spent gathering sprint status information</li>
                 <li>• Improves transparency for external stakeholders</li>
                 <li>• Enables data-driven sprint planning decisions</li>
-                <li>• Enhances Agile process visibility and accountability</li>
               </ul>
             </div>
           </div>

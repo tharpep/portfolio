@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Personal AI System – Projects – Pryce Tharpe",
-  description: "Comprehensive personal AI assistant with RAG capabilities and tool integration.",
+  description: "Personal AI assistant with RAG capabilities and tool integration.",
   alternates: { canonical: "/projects/personal-ai-system" },
 };
 
@@ -61,7 +61,7 @@ export default function PersonalAiSystem() {
       <section className="mb-8 sm:mb-12 md:mb-16">
         <div className="flex items-center gap-3 mb-4">
           <span className="px-3 py-1 text-xs font-medium bg-orange-900/30 text-orange-300 rounded-full border border-orange-700/50">
-            In Progress - RAG MVP
+            In Progress
           </span>
         </div>
         
@@ -101,22 +101,22 @@ export default function PersonalAiSystem() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="RAG Knowledge Retrieval"
-            description="Advanced retrieval-augmented generation system with document ingestion, vector search, and citation-based knowledge synthesis."
+            description="Retrieval-augmented generation system with document ingestion, vector search, and citation-based knowledge synthesis."
             icon=""
           />
           <FeatureCard 
             title="Tool Integration Framework"
-            description="Extensible tool allowlist system with strict validation, safety guardrails, and support for external API integrations."
+            description="Extensible tool allowlist system with parameter validation and allowlist security, and support for external API integrations."
             icon=""
           />
           <FeatureCard 
-            title="Local-First Architecture"
-            description="Privacy-focused design with local AI models (Ollama/vLLM) and cloud fallback options for optimal performance and security."
+            title="Provider Flexibility"
+            description="Supports local models (Ollama) or external APIs (Claude/ChatGPT). Goal is to use local or self-deployed models, currently uses Ollama or external APIs based on configuration."
             icon=""
           />
           <FeatureCard 
             title="API Gateway Design"
-            description="Comprehensive API architecture with LLM Gateway for language intelligence and Personal API for orchestration and routing."
+            description="API architecture with LLM Gateway for language intelligence and Personal API for orchestration and routing."
             icon=""
           />
         </div>
@@ -128,22 +128,22 @@ export default function PersonalAiSystem() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="LLM Gateway"
-            description="Dedicated service for language model interactions with streaming support, timeout management, and model routing capabilities."
+            description="Service for language model interactions with streaming support, timeout management, and model routing capabilities."
             icon=""
           />
           <FeatureCard 
             title="Document Processing"
-            description="Automated document ingestion with provenance tracking, ACL management, and vector database integration for efficient retrieval."
+            description="Automated document ingestion with provenance tracking, ACL management, and vector database integration for retrieval."
             icon=""
           />
           <FeatureCard 
             title="Tool Orchestration"
-            description="Intelligent routing system with JSON schema validation, uncertainty handling, and fallback mechanisms for reliable tool execution."
+            description="Routing system with JSON schema validation, uncertainty handling, and fallback mechanisms for reliable tool execution."
             icon=""
           />
           <FeatureCard 
             title="Security & Privacy"
-            description="Comprehensive security model with PII redaction, bearer token authentication, and local-first data storage policies."
+            description="Security model with PII redaction, bearer token authentication, and local-first data storage policies."
             icon=""
           />
         </div>
@@ -173,12 +173,11 @@ export default function PersonalAiSystem() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Comprehensive API architecture with clear separation of concerns</li>
-                <li>• Advanced RAG implementation with citation tracking</li>
-                <li>• Extensible tool framework with safety-first design</li>
-                <li>• Local-first approach with cloud fallback capabilities</li>
-                <li>• Privacy-focused design with PII protection</li>
-                <li>• Scalable architecture supporting multiple connectors</li>
+                <li>• API architecture with clear separation of concerns</li>
+                <li>• RAG implementation with citation tracking</li>
+                <li>• Flexible provider system supporting local (Ollama) or external APIs (Claude/ChatGPT)</li>
+                <li>• Privacy-focused design with PII protection and local data storage</li>
+                <li>• Architecture supporting multiple connectors and extensible tool framework</li>
               </ul>
             </div>
           </div>

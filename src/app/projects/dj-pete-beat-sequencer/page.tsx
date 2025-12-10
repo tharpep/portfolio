@@ -102,7 +102,7 @@ export default function DJPeteBeatSequencer() {
         <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
           <h3 className="text-xl font-bold text-white mb-4">STM32 Embedded System</h3>
             <p className="text-neutral-300 mb-6">
-            Advanced embedded firmware leveraging STM32 ARM Cortex-M4 microcontroller with multiple communication protocols 
+            Embedded firmware leveraging STM32 ARM Cortex-M4 microcontroller with multiple communication protocols 
             and real-time audio processing for interactive music production hardware.
           </p>
           
@@ -140,22 +140,22 @@ export default function DJPeteBeatSequencer() {
         <div className="grid md:grid-cols-2 gap-6">
           <FeatureCard 
             title="Multi-Protocol Communication"
-            description="Implemented I2C and SPI communication protocols for seamless integration with Adafruit NeoTrellis RGB keypads and external peripherals."
+            description="Implemented I2C and SPI communication protocols for integration with Adafruit NeoTrellis RGB keypads and external peripherals."
             icon=""
           />
           <FeatureCard 
             title="DMA-Driven Audio Processing"
-            description="Leveraged Direct Memory Access for real-time audio sample streaming to DAC, eliminating CPU bottlenecks in audio processing pipeline."
+            description="Leveraged Direct Memory Access for real-time audio sample streaming to DAC, reducing CPU bottlenecks in audio processing pipeline."
             icon=""
           />
           <FeatureCard 
             title="Real-time RGB Control"
-            description="Dynamic LED matrix management with per-key RGB control, creating visual feedback system synchronized with audio patterns."
+            description="LED matrix management with per-key RGB control, creating visual feedback system synchronized with audio patterns."
             icon=""
           />
           <FeatureCard 
             title="Low-Level Optimization"
-            description="Hand-optimized ARM assembly routines for critical audio paths, achieving deterministic timing for professional music applications."
+            description="Hand-optimized ARM assembly routines for critical audio paths, achieving deterministic timing for music applications."
             icon=""
           />
         </div>
@@ -185,11 +185,11 @@ export default function DJPeteBeatSequencer() {
             <div>
               <h4 className="text-lg font-bold text-white mb-4">Technical Innovation</h4>
               <ul className="space-y-2 text-neutral-300">
-                <li>• Advanced embedded systems architecture design</li>
+                <li>• Embedded systems architecture design</li>
                 <li>• Real-time audio processing on resource-constrained hardware</li>
                 <li>• Multi-protocol communication stack implementation</li>
-                <li>• Professional-grade timing precision for music applications</li>
-                <li>• Demonstrated mastery of low-level embedded programming</li>
+                <li>• Precise timing for music applications</li>
+                <li>• Demonstrated proficiency in low-level embedded programming</li>
                 <li>• Applied real-time systems concepts in practical context</li>
               </ul>
             </div>

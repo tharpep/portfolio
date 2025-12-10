@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "AI System Prompt Framework – Projects – Pryce Tharpe",
-  description: "Enterprise-ready prompt engineering framework with standards enforcement.",
+  description: "Prompt engineering framework with standards enforcement.",
   alternates: { canonical: "/projects/ai-system-prompt" },
 };
 
@@ -90,13 +90,13 @@ export default function AISystemPrompt() {
               <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4">Framework Design</h2>
               <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
                 <p>
-                  Master IDE prompt standardizing AI-assisted coding workflows across engineering departments.
+                  Master IDE prompt aims to standardize AI-assisted coding workflows across engineering departments.
                 </p>
                 <p>
-                  Enforces coding standards with rule citations. Built-in security patterns prevent unsafe code generation and credential exposure.
+                  Helps enforce coding standards with rule citations. Built-in security patterns help prevent unsafe code generation and credential exposure.
                 </p>
                 <p>
-                  Supports C#, C/C++, JavaScript/TypeScript, Python, Java, SQL, Bash, Rust, and Go with language-specific patterns.
+                  Includes language-specific patterns for C#, C/C++, JavaScript/TypeScript, Python, Java, SQL, Bash, Rust, and Go.
                 </p>
               </div>
             </section>
@@ -106,7 +106,7 @@ export default function AISystemPrompt() {
               <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4">Enterprise Integration</h2>
               <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
                 <p>
-                  Integrates with Cursor, Windsurf, and VS Code IDEs for consistent AI assistance.
+                  Integrates with Cursor, Windsurf, and VS Code IDEs.
                 </p>
                 <p>
                   Department-specific overrides allow teams to adapt while maintaining core standards. Confidence-tagged output indicates when to verify suggestions.
