@@ -145,6 +145,9 @@ export default function Projects() {
         </p>
       </section>
 
+      {/* Subtle Divider */}
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+
       {/* Project Categories */}
       <div className="space-y-1">
         {categories.map((category) => (
