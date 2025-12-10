@@ -23,7 +23,7 @@ export default function Home() {
                 View Projects
               </Link>
               <Link
-                href="https://github.com/PryceTharpe"
+                href="https://github.com/tharpep"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white rounded-xl transition-all duration-300 hover:bg-neutral-800 group"
@@ -178,7 +178,7 @@ export default function Home() {
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
-              href="https://github.com/PryceTharpe"
+              href="https://github.com/tharpep"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
