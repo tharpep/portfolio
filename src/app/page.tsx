@@ -69,7 +69,7 @@ export default function Home() {
       {/* ─────────── Brief Story ─────────── */}
       <ScrollFadeIn>
         <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
-          <p className="hidden md:block text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
+          <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
             I build full-stack applications and integrate AI into production environments.
             In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
             teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
@@ -93,6 +93,7 @@ export default function Home() {
             href="/projects/ai-system-prompt"
             desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
             technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
+            timeline="August 2025 - Present"
             accent="cyan"
           />
           <FeaturedProjectCard
@@ -100,6 +101,7 @@ export default function Home() {
             href="/projects/personal-ai-system"
             desc="Privacy-first AI system with RAG and tool integration. Local-first architecture with Qdrant vector storage and extensible tool framework. Building the AI assistant I want to use."
             technologies={["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"]}
+            timeline="August 2025 - Present"
             accent="purple"
           />
           <FeaturedProjectCard
@@ -107,6 +109,7 @@ export default function Home() {
             href="/projects/simrag-reproduction"
             desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
             technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
+            timeline="August 2025 - December 2025"
             accent="blue"
           />
           <FeaturedProjectCard
@@ -114,6 +117,7 @@ export default function Home() {
             href="/projects/devops-scorecard"
             desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
             technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
+            timeline="June 2025 - Present"
             accent="emerald"
           />
         </div>
@@ -233,12 +237,14 @@ function FeaturedProjectCard({
   href, 
   desc, 
   technologies, 
+  timeline,
   accent = "cyan" 
 }: { 
   title: string; 
   href: string; 
   desc: string; 
   technologies: string[]; 
+  timeline: string;
   accent?: "cyan" | "blue" | "purple" | "emerald";
 }) {
   const accentClasses = {
@@ -284,6 +290,10 @@ function FeaturedProjectCard({
             {tech}
           </span>
         ))}
+      </div>
+      {/* Mobile: Timeline */}
+      <div className="md:hidden mb-3">
+        <span className="text-xs text-neutral-400 font-mono">{timeline}</span>
       </div>
       <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
         {desc}
