@@ -28,7 +28,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className={`group block rounded-xl border border-neutral-700 ${bgPattern} p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 hover:border-cyan-500/50`}
+      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 hover:border-cyan-500/50`}
       prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
@@ -41,7 +41,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         </div>
       </div>
 
-      <p className="text-neutral-300 text-sm leading-relaxed mb-4 line-clamp-3">
+      <p className="text-neutral-300 text-sm leading-relaxed mb-4 line-clamp-3 flex-grow">
         {project.description}
       </p>
 
@@ -56,7 +56,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         )}
       </div>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-auto">
         <span className="text-xs text-neutral-400 font-mono">{project.timeline}</span>
         <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform">
           View Details
@@ -115,9 +115,9 @@ function CategorySection({ category }: { category: ProjectCategory }) {
           </div>
         </ScrollFadeIn>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-stretch">
           {category.projects.map((project, index) => (
-            <ScrollFadeIn key={project.slug} delay={index * 100}>
+            <ScrollFadeIn key={project.slug} delay={index * 100} className="h-full">
               <ProjectCard project={project} index={index} />
             </ScrollFadeIn>
           ))}
