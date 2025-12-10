@@ -282,9 +282,11 @@ export default function SimRAGReproduction() {
               <div>
                 <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
-                  {project.highlights.map((highlight, index) => (
-                    <li key={index} className="text-xs">• {highlight}</li>
-                  ))}
+                  <li>• Provider-agnostic LLM interface</li>
+                  <li>• RAG system with Qdrant</li>
+                  <li>• Two-stage fine-tuning</li>
+                  <li>• Hardware testing (RTX 3080)</li>
+                  <li>• Comprehensive test suite</li>
                 </ul>
               </div>
 

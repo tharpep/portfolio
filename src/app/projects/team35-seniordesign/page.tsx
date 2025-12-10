@@ -264,9 +264,11 @@ export default function Team35SeniorDesign() {
               <div>
                 <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
-                  {project.highlights.map((highlight, index) => (
-                    <li key={index} className="text-xs">• {highlight}</li>
-                  ))}
+                  <li>• RAG system with Qdrant</li>
+                  <li>• Artifact generation system</li>
+                  <li>• Interactive chat service</li>
+                  <li>• Multi-provider integration</li>
+                  <li>• FastAPI backend & CLI</li>
                 </ul>
               </div>
 

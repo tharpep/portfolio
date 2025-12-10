@@ -264,9 +264,11 @@ export default function PersonalAiSystem() {
               <div>
                 <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
-                  {project.highlights.map((highlight, index) => (
-                    <li key={index} className="text-xs">• {highlight}</li>
-                  ))}
+                  <li>• Unified AI provider interface</li>
+                  <li>• Full RAG document pipeline</li>
+                  <li>• Extensible tool framework</li>
+                  <li>• Request tracking & metrics</li>
+                  <li>• Interactive CLI with chat</li>
                 </ul>
               </div>
 

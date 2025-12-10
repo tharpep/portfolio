@@ -250,9 +250,10 @@ export default function AISystemPrompt() {
               <div>
                 <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
-                  {project.highlights.map((highlight, index) => (
-                    <li key={index} className="text-xs">• {highlight}</li>
-                  ))}
+                  <li>• Master IDE prompt standardization</li>
+                  <li>• 2 company-wide training sessions</li>
+                  <li>• 17 individual/group check-ins</li>
+                  <li>• Intern mentorship</li>
                 </ul>
               </div>
 

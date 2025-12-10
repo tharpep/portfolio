@@ -228,9 +228,10 @@ export default function CustomGpts() {
               <div>
                 <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-3">Achievements</h3>
                 <ul className="space-y-2 text-neutral-300 text-sm">
-                  {project.highlights.map((highlight, index) => (
-                    <li key={index} className="text-xs">• {highlight}</li>
-                  ))}
+                  <li>• System prompt builder GPT</li>
+                  <li>• Student career archivist (adopted)</li>
+                  <li>• Prompt engineering focus</li>
+                  <li>• Workflow automation tools</li>
                 </ul>
               </div>
 
