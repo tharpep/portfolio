@@ -38,7 +38,7 @@ export default function Home() {
         <div className="absolute bottom-[12%] left-1/2 -translate-x-1/2 z-10">
           <div className="animate-fade-in">
             <a
-              href="#content"
+              href="#divider"
               className="flex flex-col items-center gap-2 text-cyan-400/60 hover:text-cyan-400 transition-colors group"
               aria-label="Scroll to content"
             >
@@ -57,11 +57,14 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Subtle Divider */}
+      <div id="divider" className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16 scroll-mt-20"></div>
+
       {/* Main Content Section */}
-      <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 py-12 sm:py-16 md:py-20 lg:py-24">
+      <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
 
       {/* ─────────── Brief Story ─────────── */}
-      <section className="text-center mb-12 sm:mb-16 md:mb-20 lg:mb-24 max-w-4xl mx-auto">
+      <section className="text-center mb-16 max-w-4xl mx-auto">
         <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
           I build full-stack applications and integrate AI into production environments.
           In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
@@ -71,10 +74,10 @@ export default function Home() {
       </section>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20 lg:mb-24"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Featured Projects ─────────── */}
-      <section className="mb-12 sm:mb-16 md:mb-20 lg:mb-24">
+      <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Featured Projects
         </h2>
@@ -120,10 +123,10 @@ export default function Home() {
       </section>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20 lg:mb-24"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Current Work ─────────── */}
-      <section className="mb-12 sm:mb-16 md:mb-20 lg:mb-24">
+      <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Currently
         </h2>
@@ -152,10 +155,10 @@ export default function Home() {
       </section>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20 lg:mb-24"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Let's Connect ─────────── */}
-      <section className="mb-12 sm:mb-16 md:mb-20 lg:mb-24">
+      <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Let&apos;s Connect
         </h2>

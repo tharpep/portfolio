@@ -18,17 +18,17 @@ export default async function About() {
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
       
       {/* Hero Section */}
-      <section className="text-center mb-8 sm:mb-12 md:mb-16 py-4 sm:py-6">
-        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
+      <section className="text-center mb-12 sm:mb-16">
+        <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
           About Me
         </h1>
       </section>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 sm:mb-16 md:mb-20"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto space-y-8 sm:space-y-12 md:space-y-16">
+      <div className="max-w-4xl mx-auto space-y-10 sm:space-y-12">
         
         {/* Bio Section */}
         <section>
