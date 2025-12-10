@@ -280,12 +280,12 @@ export default function DJPeteBeatSequencer() {
         {/* Bottom Navigation */}
         <ScrollFadeIn delay={0}>
           <nav className="mt-16 pt-8 border-t border-neutral-700">
-            <div className="flex items-center justify-between gap-6">
+            <div className="flex flex-col md:flex-row items-stretch md:items-center justify-center md:justify-between gap-4 md:gap-6">
             {prevProject ? (
               <Link
                 href={`/projects/${prevProject.slug}`}
                 prefetch={false}
-                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10 flex-1 max-w-sm"
+                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10 w-full md:flex-1 md:max-w-sm"
               >
                 <svg className="w-5 h-5 text-neutral-400 group-hover:text-purple-400 flex-shrink-0 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                   <path d="M19 12H5m7-7l-7 7 7 7"/>
@@ -296,13 +296,13 @@ export default function DJPeteBeatSequencer() {
                 </div>
               </Link>
             ) : (
-              <div className="flex-1"></div>
+              <div className="hidden md:block flex-1"></div>
             )}
 
             <Link
               href="/projects"
               prefetch={false}
-              className="group flex items-center gap-2 px-6 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10"
+              className="group flex items-center justify-center gap-2 px-6 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10 w-full md:w-auto"
             >
               <svg className="w-5 h-5 text-neutral-400 group-hover:text-purple-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path d="M4 6h16M4 12h16M4 18h16"/>
@@ -314,7 +314,7 @@ export default function DJPeteBeatSequencer() {
               <Link
                 href={`/projects/${nextProject.slug}`}
                 prefetch={false}
-                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10 flex-1 max-w-sm"
+                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-purple-500/10 w-full md:flex-1 md:max-w-sm"
               >
                 <div className="flex-1 min-w-0 text-right">
                   <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5 font-mono">Next</div>
@@ -325,7 +325,7 @@ export default function DJPeteBeatSequencer() {
                 </svg>
               </Link>
             ) : (
-              <div className="flex-1"></div>
+              <div className="hidden md:block flex-1"></div>
             )}
             </div>
           </nav>
