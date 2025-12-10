@@ -1,16 +1,15 @@
 'use client';
 
-import { useEffect, useRef, useState, ReactNode } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 interface ScrollFadeInProps {
-  children: ReactNode;
+  children: React.ReactNode;
   delay?: number;
   className?: string;
-  startVisible?: boolean;
 }
 
-export default function ScrollFadeIn({ children, delay = 0, className = '', startVisible = false }: ScrollFadeInProps) {
-  const [isVisible, setIsVisible] = useState(startVisible);
+export default function ScrollFadeIn({ children, delay = 0, className = '' }: ScrollFadeInProps) {
+  const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -21,10 +20,7 @@ export default function ScrollFadeIn({ children, delay = 0, className = '', star
           observer.disconnect();
         }
       },
-      {
-        threshold: 0.1,
-        rootMargin: '50px',
-      }
+      { threshold: 0.1, rootMargin: '0px 0px -50px 0px' }
     );
 
     if (ref.current) {
@@ -37,11 +33,9 @@ export default function ScrollFadeIn({ children, delay = 0, className = '', star
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${className} ${
-        isVisible
-          ? 'opacity-100 translate-y-0'
-          : 'opacity-0 translate-y-8'
-      }`}
+      className={`transition-opacity duration-700 ease-out ${
+        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+      } ${className}`}
       style={{ transitionDelay: `${delay}ms` }}
     >
       {children}

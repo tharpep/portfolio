@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { getProjectBySlug, getNextProject, getPreviousProject } from "@/lib/getProjects";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export const metadata: Metadata = {
   title: "Portfolio Website – Projects – Pryce Tharpe",
@@ -49,7 +50,7 @@ export default function Portfolio() {
             <div className="mb-12">
               {/* Status and Timeline */}
               <div className="flex items-center gap-3 mb-6">
-                <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50">
+                <span className="px-3 py-1 text-xs font-medium bg-emerald-900/30 text-emerald-300 rounded-full border border-emerald-700/50 animate-pulse-glow">
                   Live & Active
                 </span>
                 <span className="text-sm text-neutral-400 font-mono">{project.timeline}</span>
@@ -67,24 +68,15 @@ export default function Portfolio() {
 
               {/* Tech Stack Pills */}
               <div className="flex flex-wrap gap-2 mb-8">
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  Next.js 15
-                </span>
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  React 19
-                </span>
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  TypeScript
-                </span>
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  Tailwind CSS
-                </span>
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  Python
-                </span>
-                <span className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50">
-                  Spotify API
-                </span>
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={tech}
+                    className="px-3 py-1 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-full border border-cyan-700/50 transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-cyan-500/20"
+                    style={{ animationDelay: `${index * 50}ms` }}
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
 
               {/* GitHub Button */}
@@ -107,46 +99,126 @@ export default function Portfolio() {
             <div className="h-px bg-gradient-to-r from-cyan-500/30 via-cyan-500/10 to-transparent mb-12"></div>
 
             {/* Architecture Section */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4">Architecture</h2>
-              <div className="space-y-4 text-neutral-300 leading-relaxed text-base">
-                <p>
-                  Spotify API integration fetches listening data daily via Python scripts.
-                  GitHub Actions runs the pipeline, commits JSON, triggers Vercel deployment.
-                </p>
-                <div className="font-mono text-sm bg-neutral-800/50 border border-neutral-700 rounded-lg p-4">
-                  <code className="text-cyan-400">
-                    Spotify API → Python → GitHub Actions → JSON → Vercel Deploy
-                  </code>
+            <ScrollFadeIn>
+              <section className="mb-12">
+                <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4 section-header-accent">Architecture</h2>
+                <div className="space-y-4 text-neutral-300 leading-relaxed text-base">
+                  <p>
+                    Spotify API integration fetches listening data daily via Python scripts.
+                    GitHub Actions runs the pipeline, commits JSON, triggers Vercel deployment.
+                  </p>
+                  <div className="font-mono text-sm bg-neutral-800/50 border border-neutral-700 rounded-lg p-4 shadow-lg shadow-cyan-500/10">
+                    <code className="text-cyan-400">
+                      Spotify API → Python → GitHub Actions → JSON → Vercel Deploy
+                    </code>
+                  </div>
                 </div>
-              </div>
-            </section>
+              </section>
+            </ScrollFadeIn>
 
-            {/* Frontend Stack Section */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4">Frontend Stack</h2>
-              <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
-                <p>
-                  Built with Next.js 15 App Router and React 19 Server Components.
-                </p>
-                <p>
-                  TypeScript strict mode with Tailwind CSS for styling. Vercel Analytics for performance monitoring.
-                </p>
-              </div>
-            </section>
+            {/* Key Features Section */}
+            <ScrollFadeIn delay={100}>
+              <section className="mb-12">
+                <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-6 section-header-accent">Key Features</h2>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="text-3xl group-hover:scale-110 transition-transform">🎵</span>
+                      <h3 className="font-bold text-white">Live Spotify Integration</h3>
+                    </div>
+                    <p className="text-neutral-300 text-sm leading-relaxed">
+                      Real-time display of top artists, tracks, and daily favorites fetched via Python scripts.
+                    </p>
+                  </div>
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="text-3xl group-hover:scale-110 transition-transform">⚡</span>
+                      <h3 className="font-bold text-white">Automated Deployments</h3>
+                    </div>
+                    <p className="text-neutral-300 text-sm leading-relaxed">
+                      GitHub Actions workflow updates Spotify data daily and triggers Vercel deployment automatically.
+                    </p>
+                  </div>
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="text-3xl group-hover:scale-110 transition-transform">🚀</span>
+                      <h3 className="font-bold text-white">Server Components</h3>
+                    </div>
+                    <p className="text-neutral-300 text-sm leading-relaxed">
+                      Built with Next.js 15 App Router and React 19 Server Components for optimal performance.
+                    </p>
+                  </div>
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
+                    <div className="flex items-center gap-3 mb-3">
+                      <span className="text-3xl group-hover:scale-110 transition-transform">🔍</span>
+                      <h3 className="font-bold text-white">SEO Optimized</h3>
+                    </div>
+                    <p className="text-neutral-300 text-sm leading-relaxed">
+                      Static generation, semantic HTML, and metadata optimization for search engine visibility.
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </ScrollFadeIn>
 
-            {/* Deployment Section */}
-            <section className="mb-12">
-              <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4">Deployment</h2>
-              <div className="space-y-3 text-neutral-300 leading-relaxed text-base">
-                <p>
-                  Automated via GitHub Actions with daily Spotify data refresh.
-                </p>
-                <p>
-                  Vercel auto-deployment on every push with preview environments for pull requests.
-                </p>
-              </div>
-            </section>
+            {/* Technical Details Section */}
+            <ScrollFadeIn delay={200}>
+              <section className="mb-12">
+                <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4 section-header-accent">Technical Details</h2>
+                <div className="space-y-6">
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+                    <h3 className="text-lg font-bold text-white mb-3">Frontend Stack</h3>
+                    <div className="space-y-2 text-neutral-300 text-sm leading-relaxed">
+                      <p>Built with Next.js 15 App Router and React 19 Server Components.</p>
+                      <p>TypeScript strict mode with Tailwind CSS for styling. Vercel Analytics for performance monitoring.</p>
+                    </div>
+                  </div>
+                  <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+                    <h3 className="text-lg font-bold text-white mb-3">Deployment Pipeline</h3>
+                    <div className="space-y-2 text-neutral-300 text-sm leading-relaxed">
+                      <p>Automated via GitHub Actions with daily Spotify data refresh.</p>
+                      <p>Vercel auto-deployment on every push with preview environments for pull requests.</p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </ScrollFadeIn>
+
+            {/* Impact & Results Section */}
+            <ScrollFadeIn delay={300}>
+              <section className="mb-12">
+                <h2 className="text-2xl font-bold font-mono text-cyan-300 mb-4 section-header-accent">Impact & Results</h2>
+                <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
+                  <p className="text-neutral-300 leading-relaxed text-base mb-6">
+                    {project.impact}
+                  </p>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h4 className="text-lg font-bold text-white mb-4">Key Achievements</h4>
+                      <div className="space-y-3">
+                        {project.highlights.map((highlight, index) => (
+                          <div key={index} className="flex items-start gap-3">
+                            <span className="text-cyan-400 text-lg mt-1">•</span>
+                            <p className="text-neutral-300 text-sm">{highlight}</p>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                    <div>
+                      <h4 className="text-lg font-bold text-white mb-4">Technical Highlights</h4>
+                      <ul className="space-y-2 text-neutral-300 text-sm">
+                        <li>• Modern Next.js 15 with App Router</li>
+                        <li>• React 19 Server Components</li>
+                        <li>• Automated CI/CD pipeline</li>
+                        <li>• Real-time data integration</li>
+                        <li>• Performance monitoring</li>
+                        <li>• SEO optimization</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </ScrollFadeIn>
 
           </div>
 
@@ -178,6 +250,19 @@ export default function Portfolio() {
                   <li>• Automated deployments</li>
                   <li>• Server Components</li>
                   <li>• SEO optimized</li>
+                </ul>
+              </div>
+
+              {/* Divider */}
+              <div className="h-px bg-neutral-700"></div>
+
+              {/* Achievements */}
+              <div>
+                <h3 className="text-sm font-bold font-mono text-cyan-300 uppercase tracking-wider mb-3">Achievements</h3>
+                <ul className="space-y-2 text-neutral-300 text-sm">
+                  {project.highlights.map((highlight, index) => (
+                    <li key={index} className="text-xs">• {highlight}</li>
+                  ))}
                 </ul>
               </div>
 
