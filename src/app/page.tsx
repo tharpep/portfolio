@@ -7,33 +7,35 @@ export default function Home() {
       {/* ─────────── Hero Intro ─────────── */}
       <section className="relative text-center min-h-screen flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28">
         {/* Content */}
-        <div className="relative z-10">
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
-            Pryce Tharpe
-          </h1>
-          <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-            Computer Engineering student at Purdue exploring software development through full-stack development, cloud automation, and AI integration.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
-            <Link
-              href="/projects"
-              className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
-            >
-              View Projects
-            </Link>
-            <Link
-              href="https://github.com/PryceTharpe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white rounded-xl transition-all duration-300 hover:bg-neutral-800 group"
-              aria-label="GitHub Profile"
-            >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.578.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z" />
-              </svg>
-            </Link>
+        <ScrollFadeIn>
+          <div className="relative z-10">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
+              Pryce Tharpe
+            </h1>
+            <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
+              Computer Engineering student at Purdue exploring software development through full-stack development, cloud automation, and AI integration.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
+              <Link
+                href="/projects"
+                className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
+              >
+                View Projects
+              </Link>
+              <Link
+                href="https://github.com/PryceTharpe"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white rounded-xl transition-all duration-300 hover:bg-neutral-800 group"
+                aria-label="GitHub Profile"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.578.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z" />
+                </svg>
+              </Link>
+            </div>
           </div>
-        </div>
+        </ScrollFadeIn>
 
         {/* Animated Scroll Indicator - positioned at bottom 12% for visibility */}
         <div className="absolute bottom-[12%] left-1/2 -translate-x-1/2 z-10">
