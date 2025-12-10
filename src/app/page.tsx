@@ -10,7 +10,7 @@ export default function Home() {
         <ScrollFadeIn>
           <div className="relative z-10">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
-              Hello, I'm Pryce Tharpe
+              Hello, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
               Computer Engineering senior at Purdue. Interested in full-stack development, cloud automation, and AI integration.

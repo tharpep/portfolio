@@ -130,7 +130,7 @@ export default function FmRadioResearch() {
                       <h3 className="font-bold text-white">GNU Radio Integration</h3>
                     </div>
                     <p className="text-neutral-300 text-sm leading-relaxed">
-                      Signal processing workflows using GNU Radio's DSP library and flowgraph architecture.
+                      Signal processing workflows using GNU Radio&apos;s DSP library and flowgraph architecture.
                     </p>
                   </div>
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">

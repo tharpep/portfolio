@@ -112,7 +112,7 @@ export default function PythonSpotifyManager() {
                       <h3 className="font-bold text-white">OAuth Authentication</h3>
                     </div>
                     <p className="text-neutral-300 text-sm leading-relaxed">
-                      OAuth 2.0 implementation with secure token management, refresh handling, and user privacy protection following Spotify's API guidelines.
+                      OAuth 2.0 implementation with secure token management, refresh handling, and user privacy protection following Spotify&apos;s API guidelines.
                     </p>
                   </div>
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
@@ -154,7 +154,7 @@ export default function PythonSpotifyManager() {
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
                     <h3 className="text-lg font-bold text-white mb-3">API Integration</h3>
                     <div className="space-y-2 text-neutral-300 text-sm leading-relaxed">
-                      <p>RESTful API consumption with OAuth 2.0 authentication. Implements secure token management and refresh handling following Spotify's API guidelines.</p>
+                      <p>RESTful API consumption with OAuth 2.0 authentication. Implements secure token management and refresh handling following Spotify&apos;s API guidelines.</p>
                     </div>
                   </div>
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
