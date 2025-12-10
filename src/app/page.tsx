@@ -5,11 +5,11 @@ export default function Home() {
   return (
     <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="relative text-center min-h-screen flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28">
+      <section className="relative text-center min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28">
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 pt-2 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
               Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">

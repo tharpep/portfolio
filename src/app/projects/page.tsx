@@ -137,7 +137,7 @@ export default function Projects() {
       {/* Hero Section */}
       <section className="text-center mb-16">
         <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
-          All Projects
+          Projects
         </h1>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
           Projects spanning data pipelines, AI systems, full-stack development, and research.
