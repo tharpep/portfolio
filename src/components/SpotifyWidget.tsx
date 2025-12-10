@@ -54,8 +54,8 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
           </div>
         </div>
 
-        {/* Top 5 Songs This Week */}
-        <div>
+        {/* Top 5 Songs This Week - Hidden on mobile */}
+        <div className="hidden md:block">
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">Top 5</span>
             This Week
@@ -99,8 +99,8 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
           </div>
         </div>
 
-        {/* Top 5 Artists This Year */}
-        <div>
+        {/* Top 5 Artists This Year - Hidden on mobile */}
+        <div className="hidden md:block">
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">Top 5</span>
             Artists This Year
@@ -143,8 +143,8 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
 
       </div>
 
-      {/* Tech Stack Indicators */}
-      <div className="flex justify-center gap-2 mt-8">
+      {/* Tech Stack Indicators - Hidden on mobile */}
+      <div className="hidden md:flex justify-center gap-2 mt-8">
         <span className="px-3 py-1 text-xs bg-green-900/30 text-green-300 rounded-full border border-green-700/50 font-medium">
           Spotify API
         </span>

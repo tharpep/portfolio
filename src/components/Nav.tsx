@@ -1,18 +1,31 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ContactDropdownHeader from "./ContactDropdownHeader";
 
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
   { href: "/about", label: "About" },
+  { href: "/resume", label: "Resume" },
 ];
 
 export default function Nav() {
   const pathname = usePathname();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
@@ -23,50 +36,55 @@ export default function Nav() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 w-full bg-neutral-900/95 backdrop-blur-md border-b border-neutral-800/50" role="navigation" aria-label="Primary">
-      <div className="px-4 sm:px-6 lg:px-8 py-4">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          
-          {/* Left: Logo/Name */}
-          <Link 
-            href="/" 
-            className="flex items-center gap-3 group"
+    <nav
+      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+        mounted && scrolled
+          ? 'backdrop-blur-md bg-neutral-900/40 shadow-lg shadow-black/20 border-b border-neutral-800/20'
+          : ''
+      }`}
+      role="navigation"
+      aria-label="Primary"
+    >
+      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20">
+        <div className="flex items-center justify-between py-4">
+
+          {/* Left: Name */}
+          <Link
+            href="/"
+            className="text-white font-semibold text-xl tracking-tight hover:text-cyan-300 transition-colors duration-300"
             onClick={closeMobileMenu}
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center group-hover:shadow-lg group-hover:shadow-cyan-500/20 transition-all duration-300 ease-out">
-              <span className="text-white font-bold text-sm">PT</span>
-            </div>
-            <span className="text-white font-semibold text-lg tracking-tight group-hover:text-cyan-300 transition-all duration-300 ease-out">
-              Pryce Tharpe
-            </span>
+            Pryce Tharpe
           </Link>
 
-          {/* Center: Desktop Navigation Links */}
-          <div className="hidden md:flex items-center gap-1">
-            {navLinks.map((link) => {
-              const isActive = pathname === link.href;
-              return (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  className={`px-4 py-2 rounded-lg font-medium transition-all duration-200 no-underline ${
-                    isActive 
-                      ? 'text-cyan-300 bg-neutral-800/60' 
-                      : 'text-neutral-300 hover:text-white hover:bg-neutral-800/40'
-                  }`}
-                  aria-current={isActive ? 'page' : undefined}
-                >
-                  {link.label}
-                </Link>
-              );
-            })}
-          </div>
-
-          {/* Right: Desktop Contact & Mobile Menu Button */}
-          <div className="flex items-center gap-4">
-            {/* Desktop Contact Me */}
-            <div className="hidden md:block">
-              <ContactDropdownHeader />
+          {/* Right: Desktop Navigation Links & Contact */}
+          <div className="flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-8">
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href;
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`relative text-base font-medium transition-all duration-200 ${
+                      isActive
+                        ? 'text-cyan-300'
+                        : 'text-neutral-300 hover:text-white'
+                    } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 ${
+                      isActive
+                        ? 'after:scale-x-100'
+                        : 'after:scale-x-0 hover:after:scale-x-100'
+                    }`}
+                    aria-current={isActive ? 'page' : undefined}
+                  >
+                    {link.label}
+                  </Link>
+                );
+              })}
+              {/* Desktop Say Hello */}
+              <div className="ml-2">
+                <ContactDropdownHeader />
+              </div>
             </div>
             
             {/* Mobile Menu Button */}
@@ -100,10 +118,14 @@ export default function Nav() {
                     key={link.href}
                     href={link.href}
                     onClick={closeMobileMenu}
-                    className={`px-4 py-3 rounded-lg font-medium transition-all duration-200 ${
-                      isActive 
-                        ? 'text-cyan-300 bg-neutral-800/60' 
-                        : 'text-neutral-300 hover:text-white hover:bg-neutral-800/40'
+                    className={`relative px-4 py-3 font-medium transition-all duration-200 ${
+                      isActive
+                        ? 'text-cyan-300'
+                        : 'text-neutral-300 hover:text-white'
+                    } after:content-[''] after:absolute after:bottom-2 after:left-4 after:w-8 after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 ${
+                      isActive
+                        ? 'after:scale-x-100'
+                        : 'after:scale-x-0'
                     }`}
                   >
                     {link.label}

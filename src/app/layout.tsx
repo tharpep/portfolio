@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import ConditionalNav from "@/components/ConditionalNav";
+import ConditionalFooter from "@/components/ConditionalFooter";
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
@@ -107,42 +108,24 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-neutral-900 relative`}
         suppressHydrationWarning={true}
       >
+        {/* Site-wide gradient background - consistent across all pages */}
+        <div className="fixed inset-0 pointer-events-none z-0">
+          {/* Primary gradient - subtle, gradually fades throughout page */}
+          <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/3 via-cyan-500/1.5 via-cyan-500/0.5 to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_0%,_var(--tw-gradient-stops))] from-cyan-500/4 via-cyan-500/1.5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/1.5 via-transparent to-blue-500/0.5" />
+        </div>
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
           Skip to content
         </a>
         <ConditionalNav />
         {children}
+        <ConditionalFooter />
         <Analytics />
         <SpeedInsights />
-        <div className="mt-auto border-t border-neutral-800/60 bg-neutral-900/80">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <div className="flex flex-col sm:flex-row justify-between items-center gap-2 text-xs text-neutral-500">
-              <div>© {new Date().getFullYear()} Pryce Tharpe</div>
-              <div className="flex items-center gap-4">
-                <a 
-                  href="mailto:tharpep_pro@outlook.com"
-                  className="hover:text-neutral-300 transition-colors flex items-center gap-1"
-                >
-                  <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                  </svg>
-                  tharpep_pro@outlook.com
-                </a>
-                <a 
-                  href="https://www.linkedin.com/in/pryce-tharpe"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-neutral-300 transition-colors"
-                >
-                  LinkedIn
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
       </body>
     </html>
   );
