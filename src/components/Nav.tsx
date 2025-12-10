@@ -136,7 +136,7 @@ export default function Nav() {
               {/* Mobile Links */}
               <div className="mt-4 pt-4 border-t border-neutral-800/30 space-y-3">
                 <a
-                  href="https://github.com/PryceTharpe"
+                  href="https://github.com/tharpep"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 px-4 py-3 rounded-lg text-neutral-300 hover:text-white hover:bg-neutral-800/40 transition-all duration-200"

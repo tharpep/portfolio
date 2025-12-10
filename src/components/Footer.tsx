@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Right: Links */}
           <div className="flex items-center gap-6">
             <a
-              href="https://github.com/PryceTharpe"
+              href="https://github.com/tharpep"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 transition-colors"

@@ -89,7 +89,7 @@ export default function RootLayout({
               "url": "https://pryce-tharpe.dev",
               "sameAs": [
                 "https://www.linkedin.com/in/pryce-tharpe",
-                "https://github.com/prycetharpe",
+                "https://github.com/tharpep",
                 "https://www.instagram.com/pryce_tharpe/"
               ],
               "jobTitle": "Computer Engineering Student",
