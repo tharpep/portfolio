@@ -13,7 +13,7 @@ export default function Home() {
               Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              Computer Engineering student at Purdue exploring software development through full-stack development, cloud automation, and AI integration.
+              Computer Engineering senior at Purdue. Interested in full-stack development, cloud automation, and AI integration.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
               <Link
@@ -70,10 +70,9 @@ export default function Home() {
       <ScrollFadeIn>
         <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
           <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
-            I build full-stack applications and integrate AI into production environments.
-            In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
-            teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
-            and solving problems I care about.
+          Last summer I shipped an internal IDE system prompt, a sprint scorecard extension for Azure DevOps, and automated pipelines at Mesh Systems.
+          At Purdue this year, I&apos;ve built production AWS infrastructure, RAG systems, and an LLM microservice for senior design.
+          Outside of class, I'm working on my own AI assistant framework and this portfolio.
           </p>
         </section>
       </ScrollFadeIn>
@@ -147,15 +146,15 @@ export default function Home() {
             <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Software Engineering Intern at Mesh Systems (Cloud, Mobile, DevOps teams)</span>
+                <span>Software Engineering Intern at Mesh Systems</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Co-developed AI prompt framework used across engineering departments</span>
+                <span>Iterating on the azure devops scorecard project</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Building personal projects that solve problems I encounter daily</span>
+                <span>Building passion projects to expand my knowledge and skills</span>
               </li>
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
@@ -177,9 +176,6 @@ export default function Home() {
           Let&apos;s Connect
         </h2>
         <div className="max-w-3xl mx-auto text-center">
-          <p className="hidden md:block text-base sm:text-lg text-neutral-300 leading-relaxed mb-8">
-            I&apos;m looking for full-time software engineering roles and enjoy talking about AI, cloud systems, or interesting technical problems.
-          </p>
           <div className="flex flex-wrap gap-4 justify-center">
             <a
               href="https://github.com/tharpep"

@@ -1,4 +1,3 @@
-import Link from "next/link";
 import type { Metadata } from "next";
 import SpotifyWidget from "@/components/SpotifyWidget";
 import { getSpotifyData } from "@/lib/spotify-data";
@@ -39,7 +38,10 @@ export default async function About() {
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed">
               <p>
-                I&apos;m a senior in Computer Engineering at Purdue, focused on software systems that solve real problems. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me a perspective that spans from low-level code to cloud-scale systems.
+                I&apos;m a senior in Computer Engineering at Purdue. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me experience with both low-level embedded code and cloud systems.
+              </p>
+              <p>
+                I&apos;ve learned to let my interests guide where I go. I started in electrical engineering, but as I was introduced to software, I followed those interests to computer engineering. That&apos;s how I got to where I am today. I let my curiosity take the lead.
               </p>
             </div>
           </section>
@@ -53,7 +55,7 @@ export default async function About() {
             </h2>
             <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6">
               <p className="text-neutral-300 leading-relaxed mb-4">
-                I think AI works best when it amplifies what people can do rather than replacing them. At Mesh Systems, I co-developed an AI prompt framework and led training sessions to help engineers use AI tools effectively. The goal was making AI actually useful for daily work, not just impressive in demos.
+                I think AI works best when it amplifies what people can do rather than replacing them. At Mesh Systems, I developed a standardized IDE LLM prompt and led training sessions to help teams use AI tools effectively. The goal was making AI actually useful for daily work, not just impressive in demos.
               </p>
               <p className="text-neutral-300 leading-relaxed">
                 My personal projects explore RAG systems and local-first AI tools. I&apos;m interested in building AI that respects privacy, runs where you need it, and solves problems you actually have.
@@ -70,7 +72,7 @@ export default async function About() {
             </h2>
             <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6 mb-8">
               <p className="text-neutral-300 leading-relaxed">
-                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
+                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m currently extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
               </p>
             </div>
 
@@ -78,7 +80,7 @@ export default async function About() {
             {spotifyData && (
               <div className="mb-8">
                 <p className="text-neutral-300 text-center mb-6 max-w-2xl mx-auto">
-                  Music drives my creativity and focus during development. Here&apos;s what I have been listening to.
+                  Music drives my creativity and focus during development. Here&apos;s what I&apos;ve been listening to.
                 </p>
                 <SpotifyWidget data={spotifyData} />
               </div>
@@ -86,19 +88,6 @@ export default async function About() {
           </section>
         </ScrollFadeIn>
 
-        {/* Technical Background */}
-        <ScrollFadeIn delay={300}>
-          <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-              Technical Background
-            </h2>
-            <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6">
-              <p className="text-neutral-300 leading-relaxed">
-                I work across the full stack, from embedded C on STM32 microcontrollers to React and Next.js frontends, with Python, Azure, and AI systems in between. I&apos;m equally comfortable debugging low-level hardware protocols and architecting cloud data pipelines. For the complete technical breakdown, check out my <Link href="/resume" className="text-cyan-400 hover:text-cyan-300 transition-colors underline">resume</Link>.
-              </p>
-            </div>
-          </section>
-        </ScrollFadeIn>
 
       </div>
     </main>
