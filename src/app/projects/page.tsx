@@ -133,12 +133,14 @@ const categories = getProjectsByCategory();
 export default function Projects() {
   
   return (
-    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen">
+    <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen overflow-visible">
       {/* Hero Section */}
-      <section className="text-center mb-16">
-        <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
-          Projects
-        </h1>
+      <section className="text-center mb-16 overflow-visible">
+        <div className="inline-block py-3 overflow-visible">
+          <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-[1.2]">
+            Projects
+          </h1>
+        </div>
         <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
           Projects spanning data pipelines, AI systems, full-stack development, and research.
           From embedded systems to cloud automation, these reflect what I&apos;ve built and learned.

@@ -312,6 +312,7 @@ export default function Portfolio() {
                   {prevProject && (
                     <Link
                       href={`/projects/${prevProject.slug}`}
+                      prefetch={false}
                       className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
                     >
                       <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -325,6 +326,7 @@ export default function Portfolio() {
                   )}
                   <Link
                     href="/projects"
+                    prefetch={false}
                     className="group flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
                   >
                     <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -335,6 +337,7 @@ export default function Portfolio() {
                   {nextProject && (
                     <Link
                       href={`/projects/${nextProject.slug}`}
+                      prefetch={false}
                       className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
                     >
                       <svg className="w-4 h-4 text-neutral-500 group-hover:text-cyan-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
