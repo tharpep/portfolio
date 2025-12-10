@@ -92,28 +92,28 @@ export default function Home() {
             title="AI System Prompt Framework"
             href="/projects/ai-system-prompt"
             desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
-            tech="OpenAI API"
+            technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
             accent="cyan"
           />
           <FeaturedProjectCard
             title="MY-AI Personal Assistant"
             href="/projects/personal-ai-system"
             desc="Privacy-first AI system with RAG and tool integration. Local-first architecture with Qdrant vector storage and extensible tool framework. Building the AI assistant I want to use."
-            tech="Python"
+            technologies={["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"]}
             accent="purple"
           />
           <FeaturedProjectCard
             title="SimRAG Reproduction"
             href="/projects/simrag-reproduction"
             desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
-            tech="Python"
+            technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
             accent="blue"
           />
           <FeaturedProjectCard
             title="Azure DevOps Scorecard"
             href="/projects/devops-scorecard"
             desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
-            tech="React"
+            technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
             accent="emerald"
           />
         </div>
@@ -232,13 +232,13 @@ function FeaturedProjectCard({
   title, 
   href, 
   desc, 
-  tech, 
+  technologies, 
   accent = "cyan" 
 }: { 
   title: string; 
   href: string; 
   desc: string; 
-  tech: string; 
+  technologies: string[]; 
   accent?: "cyan" | "blue" | "purple" | "emerald";
 }) {
   const accentClasses = {
@@ -262,6 +262,8 @@ function FeaturedProjectCard({
     emerald: "bg-emerald-900/30 text-emerald-300 border-emerald-700/50"
   };
 
+  const top3Tech = technologies.slice(0, 3);
+
   return (
     <Link
       href={href}
@@ -272,8 +274,16 @@ function FeaturedProjectCard({
           {title}
         </h3>
         <span className={`hidden md:block px-3 py-1 text-sm font-medium rounded-lg border ${tagClasses[accent]}`}>
-          {tech}
+          {technologies[0]}
         </span>
+      </div>
+      {/* Mobile: Top 3 tech stack */}
+      <div className="flex flex-wrap gap-2 mb-3 md:hidden">
+        {top3Tech.map((tech) => (
+          <span key={tech} className={`px-2 py-1 text-xs font-medium rounded-md border ${tagClasses[accent]}`}>
+            {tech}
+          </span>
+        ))}
       </div>
       <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
         {desc}
