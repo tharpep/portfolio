@@ -100,28 +100,28 @@ export default function SimRAGReproduction() {
 
             {/* Architecture Section */}
             <ScrollFadeIn>
-              <section className="mb-12">
+            <section className="mb-12">
                 <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4 section-header-accent">Research Approach</h2>
                 <div className="space-y-4 text-neutral-300 leading-relaxed text-base">
-                  <p>
-                    Reproduction study of the SimRAG paper exploring similarity-based Retrieval Augmented Generation techniques.
+                <p>
+                  Reproduction study of the SimRAG paper exploring similarity-based Retrieval Augmented Generation techniques.
                     Built a modular implementation to understand RAG fundamentals, fine-tuning concepts, and practical ML engineering workflows.
-                  </p>
+                </p>
                   <div className="font-mono text-sm bg-neutral-800/50 border border-neutral-700 rounded-lg p-4 shadow-lg shadow-emerald-500/10">
                     <code className="text-emerald-400">
                       Documents → Embeddings → Vector DB → Stage 1 Fine-tuning → QA Generation → Stage 2 Fine-tuning → Evaluation
                     </code>
                   </div>
-                  <p>
-                    Focused on learning through implementation rather than just theoretical understanding.
-                  </p>
-                </div>
-              </section>
+                <p>
+                  Focused on learning through implementation rather than just theoretical understanding.
+                </p>
+              </div>
+            </section>
             </ScrollFadeIn>
 
             {/* Key Features Section */}
             <ScrollFadeIn delay={100}>
-              <section className="mb-12">
+            <section className="mb-12">
                 <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-6 section-header-accent">Key Features</h2>
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
@@ -131,8 +131,8 @@ export default function SimRAGReproduction() {
                     </div>
                     <p className="text-neutral-300 text-sm leading-relaxed">
                       Supports both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection.
-                    </p>
-                  </div>
+                </p>
+              </div>
                   <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 card-lift group">
                     <div className="flex items-center gap-3 mb-3">
                       <span className="text-3xl group-hover:scale-110 transition-transform">🔍</span>
@@ -190,7 +190,7 @@ export default function SimRAGReproduction() {
                           <h4 className="text-sm font-semibold text-emerald-200 mb-1">Stage 2: Domain Adaptation</h4>
                           <p className="text-xs text-neutral-400">QLoRA fine-tuning on domain QA dataset (~30 minutes).</p>
                         </div>
-                        <div>
+                  <div>
                           <h4 className="text-sm font-semibold text-emerald-200 mb-1">Testing & Comparison</h4>
                           <p className="text-xs text-neutral-400">Compare baseline RAG vs fine-tuned RAG performance.</p>
                         </div>
@@ -202,15 +202,15 @@ export default function SimRAGReproduction() {
                     <div className="space-y-2 text-neutral-300 text-sm leading-relaxed">
                       <p>Successfully trained and tested model on personal hardware, demonstrating practical ML engineering skills.</p>
                       <p>Experiment framework for research reproducibility with logging, result tracking, and automated testing.</p>
-                    </div>
                   </div>
                 </div>
-              </section>
+              </div>
+            </section>
             </ScrollFadeIn>
 
             {/* Impact & Results Section */}
             <ScrollFadeIn delay={300}>
-              <section className="mb-12">
+            <section className="mb-12">
                 <h2 className="text-2xl font-bold font-mono text-emerald-300 mb-4 section-header-accent">Impact & Results</h2>
                 <div className="p-8 rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700">
                   <p className="text-neutral-300 leading-relaxed text-base mb-6">
@@ -240,14 +240,14 @@ export default function SimRAGReproduction() {
                       </ul>
                     </div>
                   </div>
-                </div>
-              </section>
+              </div>
+            </section>
             </ScrollFadeIn>
 
           </div>
 
           {/* Sidebar - Right Column */}
-          <aside className="lg:w-96 lg:sticky lg:top-8 lg:self-start">
+          <aside className="lg:w-96 lg:sticky lg:top-20 lg:self-start p-6">
             <div className="rounded-xl border border-neutral-700 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-6 space-y-8">
 
               {/* Tech Stack */}
@@ -314,57 +314,65 @@ export default function SimRAGReproduction() {
               {/* Divider */}
               <div className="h-px bg-neutral-700"></div>
 
-              {/* Navigation */}
-              <div>
-                <h3 className="text-sm font-bold font-mono text-emerald-300 uppercase tracking-wider mb-4">Navigate</h3>
-                <div className="space-y-3">
-                  {prevProject && (
-                    <Link
-                      href={`/projects/${prevProject.slug}`}
-                      prefetch={false}
-                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
-                    >
-                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                        <path d="M19 12H5m7-7l-7 7 7 7"/>
-                      </svg>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Previous</div>
-                        <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium leading-snug">{prevProject.title}</div>
-                      </div>
-                    </Link>
-                  )}
-                  <Link
-                    href="/projects"
-                    prefetch={false}
-                    className="group flex items-center gap-2.5 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
-                  >
-                    <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                      <path d="M4 6h16M4 12h16M4 18h16"/>
-                    </svg>
-                    <span className="text-sm text-neutral-300 group-hover:text-emerald-300">All Projects</span>
-                  </Link>
-                  {nextProject && (
-                    <Link
-                      href={`/projects/${nextProject.slug}`}
-                      prefetch={false}
-                      className="group flex items-start gap-3 p-2.5 rounded-lg hover:bg-neutral-800/50 transition-colors"
-                    >
-                      <svg className="w-4 h-4 text-neutral-500 group-hover:text-emerald-400 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                        <path d="M5 12h14m-7-7l7 7-7 7"/>
-                      </svg>
-                      <div className="flex-1 min-w-0">
-                        <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5">Next</div>
-                        <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium leading-snug">{nextProject.title}</div>
-                      </div>
-                    </Link>
-                  )}
-                </div>
-              </div>
-
             </div>
           </aside>
 
         </div>
+
+        {/* Bottom Navigation */}
+        <ScrollFadeIn delay={0}>
+          <nav className="mt-16 pt-8 border-t border-neutral-700">
+            <div className="flex items-center justify-between gap-6">
+            {prevProject ? (
+              <Link
+                href={`/projects/${prevProject.slug}`}
+                prefetch={false}
+                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-emerald-500/10 flex-1 max-w-sm"
+              >
+                <svg className="w-5 h-5 text-neutral-400 group-hover:text-emerald-400 flex-shrink-0 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M19 12H5m7-7l-7 7 7 7"/>
+                </svg>
+                <div className="flex-1 min-w-0 text-left">
+                  <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5 font-mono">Previous</div>
+                  <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium truncate">{prevProject.title}</div>
+                </div>
+              </Link>
+            ) : (
+              <div className="flex-1"></div>
+            )}
+
+            <Link
+              href="/projects"
+              prefetch={false}
+              className="group flex items-center gap-2 px-6 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-emerald-500/10"
+            >
+              <svg className="w-5 h-5 text-neutral-400 group-hover:text-emerald-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                <path d="M4 6h16M4 12h16M4 18h16"/>
+              </svg>
+              <span className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium font-mono">All Projects</span>
+            </Link>
+
+            {nextProject ? (
+              <Link
+                href={`/projects/${nextProject.slug}`}
+                prefetch={false}
+                className="group flex items-center gap-3 px-5 py-3 rounded-xl hover:bg-neutral-800/50 transition-all hover:shadow-lg hover:shadow-emerald-500/10 flex-1 max-w-sm"
+              >
+                <div className="flex-1 min-w-0 text-right">
+                  <div className="text-xs text-neutral-500 group-hover:text-neutral-400 mb-0.5 font-mono">Next</div>
+                  <div className="text-sm text-neutral-300 group-hover:text-emerald-300 font-medium truncate">{nextProject.title}</div>
+                </div>
+                <svg className="w-5 h-5 text-neutral-400 group-hover:text-emerald-400 flex-shrink-0 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path d="M5 12h14m-7-7l7 7-7 7"/>
+                </svg>
+              </Link>
+            ) : (
+              <div className="flex-1"></div>
+            )}
+            </div>
+          </nav>
+        </ScrollFadeIn>
+
       </div>
     </main>
   );
