@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export default function Home() {
   return (
@@ -64,20 +65,23 @@ export default function Home() {
       <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
 
       {/* ─────────── Brief Story ─────────── */}
-      <section className="text-center mb-16 max-w-4xl mx-auto">
-        <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
-          I build full-stack applications and integrate AI into production environments.
-          In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
-          teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
-          and solving problems I care about.
-        </p>
-      </section>
+      <ScrollFadeIn>
+        <section className="text-center mb-16 max-w-4xl mx-auto">
+          <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
+            I build full-stack applications and integrate AI into production environments.
+            In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
+            teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
+            and solving problems I care about.
+          </p>
+        </section>
+      </ScrollFadeIn>
 
       {/* Subtle Divider */}
       <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Featured Projects ─────────── */}
-      <section className="mb-16">
+      <ScrollFadeIn delay={100}>
+        <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Featured Projects
         </h2>
@@ -121,12 +125,14 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      </ScrollFadeIn>
 
       {/* Subtle Divider */}
       <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Current Work ─────────── */}
-      <section className="mb-16">
+      <ScrollFadeIn delay={200}>
+        <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Currently
         </h2>
@@ -153,12 +159,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </ScrollFadeIn>
 
       {/* Subtle Divider */}
       <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
 
       {/* ─────────── Let's Connect ─────────── */}
-      <section className="mb-16">
+      <ScrollFadeIn delay={300}>
+        <section className="mb-16">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
           Let&apos;s Connect
         </h2>
@@ -210,6 +218,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      </ScrollFadeIn>
 
       </div>
     </main>

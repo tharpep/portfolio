@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getProjectsByCategory, type Project, type ProjectCategory } from "@/lib/getProjects";
 import type { Metadata } from "next";
+import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export const metadata: Metadata = {
   title: "Projects – Pryce Tharpe",
@@ -102,19 +103,23 @@ function CategorySection({ category }: { category: ProjectCategory }) {
 
   return (
     <section className="mb-20">
-      <div className={`max-w-6xl mx-auto pb-8 border-l-4 pl-6 ${colors.border} ${colors.bg}`}>
-        <div className="mb-8">
-          <h2 className={`text-3xl font-bold font-mono tracking-wider mb-3 ${colors.text}`}>
-            {category.name}
-          </h2>
-          <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
-            {category.description}
-          </p>
-        </div>
+      <div className={`max-w-6xl mx-auto pt-6 pb-8 border-l-4 pl-6 ${colors.border} ${colors.bg}`}>
+        <ScrollFadeIn>
+          <div className="mb-8">
+            <h2 className={`text-3xl font-bold font-mono tracking-wider mb-3 ${colors.text}`}>
+              {category.name}
+            </h2>
+            <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+              {category.description}
+            </p>
+          </div>
+        </ScrollFadeIn>
 
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2">
           {category.projects.map((project, index) => (
-            <ProjectCard key={project.slug} project={project} index={index} />
+            <ScrollFadeIn key={project.slug} delay={index * 100}>
+              <ProjectCard project={project} index={index} />
+            </ScrollFadeIn>
           ))}
         </div>
       </div>
