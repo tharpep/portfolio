@@ -61,15 +61,15 @@ export default function Home() {
       </section>
 
       {/* Subtle Divider */}
-      <div id="divider" className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16 scroll-mt-20"></div>
+      <div id="divider" className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16 scroll-mt-20"></div>
 
       {/* Main Content Section */}
       <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
 
       {/* ─────────── Brief Story ─────────── */}
       <ScrollFadeIn>
-        <section className="text-center mb-16 max-w-4xl mx-auto">
-          <p className="text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
+        <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
+          <p className="hidden md:block text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
             I build full-stack applications and integrate AI into production environments.
             In industry, I&apos;ve worked on cloud automation, AI enablement across engineering
             teams, and tools that scale. My personal projects explore RAG systems, AI assistants,
@@ -79,15 +79,15 @@ export default function Home() {
       </ScrollFadeIn>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
       {/* ─────────── Featured Projects ─────────── */}
       <ScrollFadeIn delay={100}>
-        <section className="mb-16">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+        <section className="mb-12 md:mb-16">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
           Featured Projects
         </h2>
-        <div className="grid gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
+        <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
           <FeaturedProjectCard
             title="AI System Prompt Framework"
             href="/projects/ai-system-prompt"
@@ -130,17 +130,17 @@ export default function Home() {
       </ScrollFadeIn>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
       {/* ─────────── Current Work ─────────── */}
       <ScrollFadeIn delay={200}>
-        <section className="mb-16">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+        <section className="mb-12 md:mb-16">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
           Currently
         </h2>
         <div className="max-w-3xl mx-auto">
-          <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 sm:p-6 md:p-8">
-            <ul className="space-y-4 text-neutral-300 text-lg">
+          <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 md:p-6">
+            <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
               <li className="flex items-start gap-3">
                 <span className="text-cyan-400 mt-1.5 text-xs">●</span>
                 <span>Software Engineering Intern at Mesh Systems (Cloud, Mobile, DevOps teams)</span>
@@ -164,16 +164,16 @@ export default function Home() {
       </ScrollFadeIn>
 
       {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
       {/* ─────────── Let's Connect ─────────── */}
       <ScrollFadeIn delay={300}>
-        <section className="mb-16">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+        <section className="mb-12 md:mb-16">
+        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
           Let&apos;s Connect
         </h2>
         <div className="max-w-3xl mx-auto text-center">
-          <p className="text-base sm:text-lg text-neutral-300 leading-relaxed mb-8">
+          <p className="hidden md:block text-base sm:text-lg text-neutral-300 leading-relaxed mb-8">
             I&apos;m looking for full-time software engineering roles and enjoy talking about AI, cloud systems, or interesting technical problems.
           </p>
           <div className="flex flex-wrap gap-4 justify-center">
@@ -265,20 +265,20 @@ function FeaturedProjectCard({
   return (
     <Link
       href={href}
-      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 sm:p-6 md:p-8 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ${accentClasses[accent]}`}
+      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ${accentClasses[accent]}`}
     >
       <div className="flex justify-between items-start mb-4">
-        <h3 className={`font-bold text-xl text-white transition-colors ${textClasses[accent]}`}>
+        <h3 className={`font-bold text-lg md:text-xl text-white transition-colors ${textClasses[accent]}`}>
           {title}
         </h3>
-        <span className={`px-3 py-1 text-sm font-medium rounded-lg border ${tagClasses[accent]}`}>
+        <span className={`hidden md:block px-3 py-1 text-sm font-medium rounded-lg border ${tagClasses[accent]}`}>
           {tech}
         </span>
       </div>
-      <p className="text-neutral-300 leading-relaxed mb-6">
+      <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
         {desc}
       </p>
-      <div className={`flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform`}>
+      <div className={`hidden md:flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform`}>
         View Details
         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M7 17l10-10M17 7H7v10"/>
