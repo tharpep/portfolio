@@ -302,15 +302,29 @@ export const getProjectBySlug = (slug: string): Project | undefined => {
 };
 
 export const getNextProject = (currentSlug: string): Project | undefined => {
-  const currentIndex = projects.findIndex(p => p.slug === currentSlug);
+  const currentProject = projects.find(p => p.slug === currentSlug);
+  if (!currentProject) return undefined;
+  
+  // Get all projects in the same category, maintaining array order
+  const categoryProjects = projects.filter(p => p.category === currentProject.category);
+  const currentIndex = categoryProjects.findIndex(p => p.slug === currentSlug);
   if (currentIndex === -1) return undefined;
-  const nextIndex = (currentIndex + 1) % projects.length;
-  return projects[nextIndex];
+  
+  // Navigate within the category
+  const nextIndex = (currentIndex + 1) % categoryProjects.length;
+  return categoryProjects[nextIndex];
 };
 
 export const getPreviousProject = (currentSlug: string): Project | undefined => {
-  const currentIndex = projects.findIndex(p => p.slug === currentSlug);
+  const currentProject = projects.find(p => p.slug === currentSlug);
+  if (!currentProject) return undefined;
+  
+  // Get all projects in the same category, maintaining array order
+  const categoryProjects = projects.filter(p => p.category === currentProject.category);
+  const currentIndex = categoryProjects.findIndex(p => p.slug === currentSlug);
   if (currentIndex === -1) return undefined;
-  const prevIndex = currentIndex === 0 ? projects.length - 1 : currentIndex - 1;
-  return projects[prevIndex];
+  
+  // Navigate within the category
+  const prevIndex = currentIndex === 0 ? categoryProjects.length - 1 : currentIndex - 1;
+  return categoryProjects[prevIndex];
 };
