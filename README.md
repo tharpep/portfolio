@@ -1,6 +1,6 @@
 # pryceTharpe.dev – Personal Portfolio
 
-A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, technical expertise, and personal interests. Features live Spotify data integration, photography galleries(coming soon), and comprehensive project documentation.
+A **Next.js 15 + TypeScript** portfolio showcasing engineering projects, technical expertise, and personal interests. Features live Spotify data integration and comprehensive project documentation.
 
 | Environment | URL |
 |-------------|-----|
@@ -9,7 +9,7 @@ A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, tech
 
 ---
 
-## ✨ Tech Stack
+## Tech Stack
 
 | Layer            | Tool / Library              | Notes                                                               |
 |------------------|-----------------------------|---------------------------------------------------------------------|
@@ -24,7 +24,7 @@ A **Next.js 15 + TypeScript** portfolio showcasing my engineering projects, tech
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # 0 Clone
@@ -41,7 +41,7 @@ pnpm dev
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 src/
@@ -51,47 +51,36 @@ src/
 │   ├─ page.tsx          # Landing page (Featured Projects + Experience)
 │   ├─ about/            # About page with AI philosophy & Spotify widget
 │   ├─ projects/         # Engineering project pages
-│   ├─ photography/      # Photography galleries
+│   ├─ resume/           # Resume page
 │   └─ api/              # API routes (Azure photos, future endpoints)
 │
 ├─ components/           # Re-usable UI components
 │   ├─ Nav.tsx           # Navigation component
 │   ├─ SpotifyWidget.tsx # Live Spotify data display
-│   ├─ PhotoGallery.tsx  # Photography gallery components
 │   └─ ContactDropdown*.tsx # Contact form components
 │
 ├─ lib/                  # Utilities and data management
 │   ├─ getProjects.ts    # Project data and categorization
 │   ├─ spotify-data.ts   # Spotify data loading utilities
-│   ├─ spotify-types.ts  # TypeScript interfaces
-│   └─ azure-photos.ts   # Azure Blob Storage integration
+│   └─ spotify-types.ts  # TypeScript interfaces
 │
-├─ data/                 # Static data files
-│   └─ spotify-data.json # Live Spotify listening data
-│
-└─ hooks/                # Custom React hooks
-    └─ useAzurePhotos.ts # Azure photo loading hook
+└─ data/                 # Static data files
+    └─ spotify-data.json # Live Spotify listening data
 ```
 
 ---
 
-## 🎵 Live Features
+## Features
 
-### **Spotify Integration**
-- **Real-time data**: Top artists, tracks, and daily favorites
-- **Automated updates**: GitHub Actions fetch fresh data daily
-- **Tech stack**: Python + Spotify API + GitHub Actions + TypeScript
-- **Location**: Featured on About page in "Beyond Code" section
-
-### **Photography Galleries** - in progress...
-- **Azure Blob Storage**: Secure, scalable image hosting
-- **Dynamic collections**: NYC 2025, Mountains 2021, Zoo 2022
-- **Optimized delivery**: SAS URLs with automatic expiration
-- **Responsive design**: Mobile-first gallery layouts
+### Spotify Integration
+- Real-time data: Top artists, tracks, and daily favorites
+- Automated updates: GitHub Actions fetch fresh data daily
+- Tech stack: Python + Spotify API + GitHub Actions + TypeScript
+- Location: Featured on About page in "Beyond Code" section
 
 ---
 
-## 🔧 NPM Scripts
+## Scripts
 
 | Script        | Action                                       |
 | ------------- | -------------------------------------------- |
@@ -102,12 +91,12 @@ src/
 
 ---
 
-## 🤖 Automation & DevOps
+## Automation & DevOps
 
-### **GitHub Actions**
-- **Spotify Data Sync**: Daily automated updates of listening data
-- **Auto-deployment**: Vercel integration for seamless deployments
-- **Security**: Secrets management for API credentials
+### GitHub Actions
+- Spotify Data Sync: Daily automated updates of listening data
+- Auto-deployment: Vercel integration for seamless deployments
+- Security: Secrets management for API credentials
 
 ### **Data Pipeline**
 ```mermaid
@@ -119,53 +108,51 @@ graph LR
     E --> F[Live Portfolio]
 ```
 
-## 🎯 Key Features
+## Key Features
 
-### **Professional Portfolio**
-- **Featured Projects**: AI System Prompt, Azure ETL Pipeline, DJ Pete Beat Sequencer
-- **Experience Timeline**: Mesh Systems internship, Purdue education
-- **Technical Skills**: Full-stack development, cloud engineering, AI/ML
+### Professional Portfolio
+- Featured Projects: AI System Prompt, Azure ETL Pipeline, DJ Pete Beat Sequencer
+- Experience Timeline: Mesh Systems internship, Purdue education
+- Technical Skills: Full-stack development, cloud engineering, AI/ML
 
-### **Personal Touch**
-- **Music Integration**: Live Spotify data showing current listening habits
-- **Photography**: Professional galleries showcasing creative work
+### Personal Touch
+- Music Integration: Live Spotify data showing current listening habits
 
-### **Technical Excellence**
-- **Modern Stack**: Next.js 15, React 19, TypeScript, Tailwind CSS
-- **Performance**: Optimized images, fast loading, responsive design
-- **Automation**: GitHub Actions, automated deployments, live data updates
-
----
-
-## 📚 Learn More
-
-* **Next.js Docs** – [https://nextjs.org/docs](https://nextjs.org/docs)
-* **Tailwind Docs** – [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
-* **Vercel Deploy** – [https://nextjs.org/docs/app/building-your-application/deploying](https://nextjs.org/docs/app/building-your-application/deploying)
-* **Spotify Web API** – [https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api)
+### Technical Excellence
+- Modern Stack: Next.js 15, React 19, TypeScript, Tailwind CSS
+- Performance: Optimized images, fast loading, responsive design
+- Automation: GitHub Actions, automated deployments, live data updates
 
 ---
 
-## 🤝 Contributing
+## Learn More
 
-This is a personal portfolio, but I'm open to suggestions and improvements! Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/pryce-tharpe) or [email](mailto:tharpep_pro@outlook.com)
+- Next.js Docs: [https://nextjs.org/docs](https://nextjs.org/docs)
+- Tailwind Docs: [https://tailwindcss.com/docs](https://tailwindcss.com/docs)
+- Vercel Deploy: [https://nextjs.org/docs/app/building-your-application/deploying](https://nextjs.org/docs/app/building-your-application/deploying)
+- Spotify Web API: [https://developer.spotify.com/documentation/web-api](https://developer.spotify.com/documentation/web-api)
 
 ---
 
-## 📄 License
+## Contributing
 
-This portfolio uses **dual licensing**:
+This is a personal portfolio, but I'm open to suggestions and improvements. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/pryce-tharpe) or [email](mailto:tharpep_pro@outlook.com).
 
-- **MIT License** (see [LICENSE](LICENSE)) - Applies to source code, configuration files, and build tooling. You are free to use, modify, and distribute the code.
+---
 
-- **All Rights Reserved** (see [LICENSE-PERSONAL.md](LICENSE-PERSONAL.md)) - Applies to personal content including:
+## License
+
+This portfolio uses dual licensing:
+
+- MIT License (see [LICENSE](LICENSE)) - Applies to source code, configuration files, and build tooling. You are free to use, modify, and distribute the code.
+
+- All Rights Reserved (see [LICENSE-PERSONAL.md](LICENSE-PERSONAL.md)) - Applies to personal content including:
   - Resume/CV documents
   - Project descriptions and personal work content
   - Spotify listening data
-  - Photography and images
   - Personal biographical information
 
-The code is open source, but personal content remains protected. Feel free to fork and adapt the codebase for your own portfolio!
+The code is open source, but personal content remains protected. Feel free to fork and adapt the codebase for your own portfolio.
 
 ---
 

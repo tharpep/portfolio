@@ -72,7 +72,7 @@ export default function Home() {
           <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
           Last summer I shipped an internal IDE system prompt, a sprint scorecard extension for Azure DevOps, and automated pipelines at Mesh Systems.
           At Purdue this year, I&apos;ve built production AWS infrastructure, RAG systems, and an LLM microservice for senior design.
-          Outside of class, I'm working on my own AI assistant framework and this portfolio.
+          Outside of class, I&apos;m working on my own AI assistant framework and this portfolio.
           </p>
         </section>
       </ScrollFadeIn>
