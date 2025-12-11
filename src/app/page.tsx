@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="relative text-center min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28">
+      <section className="relative text-center min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28 pb-24 sm:pb-20 md:pb-24 lg:pb-28">
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
@@ -43,8 +43,8 @@ export default function Home() {
           </div>
         </ScrollFadeIn>
 
-        {/* Animated Scroll Indicator - positioned at bottom 12% for visibility */}
-        <div className="absolute bottom-[12%] left-1/2 -translate-x-1/2 z-10">
+        {/* Animated Scroll Indicator - positioned at bottom with mobile spacing */}
+        <div className="absolute bottom-8 sm:bottom-[12%] left-1/2 -translate-x-1/2 z-10">
           <div className="animate-fade-in">
             <a
               href="#divider"
