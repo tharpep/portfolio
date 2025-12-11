@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T17:14:58.918019Z",
+  "lastUpdated": "2025-12-11T17:18:52.645805Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4whkhyXTrTgHKZzkUvdwoq"
     },
     {
+      "name": "4EVER",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273918bb5280a0cd163a2f1e517",
+      "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
+    },
+    {
       "name": "Loser",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
@@ -45,12 +51,6 @@
       "artists": "Big Thief",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
       "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
-    },
-    {
-      "name": "4EVER",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273918bb5280a0cd163a2f1e517",
-      "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
     },
     {
       "name": "Warning Sign",
