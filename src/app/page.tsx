@@ -18,7 +18,7 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-md mx-auto">
               <Link
                 href="/projects"
-                className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
+                className="px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-[transform,box-shadow,background] duration-300 ease-out hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
               >
                 View Projects
               </Link>
@@ -126,7 +126,7 @@ export default function Home() {
             className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
           >
             View all projects
-            <span className="inline-block group-hover:translate-x-1 transition-transform ml-1">→</span>
+            <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
           </Link>
         </div>
       </section>
@@ -215,7 +215,7 @@ export default function Home() {
               className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
             >
               More About Me
-              <span className="inline-block group-hover:translate-x-1 transition-transform ml-1">→</span>
+              <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
             </Link>
           </div>
         </div>
@@ -269,7 +269,7 @@ function FeaturedProjectCard({
   return (
     <Link
       href={href}
-      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-all duration-300 ${accentClasses[accent]}`}
+      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-[transform,box-shadow] duration-300 ease-out will-change-transform ${accentClasses[accent]}`}
     >
       <div className="flex justify-between items-start mb-4">
         <h3 className={`font-bold text-lg md:text-xl text-white transition-colors ${textClasses[accent]}`}>
@@ -294,7 +294,7 @@ function FeaturedProjectCard({
       <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
         {desc}
       </p>
-      <div className={`hidden md:flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform`}>
+      <div className={`hidden md:flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform duration-300 ease-out`}>
         View Details
         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M7 17l10-10M17 7H7v10"/>

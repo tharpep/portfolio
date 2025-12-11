@@ -1,7 +1,19 @@
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import PhotoNav from "@/components/PhotoNav";
-import PhotoGallery from "@/components/PhotoGallery";
 import type { Metadata } from "next";
+
+// Lazy load PhotoGallery to reduce initial bundle size
+const PhotoGallery = dynamic(() => import("@/components/PhotoGallery"), {
+  ssr: true,
+  loading: () => (
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {[...Array(6)].map((_, i) => (
+        <div key={i} className="aspect-square bg-neutral-800/50 rounded-lg animate-pulse" />
+      ))}
+    </div>
+  ),
+});
 
 export const metadata: Metadata = {
   title: "New York City (2025) – Photography – Pryce Tharpe",

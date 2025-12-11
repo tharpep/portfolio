@@ -28,7 +28,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-4 md:p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-all duration-300 hover:border-cyan-500/50`}
+      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-4 md:p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-[transform,box-shadow,border-color] duration-300 ease-out will-change-transform hover:border-cyan-500/50`}
       prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
@@ -58,7 +58,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
       <div className="flex items-center justify-between mt-auto">
         <span className="text-xs md:text-sm text-neutral-400 font-mono">{project.timeline}</span>
-        <div className="hidden md:flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform">
+        <div className="hidden md:flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300 ease-out">
           View Details
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M7 17l10-10M17 7H7v10"/>
