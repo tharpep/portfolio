@@ -19,11 +19,19 @@ export default function Nav() {
 
   useEffect(() => {
     setMounted(true);
+    let ticking = false;
+    
     const handleScroll = () => {
-      setScrolled(window.scrollY > 50);
+      if (!ticking) {
+        window.requestAnimationFrame(() => {
+          setScrolled(window.scrollY > 50);
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -37,7 +45,7 @@ export default function Nav() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 w-full transition-all duration-300 ${
+      className={`sticky top-0 z-50 w-full transition-[background-color,backdrop-filter,box-shadow,border-color] duration-200 ease-out will-change-[background-color,backdrop-filter,box-shadow] ${
         mounted && scrolled
           ? 'backdrop-blur-md bg-neutral-900/40 shadow-lg shadow-black/20 border-b border-neutral-800/20'
           : ''
