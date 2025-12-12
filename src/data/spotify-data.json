@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-11T17:18:52.645805Z",
+  "lastUpdated": "2025-12-12T17:11:42.853562Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
     },
     {
-      "name": "Loser",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273208500450dcd0fd294d7bd3b",
-      "spotifyUrl": "https://open.spotify.com/track/7bxaFZ1O3cHkgLKMsdC3xR"
-    },
-    {
       "name": "Simulation Swarm",
       "artists": "Big Thief",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
@@ -57,6 +51,12 @@
       "artists": "Hannah Jadagu",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
       "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
+    },
+    {
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
