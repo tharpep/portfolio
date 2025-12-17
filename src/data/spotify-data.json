@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-16T17:17:06.727161Z",
+  "lastUpdated": "2025-12-17T17:16:32.000562Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
     },
     {
+      "name": "Champagne Coast",
+      "artists": "Blood Orange",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
+      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
+    },
+    {
       "name": "In My Years",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
@@ -51,12 +57,6 @@
       "artists": "Hannah Jadagu",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
       "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
-    },
-    {
-      "name": "Champagne Coast",
-      "artists": "Blood Orange",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
-      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
     }
   ],
   "topTrackDay": {
