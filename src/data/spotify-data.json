@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-19T17:11:46.927911Z",
+  "lastUpdated": "2025-12-20T17:09:24.759325Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,10 +29,10 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
-      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
+      "name": "Champagne Coast",
+      "artists": "Blood Orange",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
+      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
     },
     {
       "name": "4EVER",
@@ -41,10 +41,10 @@
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
     },
     {
-      "name": "Champagne Coast",
-      "artists": "Blood Orange",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
-      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
+      "name": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
+      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
     },
     {
       "name": "Simulation Swarm",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "Warning Sign",
-    "artists": "Hannah Jadagu",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
-    "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
+    "name": "Champagne Coast",
+    "artists": "Blood Orange",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
+    "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
   }
 }
