@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-22T17:11:32.559772Z",
+  "lastUpdated": "2025-12-23T17:13:01.417744Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
     },
     {
-      "name": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
-      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
-    },
-    {
       "name": "4EVER",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273918bb5280a0cd163a2f1e517",
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
+    },
+    {
+      "name": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
+      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
     },
     {
       "name": "In My Years",
