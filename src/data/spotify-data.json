@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-24T17:10:20.392757Z",
+  "lastUpdated": "2025-12-25T17:10:51.512063Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
     },
     {
-      "name": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
-      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
-    },
-    {
       "name": "Talk 2 Me",
       "artists": "54 Ultra",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27362846280cc8589740f984f06",
       "spotifyUrl": "https://open.spotify.com/track/7wfOwy1NErjzBYRf1HnDPb"
+    },
+    {
+      "name": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
+      "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
     }
   ],
   "topTrackDay": {
