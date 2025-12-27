@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-26T17:10:13.793369Z",
+  "lastUpdated": "2025-12-27T17:10:06.816986Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
     },
     {
-      "name": "Simulation Swarm",
-      "artists": "Big Thief",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
-      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
-    },
-    {
       "name": "4EVER",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273918bb5280a0cd163a2f1e517",
       "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
+    },
+    {
+      "name": "Simulation Swarm",
+      "artists": "Big Thief",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
+      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
     },
     {
       "name": "Talk 2 Me",
