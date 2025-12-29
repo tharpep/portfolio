@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-28T17:10:36.562179Z",
+  "lastUpdated": "2025-12-29T17:11:07.013688Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
     },
     {
-      "name": "4EVER",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273918bb5280a0cd163a2f1e517",
-      "spotifyUrl": "https://open.spotify.com/track/6Kzul7v3QxHGwV2AjLNp3X"
-    },
-    {
       "name": "Warning Sign",
       "artists": "Hannah Jadagu",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
@@ -57,6 +51,12 @@
       "artists": "54 Ultra",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27362846280cc8589740f984f06",
       "spotifyUrl": "https://open.spotify.com/track/7wfOwy1NErjzBYRf1HnDPb"
+    },
+    {
+      "name": "Chemicals",
+      "artists": "Rosemary Fairweather",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732c02b08ba3ed9be7c8da9014",
+      "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
     }
   ],
   "topTrackDay": {
