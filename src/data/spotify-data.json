@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-30T17:13:45.019433Z",
+  "lastUpdated": "2025-12-31T17:10:39.151945Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
     },
     {
-      "name": "Simulation Swarm",
-      "artists": "Big Thief",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273608c444310857c06bdc65361",
-      "spotifyUrl": "https://open.spotify.com/track/2FwDApgXk91kXvqy2oB7dz"
-    },
-    {
       "name": "Warning Sign",
       "artists": "Hannah Jadagu",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2730805aeec89c7cc9a4e2ca857",
       "spotifyUrl": "https://open.spotify.com/track/3HpfHYxvRacvmEPFR9ovF7"
     },
     {
-      "name": "Talk 2 Me",
-      "artists": "54 Ultra",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27362846280cc8589740f984f06",
-      "spotifyUrl": "https://open.spotify.com/track/7wfOwy1NErjzBYRf1HnDPb"
-    },
-    {
       "name": "Chemicals",
       "artists": "Rosemary Fairweather",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732c02b08ba3ed9be7c8da9014",
       "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
+    },
+    {
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
+    },
+    {
+      "name": "Just for Now",
+      "artists": "Imogen Heap",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730cabafb8b01b956fae313c57",
+      "spotifyUrl": "https://open.spotify.com/track/64kEBCPbeV06af3omyh1Ju"
     }
   ],
   "topTrackDay": {
