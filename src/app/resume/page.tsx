@@ -9,18 +9,18 @@ export const metadata: Metadata = {
 export default function Resume() {
   return (
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
-      
-      {/* Hero Section */}
-      <section className="text-center mb-12 sm:mb-16">
-        <ScrollFadeIn>
+
+      <ScrollFadeIn>
+        {/* Hero Section */}
+        <section className="text-center mb-12 sm:mb-16">
           <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
             Pryce Tharpe
           </h1>
-        </ScrollFadeIn>
-      </section>
+        </section>
 
-      {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
+      </ScrollFadeIn>
 
       {/* Main Content */}
       <div className="max-w-4xl mx-auto space-y-10 sm:space-y-12">

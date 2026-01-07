@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
+import Script from "next/script";
 import ConditionalNav from "@/components/ConditionalNav";
 import ConditionalFooter from "@/components/ConditionalFooter";
 import { Analytics } from '@vercel/analytics/react';
@@ -26,6 +27,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://pryce-tharpe.dev'),
   alternates: {
     canonical: '/',
+  },
+  icons: {
+    icon: '/favicon.ico',
   },
   openGraph: {
     type: 'website',
@@ -63,6 +67,9 @@ export const metadata: Metadata = {
   verification: {
     google: 'your-google-verification-code',
   },
+  other: {
+    'view-transition': 'same-origin',
+  },
 };
 
 export const viewport = {
@@ -77,9 +84,22 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="/favicon.ico" />
-        <script
+      <body
+        className={`${inter.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-neutral-900 relative`}
+        suppressHydrationWarning={true}
+      >
+        {/* Site-wide gradient background - consistent across all pages */}
+        <div className="fixed inset-0 pointer-events-none z-0">
+          {/* Primary gradient - subtle, gradually fades throughout page */}
+          <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/3 via-cyan-500/1.5 via-cyan-500/0.5 to-transparent" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_0%,_var(--tw-gradient-stops))] from-cyan-500/4 via-cyan-500/1.5 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/1.5 via-transparent to-blue-500/0.5" />
+        </div>
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
+          Skip to content
+        </a>
+        <Script
+          id="schema-org"
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
@@ -106,21 +126,6 @@ export default function RootLayout({
             })
           }}
         />
-      </head>
-      <body
-        className={`${inter.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-neutral-900 relative`}
-        suppressHydrationWarning={true}
-      >
-        {/* Site-wide gradient background - consistent across all pages */}
-        <div className="fixed inset-0 pointer-events-none z-0">
-          {/* Primary gradient - subtle, gradually fades throughout page */}
-          <div className="absolute inset-0 bg-gradient-to-b from-cyan-500/3 via-cyan-500/1.5 via-cyan-500/0.5 to-transparent" />
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_50%_at_50%_0%,_var(--tw-gradient-stops))] from-cyan-500/4 via-cyan-500/1.5 to-transparent" />
-          <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/1.5 via-transparent to-blue-500/0.5" />
-        </div>
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
-          Skip to content
-        </a>
         <ConditionalNav />
         {children}
         <ConditionalFooter />

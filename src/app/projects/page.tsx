@@ -103,8 +103,8 @@ function CategorySection({ category }: { category: ProjectCategory }) {
 
   return (
     <section className="mb-20">
-      <div className={`max-w-6xl mx-auto pt-6 pb-8 border-l-4 pl-6 ${colors.border} ${colors.bg}`}>
-        <ScrollFadeIn>
+      <ScrollFadeIn>
+        <div className={`max-w-6xl mx-auto pt-6 pb-8 border-l-4 pl-6 ${colors.border} ${colors.bg}`}>
           <div className="mb-8">
             <h2 className={`text-3xl font-bold font-mono tracking-wider mb-3 ${colors.text}`}>
               {category.name}
@@ -113,16 +113,16 @@ function CategorySection({ category }: { category: ProjectCategory }) {
               {category.description}
             </p>
           </div>
-        </ScrollFadeIn>
 
-        <div className="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-2 items-stretch">
-          {category.projects.map((project, index) => (
-            <ScrollFadeIn key={project.slug} delay={index * 100} className="h-full">
-              <ProjectCard project={project} index={index} />
-            </ScrollFadeIn>
-          ))}
+          <div className="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-2 items-stretch">
+            {category.projects.map((project, index) => (
+              <ScrollFadeIn key={project.slug} delay={index * 100} className="h-full">
+                <ProjectCard project={project} index={index} />
+              </ScrollFadeIn>
+            ))}
+          </div>
         </div>
-      </div>
+      </ScrollFadeIn>
     </section>
   );
 }
@@ -134,21 +134,23 @@ export default function Projects() {
   
   return (
     <main id="main" className="bg-neutral-900 text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-12 min-h-screen overflow-visible">
-      {/* Hero Section */}
-      <section className="text-center mb-16 overflow-visible">
-        <div className="inline-block py-3 overflow-visible">
-          <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-[1.2]">
-            Projects
-          </h1>
-        </div>
-        <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
-          Projects spanning data pipelines, AI systems, full-stack development, and research.
-          From embedded systems to cloud automation, these reflect what I&apos;ve built and learned.
-        </p>
-      </section>
+      <ScrollFadeIn>
+        {/* Hero Section */}
+        <section className="text-center mb-16 overflow-visible">
+          <div className="inline-block py-3 overflow-visible">
+            <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-[1.2]">
+              Projects
+            </h1>
+          </div>
+          <p className="text-xl text-neutral-300 leading-relaxed max-w-4xl mx-auto">
+            Projects spanning data pipelines, AI systems, full-stack development, and research.
+            From embedded systems to cloud automation, these reflect what I&apos;ve built and learned.
+          </p>
+        </section>
 
-      {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
+      </ScrollFadeIn>
 
       {/* Project Categories */}
       <div className="space-y-1">

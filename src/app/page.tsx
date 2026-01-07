@@ -10,7 +10,7 @@ export default function Home() {
         <ScrollFadeIn>
           <div className="relative z-10">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
-              Hello, I&apos;m Pryce Tharpe
+              Hi, I&apos;m Pryce Tharpe <span className="text-cyan-400">👋</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
               Computer Engineering senior at Purdue. Interested in full-stack development, cloud automation, and AI integration.
@@ -52,11 +52,11 @@ export default function Home() {
               aria-label="Scroll to content"
             >
               <span className="text-xs font-mono tracking-wider">Scroll</span>
-              <svg 
-                className="w-6 h-6 animate-bounce" 
-                fill="none" 
-                stroke="currentColor" 
-                strokeWidth="2" 
+              <svg
+                className="w-6 h-6 animate-bounce"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
                 viewBox="0 0 24 24"
               >
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
@@ -72,161 +72,161 @@ export default function Home() {
       {/* Main Content Section */}
       <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
 
-      {/* ─────────── Brief Story ─────────── */}
-      <ScrollFadeIn>
-        <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
-          <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
-          Last summer I shipped an internal IDE system prompt, a sprint scorecard extension for Azure DevOps, and automated pipelines at Mesh Systems.
-          At Purdue this year, I&apos;ve built production AWS infrastructure, RAG systems, and an LLM microservice for senior design.
-          Outside of class, I&apos;m working on my own AI assistant framework and this portfolio.
-          </p>
-        </section>
-      </ScrollFadeIn>
+        {/* ─────────── Brief Story ─────────── */}
+        <ScrollFadeIn>
+          <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
+            <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
+              Last summer I shipped an internal IDE system prompt, a sprint scorecard extension for Azure DevOps, and automated pipelines at Mesh Systems.
+              At Purdue this year, I&apos;ve built production AWS infrastructure, RAG systems, and an LLM microservice for senior design.
+              Outside of class, I&apos;m working on my own AI assistant framework and this portfolio.
+            </p>
+          </section>
+        </ScrollFadeIn>
 
-      {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
-      {/* ─────────── Featured Projects ─────────── */}
-      <ScrollFadeIn delay={100}>
-        <section className="mb-12 md:mb-16">
-        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
-          Featured Projects
-        </h2>
-        <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
-          <FeaturedProjectCard
-            title="AI System Prompt Framework"
-            href="/projects/ai-system-prompt"
-            desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
-            technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
-            timeline="August 2025 - Present"
-            accent="cyan"
-          />
-          <FeaturedProjectCard
-            title="MY-AI Personal Assistant"
-            href="/projects/personal-ai-system"
-            desc="Privacy-first AI system with RAG and tool integration. Local-first architecture with Qdrant vector storage and extensible tool framework. Building the AI assistant I want to use."
-            technologies={["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"]}
-            timeline="August 2025 - Present"
-            accent="purple"
-          />
-          <FeaturedProjectCard
-            title="SimRAG Reproduction"
-            href="/projects/simrag-reproduction"
-            desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
-            technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
-            timeline="August 2025 - December 2025"
-            accent="blue"
-          />
-          <FeaturedProjectCard
-            title="Azure DevOps Scorecard"
-            href="/projects/devops-scorecard"
-            desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
-            technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
-            timeline="June 2025 - Present"
-            accent="emerald"
-          />
-        </div>
-        <div className="text-center mt-10">
-          <Link
-            href="/projects"
-            className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
-          >
-            View all projects
-            <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
-          </Link>
-        </div>
-      </section>
-      </ScrollFadeIn>
+        {/* ─────────── Featured Projects ─────────── */}
+        <ScrollFadeIn delay={100}>
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+              Featured Projects
+            </h2>
+            <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
+              <FeaturedProjectCard
+                title="AI System Prompt Framework"
+                href="/projects/ai-system-prompt"
+                desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
+                technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
+                timeline="August 2025 - Present"
+                accent="cyan"
+              />
+              <FeaturedProjectCard
+                title="MY-AI Personal Assistant"
+                href="/projects/personal-ai-system"
+                desc="Privacy-first AI system with RAG and tool integration. Local-first architecture with Qdrant vector storage and extensible tool framework. Building the AI assistant I want to use."
+                technologies={["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"]}
+                timeline="August 2025 - Present"
+                accent="purple"
+              />
+              <FeaturedProjectCard
+                title="SimRAG Reproduction"
+                href="/projects/simrag-reproduction"
+                desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
+                technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
+                timeline="August 2025 - December 2025"
+                accent="blue"
+              />
+              <FeaturedProjectCard
+                title="Azure DevOps Scorecard"
+                href="/projects/devops-scorecard"
+                desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
+                technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
+                timeline="June 2025 - Present"
+                accent="emerald"
+              />
+            </div>
+            <div className="text-center mt-10">
+              <Link
+                href="/projects"
+                className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
+              >
+                View all projects
+                <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
+              </Link>
+            </div>
+          </section>
+        </ScrollFadeIn>
 
-      {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
-      {/* ─────────── Current Work ─────────── */}
-      <ScrollFadeIn delay={200}>
-        <section className="mb-12 md:mb-16">
-        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
-          Currently
-        </h2>
-        <div className="max-w-3xl mx-auto">
-          <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 md:p-6">
-            <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
-              <li className="flex items-start gap-3">
-                <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Software Engineering Intern at Mesh Systems</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Iterating on the azure devops scorecard project</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Building passion projects to expand my knowledge and skills</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                <span>Senior in Computer Engineering at Purdue University</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      </ScrollFadeIn>
+        {/* ─────────── Current Work ─────────── */}
+        <ScrollFadeIn delay={200}>
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+              Currently
+            </h2>
+            <div className="max-w-3xl mx-auto">
+              <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 md:p-6">
+                <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
+                  <li className="flex items-start gap-3">
+                    <span className="text-cyan-400 mt-1.5 text-xs">●</span>
+                    <span>Software Engineering Intern at Mesh Systems</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-cyan-400 mt-1.5 text-xs">●</span>
+                    <span>Iterating on the azure devops scorecard project</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-cyan-400 mt-1.5 text-xs">●</span>
+                    <span>Building passion projects to expand my knowledge and skills</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <span className="text-cyan-400 mt-1.5 text-xs">●</span>
+                    <span>Senior in Computer Engineering at Purdue University</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+        </ScrollFadeIn>
 
-      {/* Subtle Divider */}
-      <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
-      {/* ─────────── Let's Connect ─────────── */}
-      <ScrollFadeIn delay={300}>
-        <section className="mb-12 md:mb-16">
-        <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
-          Let&apos;s Connect
-        </h2>
-        <div className="max-w-3xl mx-auto text-center">
-          <div className="flex flex-wrap gap-4 justify-center">
-            <a
-              href="https://github.com/tharpep"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
-            >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.578.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z" />
-              </svg>
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/pryce-tharpe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
-            >
-              <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-              </svg>
-              LinkedIn
-            </a>
-            <a
-              href="mailto:tharpep_pro@outlook.com"
-              className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              Email
-            </a>
-          </div>
-          <div className="mt-6">
-            <Link
-              href="/about"
-              className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
-            >
-              More About Me
-              <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-      </ScrollFadeIn>
+        {/* ─────────── Let's Connect ─────────── */}
+        <ScrollFadeIn delay={300}>
+          <section className="mb-12 md:mb-16">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+              Let&apos;s Connect
+            </h2>
+            <div className="max-w-3xl mx-auto text-center">
+              <div className="flex flex-wrap gap-4 justify-center">
+                <a
+                  href="https://github.com/tharpep"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C6.477 2 2 6.484 2 12.021c0 4.428 2.865 8.184 6.839 9.504.5.092.682-.217.682-.482 0-.237-.009-.868-.014-1.703-2.782.605-3.369-1.342-3.369-1.342-.454-1.157-1.11-1.465-1.11-1.465-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.339-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.987 1.029-2.687-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.337 1.909-1.295 2.748-1.025 2.748-1.025.546 1.378.202 2.397.1 2.65.64.7 1.028 1.594 1.028 2.687 0 3.847-2.338 4.695-4.566 4.944.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.749 0 .267.18.578.688.48C19.138 20.2 22 16.447 22 12.021 22 6.484 17.523 2 12 2z" />
+                  </svg>
+                  GitHub
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/pryce-tharpe"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
+                >
+                  <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                  </svg>
+                  LinkedIn
+                </a>
+                <a
+                  href="mailto:tharpep_pro@outlook.com"
+                  className="inline-flex items-center gap-2 px-6 py-3 border border-neutral-600 hover:border-neutral-500 text-neutral-300 hover:text-white font-semibold rounded-xl transition-all duration-300 hover:bg-neutral-800"
+                >
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                  </svg>
+                  Email
+                </a>
+              </div>
+              <div className="mt-6">
+                <Link
+                  href="/about"
+                  className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
+                >
+                  More About Me
+                  <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
+                </Link>
+              </div>
+            </div>
+          </section>
+        </ScrollFadeIn>
 
       </div>
     </main>
@@ -234,18 +234,18 @@ export default function Home() {
 }
 
 /* ─────────── Components ─────────── */
-function FeaturedProjectCard({ 
-  title, 
-  href, 
-  desc, 
-  technologies, 
+function FeaturedProjectCard({
+  title,
+  href,
+  desc,
+  technologies,
   timeline,
-  accent = "cyan" 
-}: { 
-  title: string; 
-  href: string; 
-  desc: string; 
-  technologies: string[]; 
+  accent = "cyan"
+}: {
+  title: string;
+  href: string;
+  desc: string;
+  technologies: string[];
   timeline: string;
   accent?: "cyan" | "blue" | "purple" | "emerald";
 }) {
@@ -258,7 +258,7 @@ function FeaturedProjectCard({
 
   const textClasses = {
     cyan: "group-hover:text-cyan-300",
-    blue: "group-hover:text-blue-300", 
+    blue: "group-hover:text-blue-300",
     purple: "group-hover:text-purple-300",
     emerald: "group-hover:text-emerald-300"
   };
@@ -303,7 +303,7 @@ function FeaturedProjectCard({
       <div className={`hidden md:flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform duration-300 ease-out`}>
         View Details
         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-          <path d="M7 17l10-10M17 7H7v10"/>
+          <path d="M7 17l10-10M17 7H7v10" />
         </svg>
       </div>
     </Link>

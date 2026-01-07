@@ -21,7 +21,6 @@ class ScrollObserverManager {
             const callback = this.callbacks.get(entry.target);
             if (callback) {
               callback();
-              // Remove after triggering to prevent re-triggering
               this.callbacks.delete(entry.target);
               if (this.observer) {
                 this.observer.unobserve(entry.target);
@@ -52,20 +51,16 @@ class ScrollObserverManager {
       this.observer.unobserve(element);
     }
   }
-
-  disconnect(): void {
-    if (this.observer) {
-      this.observer.disconnect();
-      this.observer = null;
-      this.callbacks.clear();
-    }
-  }
 }
 
 // Global singleton instance
 const observerManager = new ScrollObserverManager();
 
-export default function ScrollFadeIn({ children, delay = 0, className = '' }: ScrollFadeInProps) {
+export default function ScrollFadeIn({
+  children,
+  delay = 0,
+  className = ''
+}: ScrollFadeInProps) {
   const [isVisible, setIsVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
@@ -73,11 +68,8 @@ export default function ScrollFadeIn({ children, delay = 0, className = '' }: Sc
     const element = ref.current;
     if (!element) return;
 
-    const callback = () => {
-      setIsVisible(true);
-    };
-
-    observerManager.observe(element, callback);
+    // Immediate observation for faster fade-in
+    observerManager.observe(element, () => setIsVisible(true));
 
     return () => {
       if (element) {
@@ -89,7 +81,7 @@ export default function ScrollFadeIn({ children, delay = 0, className = '' }: Sc
   return (
     <div
       ref={ref}
-      className={`transition-all duration-500 ease-out ${
+      className={`transition-all duration-700 ease-out ${
         isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
       } ${className}`}
       style={{ transitionDelay: `${delay}ms` }}

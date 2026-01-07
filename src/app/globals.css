@@ -77,7 +77,7 @@ html {
 }
 
 .animate-fade-in {
-  animation: fade-in 0.8s ease-out 1.2s both;
+  animation: fade-in 0.4s ease-out 1.2s both;
 }
 
 /* Respect reduced motion for fade-in */
@@ -87,6 +87,7 @@ html {
     opacity: 1;
   }
 }
+
 
 /* Scroll-triggered fade-in animations */
 @keyframes fade-in-up {
