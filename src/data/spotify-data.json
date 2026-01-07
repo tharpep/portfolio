@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-06T17:16:14.433703Z",
+  "lastUpdated": "2026-01-07T17:18:47.229221Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
     },
     {
-      "name": "Out Of Your League",
-      "artists": "Blood Orange, Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
-      "spotifyUrl": "https://open.spotify.com/track/4qdbCACEpbFWIpKSMa2fZC"
-    },
-    {
       "name": "I'm God",
       "artists": "Clams Casino, Imogen Heap",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d57e3b601a8171f7e122b2ea",
       "spotifyUrl": "https://open.spotify.com/track/0FVuyC9RP5MACjp4lgU3qZ"
+    },
+    {
+      "name": "Out Of Your League",
+      "artists": "Blood Orange, Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
+      "spotifyUrl": "https://open.spotify.com/track/4qdbCACEpbFWIpKSMa2fZC"
     },
     {
       "name": "Just for Now",
