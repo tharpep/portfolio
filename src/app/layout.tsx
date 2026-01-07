@@ -18,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pryce Tharpe - Software Engineer & Computer Engineering Student",
-  description: "Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development. Experienced with Azure, React, Python, and embedded systems. Seeking full-time software engineering roles.",
+  title: "Pryce Tharpe - Software Engineer",
+  description: "Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.",
   keywords: ["Pryce Tharpe", "Software Engineer", "Computer Engineering", "Purdue University", "AI", "Azure", "React", "Python", "Full Stack Developer", "DevOps", "Cloud Engineering"],
   authors: [{ name: "Pryce Tharpe" }],
   creator: "Pryce Tharpe",
@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     locale: 'en_US',
     url: '/',
     siteName: 'Pryce Tharpe Portfolio',
-    title: 'Pryce Tharpe - Software Engineer & Computer Engineering Student',
-    description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development. View my projects and experience.',
+    title: 'Pryce Tharpe - Software Engineer',
+    description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
     images: [
       {
         url: '/vercel.svg',
@@ -49,8 +49,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pryce Tharpe - Software Engineer & Computer Engineering Student',
-    description: 'Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development.',
+    title: 'Pryce Tharpe - Software Engineer',
+    description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
     images: ['/vercel.svg'],
   },
   robots: {
