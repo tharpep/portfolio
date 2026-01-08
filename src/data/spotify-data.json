@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T17:18:47.229221Z",
+  "lastUpdated": "2026-01-08T17:19:52.915582Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Champagne Coast",
-      "artists": "Blood Orange",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
-      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
-    },
-    {
       "name": "Chemicals",
       "artists": "Rosemary Fairweather",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732c02b08ba3ed9be7c8da9014",
       "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
+    },
+    {
+      "name": "Champagne Coast",
+      "artists": "Blood Orange",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
+      "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
     },
     {
       "name": "I'm God",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "Champagne Coast",
-    "artists": "Blood Orange",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2736e423caed017991e802f8ee1",
-    "spotifyUrl": "https://open.spotify.com/track/0AIpGG5dxEgnAymhdJRSZ0"
+    "name": "Chemicals",
+    "artists": "Rosemary Fairweather",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732c02b08ba3ed9be7c8da9014",
+    "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
   }
 }
