@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-14T17:20:25.151122Z",
+  "lastUpdated": "2026-01-15T17:24:48.088316Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/0FVuyC9RP5MACjp4lgU3qZ"
     },
     {
+      "name": "Billie Toppy",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
+      "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
+    },
+    {
       "name": "Out Of Your League",
       "artists": "Blood Orange, Steve Lacy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
@@ -51,12 +57,6 @@
       "artists": "Imogen Heap",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2730cabafb8b01b956fae313c57",
       "spotifyUrl": "https://open.spotify.com/track/64kEBCPbeV06af3omyh1Ju"
-    },
-    {
-      "name": "Shalala",
-      "artists": "Moses Gunn Collective",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730531153fccbbc988b6e4f38e",
-      "spotifyUrl": "https://open.spotify.com/track/0Bl1Gt8R9kjz7JO7SYAuhe"
     }
   ],
   "topTrackDay": {
