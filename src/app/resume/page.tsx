@@ -31,7 +31,7 @@ export default function Resume() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
               Professional Experience
             </h2>
-            
+
             <div className="space-y-8">
               <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
@@ -94,7 +94,7 @@ export default function Resume() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
               Academic & Personal Projects
             </h2>
-            
+
             <div className="space-y-6">
               {/* ECE 46100 */}
               <div className="pl-4 border-l-2 border-blue-500/30">
@@ -123,11 +123,34 @@ export default function Resume() {
               {/* SimRAG Reproduction */}
               <div className="pl-4 border-l-2 border-blue-500/30">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
-                  <h3 className="text-lg font-semibold text-white">SimRAG Reproduction --- RAG Fine-Tuning Study</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Aug -- Dec 2025</span>
+                  <h3 className="text-lg font-semibold text-white">SimRAG Reproduction - RAG Fine-Tuning Study</h3>
+                  <span className="text-neutral-400 font-mono text-sm">Aug - Dec 2025</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Reproduced NAACL 2025 SimRAG methodology on consumer hardware; implemented two-stage QLoRA fine-tuning with 4-bit quantization and built evaluation framework establishing model capacity lower bounds for RAG effectiveness.</li>
+                </ul>
+              </div>
+
+              {/* MY-AI */}
+              <div className="pl-4 border-l-2 border-blue-500/30">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
+                  <h3 className="text-lg font-semibold text-white">MY-AI - Personal AI Assistant</h3>
+                  <span className="text-neutral-400 font-mono text-sm">Aug 2025 - Present</span>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
+                  <li>Building privacy-first AI assistant with RAG, document knowledge bases, and extensible tool integration supporting local (Ollama) or cloud LLMs.</li>
+                  <li>Implemented unified provider interface, Qdrant vector storage with cited retrieval, and tool framework with registry and allowlist security.</li>
+                </ul>
+              </div>
+
+              {/* Portfolio */}
+              <div className="pl-4 border-l-2 border-blue-500/30">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
+                  <h3 className="text-lg font-semibold text-white">Portfolio Website</h3>
+                  <span className="text-neutral-400 font-mono text-sm">May 2025 - Present</span>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
+                  <li>Built with Next.js 15, React 19 Server Components, and TypeScript with live Spotify integration via Python scripts and GitHub Actions.</li>
                 </ul>
               </div>
             </div>
@@ -143,7 +166,7 @@ export default function Resume() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
               Additional Experience
             </h2>
-            
+
             <div className="space-y-6">
               <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
@@ -183,7 +206,7 @@ export default function Resume() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
               Education
             </h2>
-            
+
             <div>
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                 <div>
@@ -209,7 +232,7 @@ export default function Resume() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
               Skills
             </h2>
-            
+
             <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-6">
               <p className="text-neutral-300 leading-relaxed">
                 <span className="font-semibold text-white">Technical:</span> Python, C/C++, React, Next.js, TypeScript, AWS (ECS, ECR, S3, CloudWatch, IAM), Docker, CI/CD (GitHub Actions), Azure DevOps, Microsoft Fabric, SQL, FastAPI, RAG Systems, LLM Integration, Prompt Engineering, Git/GitHub, pytest

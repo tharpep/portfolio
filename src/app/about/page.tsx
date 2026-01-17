@@ -8,7 +8,7 @@ const SpotifyWidget = dynamic(() => import("@/components/SpotifyWidget"), {
   ssr: true,
   loading: () => (
     <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6 animate-pulse">
-      <div className="h-32 bg-neutral-700/50 rounded-lg"></div>
+      <div className="h-32 bg-neutral-700 rounded-lg"></div>
     </div>
   ),
 });

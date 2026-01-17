@@ -64,7 +64,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             {data.topTracksWeek.map((track, index) => (
               <div 
                 key={index}
-                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/30 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
+                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/70 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
               >
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}
@@ -109,7 +109,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             {data.topArtistsYear.map((artist, index) => (
               <div 
                 key={index}
-                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/30 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
+                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/70 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
               >
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}

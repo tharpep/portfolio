@@ -1,3 +1,8 @@
+export interface ProjectImage {
+  path: string;
+  caption?: string;
+}
+
 export interface Project {
   slug: string;
   title: string;
@@ -7,9 +12,14 @@ export interface Project {
   timeline: string;
   status: 'completed' | 'in-progress' | 'planned';
   highlights: string[];
-  impact?: string;
   demoUrl?: string;
   githubUrl?: string;
+  paperUrl?: string;
+  hidden?: boolean;
+  images?: ProjectImage[];
+  challenge?: string;
+  solution?: string[];
+  result?: string;
 }
 
 export interface ProjectCategory {
@@ -29,13 +39,14 @@ const projects: Project[] = [
     technologies: ["Microsoft Fabric", "Azure Data Factory", "SQL", "Azure Functions", "Python", "Power BI"],
     timeline: "May 2025 - Present",
     status: "completed",
-    highlights: [
-      "Reduced data processing time by 95% (2-3 hours to 5-10 minutes)",
-      "Reduced manual effort for managers with automated reporting",
-      "Built fault-tolerant pipeline with error recovery and monitoring",
-      "Delivered reliable, repeatable results for financial analysis"
+    highlights: [],
+    challenge: "A 13-step monthly Azure cost analysis process took managers 2-3 hours of manual work, with risk of errors and inconsistent results.",
+    solution: [
+      "Built automated ETL pipeline using Microsoft Fabric and Azure Data Factory",
+      "Implemented fault-tolerant processing with error recovery and monitoring",
+      "Created Power BI dashboards for automated financial reporting"
     ],
-    impact: "Automated manual Azure cost analysis workflow, saving managers hours of work monthly"
+    result: "Reduced processing time by 95% (2-3 hours to 5-10 minutes), delivering reliable, repeatable results for financial analysis.",
   },
   {
     slug: "devops-scorecard",
@@ -45,13 +56,14 @@ const projects: Project[] = [
     technologies: ["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"],
     timeline: "June 2025 - Present",
     status: "completed",
-    highlights: [
-      "Designed to enable instant sprint visibility for stakeholders",
-      "Built from mockups and legacy code into extension currently rolling out",
-      "Aims to improve Agile transparency for internal and external stakeholders",
-      "Mentored high school intern in backend development for the project"
+    highlights: [],
+    challenge: "Stakeholders lacked real-time visibility into sprint health and status within Azure DevOps, requiring manual status updates.",
+    solution: [
+      "Built Azure DevOps extension with embedded Next.js dashboard",
+      "Integrated with Azure DevOps REST API for real-time sprint data",
+      "Mentored high school intern in backend development"
     ],
-    impact: "Aims to improve DevOps workflow efficiency and transparency, enabling data-driven sprint management"
+    result: "Extension currently rolling out to project teams. Also mentored a high school intern on backend work during development.",
   },
   {
     slug: "python-spotify-manager",
@@ -67,7 +79,7 @@ const projects: Project[] = [
       "Created automated playlist management and music data insights",
       "Introduced me to personal projects, API consumption, and OAuth workflows"
     ],
-    impact: "Developed music data analysis capabilities, providing insights into listening patterns and automated playlist curation"
+    hidden: true
   },
   {
     slug: "dj-pete-beat-sequencer",
@@ -77,13 +89,15 @@ const projects: Project[] = [
     technologies: ["STM32", "C", "I2C", "DMA", "DAC", "SPI", "Adafruit NeoTrellis", "Embedded Systems"],
     timeline: "2024",
     status: "completed",
-    highlights: [
-      "Implemented embedded systems with multiple communication protocols",
-      "Created interactive RGB keypad interface for music production",
-      "Presented at Purdue Spark Challenge showcasing technical innovation",
-      "Demonstrated proficiency in low-level hardware programming and real-time systems"
+    highlights: [],
+    challenge: "For the Purdue Spark Challenge, I wanted to build something that combined my embedded systems coursework with music production.",
+    solution: [
+      "Implemented multiple communication protocols (I2C, DMA, DAC, SPI) on STM32 microcontroller",
+      "Integrated Adafruit NeoTrellis RGB keypads for visual feedback and user interaction",
+      "Developed real-time audio processing with low-latency performance"
     ],
-    impact: "Showcased embedded systems proficiency through creative music technology, bridging hardware and artistic expression",
+    result: "Presented the working beat sequencer at the Spark Challenge. Good hands-on experience with low-level protocols and real-time audio.",
+    images: [{ path: "djpete.jpg", caption: "Beat sequencer with NeoTrellis RGB keypad interface" }],
     githubUrl: "https://github.com/tharpep/ECE362-Project"
   },
   {
@@ -94,14 +108,14 @@ const projects: Project[] = [
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
     timeline: "August 2025 - Present",
     status: "completed",
-    highlights: [
-      "Developed master IDE prompt that aims to standardize AI-assisted coding workflows across engineering departments",
-      "Established AI standards and best practices for development teams",
-      "Co-led 2 company-wide lunch and learns on ChatGPT setup and master prompt usage",
-      "Conducted 17 group/individual AI check-ins and training sessions",
-      "Mentored an intern in prompt engineering and AI integration"
+    highlights: [],
+    challenge: "Engineering teams needed consistent AI-assisted coding workflows across multiple IDEs, with varying levels of AI experience among developers.",
+    solution: [
+      "Co-developed master IDE prompt standardizing AI workflows across Cursor, Windsurf, and VS Code",
+      "Led 2 company-wide lunch and learns on ChatGPT setup and prompt usage",
+      "Conducted 17 group/individual AI check-ins and mentored an intern"
     ],
-    impact: "Improved company comfort with AI and knowledge of available tools through training sessions and framework development"
+    result: "Established AI standards and best practices across engineering departments, improving team comfort and productivity with AI tools.",
   },
   {
     slug: "custom-gpts",
@@ -117,7 +131,7 @@ const projects: Project[] = [
       "Focused on prompt engineering and user experience",
       "Integrated OpenAI tools into productivity workflows"
     ],
-    impact: "Workflow automation through specialized AI tools tailored for specific business and educational needs"
+    hidden: true
   },
   {
     slug: "fm-radio-research",
@@ -127,13 +141,14 @@ const projects: Project[] = [
     technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
     timeline: "2024",
     status: "completed",
-    highlights: [
-      "Engineered automated FM radio detection and demodulation system",
-      "Implemented signal processing algorithms",
-      "Designed automation scripts for signal analysis",
-      "Applied RF engineering principles in software-defined radio"
+    highlights: [],
+    challenge: "For an ECE research project, I worked on automating FM signal detection using software-defined radio.",
+    solution: [
+      "Engineered automated FM detection system using USRP and GNU Radio",
+      "Implemented signal processing algorithms for demodulation",
+      "Built Python automation scripts for signal analysis workflows"
     ],
-    impact: "Understanding of signal processing and RF systems through practical implementation of complex radio technologies"
+    result: "Built a working FM detection and demodulation system. Learned a lot about RF engineering and signal processing in practice.",
   },
   {
     slug: "personal-ai-system",
@@ -143,14 +158,18 @@ const projects: Project[] = [
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"],
     timeline: "August 2025 - Present",
     status: "in-progress",
-    highlights: [
-      "Designed unified AI provider interface with OpenAI-compatible endpoints supporting dynamic provider/model selection",
-      "Implemented full document ingestion pipeline with chunking, Qdrant vector storage, and cited answer retrieval",
-      "Created extensible tool framework with registry system, parameter validation, and allowlist security",
-      "Built SQLite-based request tracking system with unique request IDs and performance metrics",
-      "Developed Typer-based CLI with interactive chat, demos, and tab completion support"
+    highlights: [],
+    challenge: "I wanted a personal AI assistant that could run locally for privacy, but also connect to cloud APIs when needed, with my own documents as a knowledge base.",
+    solution: [
+      "Designed unified AI provider interface supporting Ollama and external APIs",
+      "Implemented RAG with document ingestion, Qdrant vector storage, and cited retrieval",
+      "Created extensible tool framework with registry and allowlist security"
     ],
-    impact: "Developing a secure, extensible personal AI system that combines knowledge retrieval with tool orchestration",
+    result: "Ongoing project. Core RAG and tool systems are working; continuing to add features as I use it.",
+    images: [
+      { path: "myai-mainchat screenshot.png", caption: "Main chat interface" },
+      { path: "myai-currentdevpage.png", caption: "Developer tools and configuration" }
+    ],
     githubUrl: "https://github.com/tharpep/MY-AI"
   },
   {
@@ -161,13 +180,14 @@ const projects: Project[] = [
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
     timeline: "May 2025 - Present",
     status: "in-progress",
-    highlights: [
-      "Built with Next.js 15 App Router, React 19 Server Components, and TypeScript strict mode",
-      "Implemented live Spotify data display with Python scripts fetching top artists, tracks, and daily favorites",
-      "Created GitHub Actions workflow for daily automated Spotify data updates with secure secrets management",
-      "Configured auto-deployment on Vercel with preview URLs per PR for development workflow"
+    highlights: [],
+    challenge: "Needed a portfolio site to showcase my work. Used it as a chance to learn Next.js 15 and set up some automation.",
+    solution: [
+      "Built with Next.js 15 App Router and React 19 Server Components",
+      "Implemented live Spotify integration with Python scripts and GitHub Actions",
+      "Configured auto-deployment on Vercel with preview URLs per PR"
     ],
-    impact: "Showcasing professional projects and technical expertise through a modern, performant web presence with automated content updates",
+    result: "Live at prycetharpe.dev. Spotify data updates automatically via GitHub Actions.",
     githubUrl: "https://github.com/tharpep/portfolio",
     demoUrl: "https://prycetharpe.dev"
   },
@@ -179,15 +199,16 @@ const projects: Project[] = [
     technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
     timeline: "August 2025 - December 2025",
     status: "completed",
-    highlights: [
-      "Designed provider-agnostic interface supporting both local (Ollama) and cloud (Purdue GenAI) LLMs with automatic provider selection",
-      "Built RAG system with Sentence Transformers for embeddings, Qdrant vector storage, and context-aware question answering",
-      "Implemented both synchronous and asynchronous API calls for flexible integration patterns",
-      "Trained and tested model on personal hardware (RTX 3080, 10GB VRAM). Results: context relevance unchanged (0.316), answer quality decreased 0.1-1.9%, response time increased 52-53%. Findings attributed to model capacity limitations (1.5B vs. original 8B/27B) and lack of retriever fine-tuning",
-      "Created test suite with mocked external dependencies for reproducible testing"
+    highlights: [],
+    challenge: "Reproduce and understand the SimRAG paper's similarity-based RAG techniques, implementing on consumer hardware to learn RAG fundamentals.",
+    solution: [
+      "Built provider-agnostic interface supporting local (Ollama) and cloud LLMs",
+      "Implemented two-stage fine-tuning: instruction following, then domain adaptation",
+      "Created test suite with mocked dependencies for reproducible testing"
     ],
-    impact: "Understanding of RAG fundamentals and fine-tuning concepts through hands-on implementation, demonstrating practical ML engineering skills",
-    githubUrl: "https://github.com/tharpep/SimRAG-Reproduction"
+    result: "Successfully trained and tested on consumer hardware (RTX 3080). Fine-tuning showed limited improvement because the 1.5B model I used was smaller than the paper's 8B/27B models, highlighting the importance of model capacity in RAG systems.",
+    githubUrl: "https://github.com/tharpep/SimRAG-Reproduction",
+    paperUrl: "/papers/SimRAG_Reproduction.pdf"
   },
   {
     slug: "ece461-model-registry",
@@ -196,15 +217,16 @@ const projects: Project[] = [
     category: "devops-cloud",
     technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
     timeline: "August 2025 - December 2025",
-    status: "in-progress",
-    highlights: [
-      "Designed and deployed AWS ECS/Fargate infrastructure for containerized application hosting",
-      "Implemented Reproducibility metric analyzing example code availability and validity",
-      "Implemented Reviewedness metric calculating fraction of code added via reviewed pull requests",
-      "Implemented Treescore metric computing average net score of parent models in lineage graph",
-      "Simulated real software engineering workflow with weekly milestones and client requirements"
+    status: "completed",
+    highlights: [],
+    challenge: "For ECE 46100 (Software Engineering), my team built a model registry. I led the AWS infrastructure and implemented the trustworthiness metrics.",
+    solution: [
+      "Designed and deployed AWS ECS/Fargate infrastructure for containerized hosting",
+      "Implemented three evaluation metrics: Reproducibility, Reviewedness, and Treescore",
+      "Built React frontend with Next.js and FastAPI backend"
     ],
-    impact: "Demonstrated cloud infrastructure expertise and metric design skills in team-based software engineering project",
+    result: "Shipped a working registry with AWS deployment. Good experience with team-based development and weekly milestones.",
+    images: [{ path: "trustedmodelregistry_healthboard.png", caption: "System health monitoring dashboard" }],
     githubUrl: "https://github.com/Anjali-Vanamala/ECE461_Part2"
   },
   {
@@ -214,15 +236,16 @@ const projects: Project[] = [
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
     timeline: "August 2025 - December 2025",
-    status: "in-progress",
-    highlights: [
-      "Architected and implemented RAG system with Qdrant vector storage and document ingestion pipeline",
-      "Built artifact generation system (flashcards, MCQ, insights) with schema validation and template system",
-      "Developed interactive chat service with three-layer context (RAG + Summary + Recent messages)",
-      "Created FastAPI backend with CLI interface for artifact generation and chat",
-      "Integrated multiple AI providers (Ollama, Purdue GenAI API) with automatic provider selection"
+    status: "completed",
+    highlights: [],
+    challenge: "For Senior Design, I built the GenAI subsystem for a cognitive coaching app. My part handled artifact generation and the RAG-powered chat.",
+    solution: [
+      "Architected RAG system with Qdrant vector storage and document ingestion pipeline",
+      "Built artifact generation (flashcards, MCQ, insights) with schema validation",
+      "Developed interactive chat with three-layer context (RAG + Summary + Recent messages)"
     ],
-    impact: "Delivered GenAI subsystem enabling educational artifact generation and contextual AI assistance for cognitive coaching platform",
+    result: "Delivered working subsystem that integrated with the team's mobile and web frontends.",
+    images: [{ path: "genai_diagram.png", caption: "GenAI subsystem architecture" }],
     githubUrl: "https://github.com/tharpep/team35-seniordesign"
   },
   {
@@ -233,17 +256,20 @@ const projects: Project[] = [
     technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
     timeline: "August 2025 - December 2025",
     status: "in-progress",
-    highlights: [
-      "Implemented multi-user authentication with Supabase Auth and JWT token management",
-      "Built Row Level Security (RLS) policies for proper data isolation between users",
-      "Created admin CLI for system management with full access to all user data",
-      "Designed responsive React frontend with Shadcn UI components and Tailwind CSS",
-      "Currently on pause after completing core authentication and user management functionality"
+    highlights: [],
+    challenge: "Side project to learn authentication and database security. Building a multi-user app with Supabase.",
+    solution: [
+      "Implemented Supabase Auth with JWT token management",
+      "Built Row Level Security (RLS) policies for data isolation",
+      "Created responsive React frontend with Shadcn UI and admin CLI"
     ],
-    impact: "Gained hands-on experience with modern authentication patterns, database security, and multi-user application architecture",
+    result: "Completed core authentication and user management. Currently on pause while focusing on other projects.",
     githubUrl: "https://github.com/tharpep/tradingcard_project"
   }
 ];
+
+// Helper to get visible projects only
+const visibleProjects = projects.filter(p => !p.hidden);
 
 export const projectCategories: ProjectCategory[] = [
   {
@@ -251,35 +277,35 @@ export const projectCategories: ProjectCategory[] = [
     name: "AI & Machine Learning",
     description: "AI solutions leveraging machine learning, natural language processing, and prompt engineering to solve business challenges.",
     icon: "",
-    projects: projects.filter(p => p.category === "ai-ml")
+    projects: visibleProjects.filter(p => p.category === "ai-ml")
   },
   {
     id: "data-analytics",
     name: "Data & Analytics",
     description: "Solutions transforming raw data into actionable insights through ETL pipelines, processing, and automation.",
     icon: "",
-    projects: projects.filter(p => p.category === "data-analytics")
+    projects: visibleProjects.filter(p => p.category === "data-analytics")
   },
   {
     id: "devops-cloud",
     name: "DevOps & Cloud",
     description: "Cloud infrastructure, deployment automation, and DevOps practices for reliable software delivery.",
     icon: "",
-    projects: projects.filter(p => p.category === "devops-cloud")
+    projects: visibleProjects.filter(p => p.category === "devops-cloud")
   },
   {
     id: "full-stack",
     name: "Full-Stack Development",
     description: "End-to-end web applications combining frontend and backend technologies with modern frameworks and best practices.",
     icon: "",
-    projects: projects.filter(p => p.category === "full-stack")
+    projects: visibleProjects.filter(p => p.category === "full-stack")
   },
   {
     id: "hardware-embedded",
     name: "Hardware & Embedded Systems",
     description: "Low-level systems engineering projects exploring embedded firmware, signal processing, and RF technologies in hardware and software systems.",
     icon: "",
-    projects: projects.filter(p => p.category === "hardware-embedded")
+    projects: visibleProjects.filter(p => p.category === "hardware-embedded")
   }
 ];
 
@@ -290,7 +316,7 @@ export const getFeaturedProjects = (): Project[] => {
 };
 
 export const getAllProjects = (): Project[] => {
-  return projects;
+  return visibleProjects;
 };
 
 export const getProjectsByCategory = (): ProjectCategory[] => {
@@ -302,28 +328,28 @@ export const getProjectBySlug = (slug: string): Project | undefined => {
 };
 
 export const getNextProject = (currentSlug: string): Project | undefined => {
-  const currentProject = projects.find(p => p.slug === currentSlug);
+  const currentProject = visibleProjects.find(p => p.slug === currentSlug);
   if (!currentProject) return undefined;
-  
-  // Get all projects in the same category, maintaining array order
-  const categoryProjects = projects.filter(p => p.category === currentProject.category);
+
+  // Get all visible projects in the same category, maintaining array order
+  const categoryProjects = visibleProjects.filter(p => p.category === currentProject.category);
   const currentIndex = categoryProjects.findIndex(p => p.slug === currentSlug);
   if (currentIndex === -1) return undefined;
-  
+
   // Navigate within the category
   const nextIndex = (currentIndex + 1) % categoryProjects.length;
   return categoryProjects[nextIndex];
 };
 
 export const getPreviousProject = (currentSlug: string): Project | undefined => {
-  const currentProject = projects.find(p => p.slug === currentSlug);
+  const currentProject = visibleProjects.find(p => p.slug === currentSlug);
   if (!currentProject) return undefined;
-  
-  // Get all projects in the same category, maintaining array order
-  const categoryProjects = projects.filter(p => p.category === currentProject.category);
+
+  // Get all visible projects in the same category, maintaining array order
+  const categoryProjects = visibleProjects.filter(p => p.category === currentProject.category);
   const currentIndex = categoryProjects.findIndex(p => p.slug === currentSlug);
   if (currentIndex === -1) return undefined;
-  
+
   // Navigate within the category
   const prevIndex = currentIndex === 0 ? categoryProjects.length - 1 : currentIndex - 1;
   return categoryProjects[prevIndex];

@@ -20,7 +20,7 @@ export default function Nav() {
   useEffect(() => {
     setMounted(true);
     let ticking = false;
-    
+
     const handleScroll = () => {
       if (!ticking) {
         window.requestAnimationFrame(() => {
@@ -45,11 +45,10 @@ export default function Nav() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 w-full transition-[background-color,backdrop-filter,box-shadow,border-color] duration-200 ease-out will-change-[background-color,backdrop-filter,box-shadow] ${
-        mounted && scrolled
+      className={`sticky top-0 z-50 w-full transition-[background-color,backdrop-filter,box-shadow,border-color] duration-200 ease-out will-change-[background-color,backdrop-filter,box-shadow] ${mounted && scrolled
           ? 'backdrop-blur-md bg-neutral-900/40 shadow-lg shadow-black/20 border-b border-neutral-800/20'
           : ''
-      }`}
+        }`}
       role="navigation"
       aria-label="Primary"
     >
@@ -74,15 +73,13 @@ export default function Nav() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`relative text-base font-medium transition-all duration-200 ease-out ${
-                      isActive
+                    className={`relative text-base font-medium transition-all duration-200 ease-out ${isActive
                         ? 'text-cyan-300'
                         : 'text-neutral-300 hover:text-white'
-                    } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 after:ease-out ${
-                      isActive
+                      } after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 after:ease-out ${isActive
                         ? 'after:scale-x-100'
                         : 'after:scale-x-0 hover:after:scale-x-100'
-                    }`}
+                      }`}
                     aria-current={isActive ? 'page' : undefined}
                   >
                     {link.label}
@@ -94,9 +91,9 @@ export default function Nav() {
                 <ContactDropdownHeader />
               </div>
             </div>
-            
+
             {/* Mobile Menu Button */}
-            <button 
+            <button
               onClick={toggleMobileMenu}
               className="md:hidden p-2 text-neutral-400 hover:text-white rounded-lg hover:bg-neutral-800/40 transition-colors"
               aria-label="Toggle mobile menu"
@@ -116,12 +113,11 @@ export default function Nav() {
         </div>
 
         {/* Mobile Menu Dropdown - Always rendered with smooth transitions */}
-        <div 
-          className={`md:hidden absolute top-full left-0 right-0 bg-neutral-900 border-t border-neutral-800/50 overflow-hidden transition-all duration-300 ease-out ${
-            mobileMenuOpen 
-              ? 'opacity-100 max-h-[600px]' 
+        <div
+          className={`md:hidden absolute top-full left-0 right-0 bg-neutral-900 border-t border-neutral-800/50 overflow-hidden transition-all duration-300 ease-out ${mobileMenuOpen
+              ? 'opacity-100 max-h-[600px]'
               : 'opacity-0 max-h-0 pointer-events-none'
-          }`}
+            }`}
           style={{
             transitionProperty: 'opacity, max-height',
           }}
@@ -134,23 +130,21 @@ export default function Nav() {
                   key={link.href}
                   href={link.href}
                   onClick={closeMobileMenu}
-                  className={`relative px-4 py-3 font-medium transition-all duration-200 ease-out ${
-                    isActive
+                  className={`relative px-4 py-3 font-medium transition-all duration-200 ease-out ${isActive
                       ? 'text-cyan-300'
                       : 'text-neutral-300 hover:text-white'
-                  } after:content-[''] after:absolute after:bottom-2 after:left-4 after:w-8 after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 after:ease-out ${
-                    isActive
+                    } after:content-[''] after:absolute after:bottom-2 after:left-4 after:w-8 after:h-0.5 after:bg-cyan-400 after:transition-transform after:duration-200 after:ease-out ${isActive
                       ? 'after:scale-x-100'
                       : 'after:scale-x-0'
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </Link>
               );
             })}
-            
+
             {/* Mobile Links */}
-            <div className="mt-4 pt-4 border-t border-neutral-800/30 space-y-3">
+            <div className="mt-4 pt-4 border-t border-neutral-800/70 space-y-3">
               <a
                 href="https://github.com/tharpep"
                 target="_blank"
@@ -165,7 +159,7 @@ export default function Nav() {
               </a>
 
               <a
-                href="/resume.pdf"
+                href="/Pryce_Tharpe___No_PII.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 px-4 py-3 rounded-lg text-neutral-300 hover:text-white hover:bg-neutral-800/40 transition-all duration-200 ease-out"
@@ -186,7 +180,7 @@ export default function Nav() {
                 onClick={closeMobileMenu}
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
                 </svg>
                 <span className="font-medium">LinkedIn</span>
               </a>
