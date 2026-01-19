@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-18T17:09:55.577503Z",
+  "lastUpdated": "2026-01-19T17:16:24.268836Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
     },
     {
+      "name": "Uncle ACE",
+      "artists": "Blood Orange",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
+      "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
+    },
+    {
       "name": "Out Of Your League",
       "artists": "Blood Orange, Steve Lacy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
@@ -47,16 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
-      "name": "Uncle ACE",
-      "artists": "Blood Orange",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
-      "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
-    },
-    {
-      "name": "Chemicals",
-      "artists": "Rosemary Fairweather",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732c02b08ba3ed9be7c8da9014",
-      "spotifyUrl": "https://open.spotify.com/track/1Jl74ao9nBADj4KtQmwCIF"
+      "name": "I'll Take Care of You (feat. Yebba)",
+      "artists": "Tyler, The Creator, Yebba",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
+      "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
     }
   ],
   "topTrackDay": {
