@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-24T17:10:21.952461Z",
+  "lastUpdated": "2026-01-25T17:10:16.143027Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
     },
     {
+      "name": "I'll Take Care of You (feat. Yebba)",
+      "artists": "Tyler, The Creator, Yebba",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
+      "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
+    },
+    {
       "name": "Uncle ACE",
       "artists": "Blood Orange",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
@@ -45,12 +51,6 @@
       "artists": "Blood Orange, Steve Lacy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
       "spotifyUrl": "https://open.spotify.com/track/4qdbCACEpbFWIpKSMa2fZC"
-    },
-    {
-      "name": "I'll Take Care of You (feat. Yebba)",
-      "artists": "Tyler, The Creator, Yebba",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
-      "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
     },
     {
       "name": "PUNK ROCKY",
