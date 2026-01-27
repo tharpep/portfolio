@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-26T17:22:07.837553Z",
+  "lastUpdated": "2026-01-27T17:20:47.130292Z",
   "topArtistsYear": [
     {
       "name": "Kid Cudi",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Billie Toppy",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
-      "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
-    },
-    {
       "name": "I'll Take Care of You (feat. Yebba)",
       "artists": "Tyler, The Creator, Yebba",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
       "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
+    },
+    {
+      "name": "Billie Toppy",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
+      "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
     },
     {
       "name": "Uncle ACE",
@@ -47,22 +47,22 @@
       "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
     },
     {
-      "name": "Out Of Your League",
-      "artists": "Blood Orange, Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
-      "spotifyUrl": "https://open.spotify.com/track/4qdbCACEpbFWIpKSMa2fZC"
-    },
-    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    },
+    {
+      "name": "Out Of Your League",
+      "artists": "Blood Orange, Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27347dd2ca47ec9bf14559e17c6",
+      "spotifyUrl": "https://open.spotify.com/track/4qdbCACEpbFWIpKSMa2fZC"
     }
   ],
   "topTrackDay": {
-    "name": "Billie Toppy",
-    "artists": "Men I Trust",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
-    "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
+    "name": "I'll Take Care of You (feat. Yebba)",
+    "artists": "Tyler, The Creator, Yebba",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
+    "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
   }
 }
