@@ -99,7 +99,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
           </div>
         </div>
 
-        {/* Top 5 Artists This Year - Hidden on mobile */}
+        {/* Top 5 Artists This Year - Hidden on mobile (data: Spotify medium_term ~6 months) */}
         <div className="hidden md:block">
           <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
             <span className="text-green-400">Top 5</span>

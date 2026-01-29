@@ -37,9 +37,9 @@ def get_spotify_client_with_refresh_token():
     return spotipy.Spotify(auth_manager=auth_manager)
 
 def get_top_artists_year(sp: spotipy.Spotify, limit: int = 5) -> List[Dict[str, Any]]:
-    """Get top artists for the year (long_term)."""
+    """Get top artists for recent listening.""" 
     try:
-        results = sp.current_user_top_artists(time_range='long_term', limit=limit)
+        results = sp.current_user_top_artists(time_range='medium_term', limit=limit)
         if not results or 'items' not in results:
             return []
         
@@ -109,7 +109,7 @@ def update_spotify_data():
         print("Connecting to Spotify...")
         sp = get_spotify_client_with_refresh_token()
         
-        print("Fetching your top artists for the year...")
+        print("Fetching your top artists (last 6 months)...")
         top_artists_year = get_top_artists_year(sp)
         
         print("Fetching your top tracks for the week...")
