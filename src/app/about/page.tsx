@@ -30,9 +30,22 @@ export default async function About() {
       <ScrollFadeIn>
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
             About Me
           </h1>
+
+          {/* Quick Facts */}
+          <div className="flex flex-wrap justify-center gap-3">
+            <span className="px-4 py-2 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-xl border border-cyan-700/50">
+              Purdue &apos;26 — Computer Engineering
+            </span>
+            <span className="px-4 py-2 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-xl border border-cyan-700/50">
+              Intern @ Mesh Systems
+            </span>
+            <span className="px-4 py-2 text-sm font-medium bg-cyan-900/30 text-cyan-300 rounded-xl border border-cyan-700/50">
+              Full-Stack · AI · Cloud
+            </span>
+          </div>
         </section>
 
         {/* Subtle Divider */}
@@ -45,39 +58,25 @@ export default async function About() {
         {/* Bio Section */}
         <ScrollFadeIn>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-              My Journey
-            </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed">
               <p>
-                I&apos;m a senior in Computer Engineering at Purdue. My path started with embedded systems coursework and evolved into cloud and AI engineering during my internship at Mesh Systems. That mix gave me experience with both low-level embedded code and cloud systems.
+                I follow my curiosity. I started college wanting to be an electrical engineer, but once I got into software, I knew that was where I wanted to be. I switched to computer engineering and haven&apos;t looked back.
               </p>
               <p>
-                I&apos;ve learned to let my interests guide where I go. I started in electrical engineering, but as I was introduced to software, I followed those interests to computer engineering. That&apos;s how I got to where I am today. I let my curiosity take the lead.
+                That same instinct shapes how I work now. I gravitate toward problems that feel interesting; full-stack development, AI systems, cloud infrastructure. Not because they&apos;re trendy, but because they&apos;re where I find the most engaging challenges. When something clicks, I go deeper. When it doesn&apos;t, I find what does.
+              </p>
+              <p>
+                I think the best work comes from genuine interest. Forcing yourself through topics you don&apos;t care about leads to mediocre results. Following what pulls your attention leads to better code, better ideas, and work you actually want to finish.
               </p>
             </div>
           </section>
         </ScrollFadeIn>
 
-        {/* AI Philosophy Section */}
-        <ScrollFadeIn delay={100}>
-          <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
-              My Approach to AI
-            </h2>
-            <div className="space-y-4 text-neutral-300 leading-relaxed">
-              <p>
-                I think AI works best when it amplifies what people can do rather than replacing them. At Mesh Systems, I developed a standardized IDE LLM prompt and led training sessions to help teams use AI tools effectively. The goal was making AI actually useful for daily work, not just impressive in demos.
-              </p>
-              <p>
-                My personal projects explore RAG systems and local-first AI tools. I&apos;m interested in building AI that respects privacy, runs where you need it, and solves problems you actually have.
-              </p>
-            </div>
-          </section>
-        </ScrollFadeIn>
+        {/* Subtle Divider */}
+        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
 
         {/* Personal Interests */}
-        <ScrollFadeIn delay={200}>
+        <ScrollFadeIn delay={100}>
           <section>
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
               Beyond Code
@@ -87,6 +86,9 @@ export default async function About() {
                 Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m currently extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
               </p>
             </div>
+
+            {/* Subtle Divider */}
+            <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto my-12"></div>
 
             {/* Spotify Widget */}
             {spotifyData && (
