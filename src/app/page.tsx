@@ -251,23 +251,23 @@ function FeaturedProjectCard({
 }) {
   const accentClasses = {
     cyan: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
-    blue: "border-blue-500/50 group-hover:border-blue-400/70 group-hover:shadow-blue-400/10",
-    purple: "border-purple-500/50 group-hover:border-purple-400/70 group-hover:shadow-purple-400/10",
-    emerald: "border-emerald-500/50 group-hover:border-emerald-400/70 group-hover:shadow-emerald-400/10"
+    blue: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
+    purple: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
+    emerald: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10"
   };
 
   const textClasses = {
     cyan: "group-hover:text-cyan-300",
-    blue: "group-hover:text-blue-300",
-    purple: "group-hover:text-purple-300",
-    emerald: "group-hover:text-emerald-300"
+    blue: "group-hover:text-cyan-300",
+    purple: "group-hover:text-cyan-300",
+    emerald: "group-hover:text-cyan-300"
   };
 
   const tagClasses = {
     cyan: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
-    blue: "bg-blue-900/30 text-blue-300 border-blue-700/50",
-    purple: "bg-purple-900/30 text-purple-300 border-purple-700/50",
-    emerald: "bg-emerald-900/30 text-emerald-300 border-emerald-700/50"
+    blue: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
+    purple: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
+    emerald: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50"
   };
 
   const top3Tech = technologies.slice(0, 3);
@@ -288,7 +288,7 @@ function FeaturedProjectCard({
       {/* Mobile: Top 3 tech stack */}
       <div className="flex flex-wrap gap-2 mb-3 md:hidden">
         {top3Tech.map((tech) => (
-          <span key={tech} className={`px-2 py-1 text-xs font-medium rounded-md border ${tagClasses[accent]}`}>
+          <span key={tech} className={`px-2 py-1 text-xs font-medium rounded-xl border ${tagClasses[accent]}`}>
             {tech}
           </span>
         ))}

@@ -65,11 +65,11 @@ export default async function About() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
               My Approach to AI
             </h2>
-            <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6">
-              <p className="text-neutral-300 leading-relaxed mb-4">
+            <div className="space-y-4 text-neutral-300 leading-relaxed">
+              <p>
                 I think AI works best when it amplifies what people can do rather than replacing them. At Mesh Systems, I developed a standardized IDE LLM prompt and led training sessions to help teams use AI tools effectively. The goal was making AI actually useful for daily work, not just impressive in demos.
               </p>
-              <p className="text-neutral-300 leading-relaxed">
+              <p>
                 My personal projects explore RAG systems and local-first AI tools. I&apos;m interested in building AI that respects privacy, runs where you need it, and solves problems you actually have.
               </p>
             </div>
@@ -82,8 +82,8 @@ export default async function About() {
             <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
               Beyond Code
             </h2>
-            <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6 mb-8">
-              <p className="text-neutral-300 leading-relaxed">
+            <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
+              <p>
                 Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m currently extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
               </p>
             </div>

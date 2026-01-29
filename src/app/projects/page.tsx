@@ -13,7 +13,7 @@ export const dynamic = 'force-static';
 
 function TechBadge({ tech }: { tech: string }) {
   return (
-    <span className="px-2 py-1 text-xs font-medium bg-blue-900/30 text-blue-300 rounded-md border border-blue-700/50">
+    <span className="px-2 py-1 text-xs font-medium bg-blue-900/30 text-blue-300 rounded-xl border border-blue-700/50">
       {tech}
     </span>
   );
