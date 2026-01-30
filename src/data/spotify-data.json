@@ -1,30 +1,30 @@
 {
-  "lastUpdated": "2026-01-29T17:30:00.315698Z",
+  "lastUpdated": "2026-01-30T17:25:55.848646Z",
   "topArtistsYear": [
-    {
-      "name": "Kid Cudi",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
-      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
-    },
     {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     },
     {
-      "name": "A$AP Rocky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
-      "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
-      "name": "Kendrick Lamar",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb39ba6dcd4355c03de0b50918",
-      "spotifyUrl": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+      "name": "Men I Trust",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
+      "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
     },
     {
-      "name": "Tyler, The Creator",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebdf2728294ff77dd11eeb18fb",
-      "spotifyUrl": "https://open.spotify.com/artist/4V8LLVI7PbaPR0K2TGSxFF"
+      "name": "Kid Cudi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
+      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
+    },
+    {
+      "name": "Crumb",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb75d21c68b819486c575ba0ec",
+      "spotifyUrl": "https://open.spotify.com/artist/4kSGbjWGxTchKpIxXPJv0B"
     }
   ],
   "topTracksWeek": [
