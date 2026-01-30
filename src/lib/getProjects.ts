@@ -32,9 +32,47 @@ export interface ProjectCategory {
 
 const projects: Project[] = [
   {
+    slug: "personal-api-gateway",
+    title: "Personal API Gateway",
+    description: "API aggregation layer with multi-provider AI routing, Google OAuth management, and integrated services for calendar, email, and task management.",
+    category: "devops-cloud",
+    technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
+    timeline: "January 2025 - Present",
+    status: "completed",
+    highlights: [],
+    challenge: "Managing authentication and API calls across multiple services (Google Calendar, Gmail, Tasks, AI providers) was becoming repetitive across projects, with scattered credentials and inconsistent patterns.",
+    solution: [
+      "Built a centralized FastAPI gateway with unified authentication via API keys",
+      "Implemented Google OAuth 2.0 with automatic token refresh for all Google services",
+      "Created OpenAI-compatible AI routing supporting Claude and OpenRouter providers",
+      "Deployed to GCP Cloud Run with secrets managed via Secret Manager"
+    ],
+    result: "Single API endpoint powers multiple projects including my personal automations platform, with clean separation between authentication logic and application code.",
+    githubUrl: "https://github.com/tharpep/api-gateway",
+  },
+  {
+    slug: "personal-automations",
+    title: "Personal Automations Platform",
+    description: "Automation platform with frontmatter-driven deployment to GCP Cloud Run Jobs, enabling rapid development of scheduled automations.",
+    category: "devops-cloud",
+    technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Docker", "Pushover", "Prompt Engineering"],
+    timeline: "January 2025 - Present",
+    status: "in-progress",
+    highlights: [],
+    challenge: "I wanted a simple way to deploy personal automations without repeating infrastructure setup for each new task. It should write the logic and let the platform handle scheduling and deployment.",
+    solution: [
+      "Built a frontmatter-driven deployment system that parses Python docstrings to automatically create GCP resources",
+      "Integrated with my Personal API Gateway for access to Google services (Calendar, Gmail, Tasks)",
+      "Designed for extensibility—adding a new automation is just adding a Python file with frontmatter config",
+      "Currently running daily and weekly AI context briefings as the first automations on the platform"
+    ],
+    result: "A personal automation framework where new scheduled tasks can be deployed by writing a single Python file. Currently powers AI-generated briefings, with more automations planned.",
+    githubUrl: "https://github.com/tharpep/automations",
+  },
+  {
     slug: "azure-etl-pipeline",
     title: "Azure ETL Pipeline",
-    description: "Automated Azure financial cost analysis pipeline using Microsoft Fabric and SQL, reducing a 13-step monthly process from 2-3 hours to 5-10 minutes.",
+    description: "Automated Azure financial cost analysis pipeline using Microsoft Fabric and SQL.",
     category: "data-analytics",
     technologies: ["Microsoft Fabric", "Azure Data Factory", "SQL", "Azure Functions", "Python", "Power BI"],
     timeline: "May 2025 - Present",
@@ -84,7 +122,7 @@ const projects: Project[] = [
   {
     slug: "dj-pete-beat-sequencer",
     title: "DJ Pete Beat Sequencer",
-    description: "Embedded firmware for STM32 microcontrollers featuring I2C, DMA, DAC, SPI integration with Adafruit NeoTrellis RGB keypads for interactive music production.",
+    description: "Embedded firmware with a STM32 microcontroller for interactive music production.",
     category: "hardware-embedded",
     technologies: ["STM32", "C", "I2C", "DMA", "DAC", "SPI", "Adafruit NeoTrellis", "Embedded Systems"],
     timeline: "2024",
@@ -103,7 +141,7 @@ const projects: Project[] = [
   {
     slug: "ai-system-prompt",
     title: "AI System Prompt Framework",
-    description: "IDE prompt that aims to standardize AI-assisted coding workflows across engineering teams, with AI enablement training including 2 company-wide lunch and learns and 17 group/individual check-ins.",
+    description: "IDE prompt that aims to standardize AI-assisted coding workflows across engineering teams.",
     category: "ai-ml",
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
     timeline: "August 2025 - Present",
@@ -136,7 +174,7 @@ const projects: Project[] = [
   {
     slug: "fm-radio-research",
     title: "FM Radio Detection & Demodulation",
-    description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio, implementing signal processing workflows and automation scripts.",
+    description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio.",
     category: "hardware-embedded",
     technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
     timeline: "2024",
@@ -153,7 +191,7 @@ const projects: Project[] = [
   {
     slug: "personal-ai-system",
     title: "MY-AI - Personal AI Assistant",
-    description: "Personal AI assistant platform with RAG, document knowledge bases, and extensible tool integration, designed to support local models (Ollama) or external APIs (Claude/ChatGPT).",
+    description: "Personal AI assistant platform with RAG, document knowledge bases, and extensible tool integration, designed to support local models or external APIs.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"],
     timeline: "August 2025 - Present",
@@ -175,11 +213,11 @@ const projects: Project[] = [
   {
     slug: "portfolio",
     title: "Portfolio Website",
-    description: "Modern portfolio website with Next.js 15 App Router featuring live Spotify integration and automated data updates via GitHub Actions.",
+    description: "Modern portfolio website with Next.js 15 App Router.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
     timeline: "May 2025 - Present",
-    status: "in-progress",
+    status: "completed",
     highlights: [],
     challenge: "Needed a portfolio site to showcase my work. Used it as a chance to learn Next.js 15 and set up some automation.",
     solution: [
@@ -194,7 +232,7 @@ const projects: Project[] = [
   {
     slug: "simrag-reproduction",
     title: "SimRAG Reproduction Study",
-    description: "Reproduction study of SimRAG paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware, analyzing model capacity limitations and retriever-generator coupling.",
+    description: "Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware.",
     category: "ai-ml",
     technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
     timeline: "August 2025 - December 2025",
@@ -213,7 +251,7 @@ const projects: Project[] = [
   {
     slug: "ece461-model-registry",
     title: "Trustworthy Model Registry",
-    description: "Group project building a model registry with AWS deployment. Led AWS infrastructure setup (ECS/Fargate) and implemented three evaluation metrics: Reproducibility, Reviewedness, and Treescore.",
+    description: "Group project building a model registry with AWS deployment.",
     category: "devops-cloud",
     technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
     timeline: "August 2025 - December 2025",
@@ -232,7 +270,7 @@ const projects: Project[] = [
   {
     slug: "team35-seniordesign",
     title: "Senior Design GenAI Subsystem",
-    description: "Built the generative AI subsystem for a multi-platform cognitive coaching application. Designed and implemented RAG system, artifact generation, and interactive chat with conversation context.",
+    description: "Built the generative AI subsystem for a multi-platform cognitive coaching application.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
     timeline: "August 2025 - December 2025",
@@ -251,7 +289,7 @@ const projects: Project[] = [
   {
     slug: "tradingcard-collection-manager",
     title: "Trading Card Collection Manager",
-    description: "Full-stack web application for managing trading card collections with multi-user authentication. Built to learn user authentication, data isolation, and Supabase integration.",
+    description: "Full-stack web application for managing trading card collections with multi-user authentication.",
     category: "full-stack",
     technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
     timeline: "August 2025 - December 2025",
