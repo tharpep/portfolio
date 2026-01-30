@@ -189,7 +189,7 @@ const projects: Project[] = [
     ],
     result: "Live at prycetharpe.dev. Spotify data updates automatically via GitHub Actions.",
     githubUrl: "https://github.com/tharpep/portfolio",
-    demoUrl: "https://prycetharpe.dev"
+    demoUrl: "https://pryce-tharpe.dev"
   },
   {
     slug: "simrag-reproduction",
