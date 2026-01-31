@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-01-30T17:25:55.848646Z",
+  "lastUpdated": "2026-01-31T17:16:28.895864Z",
   "topArtistsYear": [
-    {
-      "name": "Tame Impala",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
-      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
-    },
     {
       "name": "Magdalena Bay",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     },
     {
       "name": "Men I Trust",
@@ -22,9 +22,9 @@
       "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
     },
     {
-      "name": "Crumb",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb75d21c68b819486c575ba0ec",
-      "spotifyUrl": "https://open.spotify.com/artist/4kSGbjWGxTchKpIxXPJv0B"
+      "name": "Daniel Caesar",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe4d94f7cbebb17504c25d419",
+      "spotifyUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
     }
   ],
   "topTracksWeek": [
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
     },
     {
-      "name": "Another Stone",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
+      "name": "ROCKMAN",
+      "artists": "Mk.gee",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273799c3f1e3c91a612e13100aa",
+      "spotifyUrl": "https://open.spotify.com/track/63ABAnFKJCp28TAyqf2cGL"
     }
   ],
   "topTrackDay": {
