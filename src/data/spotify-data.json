@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-31T17:16:28.895864Z",
+  "lastUpdated": "2026-02-01T17:16:49.584286Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    },
+    {
       "name": "I'll Take Care of You (feat. Yebba)",
       "artists": "Tyler, The Creator, Yebba",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
@@ -39,12 +45,6 @@
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27314d335149b7f388c94fe3c9e",
       "spotifyUrl": "https://open.spotify.com/track/5jyj2XKWILHQxDoz59ddCT"
-    },
-    {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
       "name": "Uncle ACE",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "I'll Take Care of You (feat. Yebba)",
-    "artists": "Tyler, The Creator, Yebba",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
-    "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
+    "name": "PUNK ROCKY",
+    "artists": "A$AP Rocky",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+    "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
   }
 }
