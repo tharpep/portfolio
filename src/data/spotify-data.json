@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T17:43:46.883443Z",
+  "lastUpdated": "2026-02-04T17:37:55.707423Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
+      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
+    },
+    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
@@ -39,12 +45,6 @@
       "artists": "Tyler, The Creator, Yebba",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
       "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
-    },
-    {
-      "name": "Wrong Places",
-      "artists": "Lauren Creviston, Brynn Elise",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
-      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     },
     {
       "name": "Uncle ACE",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "PUNK ROCKY",
-    "artists": "A$AP Rocky",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-    "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    "name": "Wrong Places",
+    "artists": "Lauren Creviston, Brynn Elise",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
+    "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
   }
 }
