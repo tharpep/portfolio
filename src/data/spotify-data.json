@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-04T17:37:55.707423Z",
+  "lastUpdated": "2026-02-05T17:40:05.616227Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
     },
     {
-      "name": "Kid Cudi",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
-      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
-    },
-    {
       "name": "Daniel Caesar",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe4d94f7cbebb17504c25d419",
       "spotifyUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
+    },
+    {
+      "name": "Kid Cudi",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
+      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
     }
   ],
   "topTracksWeek": [
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     },
     {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
-    },
-    {
       "name": "I'll Take Care of You (feat. Yebba)",
       "artists": "Tyler, The Creator, Yebba",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b7fbb849ed845ddedcce346",
       "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
+    },
+    {
+      "name": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
       "name": "Uncle ACE",
