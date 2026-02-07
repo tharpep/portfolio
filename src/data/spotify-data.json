@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-02-06T17:34:03.996205Z",
+  "lastUpdated": "2026-02-07T17:18:46.955572Z",
   "topArtistsYear": [
-    {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
     {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
     },
     {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
-    },
-    {
       "name": "ROCKMAN",
       "artists": "Mk.gee",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273799c3f1e3c91a612e13100aa",
       "spotifyUrl": "https://open.spotify.com/track/63ABAnFKJCp28TAyqf2cGL"
+    },
+    {
+      "name": "Another Stone",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
     }
   ],
   "topTrackDay": {
