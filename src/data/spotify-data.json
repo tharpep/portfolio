@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-07T17:18:46.955572Z",
+  "lastUpdated": "2026-02-08T17:18:29.639802Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/4waPZF96vX1Oz5pzH6dB0h"
     },
     {
-      "name": "Uncle ACE",
-      "artists": "Blood Orange",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
-      "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
-    },
-    {
       "name": "ROCKMAN",
       "artists": "Mk.gee",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273799c3f1e3c91a612e13100aa",
       "spotifyUrl": "https://open.spotify.com/track/63ABAnFKJCp28TAyqf2cGL"
     },
     {
-      "name": "Another Stone",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
+      "name": "Just How You Are",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273632dd8d25a520d3855cb26a2",
+      "spotifyUrl": "https://open.spotify.com/track/7KO0PWYRvoQMNdOZ4KHulW"
+    },
+    {
+      "name": "Uncle ACE",
+      "artists": "Blood Orange",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2739d6bd2afa2987a69b7b55f72",
+      "spotifyUrl": "https://open.spotify.com/track/0Cn4UhpHhgf88eWaS9nn5u"
     }
   ],
   "topTrackDay": {
