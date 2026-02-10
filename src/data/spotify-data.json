@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T17:42:18.719367Z",
+  "lastUpdated": "2026-02-10T17:54:22.489928Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/63ABAnFKJCp28TAyqf2cGL"
     },
     {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
-    },
-    {
       "name": "Just How You Are",
       "artists": "Leon Thomas",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273632dd8d25a520d3855cb26a2",
       "spotifyUrl": "https://open.spotify.com/track/7KO0PWYRvoQMNdOZ4KHulW"
+    },
+    {
+      "name": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     }
   ],
   "topTrackDay": {
