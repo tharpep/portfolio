@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-10T17:54:22.489928Z",
+  "lastUpdated": "2026-02-12T17:50:49.945017Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -22,9 +22,9 @@
       "spotifyUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
     },
     {
-      "name": "Kid Cudi",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb5f00bb6dd7a7008d14156630",
-      "spotifyUrl": "https://open.spotify.com/artist/0fA0VVWsXO9YnASrzqfmYu"
+      "name": "A$AP Rocky",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
+      "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
     }
   ],
   "topTracksWeek": [
@@ -47,10 +47,10 @@
       "spotifyUrl": "https://open.spotify.com/track/63ABAnFKJCp28TAyqf2cGL"
     },
     {
-      "name": "Just How You Are",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273632dd8d25a520d3855cb26a2",
-      "spotifyUrl": "https://open.spotify.com/track/7KO0PWYRvoQMNdOZ4KHulW"
+      "name": "THE zone~",
+      "artists": "Lil Yachty",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
+      "spotifyUrl": "https://open.spotify.com/track/2alpVcC9RxRWS1eSMGeAAP"
     },
     {
       "name": "PUNK ROCKY",
