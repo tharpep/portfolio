@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-15T17:17:16.061976Z",
+  "lastUpdated": "2026-02-16T17:30:55.547087Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
     },
     {
+      "name": "JPEGMAFIA",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
+      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+    },
+    {
       "name": "Daniel Caesar",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe4d94f7cbebb17504c25d419",
       "spotifyUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
-    },
-    {
-      "name": "A$AP Rocky",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
-      "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
     }
   ],
   "topTracksWeek": [
