@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-18T17:46:14.877385Z",
+  "lastUpdated": "2026-02-19T17:42:36.475747Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     },
     {
-      "name": "THE zone~",
-      "artists": "Lil Yachty",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
-      "spotifyUrl": "https://open.spotify.com/track/2alpVcC9RxRWS1eSMGeAAP"
-    },
-    {
       "name": "The Path Less Travelled",
       "artists": "Vegyn",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f79a58a50609f0a3b3320316",
@@ -53,10 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
-      "name": "loop it and leave it",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27314ed6f5625ea349c7bda4181",
-      "spotifyUrl": "https://open.spotify.com/track/7tt1X4Tam0dfIgoyympk00"
+      "name": "THE zone~",
+      "artists": "Lil Yachty",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
+      "spotifyUrl": "https://open.spotify.com/track/2alpVcC9RxRWS1eSMGeAAP"
+    },
+    {
+      "name": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
+      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     }
   ],
   "topTrackDay": {
