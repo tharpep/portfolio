@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T17:42:36.475747Z",
+  "lastUpdated": "2026-02-20T17:29:40.623389Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
-      "name": "THE zone~",
-      "artists": "Lil Yachty",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f578b21bce56056473da7e6",
-      "spotifyUrl": "https://open.spotify.com/track/2alpVcC9RxRWS1eSMGeAAP"
-    },
-    {
       "name": "Fantasy (feat. Don Toliver)",
       "artists": "Kali Uchis, Don Toliver",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     }
   ],
   "topTrackDay": {
