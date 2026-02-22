@@ -102,11 +102,11 @@ export default function Home() {
                 accent="cyan"
               />
               <FeaturedProjectCard
-                title="MY-AI Personal Assistant"
-                href="/projects/personal-ai-system"
-                desc="Privacy-first AI system with RAG and tool integration. Local-first architecture with Qdrant vector storage and extensible tool framework. Building the AI assistant I want to use."
-                technologies={["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"]}
-                timeline="August 2025 - Present"
+                title="Sazed - Personal AI Agent"
+                href="/projects/sazed"
+                desc="End-to-end personal AI agent with agentic tool use and persistent memory. Integrates calendar, email, tasks, and a personal knowledge base — accessible via a native desktop app and Claude Desktop via MCP."
+                technologies={["Python", "FastAPI", "Anthropic SDK", "React 19", "Tauri", "TypeScript", "FastMCP", "PostgreSQL"]}
+                timeline="January 2025 - Present"
                 accent="purple"
               />
               <FeaturedProjectCard
@@ -131,7 +131,7 @@ export default function Home() {
                 href="/projects"
                 className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
               >
-                View all 13 projects
+                View all 14 projects
                 <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
               </Link>
             </div>

@@ -34,7 +34,7 @@ const projects: Project[] = [
   {
     slug: "personal-api-gateway",
     title: "Personal API Gateway",
-    description: "API aggregation layer with multi-provider AI routing, Google OAuth management, and integrated services for calendar, email, and task management.",
+    description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices — the backbone of the Sazed personal AI ecosystem.",
     category: "devops-cloud",
     technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
     timeline: "January 2025 - Present",
@@ -47,27 +47,27 @@ const projects: Project[] = [
       "Created OpenAI-compatible AI routing supporting Claude and OpenRouter providers",
       "Deployed to GCP Cloud Run with secrets managed via Secret Manager"
     ],
-    result: "Single API endpoint powers multiple projects including my personal automations platform, with clean separation between authentication logic and application code.",
-    githubUrl: "https://github.com/tharpep/api-gateway",
+    result: "Single endpoint powers the Sazed agent, automations platform, and knowledge base service. Clean separation of auth logic from application code, with consistent rate limiting and error handling across all consumers.",
+    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/api-gateway",
   },
   {
     slug: "personal-automations",
     title: "Personal Automations Platform",
-    description: "Automation platform with frontmatter-driven deployment to GCP Cloud Run Jobs, enabling rapid development of scheduled automations.",
+    description: "Automation platform organized by trigger type (scheduled, event-driven, manual) with YAML-driven configuration and deployment to GCP Cloud Run Jobs and Cloud Functions.",
     category: "devops-cloud",
-    technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Docker", "Pushover", "Prompt Engineering"],
+    technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Cloud Functions", "Docker", "Pushover", "Prompt Engineering"],
     timeline: "January 2025 - Present",
     status: "in-progress",
     highlights: [],
     challenge: "I wanted a simple way to deploy personal automations without repeating infrastructure setup for each new task. It should write the logic and let the platform handle scheduling and deployment.",
     solution: [
-      "Built a frontmatter-driven deployment system that parses Python docstrings to automatically create GCP resources",
+      "Organized automations into trigger-type folders (scheduled/triggered/manual) with a YAML config system for schedules and settings",
       "Integrated with my Personal API Gateway for access to Google services (Calendar, Gmail, Tasks)",
-      "Designed for extensibility—adding a new automation is just adding a Python file with frontmatter config",
+      "Designed for extensibility—adding a new automation is just adding a Python file with YAML config",
       "Currently running daily and weekly AI context briefings as the first automations on the platform"
     ],
     result: "A personal automation framework where new scheduled tasks can be deployed by writing a single Python file. Currently powers AI-generated briefings, with more automations planned.",
-    githubUrl: "https://github.com/tharpep/automations",
+    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/automations",
   },
   {
     slug: "azure-etl-pipeline",
@@ -189,26 +189,44 @@ const projects: Project[] = [
     result: "Built a working FM detection and demodulation system. Learned a lot about RF engineering and signal processing in practice.",
   },
   {
-    slug: "personal-ai-system",
-    title: "MY-AI - Personal AI Assistant",
-    description: "Personal AI assistant platform with RAG, document knowledge bases, and extensible tool integration, designed to support local models or external APIs.",
+    slug: "knowledge-base",
+    title: "Personal Knowledge Base",
+    description: "Cloud-hosted knowledge base with hybrid retrieval, Google Drive sync, and Voyage AI embeddings for personal document search.",
     category: "ai-ml",
-    technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Vector Databases", "LLM Gateway", "Docker", "Poetry", "Typer CLI"],
+    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Google Drive API", "GCP Cloud Run", "Docker", "Poetry"],
     timeline: "August 2025 - Present",
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted a personal AI assistant that could run locally for privacy, but also connect to cloud APIs when needed, with my own documents as a knowledge base.",
+    challenge: "I wanted a private, searchable knowledge base backed by my own documents — Google Docs, PDFs, spreadsheets — with retrieval quality beyond basic keyword or single-vector search.",
     solution: [
-      "Designed unified AI provider interface supporting Ollama and external APIs",
-      "Implemented RAG with document ingestion, Qdrant vector storage, and cited retrieval",
-      "Created extensible tool framework with registry and allowlist security"
+      "Built hybrid retrieval pipeline combining dense vector search (pgvector) with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF)",
+      "Applied Voyage AI reranking as a final stage to maximize result relevance",
+      "Implemented incremental Google Drive sync with folder change detection and category-based document filtering",
+      "Exposed an OpenAI-compatible chat completions endpoint with optional RAG injection for downstream consumers",
+      "Deployed to GCP Cloud Run with Cloud SQL (PostgreSQL) as the vector store"
     ],
-    result: "Ongoing project. Core RAG and tool systems are working; continuing to add features as I use it.",
-    images: [
-      { path: "myai-mainchat screenshot.png", caption: "Main chat interface" },
-      { path: "myai-currentdevpage.png", caption: "Developer tools and configuration" }
+    result: "Deployed and in active use. Powers document retrieval for the Sazed agent, with hybrid search consistently outperforming single-vector retrieval on personal document queries.",
+    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/knowledge-base",
+  },
+  {
+    slug: "sazed",
+    title: "Sazed - Personal AI Agent",
+    description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
+    category: "ai-ml",
+    technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
+    timeline: "January 2025 - Present",
+    status: "in-progress",
+    highlights: [],
+    challenge: "I wanted an AI agent that knew my personal context — calendar, email, tasks, notes — and could act on it, with memory that persisted across sessions, accessible from both a native desktop app and Claude Desktop.",
+    solution: [
+      "Built a FastAPI agent service using the Anthropic SDK with a multi-turn agentic loop (up to 5 tool-call iterations per request)",
+      "Implemented 20+ tools covering Google Calendar, Tasks, Gmail, Drive, knowledge base search, and Pushover notifications — all routed through the Personal API Gateway",
+      "Designed persistent agent memory with post-session fact extraction and summarization using Claude Haiku",
+      "Built a cross-platform desktop and web frontend with React 19, Vite, and Tauri featuring real-time SSE streaming and tool call visualization",
+      "Created a FastMCP bridge exposing Sazed to Claude Desktop via stdio MCP transport as a single ask_sazed tool"
     ],
-    githubUrl: "https://github.com/tharpep/MY-AI"
+    result: "Fully operational personal AI agent in daily use. All backend services deployed to GCP Cloud Run; desktop app available cross-platform via Tauri.",
+    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/sazed",
   },
   {
     slug: "portfolio",
@@ -349,7 +367,7 @@ export const projectCategories: ProjectCategory[] = [
 
 // Helper function to get featured projects for home page
 export const getFeaturedProjects = (): Project[] => {
-  const featuredSlugs = ["ai-system-prompt", "personal-ai-system", "simrag-reproduction", "devops-scorecard"];
+  const featuredSlugs = ["ai-system-prompt", "sazed", "simrag-reproduction", "devops-scorecard"];
   return projects.filter(p => featuredSlugs.includes(p.slug));
 };
 
