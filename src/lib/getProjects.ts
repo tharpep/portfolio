@@ -225,7 +225,7 @@ const projects: Project[] = [
       "Implemented live Spotify integration with Python scripts and GitHub Actions",
       "Configured auto-deployment on Vercel with preview URLs per PR"
     ],
-    result: "Live at prycetharpe.dev. Spotify data updates automatically via GitHub Actions.",
+    result: "Live at pryce-tharpe.dev. Spotify data updates automatically via GitHub Actions.",
     githubUrl: "https://github.com/tharpep/portfolio",
     demoUrl: "https://pryce-tharpe.dev"
   },
