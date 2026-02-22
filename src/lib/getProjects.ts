@@ -48,7 +48,7 @@ const projects: Project[] = [
       "Deployed to GCP Cloud Run with secrets managed via Secret Manager"
     ],
     result: "Single endpoint powers the Sazed agent, automations platform, and knowledge base service. Clean separation of auth logic from application code, with consistent rate limiting and error handling across all consumers.",
-    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/api-gateway",
+    githubUrl: "https://github.com/tharpep/api-gateway",
   },
   {
     slug: "personal-automations",
@@ -67,7 +67,7 @@ const projects: Project[] = [
       "Currently running daily and weekly AI context briefings as the first automations on the platform"
     ],
     result: "A personal automation framework where new scheduled tasks can be deployed by writing a single Python file. Currently powers AI-generated briefings, with more automations planned.",
-    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/automations",
+    githubUrl: "https://github.com/tharpep/automations",
   },
   {
     slug: "azure-etl-pipeline",
@@ -202,11 +202,11 @@ const projects: Project[] = [
       "Built hybrid retrieval pipeline combining dense vector search (pgvector) with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF)",
       "Applied Voyage AI reranking as a final stage to maximize result relevance",
       "Implemented incremental Google Drive sync with folder change detection and category-based document filtering",
-      "Exposed an OpenAI-compatible chat completions endpoint with optional RAG injection for downstream consumers",
-      "Deployed to GCP Cloud Run with Cloud SQL (PostgreSQL) as the vector store"
+      "Exposed an OpenAI-compatible chat completions endpoint with RAG injection",
+      "Deployed to GCP Cloud Run with a Neon PostgreSQL database as the vector store"
     ],
-    result: "Deployed and in active use. Powers document retrieval for the Sazed agent, with hybrid search consistently outperforming single-vector retrieval on personal document queries.",
-    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/knowledge-base",
+    result: "Deployed and in active use. Powers document retrieval for the Sazed agent.",
+    githubUrl: "https://github.com/tharpep/knowledge-base",
   },
   {
     slug: "sazed",
@@ -217,16 +217,16 @@ const projects: Project[] = [
     timeline: "January 2025 - Present",
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted an AI agent that knew my personal context — calendar, email, tasks, notes — and could act on it, with memory that persisted across sessions, accessible from both a native desktop app and Claude Desktop.",
+    challenge: "I wanted an AI agent that knew my personal context and could act on it, with memory that persisted across sessions, accessible from multiple clients.",
     solution: [
-      "Built a FastAPI agent service using the Anthropic SDK with a multi-turn agentic loop (up to 5 tool-call iterations per request)",
+      "Built a FastAPI agent service using the Anthropic SDK with a multi-turn agentic loop",
       "Implemented 20+ tools covering Google Calendar, Tasks, Gmail, Drive, knowledge base search, and Pushover notifications — all routed through the Personal API Gateway",
       "Designed persistent agent memory with post-session fact extraction and summarization using Claude Haiku",
       "Built a cross-platform desktop and web frontend with React 19, Vite, and Tauri featuring real-time SSE streaming and tool call visualization",
       "Created a FastMCP bridge exposing Sazed to Claude Desktop via stdio MCP transport as a single ask_sazed tool"
     ],
     result: "Fully operational personal AI agent in daily use. All backend services deployed to GCP Cloud Run; desktop app available cross-platform via Tauri.",
-    githubUrl: "https://github.com/tharpep/MY-AI/tree/main/sazed",
+    githubUrl: "https://github.com/tharpep/sazed",
   },
   {
     slug: "portfolio",
