@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T17:17:12.410946Z",
+  "lastUpdated": "2026-02-23T17:53:46.964439Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
     },
     {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    },
+    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
@@ -51,12 +57,6 @@
       "artists": "Kali Uchis, Don Toliver",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
-    },
-    {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     }
   ],
   "topTrackDay": {
