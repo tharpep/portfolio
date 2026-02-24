@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-02-23T17:53:46.964439Z",
+  "lastUpdated": "2026-02-24T17:50:39.814864Z",
   "topArtistsYear": [
-    {
-      "name": "Tame Impala",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
-      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
-    },
     {
       "name": "Magdalena Bay",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     },
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
-    },
-    {
       "name": "Fantasy (feat. Don Toliver)",
       "artists": "Kali Uchis, Don Toliver",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+    },
+    {
+      "name": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     }
   ],
   "topTrackDay": {
