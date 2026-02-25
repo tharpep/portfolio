@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-24T17:50:39.814864Z",
+  "lastUpdated": "2026-02-25T17:51:21.029420Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Fantasy (feat. Don Toliver)",
       "artists": "Kali Uchis, Don Toliver",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
       "name": "PUNK ROCKY",
