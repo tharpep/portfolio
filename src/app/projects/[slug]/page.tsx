@@ -4,6 +4,7 @@ import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects } from "@/lib/getProjects";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import SazedArchitectureDiagramWrapper from "@/components/SazedArchitectureDiagramWrapper";
 
 // Generate static params for all visible projects
 export async function generateStaticParams() {
@@ -254,6 +255,21 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             </ScrollFadeIn>
                         )}
                     </>
+                )}
+
+                {/* Architecture Diagram */}
+                {project.architectureDiagram && (
+                    <ScrollFadeIn delay={250}>
+                        <section className="mb-10 pt-8 border-t border-neutral-800">
+                            <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-4`}>
+                                Architecture
+                            </h2>
+                            {project.architectureDiagram.type === 'component' &&
+                             project.architectureDiagram.name === 'sazed' && (
+                                <SazedArchitectureDiagramWrapper />
+                            )}
+                        </section>
+                    </ScrollFadeIn>
                 )}
 
                 {/* Secondary Images (if more than 1 image) */}

@@ -1,0 +1,196 @@
+/* ─── COLOR TOKENS ─── */
+.wrapper {
+  --purple: #7c3aed;
+  --blue:   #2563eb;
+  --cyan:   #0891b2;
+  --green:  #059669;
+  --amber:  #d97706;
+  --slate:  #475569;
+
+  --bg:       #07090f;
+  --surface:  #0d1117;
+  --surface2: #111827;
+  --border:   rgba(255, 255, 255, 0.07);
+  --text:     #e2e8f0;
+  --muted:    #64748b;
+  --dim:      #94a3b8;
+
+  --r: 10px;
+
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Inter', Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── DIAGRAM SHELL ─── */
+.diagramScroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.diagram {
+  position: relative;
+  min-width: 680px;
+}
+
+.tier {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.gap {
+  height: 60px;
+}
+
+/* ─── NODE CARDS ─── */
+.node {
+  flex: 1;
+  min-width: 0;
+  max-width: 228px;
+  border-radius: var(--r);
+  border: 1px solid var(--border);
+  padding: 16px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* left accent stripe */
+.node::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+}
+
+/* per-variant */
+.nClient {
+  background: linear-gradient(145deg, #15092c 0%, #0e0620 100%);
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
+}
+.nClient::before { background: var(--purple); }
+
+.nAgent {
+  background: linear-gradient(145deg, #0a1533 0%, #060d1f 100%);
+  border-color: rgba(37, 99, 235, 0.22);
+  box-shadow: 0 0 56px rgba(37, 99, 235, 0.1), 0 2px 24px rgba(0, 0, 0, 0.55);
+}
+.nAgent::before { background: var(--blue); }
+
+.nGateway {
+  background: linear-gradient(145deg, #051820 0%, #031018 100%);
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
+}
+.nGateway::before { background: var(--cyan); }
+
+.nKb {
+  background: linear-gradient(145deg, #04160c 0%, #030d07 100%);
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
+}
+.nKb::before { background: var(--green); }
+
+.nDb {
+  background: linear-gradient(145deg, #1a0f04 0%, #110a03 100%);
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
+}
+.nDb::before { background: var(--amber); }
+
+.nExt {
+  background: var(--surface2);
+  box-shadow: 0 2px 18px rgba(0, 0, 0, 0.4);
+}
+.nExt::before { background: var(--slate); }
+
+/* ── text within nodes ── */
+.name {
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text);
+}
+
+.stack {
+  font-size: 11px;
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', monospace;
+  color: var(--muted);
+}
+
+.desc {
+  font-size: 12px;
+  color: var(--dim);
+  line-height: 1.55;
+}
+
+.desc code {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 10.5px;
+  background: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 4px;
+  color: #cbd5e1;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 2px;
+}
+
+.t {
+  font-size: 10px;
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  padding: 2px 7px;
+  border-radius: 4px;
+  letter-spacing: 0.01em;
+}
+
+.tP { background: rgba(124,  58, 237, 0.18); color: #c4b5fd; }
+.tB { background: rgba( 37,  99, 235, 0.18); color: #93c5fd; }
+.tC { background: rgba(  8, 145, 178, 0.18); color: #67e8f9; }
+.tG { background: rgba(  5, 150, 105, 0.18); color: #6ee7b7; }
+.tA { background: rgba(217, 119,   6, 0.18); color: #fcd34d; }
+.tE { background: rgba( 71,  85, 105, 0.22); color: #94a3b8; }
+
+/* ─── SVG ARROW OVERLAY ─── */
+.svgArrows {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+}
+
+/* ─── LEGEND ─── */
+.legend {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 52px;
+  padding-top: 28px;
+  border-top: 1px solid var(--border);
+}
+
+.leg {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
