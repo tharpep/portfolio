@@ -20,6 +20,7 @@ export interface Project {
   challenge?: string;
   solution?: string[];
   result?: string;
+  architectureDiagram?: { type: 'component'; name: 'sazed' } | { type: 'mermaid'; chart: string };
 }
 
 export interface ProjectCategory {
@@ -227,6 +228,7 @@ const projects: Project[] = [
     ],
     result: "Fully operational personal AI agent in daily use. All backend services deployed to GCP Cloud Run; desktop app available cross-platform via Tauri.",
     githubUrl: "https://github.com/tharpep/sazed",
+    architectureDiagram: { type: 'component', name: 'sazed' },
   },
   {
     slug: "portfolio",
