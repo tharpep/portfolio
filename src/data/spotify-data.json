@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T17:51:21.029420Z",
+  "lastUpdated": "2026-02-26T17:51:21.594200Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     }
   ],
   "topTrackDay": {
