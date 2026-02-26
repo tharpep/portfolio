@@ -131,15 +131,40 @@ export default function Resume() {
                 </ul>
               </div>
 
-              {/* MY-AI */}
+              {/* Sazed */}
               <div className="pl-4 border-l-2 border-blue-500/30">
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
-                  <h3 className="text-lg font-semibold text-white">MY-AI - Personal AI Assistant</h3>
+                  <h3 className="text-lg font-semibold text-white">Sazed — Personal AI Agent</h3>
+                  <span className="text-neutral-400 font-mono text-sm">Jan 2025 - Present</span>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
+                  <li>Built a multi-turn agentic loop with the Anthropic SDK — 20+ tools spanning Google Workspace, GitHub, knowledge base search, and push notifications, all routed through a personal API gateway.</li>
+                  <li>Implemented persistent memory with post-session fact extraction and context summarization; routes simple turns to a fast model and complex ones to a capable one.</li>
+                  <li>Shipped a cross-platform desktop and web frontend (React 19, Vite, Tauri) with real-time SSE streaming and tool call visualization, and a FastMCP bridge exposing the agent to Claude Desktop as a single <code className="text-xs bg-neutral-700 px-1 rounded">ask_sazed</code> tool.</li>
+                </ul>
+              </div>
+
+              {/* Knowledge Base */}
+              <div className="pl-4 border-l-2 border-blue-500/30">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
+                  <h3 className="text-lg font-semibold text-white">Personal Knowledge Base</h3>
                   <span className="text-neutral-400 font-mono text-sm">Aug 2025 - Present</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
-                  <li>Building privacy-first AI assistant with RAG, document knowledge bases, and extensible tool integration supporting local (Ollama) or cloud LLMs.</li>
-                  <li>Implemented unified provider interface, Qdrant vector storage with cited retrieval, and tool framework with registry and allowlist security.</li>
+                  <li>Built a hybrid retrieval pipeline combining pgvector dense search with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF) and re-ranked with Voyage AI rerank-2.5.</li>
+                  <li>Implemented incremental Google Drive sync with folder change detection; deployed to GCP Cloud Run with Cloud SQL as the vector store.</li>
+                </ul>
+              </div>
+
+              {/* API Gateway */}
+              <div className="pl-4 border-l-2 border-blue-500/30">
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
+                  <h3 className="text-lg font-semibold text-white">Personal API Gateway</h3>
+                  <span className="text-neutral-400 font-mono text-sm">Jan 2025 - Present</span>
+                </div>
+                <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
+                  <li>Centralized FastAPI gateway unifying Google Workspace (Calendar, Gmail, Tasks, Drive, Sheets), GitHub, AI providers, and internal services behind a single API key.</li>
+                  <li>Implemented Google OAuth 2.0 with automatic token refresh and OpenAI-compatible AI routing supporting Claude and OpenRouter; deployed to GCP Cloud Run with Secret Manager.</li>
                 </ul>
               </div>
 
