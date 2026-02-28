@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-02-27T17:26:01.058176Z",
+  "lastUpdated": "2026-02-28T17:12:17.315705Z",
   "topArtistsYear": [
-    {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
     {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
-      "name": "The Path Less Travelled",
-      "artists": "Vegyn",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f79a58a50609f0a3b3320316",
-      "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
-    },
-    {
       "name": "Radio",
       "artists": "Bershy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    },
+    {
+      "name": "The Path Less Travelled",
+      "artists": "Vegyn",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f79a58a50609f0a3b3320316",
+      "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
     },
     {
       "name": "PUNK ROCKY",
