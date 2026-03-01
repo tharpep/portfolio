@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-28T17:12:17.315705Z",
+  "lastUpdated": "2026-03-01T17:14:27.414197Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     },
     {
-      "name": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
-      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
-    },
-    {
       "name": "Radio",
       "artists": "Bershy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
@@ -51,6 +45,12 @@
       "artists": "Vegyn",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f79a58a50609f0a3b3320316",
       "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
+    },
+    {
+      "name": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
+      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
       "name": "PUNK ROCKY",
