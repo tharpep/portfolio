@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-01T17:14:27.414197Z",
+  "lastUpdated": "2026-03-02T17:37:10.473823Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Wrong Places",
-      "artists": "Lauren Creviston, Brynn Elise",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
-      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
-    },
-    {
       "name": "Radio",
       "artists": "Bershy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    },
+    {
+      "name": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
+      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
       "name": "The Path Less Travelled",
@@ -47,10 +47,10 @@
       "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
     },
     {
-      "name": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
-      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+      "name": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
+      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     },
     {
       "name": "PUNK ROCKY",
@@ -60,9 +60,9 @@
     }
   ],
   "topTrackDay": {
-    "name": "Wrong Places",
-    "artists": "Lauren Creviston, Brynn Elise",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
-    "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
+    "name": "Radio",
+    "artists": "Bershy",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+    "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
   }
 }
