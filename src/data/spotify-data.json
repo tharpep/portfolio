@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T17:37:10.473823Z",
+  "lastUpdated": "2026-03-03T17:35:00.748021Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
     },
     {
-      "name": "Wrong Places",
-      "artists": "Lauren Creviston, Brynn Elise",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
-      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
-    },
-    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    },
+    {
+      "name": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736c4903e2e6cf936ae9980eca",
+      "spotifyUrl": "https://open.spotify.com/track/7A5RHcK8lBgGMVKVYrLIH9"
     }
   ],
   "topTrackDay": {
