@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import PhotoNav from '@/components/PhotoNav';
-import { collections, getFeaturedCollection, type Collection } from '@/lib/collections';
-import { getCollectionCoverUrl } from '@/lib/cloudinary';
+import { getAllCollections, type Collection } from '@/lib/collections';
+import { getCollectionCoverUrl, getFeaturedPhotos } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
@@ -14,57 +14,103 @@ export const metadata: Metadata = {
 };
 
 export default async function Photography() {
-  const featured = getFeaturedCollection();
-  const rest = collections.filter((c) => !c.featured);
+  const [allCollections, featuredPhotos] = await Promise.all([
+    getAllCollections(),
+    getFeaturedPhotos(),
+  ]);
+
+  const heroPhoto = featuredPhotos[0] ?? null;
+  const featured = allCollections.find((c) => c.featured) ?? allCollections[0];
+  const rest = allCollections.filter((c) => !c.featured);
 
   // Fetch all cover images in parallel at ISR time
   const coverEntries = await Promise.all(
-    collections.map(async (c) => [c.slug, await getCollectionCoverUrl(c.slug)] as const)
+    allCollections.map(async (c) => [c.slug, await getCollectionCoverUrl(c.slug)] as const)
   );
   const coverMap = Object.fromEntries(coverEntries) as Record<string, string | null>;
 
   return (
     <>
-      <PhotoNav />
+      <PhotoNav transparent={!!heroPhoto} />
       <main className="min-h-screen bg-white text-gray-900">
 
-        {/* Page Header */}
-        <header className="px-6 md:px-12 lg:px-16 pt-16 pb-10">
-          <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
-            Photography
-          </p>
-          <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl font-medium text-gray-900 leading-tight">
-            Pryce Tharpe
-          </h1>
-          <div className="border-t border-gray-150 mt-8" />
-        </header>
-
-        {/* Featured Collection */}
-        <section className="px-6 md:px-12 lg:px-16 pb-12">
-          <FeaturedCard collection={featured} coverUrl={coverMap[featured.slug]} />
-        </section>
-
-        {/* Remaining Collections — staggered grid */}
-        {rest.length > 0 && (
-          <section className="px-6 md:px-12 lg:px-16 pb-20">
-            <StaggeredGrid collections={rest} coverMap={coverMap} />
+        {/* Full-bleed Hero */}
+        {heroPhoto ? (
+          <section className="relative h-[100svh] min-h-[600px] flex flex-col items-center justify-center overflow-hidden">
+            <Image
+              src={heroPhoto.url}
+              alt="Photography by Pryce Tharpe"
+              fill
+              className="object-cover"
+              priority
+              sizes="100vw"
+            />
+            <div className="absolute inset-0 bg-black/55" />
+            <div className="relative z-10 text-center px-6">
+              <p className="text-xs tracking-[0.3em] uppercase text-white/50 mb-4 font-light">
+                Photography
+              </p>
+              <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-7xl font-medium text-white leading-tight">
+                Pryce Tharpe
+              </h1>
+            </div>
+            <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white/30">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
           </section>
+        ) : (
+          <header className="px-6 md:px-12 lg:px-16 pt-16 pb-10">
+            <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
+              Photography
+            </p>
+            <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl font-medium text-gray-900 leading-tight">
+              Pryce Tharpe
+            </h1>
+            <div className="border-t border-gray-150 mt-8" />
+          </header>
         )}
 
-        {/* Footer */}
-        <footer className="border-t border-gray-100 py-8 px-6 md:px-12 text-center">
-          <p className="text-xs text-gray-400 font-light tracking-wide">
-            Pryce Tharpe Photography &nbsp;&middot;&nbsp; 2021—2025 &nbsp;&middot;&nbsp;{' '}
-            <a
-              href="https://www.instagram.com/pryce_tharpe/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-700 transition-colors"
-            >
-              Instagram &rarr;
-            </a>
-          </p>
-        </footer>
+        {/* Collections */}
+        <div className="relative bg-white">
+          {/* Page Header */}
+          <header className="px-6 md:px-12 lg:px-16 pt-16 pb-10">
+            <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
+              Collections
+            </p>
+            <div className="border-t border-gray-100 mt-4" />
+          </header>
+
+          {/* Featured Collection */}
+          {featured && (
+            <section className="px-6 md:px-12 lg:px-16 pb-12">
+              <FeaturedCard collection={featured} coverUrl={coverMap[featured.slug]} />
+            </section>
+          )}
+
+          {/* Remaining Collections — staggered grid */}
+          {rest.length > 0 && (
+            <section className="px-6 md:px-12 lg:px-16 pb-20">
+              <StaggeredGrid collections={rest} coverMap={coverMap} />
+            </section>
+          )}
+
+          {/* Footer */}
+          <footer className="border-t border-gray-100 py-8 px-6 md:px-12 text-center">
+            <p className="text-xs text-gray-400 font-light tracking-wide">
+              Pryce Tharpe Photography &nbsp;&middot;&nbsp; 2017—{new Date().getFullYear()} &nbsp;&middot;&nbsp;{' '}
+              <a
+                href="https://www.instagram.com/pryce_tharpe/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-gray-700 transition-colors"
+              >
+                Instagram &rarr;
+              </a>
+            </p>
+          </footer>
+        </div>
       </main>
     </>
   );
@@ -128,7 +174,6 @@ function StaggeredGrid({
   collections: Collection[];
   coverMap: Record<string, string | null>;
 }) {
-  // First collection gets a tall portrait treatment, rest stack beside it
   const [primary, ...secondary] = cols;
 
   return (

@@ -3,14 +3,15 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import PhotoNav from '@/components/PhotoNav';
 import PhotoGallery from '@/components/PhotoGallery';
-import { collections, getCollection } from '@/lib/collections';
-import { getCollectionPhotos } from '@/lib/cloudinary';
+import { getCollection } from '@/lib/collections';
+import { getCollectionPhotos, getDiscoveredCollectionSlugs } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
 
 export async function generateStaticParams() {
-  return collections.map((c) => ({ slug: c.slug }));
+  const slugs = await getDiscoveredCollectionSlugs();
+  return slugs.map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -19,7 +20,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }): Promise<Metadata> {
   const { slug } = await params;
-  const collection = getCollection(slug);
+  const collection = await getCollection(slug);
   if (!collection) return {};
   return {
     title: `${collection.title} (${collection.year}) – Photography – Pryce Tharpe`,
@@ -34,7 +35,9 @@ export default async function CollectionPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const collection = getCollection(slug);
+  if (slug === 'featured') notFound();
+
+  const collection = await getCollection(slug);
   if (!collection) notFound();
 
   const photos = await getCollectionPhotos(slug);
@@ -43,7 +46,7 @@ export default async function CollectionPage({
   const isDark = collection.mood === 'dark';
   const bg = isDark ? 'bg-[#0f0f0f]' : 'bg-white';
   const textPrimary = isDark ? 'text-gray-100' : 'text-gray-900';
-  const textSecondary = isDark ? 'text-gray-500' : 'text-gray-500';
+  const textSecondary = isDark ? 'text-gray-400' : 'text-gray-500';
   const borderColor = isDark ? 'border-gray-800' : 'border-gray-100';
 
   return (
@@ -55,7 +58,7 @@ export default async function CollectionPage({
         <section className="px-6 md:px-12 lg:px-16 pt-14 pb-10">
           <Link
             href="/photography"
-            className={`inline-flex items-center gap-2 text-xs tracking-widest uppercase ${textSecondary} hover:${textPrimary} transition-colors duration-200 mb-10 block`}
+            className={`inline-flex items-center gap-2 text-xs tracking-widest uppercase ${textSecondary} ${isDark ? 'hover:text-gray-100' : 'hover:text-gray-900'} transition-colors duration-200 mb-10 block`}
           >
             <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />

@@ -20,23 +20,25 @@ export default function PhotographyAbout() {
 
           <div className="space-y-6 text-gray-600 leading-relaxed text-base">
             <p>
-              I started shooting in college — mostly on a phone, then a borrowed DSLR. What
-              kept me coming back was less about the gear and more about the habit of paying
-              attention. Photography forced me to slow down and actually look at what was in
-              front of me, which turned out to be a useful discipline for someone who spends
-              most of his time thinking about systems and code.
+              When I was younger, art was a big part of my life. Most of all, I loved to draw. 
+              I would draw what I saw, and eventually started working from photos I liked. After 
+              a while, I realized how much I loved the art behind the image itself. I started 
+              shooting in middle school on a Pixel 2 Pro, which I got just for the sake of 
+              starting photography. In high school I took it further. I took a few classes and got 
+              my first real camera, a Nikon D3500. Then it kept growing and truly became a passion.
             </p>
             <p>
-              I&apos;m drawn to the moment just before or just after something happens —
-              the stillness around motion, the light that lasts for thirty seconds before it&apos;s
-              gone. I shoot landscapes, wildlife, and cities with the same underlying interest:
-              finding the frame where something true shows through. I tend to underexpose
-              slightly and sort out the rest in Lightroom.
+              In college I started traveling more, and photography became how I process each trip.
+              I shoot it all, but it always comes back to travel. Every place has a rhythm to it,
+              and I like trying to catch a piece of that. I shoot on a Sony A7C now and bring it
+              pretty much everywhere.
             </p>
             <p>
-              Most of what I shoot lives on my phone or hard drive and never gets posted.
-              The collections here are the ones worth sharing. If you want to see more as it
-              happens, Instagram is the best place.{' '}
+              Photography is how I see the world. It&apos;s a way to share my perspective and hold 
+              onto moments that matter to me. A lot of what I shoot doesn&apos;t get posted, so I 
+              made this site to share the work properly. If you want to see more as it 
+              happens, Instagram is the best place — it&apos;s more of a time capsule for me, 
+              where I process the memories.{' '}
               <a
                 href="https://www.instagram.com/pryce_tharpe/"
                 target="_blank"

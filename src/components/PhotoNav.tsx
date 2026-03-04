@@ -1,24 +1,50 @@
 'use client';
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-export default function PhotoNav() {
+export default function PhotoNav({ transparent = false }: { transparent?: boolean }) {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    if (!transparent) return;
+    const onScroll = () => setScrolled(window.scrollY > 60);
+    onScroll(); // set initial state if page loads mid-scroll
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [transparent]);
+
+  const isTransparent = transparent && !scrolled;
+
+  const navBg = isTransparent
+    ? 'bg-transparent border-transparent'
+    : 'bg-white/95 backdrop-blur-sm border-gray-100';
+  const brandColor = isTransparent ? 'text-white' : 'text-gray-900';
+  const subColor = isTransparent ? 'text-white/50' : 'text-gray-400';
+  const linkColor = isTransparent
+    ? 'text-white/60 hover:text-white'
+    : 'text-gray-500 hover:text-gray-900';
+  const iconColor = isTransparent
+    ? 'text-white/50 hover:text-white'
+    : 'text-gray-400 hover:text-gray-900';
+  const hamburgerColor = isTransparent
+    ? 'text-white/60 hover:text-white'
+    : 'text-gray-500 hover:text-gray-900';
 
   return (
     <nav
-      className="sticky top-0 z-50 w-full bg-white/95 backdrop-blur-sm border-b border-gray-100"
+      className={`sticky top-0 z-50 w-full border-b transition-colors duration-300 ${navBg}`}
       role="navigation"
       aria-label="Photography"
     >
       <div className="flex items-center justify-between px-6 md:px-12 py-4">
         {/* Left: Brand */}
         <Link href="/photography" className="flex items-baseline gap-3">
-          <span className="font-[family-name:var(--font-playfair)] text-lg font-medium text-gray-900 tracking-tight">
+          <span className={`font-[family-name:var(--font-playfair)] text-lg font-medium tracking-tight transition-colors duration-300 ${brandColor}`}>
             Pryce Tharpe
           </span>
-          <span className="hidden sm:inline text-xs font-light tracking-widest uppercase text-gray-400">
+          <span className={`hidden sm:inline text-xs font-light tracking-widest uppercase transition-colors duration-300 ${subColor}`}>
             Photography
           </span>
         </Link>
@@ -27,13 +53,13 @@ export default function PhotoNav() {
         <div className="hidden md:flex items-center gap-8">
           <Link
             href="/photography"
-            className="text-xs tracking-widest uppercase text-gray-500 hover:text-gray-900 transition-colors duration-200"
+            className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
           >
             Portfolio
           </Link>
           <Link
             href="/photography/about"
-            className="text-xs tracking-widest uppercase text-gray-500 hover:text-gray-900 transition-colors duration-200"
+            className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
           >
             About
           </Link>
@@ -45,7 +71,7 @@ export default function PhotoNav() {
             href="https://www.instagram.com/pryce_tharpe/"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-gray-400 hover:text-gray-900 transition-colors duration-200"
+            className={`transition-colors duration-300 ${iconColor}`}
             aria-label="Instagram"
           >
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -55,7 +81,7 @@ export default function PhotoNav() {
 
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="md:hidden text-gray-500 hover:text-gray-900 transition-colors"
+            className={`md:hidden transition-colors duration-300 ${hamburgerColor}`}
             aria-label="Toggle menu"
             aria-expanded={menuOpen}
           >
