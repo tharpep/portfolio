@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-04T17:30:42.738114Z",
+  "lastUpdated": "2026-03-05T18:45:48.056106Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
-      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
-    },
-    {
       "name": "PUNK ROCKY",
       "artists": "A$AP Rocky",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
       "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
     },
     {
-      "name": "The Path Less Travelled",
-      "artists": "Vegyn",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f79a58a50609f0a3b3320316",
-      "spotifyUrl": "https://open.spotify.com/track/0IlWyIgaBCmtENOwwNCke0"
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
+      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    },
+    {
+      "name": "Lovin’ Me (feat. Phoebe Bridgers)",
+      "artists": "Kid Cudi, Phoebe Bridgers",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
+      "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
     }
   ],
   "topTrackDay": {
