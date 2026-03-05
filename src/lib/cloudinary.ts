@@ -1,3 +1,4 @@
+import 'server-only';
 import { v2 as cloudinary } from 'cloudinary';
 
 cloudinary.config({
@@ -30,6 +31,11 @@ interface CloudinaryResource {
   secure_url: string;
 }
 
+interface ResourceApiResponse {
+  resources: CloudinaryResource[];
+  next_cursor?: string;
+}
+
 function extractTitle(resource: CloudinaryResource): string {
   const name = resource.display_name ?? resource.filename ?? resource.public_id.split('/').pop() ?? '';
   return name
@@ -45,14 +51,14 @@ export async function getCollectionPhotos(slug: string): Promise<CloudinaryPhoto
     let nextCursor: string | undefined;
 
     do {
-      const result: any = await cloudinary.api.resources_by_asset_folder(`photography/${slug}`, {
+      const result = await cloudinary.api.resources_by_asset_folder(`photography/${slug}`, {
         max_results: 200,
         resource_type: 'image',
         ...(nextCursor ? { next_cursor: nextCursor } : {}),
-      });
+      }) as ResourceApiResponse;
 
       if (Array.isArray(result.resources)) {
-        allResources.push(...(result.resources as CloudinaryResource[]));
+        allResources.push(...result.resources);
       }
 
       nextCursor = result.next_cursor;
