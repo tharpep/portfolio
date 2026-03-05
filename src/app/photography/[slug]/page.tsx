@@ -21,8 +21,11 @@ export async function generateMetadata({
   const { slug } = await params;
   const collection = await getCollection(slug);
   if (!collection) return {};
+
+  const yearSuffix = collection.year ? ` (${collection.year})` : '';
+
   return {
-    title: `${collection.title} (${collection.year}) – Photography – Pryce Tharpe`,
+    title: `${collection.title}${yearSuffix} – Photography – Pryce Tharpe`,
     description: collection.description,
     alternates: { canonical: `/photography/${slug}` },
   };
