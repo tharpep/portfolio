@@ -41,12 +41,24 @@ function extractTitle(resource: CloudinaryResource): string {
 export async function getCollectionPhotos(slug: string): Promise<CloudinaryPhoto[]> {
   if (!process.env.CLOUDINARY_API_KEY) return [];
   try {
-    const result = await cloudinary.api.resources_by_asset_folder(`photography/${slug}`, {
-      max_results: 200,
-      resource_type: 'image',
-    });
+    const allResources: CloudinaryResource[] = [];
+    let nextCursor: string | undefined;
 
-    return (result.resources as CloudinaryResource[]).map((r) => ({
+    do {
+      const result: any = await cloudinary.api.resources_by_asset_folder(`photography/${slug}`, {
+        max_results: 200,
+        resource_type: 'image',
+        ...(nextCursor ? { next_cursor: nextCursor } : {}),
+      });
+
+      if (Array.isArray(result.resources)) {
+        allResources.push(...(result.resources as CloudinaryResource[]));
+      }
+
+      nextCursor = result.next_cursor;
+    } while (nextCursor);
+
+    return allResources.map((r) => ({
       id: r.public_id,
       url: cloudinary.url(r.public_id, {
         fetch_format: 'auto',
