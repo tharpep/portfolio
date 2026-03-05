@@ -4,12 +4,18 @@ import Image from 'next/image';
 import { useState, useEffect, useRef, KeyboardEvent } from 'react';
 import type { CloudinaryPhoto } from '@/lib/cloudinary';
 
-function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): CloudinaryPhoto[][] {
-  const columns: Array<{ photos: CloudinaryPhoto[]; height: number }> =
+interface IndexedPhoto {
+  photo: CloudinaryPhoto;
+  index: number;
+}
+
+function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): IndexedPhoto[][] {
+  const columns: Array<{ photos: IndexedPhoto[]; height: number }> =
     Array.from({ length: numColumns }, () => ({ photos: [], height: 0 }));
-  for (const photo of photos) {
+  for (let i = 0; i < photos.length; i++) {
+    const photo = photos[i];
     const shortest = columns.reduce((min, col) => col.height < min.height ? col : min);
-    shortest.photos.push(photo);
+    shortest.photos.push({ photo, index: i });
     shortest.height += 1 / photo.aspectRatio;
   }
   return columns.map((col) => col.photos);
@@ -91,9 +97,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
       <div className="flex gap-2 lg:gap-3">
         {columns.map((colPhotos, colIdx) => (
           <div key={colIdx} className="flex-1 flex flex-col gap-2 lg:gap-3">
-            {colPhotos.map((photo) => {
-              const globalIndex = photos.indexOf(photo);
-              return (
+            {colPhotos.map(({ photo, index: globalIndex }) => (
                 <button
                   key={photo.id}
                   onClick={(e) => openLightbox(globalIndex, e.currentTarget)}
@@ -110,8 +114,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                     loading={globalIndex < 6 ? 'eager' : 'lazy'}
                   />
                 </button>
-              );
-            })}
+              ))}
           </div>
         ))}
       </div>
