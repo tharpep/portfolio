@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import PhotoNav from '@/components/PhotoNav';
@@ -40,8 +39,7 @@ export default async function CollectionPage({
   const collection = await getCollection(slug);
   if (!collection) notFound();
 
-  const photos = await getCollectionPhotos(slug);
-  const [heroPhoto, ...gridPhotos] = photos;
+  const photos = await getCollectionPhotos(collection.folder);
 
   const isDark = collection.mood === 'dark';
   const bg = isDark ? 'bg-[#0f0f0f]' : 'bg-white';
@@ -79,29 +77,10 @@ export default async function CollectionPage({
           </p>
         </section>
 
-        {/* Hero Photo */}
-        {heroPhoto && (
-          <section className="px-6 md:px-12 lg:px-16 pb-8">
-            <div className="relative w-full overflow-hidden" style={{ maxHeight: '75vh' }}>
-              <Image
-                src={heroPhoto.url}
-                alt={heroPhoto.title}
-                width={heroPhoto.width}
-                height={heroPhoto.height}
-                className="w-full h-auto object-contain"
-                priority
-                sizes="(max-width: 768px) 100vw, 90vw"
-              />
-            </div>
-          </section>
-        )}
-
         {/* Masonry Grid */}
-        {gridPhotos.length > 0 && (
-          <section className="px-6 md:px-12 lg:px-16 pb-20">
-            <PhotoGallery photos={gridPhotos} isDark={isDark} />
-          </section>
-        )}
+        <section className="px-6 md:px-12 lg:px-16 pb-20">
+          <PhotoGallery photos={photos} isDark={isDark} />
+        </section>
 
         {/* Collection meta footer */}
         <div className={`border-t ${borderColor} py-8 px-6 md:px-12 lg:px-16`}>

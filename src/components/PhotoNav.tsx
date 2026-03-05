@@ -21,7 +21,6 @@ export default function PhotoNav({ transparent = false }: { transparent?: boolea
     ? 'bg-transparent border-transparent'
     : 'bg-white/95 backdrop-blur-sm border-gray-100';
   const brandColor = isTransparent ? 'text-white' : 'text-gray-900';
-  const subColor = isTransparent ? 'text-white/50' : 'text-gray-400';
   const linkColor = isTransparent
     ? 'text-white/60 hover:text-white'
     : 'text-gray-500 hover:text-gray-900';
@@ -34,7 +33,7 @@ export default function PhotoNav({ transparent = false }: { transparent?: boolea
 
   return (
     <nav
-      className={`sticky top-0 z-50 w-full border-b transition-colors duration-300 ${navBg}`}
+      className={`fixed top-0 z-50 w-full border-b transition-colors duration-300 ${navBg}`}
       role="navigation"
       aria-label="Photography"
     >
@@ -44,29 +43,24 @@ export default function PhotoNav({ transparent = false }: { transparent?: boolea
           <span className={`font-[family-name:var(--font-playfair)] text-lg font-medium tracking-tight transition-colors duration-300 ${brandColor}`}>
             Pryce Tharpe
           </span>
-          <span className={`hidden sm:inline text-xs font-light tracking-widest uppercase transition-colors duration-300 ${subColor}`}>
-            Photography
-          </span>
         </Link>
 
-        {/* Center: Nav links */}
-        <div className="hidden md:flex items-center gap-8">
-          <Link
-            href="/photography"
-            className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
-          >
-            Portfolio
-          </Link>
-          <Link
-            href="/photography/about"
-            className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
-          >
-            About
-          </Link>
-        </div>
-
-        {/* Right: Instagram + hamburger */}
-        <div className="flex items-center gap-4">
+        {/* Right: Nav links + Instagram + hamburger */}
+        <div className="flex items-center gap-6 md:gap-8">
+          <div className="hidden md:flex items-center gap-8">
+            <Link
+              href="/photography"
+              className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
+            >
+              Portfolio
+            </Link>
+            <Link
+              href="/photography/about"
+              className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
+            >
+              About
+            </Link>
+          </div>
           <a
             href="https://www.instagram.com/pryce_tharpe/"
             target="_blank"

@@ -1,8 +1,9 @@
 import { generateCollectionMetadata } from './ai-metadata';
-import { getDiscoveredCollectionSlugs, collectionExists } from './cloudinary';
+import { getDiscoveredCollections } from './cloudinary';
 
 export interface Collection {
   slug: string;
+  folder: string; // actual Cloudinary folder name (may differ from slug if it contains spaces)
   title: string;
   year: string;
   description: string;
@@ -29,15 +30,16 @@ function extractYear(slug: string): string {
 }
 
 export async function getAllCollections(): Promise<Collection[]> {
-  const slugs = await getDiscoveredCollectionSlugs();
+  const discovered = await getDiscoveredCollections();
 
   const collections = await Promise.all(
-    slugs.map(async (slug) => {
-      const ai = await generateCollectionMetadata(slug);
+    discovered.map(async ({ slug, folder }) => {
+      const ai = await generateCollectionMetadata(folder);
       const override = collectionOverrides[slug] ?? {};
       return {
         slug,
-        year: extractYear(slug),
+        folder,
+        year: extractYear(slug) || extractYear(folder),
         ...ai,
         ...override,
       } as Collection;
@@ -59,13 +61,16 @@ export async function getAllCollections(): Promise<Collection[]> {
 
 export async function getCollection(slug: string): Promise<Collection | null> {
   if (slug === 'featured') return null;
-  const exists = await collectionExists(slug);
-  if (!exists) return null;
-  const ai = await generateCollectionMetadata(slug);
+  const discovered = await getDiscoveredCollections();
+  const match = discovered.find((d) => d.slug === slug);
+  if (!match) return null;
+  const { folder } = match;
+  const ai = await generateCollectionMetadata(folder);
   const override = collectionOverrides[slug] ?? {};
   return {
     slug,
-    year: extractYear(slug),
+    folder,
+    year: extractYear(slug) || extractYear(folder),
     ...ai,
     ...override,
   } as Collection;

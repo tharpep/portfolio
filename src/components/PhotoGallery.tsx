@@ -4,12 +4,24 @@ import Image from 'next/image';
 import { useState, useEffect, useRef, KeyboardEvent } from 'react';
 import type { CloudinaryPhoto } from '@/lib/cloudinary';
 
+function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): CloudinaryPhoto[][] {
+  const columns: Array<{ photos: CloudinaryPhoto[]; height: number }> =
+    Array.from({ length: numColumns }, () => ({ photos: [], height: 0 }));
+  for (const photo of photos) {
+    const shortest = columns.reduce((min, col) => col.height < min.height ? col : min);
+    shortest.photos.push(photo);
+    shortest.height += 1 / photo.aspectRatio;
+  }
+  return columns.map((col) => col.photos);
+}
+
 interface PhotoGalleryProps {
   photos: CloudinaryPhoto[];
   isDark?: boolean;
 }
 
 export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryProps) {
+  const [numCols, setNumCols] = useState(3);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const lightboxRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement | null>(null);
@@ -32,6 +44,19 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
     if (e.key === 'ArrowLeft')
       setLightboxIndex((i) => Math.max((i ?? 0) - 1, 0));
   };
+
+  useEffect(() => {
+    const update = () => {
+      const w = window.innerWidth;
+      if (w < 640) setNumCols(1);
+      else if (w < 1024) setNumCols(2);
+      else if (w < 1280) setNumCols(3);
+      else setNumCols(4);
+    };
+    update();
+    window.addEventListener('resize', update, { passive: true });
+    return () => window.removeEventListener('resize', update);
+  }, []);
 
   useEffect(() => {
     if (lightboxIndex !== null) {
@@ -59,27 +84,35 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
     );
   }
 
+  const columns = splitIntoColumns(photos, numCols);
+
   return (
     <>
-      {/* CSS Columns masonry — respects natural aspect ratios, zero dependencies */}
-      <div className="columns-1 sm:columns-2 lg:columns-3 gap-2 lg:gap-3">
-        {photos.map((photo, i) => (
-          <button
-            key={photo.id}
-            onClick={(e) => openLightbox(i, e.currentTarget)}
-            className="block w-full mb-2 lg:mb-3 overflow-hidden group cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400"
-            aria-label={`View ${photo.title}`}
-          >
-            <Image
-              src={photo.url}
-              alt={photo.title}
-              width={photo.width}
-              height={photo.height}
-              className="w-full h-auto transition-opacity duration-300 group-hover:opacity-85"
-              sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-              loading={i < 6 ? 'eager' : 'lazy'}
-            />
-          </button>
+      <div className="flex gap-2 lg:gap-3">
+        {columns.map((colPhotos, colIdx) => (
+          <div key={colIdx} className="flex-1 flex flex-col gap-2 lg:gap-3">
+            {colPhotos.map((photo) => {
+              const globalIndex = photos.indexOf(photo);
+              return (
+                <button
+                  key={photo.id}
+                  onClick={(e) => openLightbox(globalIndex, e.currentTarget)}
+                  className="block w-full overflow-hidden group cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400"
+                  aria-label={`View ${photo.title}`}
+                >
+                  <Image
+                    src={photo.url}
+                    alt={photo.title}
+                    width={photo.width}
+                    height={photo.height}
+                    className="w-full h-auto transition-opacity duration-300 group-hover:opacity-85"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                    loading={globalIndex < 6 ? 'eager' : 'lazy'}
+                  />
+                </button>
+              );
+            })}
+          </div>
         ))}
       </div>
 
@@ -146,15 +179,22 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
               const photo = photos[lightboxIndex];
               return (
                 <>
-                  <Image
-                    src={photo.url}
-                    alt={photo.title}
-                    width={photo.width}
-                    height={photo.height}
-                    className="max-h-[80vh] w-auto h-auto object-contain"
-                    sizes="(max-width: 768px) 100vw, 80vw"
-                    priority
-                  />
+                  <div className="relative">
+                    {/* Transparent overlay — prevents right-click save */}
+                    <div
+                      className="absolute inset-0 z-10"
+                      onContextMenu={(e) => e.preventDefault()}
+                    />
+                    <Image
+                      src={photo.url}
+                      alt={photo.title}
+                      width={photo.width}
+                      height={photo.height}
+                      className="max-h-[80vh] w-auto h-auto object-contain select-none pointer-events-none"
+                      sizes="(max-width: 768px) 100vw, 80vw"
+                      priority
+                    />
+                  </div>
                   <p className="mt-4 text-white/25 text-xs font-mono tracking-wider text-center">
                     {photo.title}
                   </p>

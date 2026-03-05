@@ -1,8 +1,9 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import PhotoNav from '@/components/PhotoNav';
+import BalancedMasonry, { type PreviewPhoto } from '@/components/BalancedMasonry';
 import { getAllCollections, type Collection } from '@/lib/collections';
-import { getCollectionCoverUrl, getFeaturedPhotos } from '@/lib/cloudinary';
+import { getFeaturedPhotos, getCollectionPreviewPhotos } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
@@ -13,6 +14,8 @@ export const metadata: Metadata = {
   alternates: { canonical: '/photography' },
 };
 
+const PREVIEW_COUNT = 5;
+
 export default async function Photography() {
   const [allCollections, featuredPhotos] = await Promise.all([
     getAllCollections(),
@@ -20,14 +23,23 @@ export default async function Photography() {
   ]);
 
   const heroPhoto = featuredPhotos[0] ?? null;
-  const featured = allCollections.find((c) => c.featured) ?? allCollections[0];
-  const rest = allCollections.filter((c) => !c.featured);
+  const heroIsPortrait = heroPhoto ? heroPhoto.aspectRatio < 1 : false;
 
-  // Fetch all cover images in parallel at ISR time
-  const coverEntries = await Promise.all(
-    allCollections.map(async (c) => [c.slug, await getCollectionCoverUrl(c.slug)] as const)
+  // Fetch preview photos for each collection in parallel
+  const previewData = await Promise.all(
+    allCollections.map(async (c) => ({
+      collection: c,
+      photos: await getCollectionPreviewPhotos(c.folder, PREVIEW_COUNT),
+    }))
   );
-  const coverMap = Object.fromEntries(coverEntries) as Record<string, string | null>;
+
+  const previewPhotos: PreviewPhoto[] = previewData.flatMap(({ collection, photos }) =>
+    photos.map((p) => ({
+      ...p,
+      collectionSlug: collection.slug,
+      collectionTitle: collection.title,
+    }))
+  );
 
   return (
     <>
@@ -41,7 +53,7 @@ export default async function Photography() {
               src={heroPhoto.url}
               alt="Photography by Pryce Tharpe"
               fill
-              className="object-cover"
+              className={heroIsPortrait ? 'object-contain' : 'object-cover'}
               priority
               sizes="100vw"
             />
@@ -72,31 +84,26 @@ export default async function Photography() {
           </header>
         )}
 
-        {/* Collections */}
-        <div className="relative bg-white">
-          {/* Page Header */}
-          <header className="px-6 md:px-12 lg:px-16 pt-16 pb-10">
+        {/* Collections masonry */}
+        <div className="bg-white">
+          <header className="px-6 md:px-12 lg:px-16 pt-16 pb-8">
             <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
               Collections
             </p>
             <div className="border-t border-gray-100 mt-4" />
           </header>
 
-          {/* Featured Collection */}
-          {featured && (
-            <section className="px-6 md:px-12 lg:px-16 pb-12">
-              <FeaturedCard collection={featured} coverUrl={coverMap[featured.slug]} />
-            </section>
-          )}
-
-          {/* Remaining Collections — staggered grid */}
-          {rest.length > 0 && (
+          {previewPhotos.length > 0 ? (
             <section className="px-6 md:px-12 lg:px-16 pb-20">
-              <StaggeredGrid collections={rest} coverMap={coverMap} />
+              <CollectionLinks collections={allCollections} />
+              <BalancedMasonry photos={previewPhotos} />
             </section>
+          ) : (
+            <div className="px-6 md:px-12 lg:px-16 pb-20 text-sm text-gray-400 font-light">
+              No collections yet.
+            </div>
           )}
 
-          {/* Footer */}
           <footer className="border-t border-gray-100 py-8 px-6 md:px-12 text-center">
             <p className="text-xs text-gray-400 font-light tracking-wide">
               Pryce Tharpe Photography &nbsp;&middot;&nbsp; 2017—{new Date().getFullYear()} &nbsp;&middot;&nbsp;{' '}
@@ -116,132 +123,19 @@ export default async function Photography() {
   );
 }
 
-/* ─── Featured Card ─── */
-function FeaturedCard({
-  collection,
-  coverUrl,
-}: {
-  collection: Collection;
-  coverUrl: string | null;
-}) {
+/* ─── Collection index links ─── */
+function CollectionLinks({ collections }: { collections: Collection[] }) {
   return (
-    <Link
-      href={`/photography/${collection.slug}`}
-      className="group block"
-      aria-label={`View ${collection.title} collection`}
-    >
-      {/* Cover image */}
-      <div className="relative w-full overflow-hidden bg-gray-100" style={{ aspectRatio: '16/9' }}>
-        {coverUrl ? (
-          <Image
-            src={coverUrl}
-            alt={collection.title}
-            fill
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-            sizes="(max-width: 768px) 100vw, 90vw"
-            priority
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <svg className="w-12 h-12 text-gray-300" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21,15 16,10 5,21" />
-            </svg>
-          </div>
-        )}
-      </div>
-
-      {/* Caption */}
-      <div className="pt-4 pb-2 flex items-end justify-between">
-        <div>
-          <p className="text-xs tracking-widest uppercase text-gray-400 mb-1 font-light">Featured</p>
-          <h2 className="font-[family-name:var(--font-playfair)] text-2xl md:text-4xl font-medium text-gray-900 group-hover:text-gray-600 transition-colors duration-300">
-            {collection.title}
-          </h2>
-        </div>
-        <span className="text-xs font-mono text-gray-400 mb-1">{collection.year}</span>
-      </div>
-    </Link>
-  );
-}
-
-/* ─── Staggered Grid ─── */
-function StaggeredGrid({
-  collections: cols,
-  coverMap,
-}: {
-  collections: Collection[];
-  coverMap: Record<string, string | null>;
-}) {
-  const [primary, ...secondary] = cols;
-
-  return (
-    <div className="grid grid-cols-1 md:grid-cols-5 gap-4 md:gap-6">
-      {/* Left — tall portrait card */}
-      {primary && (
-        <div className="md:col-span-3">
-          <CollectionCard collection={primary} coverUrl={coverMap[primary.slug]} tall />
-        </div>
-      )}
-
-      {/* Right — stacked landscape cards */}
-      {secondary.length > 0 && (
-        <div className="md:col-span-2 flex flex-col gap-4 md:gap-6">
-          {secondary.map((c) => (
-            <CollectionCard key={c.slug} collection={c} coverUrl={coverMap[c.slug]} />
-          ))}
-        </div>
-      )}
+    <div className="flex flex-wrap gap-x-6 gap-y-2 mb-8">
+      {collections.map((c) => (
+        <Link
+          key={c.slug}
+          href={`/photography/${c.slug}`}
+          className="text-xs font-mono tracking-widest uppercase text-gray-400 hover:text-gray-900 transition-colors duration-200"
+        >
+          {c.title}{c.year && <span className="text-gray-300 ml-2">{c.year}</span>}
+        </Link>
+      ))}
     </div>
-  );
-}
-
-/* ─── Collection Card ─── */
-function CollectionCard({
-  collection,
-  coverUrl,
-  tall = false,
-}: {
-  collection: Collection;
-  coverUrl: string | null;
-  tall?: boolean;
-}) {
-  return (
-    <Link
-      href={`/photography/${collection.slug}`}
-      className="group block"
-      aria-label={`View ${collection.title} collection`}
-    >
-      <div
-        className="relative w-full overflow-hidden bg-gray-100"
-        style={{ aspectRatio: tall ? '2/3' : '3/2' }}
-      >
-        {coverUrl ? (
-          <Image
-            src={coverUrl}
-            alt={collection.title}
-            fill
-            className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 40vw"
-          />
-        ) : (
-          <div className="absolute inset-0 flex items-center justify-center">
-            <svg className="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" strokeWidth="1" viewBox="0 0 24 24">
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <circle cx="8.5" cy="8.5" r="1.5" />
-              <polyline points="21,15 16,10 5,21" />
-            </svg>
-          </div>
-        )}
-      </div>
-
-      <div className="pt-3 pb-1 flex items-baseline justify-between">
-        <h3 className="font-[family-name:var(--font-playfair)] text-xl font-medium text-gray-900 group-hover:text-gray-600 transition-colors duration-300">
-          {collection.title}
-        </h3>
-        <span className="text-xs font-mono text-gray-400 ml-3 flex-shrink-0">{collection.year}</span>
-      </div>
-    </Link>
   );
 }
