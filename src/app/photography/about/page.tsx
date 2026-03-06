@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import PhotoNav from '@/components/PhotoNav';
 import { getAboutPhoto } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
@@ -97,6 +98,15 @@ function Prose() {
         >
           @pryce_tharpe &rarr;
         </a>
+      </p>
+      <p>
+        Oh &mdash; and I built this site myself. Check out my{' '}
+        <Link
+          href="/"
+          className="text-gray-900 underline underline-offset-4 decoration-gray-300 hover:decoration-gray-600 transition-colors"
+        >
+          portfolio &rarr;
+        </Link>
       </p>
     </div>
   );
