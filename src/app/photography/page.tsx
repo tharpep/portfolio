@@ -116,6 +116,12 @@ export default async function Photography() {
                 Instagram &rarr;
               </a>
             </p>
+            <p className="text-xs text-gray-400 font-light tracking-wide mt-2">
+              P.S. &mdash; I built this site too &nbsp;&middot;&nbsp;{' '}
+              <Link href="/" className="hover:text-gray-700 transition-colors">
+                Dev Portfolio &rarr;
+              </Link>
+            </p>
           </footer>
         </div>
       </main>
