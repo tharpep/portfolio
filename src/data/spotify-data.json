@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-05T18:45:48.056106Z",
+  "lastUpdated": "2026-03-06T17:27:04.618016Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
-      "name": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
-      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
-    },
-    {
       "name": "Dramatic Girl (feat. Che Ecru)",
       "artists": "Baby Keem, Che Ecru",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
     },
     {
-      "name": "Lovin’ Me (feat. Phoebe Bridgers)",
-      "artists": "Kid Cudi, Phoebe Bridgers",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
-      "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
+      "name": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273be35d523672e13da3debc413",
+      "spotifyUrl": "https://open.spotify.com/track/1AXsHbdIYx2OyKmdOcIL5T"
+    },
+    {
+      "name": "Apocalypse Dreams",
+      "artists": "Tame Impala",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273370c12f82872c9cfaee80193",
+      "spotifyUrl": "https://open.spotify.com/track/7qU7vhCPKhkDiJYGoboISc"
     }
   ],
   "topTrackDay": {
