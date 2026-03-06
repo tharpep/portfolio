@@ -17,18 +17,6 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-2xl mx-auto">
               <Link
-                href="/resume"
-                className="px-6 py-3 border border-neutral-600 hover:border-cyan-500/50 text-neutral-300 hover:text-white font-semibold rounded-xl transition-[transform,box-shadow,border-color,color,background] duration-300 ease-out hover:bg-neutral-800/50 hover:shadow-lg hover:-translate-y-0.5"
-              >
-                Resume
-              </Link>
-              <Link
-                href="/projects"
-                className="px-6 py-3 border border-neutral-600 hover:border-cyan-500/50 text-neutral-300 hover:text-white font-semibold rounded-xl transition-[transform,box-shadow,border-color,color,background] duration-300 ease-out hover:bg-neutral-800/50 hover:shadow-lg hover:-translate-y-0.5"
-              >
-                View Projects
-              </Link>
-              <Link
                 href="https://github.com/tharpep"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -66,40 +54,22 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Subtle Divider */}
-      <div id="divider" className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16 scroll-mt-20"></div>
-
       {/* Main Content Section */}
       <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
-
-        {/* ─────────── Brief Story ─────────── */}
-        <ScrollFadeIn>
-          <section className="text-center mb-12 md:mb-16 max-w-4xl mx-auto">
-            <p className="text-sm md:text-base sm:text-lg text-neutral-300 leading-relaxed border-l-2 border-cyan-500 pl-4 sm:pl-6 text-left">
-              Last summer I shipped an internal IDE system prompt, a sprint scorecard extension for Azure DevOps, and automated pipelines at Mesh Systems.
-              At Purdue this year, I&apos;ve built production AWS infrastructure, RAG systems, and an LLM microservice for senior design.
-              Outside of class, I&apos;m working on my own AI assistant framework and this portfolio.
-            </p>
-          </section>
-        </ScrollFadeIn>
-
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
         {/* ─────────── Featured Projects ─────────── */}
         <ScrollFadeIn delay={100}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
               Featured Projects
             </h2>
-            <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto will-change-transform">
+            <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto">
               <FeaturedProjectCard
                 title="AI System Prompt Framework"
                 href="/projects/ai-system-prompt"
                 desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
                 technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
                 timeline="August 2025 - Present"
-                accent="cyan"
               />
               <FeaturedProjectCard
                 title="Sazed - Personal AI Agent"
@@ -107,7 +77,6 @@ export default function Home() {
                 desc="End-to-end personal AI agent with agentic tool use and persistent memory. Integrates calendar, email, tasks, and a personal knowledge base — accessible via a native desktop app and Claude Desktop via MCP."
                 technologies={["Python", "FastAPI", "Anthropic SDK", "React 19", "Tauri", "TypeScript", "FastMCP", "PostgreSQL"]}
                 timeline="January 2025 - Present"
-                accent="purple"
               />
               <FeaturedProjectCard
                 title="SimRAG Reproduction"
@@ -115,7 +84,6 @@ export default function Home() {
                 desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
                 technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
                 timeline="August 2025 - December 2025"
-                accent="blue"
               />
               <FeaturedProjectCard
                 title="Azure DevOps Scorecard"
@@ -123,7 +91,6 @@ export default function Home() {
                 desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
                 technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
                 timeline="June 2025 - Present"
-                accent="emerald"
               />
             </div>
             <div className="text-center mt-10">
@@ -138,13 +105,11 @@ export default function Home() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
         {/* ─────────── Current Work ─────────── */}
         <ScrollFadeIn delay={200}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
               Currently
             </h2>
             <div className="max-w-3xl mx-auto">
@@ -172,13 +137,11 @@ export default function Home() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-12 md:mb-16"></div>
 
         {/* ─────────── Let's Connect ─────────── */}
         <ScrollFadeIn delay={300}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-6 md:mb-8 text-center">
+            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
               Let&apos;s Connect
             </h2>
             <div className="max-w-3xl mx-auto text-center">
@@ -240,55 +203,32 @@ function FeaturedProjectCard({
   desc,
   technologies,
   timeline,
-  accent = "cyan"
 }: {
   title: string;
   href: string;
   desc: string;
   technologies: string[];
   timeline: string;
-  accent?: "cyan" | "blue" | "purple" | "emerald";
 }) {
-  const accentClasses = {
-    cyan: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
-    blue: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
-    purple: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10",
-    emerald: "border-cyan-500/50 group-hover:border-cyan-400/70 group-hover:shadow-cyan-400/10"
-  };
-
-  const textClasses = {
-    cyan: "group-hover:text-cyan-300",
-    blue: "group-hover:text-cyan-300",
-    purple: "group-hover:text-cyan-300",
-    emerald: "group-hover:text-cyan-300"
-  };
-
-  const tagClasses = {
-    cyan: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
-    blue: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
-    purple: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50",
-    emerald: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50"
-  };
-
   const top3Tech = technologies.slice(0, 3);
 
   return (
     <Link
       href={href}
-      className={`group block rounded-2xl border bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl hover:-translate-y-1 hover:scale-[1.02] transition-[transform,box-shadow] duration-300 ease-out will-change-transform ${accentClasses[accent]}`}
+      className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
     >
       <div className="flex justify-between items-start mb-4">
-        <h3 className={`font-bold text-lg md:text-xl text-white transition-colors ${textClasses[accent]}`}>
+        <h3 className="font-bold text-lg md:text-xl text-white group-hover:text-cyan-300 transition-colors">
           {title}
         </h3>
-        <span className={`hidden md:block px-3 py-1 text-sm font-medium rounded-lg border ${tagClasses[accent]}`}>
+        <span className="hidden md:block px-3 py-1 text-sm font-medium rounded-lg border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
           {technologies[0]}
         </span>
       </div>
       {/* Mobile: Top 3 tech stack */}
       <div className="flex flex-wrap gap-2 mb-3 md:hidden">
         {top3Tech.map((tech) => (
-          <span key={tech} className={`px-2 py-1 text-xs font-medium rounded-xl border ${tagClasses[accent]}`}>
+          <span key={tech} className="px-2 py-1 text-xs font-medium rounded-xl border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
             {tech}
           </span>
         ))}
@@ -300,7 +240,7 @@ function FeaturedProjectCard({
       <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
         {desc}
       </p>
-      <div className={`hidden md:flex items-center text-sm font-medium transition-colors ${textClasses[accent]} group-hover:translate-x-1 transition-transform duration-300 ease-out`}>
+      <div className="hidden md:flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
         View Details
         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M7 17l10-10M17 7H7v10" />
