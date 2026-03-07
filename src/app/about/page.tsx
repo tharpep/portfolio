@@ -48,8 +48,6 @@ export default async function About() {
           </div>
         </section>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
       </ScrollFadeIn>
 
       {/* Main Content */}
@@ -72,13 +70,11 @@ export default async function About() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
 
         {/* Personal Interests */}
         <ScrollFadeIn delay={100}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6">
               Beyond Code
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
@@ -87,8 +83,6 @@ export default async function About() {
               </p>
             </div>
 
-            {/* Subtle Divider */}
-            <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto my-12"></div>
 
             {/* Spotify Widget */}
             {spotifyData && (

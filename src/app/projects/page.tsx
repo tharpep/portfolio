@@ -28,7 +28,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-4 md:p-6 hover:shadow-xl hover:shadow-cyan-400/20 hover:-translate-y-2 hover:scale-[1.02] transition-[transform,box-shadow,border-color] duration-300 ease-out will-change-transform hover:border-cyan-500/50`}
+      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-4 md:p-6 hover:shadow-xl hover:border-cyan-500/50 transition-[box-shadow,border-color] duration-300 ease-out`}
       prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
@@ -148,8 +148,6 @@ export default function Projects() {
           </p>
         </section>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-16"></div>
       </ScrollFadeIn>
 
       {/* Project Categories */}

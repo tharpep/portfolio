@@ -35,7 +35,7 @@ export default function Home() {
         <div className="absolute bottom-8 sm:bottom-[12%] left-1/2 -translate-x-1/2 z-10">
           <div className="animate-fade-in">
             <a
-              href="#divider"
+              href="#content"
               className="flex flex-col items-center gap-2 text-cyan-400/60 hover:text-cyan-400 transition-colors group"
               aria-label="Scroll to content"
             >

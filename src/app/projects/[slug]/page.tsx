@@ -128,7 +128,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         {project.technologies.map((tech) => (
                             <span
                                 key={tech}
-                                className={`px-3 py-1 text-sm font-medium rounded-full border transition-all duration-300 hover:scale-105 ${accent.badge}`}
+                                className={`px-3 py-1 text-sm font-medium rounded-full border ${accent.badge}`}
                             >
                                 {tech}
                             </span>

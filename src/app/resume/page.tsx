@@ -18,8 +18,6 @@ export default function Resume() {
           </h1>
         </section>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto mb-10 sm:mb-12"></div>
       </ScrollFadeIn>
 
       {/* Main Content */}
@@ -28,7 +26,7 @@ export default function Resume() {
         {/* Professional Experience */}
         <ScrollFadeIn>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
               Professional Experience
             </h2>
 
@@ -85,13 +83,11 @@ export default function Resume() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto"></div>
 
         {/* Academic & Personal Projects */}
         <ScrollFadeIn delay={100}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
               Academic & Personal Projects
             </h2>
 
@@ -182,13 +178,11 @@ export default function Resume() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto"></div>
 
         {/* Additional Experience */}
         <ScrollFadeIn delay={200}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
               Additional Experience
             </h2>
 
@@ -222,13 +216,11 @@ export default function Resume() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto"></div>
 
         {/* Education */}
         <ScrollFadeIn delay={300}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
               Education
             </h2>
 
@@ -248,13 +240,11 @@ export default function Resume() {
           </section>
         </ScrollFadeIn>
 
-        {/* Subtle Divider */}
-        <div className="w-24 h-px bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent mx-auto"></div>
 
         {/* Skills */}
         <ScrollFadeIn delay={400}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-cyan-300 mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
               Skills
             </h2>
 
@@ -273,7 +263,7 @@ export default function Resume() {
               href="/Pryce_Tharpe___No_PII.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-cyan-400/20 hover:-translate-y-0.5"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-colors duration-300"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
