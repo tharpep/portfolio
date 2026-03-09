@@ -266,7 +266,7 @@ const projects: Project[] = [
       "Added mood-aware theming that adapts page backgrounds and navigation based on collection content",
       "Used the View Transitions API for smooth page-to-page navigation as a progressive enhancement"
     ],
-    result: "Live at pryce-tharpe.dev/photography. Adding a new collection is just uploading a folder — no code changes, no config files, no redeployment.",
+    result: "Adding a new collection is just uploading a folder to Cloudinary — no code changes, no config files, no redeployment.",
     githubUrl: "https://github.com/tharpep/portfolio",
     demoUrl: "https://pryce-tharpe.dev/photography"
   },
