@@ -67,7 +67,7 @@ export default function Home() {
               <FeaturedProjectCard
                 title="AI System Prompt Framework"
                 href="/projects/ai-system-prompt"
-                desc="Co-developed master IDE prompt standardizing AI-assisted coding workflows across engineering teams. Co-led company-wide training sessions and established AI standards."
+                desc="Developed master IDE prompt standardizing AI-assisted coding across engineering teams. Led company-wide training sessions and established AI standards."
                 technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
                 timeline="August 2025 - Present"
               />
@@ -81,14 +81,14 @@ export default function Home() {
               <FeaturedProjectCard
                 title="SimRAG Reproduction"
                 href="/projects/simrag-reproduction"
-                desc="Deep dive into similarity-based RAG techniques. Built a modular implementation supporting local and cloud LLMs to understand retrieval fundamentals and fine-tuning beyond what was required."
+                desc="Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware."
                 technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
                 timeline="August 2025 - December 2025"
               />
               <FeaturedProjectCard
                 title="Azure DevOps Scorecard"
                 href="/projects/devops-scorecard"
-                desc="Real-time sprint dashboard extension for Azure DevOps. Built the React/Node.js application from mockups to production at Mesh Systems, giving teams instant visibility into sprint health and status."
+                desc="Azure DevOps extension providing sprint health and status visibility."
                 technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
                 timeline="June 2025 - Present"
               />
@@ -121,15 +121,15 @@ export default function Home() {
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Iterating on the azure devops scorecard project</span>
+                    <span>Graduating May 2026, B.S. Computer Engineering from Purdue University</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Building passion projects to expand my knowledge and skills</span>
+                    <span>Building Sazed, a personal AI agent with MCP integration</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Senior in Computer Engineering at Purdue University</span>
+                    <span>Exploring full-time opportunities in AI/cloud/full-stack engineering</span>
                   </li>
                 </ul>
               </div>
