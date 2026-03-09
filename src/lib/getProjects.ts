@@ -250,6 +250,27 @@ const projects: Project[] = [
     demoUrl: "https://pryce-tharpe.dev"
   },
   {
+    slug: "photography-portfolio",
+    title: "Photography Portfolio",
+    description: "Photography portfolio with auto-discovered collections from Cloudinary, AI-generated metadata, EXIF extraction, and mood-aware theming.",
+    category: "full-stack",
+    technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Cloudinary", "Anthropic SDK", "View Transitions API"],
+    timeline: "May 2025 - Present",
+    status: "completed",
+    highlights: [],
+    challenge: "Wanted a photography site that required zero code changes to add new content — just upload a folder to Cloudinary and it appears automatically with proper titles, descriptions, and theming.",
+    solution: [
+      "Built zero-config collection discovery from Cloudinary folder structure via the Admin API",
+      "Integrated Claude Haiku to generate collection titles, descriptions, and mood classification at request time, cached with ISR",
+      "Implemented EXIF metadata extraction pipeline from Cloudinary and blur-up placeholder generation with aggressive caching",
+      "Added mood-aware theming that adapts page backgrounds and navigation based on collection content",
+      "Used the View Transitions API for smooth page-to-page navigation as a progressive enhancement"
+    ],
+    result: "Live at pryce-tharpe.dev/photography. Adding a new collection is just uploading a folder — no code changes, no config files, no redeployment.",
+    githubUrl: "https://github.com/tharpep/portfolio",
+    demoUrl: "https://pryce-tharpe.dev/photography"
+  },
+  {
     slug: "simrag-reproduction",
     title: "SimRAG Reproduction Study",
     description: "Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware.",

@@ -79,7 +79,7 @@ export default async function About() {
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
               <p>
-                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I&apos;m currently extending this site to include a photography portfolio alongside the dev work. These hobbies keep me balanced and give me different ways to create and problem-solve.
+                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I also built a <a href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors">photography portfolio</a> alongside this site. These hobbies keep me balanced and give me different ways to create and problem-solve.
               </p>
             </div>
 
