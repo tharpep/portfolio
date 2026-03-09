@@ -26,6 +26,17 @@ export function formatDuration(ms: number): string {
 }
 
 /**
+ * Format total listening time from milliseconds to "Xh Ym" or "Ym"
+ */
+export function formatListeningTime(ms: number): string {
+  const totalMinutes = Math.floor(ms / 60000);
+  const hours = Math.floor(totalMinutes / 60);
+  const minutes = totalMinutes % 60;
+  if (hours === 0) return `${minutes}m`;
+  return `${hours}h ${minutes}m`;
+}
+
+/**
  * Format last updated date for display
  * Medium confidence — Heuristic, aligned with project pattern
  */

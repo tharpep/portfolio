@@ -9,7 +9,7 @@ This version is designed to run in GitHub Actions with secrets.
 import os
 import json
 import sys
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 from typing import Dict, List, Any
 import spotipy
 from spotipy.oauth2 import SpotifyOAuth
@@ -103,6 +103,37 @@ def get_top_track_day(sp: spotipy.Spotify) -> Dict[str, Any]:
             "spotifyUrl": "https://open.spotify.com"
         }
 
+def get_weekly_listening_stats(sp: spotipy.Spotify) -> Dict[str, Any]:
+    """Get total listening time and play count for the past 7 days."""
+    cutoff = datetime.now(timezone.utc) - timedelta(days=7)
+    total_ms = 0
+    track_count = 0
+
+    try:
+        results = sp.current_user_recently_played(limit=50)
+        while results and results.get('items'):
+            done = False
+            for item in results['items']:
+                played_at = datetime.fromisoformat(item['played_at'].replace('Z', '+00:00'))
+                if played_at < cutoff:
+                    done = True
+                    break
+                total_ms += item['track']['duration_ms']
+                track_count += 1
+
+            before = results.get('cursors', {}).get('before')
+            if done or not before:
+                break
+            results = sp.current_user_recently_played(limit=50, before=int(before))
+    except Exception as e:
+        print(f"Error fetching weekly listening stats: {e}")
+
+    return {
+        "totalMs": total_ms,
+        "trackCount": track_count
+    }
+
+
 def update_spotify_data():
     """Main function to fetch and update Spotify data."""
     try:
@@ -111,19 +142,23 @@ def update_spotify_data():
         
         print("Fetching your top artists (last 6 months)...")
         top_artists_year = get_top_artists_year(sp)
-        
+
         print("Fetching your top tracks for the week...")
         top_tracks_week = get_top_tracks_week(sp)
-        
+
         print("Fetching your #1 track for today...")
         top_track_day = get_top_track_day(sp)
-        
+
+        print("Fetching weekly listening stats...")
+        weekly_listening = get_weekly_listening_stats(sp)
+
         # Create the data structure
         spotify_data = {
             "lastUpdated": datetime.now().isoformat() + "Z",
             "topArtistsYear": top_artists_year,
             "topTracksWeek": top_tracks_week,
-            "topTrackDay": top_track_day
+            "topTrackDay": top_track_day,
+            "weeklyListening": weekly_listening
         }
         
         # Write to JSON file
@@ -140,6 +175,8 @@ def update_spotify_data():
         print(f"   - Top Artists: {len(top_artists_year)}")
         print(f"   - Top Tracks: {len(top_tracks_week)}")
         print(f"   - #1 Track: {top_track_day['name']}")
+        total_min = weekly_listening['totalMs'] // 60000
+        print(f"   - Weekly Listening: {total_min // 60}h {total_min % 60}m ({weekly_listening['trackCount']} plays)")
         
     except Exception as e:
         print(f"Error updating Spotify data: {e}")

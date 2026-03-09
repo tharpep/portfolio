@@ -56,4 +56,8 @@ export interface SpotifyDisplayData {
     albumImage: string;
     spotifyUrl: string;
   };
+  weeklyListening: {
+    totalMs: number;
+    trackCount: number;
+  };
 }
