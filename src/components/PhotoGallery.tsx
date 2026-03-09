@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { useState, useEffect, useRef, KeyboardEvent } from 'react';
-import type { CloudinaryPhoto } from '@/lib/cloudinary';
+import type { CloudinaryPhoto, ExifData } from '@/lib/cloudinary';
 
 function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): CloudinaryPhoto[][] {
   const columns: Array<{ photos: CloudinaryPhoto[]; height: number }> =
@@ -13,6 +13,28 @@ function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): Cloudi
     shortest.height += 1 / photo.aspectRatio;
   }
   return columns.map((col) => col.photos);
+}
+
+function ExifLine({ exif }: { exif: ExifData }) {
+  const parts: string[] = [];
+  if (exif.make || exif.model) {
+    // Prefer model alone if it already includes brand (e.g. "SONY ILCE-7C"), else join
+    const brand = exif.make ?? '';
+    const model = exif.model ?? '';
+    const modelIncludesBrand = brand && model.toLowerCase().includes(brand.toLowerCase());
+    parts.push(modelIncludesBrand ? model : [brand, model].filter(Boolean).join(' '));
+  }
+  if (exif.aperture) parts.push(exif.aperture);
+  if (exif.shutterSpeed) parts.push(exif.shutterSpeed);
+  if (exif.iso) parts.push(`ISO ${exif.iso}`);
+  if (exif.focalLength) parts.push(exif.focalLength);
+
+  if (parts.length === 0) return null;
+  return (
+    <p className="mt-1 text-white/30 text-xs font-mono tracking-wider text-center">
+      {parts.join('  •  ')}
+    </p>
+  );
 }
 
 interface PhotoGalleryProps {
@@ -108,6 +130,8 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                     className="w-full h-auto transition-opacity duration-300 group-hover:opacity-85"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                     loading={globalIndex < 6 ? 'eager' : 'lazy'}
+                    placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+                    blurDataURL={photo.blurDataURL}
                   />
                 </button>
               );
@@ -126,15 +150,17 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
           tabIndex={-1}
           onKeyDown={handleKeyDown}
           onClick={closeLightbox}
-          className="fixed inset-0 z-50 bg-black/96 flex items-center justify-center"
+          className="animate-lightbox-in fixed inset-0 z-50 bg-black/96 flex items-center justify-center"
         >
           {/* Close */}
           <button
-            onClick={closeLightbox}
-            className="absolute top-5 right-6 text-white/40 hover:text-white text-xs font-light tracking-widest uppercase transition-colors"
+            onClick={(e) => { e.stopPropagation(); closeLightbox(); }}
+            className="absolute top-4 right-4 md:top-5 md:right-6 text-white/60 hover:text-white transition-colors p-2"
             aria-label="Close"
           >
-            Close
+            <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
           </button>
 
           {/* Counter */}
@@ -171,15 +197,12 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
           )}
 
           {/* Image */}
-          <div
-            onClick={(e) => e.stopPropagation()}
-            className="max-w-5xl w-full px-12 md:px-20 max-h-[88vh] flex flex-col items-center"
-          >
+          <div className="w-full px-10 md:px-14 max-h-[92vh] flex flex-col items-center">
             {(() => {
               const photo = photos[lightboxIndex];
               return (
                 <>
-                  <div className="relative">
+                  <div className="relative" onClick={(e) => e.stopPropagation()}>
                     {/* Transparent overlay — prevents right-click save */}
                     <div
                       className="absolute inset-0 z-10"
@@ -190,14 +213,15 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                       alt={photo.title}
                       width={photo.width}
                       height={photo.height}
-                      className="max-h-[80vh] w-auto h-auto object-contain select-none pointer-events-none"
-                      sizes="(max-width: 768px) 100vw, 80vw"
+                      className="max-h-[88vh] w-auto h-auto object-contain select-none pointer-events-none"
+                      sizes="(max-width: 768px) 100vw, 88vw"
                       priority
                     />
                   </div>
                   <p className="mt-4 text-white/25 text-xs font-mono tracking-wider text-center">
                     {photo.title}
                   </p>
+                  {photo.exif && <ExifLine exif={photo.exif} />}
                 </>
               );
             })()}

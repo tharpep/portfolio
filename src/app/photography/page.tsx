@@ -44,7 +44,7 @@ export default async function Photography() {
   return (
     <>
       <PhotoNav transparent={!!heroPhoto} />
-      <main className="min-h-screen bg-white text-gray-900">
+      <main style={{ viewTransitionName: 'photo-main' }} className="min-h-screen bg-white text-gray-900">
 
         {/* Full-bleed Hero */}
         {heroPhoto ? (

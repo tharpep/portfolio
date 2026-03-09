@@ -60,6 +60,8 @@ export default function BalancedMasonry({ photos }: { photos: PreviewPhoto[] }) 
                 height={photo.height}
                 className="w-full h-auto transition-opacity duration-300 group-hover:opacity-80"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+                blurDataURL={photo.blurDataURL}
               />
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent px-3 pt-6 pb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 <p className="text-white text-xs font-mono tracking-widest uppercase truncate">

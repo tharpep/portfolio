@@ -166,5 +166,54 @@ html {
   width: 0;
 }
 
+/* ─────────── View Transitions ─────────── */
 
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
 
+@keyframes vt-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+::view-transition-old(root) {
+  animation: vt-fade-out 0.18s ease-in forwards;
+}
+
+::view-transition-new(root) {
+  animation: vt-fade-in 0.28s ease-out forwards;
+}
+
+/* Nav stays anchored — no crossfade on the nav element itself */
+::view-transition-old(photo-nav),
+::view-transition-new(photo-nav) {
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-old(root),
+  ::view-transition-new(root),
+  ::view-transition-old(photo-nav),
+  ::view-transition-new(photo-nav) {
+    animation: none;
+  }
+}
+
+/* ─────────── Lightbox ─────────── */
+
+@keyframes lightbox-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.animate-lightbox-in {
+  animation: lightbox-in 0.2s ease-out forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-lightbox-in {
+    animation: none;
+  }
+}

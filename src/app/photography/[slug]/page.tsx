@@ -52,8 +52,8 @@ export default async function CollectionPage({
 
   return (
     <>
-      <PhotoNav />
-      <main className={`min-h-screen ${bg}`}>
+      <PhotoNav isDark={isDark} />
+      <main style={{ viewTransitionName: 'photo-main' }} className={`min-h-screen ${bg}`}>
 
         {/* Collection Header */}
         <section className="px-6 md:px-12 lg:px-16 pt-14 pb-10">
