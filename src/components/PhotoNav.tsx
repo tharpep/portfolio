@@ -2,8 +2,10 @@
 
 import Link from 'next/link';
 import { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 
 export default function PhotoNav({ transparent = false }: { transparent?: boolean }) {
+  const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
 
@@ -40,9 +42,11 @@ export default function PhotoNav({ transparent = false }: { transparent?: boolea
       <div className="flex items-center justify-between px-6 md:px-12 py-4">
         {/* Left: Brand */}
         <Link href="/photography" className="flex items-baseline gap-3">
-          <span className={`font-[family-name:var(--font-playfair)] text-lg font-medium tracking-tight transition-colors duration-300 ${brandColor}`}>
-            Pryce Tharpe
-          </span>
+          {pathname !== '/photography' && (
+            <span className={`font-[family-name:var(--font-playfair)] text-lg font-medium tracking-tight transition-colors duration-300 ${brandColor}`}>
+              Pryce Tharpe
+            </span>
+          )}
         </Link>
 
         {/* Right: Nav links + Instagram + hamburger */}
