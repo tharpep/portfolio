@@ -2,8 +2,8 @@ name: Update Spotify Data
 
 on:
   schedule:
-    # Run daily at 5 PM UTC (midday for better listening data)
-    - cron: '0 17 * * *'
+    # Run every 2 hours to accumulate play history (50-track API cap per poll)
+    - cron: '0 */2 * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git add src/data/spotify-data.json
+          git add src/data/spotify-data.json src/data/spotify-history.json src/data/spotify-archive.json
           git commit -m "Update Spotify data [skip ci]"
           git push
       
