@@ -41,11 +41,11 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         </div>
       </div>
 
-      <p className="hidden md:block text-neutral-300 text-sm leading-relaxed mb-4 line-clamp-3 flex-grow">
+      <p className="block text-neutral-300 text-sm leading-relaxed mb-4 line-clamp-2 md:line-clamp-3 flex-grow">
         {project.description}
       </p>
 
-      <div className="hidden md:flex flex-wrap gap-2 mb-4">
+      <div className="flex flex-wrap gap-2 mb-4">
         {project.technologies.slice(0, 3).map((tech) => (
           <TechBadge key={tech} tech={tech} />
         ))}
@@ -58,7 +58,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 
       <div className="flex items-center justify-between mt-auto">
         <span className="text-xs md:text-sm text-neutral-400 font-mono">{project.timeline}</span>
-        <div className="hidden md:flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300 ease-out">
+        <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300 ease-out">
           View Details
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
             <path d="M7 17l10-10M17 7H7v10"/>

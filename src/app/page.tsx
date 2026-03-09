@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
-      <section className="relative text-center min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-16 sm:py-20 md:py-24 lg:py-28 pb-24 sm:pb-20 md:pb-24 lg:pb-28">
+      <section className="relative text-center min-h-[calc(100vh-4rem)] flex flex-col justify-center items-center px-4 sm:px-8 md:px-16 lg:px-32 py-12 sm:py-20 md:py-24 lg:py-28 pb-24 sm:pb-20 md:pb-24 lg:pb-28">
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
@@ -237,10 +237,10 @@ function FeaturedProjectCard({
       <div className="md:hidden mb-3">
         <span className="text-xs text-neutral-400 font-mono">{timeline}</span>
       </div>
-      <p className="hidden md:block text-neutral-300 leading-relaxed mb-6">
+      <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
         {desc}
       </p>
-      <div className="hidden md:flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
+      <div className="flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
         View Details
         <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M7 17l10-10M17 7H7v10" />
