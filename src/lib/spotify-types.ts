@@ -60,4 +60,8 @@ export interface SpotifyDisplayData {
     totalMs: number;
     trackCount: number;
   };
+  ytdListening: {
+    totalMs: number;
+    trackCount: number;
+  };
 }

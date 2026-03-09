@@ -68,5 +68,9 @@
   "weeklyListening": {
     "totalMs": 10987123,
     "trackCount": 50
+  },
+  "ytdListening": {
+    "totalMs": 0,
+    "trackCount": 0
   }
 }

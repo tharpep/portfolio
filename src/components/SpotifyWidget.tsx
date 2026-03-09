@@ -24,6 +24,15 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             <span className="text-neutral-400 text-sm">this week</span>
             <span className="text-neutral-600">·</span>
             <span className="text-neutral-400 text-sm font-mono">{data.weeklyListening.trackCount} plays</span>
+            {data.ytdListening && data.ytdListening.totalMs > 0 && (
+              <>
+                <span className="text-neutral-600">·</span>
+                <span className="text-green-300/70 font-mono font-semibold">
+                  {formatListeningTime(data.ytdListening.totalMs)}
+                </span>
+                <span className="text-neutral-400 text-sm">this year</span>
+              </>
+            )}
           </div>
         )}
       </div>

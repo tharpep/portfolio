@@ -252,6 +252,28 @@ def compute_weekly_stats(plays: List[Dict]) -> Dict[str, Any]:
     }
 
 
+def compute_ytd_stats(archive: Dict, weekly_listening: Dict[str, Any]) -> Dict[str, Any]:
+    """Compute year-to-date stats from archived weeks + current week."""
+    current_year = str(datetime.now(timezone.utc).year)
+
+    # Sum all archived weeks from this year
+    ytd_ms = 0
+    ytd_tracks = 0
+    for week in archive.get('weeks', []):
+        if week['week'].startswith(current_year):
+            ytd_ms += week['totalMs']
+            ytd_tracks += week['trackCount']
+
+    # Add current in-progress week
+    ytd_ms += weekly_listening.get('totalMs', 0)
+    ytd_tracks += weekly_listening.get('trackCount', 0)
+
+    return {
+        "totalMs": ytd_ms,
+        "trackCount": ytd_tracks
+    }
+
+
 # ─────────── Main ───────────
 
 def update_spotify_data():
@@ -306,6 +328,7 @@ def update_spotify_data():
 
         # Compute current week stats for widget
         weekly_listening = compute_weekly_stats(history['plays'])
+        ytd_listening = compute_ytd_stats(archive, weekly_listening)
 
         # ─── Save all files ───
         save_json(HISTORY_PATH, history)
@@ -316,7 +339,8 @@ def update_spotify_data():
             "topArtistsYear": top_artists_year,
             "topTracksWeek": top_tracks_week,
             "topTrackDay": top_track_day,
-            "weeklyListening": weekly_listening
+            "weeklyListening": weekly_listening,
+            "ytdListening": ytd_listening
         }
         save_json(DATA_PATH, spotify_data)
 
@@ -330,6 +354,8 @@ def update_spotify_data():
         total_min = weekly_listening['totalMs'] // 60000
         print(f"   - This Week: {total_min // 60}h {total_min % 60}m ({weekly_listening['trackCount']} plays)")
         print(f"   - Total History: {len(history['plays'])} plays in rolling window")
+        ytd_min = ytd_listening['totalMs'] // 60000
+        print(f"   - YTD: {ytd_min // 60}h {ytd_min % 60}m ({ytd_listening['trackCount']} plays)")
         print(f"   - Archive: {len(archive['weeks'])} weeks stored")
 
     except Exception as e:
