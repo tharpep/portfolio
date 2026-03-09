@@ -1,6 +1,168 @@
 {
-  "lastCursor": "1773088636276",
+  "lastCursor": "1773095043672",
   "plays": [
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-03-09T22:24:03.672Z"
+    },
+    {
+      "track": "Say, Can You Hear",
+      "artists": "Men I Trust",
+      "durationMs": 189246,
+      "playedAt": "2026-03-09T22:21:23.472Z"
+    },
+    {
+      "track": "Mystery Lady",
+      "artists": "Masego, Don Toliver",
+      "durationMs": 228453,
+      "playedAt": "2026-03-09T22:18:16.102Z"
+    },
+    {
+      "track": "Show Me the Right",
+      "artists": "NEIL FRANCES",
+      "durationMs": 204000,
+      "playedAt": "2026-03-09T22:14:33.122Z"
+    },
+    {
+      "track": "OUTERSPACE (feat. Baby Keem)",
+      "artists": "Don Toliver, Baby Keem",
+      "durationMs": 226095,
+      "playedAt": "2026-03-09T22:10:36.972Z"
+    },
+    {
+      "track": "WOW!",
+      "artists": "Berhana",
+      "durationMs": 157213,
+      "playedAt": "2026-03-09T22:06:56.518Z"
+    },
+    {
+      "track": "I. The Worst Guys",
+      "artists": "Childish Gambino, Chance the Rapper",
+      "durationMs": 219739,
+      "playedAt": "2026-03-09T22:04:20.814Z"
+    },
+    {
+      "track": "Tieduprightnow",
+      "artists": "Parcels",
+      "durationMs": 249956,
+      "playedAt": "2026-03-09T21:58:05.992Z"
+    },
+    {
+      "track": "Blue World",
+      "artists": "Mac Miller",
+      "durationMs": 209440,
+      "playedAt": "2026-03-09T21:54:01.069Z"
+    },
+    {
+      "track": "Ninety",
+      "artists": "Jaden",
+      "durationMs": 468168,
+      "playedAt": "2026-03-09T21:50:38.173Z"
+    },
+    {
+      "track": "TELEKINESIS (feat. SZA & Future)",
+      "artists": "Travis Scott, SZA, Future",
+      "durationMs": 353754,
+      "playedAt": "2026-03-09T21:42:27.981Z"
+    },
+    {
+      "track": "Heart On Your Sleeve",
+      "artists": "DEVIN MØRE",
+      "durationMs": 242990,
+      "playedAt": "2026-03-09T21:36:24.277Z"
+    },
+    {
+      "track": "THANK GOD",
+      "artists": "Travis Scott",
+      "durationMs": 184888,
+      "playedAt": "2026-03-09T21:32:26.882Z"
+    },
+    {
+      "track": "King's Dead (with Kendrick Lamar, Future & James Blake)",
+      "artists": "Jay Rock, Kendrick Lamar, Future, James Blake",
+      "durationMs": 225266,
+      "playedAt": "2026-03-09T21:29:27.690Z"
+    },
+    {
+      "track": "Jasmine",
+      "artists": "Carneyval, Armani White, Jackson Breit",
+      "durationMs": 161739,
+      "playedAt": "2026-03-09T21:25:48.131Z"
+    },
+    {
+      "track": "Mind Fields",
+      "artists": "No Vacation",
+      "durationMs": 272625,
+      "playedAt": "2026-03-09T21:23:12.332Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-03-09T21:18:45.566Z"
+    },
+    {
+      "track": "Scenic Drive (feat. Ari Lennox & Smino)",
+      "artists": "Khalid, Ari Lennox, Smino",
+      "durationMs": 249476,
+      "playedAt": "2026-03-09T21:13:52.142Z"
+    },
+    {
+      "track": "running out of time",
+      "artists": "Lil Yachty",
+      "durationMs": 269244,
+      "playedAt": "2026-03-09T21:09:48.536Z"
+    },
+    {
+      "track": "Good Days",
+      "artists": "SZA",
+      "durationMs": 279203,
+      "playedAt": "2026-03-09T21:05:25.688Z"
+    },
+    {
+      "track": "Sweater Weather",
+      "artists": "The Neighbourhood",
+      "durationMs": 240400,
+      "playedAt": "2026-03-09T21:00:51.434Z"
+    },
+    {
+      "track": "The Complete Knock",
+      "artists": "Blood Orange",
+      "durationMs": 303533,
+      "playedAt": "2026-03-09T20:56:56.677Z"
+    },
+    {
+      "track": "Wat U Sed (feat. Doechii & Kal Banx)",
+      "artists": "Isaiah Rashad, Doechii, Kal Banx",
+      "durationMs": 176682,
+      "playedAt": "2026-03-09T20:51:59.128Z"
+    },
+    {
+      "track": "Sundress",
+      "artists": "A$AP Rocky",
+      "durationMs": 158205,
+      "playedAt": "2026-03-09T20:49:07.886Z"
+    },
+    {
+      "track": "ROLE MODEL",
+      "artists": "Brent Faiyaz",
+      "durationMs": 194009,
+      "playedAt": "2026-03-09T20:46:35.265Z"
+    },
+    {
+      "track": "The Mission",
+      "artists": "Bakar",
+      "durationMs": 191478,
+      "playedAt": "2026-03-09T20:43:27.092Z"
+    },
+    {
+      "track": "Burning",
+      "artists": "The Whitest Boy Alive",
+      "durationMs": 191173,
+      "playedAt": "2026-03-09T20:40:21.403Z"
+    },
     {
       "track": "BLUE SKY",
       "artists": "Kid Cudi",
