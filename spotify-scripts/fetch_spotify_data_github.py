@@ -111,6 +111,7 @@ def get_weekly_listening_stats(sp: spotipy.Spotify) -> Dict[str, Any]:
 
     try:
         results = sp.current_user_recently_played(limit=50)
+        page = 1
         while results and results.get('items'):
             done = False
             for item in results['items']:
@@ -121,10 +122,11 @@ def get_weekly_listening_stats(sp: spotipy.Spotify) -> Dict[str, Any]:
                 total_ms += item['track']['duration_ms']
                 track_count += 1
 
-            before = results.get('cursors', {}).get('before')
-            if done or not before:
+            if done or not results.get('next'):
                 break
-            results = sp.current_user_recently_played(limit=50, before=int(before))
+            results = sp.next(results)
+            page += 1
+            print(f"  Fetched page {page} ({track_count} plays so far...)")
     except Exception as e:
         print(f"Error fetching weekly listening stats: {e}")
 
