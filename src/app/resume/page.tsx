@@ -247,7 +247,7 @@ export default function Resume() {
 
             <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-6">
               <p className="text-neutral-300 leading-relaxed">
-                <span className="font-semibold text-white">Technical:</span> Python, C/C++, React, Next.js, TypeScript, AWS (ECS, ECR, S3, CloudWatch, IAM), Docker, CI/CD (GitHub Actions), Azure DevOps, Microsoft Fabric, SQL, FastAPI, RAG Systems, LLM Integration, Prompt Engineering, Git/GitHub, pytest
+                <span className="font-semibold text-white">Technical:</span> Python, C/C++/C#, React, Next.js, TypeScript, AWS, GCP, Azure, Docker, CI/CD, Linux/Bash, MSFT Fabric, SQL, RESTful APIs, RAG, Agentic Systems, LLM Integration, Prompt Engineering, Git/GitHub/Azure DevOps
               </p>
             </div>
           </section>
