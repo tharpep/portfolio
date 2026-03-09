@@ -233,9 +233,6 @@ export default function Resume() {
                 <span className="text-cyan-400 font-mono text-sm">Aug 2022 -- May 2026</span>
               </div>
               <p className="text-neutral-300 mb-2">Bachelor of Science in Computer Engineering</p>
-              <p className="text-neutral-400 italic text-sm">
-                Current Coursework: Software Engineering, Machine Learning, Software Senior Design
-              </p>
             </div>
           </section>
         </ScrollFadeIn>
