@@ -74,7 +74,7 @@ export default function Home() {
               <FeaturedProjectCard
                 title="Sazed - Personal AI Agent"
                 href="/projects/sazed"
-                desc="End-to-end personal AI agent with agentic tool use and persistent memory. Integrates calendar, email, tasks, and a personal knowledge base — accessible via a native desktop app and Claude Desktop via MCP."
+                desc="End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP."
                 technologies={["Python", "FastAPI", "Anthropic SDK", "React 19", "Tauri", "TypeScript", "FastMCP", "PostgreSQL"]}
                 timeline="January 2025 - Present"
               />
