@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
+import Link from "next/link";
 import { getSpotifyData } from "@/lib/spotify-data";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 
@@ -79,7 +80,7 @@ export default async function About() {
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
               <p>
-                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I also built a <a href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors">photography portfolio</a> alongside this site. These hobbies keep me balanced and give me different ways to create and problem-solve.
+                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I also built a <Link href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors">photography portfolio</Link> alongside this site. These hobbies keep me balanced and give me different ways to create and problem-solve.
               </p>
             </div>
 
