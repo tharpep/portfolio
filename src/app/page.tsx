@@ -55,7 +55,7 @@ export default function Home() {
       </section>
 
       {/* Main Content Section */}
-      <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16">
+      <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16 scroll-mt-28">
 
         {/* ─────────── Featured Projects ─────────── */}
         <ScrollFadeIn delay={100}>
