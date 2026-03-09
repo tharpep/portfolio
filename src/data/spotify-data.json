@@ -64,5 +64,9 @@
     "artists": "Bershy",
     "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
     "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+  },
+  "weeklyListening": {
+    "totalMs": 0,
+    "trackCount": 0
   }
 }
