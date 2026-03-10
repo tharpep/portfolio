@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1773108408558",
+  "lastCursor": "1773111067867",
   "plays": [
+    {
+      "track": "My Love",
+      "artists": "Hannah Jadagu",
+      "durationMs": 164956,
+      "playedAt": "2026-03-10T02:51:07.867Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-03-10T02:48:22.069Z"
+    },
+    {
+      "track": "A$AP Forever (feat. Moby)",
+      "artists": "A$AP Rocky, Moby",
+      "durationMs": 233061,
+      "playedAt": "2026-03-10T02:35:16.324Z"
+    },
+    {
+      "track": "St. Chroma (feat. Daniel Caesar)",
+      "artists": "Tyler, The Creator, Daniel Caesar",
+      "durationMs": 197019,
+      "playedAt": "2026-03-10T02:31:20.750Z"
+    },
+    {
+      "track": "CHIHIRO",
+      "artists": "Billie Eilish",
+      "durationMs": 303440,
+      "playedAt": "2026-03-10T02:27:36.724Z"
+    },
     {
       "track": "These Days",
       "artists": "NEIL FRANCES",
