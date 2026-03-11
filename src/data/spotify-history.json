@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1773252100178",
+  "lastCursor": "1773259735320",
   "plays": [
+    {
+      "track": "Undercover Martyn",
+      "artists": "Two Door Cinema Club",
+      "durationMs": 167773,
+      "playedAt": "2026-03-11T20:08:55.320Z"
+    },
+    {
+      "track": "NEW MAGIC WAND",
+      "artists": "Tyler, The Creator",
+      "durationMs": 195327,
+      "playedAt": "2026-03-11T19:57:11.109Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-03-11T19:53:48.519Z"
+    },
+    {
+      "track": "Alrighty Aphrodite",
+      "artists": "Peach Pit",
+      "durationMs": 207813,
+      "playedAt": "2026-03-11T19:50:44.630Z"
+    },
+    {
+      "track": "Cigarettes out the Window",
+      "artists": "TV Girl",
+      "durationMs": 198960,
+      "playedAt": "2026-03-11T19:47:35.129Z"
+    },
     {
       "track": "Loser",
       "artists": "Tame Impala",
