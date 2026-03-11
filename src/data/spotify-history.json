@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1773175309746",
+  "lastCursor": "1773188300877",
   "plays": [
+    {
+      "track": "Elephant",
+      "artists": "Tame Impala",
+      "durationMs": 211226,
+      "playedAt": "2026-03-11T00:18:20.877Z"
+    },
+    {
+      "track": "4EVA (feat. Pharrell Williams)",
+      "artists": "KAYTRAMINÉ, Aminé, KAYTRANADA, Pharrell Williams",
+      "durationMs": 190373,
+      "playedAt": "2026-03-11T00:14:43.947Z"
+    },
+    {
+      "track": "Neverender",
+      "artists": "Justice, Tame Impala",
+      "durationMs": 266493,
+      "playedAt": "2026-03-11T00:11:11.053Z"
+    },
+    {
+      "track": "Lost In Yesterday",
+      "artists": "Tame Impala",
+      "durationMs": 249586,
+      "playedAt": "2026-03-11T00:06:45.697Z"
+    },
     {
       "track": "Genie",
       "artists": "Crumb",

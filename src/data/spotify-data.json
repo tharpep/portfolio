@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-10T22:31:17.588064Z",
+  "lastUpdated": "2026-03-11T02:10:38.822927Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
-      "name": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
-      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
-    },
-    {
       "name": "Dramatic Girl (feat. Che Ecru)",
       "artists": "Baby Keem, Che Ecru",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    },
+    {
+      "name": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
+      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
     },
     {
       "name": "Lovin’ Me (feat. Phoebe Bridgers)",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
   },
   "weeklyListening": {
-    "totalMs": 40090414,
-    "trackCount": 179
+    "totalMs": 41008092,
+    "trackCount": 183
   },
   "ytdListening": {
-    "totalMs": 40090414,
-    "trackCount": 179
+    "totalMs": 41008092,
+    "trackCount": 183
   }
 }
