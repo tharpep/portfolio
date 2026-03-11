@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T20:36:50.800944Z",
+  "lastUpdated": "2026-03-11T22:29:29.212053Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Dramatic Girl (feat. Che Ecru)",
       "artists": "Baby Keem, Che Ecru",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
       "name": "Fantasy (feat. Don Toliver)",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "Radio",
-    "artists": "Bershy",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-    "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    "name": "Dramatic Girl (feat. Che Ecru)",
+    "artists": "Baby Keem, Che Ecru",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
+    "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
   },
   "weeklyListening": {
-    "totalMs": 46298605,
-    "trackCount": 208
+    "totalMs": 52118367,
+    "trackCount": 235
   },
   "ytdListening": {
-    "totalMs": 46298605,
-    "trackCount": 208
+    "totalMs": 52118367,
+    "trackCount": 235
   }
 }
