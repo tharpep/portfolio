@@ -1,6 +1,276 @@
 {
-  "lastCursor": "1773267996609",
+  "lastCursor": "1773277875420",
   "plays": [
+    {
+      "track": "Mojo So Dope - Album Version (Edited)",
+      "artists": "Kid Cudi",
+      "durationMs": 210600,
+      "playedAt": "2026-03-12T01:11:15.420Z"
+    },
+    {
+      "track": "Eye Know",
+      "artists": "De La Soul, Otis Redding",
+      "durationMs": 252671,
+      "playedAt": "2026-03-12T01:09:40.018Z"
+    },
+    {
+      "track": "Neverender",
+      "artists": "Justice, Tame Impala",
+      "durationMs": 266493,
+      "playedAt": "2026-03-12T01:05:26.414Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-03-12T01:00:58.878Z"
+    },
+    {
+      "track": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "durationMs": 178274,
+      "playedAt": "2026-03-12T00:57:30.653Z"
+    },
+    {
+      "track": "Space Jam - An Odyssey",
+      "artists": "Orion Sun",
+      "durationMs": 221596,
+      "playedAt": "2026-03-12T00:54:31.568Z"
+    },
+    {
+      "track": "Award Tour (feat. Trugoy The Dove)",
+      "artists": "A Tribe Called Quest, Trugoy The Dove",
+      "durationMs": 207960,
+      "playedAt": "2026-03-12T00:50:48.472Z"
+    },
+    {
+      "track": "Image",
+      "artists": "Magdalena Bay",
+      "durationMs": 212866,
+      "playedAt": "2026-03-12T00:47:20.472Z"
+    },
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-03-12T00:43:52.525Z"
+    },
+    {
+      "track": "Summer 2000 Baby",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 242410,
+      "playedAt": "2026-03-12T00:40:28.574Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-03-12T00:36:25.635Z"
+    },
+    {
+      "track": "Mind Mischief",
+      "artists": "Tame Impala",
+      "durationMs": 271880,
+      "playedAt": "2026-03-12T00:32:37.696Z"
+    },
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-03-12T00:28:04.944Z"
+    },
+    {
+      "track": "Final Church",
+      "artists": "Childish Gambino",
+      "durationMs": 226446,
+      "playedAt": "2026-03-12T00:23:59.401Z"
+    },
+    {
+      "track": "Little Sister",
+      "artists": "Queens of the Stone Age",
+      "durationMs": 174026,
+      "playedAt": "2026-03-12T00:20:12.301Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-03-12T00:17:17.105Z"
+    },
+    {
+      "track": "Breathe Deeper",
+      "artists": "Tame Impala",
+      "durationMs": 372866,
+      "playedAt": "2026-03-12T00:13:31.658Z"
+    },
+    {
+      "track": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 268333,
+      "playedAt": "2026-03-12T00:07:17.260Z"
+    },
+    {
+      "track": "Husk",
+      "artists": "Men I Trust",
+      "durationMs": 204651,
+      "playedAt": "2026-03-12T00:02:47.810Z"
+    },
+    {
+      "track": "Uncle ACE",
+      "artists": "Blood Orange",
+      "durationMs": 256693,
+      "playedAt": "2026-03-11T23:59:22.173Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-03-11T23:55:10.895Z"
+    },
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-03-11T23:51:28.900Z"
+    },
+    {
+      "track": "Brazil",
+      "artists": "Declan McKenna",
+      "durationMs": 252305,
+      "playedAt": "2026-03-11T23:47:58.344Z"
+    },
+    {
+      "track": "We Are The People",
+      "artists": "Empire Of The Sun",
+      "durationMs": 267373,
+      "playedAt": "2026-03-11T23:43:45.096Z"
+    },
+    {
+      "track": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "durationMs": 199831,
+      "playedAt": "2026-03-11T23:39:16.824Z"
+    },
+    {
+      "track": "Willing To Trust (with Ty Dolla $ign)",
+      "artists": "Kid Cudi, Ty Dolla $ign",
+      "durationMs": 282053,
+      "playedAt": "2026-03-11T23:35:55.690Z"
+    },
+    {
+      "track": "Echolalia",
+      "artists": "Yves Tumor",
+      "durationMs": 180146,
+      "playedAt": "2026-03-11T23:31:12.902Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-03-11T23:28:11.574Z"
+    },
+    {
+      "track": "Landline",
+      "artists": "binki",
+      "durationMs": 160329,
+      "playedAt": "2026-03-11T23:23:10.549Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-03-11T23:20:29.270Z"
+    },
+    {
+      "track": "Lavender Sunflower",
+      "artists": "Tory Lanez",
+      "durationMs": 151966,
+      "playedAt": "2026-03-11T23:16:28.421Z"
+    },
+    {
+      "track": "All The Stars (with SZA)",
+      "artists": "Kendrick Lamar, SZA",
+      "durationMs": 232186,
+      "playedAt": "2026-03-11T23:13:55.180Z"
+    },
+    {
+      "track": "Headlock",
+      "artists": "Imogen Heap",
+      "durationMs": 215338,
+      "playedAt": "2026-03-11T23:10:02.266Z"
+    },
+    {
+      "track": "My Love",
+      "artists": "Hannah Jadagu",
+      "durationMs": 164956,
+      "playedAt": "2026-03-11T23:06:26.739Z"
+    },
+    {
+      "track": "Hey Ya!",
+      "artists": "Outkast",
+      "durationMs": 235213,
+      "playedAt": "2026-03-11T23:03:40.626Z"
+    },
+    {
+      "track": "What You Know",
+      "artists": "Two Door Cinema Club",
+      "durationMs": 191400,
+      "playedAt": "2026-03-11T22:59:44.880Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-03-11T22:56:32.505Z"
+    },
+    {
+      "track": "Come Over",
+      "artists": "LE SSERAFIM",
+      "durationMs": 137178,
+      "playedAt": "2026-03-11T22:53:45.721Z"
+    },
+    {
+      "track": "Low",
+      "artists": "SZA",
+      "durationMs": 181080,
+      "playedAt": "2026-03-11T22:51:27.857Z"
+    },
+    {
+      "track": "Afterthought",
+      "artists": "Tame Impala",
+      "durationMs": 241783,
+      "playedAt": "2026-03-11T22:48:25.281Z"
+    },
+    {
+      "track": "Mess Around",
+      "artists": "Cage The Elephant",
+      "durationMs": 173175,
+      "playedAt": "2026-03-11T22:44:23.412Z"
+    },
+    {
+      "track": "Wake Up",
+      "artists": "Kowloon",
+      "durationMs": 239315,
+      "playedAt": "2026-03-11T22:41:29.044Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-03-11T22:37:28.566Z"
+    },
+    {
+      "track": "Sure Thing",
+      "artists": "Miguel",
+      "durationMs": 195373,
+      "playedAt": "2026-03-11T22:32:50.475Z"
+    },
+    {
+      "track": "Somewhere to Fly (with Don Toliver)",
+      "artists": "Kid Cudi, Don Toliver",
+      "durationMs": 176680,
+      "playedAt": "2026-03-11T22:29:33.798Z"
+    },
     {
       "track": "Dominoes",
       "artists": "Jungle",
