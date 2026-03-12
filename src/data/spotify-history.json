@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1773277875420",
+  "lastCursor": "1773284444816",
   "plays": [
+    {
+      "track": "Champagne Coast",
+      "artists": "Blood Orange",
+      "durationMs": 292373,
+      "playedAt": "2026-03-12T03:00:44.816Z"
+    },
+    {
+      "track": "Ghost Town",
+      "artists": "Kanye West, PARTYNEXTDOOR",
+      "durationMs": 271386,
+      "playedAt": "2026-03-12T02:54:15.582Z"
+    },
+    {
+      "track": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "durationMs": 206012,
+      "playedAt": "2026-03-12T02:49:24.023Z"
+    },
+    {
+      "track": "Apocalypse Dreams",
+      "artists": "Tame Impala",
+      "durationMs": 356946,
+      "playedAt": "2026-03-12T02:46:03.397Z"
+    },
+    {
+      "track": "Gimme Love",
+      "artists": "Joji",
+      "durationMs": 214557,
+      "playedAt": "2026-03-12T02:39:36.628Z"
+    },
     {
       "track": "Mojo So Dope - Album Version (Edited)",
       "artists": "Kid Cudi",
