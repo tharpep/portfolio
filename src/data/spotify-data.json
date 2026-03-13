@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T05:13:55.995375Z",
+  "lastUpdated": "2026-03-13T06:57:59.298029Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Lovin’ Me (feat. Phoebe Bridgers)",
       "artists": "Kid Cudi, Phoebe Bridgers",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
       "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
       "name": "Apocalypse Dreams",
