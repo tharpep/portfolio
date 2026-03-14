@@ -1,6 +1,174 @@
 {
-  "lastCursor": "1773513546040",
+  "lastCursor": "1773520153224",
   "plays": [
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-03-14T20:29:13.224Z"
+    },
+    {
+      "track": "Balloon (feat. Doechii)",
+      "artists": "Tyler, The Creator, Doechii",
+      "durationMs": 154261,
+      "playedAt": "2026-03-14T20:25:19.094Z"
+    },
+    {
+      "track": "I am not a Lyricist",
+      "artists": "Baby Keem",
+      "durationMs": 205176,
+      "playedAt": "2026-03-14T20:22:34.663Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-03-14T20:19:15.132Z"
+    },
+    {
+      "track": "The Boat I Row",
+      "artists": "Tame Impala",
+      "durationMs": 238320,
+      "playedAt": "2026-03-14T20:15:41.882Z"
+    },
+    {
+      "track": "Louphoria (with Cruza)",
+      "artists": "Smino, Cruza",
+      "durationMs": 226258,
+      "playedAt": "2026-03-14T20:12:19.704Z"
+    },
+    {
+      "track": "The Dress",
+      "artists": "Dijon",
+      "durationMs": 184767,
+      "playedAt": "2026-03-14T20:07:47.756Z"
+    },
+    {
+      "track": "Everything Blue",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 222520,
+      "playedAt": "2026-03-14T20:04:48.276Z"
+    },
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-03-14T20:00:40.302Z"
+    },
+    {
+      "track": "Venice",
+      "artists": "Magdalena Bay",
+      "durationMs": 196173,
+      "playedAt": "2026-03-14T19:57:29.226Z"
+    },
+    {
+      "track": "Super Stars",
+      "artists": "Yves Tumor",
+      "durationMs": 185560,
+      "playedAt": "2026-03-14T19:54:18.297Z"
+    },
+    {
+      "track": "Patience",
+      "artists": "Tame Impala",
+      "durationMs": 292267,
+      "playedAt": "2026-03-14T19:51:18.686Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-03-14T19:46:31.823Z"
+    },
+    {
+      "track": "I Really Want to Stay at Your House",
+      "artists": "Rosa Walton, Hallie Coggins",
+      "durationMs": 246652,
+      "playedAt": "2026-03-14T19:41:33.836Z"
+    },
+    {
+      "track": "Pink Matter",
+      "artists": "Frank Ocean, André 3000",
+      "durationMs": 268813,
+      "playedAt": "2026-03-14T19:37:32.871Z"
+    },
+    {
+      "track": "Satellite Business 2.0",
+      "artists": "Sampha, Little Simz",
+      "durationMs": 293377,
+      "playedAt": "2026-03-14T19:33:09.606Z"
+    },
+    {
+      "track": "Breathe (In the Air)",
+      "artists": "Pink Floyd",
+      "durationMs": 169560,
+      "playedAt": "2026-03-14T19:28:22.155Z"
+    },
+    {
+      "track": "Alesis",
+      "artists": "Mk.gee",
+      "durationMs": 198295,
+      "playedAt": "2026-03-14T19:25:51.486Z"
+    },
+    {
+      "track": "SKELETONS",
+      "artists": "Travis Scott",
+      "durationMs": 145588,
+      "playedAt": "2026-03-14T19:22:25.227Z"
+    },
+    {
+      "track": "Motion",
+      "artists": "Khalid",
+      "durationMs": 235891,
+      "playedAt": "2026-03-14T19:20:05.415Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-03-14T19:16:15.478Z"
+    },
+    {
+      "track": "How Soon Is Now? - 2011 Remaster",
+      "artists": "The Smiths",
+      "durationMs": 408173,
+      "playedAt": "2026-03-14T19:11:11.781Z"
+    },
+    {
+      "track": "Superpowers",
+      "artists": "Daniel Caesar",
+      "durationMs": 174512,
+      "playedAt": "2026-03-14T19:04:38.860Z"
+    },
+    {
+      "track": "Headshots (4r da Locals)",
+      "artists": "Isaiah Rashad",
+      "durationMs": 193208,
+      "playedAt": "2026-03-14T19:01:40.221Z"
+    },
+    {
+      "track": "The Complete Knock",
+      "artists": "Blood Orange",
+      "durationMs": 303533,
+      "playedAt": "2026-03-14T18:58:33.060Z"
+    },
+    {
+      "track": "Summertime Magic",
+      "artists": "Childish Gambino",
+      "durationMs": 213600,
+      "playedAt": "2026-03-14T18:53:35.350Z"
+    },
+    {
+      "track": "Love/Paranoia",
+      "artists": "Tame Impala",
+      "durationMs": 185773,
+      "playedAt": "2026-03-14T18:50:10.894Z"
+    },
+    {
+      "track": "Chaeri",
+      "artists": "Magdalena Bay",
+      "durationMs": 257130,
+      "playedAt": "2026-03-14T18:43:08.484Z"
+    },
     {
       "track": "Sign Of The Times",
       "artists": "Daniel Caesar",
