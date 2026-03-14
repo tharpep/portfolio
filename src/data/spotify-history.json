@@ -1,6 +1,234 @@
 {
-  "lastCursor": "1773454226228",
+  "lastCursor": "1773465016084",
   "plays": [
+    {
+      "track": "Sunday",
+      "artists": "54 Ultra",
+      "durationMs": 164000,
+      "playedAt": "2026-03-14T05:10:16.084Z"
+    },
+    {
+      "track": "Sandstorm (feat. JID)",
+      "artists": "Mereba, JID",
+      "durationMs": 179026,
+      "playedAt": "2026-03-14T05:07:37.800Z"
+    },
+    {
+      "track": "Yam Yam",
+      "artists": "No Vacation",
+      "durationMs": 216062,
+      "playedAt": "2026-03-14T05:04:45.455Z"
+    },
+    {
+      "track": "Les",
+      "artists": "Childish Gambino",
+      "durationMs": 317293,
+      "playedAt": "2026-03-14T05:01:13.800Z"
+    },
+    {
+      "track": "LOVE. FEAT. ZACARI.",
+      "artists": "Kendrick Lamar, Zacari",
+      "durationMs": 213400,
+      "playedAt": "2026-03-14T04:56:02.255Z"
+    },
+    {
+      "track": "Serenade of Water",
+      "artists": "Men I Trust",
+      "durationMs": 185660,
+      "playedAt": "2026-03-14T04:52:34.491Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-03-14T04:49:28.720Z"
+    },
+    {
+      "track": "Vinta",
+      "artists": "Crumb",
+      "durationMs": 299970,
+      "playedAt": "2026-03-14T04:44:46.091Z"
+    },
+    {
+      "track": "Equal Trouble",
+      "artists": "Blue Material",
+      "durationMs": 242102,
+      "playedAt": "2026-03-14T04:39:37.531Z"
+    },
+    {
+      "track": "House In LA",
+      "artists": "Jungle",
+      "durationMs": 283822,
+      "playedAt": "2026-03-14T04:35:41.235Z"
+    },
+    {
+      "track": "Stoned",
+      "artists": "Mac Miller",
+      "durationMs": 243522,
+      "playedAt": "2026-03-14T04:31:03.002Z"
+    },
+    {
+      "track": "Staple It Together",
+      "artists": "Jack Johnson",
+      "durationMs": 196146,
+      "playedAt": "2026-03-14T04:26:50.918Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-03-14T04:23:40.554Z"
+    },
+    {
+      "track": "Feels Like We Only Go Backwards",
+      "artists": "Tame Impala",
+      "durationMs": 192960,
+      "playedAt": "2026-03-14T04:20:36.941Z"
+    },
+    {
+      "track": "Blur",
+      "artists": "The Marías",
+      "durationMs": 225106,
+      "playedAt": "2026-03-14T04:17:29.594Z"
+    },
+    {
+      "track": "Some",
+      "artists": "Steve Lacy",
+      "durationMs": 118393,
+      "playedAt": "2026-03-14T04:13:50.014Z"
+    },
+    {
+      "track": "Gimme Love",
+      "artists": "Joji",
+      "durationMs": 214557,
+      "playedAt": "2026-03-14T04:11:57.449Z"
+    },
+    {
+      "track": "Cannock Chase",
+      "artists": "Labi Siffre",
+      "durationMs": 246866,
+      "playedAt": "2026-03-14T04:08:28.628Z"
+    },
+    {
+      "track": "Good Days",
+      "artists": "SZA",
+      "durationMs": 279203,
+      "playedAt": "2026-03-14T04:04:27.477Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-03-14T03:59:54.094Z"
+    },
+    {
+      "track": "Break from Toronto",
+      "artists": "PARTYNEXTDOOR",
+      "durationMs": 99213,
+      "playedAt": "2026-03-14T03:57:09.950Z"
+    },
+    {
+      "track": "I Think I Left the Stove On",
+      "artists": "Hotel Ugly",
+      "durationMs": 202490,
+      "playedAt": "2026-03-14T03:55:36.519Z"
+    },
+    {
+      "track": "Let Her Go (feat. James Blake)",
+      "artists": "Don Toliver, James Blake",
+      "durationMs": 192720,
+      "playedAt": "2026-03-14T03:52:19.679Z"
+    },
+    {
+      "track": "Balloon",
+      "artists": "Crumb",
+      "durationMs": 185746,
+      "playedAt": "2026-03-14T03:49:12.579Z"
+    },
+    {
+      "track": "To Ease You",
+      "artists": "Men I Trust",
+      "durationMs": 192798,
+      "playedAt": "2026-03-14T03:46:12.519Z"
+    },
+    {
+      "track": "Music To Walk Home By",
+      "artists": "Tame Impala",
+      "durationMs": 312213,
+      "playedAt": "2026-03-14T03:42:40.486Z"
+    },
+    {
+      "track": "Desire Be Desire Go",
+      "artists": "Tame Impala",
+      "durationMs": 266306,
+      "playedAt": "2026-03-14T03:37:19.796Z"
+    },
+    {
+      "track": "Let's Go Get Stoned",
+      "artists": "Sublime",
+      "durationMs": 213128,
+      "playedAt": "2026-03-14T03:32:59.426Z"
+    },
+    {
+      "track": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+      "artists": "A$AP Rocky, Joe Fox, Kanye West",
+      "durationMs": 323962,
+      "playedAt": "2026-03-14T03:29:31.943Z"
+    },
+    {
+      "track": "I'll Take Care of You (feat. Yebba)",
+      "artists": "Tyler, The Creator, Yebba",
+      "durationMs": 200860,
+      "playedAt": "2026-03-14T03:24:14.407Z"
+    },
+    {
+      "track": "Losing My Religion",
+      "artists": "R.E.M.",
+      "durationMs": 268426,
+      "playedAt": "2026-03-14T03:20:46.214Z"
+    },
+    {
+      "track": "Brazil",
+      "artists": "Declan McKenna",
+      "durationMs": 252305,
+      "playedAt": "2026-03-14T03:16:23.334Z"
+    },
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-03-14T02:56:51.193Z"
+    },
+    {
+      "track": "Hun43rd",
+      "artists": "A$AP Rocky",
+      "durationMs": 242742,
+      "playedAt": "2026-03-14T02:34:35.289Z"
+    },
+    {
+      "track": "A New Kind Of Love - Demo",
+      "artists": "Frou Frou, Imogen Heap, Guy Sigsworth",
+      "durationMs": 259071,
+      "playedAt": "2026-03-14T02:30:28.996Z"
+    },
+    {
+      "track": "No More Lies",
+      "artists": "Thundercat, Tame Impala",
+      "durationMs": 327217,
+      "playedAt": "2026-03-14T02:26:15.364Z"
+    },
+    {
+      "track": "Posthumous Forgiveness",
+      "artists": "Tame Impala",
+      "durationMs": 366066,
+      "playedAt": "2026-03-14T02:18:41.028Z"
+    },
+    {
+      "track": "Ryd",
+      "artists": "Steve Lacy",
+      "durationMs": 140182,
+      "playedAt": "2026-03-14T02:12:40.670Z"
+    },
     {
       "track": "Excuse Me",
       "artists": "A$AP Rocky",
