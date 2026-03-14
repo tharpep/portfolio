@@ -1,6 +1,210 @@
 {
-  "lastCursor": "1773505982284",
+  "lastCursor": "1773513546040",
   "plays": [
+    {
+      "track": "Sign Of The Times",
+      "artists": "Daniel Caesar",
+      "durationMs": 231800,
+      "playedAt": "2026-03-14T18:39:06.040Z"
+    },
+    {
+      "track": "Do You Like Me?",
+      "artists": "Daniel Caesar",
+      "durationMs": 227663,
+      "playedAt": "2026-03-14T18:31:20.789Z"
+    },
+    {
+      "track": "Break It Off - Bonus",
+      "artists": "PinkPantheress",
+      "durationMs": 96133,
+      "playedAt": "2026-03-14T18:27:39.068Z"
+    },
+    {
+      "track": "Make Me a Better Man",
+      "artists": "Malcolm Todd",
+      "durationMs": 210026,
+      "playedAt": "2026-03-14T18:26:08.790Z"
+    },
+    {
+      "track": "Pyramids",
+      "artists": "Frank Ocean",
+      "durationMs": 592920,
+      "playedAt": "2026-03-14T18:22:10.644Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-03-14T18:12:23.151Z"
+    },
+    {
+      "track": "Pretty Sweet",
+      "artists": "Frank Ocean",
+      "durationMs": 158478,
+      "playedAt": "2026-03-14T18:09:52.335Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-03-14T18:06:49.671Z"
+    },
+    {
+      "track": "Stereo Colour Cloud (Shaman's Dream)",
+      "artists": "Sampha",
+      "durationMs": 177949,
+      "playedAt": "2026-03-14T18:03:30.727Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-03-14T18:00:36.878Z"
+    },
+    {
+      "track": "Forever",
+      "artists": "Night Tapes",
+      "durationMs": 249968,
+      "playedAt": "2026-03-14T17:56:44.392Z"
+    },
+    {
+      "track": "television",
+      "artists": "Night Tapes",
+      "durationMs": 211047,
+      "playedAt": "2026-03-14T17:52:40.425Z"
+    },
+    {
+      "track": "swordsman",
+      "artists": "Night Tapes",
+      "durationMs": 208075,
+      "playedAt": "2026-03-14T17:49:14.939Z"
+    },
+    {
+      "track": "Apartment (feat. Benny Sings)",
+      "artists": "Free Nationals, Benny Sings",
+      "durationMs": 184573,
+      "playedAt": "2026-03-14T17:46:17.557Z"
+    },
+    {
+      "track": "DON'T BE DUMB / TRIP BABY",
+      "artists": "A$AP Rocky",
+      "durationMs": 285634,
+      "playedAt": "2026-03-14T17:42:53.482Z"
+    },
+    {
+      "track": "Foreword (feat. Rex Orange County)",
+      "artists": "Tyler, The Creator, Rex Orange County",
+      "durationMs": 194080,
+      "playedAt": "2026-03-14T17:38:13.675Z"
+    },
+    {
+      "track": "ASTROTHUNDER",
+      "artists": "Travis Scott",
+      "durationMs": 142969,
+      "playedAt": "2026-03-14T17:35:05.417Z"
+    },
+    {
+      "track": "Genie",
+      "artists": "Crumb",
+      "durationMs": 348706,
+      "playedAt": "2026-03-14T17:32:48.261Z"
+    },
+    {
+      "track": "Chandelier",
+      "artists": "Will Paquin",
+      "durationMs": 127464,
+      "playedAt": "2026-03-14T17:26:37.433Z"
+    },
+    {
+      "track": "Heaven",
+      "artists": "John Legend",
+      "durationMs": 215675,
+      "playedAt": "2026-03-14T17:24:36.430Z"
+    },
+    {
+      "track": "Lost",
+      "artists": "Frank Ocean",
+      "durationMs": 234093,
+      "playedAt": "2026-03-14T17:21:06.355Z"
+    },
+    {
+      "track": "Lovin’ Me (feat. Phoebe Bridgers)",
+      "artists": "Kid Cudi, Phoebe Bridgers",
+      "durationMs": 165893,
+      "playedAt": "2026-03-14T17:17:18.110Z"
+    },
+    {
+      "track": "Jigsaw Falling Into Place",
+      "artists": "Radiohead",
+      "durationMs": 248893,
+      "playedAt": "2026-03-14T17:14:37.782Z"
+    },
+    {
+      "track": "Call On Me",
+      "artists": "Daniel Caesar",
+      "durationMs": 169004,
+      "playedAt": "2026-03-14T17:10:34.515Z"
+    },
+    {
+      "track": "Police Scanner",
+      "artists": "Chanel Beads",
+      "durationMs": 142456,
+      "playedAt": "2026-03-14T17:07:50.886Z"
+    },
+    {
+      "track": "Cariño",
+      "artists": "The Marías",
+      "durationMs": 258713,
+      "playedAt": "2026-03-14T17:05:35.127Z"
+    },
+    {
+      "track": "Dreamcatcher (feat. Swae Lee & Travis Scott)",
+      "artists": "Metro Boomin, Swae Lee, Travis Scott",
+      "durationMs": 211920,
+      "playedAt": "2026-03-14T17:01:21.190Z"
+    },
+    {
+      "track": "Chewing Gum",
+      "artists": "Blood Orange, A$AP Rocky, Project Pat",
+      "durationMs": 263869,
+      "playedAt": "2026-03-14T16:57:55.065Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-03-14T16:53:36.784Z"
+    },
+    {
+      "track": "tony soprano.",
+      "artists": "Brent Faiyaz",
+      "durationMs": 182304,
+      "playedAt": "2026-03-14T16:45:56.051Z"
+    },
+    {
+      "track": "Carried Away",
+      "artists": "Men I Trust",
+      "durationMs": 207500,
+      "playedAt": "2026-03-14T16:42:59.144Z"
+    },
+    {
+      "track": "Nangs",
+      "artists": "Tame Impala",
+      "durationMs": 107533,
+      "playedAt": "2026-03-14T16:39:37.236Z"
+    },
+    {
+      "track": "White (feat. Frank Ocean)",
+      "artists": "Odd Future, Frank Ocean",
+      "durationMs": 122933,
+      "playedAt": "2026-03-14T16:37:55.013Z"
+    },
+    {
+      "track": "Still Beating",
+      "artists": "Mac DeMarco",
+      "durationMs": 181586,
+      "playedAt": "2026-03-14T16:35:57.899Z"
+    },
     {
       "track": "Do You Like Me?",
       "artists": "Daniel Caesar",
