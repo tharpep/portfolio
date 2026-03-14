@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-13T22:30:41.867535Z",
+  "lastUpdated": "2026-03-14T02:12:33.708304Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Apocalypse Dreams",
       "artists": "Tame Impala",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273370c12f82872c9cfaee80193",
       "spotifyUrl": "https://open.spotify.com/track/7qU7vhCPKhkDiJYGoboISc"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
       "name": "Fantasy (feat. Don Toliver)",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
   },
   "weeklyListening": {
-    "totalMs": 84991952,
-    "trackCount": 390
+    "totalMs": 86551598,
+    "trackCount": 397
   },
   "ytdListening": {
-    "totalMs": 84991952,
-    "trackCount": 390
+    "totalMs": 86551598,
+    "trackCount": 397
   }
 }

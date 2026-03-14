@@ -1,6 +1,48 @@
 {
-  "lastCursor": "1773416012949",
+  "lastCursor": "1773454226228",
   "plays": [
+    {
+      "track": "Excuse Me",
+      "artists": "A$AP Rocky",
+      "durationMs": 238052,
+      "playedAt": "2026-03-14T02:10:26.228Z"
+    },
+    {
+      "track": "Blue World",
+      "artists": "Mac Miller",
+      "durationMs": 209440,
+      "playedAt": "2026-03-13T23:35:38.718Z"
+    },
+    {
+      "track": "Electioneering",
+      "artists": "Radiohead",
+      "durationMs": 230626,
+      "playedAt": "2026-03-13T23:32:14.866Z"
+    },
+    {
+      "track": "On My Own",
+      "artists": "Jaden, Kid Cudi",
+      "durationMs": 244720,
+      "playedAt": "2026-03-13T23:28:30.208Z"
+    },
+    {
+      "track": "Heaven Only Knows",
+      "artists": "Towkio, Chance the Rapper, Lido, Eryn Allen Kane",
+      "durationMs": 224082,
+      "playedAt": "2026-03-13T23:24:31.073Z"
+    },
+    {
+      "track": "Final Church",
+      "artists": "Childish Gambino",
+      "durationMs": 226446,
+      "playedAt": "2026-03-13T23:20:52.715Z"
+    },
+    {
+      "track": "X-Wing - Cold Blooded Soul Version",
+      "artists": "Denzel Curry",
+      "durationMs": 186280,
+      "playedAt": "2026-03-13T23:17:10.459Z"
+    },
     {
       "track": "Husk",
       "artists": "Men I Trust",
