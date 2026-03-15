@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1773592430508",
+  "lastCursor": "1773599562192",
   "plays": [
+    {
+      "track": "Mystery Lady",
+      "artists": "Masego, Don Toliver",
+      "durationMs": 228453,
+      "playedAt": "2026-03-15T18:32:42.192Z"
+    },
+    {
+      "track": "m y . l i f e (with 21 Savage & Morray)",
+      "artists": "J. Cole, 21 Savage, Morray",
+      "durationMs": 218801,
+      "playedAt": "2026-03-15T18:29:00.886Z"
+    },
+    {
+      "track": "Teardrops",
+      "artists": "NEIL FRANCES",
+      "durationMs": 198331,
+      "playedAt": "2026-03-15T18:25:26.138Z"
+    },
+    {
+      "track": "Wat U Sed (feat. Doechii & Kal Banx)",
+      "artists": "Isaiah Rashad, Doechii, Kal Banx",
+      "durationMs": 176682,
+      "playedAt": "2026-03-15T18:22:13.823Z"
+    },
+    {
+      "track": "I am not a Lyricist",
+      "artists": "Baby Keem",
+      "durationMs": 205176,
+      "playedAt": "2026-03-15T18:19:22.846Z"
+    },
+    {
+      "track": "Elephant",
+      "artists": "Tame Impala",
+      "durationMs": 211226,
+      "playedAt": "2026-03-15T18:16:02.936Z"
+    },
+    {
+      "track": "Echolalia",
+      "artists": "Yves Tumor",
+      "durationMs": 180146,
+      "playedAt": "2026-03-15T18:12:38.046Z"
+    },
+    {
+      "track": "Humans",
+      "artists": "Night Tapes",
+      "durationMs": 251690,
+      "playedAt": "2026-03-15T18:09:42.944Z"
+    },
+    {
+      "track": "Cudi Zone",
+      "artists": "Kid Cudi",
+      "durationMs": 259040,
+      "playedAt": "2026-03-15T18:05:24.233Z"
+    },
+    {
+      "track": "Eventually",
+      "artists": "Tame Impala",
+      "durationMs": 318591,
+      "playedAt": "2026-03-15T18:00:58.224Z"
+    },
+    {
+      "track": "What I Got",
+      "artists": "Sublime",
+      "durationMs": 170906,
+      "playedAt": "2026-03-15T17:55:45.395Z"
+    },
+    {
+      "track": "Doin' Time",
+      "artists": "Sublime",
+      "durationMs": 253840,
+      "playedAt": "2026-03-15T17:53:00.229Z"
+    },
+    {
+      "track": "Simulation Swarm",
+      "artists": "Big Thief",
+      "durationMs": 252733,
+      "playedAt": "2026-03-15T17:48:51.830Z"
+    },
+    {
+      "track": "Let Go",
+      "artists": "Aaron May",
+      "durationMs": 176532,
+      "playedAt": "2026-03-15T17:44:45.380Z"
+    },
+    {
+      "track": "WHEN SPARKS FLY",
+      "artists": "Vince Staples",
+      "durationMs": 227873,
+      "playedAt": "2026-03-15T17:41:56.555Z"
+    },
+    {
+      "track": "Even Flow",
+      "artists": "Pearl Jam",
+      "durationMs": 292579,
+      "playedAt": "2026-03-15T17:38:12.101Z"
+    },
+    {
+      "track": "Diddy Bop",
+      "artists": "Noname, Raury, Cam O'bi",
+      "durationMs": 208000,
+      "playedAt": "2026-03-15T17:33:25.028Z"
+    },
+    {
+      "track": "Less Than Zero",
+      "artists": "The Weeknd",
+      "durationMs": 211814,
+      "playedAt": "2026-03-15T17:30:03.445Z"
+    },
+    {
+      "track": "Humility (feat. George Benson)",
+      "artists": "Gorillaz, George Benson",
+      "durationMs": 197933,
+      "playedAt": "2026-03-15T17:26:37.712Z"
+    },
+    {
+      "track": "Roommates",
+      "artists": "Malcolm Todd",
+      "durationMs": 214504,
+      "playedAt": "2026-03-15T17:23:24.599Z"
+    },
+    {
+      "track": "cocoa (with Don Toliver)",
+      "artists": "Baby Keem, Don Toliver",
+      "durationMs": 229608,
+      "playedAt": "2026-03-15T17:19:55.832Z"
+    },
+    {
+      "track": "Why Won't They Talk To Me?",
+      "artists": "Tame Impala",
+      "durationMs": 286093,
+      "playedAt": "2026-03-15T17:16:12.048Z"
+    },
+    {
+      "track": "Found (feat. Brent Faiyaz)",
+      "artists": "Tems, Brent Faiyaz",
+      "durationMs": 209454,
+      "playedAt": "2026-03-15T17:12:01.459Z"
+    },
+    {
+      "track": "Dreamcatcher (feat. Swae Lee & Travis Scott)",
+      "artists": "Metro Boomin, Swae Lee, Travis Scott",
+      "durationMs": 211920,
+      "playedAt": "2026-03-15T17:08:08.205Z"
+    },
+    {
+      "track": "Pyramids",
+      "artists": "Frank Ocean",
+      "durationMs": 592920,
+      "playedAt": "2026-03-15T17:04:41.492Z"
+    },
+    {
+      "track": "Homecoming",
+      "artists": "Kanye West, Chris Martin",
+      "durationMs": 203493,
+      "playedAt": "2026-03-15T16:54:54.216Z"
+    },
+    {
+      "track": "All Of The Time",
+      "artists": "Jungle",
+      "durationMs": 182040,
+      "playedAt": "2026-03-15T16:51:40.152Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-03-15T16:48:25.590Z"
+    },
+    {
+      "track": "Mirror",
+      "artists": "Kendrick Lamar",
+      "durationMs": 256006,
+      "playedAt": "2026-03-15T16:44:52.843Z"
+    },
+    {
+      "track": "Problemz",
+      "artists": "Jungle",
+      "durationMs": 184086,
+      "playedAt": "2026-03-15T16:40:42.855Z"
+    },
+    {
+      "track": "Electioneering",
+      "artists": "Radiohead",
+      "durationMs": 230626,
+      "playedAt": "2026-03-15T16:37:35.165Z"
+    },
     {
       "track": "ELEMENT.",
       "artists": "Kendrick Lamar",
