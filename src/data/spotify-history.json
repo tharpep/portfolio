@@ -1,6 +1,174 @@
 {
-  "lastCursor": "1773579403367",
+  "lastCursor": "1773585132906",
   "plays": [
+    {
+      "track": "EARFQUAKE",
+      "artists": "Tyler, The Creator",
+      "durationMs": 190072,
+      "playedAt": "2026-03-15T14:32:12.906Z"
+    },
+    {
+      "track": "intro",
+      "artists": "Orion Sun",
+      "durationMs": 180560,
+      "playedAt": "2026-03-15T14:29:08.409Z"
+    },
+    {
+      "track": "Heaven",
+      "artists": "John Legend",
+      "durationMs": 215675,
+      "playedAt": "2026-03-15T14:26:21.936Z"
+    },
+    {
+      "track": "Bobby Boucher",
+      "artists": "EARTHGANG, Spillage Village, Benji.",
+      "durationMs": 195200,
+      "playedAt": "2026-03-15T14:22:45.748Z"
+    },
+    {
+      "track": "Low",
+      "artists": "SZA",
+      "durationMs": 181080,
+      "playedAt": "2026-03-15T14:19:34.106Z"
+    },
+    {
+      "track": "Gospel For A New Century",
+      "artists": "Yves Tumor",
+      "durationMs": 198626,
+      "playedAt": "2026-03-15T14:16:38.381Z"
+    },
+    {
+      "track": "Come Over",
+      "artists": "LE SSERAFIM",
+      "durationMs": 137178,
+      "playedAt": "2026-03-15T14:13:25.622Z"
+    },
+    {
+      "track": "Slide (feat. Frank Ocean & Migos)",
+      "artists": "Calvin Harris, Frank Ocean, Migos, Funk Wav",
+      "durationMs": 230813,
+      "playedAt": "2026-03-15T14:11:08.049Z"
+    },
+    {
+      "track": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 268333,
+      "playedAt": "2026-03-15T14:07:35.414Z"
+    },
+    {
+      "track": "NEW MAGIC WAND",
+      "artists": "Tyler, The Creator",
+      "durationMs": 195327,
+      "playedAt": "2026-03-15T14:02:57.767Z"
+    },
+    {
+      "track": "Photo ID (with Dominic Fike)",
+      "artists": "Remi Wolf, Dominic Fike",
+      "durationMs": 209970,
+      "playedAt": "2026-03-15T13:59:48.938Z"
+    },
+    {
+      "track": "Heaven Only Knows",
+      "artists": "Towkio, Chance the Rapper, Lido, Eryn Allen Kane",
+      "durationMs": 224082,
+      "playedAt": "2026-03-15T13:56:23.754Z"
+    },
+    {
+      "track": "Just How You Are",
+      "artists": "Leon Thomas",
+      "durationMs": 194247,
+      "playedAt": "2026-03-15T13:52:45.869Z"
+    },
+    {
+      "track": "Each Day Gets Better",
+      "artists": "John Legend",
+      "durationMs": 228004,
+      "playedAt": "2026-03-15T13:49:06.657Z"
+    },
+    {
+      "track": "Mercury",
+      "artists": "Steve Lacy",
+      "durationMs": 295411,
+      "playedAt": "2026-03-15T13:45:22.441Z"
+    },
+    {
+      "track": "Hurts Me",
+      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
+      "durationMs": 140800,
+      "playedAt": "2026-03-15T13:40:51.509Z"
+    },
+    {
+      "track": "MY EYES",
+      "artists": "Travis Scott",
+      "durationMs": 251249,
+      "playedAt": "2026-03-15T13:38:17.349Z"
+    },
+    {
+      "track": "Human Happens",
+      "artists": "Magdalena Bay",
+      "durationMs": 243053,
+      "playedAt": "2026-03-15T13:34:12.965Z"
+    },
+    {
+      "track": "Digital Love",
+      "artists": "Daft Punk",
+      "durationMs": 301373,
+      "playedAt": "2026-03-15T13:30:15.908Z"
+    },
+    {
+      "track": "Target On My Chest",
+      "artists": "Brent Faiyaz",
+      "durationMs": 188274,
+      "playedAt": "2026-03-15T13:25:18.915Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-03-15T13:22:16.567Z"
+    },
+    {
+      "track": "Landline",
+      "artists": "binki",
+      "durationMs": 160329,
+      "playedAt": "2026-03-15T13:19:00.906Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-03-15T13:16:26.306Z"
+    },
+    {
+      "track": "World Domination",
+      "artists": "Joey Bada$$",
+      "durationMs": 162761,
+      "playedAt": "2026-03-15T13:11:31.984Z"
+    },
+    {
+      "track": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "durationMs": 199831,
+      "playedAt": "2026-03-15T13:08:55.033Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-03-15T13:05:40.693Z"
+    },
+    {
+      "track": "Forever Yours",
+      "artists": "Brent Faiyaz",
+      "durationMs": 96368,
+      "playedAt": "2026-03-15T13:00:43.299Z"
+    },
+    {
+      "track": "booman",
+      "artists": "Baby Keem",
+      "durationMs": 155153,
+      "playedAt": "2026-03-15T12:59:09.884Z"
+    },
     {
       "track": "Carried Away",
       "artists": "Men I Trust",
