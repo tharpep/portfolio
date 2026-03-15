@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1773585132906",
+  "lastCursor": "1773592430508",
   "plays": [
+    {
+      "track": "ELEMENT.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 208733,
+      "playedAt": "2026-03-15T16:33:50.508Z"
+    },
+    {
+      "track": "Ensenada",
+      "artists": "Sublime",
+      "durationMs": 154484,
+      "playedAt": "2026-03-15T16:30:11.243Z"
+    },
+    {
+      "track": "Let Her Go (feat. James Blake)",
+      "artists": "Don Toliver, James Blake",
+      "durationMs": 192720,
+      "playedAt": "2026-03-15T16:27:42.341Z"
+    },
+    {
+      "track": "STARGAZING",
+      "artists": "Travis Scott",
+      "durationMs": 270714,
+      "playedAt": "2026-03-15T16:24:36.230Z"
+    },
+    {
+      "track": "Mr. Rager",
+      "artists": "Kid Cudi",
+      "durationMs": 294226,
+      "playedAt": "2026-03-15T16:20:10.793Z"
+    },
+    {
+      "track": "Juice",
+      "artists": "Young Franco, Pell",
+      "durationMs": 211212,
+      "playedAt": "2026-03-15T16:15:03.282Z"
+    },
+    {
+      "track": "Trust",
+      "artists": "Brent Faiyaz",
+      "durationMs": 158420,
+      "playedAt": "2026-03-15T16:11:37.506Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-03-15T16:09:04.889Z"
+    },
+    {
+      "track": "Alright",
+      "artists": "Kendrick Lamar",
+      "durationMs": 194490,
+      "playedAt": "2026-03-15T16:06:17.714Z"
+    },
+    {
+      "track": "Wild and Free",
+      "artists": "Rednex",
+      "durationMs": 217612,
+      "playedAt": "2026-03-15T16:02:16.880Z"
+    },
+    {
+      "track": "N.Y. State of Mind",
+      "artists": "Nas",
+      "durationMs": 294081,
+      "playedAt": "2026-03-15T15:58:37.499Z"
+    },
+    {
+      "track": "King Kunta",
+      "artists": "Kendrick Lamar",
+      "durationMs": 234693,
+      "playedAt": "2026-03-15T15:53:53.914Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-03-15T15:49:41.447Z"
+    },
+    {
+      "track": "Helmet",
+      "artists": "Steve Lacy",
+      "durationMs": 201510,
+      "playedAt": "2026-03-15T15:46:25.231Z"
+    },
+    {
+      "track": "don't rely on other men",
+      "artists": "JPEGMAFIA",
+      "durationMs": 171906,
+      "playedAt": "2026-03-15T15:43:09.628Z"
+    },
+    {
+      "track": "Chrome Hearts [Feat. Zacari]",
+      "artists": "Denzel Curry, Zacari",
+      "durationMs": 201705,
+      "playedAt": "2026-03-15T15:40:23.437Z"
+    },
+    {
+      "track": "Walking On A Dream",
+      "artists": "Empire Of The Sun",
+      "durationMs": 198440,
+      "playedAt": "2026-03-15T15:37:07.877Z"
+    },
+    {
+      "track": "The Mission",
+      "artists": "Bakar",
+      "durationMs": 191478,
+      "playedAt": "2026-03-15T15:33:11.875Z"
+    },
+    {
+      "track": "Groceries",
+      "artists": "CARRTOONS, Nigel Hall",
+      "durationMs": 143606,
+      "playedAt": "2026-03-15T15:30:06.384Z"
+    },
+    {
+      "track": "WOW!",
+      "artists": "Berhana",
+      "durationMs": 157213,
+      "playedAt": "2026-03-15T15:27:48.392Z"
+    },
+    {
+      "track": "Two Worlds Apart",
+      "artists": "Little Simz",
+      "durationMs": 178066,
+      "playedAt": "2026-03-15T15:25:16.373Z"
+    },
+    {
+      "track": "Billie Toppy",
+      "artists": "Men I Trust",
+      "durationMs": 195289,
+      "playedAt": "2026-03-15T15:22:24.096Z"
+    },
+    {
+      "track": "STATS",
+      "artists": "Baby Keem",
+      "durationMs": 169828,
+      "playedAt": "2026-03-15T15:19:14.682Z"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artists": "Travis Scott, Kacy Hill",
+      "durationMs": 339066,
+      "playedAt": "2026-03-15T15:16:30.929Z"
+    },
+    {
+      "track": "X-Wing - Cold Blooded Soul Version",
+      "artists": "Denzel Curry",
+      "durationMs": 186280,
+      "playedAt": "2026-03-15T15:10:41.042Z"
+    },
+    {
+      "track": "Check the Rhime",
+      "artists": "A Tribe Called Quest",
+      "durationMs": 216693,
+      "playedAt": "2026-03-15T15:07:40.569Z"
+    },
+    {
+      "track": "Super Rich Kids",
+      "artists": "Frank Ocean, Earl Sweatshirt",
+      "durationMs": 304760,
+      "playedAt": "2026-03-15T15:04:09.699Z"
+    },
+    {
+      "track": "Neighbors",
+      "artists": "J. Cole",
+      "durationMs": 216520,
+      "playedAt": "2026-03-15T14:59:11.038Z"
+    },
+    {
+      "track": "BLUE SKY",
+      "artists": "Kid Cudi",
+      "durationMs": 221293,
+      "playedAt": "2026-03-15T14:55:39.888Z"
+    },
+    {
+      "track": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
+      "artists": "Kali Uchis, Tyler, The Creator, Bootsy Collins",
+      "durationMs": 207454,
+      "playedAt": "2026-03-15T14:47:39.197Z"
+    },
+    {
+      "track": "Poison",
+      "artists": "Bell Biv DeVoe",
+      "durationMs": 261853,
+      "playedAt": "2026-03-15T14:44:24.848Z"
+    },
     {
       "track": "EARFQUAKE",
       "artists": "Tyler, The Creator",
