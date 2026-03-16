@@ -1,3 +1,20 @@
 {
-  "weeks": []
+  "weeks": [
+    {
+      "week": "2026-W11",
+      "weekStart": "2026-03-09",
+      "weekEnd": "2026-03-15",
+      "totalMs": 159303993,
+      "trackCount": 720,
+      "topTrack": {
+        "name": "Elephant",
+        "artists": "Tame Impala",
+        "plays": 5
+      },
+      "topArtist": {
+        "name": "Tame Impala",
+        "plays": 55
+      }
+    }
+  ]
 }
