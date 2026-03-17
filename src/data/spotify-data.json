@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T17:05:15.781659Z",
+  "lastUpdated": "2026-03-17T19:05:40.114747Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
     },
     {
-      "name": "Lovin’ Me (feat. Phoebe Bridgers)",
-      "artists": "Kid Cudi, Phoebe Bridgers",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
-      "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
-    },
-    {
       "name": "Radio",
       "artists": "Bershy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
-      "name": "Apocalypse Dreams",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273370c12f82872c9cfaee80193",
-      "spotifyUrl": "https://open.spotify.com/track/7qU7vhCPKhkDiJYGoboISc"
+      "name": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
-      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+      "name": "Buttons",
+      "artists": "Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730dcc85b2805b361c4b8ccfbc",
+      "spotifyUrl": "https://open.spotify.com/track/11uXhnPkoGQtk3STW7ItHr"
+    },
+    {
+      "name": "Humans",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
+      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
     }
   ],
   "topTrackDay": {
