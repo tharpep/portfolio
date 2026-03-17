@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1773635530999",
+  "lastCursor": "1773766442675",
   "plays": [
+    {
+      "track": "Killin' It",
+      "artists": "P1Harmony",
+      "durationMs": 176133,
+      "playedAt": "2026-03-17T16:54:02.675Z"
+    },
+    {
+      "track": "Boom Boom Bass",
+      "artists": "RIIZE",
+      "durationMs": 152889,
+      "playedAt": "2026-03-17T16:54:02.481Z"
+    },
     {
       "track": "ANTIFRAGILE",
       "artists": "LE SSERAFIM",
@@ -4710,108 +4722,6 @@
       "artists": "Yot Club",
       "durationMs": 174935,
       "playedAt": "2026-03-09T17:06:23.613Z"
-    },
-    {
-      "track": "Willing To Trust (with Ty Dolla $ign)",
-      "artists": "Kid Cudi, Ty Dolla $ign",
-      "durationMs": 282053,
-      "playedAt": "2026-03-09T17:03:34.099Z"
-    },
-    {
-      "track": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
-      "artists": "A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
-      "durationMs": 260990,
-      "playedAt": "2026-03-09T16:58:57.868Z"
-    },
-    {
-      "track": "Run Your Mouth",
-      "artists": "The Marías",
-      "durationMs": 160000,
-      "playedAt": "2026-03-09T16:55:40.354Z"
-    },
-    {
-      "track": "Stumble",
-      "artists": "Kraak & Smaak, Parcels",
-      "durationMs": 270720,
-      "playedAt": "2026-03-09T16:55:28.181Z"
-    },
-    {
-      "track": "Balloon (feat. Doechii)",
-      "artists": "Tyler, The Creator, Doechii",
-      "durationMs": 154261,
-      "playedAt": "2026-03-09T16:47:45.356Z"
-    },
-    {
-      "track": "III. Telegraph Ave. (\"Oakland\" by Lloyd)",
-      "artists": "Childish Gambino",
-      "durationMs": 210673,
-      "playedAt": "2026-03-09T16:45:14.532Z"
-    },
-    {
-      "track": "What I Got",
-      "artists": "Sublime",
-      "durationMs": 170906,
-      "playedAt": "2026-03-09T16:41:49.836Z"
-    },
-    {
-      "track": "Ivy",
-      "artists": "Frank Ocean",
-      "durationMs": 249191,
-      "playedAt": "2026-03-09T16:39:04.551Z"
-    },
-    {
-      "track": "A$AP Forever (feat. Moby)",
-      "artists": "A$AP Rocky, Moby",
-      "durationMs": 233061,
-      "playedAt": "2026-03-09T16:35:00.948Z"
-    },
-    {
-      "track": "‘87 Stingray",
-      "artists": "Tory Lanez",
-      "durationMs": 141333,
-      "playedAt": "2026-03-09T16:31:13.990Z"
-    },
-    {
-      "track": "Heart Of A Lion (Kid Cudi Theme Music)",
-      "artists": "Kid Cudi",
-      "durationMs": 261359,
-      "playedAt": "2026-03-09T16:28:58.390Z"
-    },
-    {
-      "track": "Life Itself",
-      "artists": "Glass Animals",
-      "durationMs": 281406,
-      "playedAt": "2026-03-09T16:24:42.193Z"
-    },
-    {
-      "track": "NEVER",
-      "artists": "JID",
-      "durationMs": 241682,
-      "playedAt": "2026-03-09T16:20:06.804Z"
-    },
-    {
-      "track": "All Caps",
-      "artists": "Madvillain, Madlib, MF DOOM",
-      "durationMs": 130479,
-      "playedAt": "2026-03-09T16:16:10.791Z"
-    },
-    {
-      "track": "Humans",
-      "artists": "Night Tapes",
-      "durationMs": 251690,
-      "playedAt": "2026-03-09T16:14:07.678Z"
-    },
-    {
-      "track": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "durationMs": 225747,
-      "playedAt": "2026-03-09T16:10:00.052Z"
-    },
-    {
-      "track": "Nights",
-      "artists": "Frank Ocean",
-      "durationMs": 307151,
-      "playedAt": "2026-03-09T16:01:45.427Z"
     }
   ]
 }
