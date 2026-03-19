@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T14:51:43.312753Z",
+  "lastUpdated": "2026-03-19T17:00:38.587230Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -57,6 +51,12 @@
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
       "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     }
   ],
   "topTrackDay": {
