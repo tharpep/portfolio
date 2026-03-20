@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T02:22:56.853094Z",
+  "lastUpdated": "2026-03-20T05:16:25.844722Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Buttons",
-      "artists": "Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730dcc85b2805b361c4b8ccfbc",
-      "spotifyUrl": "https://open.spotify.com/track/11uXhnPkoGQtk3STW7ItHr"
-    },
-    {
       "name": "Humans",
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
       "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
+    },
+    {
+      "name": "Buttons",
+      "artists": "Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730dcc85b2805b361c4b8ccfbc",
+      "spotifyUrl": "https://open.spotify.com/track/11uXhnPkoGQtk3STW7ItHr"
     },
     {
       "name": "Radio",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
   },
   "weeklyListening": {
-    "totalMs": 26843538,
-    "trackCount": 137
+    "totalMs": 29014576,
+    "trackCount": 147
   },
   "ytdListening": {
-    "totalMs": 186147531,
-    "trackCount": 857
+    "totalMs": 188318569,
+    "trackCount": 867
   }
 }

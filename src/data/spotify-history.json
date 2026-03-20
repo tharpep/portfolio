@@ -1,6 +1,66 @@
 {
-  "lastCursor": "1773973117002",
+  "lastCursor": "1773981991552",
   "plays": [
+    {
+      "track": "This Is The World (I Made It For You)",
+      "artists": "Magdalena Bay",
+      "durationMs": 281786,
+      "playedAt": "2026-03-20T04:46:31.552Z"
+    },
+    {
+      "track": "Fuck Tha World",
+      "artists": "Dreamer Isioma",
+      "durationMs": 141538,
+      "playedAt": "2026-03-20T04:41:55.357Z"
+    },
+    {
+      "track": "The Boat I Row",
+      "artists": "Tame Impala",
+      "durationMs": 238320,
+      "playedAt": "2026-03-20T04:39:39.696Z"
+    },
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-03-20T04:35:47.003Z"
+    },
+    {
+      "track": "swordsman",
+      "artists": "Night Tapes",
+      "durationMs": 208075,
+      "playedAt": "2026-03-20T03:23:28.372Z"
+    },
+    {
+      "track": "Man On The Moon",
+      "artists": "Kid Cudi",
+      "durationMs": 210893,
+      "playedAt": "2026-03-20T03:20:05.963Z"
+    },
+    {
+      "track": "In The Night (feat. Jorja Smith & Amaarae)",
+      "artists": "Childish Gambino, Jorja Smith, Amaarae",
+      "durationMs": 229999,
+      "playedAt": "2026-03-20T03:16:40.780Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-03-20T03:12:56.271Z"
+    },
+    {
+      "track": "drifting",
+      "artists": "Night Tapes",
+      "durationMs": 212440,
+      "playedAt": "2026-03-20T03:09:16.442Z"
+    },
+    {
+      "track": "drifting",
+      "artists": "Night Tapes",
+      "durationMs": 212440,
+      "playedAt": "2026-03-20T03:08:55.376Z"
+    },
     {
       "track": "swordsman",
       "artists": "Night Tapes",
@@ -3432,36 +3492,6 @@
       "artists": "Orion Sun",
       "durationMs": 169822,
       "playedAt": "2026-03-12T15:42:42.997Z"
-    },
-    {
-      "track": "Champagne Coast",
-      "artists": "Blood Orange",
-      "durationMs": 292373,
-      "playedAt": "2026-03-12T03:00:44.816Z"
-    },
-    {
-      "track": "Ghost Town",
-      "artists": "Kanye West, PARTYNEXTDOOR",
-      "durationMs": 271386,
-      "playedAt": "2026-03-12T02:54:15.582Z"
-    },
-    {
-      "track": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "durationMs": 206012,
-      "playedAt": "2026-03-12T02:49:24.023Z"
-    },
-    {
-      "track": "Apocalypse Dreams",
-      "artists": "Tame Impala",
-      "durationMs": 356946,
-      "playedAt": "2026-03-12T02:46:03.397Z"
-    },
-    {
-      "track": "Gimme Love",
-      "artists": "Joji",
-      "durationMs": 214557,
-      "playedAt": "2026-03-12T02:39:36.628Z"
     }
   ]
 }
