@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1774023852288",
+  "lastCursor": "1774038936475",
   "plays": [
+    {
+      "track": "Zero (J.I.D Remix)",
+      "artists": "NewJeans, JID",
+      "durationMs": 224681,
+      "playedAt": "2026-03-20T20:35:36.475Z"
+    },
+    {
+      "track": "Smart",
+      "artists": "LE SSERAFIM",
+      "durationMs": 166384,
+      "playedAt": "2026-03-20T20:31:57.440Z"
+    },
+    {
+      "track": "Mama Said",
+      "artists": "KickFlip",
+      "durationMs": 176880,
+      "playedAt": "2026-03-20T20:29:16.758Z"
+    },
+    {
+      "track": "Mama Said",
+      "artists": "KickFlip",
+      "durationMs": 176880,
+      "playedAt": "2026-03-20T20:26:12.609Z"
+    },
     {
       "track": "Runners",
       "artists": "Stray Kids",
@@ -3174,78 +3198,6 @@
       "artists": "Dayglow",
       "durationMs": 278769,
       "playedAt": "2026-03-12T23:05:47.211Z"
-    },
-    {
-      "track": "Real Life",
-      "artists": "The Marías",
-      "durationMs": 206973,
-      "playedAt": "2026-03-12T19:32:53.009Z"
-    },
-    {
-      "track": "Glow",
-      "artists": "Alice Phoebe Lou",
-      "durationMs": 165412,
-      "playedAt": "2026-03-12T19:29:35.279Z"
-    },
-    {
-      "track": "Feels Like We Only Go Backwards",
-      "artists": "Tame Impala",
-      "durationMs": 192960,
-      "playedAt": "2026-03-12T19:26:51.956Z"
-    },
-    {
-      "track": "Myth",
-      "artists": "Beach House",
-      "durationMs": 258653,
-      "playedAt": "2026-03-12T19:23:45.108Z"
-    },
-    {
-      "track": "Nina",
-      "artists": "Crumb",
-      "durationMs": 200280,
-      "playedAt": "2026-03-12T19:19:31.826Z"
-    },
-    {
-      "track": "One More Hour",
-      "artists": "Tame Impala",
-      "durationMs": 432560,
-      "playedAt": "2026-03-12T19:15:53.401Z"
-    },
-    {
-      "track": "Are You Bored Yet? (feat. Clairo)",
-      "artists": "Wallows, Clairo",
-      "durationMs": 178000,
-      "playedAt": "2026-03-12T19:08:46.878Z"
-    },
-    {
-      "track": "Babydoll",
-      "artists": "Dominic Fike",
-      "durationMs": 97960,
-      "playedAt": "2026-03-12T19:05:54.416Z"
-    },
-    {
-      "track": "Dræm Girl",
-      "artists": "No Vacation",
-      "durationMs": 234631,
-      "playedAt": "2026-03-12T19:04:17.277Z"
-    },
-    {
-      "track": "Tek It",
-      "artists": "Cafuné",
-      "durationMs": 191823,
-      "playedAt": "2026-03-12T19:00:21.264Z"
-    },
-    {
-      "track": "Police Scanner",
-      "artists": "Chanel Beads",
-      "durationMs": 142456,
-      "playedAt": "2026-03-12T18:57:14.708Z"
-    },
-    {
-      "track": "Cannock Chase",
-      "artists": "Labi Siffre",
-      "durationMs": 246866,
-      "playedAt": "2026-03-12T18:54:59.798Z"
     }
   ]
 }
