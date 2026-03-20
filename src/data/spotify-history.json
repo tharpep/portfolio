@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1773981991552",
+  "lastCursor": "1773987430085",
   "plays": [
+    {
+      "track": "The Beginning",
+      "artists": "Magdalena Bay",
+      "durationMs": 241304,
+      "playedAt": "2026-03-20T06:17:10.085Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-03-20T06:13:08.139Z"
+    },
+    {
+      "track": "To Ease You",
+      "artists": "Men I Trust",
+      "durationMs": 192798,
+      "playedAt": "2026-03-20T06:09:28.482Z"
+    },
+    {
+      "track": "television",
+      "artists": "Night Tapes",
+      "durationMs": 211047,
+      "playedAt": "2026-03-20T06:06:19.898Z"
+    },
+    {
+      "track": "Shimmer Study No. 1",
+      "artists": "Levi McClain",
+      "durationMs": 70861,
+      "playedAt": "2026-03-20T06:02:46.526Z"
+    },
     {
       "track": "This Is The World (I Made It For You)",
       "artists": "Magdalena Bay",
