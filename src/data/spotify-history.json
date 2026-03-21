@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1774070777567",
+  "lastCursor": "1774097477505",
   "plays": [
+    {
+      "track": "Skyline To",
+      "artists": "Frank Ocean",
+      "durationMs": 184600,
+      "playedAt": "2026-03-21T12:51:17.505Z"
+    },
+    {
+      "track": "Luv (sic)",
+      "artists": "Nujabes",
+      "durationMs": 286320,
+      "playedAt": "2026-03-21T12:48:19.806Z"
+    },
+    {
+      "track": "Instant Crush (feat. Julian Casablancas)",
+      "artists": "Daft Punk, Julian Casablancas",
+      "durationMs": 337560,
+      "playedAt": "2026-03-21T12:43:37.800Z"
+    },
+    {
+      "track": "Tessellate",
+      "artists": "alt-J",
+      "durationMs": 181400,
+      "playedAt": "2026-03-21T12:38:05.976Z"
+    },
+    {
+      "track": "Equal Trouble",
+      "artists": "Blue Material",
+      "durationMs": 242102,
+      "playedAt": "2026-03-21T12:35:10.263Z"
+    },
+    {
+      "track": "Into the Sun",
+      "artists": "BTS",
+      "durationMs": 227660,
+      "playedAt": "2026-03-21T12:31:25.901Z"
+    },
     {
       "track": "television",
       "artists": "Night Tapes",
