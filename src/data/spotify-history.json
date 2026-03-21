@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1774103193097",
+  "lastCursor": "1774110682574",
   "plays": [
+    {
+      "track": "Chaeri",
+      "artists": "Magdalena Bay",
+      "durationMs": 257130,
+      "playedAt": "2026-03-21T16:31:22.574Z"
+    },
+    {
+      "track": "5 Dollar Pony Rides",
+      "artists": "Mac Miller",
+      "durationMs": 222119,
+      "playedAt": "2026-03-21T16:27:12.049Z"
+    },
+    {
+      "track": "Prototype",
+      "artists": "Outkast",
+      "durationMs": 326240,
+      "playedAt": "2026-03-21T16:23:34.552Z"
+    },
+    {
+      "track": "One More Night",
+      "artists": "BTS",
+      "durationMs": 167589,
+      "playedAt": "2026-03-21T16:18:20.769Z"
+    },
+    {
+      "track": "Pink Matter",
+      "artists": "Frank Ocean, André 3000",
+      "durationMs": 268813,
+      "playedAt": "2026-03-21T16:15:32.318Z"
+    },
+    {
+      "track": "Man On The Moon",
+      "artists": "Kid Cudi",
+      "durationMs": 210893,
+      "playedAt": "2026-03-21T16:11:09.261Z"
+    },
+    {
+      "track": "White (feat. Frank Ocean)",
+      "artists": "Odd Future, Frank Ocean",
+      "durationMs": 122933,
+      "playedAt": "2026-03-21T16:07:44.730Z"
+    },
+    {
+      "track": "Kingdom Hearts Key (ft. redveil)",
+      "artists": "JPEGMAFIA, Danny Brown, redveil",
+      "durationMs": 205320,
+      "playedAt": "2026-03-21T16:05:47.396Z"
+    },
+    {
+      "track": "Blur",
+      "artists": "The Marías",
+      "durationMs": 225106,
+      "playedAt": "2026-03-21T16:02:27.548Z"
+    },
+    {
+      "track": "Her",
+      "artists": "The American Dawn",
+      "durationMs": 214086,
+      "playedAt": "2026-03-21T15:59:18.237Z"
+    },
+    {
+      "track": "The Dress",
+      "artists": "Dijon",
+      "durationMs": 184767,
+      "playedAt": "2026-03-21T15:55:19.923Z"
+    },
+    {
+      "track": "Eventually",
+      "artists": "Tame Impala",
+      "durationMs": 318591,
+      "playedAt": "2026-03-21T15:52:22.229Z"
+    },
+    {
+      "track": "Trust",
+      "artists": "Brent Faiyaz",
+      "durationMs": 158420,
+      "playedAt": "2026-03-21T15:47:07.513Z"
+    },
+    {
+      "track": "Beat laments the world",
+      "artists": "Nujabes",
+      "durationMs": 263373,
+      "playedAt": "2026-03-21T15:44:34.714Z"
+    },
+    {
+      "track": "She Stole My Heart",
+      "artists": "Ark Woods",
+      "durationMs": 213499,
+      "playedAt": "2026-03-21T15:40:02.884Z"
+    },
+    {
+      "track": "Domino",
+      "artists": "Magdalena Bay",
+      "durationMs": 222521,
+      "playedAt": "2026-03-21T15:36:42.427Z"
+    },
+    {
+      "track": "telepatía",
+      "artists": "Kali Uchis",
+      "durationMs": 160191,
+      "playedAt": "2026-03-21T15:32:58.264Z"
+    },
+    {
+      "track": "In My Room",
+      "artists": "Frank Ocean",
+      "durationMs": 133680,
+      "playedAt": "2026-03-21T15:30:23.997Z"
+    },
+    {
+      "track": "Another Stone",
+      "artists": "Men I Trust",
+      "durationMs": 190280,
+      "playedAt": "2026-03-21T15:28:15.795Z"
+    },
+    {
+      "track": "In Your Eyes",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 247054,
+      "playedAt": "2026-03-21T15:25:11.976Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-03-21T15:12:32.331Z"
+    },
+    {
+      "track": "HIGHEST IN THE ROOM",
+      "artists": "Travis Scott",
+      "durationMs": 175720,
+      "playedAt": "2026-03-21T15:04:50.632Z"
+    },
+    {
+      "track": "Pursuit Of Happiness (Nightmare)",
+      "artists": "Kid Cudi, MGMT, Ratatat",
+      "durationMs": 295293,
+      "playedAt": "2026-03-21T15:02:00.951Z"
+    },
+    {
+      "track": "Novacane",
+      "artists": "Frank Ocean",
+      "durationMs": 302346,
+      "playedAt": "2026-03-21T14:57:11.003Z"
+    },
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-03-21T14:52:14.663Z"
+    },
+    {
+      "track": "Nearsight [SID]",
+      "artists": "Miguel",
+      "durationMs": 258801,
+      "playedAt": "2026-03-21T14:48:16.881Z"
+    },
+    {
+      "track": "I Must Apologise",
+      "artists": "PinkPantheress",
+      "durationMs": 108373,
+      "playedAt": "2026-03-21T14:44:03.558Z"
+    },
+    {
+      "track": "Chewing Gum",
+      "artists": "Blood Orange, A$AP Rocky, Project Pat",
+      "durationMs": 263869,
+      "playedAt": "2026-03-21T14:42:11.814Z"
+    },
+    {
+      "track": "Let Me Go",
+      "artists": "Daniel Caesar",
+      "durationMs": 216524,
+      "playedAt": "2026-03-21T14:37:53.801Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-03-21T14:34:22.441Z"
+    },
+    {
+      "track": "G2g",
+      "artists": "Berhana",
+      "durationMs": 264683,
+      "playedAt": "2026-03-21T14:30:51.463Z"
+    },
     {
       "track": "Tile By Tile",
       "artists": "Alvvays",
@@ -3474,60 +3660,6 @@
       "artists": "Denzel Curry",
       "durationMs": 186280,
       "playedAt": "2026-03-13T23:17:10.459Z"
-    },
-    {
-      "track": "Husk",
-      "artists": "Men I Trust",
-      "durationMs": 204651,
-      "playedAt": "2026-03-13T15:33:32.949Z"
-    },
-    {
-      "track": "Landline",
-      "artists": "binki",
-      "durationMs": 160329,
-      "playedAt": "2026-03-13T15:30:12.001Z"
-    },
-    {
-      "track": "Gamesofluck",
-      "artists": "Parcels",
-      "durationMs": 348093,
-      "playedAt": "2026-03-13T15:27:25.324Z"
-    },
-    {
-      "track": "Show Me the Right",
-      "artists": "NEIL FRANCES",
-      "durationMs": 204000,
-      "playedAt": "2026-03-13T15:21:40.466Z"
-    },
-    {
-      "track": "II. Shadows",
-      "artists": "Childish Gambino",
-      "durationMs": 231746,
-      "playedAt": "2026-03-13T15:18:22.690Z"
-    },
-    {
-      "track": "swordsman",
-      "artists": "Night Tapes",
-      "durationMs": 208075,
-      "playedAt": "2026-03-13T15:14:36.619Z"
-    },
-    {
-      "track": "Under The Sun (with J. Cole & Lute feat. DaBaby)",
-      "artists": "Dreamville, J. Cole, Lute, DaBaby",
-      "durationMs": 202040,
-      "playedAt": "2026-03-13T15:11:08.347Z"
-    },
-    {
-      "track": "Gospel For A New Century",
-      "artists": "Yves Tumor",
-      "durationMs": 198626,
-      "playedAt": "2026-03-13T15:00:58.022Z"
-    },
-    {
-      "track": "The Boat I Row",
-      "artists": "Tame Impala",
-      "durationMs": 238320,
-      "playedAt": "2026-03-13T14:57:18.596Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T14:29:45.806309Z",
+  "lastUpdated": "2026-03-21T16:33:37.849393Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    },
+    {
       "name": "Equal Trouble",
       "artists": "Blue Material",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
@@ -51,12 +57,6 @@
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
       "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
-    },
-    {
-      "name": "Buttons",
-      "artists": "Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730dcc85b2805b361c4b8ccfbc",
-      "spotifyUrl": "https://open.spotify.com/track/11uXhnPkoGQtk3STW7ItHr"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
   },
   "weeklyListening": {
-    "totalMs": 50308447,
-    "trackCount": 249
+    "totalMs": 57425946,
+    "trackCount": 280
   },
   "ytdListening": {
-    "totalMs": 209612440,
-    "trackCount": 969
+    "totalMs": 216729939,
+    "trackCount": 1000
   }
 }
