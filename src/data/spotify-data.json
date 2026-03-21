@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T18:39:34.676282Z",
+  "lastUpdated": "2026-03-21T20:30:13.583270Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
+      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    },
+    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -39,12 +45,6 @@
       "artists": "Bershy",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
-      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
     },
     {
       "name": "Equal Trouble",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "Best to You",
-    "artists": "Blood Orange, Empress Of",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
-    "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    "name": "Dramatic Girl (feat. Che Ecru)",
+    "artists": "Baby Keem, Che Ecru",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
+    "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
   },
   "weeklyListening": {
-    "totalMs": 64667774,
-    "trackCount": 312
+    "totalMs": 71105994,
+    "trackCount": 342
   },
   "ytdListening": {
-    "totalMs": 223971767,
-    "trackCount": 1032
+    "totalMs": 230409987,
+    "trackCount": 1062
   }
 }
