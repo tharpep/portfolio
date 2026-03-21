@@ -1,6 +1,120 @@
 {
-  "lastCursor": "1774124924232",
+  "lastCursor": "1774131957765",
   "plays": [
+    {
+      "track": "Sea Gets Hotter",
+      "artists": "Durand Jones & The Indications, Durand Jones, Aaron Frazer",
+      "durationMs": 197226,
+      "playedAt": "2026-03-21T22:25:57.765Z"
+    },
+    {
+      "track": "THANK GOD",
+      "artists": "Travis Scott",
+      "durationMs": 184888,
+      "playedAt": "2026-03-21T22:22:32.475Z"
+    },
+    {
+      "track": "Wesley's Theory",
+      "artists": "Kendrick Lamar, George Clinton, Thundercat",
+      "durationMs": 287360,
+      "playedAt": "2026-03-21T22:19:36.028Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-03-21T22:14:52.608Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-03-21T22:08:12.923Z"
+    },
+    {
+      "track": "Scott Mescudi Vs. The World",
+      "artists": "Kid Cudi, CeeLo Green",
+      "durationMs": 235293,
+      "playedAt": "2026-03-21T22:04:43.700Z"
+    },
+    {
+      "track": "Humans",
+      "artists": "Night Tapes",
+      "durationMs": 251690,
+      "playedAt": "2026-03-21T22:00:54.544Z"
+    },
+    {
+      "track": "gloria (with sza)",
+      "artists": "Kendrick Lamar, SZA",
+      "durationMs": 287522,
+      "playedAt": "2026-03-21T21:56:48.028Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-03-21T21:52:06.530Z"
+    },
+    {
+      "track": "PRIDE.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 275253,
+      "playedAt": "2026-03-21T21:07:11.836Z"
+    },
+    {
+      "track": "ARE YOU WITH THAT?",
+      "artists": "Vince Staples",
+      "durationMs": 138410,
+      "playedAt": "2026-03-21T21:02:42.336Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-03-21T21:00:29.794Z"
+    },
+    {
+      "track": "TELEKINESIS (feat. SZA & Future)",
+      "artists": "Travis Scott, SZA, Future",
+      "durationMs": 353754,
+      "playedAt": "2026-03-21T20:57:26.617Z"
+    },
+    {
+      "track": "II. Shadows",
+      "artists": "Childish Gambino",
+      "durationMs": 231746,
+      "playedAt": "2026-03-21T20:51:25.106Z"
+    },
+    {
+      "track": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+      "artists": "Travis Scott, James Blake, 21 Savage",
+      "durationMs": 314836,
+      "playedAt": "2026-03-21T20:47:31.668Z"
+    },
+    {
+      "track": "MY EYES",
+      "artists": "Travis Scott",
+      "durationMs": 251249,
+      "playedAt": "2026-03-21T20:42:22.621Z"
+    },
+    {
+      "track": "Hurts Me",
+      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
+      "durationMs": 140800,
+      "playedAt": "2026-03-21T20:38:11.088Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-03-21T20:35:55.865Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-03-21T20:31:59.608Z"
+    },
     {
       "track": "Superpowers",
       "artists": "Daniel Caesar",
