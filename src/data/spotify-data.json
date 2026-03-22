@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T22:28:30.859709Z",
+  "lastUpdated": "2026-03-22T02:30:41.032599Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,10 +29,10 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
-      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+      "name": "Humans",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
+      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
     },
     {
       "name": "Best to You",
@@ -47,30 +47,30 @@
       "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
+      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    },
+    {
       "name": "Equal Trouble",
       "artists": "Blue Material",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
       "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
-    },
-    {
-      "name": "Humans",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
-      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
     }
   ],
   "topTrackDay": {
-    "name": "Dramatic Girl (feat. Che Ecru)",
-    "artists": "Baby Keem, Che Ecru",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
-    "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+    "name": "Humans",
+    "artists": "Night Tapes",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
+    "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 75536482,
-    "trackCount": 361
+    "totalMs": 86882734,
+    "trackCount": 411
   },
   "ytdListening": {
-    "totalMs": 234840475,
-    "trackCount": 1081
+    "totalMs": 246186727,
+    "trackCount": 1131
   }
 }
