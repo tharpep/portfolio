@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T14:58:02.751484Z",
+  "lastUpdated": "2026-03-23T16:57:38.292549Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
+      "name": "Smile The Day After Today",
+      "artists": "Black Moth Super Rainbow",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f64d1c0adea1b4a4d86b1844",
+      "spotifyUrl": "https://open.spotify.com/track/3d2IeXv14uLNn8LyBAuOEI"
+    },
+    {
       "name": "Equal Trouble",
       "artists": "Blue Material",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
       "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
-      "name": "Smile The Day After Today",
-      "artists": "Black Moth Super Rainbow",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f64d1c0adea1b4a4d86b1844",
-      "spotifyUrl": "https://open.spotify.com/track/3d2IeXv14uLNn8LyBAuOEI"
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 10183977,
-    "trackCount": 53
+    "totalMs": 15764794,
+    "trackCount": 83
   },
   "ytdListening": {
-    "totalMs": 272430551,
-    "trackCount": 1266
+    "totalMs": 278011368,
+    "trackCount": 1296
   }
 }
