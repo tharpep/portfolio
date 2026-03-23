@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T13:13:34.676729Z",
+  "lastUpdated": "2026-03-23T14:58:02.751484Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
-    },
-    {
       "name": "Equal Trouble",
       "artists": "Blue Material",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
       "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
+    },
+    {
+      "name": "Radio",
+      "artists": "Bershy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
+      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
     },
     {
       "name": "Smile The Day After Today",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 7641163,
-    "trackCount": 40
+    "totalMs": 10183977,
+    "trackCount": 53
   },
   "ytdListening": {
-    "totalMs": 269887737,
-    "trackCount": 1253
+    "totalMs": 272430551,
+    "trackCount": 1266
   }
 }
