@@ -1,6 +1,180 @@
 {
-  "lastCursor": "1774371622610",
+  "lastCursor": "1774379134395",
   "plays": [
+    {
+      "track": "Seek & Destroy",
+      "artists": "SZA",
+      "durationMs": 203733,
+      "playedAt": "2026-03-24T19:05:34.395Z"
+    },
+    {
+      "track": "Novacane",
+      "artists": "Frank Ocean",
+      "durationMs": 302346,
+      "playedAt": "2026-03-24T19:02:16.328Z"
+    },
+    {
+      "track": "SPACE INVADER",
+      "artists": "KAYTRANADA",
+      "durationMs": 274302,
+      "playedAt": "2026-03-24T18:57:19.827Z"
+    },
+    {
+      "track": "Soundtrack 2 My Life",
+      "artists": "Kid Cudi",
+      "durationMs": 235626,
+      "playedAt": "2026-03-24T18:52:37.776Z"
+    },
+    {
+      "track": "ADDICTIONS (FEAT. Tre' Amani)",
+      "artists": "Brent Faiyaz, Tre' Amani",
+      "durationMs": 192010,
+      "playedAt": "2026-03-24T18:48:36.474Z"
+    },
+    {
+      "track": "Overdue (with Travis Scott)",
+      "artists": "Metro Boomin, Travis Scott",
+      "durationMs": 166093,
+      "playedAt": "2026-03-24T18:45:21.385Z"
+    },
+    {
+      "track": "New Person, Same Old Mistakes",
+      "artists": "Tame Impala",
+      "durationMs": 363240,
+      "playedAt": "2026-03-24T18:42:40.718Z"
+    },
+    {
+      "track": "Many Times",
+      "artists": "Dijon",
+      "durationMs": 126905,
+      "playedAt": "2026-03-24T18:36:26.563Z"
+    },
+    {
+      "track": "Cicada",
+      "artists": "Good Kid",
+      "durationMs": 166955,
+      "playedAt": "2026-03-24T18:34:13.036Z"
+    },
+    {
+      "track": "Dræm Girl",
+      "artists": "No Vacation",
+      "durationMs": 234631,
+      "playedAt": "2026-03-24T18:31:32.346Z"
+    },
+    {
+      "track": "Glow",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 165412,
+      "playedAt": "2026-03-24T18:27:43.195Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-03-24T18:25:03.851Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-03-24T18:22:16.977Z"
+    },
+    {
+      "track": "4EVER",
+      "artists": "Clairo",
+      "durationMs": 159595,
+      "playedAt": "2026-03-24T18:18:54.166Z"
+    },
+    {
+      "track": "Do You Like Me?",
+      "artists": "Daniel Caesar",
+      "durationMs": 227663,
+      "playedAt": "2026-03-24T18:16:16.382Z"
+    },
+    {
+      "track": "Long Live A$AP",
+      "artists": "A$AP Rocky",
+      "durationMs": 289586,
+      "playedAt": "2026-03-24T18:12:34.183Z"
+    },
+    {
+      "track": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+      "artists": "Metro Boomin, A$AP Rocky, Roisee",
+      "durationMs": 256026,
+      "playedAt": "2026-03-24T17:56:19.500Z"
+    },
+    {
+      "track": "Uncle ACE",
+      "artists": "Blood Orange",
+      "durationMs": 256693,
+      "playedAt": "2026-03-24T17:52:09.011Z"
+    },
+    {
+      "track": "the way things go",
+      "artists": "beabadoobee",
+      "durationMs": 187800,
+      "playedAt": "2026-03-24T17:47:50.590Z"
+    },
+    {
+      "track": "Swangin’ On Westheimer",
+      "artists": "Don Toliver",
+      "durationMs": 288852,
+      "playedAt": "2026-03-24T17:44:59.304Z"
+    },
+    {
+      "track": "DARE (feat. Shaun Ryder & Roses Gabor)",
+      "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
+      "durationMs": 244999,
+      "playedAt": "2026-03-24T17:40:05.390Z"
+    },
+    {
+      "track": "Nadja",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 246720,
+      "playedAt": "2026-03-24T17:33:44.475Z"
+    },
+    {
+      "track": "Lovers Rock",
+      "artists": "TV Girl",
+      "durationMs": 213920,
+      "playedAt": "2026-03-24T17:29:42.952Z"
+    },
+    {
+      "track": "Desire Be Desire Go",
+      "artists": "Tame Impala",
+      "durationMs": 266306,
+      "playedAt": "2026-03-24T17:26:15.212Z"
+    },
+    {
+      "track": "Let Her Go (feat. James Blake)",
+      "artists": "Don Toliver, James Blake",
+      "durationMs": 192720,
+      "playedAt": "2026-03-24T17:21:54.400Z"
+    },
+    {
+      "track": "Luv(sic.) pt3 (feat. Shing02)",
+      "artists": "Nujabes, Shing02",
+      "durationMs": 336866,
+      "playedAt": "2026-03-24T17:18:47.169Z"
+    },
+    {
+      "track": "PRIDE.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 275253,
+      "playedAt": "2026-03-24T17:13:17.067Z"
+    },
+    {
+      "track": "Lauren",
+      "artists": "Men I Trust",
+      "durationMs": 222680,
+      "playedAt": "2026-03-24T17:08:46.340Z"
+    },
+    {
+      "track": "Patience",
+      "artists": "Tame Impala",
+      "durationMs": 292267,
+      "playedAt": "2026-03-24T17:05:09.272Z"
+    },
     {
       "track": "Guilty Conscience - Tame Impala Remix",
       "artists": "070 Shake, Tame Impala",
