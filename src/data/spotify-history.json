@@ -1,6 +1,24 @@
 {
-  "lastCursor": "1774379134395",
+  "lastCursor": "1774379691116",
   "plays": [
+    {
+      "track": "Sundress",
+      "artists": "A$AP Rocky",
+      "durationMs": 158205,
+      "playedAt": "2026-03-24T19:14:51.116Z"
+    },
+    {
+      "track": "Sugar",
+      "artists": "Men I Trust",
+      "durationMs": 176315,
+      "playedAt": "2026-03-24T19:12:18.300Z"
+    },
+    {
+      "track": "The Ways (with Swae Lee)",
+      "artists": "Khalid, Swae Lee",
+      "durationMs": 238893,
+      "playedAt": "2026-03-24T19:09:27.602Z"
+    },
     {
       "track": "Seek & Destroy",
       "artists": "SZA",
