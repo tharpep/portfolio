@@ -1,6 +1,276 @@
 {
-  "lastCursor": "1774305314427",
+  "lastCursor": "1774317860667",
   "plays": [
+    {
+      "track": "By Design",
+      "artists": "Kid Cudi, André Benjamin",
+      "durationMs": 257053,
+      "playedAt": "2026-03-24T02:04:20.667Z"
+    },
+    {
+      "track": "THE zone~",
+      "artists": "Lil Yachty",
+      "durationMs": 249685,
+      "playedAt": "2026-03-24T01:35:28.902Z"
+    },
+    {
+      "track": "New Person, Same Old Mistakes",
+      "artists": "Tame Impala",
+      "durationMs": 363240,
+      "playedAt": "2026-03-24T01:31:25.102Z"
+    },
+    {
+      "track": "Any Colour You Like",
+      "artists": "Pink Floyd",
+      "durationMs": 205773,
+      "playedAt": "2026-03-24T01:25:36.598Z"
+    },
+    {
+      "track": "Humans",
+      "artists": "Night Tapes",
+      "durationMs": 251690,
+      "playedAt": "2026-03-24T01:21:45.918Z"
+    },
+    {
+      "track": "Cigarettes out the Window",
+      "artists": "TV Girl",
+      "durationMs": 198960,
+      "playedAt": "2026-03-24T01:17:39.567Z"
+    },
+    {
+      "track": "Champagne Coast",
+      "artists": "Blood Orange",
+      "durationMs": 292373,
+      "playedAt": "2026-03-24T01:11:59.899Z"
+    },
+    {
+      "track": "Save My Love - Live at the Palm Tree Festival, Aspen",
+      "artists": "Kygo, Khalid, Gryffin",
+      "durationMs": 217600,
+      "playedAt": "2026-03-24T01:08:07.607Z"
+    },
+    {
+      "track": "Visions",
+      "artists": "Loving",
+      "durationMs": 233558,
+      "playedAt": "2026-03-24T01:07:13.215Z"
+    },
+    {
+      "track": "Nonviolent Communication (Metro Boomin & James Blake, A$AP Rocky, 21 Savage)",
+      "artists": "Metro Boomin, James Blake, A$AP Rocky, 21 Savage",
+      "durationMs": 209533,
+      "playedAt": "2026-03-24T01:03:25.135Z"
+    },
+    {
+      "track": "Sweet Life",
+      "artists": "Frank Ocean",
+      "durationMs": 262680,
+      "playedAt": "2026-03-24T01:00:01.490Z"
+    },
+    {
+      "track": "The Path Less Travelled",
+      "artists": "Vegyn",
+      "durationMs": 224303,
+      "playedAt": "2026-03-24T00:55:44.305Z"
+    },
+    {
+      "track": "Feels Like We Only Go Backwards",
+      "artists": "Tame Impala",
+      "durationMs": 192960,
+      "playedAt": "2026-03-24T00:52:05.805Z"
+    },
+    {
+      "track": "Everything In Its Right Place",
+      "artists": "Radiohead",
+      "durationMs": 251426,
+      "playedAt": "2026-03-24T00:48:41.766Z"
+    },
+    {
+      "track": "Lucky Strike",
+      "artists": "Berhana",
+      "durationMs": 204404,
+      "playedAt": "2026-03-24T00:44:36.271Z"
+    },
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-03-24T00:41:17.294Z"
+    },
+    {
+      "track": "Loser",
+      "artists": "Tame Impala",
+      "durationMs": 223069,
+      "playedAt": "2026-03-24T00:38:28.314Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-03-24T00:34:50.727Z"
+    },
+    {
+      "track": "Lost",
+      "artists": "Frank Ocean",
+      "durationMs": 234093,
+      "playedAt": "2026-03-24T00:31:46.615Z"
+    },
+    {
+      "track": "House In LA",
+      "artists": "Jungle",
+      "durationMs": 283822,
+      "playedAt": "2026-03-24T00:27:58.517Z"
+    },
+    {
+      "track": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
+      "artists": "Kali Uchis, Tyler, The Creator, Bootsy Collins",
+      "durationMs": 207454,
+      "playedAt": "2026-03-24T00:23:20.197Z"
+    },
+    {
+      "track": "Situation",
+      "artists": "Don Toliver",
+      "durationMs": 140963,
+      "playedAt": "2026-03-24T00:15:21.257Z"
+    },
+    {
+      "track": "Summers Over Interlude",
+      "artists": "Drake, Majid Jordan",
+      "durationMs": 106333,
+      "playedAt": "2026-03-24T00:13:06.465Z"
+    },
+    {
+      "track": "One More Hour",
+      "artists": "Tame Impala",
+      "durationMs": 432560,
+      "playedAt": "2026-03-24T00:11:25.801Z"
+    },
+    {
+      "track": "No One Knows",
+      "artists": "Brent Faiyaz",
+      "durationMs": 271246,
+      "playedAt": "2026-03-23T23:59:44.555Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-03-23T23:49:55.520Z"
+    },
+    {
+      "track": "Love You Anyway",
+      "artists": "The Marías",
+      "durationMs": 237133,
+      "playedAt": "2026-03-23T23:45:13.029Z"
+    },
+    {
+      "track": "Man On The Moon",
+      "artists": "Kid Cudi",
+      "durationMs": 210893,
+      "playedAt": "2026-03-23T23:41:21.611Z"
+    },
+    {
+      "track": "Riot!",
+      "artists": "Earl Sweatshirt",
+      "durationMs": 66133,
+      "playedAt": "2026-03-23T23:37:56.384Z"
+    },
+    {
+      "track": "LVL",
+      "artists": "A$AP Rocky",
+      "durationMs": 220133,
+      "playedAt": "2026-03-23T23:36:56.839Z"
+    },
+    {
+      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
+      "artists": "SZA, Phoebe Bridgers",
+      "durationMs": 218586,
+      "playedAt": "2026-03-23T23:33:21.431Z"
+    },
+    {
+      "track": "Crossfaded",
+      "artists": "Don Toliver",
+      "durationMs": 159033,
+      "playedAt": "2026-03-23T23:29:48.573Z"
+    },
+    {
+      "track": "After Hours",
+      "artists": "The Weeknd",
+      "durationMs": 361026,
+      "playedAt": "2026-03-23T23:27:15.292Z"
+    },
+    {
+      "track": "Kingdom Hearts Key (ft. redveil)",
+      "artists": "JPEGMAFIA, Danny Brown, redveil",
+      "durationMs": 205320,
+      "playedAt": "2026-03-23T23:21:20.062Z"
+    },
+    {
+      "track": "Snooze",
+      "artists": "SZA",
+      "durationMs": 201800,
+      "playedAt": "2026-03-23T23:18:00.405Z"
+    },
+    {
+      "track": "Diddy Bop",
+      "artists": "Noname, Raury, Cam O'bi",
+      "durationMs": 208000,
+      "playedAt": "2026-03-23T23:14:44.282Z"
+    },
+    {
+      "track": "Cool It",
+      "artists": "Dejima",
+      "durationMs": 102922,
+      "playedAt": "2026-03-23T23:11:21.954Z"
+    },
+    {
+      "track": "Overdue (with Travis Scott)",
+      "artists": "Metro Boomin, Travis Scott",
+      "durationMs": 166093,
+      "playedAt": "2026-03-23T23:09:44.830Z"
+    },
+    {
+      "track": "Coming Back (feat. SZA)",
+      "artists": "James Blake, SZA",
+      "durationMs": 195905,
+      "playedAt": "2026-03-23T23:07:04.278Z"
+    },
+    {
+      "track": "Dead Man Walking",
+      "artists": "Brent Faiyaz",
+      "durationMs": 247079,
+      "playedAt": "2026-03-23T23:03:54.329Z"
+    },
+    {
+      "track": "cassiopeia",
+      "artists": "GODBY",
+      "durationMs": 262186,
+      "playedAt": "2026-03-23T22:59:52.777Z"
+    },
+    {
+      "track": "My Love",
+      "artists": "Hannah Jadagu",
+      "durationMs": 164956,
+      "playedAt": "2026-03-23T22:55:36.197Z"
+    },
+    {
+      "track": "How Soon Is Now? - 2011 Remaster",
+      "artists": "The Smiths",
+      "durationMs": 408173,
+      "playedAt": "2026-03-23T22:52:56.957Z"
+    },
+    {
+      "track": "BLUE",
+      "artists": "Billie Eilish",
+      "durationMs": 343120,
+      "playedAt": "2026-03-23T22:45:53.929Z"
+    },
+    {
+      "track": "Pursuit Of Happiness (Nightmare)",
+      "artists": "Kid Cudi, MGMT, Ratatat",
+      "durationMs": 295293,
+      "playedAt": "2026-03-23T22:40:04.163Z"
+    },
     {
       "track": "Changes",
       "artists": "A$AP Rocky",
@@ -3378,276 +3648,6 @@
       "artists": "Lil Uzi Vert",
       "durationMs": 182706,
       "playedAt": "2026-03-16T02:24:36.934Z"
-    },
-    {
-      "track": "Robbery",
-      "artists": "Juice WRLD",
-      "durationMs": 240050,
-      "playedAt": "2026-03-16T02:21:39.852Z"
-    },
-    {
-      "track": "Rolex",
-      "artists": "Ayo & Teo",
-      "durationMs": 238586,
-      "playedAt": "2026-03-16T02:17:45.413Z"
-    },
-    {
-      "track": "VIBES DON'T LIE (Live) | Spotify Best New Artist",
-      "artists": "Leon Thomas",
-      "durationMs": 218559,
-      "playedAt": "2026-03-16T02:12:46.703Z"
-    },
-    {
-      "track": "Rolex",
-      "artists": "Ayo & Teo",
-      "durationMs": 238586,
-      "playedAt": "2026-03-16T02:12:45.138Z"
-    },
-    {
-      "track": "iSpy (feat. Lil Yachty)",
-      "artists": "KYLE, Lil Yachty",
-      "durationMs": 253106,
-      "playedAt": "2026-03-16T01:57:55.580Z"
-    },
-    {
-      "track": "Took Her To The O",
-      "artists": "King Von",
-      "durationMs": 196179,
-      "playedAt": "2026-03-16T01:53:48.632Z"
-    },
-    {
-      "track": "Armed & Dangerous",
-      "artists": "King Von",
-      "durationMs": 122680,
-      "playedAt": "2026-03-16T01:50:38.103Z"
-    },
-    {
-      "track": "679 (feat. Remy Boyz)",
-      "artists": "Fetty Wap, Remy Boyz",
-      "durationMs": 196693,
-      "playedAt": "2026-03-16T01:48:40.943Z"
-    },
-    {
-      "track": "Trap Queen",
-      "artists": "Fetty Wap",
-      "durationMs": 222093,
-      "playedAt": "2026-03-16T01:45:30.371Z"
-    },
-    {
-      "track": "Again",
-      "artists": "Fetty Wap",
-      "durationMs": 312240,
-      "playedAt": "2026-03-16T01:41:53.478Z"
-    },
-    {
-      "track": "HIGHEST IN THE ROOM",
-      "artists": "Travis Scott",
-      "durationMs": 175720,
-      "playedAt": "2026-03-16T01:36:46.999Z"
-    },
-    {
-      "track": "Lemonade (feat. NAV)",
-      "artists": "Internet Money, Gunna, Don Toliver, NAV",
-      "durationMs": 195428,
-      "playedAt": "2026-03-16T01:33:56.839Z"
-    },
-    {
-      "track": "Drip Too Hard (Lil Baby & Gunna)",
-      "artists": "Lil Baby, Gunna",
-      "durationMs": 145542,
-      "playedAt": "2026-03-16T01:30:47.140Z"
-    },
-    {
-      "track": "The Box",
-      "artists": "Roddy Ricch",
-      "durationMs": 196652,
-      "playedAt": "2026-03-16T01:28:27.633Z"
-    },
-    {
-      "track": "Bad and Boujee (feat. Lil Uzi Vert)",
-      "artists": "Migos, Lil Uzi Vert",
-      "durationMs": 343150,
-      "playedAt": "2026-03-16T01:25:17.004Z"
-    },
-    {
-      "track": "Walk It Talk It",
-      "artists": "Migos, Drake",
-      "durationMs": 276147,
-      "playedAt": "2026-03-16T01:19:39.182Z"
-    },
-    {
-      "track": "Black & White",
-      "artists": "Juice WRLD",
-      "durationMs": 186945,
-      "playedAt": "2026-03-16T01:15:08.831Z"
-    },
-    {
-      "track": "20 Min",
-      "artists": "Lil Uzi Vert",
-      "durationMs": 220586,
-      "playedAt": "2026-03-16T01:12:07.235Z"
-    },
-    {
-      "track": "Armed And Dangerous",
-      "artists": "Juice WRLD",
-      "durationMs": 169999,
-      "playedAt": "2026-03-16T01:08:32.515Z"
-    },
-    {
-      "track": "Ransom",
-      "artists": "Lil Tecca",
-      "durationMs": 131240,
-      "playedAt": "2026-03-16T01:05:48.249Z"
-    },
-    {
-      "track": "Blueberry Faygo",
-      "artists": "Lil Mosey",
-      "durationMs": 162546,
-      "playedAt": "2026-03-16T01:03:42.686Z"
-    },
-    {
-      "track": "Broccoli",
-      "artists": "DRAM, Lil Yachty",
-      "durationMs": 225205,
-      "playedAt": "2026-03-16T01:01:06.209Z"
-    },
-    {
-      "track": "Black Sheep - Brie Larson Vocal Version / Bonus Track",
-      "artists": "Metric, Brie Larson",
-      "durationMs": 294065,
-      "playedAt": "2026-03-16T00:57:26.453Z"
-    },
-    {
-      "track": "I Write Sins Not Tragedies",
-      "artists": "Panic! At The Disco",
-      "durationMs": 186634,
-      "playedAt": "2026-03-16T00:52:38.081Z"
-    },
-    {
-      "track": "This Is Gospel",
-      "artists": "Panic! At The Disco",
-      "durationMs": 187186,
-      "playedAt": "2026-03-16T00:49:37.020Z"
-    },
-    {
-      "track": "Death of a Bachelor",
-      "artists": "Panic! At The Disco",
-      "durationMs": 203506,
-      "playedAt": "2026-03-16T00:43:52.931Z"
-    },
-    {
-      "track": "LA Devotee",
-      "artists": "Panic! At The Disco",
-      "durationMs": 196520,
-      "playedAt": "2026-03-16T00:40:35.197Z"
-    },
-    {
-      "track": "I’m Here",
-      "artists": "SEGA SOUND TEAM, Tomoya Ohtani, Merry Kirk-Holmes",
-      "durationMs": 248346,
-      "playedAt": "2026-03-16T00:37:24.074Z"
-    },
-    {
-      "track": "Swing, Swing",
-      "artists": "The All-American Rejects",
-      "durationMs": 233266,
-      "playedAt": "2026-03-16T00:33:21.376Z"
-    },
-    {
-      "track": "Jamie All Over",
-      "artists": "Mayday Parade",
-      "durationMs": 216000,
-      "playedAt": "2026-03-16T00:28:10.930Z"
-    },
-    {
-      "track": "Dear Maria, Count Me In",
-      "artists": "All Time Low",
-      "durationMs": 182826,
-      "playedAt": "2026-03-16T00:24:40.388Z"
-    },
-    {
-      "track": "Scotty Doesn't Know",
-      "artists": "Lustra",
-      "durationMs": 175200,
-      "playedAt": "2026-03-16T00:21:43.304Z"
-    },
-    {
-      "track": "Teenage Dirtbag",
-      "artists": "Wheatus",
-      "durationMs": 241666,
-      "playedAt": "2026-03-16T00:18:53.950Z"
-    },
-    {
-      "track": "Sabotage",
-      "artists": "Beastie Boys",
-      "durationMs": 178440,
-      "playedAt": "2026-03-16T00:15:20.533Z"
-    },
-    {
-      "track": "Immigrant Song - Remaster",
-      "artists": "Led Zeppelin",
-      "durationMs": 146250,
-      "playedAt": "2026-03-16T00:12:05.480Z"
-    },
-    {
-      "track": "Ain't No Love In Oklahoma (From Twisters: The Album)",
-      "artists": "Luke Combs",
-      "durationMs": 210950,
-      "playedAt": "2026-03-16T00:09:44.408Z"
-    },
-    {
-      "track": "Rockin' the Suburbs (feat. William Shatner) - 'Over the Hedge' Version",
-      "artists": "Ben Folds, William Shatner",
-      "durationMs": 296093,
-      "playedAt": "2026-03-16T00:06:19.347Z"
-    },
-    {
-      "track": "Sweet Home Alabama",
-      "artists": "Lynyrd Skynyrd",
-      "durationMs": 283800,
-      "playedAt": "2026-03-16T00:01:29.206Z"
-    },
-    {
-      "track": "Hotel California - 2013 Remaster",
-      "artists": "Eagles",
-      "durationMs": 391376,
-      "playedAt": "2026-03-15T23:56:50.717Z"
-    },
-    {
-      "track": "Free Bird",
-      "artists": "Lynyrd Skynyrd",
-      "durationMs": 547106,
-      "playedAt": "2026-03-15T23:50:25.291Z"
-    },
-    {
-      "track": "Pour Some Sugar On Me",
-      "artists": "Def Leppard",
-      "durationMs": 267306,
-      "playedAt": "2026-03-15T23:44:02.623Z"
-    },
-    {
-      "track": "Keep Riding Me",
-      "artists": "ur pretty",
-      "durationMs": 141966,
-      "playedAt": "2026-03-15T23:39:41.277Z"
-    },
-    {
-      "track": "No Cock Like Horse Cock",
-      "artists": "Pepper Coyote",
-      "durationMs": 135708,
-      "playedAt": "2026-03-15T23:37:28.827Z"
-    },
-    {
-      "track": "Life is a Highway",
-      "artists": "Rascal Flatts",
-      "durationMs": 275640,
-      "playedAt": "2026-03-15T23:35:14.862Z"
-    },
-    {
-      "track": "SexyBack (feat. Timbaland)",
-      "artists": "Justin Timberlake, Timbaland",
-      "durationMs": 242733,
-      "playedAt": "2026-03-15T23:30:45.094Z"
     }
   ]
 }
