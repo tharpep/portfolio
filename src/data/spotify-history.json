@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1774468672265",
+  "lastCursor": "1774478220741",
   "plays": [
+    {
+      "track": "Heart On Your Sleeve",
+      "artists": "DEVIN MØRE",
+      "durationMs": 242990,
+      "playedAt": "2026-03-25T22:37:00.741Z"
+    },
+    {
+      "track": "All The Stars (with SZA)",
+      "artists": "Kendrick Lamar, SZA",
+      "durationMs": 232186,
+      "playedAt": "2026-03-25T22:32:56.958Z"
+    },
+    {
+      "track": "OUTTA MY MIND",
+      "artists": "Monsune",
+      "durationMs": 226005,
+      "playedAt": "2026-03-25T22:29:04.189Z"
+    },
+    {
+      "track": "Space Jam - An Odyssey",
+      "artists": "Orion Sun",
+      "durationMs": 221596,
+      "playedAt": "2026-03-25T22:25:20.343Z"
+    },
+    {
+      "track": "Little by Little",
+      "artists": "The Marías",
+      "durationMs": 178493,
+      "playedAt": "2026-03-25T22:21:37.469Z"
+    },
+    {
+      "track": "Higher",
+      "artists": "Tems",
+      "durationMs": 196204,
+      "playedAt": "2026-03-25T22:18:36.785Z"
+    },
+    {
+      "track": "Dancing in My Room",
+      "artists": "347aidan",
+      "durationMs": 180138,
+      "playedAt": "2026-03-25T22:15:21.201Z"
+    },
+    {
+      "track": "Borderline",
+      "artists": "Tame Impala",
+      "durationMs": 237800,
+      "playedAt": "2026-03-25T22:12:19.376Z"
+    },
+    {
+      "track": "Suspended",
+      "artists": "Sampha",
+      "durationMs": 185371,
+      "playedAt": "2026-03-25T22:08:20.744Z"
+    },
+    {
+      "track": "New Person, Same Old Mistakes",
+      "artists": "Tame Impala",
+      "durationMs": 363240,
+      "playedAt": "2026-03-25T22:05:15.157Z"
+    },
+    {
+      "track": "The Weekend - Funk Wav Remix",
+      "artists": "SZA, Calvin Harris, Funk Wav",
+      "durationMs": 171805,
+      "playedAt": "2026-03-25T21:59:11.407Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 244633,
+      "playedAt": "2026-03-25T21:56:18.876Z"
+    },
+    {
+      "track": "Mirror",
+      "artists": "Kendrick Lamar",
+      "durationMs": 256006,
+      "playedAt": "2026-03-25T21:54:47.086Z"
+    },
+    {
+      "track": "Final Church",
+      "artists": "Childish Gambino",
+      "durationMs": 226446,
+      "playedAt": "2026-03-25T21:52:13.910Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-03-25T21:48:26.714Z"
+    },
+    {
+      "track": "ROCKMAN",
+      "artists": "Mk.gee",
+      "durationMs": 179370,
+      "playedAt": "2026-03-25T21:44:40.723Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-03-25T21:44:08.298Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-03-25T21:38:17.979Z"
+    },
+    {
+      "track": "All Of The Time",
+      "artists": "Jungle",
+      "durationMs": 182040,
+      "playedAt": "2026-03-25T21:35:28.021Z"
+    },
+    {
+      "track": "Took a While",
+      "artists": "NEIL FRANCES",
+      "durationMs": 202909,
+      "playedAt": "2026-03-25T21:32:25.595Z"
+    },
+    {
+      "track": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "durationMs": 235344,
+      "playedAt": "2026-03-25T21:29:02.142Z"
+    },
+    {
+      "track": "Push Me Away",
+      "artists": "Jordana, Magdalena Bay",
+      "durationMs": 164307,
+      "playedAt": "2026-03-25T21:25:06.591Z"
+    },
+    {
+      "track": "Secrets (Your Fire)",
+      "artists": "Magdalena Bay",
+      "durationMs": 245897,
+      "playedAt": "2026-03-25T21:22:21.942Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-03-25T21:18:15.867Z"
+    },
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-03-25T21:14:30.454Z"
+    },
+    {
+      "track": "Come Over",
+      "artists": "LE SSERAFIM",
+      "durationMs": 137178,
+      "playedAt": "2026-03-25T21:11:35.825Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-03-25T21:09:17.772Z"
+    },
+    {
+      "track": "1901",
+      "artists": "Phoenix",
+      "durationMs": 193106,
+      "playedAt": "2026-03-25T21:05:39.924Z"
+    },
+    {
+      "track": "4EVER",
+      "artists": "Clairo",
+      "durationMs": 159595,
+      "playedAt": "2026-03-25T21:02:26.088Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-03-25T20:59:53.553Z"
+    },
+    {
+      "track": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 268333,
+      "playedAt": "2026-03-25T20:56:26.060Z"
+    },
     {
       "track": "Wrong Places",
       "artists": "Lauren Creviston, Brynn Elise",
@@ -4536,18 +4722,6 @@
       "artists": "Lady Gaga, Colby O'Donis",
       "durationMs": 241933,
       "playedAt": "2026-03-18T19:21:09.562Z"
-    },
-    {
-      "track": "The Way I Are",
-      "artists": "Timbaland, Keri Hilson, D.O.E.",
-      "durationMs": 179120,
-      "playedAt": "2026-03-17T21:52:14.427Z"
-    },
-    {
-      "track": "DJ Got Us Fallin' In Love (feat. Pitbull)",
-      "artists": "USHER, Pitbull",
-      "durationMs": 220800,
-      "playedAt": "2026-03-17T21:49:21.201Z"
     }
   ]
 }
