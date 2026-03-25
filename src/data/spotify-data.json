@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T22:34:55.073700Z",
+  "lastUpdated": "2026-03-25T02:28:30.849499Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
     },
     {
-      "name": "JPEGMAFIA",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
-      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
-    },
-    {
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
+    },
+    {
+      "name": "JPEGMAFIA",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
+      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     }
   ],
   "topTracksWeek": [
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 57389505,
-    "trackCount": 281
+    "totalMs": 61867624,
+    "trackCount": 303
   },
   "ytdListening": {
-    "totalMs": 319636079,
-    "trackCount": 1494
+    "totalMs": 324114198,
+    "trackCount": 1516
   }
 }
