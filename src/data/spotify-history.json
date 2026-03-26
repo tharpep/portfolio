@@ -1,6 +1,198 @@
 {
-  "lastCursor": "1774557477061",
+  "lastCursor": "1774564300363",
   "plays": [
+    {
+      "track": "In My Room",
+      "artists": "Frank Ocean",
+      "durationMs": 133680,
+      "playedAt": "2026-03-26T22:31:40.363Z"
+    },
+    {
+      "track": "Somewhere to Fly (with Don Toliver)",
+      "artists": "Kid Cudi, Don Toliver",
+      "durationMs": 176680,
+      "playedAt": "2026-03-26T22:29:31.915Z"
+    },
+    {
+      "track": "Undercover Martyn",
+      "artists": "Two Door Cinema Club",
+      "durationMs": 167773,
+      "playedAt": "2026-03-26T22:26:48.115Z"
+    },
+    {
+      "track": "Alrighty Aphrodite",
+      "artists": "Peach Pit",
+      "durationMs": 207813,
+      "playedAt": "2026-03-26T22:23:57.105Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-03-26T22:20:34.587Z"
+    },
+    {
+      "track": "Helmet",
+      "artists": "Steve Lacy",
+      "durationMs": 201510,
+      "playedAt": "2026-03-26T22:17:50.029Z"
+    },
+    {
+      "track": "After The Storm (feat. Tyler, The Creator & Bootsy Collins)",
+      "artists": "Kali Uchis, Tyler, The Creator, Bootsy Collins",
+      "durationMs": 207454,
+      "playedAt": "2026-03-26T22:14:33.133Z"
+    },
+    {
+      "track": "Doomsday",
+      "artists": "MF DOOM, Pebbles The Invisible Girl",
+      "durationMs": 298053,
+      "playedAt": "2026-03-26T22:11:10.567Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-03-26T22:06:17.591Z"
+    },
+    {
+      "track": "Bleed (feat. Omar Apollo)",
+      "artists": "Malcolm Todd, Omar Apollo",
+      "durationMs": 179373,
+      "playedAt": "2026-03-26T22:01:44.070Z"
+    },
+    {
+      "track": "Hurts Me",
+      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
+      "durationMs": 140800,
+      "playedAt": "2026-03-26T21:58:49.814Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 234333,
+      "playedAt": "2026-03-26T21:56:33.810Z"
+    },
+    {
+      "track": "Walking On A Dream",
+      "artists": "Empire Of The Sun",
+      "durationMs": 198440,
+      "playedAt": "2026-03-26T21:52:45.248Z"
+    },
+    {
+      "track": "COFFEE BEAN",
+      "artists": "Travis Scott",
+      "durationMs": 209115,
+      "playedAt": "2026-03-26T21:49:31.321Z"
+    },
+    {
+      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
+      "artists": "SZA, Phoebe Bridgers",
+      "durationMs": 218586,
+      "playedAt": "2026-03-26T21:46:07.358Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-03-26T21:42:33.667Z"
+    },
+    {
+      "track": "Loser",
+      "artists": "Tame Impala",
+      "durationMs": 223069,
+      "playedAt": "2026-03-26T21:39:53.585Z"
+    },
+    {
+      "track": "Winners Circle",
+      "artists": "Anderson .Paak",
+      "durationMs": 209237,
+      "playedAt": "2026-03-26T21:36:16.232Z"
+    },
+    {
+      "track": "Sea Sick",
+      "artists": "binki",
+      "durationMs": 130714,
+      "playedAt": "2026-03-26T21:32:51.236Z"
+    },
+    {
+      "track": "Come Over",
+      "artists": "LE SSERAFIM",
+      "durationMs": 137178,
+      "playedAt": "2026-03-26T21:30:45.625Z"
+    },
+    {
+      "track": "NEVER",
+      "artists": "JID",
+      "durationMs": 241682,
+      "playedAt": "2026-03-26T21:28:32.776Z"
+    },
+    {
+      "track": "PRIDE.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 275253,
+      "playedAt": "2026-03-26T21:24:03.459Z"
+    },
+    {
+      "track": "ALL MINE",
+      "artists": "Brent Faiyaz",
+      "durationMs": 216062,
+      "playedAt": "2026-03-26T21:19:33.720Z"
+    },
+    {
+      "track": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "durationMs": 235344,
+      "playedAt": "2026-03-26T21:16:02.145Z"
+    },
+    {
+      "track": "Novacane",
+      "artists": "Frank Ocean",
+      "durationMs": 302346,
+      "playedAt": "2026-03-26T21:12:11.973Z"
+    },
+    {
+      "track": "Target On My Chest",
+      "artists": "Brent Faiyaz",
+      "durationMs": 188274,
+      "playedAt": "2026-03-26T21:07:14.964Z"
+    },
+    {
+      "track": "Dræm Girl",
+      "artists": "No Vacation",
+      "durationMs": 234631,
+      "playedAt": "2026-03-26T21:04:11.486Z"
+    },
+    {
+      "track": "Seek & Destroy",
+      "artists": "SZA",
+      "durationMs": 203733,
+      "playedAt": "2026-03-26T21:00:01.466Z"
+    },
+    {
+      "track": "Honeymoon",
+      "artists": "Don Toliver",
+      "durationMs": 184853,
+      "playedAt": "2026-03-26T20:56:43.886Z"
+    },
+    {
+      "track": "Dancing Circles 2.0",
+      "artists": "Sampha",
+      "durationMs": 226495,
+      "playedAt": "2026-03-26T20:55:50.226Z"
+    },
+    {
+      "track": "Scenic Drive (feat. Ari Lennox & Smino)",
+      "artists": "Khalid, Ari Lennox, Smino",
+      "durationMs": 249476,
+      "playedAt": "2026-03-26T20:45:21.654Z"
+    },
+    {
+      "track": "Ocean Drive",
+      "artists": "Duke Dumont",
+      "durationMs": 206320,
+      "playedAt": "2026-03-26T20:41:18.042Z"
+    },
     {
       "track": "Alright",
       "artists": "Kendrick Lamar",
