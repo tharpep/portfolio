@@ -1,6 +1,156 @@
 {
-  "lastCursor": "1774552226376",
+  "lastCursor": "1774557477061",
   "plays": [
+    {
+      "track": "Alright",
+      "artists": "Kendrick Lamar",
+      "durationMs": 194490,
+      "playedAt": "2026-03-26T20:37:57.061Z"
+    },
+    {
+      "track": "l e t . g o . m y . h a n d (with Bas & 6LACK)",
+      "artists": "J. Cole, Bas, 6LACK",
+      "durationMs": 266291,
+      "playedAt": "2026-03-26T20:34:48.542Z"
+    },
+    {
+      "track": "Carried Away",
+      "artists": "Men I Trust",
+      "durationMs": 207500,
+      "playedAt": "2026-03-26T20:30:28.675Z"
+    },
+    {
+      "track": "Headshots (4r da Locals)",
+      "artists": "Isaiah Rashad",
+      "durationMs": 193208,
+      "playedAt": "2026-03-26T20:26:56.702Z"
+    },
+    {
+      "track": "Kilby Girl",
+      "artists": "The Backseat Lovers",
+      "durationMs": 282205,
+      "playedAt": "2026-03-26T20:23:49.403Z"
+    },
+    {
+      "track": "On My Own",
+      "artists": "Jaden, Kid Cudi",
+      "durationMs": 244720,
+      "playedAt": "2026-03-26T20:15:39.759Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-03-26T20:11:52.042Z"
+    },
+    {
+      "track": "Sugar On My Tongue",
+      "artists": "Tyler, The Creator",
+      "durationMs": 153332,
+      "playedAt": "2026-03-26T20:09:09.692Z"
+    },
+    {
+      "track": "Backseat Freestyle",
+      "artists": "Kendrick Lamar",
+      "durationMs": 212653,
+      "playedAt": "2026-03-26T20:05:58.830Z"
+    },
+    {
+      "track": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "durationMs": 178274,
+      "playedAt": "2026-03-26T20:02:31.783Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-03-26T19:59:39.141Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-03-26T19:56:23.053Z"
+    },
+    {
+      "track": "Many Times",
+      "artists": "Dijon",
+      "durationMs": 126905,
+      "playedAt": "2026-03-26T19:52:47.683Z"
+    },
+    {
+      "track": "Triple Double",
+      "artists": "Jean Dawson, A$AP Rocky",
+      "durationMs": 222621,
+      "playedAt": "2026-03-26T19:50:46.816Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-03-26T19:47:09.635Z"
+    },
+    {
+      "track": "Count Me Out",
+      "artists": "Kendrick Lamar",
+      "durationMs": 283642,
+      "playedAt": "2026-03-26T19:42:27.548Z"
+    },
+    {
+      "track": "love.",
+      "artists": "Kid Cudi",
+      "durationMs": 328573,
+      "playedAt": "2026-03-26T19:37:49.993Z"
+    },
+    {
+      "track": "10AM/Save The World (feat. Gucci Mane)",
+      "artists": "Metro Boomin, Gucci Mane",
+      "durationMs": 226320,
+      "playedAt": "2026-03-26T19:32:27.651Z"
+    },
+    {
+      "track": "16",
+      "artists": "Baby Keem",
+      "durationMs": 156040,
+      "playedAt": "2026-03-26T19:28:46.450Z"
+    },
+    {
+      "track": "Some",
+      "artists": "Steve Lacy",
+      "durationMs": 118393,
+      "playedAt": "2026-03-26T19:26:15.709Z"
+    },
+    {
+      "track": "Less Than Zero",
+      "artists": "The Weeknd",
+      "durationMs": 211814,
+      "playedAt": "2026-03-26T19:24:23.098Z"
+    },
+    {
+      "track": "I Like It",
+      "artists": "Stray Kids",
+      "durationMs": 148632,
+      "playedAt": "2026-03-26T19:20:57.054Z"
+    },
+    {
+      "track": "Cheesin’ (with Cautious Clay, Remi Wolf, Still Woozy, Sophie Meiers, Claud, Melanie Faye, & HXNS)",
+      "artists": "Cautious Clay, Remi Wolf, sophie meiers, Still Woozy, Claud, Melanie Faye, HXNS",
+      "durationMs": 138000,
+      "playedAt": "2026-03-26T19:18:33.952Z"
+    },
+    {
+      "track": "Landline",
+      "artists": "binki",
+      "durationMs": 160329,
+      "playedAt": "2026-03-26T19:16:23.137Z"
+    },
+    {
+      "track": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "durationMs": 199831,
+      "playedAt": "2026-03-26T19:13:47.238Z"
+    },
     {
       "track": "20210704",
       "artists": "Mac DeMarco",
@@ -5622,42 +5772,6 @@
       "artists": "NewJeans",
       "durationMs": 154666,
       "playedAt": "2026-03-19T00:57:32.155Z"
-    },
-    {
-      "track": "Hollaback Girl",
-      "artists": "Gwen Stefani",
-      "durationMs": 199853,
-      "playedAt": "2026-03-18T19:39:41.326Z"
-    },
-    {
-      "track": "I Gotta Feeling",
-      "artists": "Black Eyed Peas",
-      "durationMs": 289133,
-      "playedAt": "2026-03-18T19:36:26.989Z"
-    },
-    {
-      "track": "Dynamite",
-      "artists": "Taio Cruz",
-      "durationMs": 203866,
-      "playedAt": "2026-03-18T19:31:43.694Z"
-    },
-    {
-      "track": "Clarity",
-      "artists": "Zedd, Foxes",
-      "durationMs": 271426,
-      "playedAt": "2026-03-18T19:28:25.509Z"
-    },
-    {
-      "track": "Classic",
-      "artists": "MKTO",
-      "durationMs": 175426,
-      "playedAt": "2026-03-18T19:23:59.597Z"
-    },
-    {
-      "track": "Just Dance",
-      "artists": "Lady Gaga, Colby O'Donis",
-      "durationMs": 241933,
-      "playedAt": "2026-03-18T19:21:09.562Z"
     }
   ]
 }
