@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T22:32:57.453539Z",
+  "lastUpdated": "2026-03-27T02:36:53.335885Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Humans",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
-      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    },
+    {
+      "name": "Humans",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
+      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
     },
     {
       "name": "Equal Trouble",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "Humans",
-    "artists": "Night Tapes",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
-    "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
+    "name": "Best to You",
+    "artists": "Blood Orange, Empress Of",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+    "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 121971335,
-    "trackCount": 593
+    "totalMs": 126642653,
+    "trackCount": 615
   },
   "ytdListening": {
-    "totalMs": 384217909,
-    "trackCount": 1806
+    "totalMs": 388889227,
+    "trackCount": 1828
   }
 }
