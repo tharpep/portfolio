@@ -1,6 +1,78 @@
 {
-  "lastCursor": "1774636674994",
+  "lastCursor": "1774648801335",
   "plays": [
+    {
+      "track": "Sundown Syndrome",
+      "artists": "Tame Impala",
+      "durationMs": 349333,
+      "playedAt": "2026-03-27T22:00:01.335Z"
+    },
+    {
+      "track": "Memories",
+      "artists": "Thutmose",
+      "durationMs": 199146,
+      "playedAt": "2026-03-27T21:54:07.294Z"
+    },
+    {
+      "track": "Sea Gets Hotter",
+      "artists": "Durand Jones & The Indications, Durand Jones, Aaron Frazer",
+      "durationMs": 197226,
+      "playedAt": "2026-03-27T21:48:45.196Z"
+    },
+    {
+      "track": "Mercury",
+      "artists": "Steve Lacy",
+      "durationMs": 295411,
+      "playedAt": "2026-03-27T21:45:33.035Z"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artists": "Travis Scott, Kacy Hill",
+      "durationMs": 339066,
+      "playedAt": "2026-03-27T21:40:43.208Z"
+    },
+    {
+      "track": "3005",
+      "artists": "Childish Gambino",
+      "durationMs": 234215,
+      "playedAt": "2026-03-27T21:35:09.839Z"
+    },
+    {
+      "track": "intro",
+      "artists": "Orion Sun",
+      "durationMs": 180560,
+      "playedAt": "2026-03-27T21:31:21.222Z"
+    },
+    {
+      "track": "G2g",
+      "artists": "Berhana",
+      "durationMs": 264683,
+      "playedAt": "2026-03-27T21:28:26.666Z"
+    },
+    {
+      "track": "Summer Love",
+      "artists": "bLAck pARty",
+      "durationMs": 74318,
+      "playedAt": "2026-03-27T21:24:07.563Z"
+    },
+    {
+      "track": "No More Lies",
+      "artists": "Thundercat, Tame Impala",
+      "durationMs": 327217,
+      "playedAt": "2026-03-27T21:22:58.921Z"
+    },
+    {
+      "track": "Used (feat. Don Toliver)",
+      "artists": "SZA, Don Toliver",
+      "durationMs": 146950,
+      "playedAt": "2026-03-27T21:17:37.345Z"
+    },
+    {
+      "track": "Took a While",
+      "artists": "NEIL FRANCES",
+      "durationMs": 202909,
+      "playedAt": "2026-03-27T21:15:15.605Z"
+    },
     {
       "track": "By Design",
       "artists": "Kid Cudi, André Benjamin",
@@ -6354,60 +6426,6 @@
       "artists": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
       "durationMs": 194607,
       "playedAt": "2026-03-19T22:35:17.816Z"
-    },
-    {
-      "track": "Watch me!",
-      "artists": "YOASOBI",
-      "durationMs": 186193,
-      "playedAt": "2026-03-19T22:31:53.629Z"
-    },
-    {
-      "track": "CASE 143",
-      "artists": "Stray Kids",
-      "durationMs": 191964,
-      "playedAt": "2026-03-19T22:28:53.382Z"
-    },
-    {
-      "track": "Hype Boy",
-      "artists": "NewJeans",
-      "durationMs": 179026,
-      "playedAt": "2026-03-19T22:25:46.961Z"
-    },
-    {
-      "track": "My Pace",
-      "artists": "Stray Kids",
-      "durationMs": 190306,
-      "playedAt": "2026-03-19T22:22:53.708Z"
-    },
-    {
-      "track": "Standing Next to You",
-      "artists": "Jung Kook",
-      "durationMs": 206019,
-      "playedAt": "2026-03-19T22:19:49.179Z"
-    },
-    {
-      "track": "Right Now",
-      "artists": "NewJeans",
-      "durationMs": 160413,
-      "playedAt": "2026-03-19T21:59:38.758Z"
-    },
-    {
-      "track": "How It’s Done",
-      "artists": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
-      "durationMs": 176059,
-      "playedAt": "2026-03-19T21:57:07.842Z"
-    },
-    {
-      "track": "Blue Flame",
-      "artists": "LE SSERAFIM",
-      "durationMs": 201894,
-      "playedAt": "2026-03-19T21:54:06.591Z"
-    },
-    {
-      "track": "TAKEDOWN (JEONGYEON, JIHYO, CHAEYOUNG)",
-      "artists": "TWICE",
-      "durationMs": 181192,
-      "playedAt": "2026-03-19T21:50:50.773Z"
     }
   ]
 }
