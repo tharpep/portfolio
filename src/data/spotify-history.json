@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1774630564190",
+  "lastCursor": "1774636674994",
   "plays": [
+    {
+      "track": "By Design",
+      "artists": "Kid Cudi, André Benjamin",
+      "durationMs": 257053,
+      "playedAt": "2026-03-27T18:37:54.994Z"
+    },
+    {
+      "track": "Poison",
+      "artists": "Bell Biv DeVoe",
+      "durationMs": 261853,
+      "playedAt": "2026-03-27T18:33:43.253Z"
+    },
+    {
+      "track": "All Caps",
+      "artists": "Madvillain, Madlib, MF DOOM",
+      "durationMs": 130479,
+      "playedAt": "2026-03-27T18:29:26.987Z"
+    },
+    {
+      "track": "Electioneering",
+      "artists": "Radiohead",
+      "durationMs": 230626,
+      "playedAt": "2026-03-27T18:27:22.078Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-03-27T18:23:37.731Z"
+    },
+    {
+      "track": "Intimidated (feat. H.E.R.)",
+      "artists": "KAYTRANADA, H.E.R.",
+      "durationMs": 207830,
+      "playedAt": "2026-03-27T18:20:08.217Z"
+    },
+    {
+      "track": "Passin' Me By",
+      "artists": "The Pharcyde",
+      "durationMs": 303493,
+      "playedAt": "2026-03-27T18:16:46.181Z"
+    },
+    {
+      "track": "Trust",
+      "artists": "Brent Faiyaz",
+      "durationMs": 158420,
+      "playedAt": "2026-03-27T18:11:46.764Z"
+    },
+    {
+      "track": "Balloon (feat. Doechii)",
+      "artists": "Tyler, The Creator, Doechii",
+      "durationMs": 154261,
+      "playedAt": "2026-03-27T18:09:14.391Z"
+    },
+    {
+      "track": "West Savannah (feat. SZA)",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 167276,
+      "playedAt": "2026-03-27T18:06:45.614Z"
+    },
+    {
+      "track": "Better in the Dark",
+      "artists": "Jordana, TV Girl",
+      "durationMs": 155500,
+      "playedAt": "2026-03-27T18:04:04.202Z"
+    },
+    {
+      "track": "Often - Kygo Remix",
+      "artists": "The Weeknd, Kygo",
+      "durationMs": 234400,
+      "playedAt": "2026-03-27T18:01:34.226Z"
+    },
+    {
+      "track": "Best Time",
+      "artists": "Brent Faiyaz",
+      "durationMs": 82508,
+      "playedAt": "2026-03-27T17:57:45.980Z"
+    },
+    {
+      "track": "Sweet Life",
+      "artists": "Frank Ocean",
+      "durationMs": 262680,
+      "playedAt": "2026-03-27T17:56:28.586Z"
+    },
+    {
+      "track": "Silk & Cologne (EI8HT & Offset) - Spider-Verse Remix",
+      "artists": "EI8HT, Offset",
+      "durationMs": 162280,
+      "playedAt": "2026-03-27T17:52:11.756Z"
+    },
+    {
+      "track": "I am not a Lyricist",
+      "artists": "Baby Keem",
+      "durationMs": 205176,
+      "playedAt": "2026-03-27T17:49:35.332Z"
+    },
+    {
+      "track": "Gospel For A New Century",
+      "artists": "Yves Tumor",
+      "durationMs": 198626,
+      "playedAt": "2026-03-27T17:46:15.375Z"
+    },
+    {
+      "track": "Chrome Hearts [Feat. Zacari]",
+      "artists": "Denzel Curry, Zacari",
+      "durationMs": 201705,
+      "playedAt": "2026-03-27T17:42:35.205Z"
+    },
+    {
+      "track": "Chanel",
+      "artists": "Frank Ocean",
+      "durationMs": 210285,
+      "playedAt": "2026-03-27T17:39:19.203Z"
+    },
+    {
+      "track": "Echolalia",
+      "artists": "Yves Tumor",
+      "durationMs": 180146,
+      "playedAt": "2026-03-27T17:35:54.600Z"
+    },
+    {
+      "track": "Little Homies",
+      "artists": "Vince Staples",
+      "durationMs": 224745,
+      "playedAt": "2026-03-27T17:33:00.123Z"
+    },
+    {
+      "track": "Husk",
+      "artists": "Men I Trust",
+      "durationMs": 204651,
+      "playedAt": "2026-03-27T17:29:21.072Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-03-27T17:26:01.969Z"
+    },
+    {
+      "track": "Dance",
+      "artists": "Jay Safari",
+      "durationMs": 165485,
+      "playedAt": "2026-03-27T17:22:57.603Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-03-27T17:20:17.568Z"
+    },
+    {
+      "track": "Solo Dolo, Pt. III",
+      "artists": "Kid Cudi",
+      "durationMs": 242266,
+      "playedAt": "2026-03-27T17:17:16.741Z"
+    },
+    {
+      "track": "Low",
+      "artists": "SZA",
+      "durationMs": 181080,
+      "playedAt": "2026-03-27T17:13:20.552Z"
+    },
+    {
+      "track": "Situation",
+      "artists": "Don Toliver",
+      "durationMs": 140963,
+      "playedAt": "2026-03-27T17:10:25.281Z"
+    },
+    {
+      "track": "No Role Modelz",
+      "artists": "J. Cole",
+      "durationMs": 292799,
+      "playedAt": "2026-03-27T17:08:09.853Z"
+    },
+    {
+      "track": "Headlock",
+      "artists": "Imogen Heap",
+      "durationMs": 215338,
+      "playedAt": "2026-03-27T17:03:22.208Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 234333,
+      "playedAt": "2026-03-27T16:59:52.753Z"
+    },
     {
       "track": "CAN YOU HEAR THE MOON",
       "artists": "Grady",
