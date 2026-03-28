@@ -1,6 +1,186 @@
 {
-  "lastCursor": "1774648801335",
+  "lastCursor": "1774660309408",
   "plays": [
+    {
+      "track": "Love Me Not",
+      "artists": "Ravyn Lenae",
+      "durationMs": 213466,
+      "playedAt": "2026-03-28T01:11:49.408Z"
+    },
+    {
+      "track": "Alrighty Aphrodite",
+      "artists": "Peach Pit",
+      "durationMs": 207813,
+      "playedAt": "2026-03-28T01:08:21.928Z"
+    },
+    {
+      "track": "Magic City Thrill",
+      "artists": "James Tillman",
+      "durationMs": 120491,
+      "playedAt": "2026-03-28T01:05:00.515Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-03-28T01:03:04.896Z"
+    },
+    {
+      "track": "Heaven",
+      "artists": "John Legend",
+      "durationMs": 215675,
+      "playedAt": "2026-03-28T00:59:39.735Z"
+    },
+    {
+      "track": "How Much Is Weed?",
+      "artists": "Dominic Fike",
+      "durationMs": 125055,
+      "playedAt": "2026-03-28T00:56:10.498Z"
+    },
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-03-28T00:54:40.497Z"
+    },
+    {
+      "track": "GRAVITY (FEAT. TYLER, THE CREATOR)",
+      "artists": "Brent Faiyaz, Dahi, Tyler, The Creator",
+      "durationMs": 214692,
+      "playedAt": "2026-03-28T00:50:46.402Z"
+    },
+    {
+      "track": "Gamesofluck",
+      "artists": "Parcels",
+      "durationMs": 348093,
+      "playedAt": "2026-03-28T00:47:18.951Z"
+    },
+    {
+      "track": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+      "artists": "A$AP Rocky, Joe Fox, Kanye West",
+      "durationMs": 323962,
+      "playedAt": "2026-03-28T00:41:35.230Z"
+    },
+    {
+      "track": "Everybody Talks",
+      "artists": "Neon Trees",
+      "durationMs": 177280,
+      "playedAt": "2026-03-28T00:36:16.998Z"
+    },
+    {
+      "track": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+      "artists": "Metro Boomin, A$AP Rocky, Roisee",
+      "durationMs": 256026,
+      "playedAt": "2026-03-28T00:33:25.224Z"
+    },
+    {
+      "track": "COFFEE BEAN",
+      "artists": "Travis Scott",
+      "durationMs": 209115,
+      "playedAt": "2026-03-28T00:29:15.051Z"
+    },
+    {
+      "track": "Broke",
+      "artists": "Samm Henshaw",
+      "durationMs": 207722,
+      "playedAt": "2026-03-28T00:25:51.656Z"
+    },
+    {
+      "track": "Bleed (feat. Omar Apollo)",
+      "artists": "Malcolm Todd, Omar Apollo",
+      "durationMs": 179373,
+      "playedAt": "2026-03-28T00:22:29.650Z"
+    },
+    {
+      "track": "Many Times",
+      "artists": "Dijon",
+      "durationMs": 126905,
+      "playedAt": "2026-03-28T00:19:35.945Z"
+    },
+    {
+      "track": "luther (with sza)",
+      "artists": "Kendrick Lamar, SZA",
+      "durationMs": 177598,
+      "playedAt": "2026-03-28T00:17:34.510Z"
+    },
+    {
+      "track": "ARE YOU WITH THAT?",
+      "artists": "Vince Staples",
+      "durationMs": 138410,
+      "playedAt": "2026-03-28T00:14:42.878Z"
+    },
+    {
+      "track": "Sacrifice",
+      "artists": "The Weeknd",
+      "durationMs": 188918,
+      "playedAt": "2026-03-28T00:12:30.287Z"
+    },
+    {
+      "track": "Summer's Over",
+      "artists": "Jordana, TV Girl",
+      "durationMs": 173000,
+      "playedAt": "2026-03-28T00:09:27.139Z"
+    },
+    {
+      "track": "Hell N Back",
+      "artists": "Bakar",
+      "durationMs": 213573,
+      "playedAt": "2026-03-28T00:06:39.805Z"
+    },
+    {
+      "track": "Favorite Song",
+      "artists": "Chance the Rapper, Childish Gambino",
+      "durationMs": 185062,
+      "playedAt": "2026-03-28T00:03:11.897Z"
+    },
+    {
+      "track": "Wesley's Theory",
+      "artists": "Kendrick Lamar, George Clinton, Thundercat",
+      "durationMs": 287360,
+      "playedAt": "2026-03-28T00:00:12.536Z"
+    },
+    {
+      "track": "We Are The People",
+      "artists": "Empire Of The Sun",
+      "durationMs": 267373,
+      "playedAt": "2026-03-27T23:55:30.992Z"
+    },
+    {
+      "track": "HIGHEST IN THE ROOM",
+      "artists": "Travis Scott",
+      "durationMs": 175720,
+      "playedAt": "2026-03-27T23:09:51.298Z"
+    },
+    {
+      "track": "Eleven",
+      "artists": "Khalid",
+      "durationMs": 206360,
+      "playedAt": "2026-03-27T23:07:01.021Z"
+    },
+    {
+      "track": "ALL MINE",
+      "artists": "Brent Faiyaz",
+      "durationMs": 216062,
+      "playedAt": "2026-03-27T23:03:40.604Z"
+    },
+    {
+      "track": "Hurts Me",
+      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
+      "durationMs": 140800,
+      "playedAt": "2026-03-27T22:54:16.125Z"
+    },
+    {
+      "track": "Shut Yo Bitch Ass Up / Muddy Waters",
+      "artists": "JPEGMAFIA, Danny Brown",
+      "durationMs": 174454,
+      "playedAt": "2026-03-27T22:52:01.451Z"
+    },
+    {
+      "track": "FAMJAM4000",
+      "artists": "Jordan Ward",
+      "durationMs": 158133,
+      "playedAt": "2026-03-27T22:48:54.915Z"
+    },
     {
       "track": "Sundown Syndrome",
       "artists": "Tame Impala",
@@ -6366,66 +6546,6 @@
       "artists": "Night Tapes",
       "durationMs": 212440,
       "playedAt": "2026-03-20T03:08:55.376Z"
-    },
-    {
-      "track": "swordsman",
-      "artists": "Night Tapes",
-      "durationMs": 208075,
-      "playedAt": "2026-03-20T02:18:37.002Z"
-    },
-    {
-      "track": "Humans",
-      "artists": "Night Tapes",
-      "durationMs": 251690,
-      "playedAt": "2026-03-20T02:15:14.815Z"
-    },
-    {
-      "track": "Humans",
-      "artists": "Night Tapes",
-      "durationMs": 251690,
-      "playedAt": "2026-03-20T02:11:15.158Z"
-    },
-    {
-      "track": "Smile The Day After Today",
-      "artists": "Black Moth Super Rainbow",
-      "durationMs": 153333,
-      "playedAt": "2026-03-20T01:10:15.059Z"
-    },
-    {
-      "track": "television",
-      "artists": "Night Tapes",
-      "durationMs": 211047,
-      "playedAt": "2026-03-20T01:10:15.050Z"
-    },
-    {
-      "track": "Your Idol",
-      "artists": "Saja Boys, Andrew Choi, Neckwav, Danny Chung, KEVIN WOO, samUIL Lee, KPop Demon Hunters Cast",
-      "durationMs": 191537,
-      "playedAt": "2026-03-20T01:03:04.969Z"
-    },
-    {
-      "track": "Free",
-      "artists": "Rumi, Jinu, KPop Demon Hunters Cast, EJAE, Andrew Choi",
-      "durationMs": 187963,
-      "playedAt": "2026-03-19T22:44:40.421Z"
-    },
-    {
-      "track": "Hurt",
-      "artists": "NewJeans",
-      "durationMs": 177946,
-      "playedAt": "2026-03-19T22:41:31.133Z"
-    },
-    {
-      "track": "Feel Special",
-      "artists": "TWICE",
-      "durationMs": 206866,
-      "playedAt": "2026-03-19T22:38:39.202Z"
-    },
-    {
-      "track": "Golden",
-      "artists": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
-      "durationMs": 194607,
-      "playedAt": "2026-03-19T22:35:17.816Z"
     }
   ]
 }
