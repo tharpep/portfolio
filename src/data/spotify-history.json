@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1774728688836",
+  "lastCursor": "1774736248353",
   "plays": [
+    {
+      "track": "Long Live A$AP",
+      "artists": "A$AP Rocky",
+      "durationMs": 289586,
+      "playedAt": "2026-03-28T22:17:28.353Z"
+    },
+    {
+      "track": "5 Dollar Pony Rides",
+      "artists": "Mac Miller",
+      "durationMs": 222119,
+      "playedAt": "2026-03-28T21:40:57.339Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-03-28T21:37:20.760Z"
+    },
+    {
+      "track": "whoa (mind in awe)",
+      "artists": "XXXTENTACION",
+      "durationMs": 157776,
+      "playedAt": "2026-03-28T21:34:34.288Z"
+    },
     {
       "track": "Mystery Lady",
       "artists": "Masego, Don Toliver",
@@ -6858,96 +6882,6 @@
       "artists": "Jean Dawson, A$AP Rocky",
       "durationMs": 222621,
       "playedAt": "2026-03-20T23:31:13.508Z"
-    },
-    {
-      "track": "Cariño",
-      "artists": "The Marías",
-      "durationMs": 258713,
-      "playedAt": "2026-03-20T21:58:22.380Z"
-    },
-    {
-      "track": "Dancing Circles 2.0",
-      "artists": "Sampha",
-      "durationMs": 226495,
-      "playedAt": "2026-03-20T21:52:47.911Z"
-    },
-    {
-      "track": "Do You Like Me?",
-      "artists": "Daniel Caesar",
-      "durationMs": 227663,
-      "playedAt": "2026-03-20T21:49:07.312Z"
-    },
-    {
-      "track": "Take A Bite",
-      "artists": "beabadoobee",
-      "durationMs": 158866,
-      "playedAt": "2026-03-20T21:45:25.482Z"
-    },
-    {
-      "track": "Die Hard",
-      "artists": "Kendrick Lamar, Blxst, Amanda Reifer",
-      "durationMs": 239026,
-      "playedAt": "2026-03-20T21:42:53.022Z"
-    },
-    {
-      "track": "Dræm Girl",
-      "artists": "No Vacation",
-      "durationMs": 234631,
-      "playedAt": "2026-03-20T21:38:59.090Z"
-    },
-    {
-      "track": "KICK BACK",
-      "artists": "Kenshi Yonezu",
-      "durationMs": 193495,
-      "playedAt": "2026-03-20T21:34:54.817Z"
-    },
-    {
-      "track": "DRIP",
-      "artists": "BABYMONSTER",
-      "durationMs": 180845,
-      "playedAt": "2026-03-20T21:30:22.502Z"
-    },
-    {
-      "track": "Kyouran Hey Kids!!",
-      "artists": "THE ORAL CIGARETTES",
-      "durationMs": 250973,
-      "playedAt": "2026-03-20T21:27:27.276Z"
-    },
-    {
-      "track": "Standing Next to You",
-      "artists": "Jung Kook",
-      "durationMs": 206019,
-      "playedAt": "2026-03-20T21:22:37.692Z"
-    },
-    {
-      "track": "Oddloop",
-      "artists": "frederic",
-      "durationMs": 255293,
-      "playedAt": "2026-03-20T21:19:17.323Z"
-    },
-    {
-      "track": "Takedown",
-      "artists": "HUNTR/X, EJAE, AUDREY NUNA, REI AMI, KPop Demon Hunters Cast",
-      "durationMs": 182016,
-      "playedAt": "2026-03-20T21:14:57.656Z"
-    },
-    {
-      "track": "Oddloop",
-      "artists": "frederic",
-      "durationMs": 255293,
-      "playedAt": "2026-03-20T21:14:57.505Z"
-    },
-    {
-      "track": "Hyperventilation",
-      "artists": "RADWIMPS",
-      "durationMs": 263586,
-      "playedAt": "2026-03-20T20:40:04.773Z"
-    },
-    {
-      "track": "Zero (J.I.D Remix)",
-      "artists": "NewJeans, JID",
-      "durationMs": 224681,
-      "playedAt": "2026-03-20T20:35:36.475Z"
     }
   ]
 }
