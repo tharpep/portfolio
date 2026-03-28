@@ -38,20 +38,11 @@ export const metadata: Metadata = {
     siteName: 'Pryce Tharpe Portfolio',
     title: 'Pryce Tharpe - Software Engineer',
     description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
-    images: [
-      {
-        url: '/vercel.svg',
-        width: 1200,
-        height: 630,
-        alt: 'Pryce Tharpe - Software Engineer Portfolio',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pryce Tharpe - Software Engineer',
     description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
-    images: ['/vercel.svg'],
   },
   robots: {
     index: true,
@@ -63,9 +54,6 @@ export const metadata: Metadata = {
       'max-image-preview': 'large',
       'max-snippet': -1,
     },
-  },
-  verification: {
-    google: 'your-google-verification-code',
   },
   other: {
     'view-transition': 'same-origin',

@@ -3,16 +3,37 @@ import Image from 'next/image';
 import PhotoNav from '@/components/PhotoNav';
 import BalancedMasonry, { type PreviewPhoto } from '@/components/BalancedMasonry';
 import { getAllCollections, type Collection } from '@/lib/collections';
-import { getFeaturedPhotos, getCollectionPreviewPhotos } from '@/lib/cloudinary';
+import { getFeaturedPhotos, getCollectionPreviewPhotos, getCollectionCoverUrl } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: 'Photography – Pryce Tharpe',
-  description: 'Photography portfolio and collections by Pryce Tharpe.',
-  alternates: { canonical: '/photography' },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const cover = await getCollectionCoverUrl('featured');
+
+  const ogImages = cover
+    ? [{ url: cover.url, width: 1600, height: Math.round(1600 / cover.aspectRatio), alt: 'Photography by Pryce Tharpe' }]
+    : [];
+
+  return {
+    title: 'Photography – Pryce Tharpe',
+    description: 'Travel and street photography by Pryce Tharpe — collections from New York, Europe, and beyond.',
+    alternates: { canonical: '/photography' },
+    openGraph: {
+      type: 'website',
+      title: 'Photography – Pryce Tharpe',
+      description: 'Travel and street photography by Pryce Tharpe — collections from New York, Europe, and beyond.',
+      url: '/photography',
+      images: ogImages,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'Photography – Pryce Tharpe',
+      description: 'Travel and street photography by Pryce Tharpe — collections from New York, Europe, and beyond.',
+      images: ogImages.map((img) => img.url),
+    },
+  };
+}
 
 const PREVIEW_COUNT = 5;
 
@@ -137,9 +158,9 @@ function CollectionLinks({ collections }: { collections: Collection[] }) {
         <Link
           key={c.slug}
           href={`/photography/${c.slug}`}
-          className="text-xs font-mono tracking-widest uppercase text-gray-400 hover:text-gray-900 transition-colors duration-200"
+          className="text-sm font-mono font-medium tracking-widest uppercase text-gray-600 hover:text-gray-900 transition-colors duration-200"
         >
-          {c.title}{c.year && <span className="text-gray-300 ml-2">{c.year}</span>}
+          {c.title}{c.year && <span className="text-gray-400 ml-2">{c.year}</span>}
         </Link>
       ))}
     </div>

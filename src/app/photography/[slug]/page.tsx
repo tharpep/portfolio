@@ -1,9 +1,10 @@
 import Link from 'next/link';
+import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import PhotoNav from '@/components/PhotoNav';
 import PhotoGallery from '@/components/PhotoGallery';
 import { getCollection } from '@/lib/collections';
-import { getCollectionPhotos, getDiscoveredCollectionSlugs } from '@/lib/cloudinary';
+import { getCollectionPhotos, getDiscoveredCollectionSlugs, getCollectionCoverUrl } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
@@ -21,13 +22,33 @@ export async function generateMetadata({
   const { slug } = await params;
   const collection = await getCollection(slug);
   if (!collection) return {};
+  const cover = await getCollectionCoverUrl(collection.folder);
 
   const yearSuffix = collection.year ? ` (${collection.year})` : '';
+  const title = `${collection.title}${yearSuffix} – Photography – Pryce Tharpe`;
+  const description = collection.description || `Photography collection: ${collection.title}.`;
+
+  const ogImages = cover
+    ? [{ url: cover.url, width: 1600, height: Math.round(1600 / cover.aspectRatio), alt: collection.title }]
+    : [];
 
   return {
-    title: `${collection.title}${yearSuffix} – Photography – Pryce Tharpe`,
-    description: collection.description,
+    title,
+    description,
     alternates: { canonical: `/photography/${slug}` },
+    openGraph: {
+      type: 'website',
+      title,
+      description,
+      url: `/photography/${slug}`,
+      images: ogImages,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: ogImages.map((img) => img.url),
+    },
   };
 }
 
@@ -52,6 +73,20 @@ export default async function CollectionPage({
 
   return (
     <>
+      <Script
+        id={`schema-collection-${collection.slug}`}
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            '@context': 'https://schema.org',
+            '@type': 'ImageGallery',
+            name: collection.title,
+            description: collection.description,
+            author: { '@type': 'Person', name: 'Pryce Tharpe' },
+            url: `https://pryce-tharpe.dev/photography/${collection.slug}`,
+          }),
+        }}
+      />
       <PhotoNav isDark={isDark} />
       <main style={{ viewTransitionName: 'photo-main' }} className={`min-h-screen ${bg}`}>
 

@@ -36,9 +36,17 @@ No test suite is configured.
 
 **Spotify** — `src/data/spotify-data.json` is a static file updated daily by the GitHub Actions workflow (`.github/workflows/spotify-sync.yml`), which runs `spotify-scripts/fetch_spotify_data_github.py`. The Next.js app reads this file directly via `src/lib/spotify-data.ts`.
 
+### SEO
+
+- **OG image (dev portfolio)** — `src/app/opengraph-image.tsx` generates a dynamic 1200×630 branded image via `next/og` (edge runtime). No static asset needed.
+- **OG images (photography)** — Set per-page in `generateMetadata` using `getCollectionCoverUrl(collection.folder)` (collection pages) or `getCollectionCoverUrl('featured'/'about')` (index/about). Pass the Cloudinary **folder name**, not the URL slug.
+- **Sitemap** — `src/app/sitemap.ts` is async and dynamically includes all collection slugs via `getDiscoveredCollectionSlugs()`.
+- **Robots** — `src/app/robots.ts` allows all and points to `/sitemap.xml`.
+- **Schema.org** — Root layout has `Person` JSON-LD. Each collection page adds an `ImageGallery` JSON-LD via `<Script>`.
+
 ### Navigation / Layout
 
-The root layout (`src/app/layout.tsx`) renders `<ConditionalNav>` and `<ConditionalFooter>`, which suppress themselves on any `/photography` route. The photography section has its own `<PhotoNav>` component and its own layout at `src/app/photography/layout.tsx`.
+The root layout (`src/app/layout.tsx`) renders `<ConditionalNav>` and `<ConditionalFooter>`, which suppress themselves on any `/photography` route. The photography section has its own `<PhotoNav>` component and its own layout at `src/app/photography/layout.tsx`. `<PhotoNav>` shows a camera icon (not the name) as the brand/home link to avoid name repetition across sub-pages.
 
 ### Environment variables
 
