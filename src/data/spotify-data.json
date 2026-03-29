@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T22:32:00.744581Z",
+  "lastUpdated": "2026-03-29T02:40:03.078008Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
+    },
+    {
       "name": "Equal Trouble",
       "artists": "Blue Material",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
@@ -51,12 +57,6 @@
       "artists": "Black Moth Super Rainbow",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f64d1c0adea1b4a4d86b1844",
       "spotifyUrl": "https://open.spotify.com/track/3d2IeXv14uLNn8LyBAuOEI"
-    },
-    {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 172401833,
-    "trackCount": 831
+    "totalMs": 179465984,
+    "trackCount": 862
   },
   "ytdListening": {
-    "totalMs": 434648407,
-    "trackCount": 2044
+    "totalMs": 441712558,
+    "trackCount": 2075
   }
 }
