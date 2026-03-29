@@ -1,6 +1,114 @@
 {
-  "lastCursor": "1774816400965",
+  "lastCursor": "1774821487160",
   "plays": [
+    {
+      "track": "Prototype",
+      "artists": "Outkast",
+      "durationMs": 326240,
+      "playedAt": "2026-03-29T21:58:07.160Z"
+    },
+    {
+      "track": "Pyramids",
+      "artists": "Frank Ocean",
+      "durationMs": 592920,
+      "playedAt": "2026-03-29T21:52:47.080Z"
+    },
+    {
+      "track": "G2g",
+      "artists": "Berhana",
+      "durationMs": 264683,
+      "playedAt": "2026-03-29T21:42:59.749Z"
+    },
+    {
+      "track": "Nights",
+      "artists": "Frank Ocean",
+      "durationMs": 307151,
+      "playedAt": "2026-03-29T21:38:36.006Z"
+    },
+    {
+      "track": "Love/Paranoia",
+      "artists": "Tame Impala",
+      "durationMs": 185773,
+      "playedAt": "2026-03-29T21:32:43.036Z"
+    },
+    {
+      "track": "Say, Can You Hear",
+      "artists": "Men I Trust",
+      "durationMs": 189246,
+      "playedAt": "2026-03-29T21:29:43.078Z"
+    },
+    {
+      "track": "Call On Me",
+      "artists": "Daniel Caesar",
+      "durationMs": 169004,
+      "playedAt": "2026-03-29T21:26:39.799Z"
+    },
+    {
+      "track": "Coming Back (feat. SZA)",
+      "artists": "James Blake, SZA",
+      "durationMs": 195905,
+      "playedAt": "2026-03-29T21:23:56.459Z"
+    },
+    {
+      "track": "Shiny Happy People",
+      "artists": "R.E.M.",
+      "durationMs": 225786,
+      "playedAt": "2026-03-29T21:20:31.128Z"
+    },
+    {
+      "track": "Orange Crush - Remastered 2013",
+      "artists": "R.E.M.",
+      "durationMs": 231640,
+      "playedAt": "2026-03-29T21:16:53.749Z"
+    },
+    {
+      "track": "Losing My Religion",
+      "artists": "R.E.M.",
+      "durationMs": 268426,
+      "playedAt": "2026-03-29T21:13:07.691Z"
+    },
+    {
+      "track": "WHEN SPARKS FLY",
+      "artists": "Vince Staples",
+      "durationMs": 227873,
+      "playedAt": "2026-03-29T21:08:16.693Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-03-29T21:04:34.802Z"
+    },
+    {
+      "track": "Mind Fields",
+      "artists": "No Vacation",
+      "durationMs": 272625,
+      "playedAt": "2026-03-29T21:01:54.581Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-03-29T20:57:28.044Z"
+    },
+    {
+      "track": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 166321,
+      "playedAt": "2026-03-29T20:54:19.126Z"
+    },
+    {
+      "track": "Glow",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 165412,
+      "playedAt": "2026-03-29T20:51:38.512Z"
+    },
+    {
+      "track": "Lovesick",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 253983,
+      "playedAt": "2026-03-29T20:48:59.219Z"
+    },
     {
       "track": "Echolalia",
       "artists": "Yves Tumor",
@@ -6312,108 +6420,6 @@
       "artists": "The Neighbourhood",
       "durationMs": 240400,
       "playedAt": "2026-03-21T23:25:22.441Z"
-    },
-    {
-      "track": "Sea Gets Hotter",
-      "artists": "Durand Jones & The Indications, Durand Jones, Aaron Frazer",
-      "durationMs": 197226,
-      "playedAt": "2026-03-21T22:25:57.765Z"
-    },
-    {
-      "track": "THANK GOD",
-      "artists": "Travis Scott",
-      "durationMs": 184888,
-      "playedAt": "2026-03-21T22:22:32.475Z"
-    },
-    {
-      "track": "Wesley's Theory",
-      "artists": "Kendrick Lamar, George Clinton, Thundercat",
-      "durationMs": 287360,
-      "playedAt": "2026-03-21T22:19:36.028Z"
-    },
-    {
-      "track": "The Ballad of Matt & Mica",
-      "artists": "Magdalena Bay",
-      "durationMs": 240000,
-      "playedAt": "2026-03-21T22:14:52.608Z"
-    },
-    {
-      "track": "Guilty Conscience - Tame Impala Remix",
-      "artists": "070 Shake, Tame Impala",
-      "durationMs": 214986,
-      "playedAt": "2026-03-21T22:08:12.923Z"
-    },
-    {
-      "track": "Scott Mescudi Vs. The World",
-      "artists": "Kid Cudi, CeeLo Green",
-      "durationMs": 235293,
-      "playedAt": "2026-03-21T22:04:43.700Z"
-    },
-    {
-      "track": "Humans",
-      "artists": "Night Tapes",
-      "durationMs": 251690,
-      "playedAt": "2026-03-21T22:00:54.544Z"
-    },
-    {
-      "track": "gloria (with sza)",
-      "artists": "Kendrick Lamar, SZA",
-      "durationMs": 287522,
-      "playedAt": "2026-03-21T21:56:48.028Z"
-    },
-    {
-      "track": "Mojo So Dope",
-      "artists": "Kid Cudi",
-      "durationMs": 210586,
-      "playedAt": "2026-03-21T21:52:06.530Z"
-    },
-    {
-      "track": "PRIDE.",
-      "artists": "Kendrick Lamar",
-      "durationMs": 275253,
-      "playedAt": "2026-03-21T21:07:11.836Z"
-    },
-    {
-      "track": "ARE YOU WITH THAT?",
-      "artists": "Vince Staples",
-      "durationMs": 138410,
-      "playedAt": "2026-03-21T21:02:42.336Z"
-    },
-    {
-      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
-      "artists": "Metro Boomin, Coi Leray",
-      "durationMs": 189466,
-      "playedAt": "2026-03-21T21:00:29.794Z"
-    },
-    {
-      "track": "TELEKINESIS (feat. SZA & Future)",
-      "artists": "Travis Scott, SZA, Future",
-      "durationMs": 353754,
-      "playedAt": "2026-03-21T20:57:26.617Z"
-    },
-    {
-      "track": "II. Shadows",
-      "artists": "Childish Gambino",
-      "durationMs": 231746,
-      "playedAt": "2026-03-21T20:51:25.106Z"
-    },
-    {
-      "track": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
-      "artists": "Travis Scott, James Blake, 21 Savage",
-      "durationMs": 314836,
-      "playedAt": "2026-03-21T20:47:31.668Z"
-    },
-    {
-      "track": "MY EYES",
-      "artists": "Travis Scott",
-      "durationMs": 251249,
-      "playedAt": "2026-03-21T20:42:22.621Z"
-    },
-    {
-      "track": "Hurts Me",
-      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
-      "durationMs": 140800,
-      "playedAt": "2026-03-21T20:38:11.088Z"
     }
   ]
 }
