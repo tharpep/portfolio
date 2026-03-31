@@ -1,6 +1,78 @@
 {
-  "lastCursor": "1774989822962",
+  "lastCursor": "1774995362825",
   "plays": [
+    {
+      "track": "running out of time",
+      "artists": "Lil Yachty",
+      "durationMs": 269244,
+      "playedAt": "2026-03-31T22:16:02.825Z"
+    },
+    {
+      "track": "Passin' Me By",
+      "artists": "The Pharcyde",
+      "durationMs": 303493,
+      "playedAt": "2026-03-31T22:11:39.407Z"
+    },
+    {
+      "track": "KING",
+      "artists": "Kanye West, Ye",
+      "durationMs": 126878,
+      "playedAt": "2026-03-31T22:07:58.416Z"
+    },
+    {
+      "track": "Dang! (feat. Anderson .Paak)",
+      "artists": "Mac Miller, Anderson .Paak",
+      "durationMs": 305350,
+      "playedAt": "2026-03-31T21:20:42.677Z"
+    },
+    {
+      "track": "Life Itself",
+      "artists": "Glass Animals",
+      "durationMs": 281406,
+      "playedAt": "2026-03-31T21:15:43.098Z"
+    },
+    {
+      "track": "Alrighty Aphrodite",
+      "artists": "Peach Pit",
+      "durationMs": 207813,
+      "playedAt": "2026-03-31T21:11:00.944Z"
+    },
+    {
+      "track": "Stereo",
+      "artists": "John Legend",
+      "durationMs": 251302,
+      "playedAt": "2026-03-31T21:07:39.483Z"
+    },
+    {
+      "track": "Walking On A Dream",
+      "artists": "Empire Of The Sun",
+      "durationMs": 198440,
+      "playedAt": "2026-03-31T21:03:33.389Z"
+    },
+    {
+      "track": "Image",
+      "artists": "Magdalena Bay",
+      "durationMs": 212866,
+      "playedAt": "2026-03-31T21:00:11.888Z"
+    },
+    {
+      "track": "Borderline",
+      "artists": "Tame Impala",
+      "durationMs": 237800,
+      "playedAt": "2026-03-31T20:55:01.926Z"
+    },
+    {
+      "track": "NEW MAGIC WAND",
+      "artists": "Tyler, The Creator",
+      "durationMs": 195327,
+      "playedAt": "2026-03-31T20:50:56.933Z"
+    },
+    {
+      "track": "Take A Bite",
+      "artists": "beabadoobee",
+      "durationMs": 158866,
+      "playedAt": "2026-03-31T20:46:15.753Z"
+    },
     {
       "track": "Human Happens",
       "artists": "Magdalena Bay",
@@ -5922,72 +5994,6 @@
       "artists": "Kid Cudi, MGMT, Ratatat",
       "durationMs": 295293,
       "playedAt": "2026-03-23T22:40:04.163Z"
-    },
-    {
-      "track": "Changes",
-      "artists": "A$AP Rocky",
-      "durationMs": 314652,
-      "playedAt": "2026-03-23T22:35:14.427Z"
-    },
-    {
-      "track": "Sleeper",
-      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
-      "durationMs": 244271,
-      "playedAt": "2026-03-23T22:30:05.469Z"
-    },
-    {
-      "track": "Dream police",
-      "artists": "Mk.gee",
-      "durationMs": 169519,
-      "playedAt": "2026-03-23T22:25:40.586Z"
-    },
-    {
-      "track": "Shame On The Devil",
-      "artists": "Vince Staples",
-      "durationMs": 205287,
-      "playedAt": "2026-03-23T22:20:14.621Z"
-    },
-    {
-      "track": "St. Chroma (feat. Daniel Caesar)",
-      "artists": "Tyler, The Creator, Daniel Caesar",
-      "durationMs": 197019,
-      "playedAt": "2026-03-23T22:16:55.098Z"
-    },
-    {
-      "track": "Little by Little",
-      "artists": "The Marías",
-      "durationMs": 178493,
-      "playedAt": "2026-03-23T22:13:43.883Z"
-    },
-    {
-      "track": "Tessellate",
-      "artists": "alt-J",
-      "durationMs": 181400,
-      "playedAt": "2026-03-23T22:10:51.113Z"
-    },
-    {
-      "track": "My Muse",
-      "artists": "Leon Thomas",
-      "durationMs": 165599,
-      "playedAt": "2026-03-23T22:06:28.318Z"
-    },
-    {
-      "track": "Mr. Rager",
-      "artists": "Kid Cudi",
-      "durationMs": 294213,
-      "playedAt": "2026-03-23T21:50:59.911Z"
-    },
-    {
-      "track": "Foreword (feat. Rex Orange County)",
-      "artists": "Tyler, The Creator, Rex Orange County",
-      "durationMs": 194080,
-      "playedAt": "2026-03-23T21:46:10.991Z"
-    },
-    {
-      "track": "Equal Trouble",
-      "artists": "Blue Material",
-      "durationMs": 242102,
-      "playedAt": "2026-03-23T21:43:02.528Z"
     }
   ]
 }
