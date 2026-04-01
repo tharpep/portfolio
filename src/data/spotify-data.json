@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T15:06:51.675200Z",
+  "lastUpdated": "2026-04-01T16:58:38.528142Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
     },
     {
-      "name": "Equal Trouble",
-      "artists": "Blue Material",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
-      "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
-    },
-    {
       "name": "Smile The Day After Today",
       "artists": "Black Moth Super Rainbow",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f64d1c0adea1b4a4d86b1844",
       "spotifyUrl": "https://open.spotify.com/track/3d2IeXv14uLNn8LyBAuOEI"
+    },
+    {
+      "name": "Equal Trouble",
+      "artists": "Blue Material",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
+      "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
     },
     {
       "name": "swordsman",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
   },
   "weeklyListening": {
-    "totalMs": 42611638,
-    "trackCount": 195
+    "totalMs": 45568172,
+    "trackCount": 210
   },
   "ytdListening": {
-    "totalMs": 501954482,
-    "trackCount": 2346
+    "totalMs": 504911016,
+    "trackCount": 2361
   }
 }
