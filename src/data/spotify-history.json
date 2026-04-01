@@ -1,6 +1,108 @@
 {
-  "lastCursor": "1775067857528",
+  "lastCursor": "1775076425269",
   "plays": [
+    {
+      "track": "Space Jam - An Odyssey",
+      "artists": "Orion Sun",
+      "durationMs": 221596,
+      "playedAt": "2026-04-01T20:47:05.269Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-04-01T20:43:23.138Z"
+    },
+    {
+      "track": "Normal Today",
+      "artists": "Hannah Jadagu",
+      "durationMs": 193046,
+      "playedAt": "2026-04-01T20:39:45.020Z"
+    },
+    {
+      "track": "Intimidated (feat. H.E.R.)",
+      "artists": "KAYTRANADA, H.E.R.",
+      "durationMs": 207830,
+      "playedAt": "2026-04-01T20:36:31.563Z"
+    },
+    {
+      "track": "Honeypie",
+      "artists": "JAWNY",
+      "durationMs": 135581,
+      "playedAt": "2026-04-01T20:33:03.001Z"
+    },
+    {
+      "track": "Freaking Out the Neighborhood",
+      "artists": "Mac DeMarco",
+      "durationMs": 173888,
+      "playedAt": "2026-04-01T20:30:47.920Z"
+    },
+    {
+      "track": "Sunshine (feat. Fousheé)",
+      "artists": "Steve Lacy, Fousheé",
+      "durationMs": 293428,
+      "playedAt": "2026-04-01T20:27:53.069Z"
+    },
+    {
+      "track": "What If You Hypnotise Me?",
+      "artists": "Sampha, Léa Sen",
+      "durationMs": 218397,
+      "playedAt": "2026-04-01T20:19:21.916Z"
+    },
+    {
+      "track": "Fuck Tha World",
+      "artists": "Dreamer Isioma",
+      "durationMs": 141538,
+      "playedAt": "2026-04-01T19:58:28.883Z"
+    },
+    {
+      "track": "Serenade of Water",
+      "artists": "Men I Trust",
+      "durationMs": 185660,
+      "playedAt": "2026-04-01T19:56:10.099Z"
+    },
+    {
+      "track": "Weird Fishes / Arpeggi",
+      "artists": "Radiohead",
+      "durationMs": 318186,
+      "playedAt": "2026-04-01T19:53:00.562Z"
+    },
+    {
+      "track": "Keep On Lying",
+      "artists": "Tame Impala",
+      "durationMs": 353933,
+      "playedAt": "2026-04-01T19:34:18.159Z"
+    },
+    {
+      "track": "Just How You Are",
+      "artists": "Leon Thomas",
+      "durationMs": 194247,
+      "playedAt": "2026-04-01T19:28:30.031Z"
+    },
+    {
+      "track": "No More Lies",
+      "artists": "Thundercat, Tame Impala",
+      "durationMs": 327217,
+      "playedAt": "2026-04-01T19:25:21.326Z"
+    },
+    {
+      "track": "Seigfried",
+      "artists": "Frank Ocean",
+      "durationMs": 334570,
+      "playedAt": "2026-04-01T19:20:00.215Z"
+    },
+    {
+      "track": "MY EYES",
+      "artists": "Travis Scott",
+      "durationMs": 251249,
+      "playedAt": "2026-04-01T19:14:31.136Z"
+    },
+    {
+      "track": "MY EYES",
+      "artists": "Travis Scott",
+      "durationMs": 251249,
+      "playedAt": "2026-04-01T19:11:49.687Z"
+    },
     {
       "track": "Guilty Conscience - Tame Impala Remix",
       "artists": "070 Shake, Tame Impala",
@@ -5370,24 +5472,6 @@
       "artists": "Jungle",
       "durationMs": 168767,
       "playedAt": "2026-03-24T22:05:57.206Z"
-    },
-    {
-      "track": "Sundress",
-      "artists": "A$AP Rocky",
-      "durationMs": 158205,
-      "playedAt": "2026-03-24T19:14:51.116Z"
-    },
-    {
-      "track": "Sugar",
-      "artists": "Men I Trust",
-      "durationMs": 176315,
-      "playedAt": "2026-03-24T19:12:18.300Z"
-    },
-    {
-      "track": "The Ways (with Swae Lee)",
-      "artists": "Khalid, Swae Lee",
-      "durationMs": 238893,
-      "playedAt": "2026-03-24T19:09:27.602Z"
     }
   ]
 }
