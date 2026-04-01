@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1775018988005",
+  "lastCursor": "1775055663566",
   "plays": [
+    {
+      "track": "THIS A MUST",
+      "artists": "Kanye West, Ye",
+      "durationMs": 86708,
+      "playedAt": "2026-04-01T15:01:03.566Z"
+    },
     {
       "track": "Simulation Swarm",
       "artists": "Big Thief",
@@ -5580,42 +5586,6 @@
       "artists": "Cocteau Twins",
       "durationMs": 194080,
       "playedAt": "2026-03-24T15:08:49.150Z"
-    },
-    {
-      "track": "Lovesick",
-      "artists": "Alice Phoebe Lou",
-      "durationMs": 253983,
-      "playedAt": "2026-03-24T15:05:40.599Z"
-    },
-    {
-      "track": "Underworld",
-      "artists": "Alice Phoebe Lou",
-      "durationMs": 166321,
-      "playedAt": "2026-03-24T15:01:32.835Z"
-    },
-    {
-      "track": "Falling Apart",
-      "artists": "Slow Pulp",
-      "durationMs": 166033,
-      "playedAt": "2026-03-24T14:58:52.200Z"
-    },
-    {
-      "track": "Trade It",
-      "artists": "Slow Pulp",
-      "durationMs": 172319,
-      "playedAt": "2026-03-24T14:56:11.791Z"
-    },
-    {
-      "track": "Natural",
-      "artists": "Shelly",
-      "durationMs": 163764,
-      "playedAt": "2026-03-24T14:53:25.452Z"
-    },
-    {
-      "track": "Cherry-coloured Funk",
-      "artists": "Cocteau Twins",
-      "durationMs": 192466,
-      "playedAt": "2026-03-24T14:50:47.383Z"
     }
   ]
 }
