@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T20:37:38.033792Z",
+  "lastUpdated": "2026-04-02T22:33:32.115263Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
+      "name": "television",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
+    },
+    {
       "name": "Humans",
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
       "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
-    },
-    {
-      "name": "Guilty Conscience - Tame Impala Remix",
-      "artists": "070 Shake, Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dbae99e91239940d1ba97b64",
-      "spotifyUrl": "https://open.spotify.com/track/5i5fCpsnqDJ9AfeObgd0gW"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 71789668,
-    "trackCount": 332
+    "totalMs": 73424738,
+    "trackCount": 339
   },
   "ytdListening": {
-    "totalMs": 531132512,
-    "trackCount": 2483
+    "totalMs": 532767582,
+    "trackCount": 2490
   }
 }
