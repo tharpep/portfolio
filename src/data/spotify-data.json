@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T14:58:11.551265Z",
+  "lastUpdated": "2026-04-02T16:57:58.963660Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     },
     {
-      "name": "Humans",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
-      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
-    },
-    {
-      "name": "Smile The Day After Today",
-      "artists": "Black Moth Super Rainbow",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f64d1c0adea1b4a4d86b1844",
-      "spotifyUrl": "https://open.spotify.com/track/3d2IeXv14uLNn8LyBAuOEI"
-    },
-    {
-      "name": "Equal Trouble",
-      "artists": "Blue Material",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273d9b19ae2814ce8ded9fb45e7",
-      "spotifyUrl": "https://open.spotify.com/track/7Jb5HMSHWwAVAqfApS54Iq"
+      "name": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+      "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    },
+    {
+      "name": "Humans",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
+      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
+    },
+    {
+      "name": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dbae99e91239940d1ba97b64",
+      "spotifyUrl": "https://open.spotify.com/track/5i5fCpsnqDJ9AfeObgd0gW"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 69059796,
-    "trackCount": 319
+    "totalMs": 71789668,
+    "trackCount": 332
   },
   "ytdListening": {
-    "totalMs": 528402640,
-    "trackCount": 2470
+    "totalMs": 531132512,
+    "trackCount": 2483
   }
 }
