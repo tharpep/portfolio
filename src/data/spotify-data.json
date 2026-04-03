@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T18:52:05.498767Z",
+  "lastUpdated": "2026-04-03T20:39:41.037575Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
-      "name": "Humans",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273579c1f7282b0c006e5d19a84",
-      "spotifyUrl": "https://open.spotify.com/track/1F4Sia9UHvh5JuPV7bwgix"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -57,6 +51,12 @@
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
       "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
+    },
+    {
+      "name": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dbae99e91239940d1ba97b64",
+      "spotifyUrl": "https://open.spotify.com/track/5i5fCpsnqDJ9AfeObgd0gW"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 84332700,
-    "trackCount": 388
+    "totalMs": 88782641,
+    "trackCount": 409
   },
   "ytdListening": {
-    "totalMs": 543675544,
-    "trackCount": 2539
+    "totalMs": 548125485,
+    "trackCount": 2560
   }
 }
