@@ -1,6 +1,84 @@
 {
-  "lastCursor": "1775186188267",
+  "lastCursor": "1775234311324",
   "plays": [
+    {
+      "track": "Phoenix",
+      "artists": "A$AP Rocky",
+      "durationMs": 233880,
+      "playedAt": "2026-04-03T16:38:31.324Z"
+    },
+    {
+      "track": "Saint Ivy",
+      "artists": "Beach Fossils",
+      "durationMs": 224410,
+      "playedAt": "2026-04-03T16:34:43.249Z"
+    },
+    {
+      "track": "I am not a Lyricist",
+      "artists": "Baby Keem",
+      "durationMs": 205176,
+      "playedAt": "2026-04-03T16:31:04.703Z"
+    },
+    {
+      "track": "telepatía",
+      "artists": "Kali Uchis",
+      "durationMs": 160191,
+      "playedAt": "2026-04-03T16:27:45.505Z"
+    },
+    {
+      "track": "Let's Go Get Stoned",
+      "artists": "Sublime",
+      "durationMs": 213128,
+      "playedAt": "2026-04-03T16:25:10.634Z"
+    },
+    {
+      "track": "Let's Go Get Stoned",
+      "artists": "Sublime",
+      "durationMs": 213128,
+      "playedAt": "2026-04-03T16:25:03.030Z"
+    },
+    {
+      "track": "drifting",
+      "artists": "Night Tapes",
+      "durationMs": 212440,
+      "playedAt": "2026-04-03T15:33:43.302Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-04-03T15:30:18.631Z"
+    },
+    {
+      "track": "The Path Less Travelled",
+      "artists": "Vegyn",
+      "durationMs": 224303,
+      "playedAt": "2026-04-03T15:27:40.749Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-04-03T15:22:16.515Z"
+    },
+    {
+      "track": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+      "artists": "Metro Boomin, A$AP Rocky, Roisee",
+      "durationMs": 256026,
+      "playedAt": "2026-04-03T15:19:37.841Z"
+    },
+    {
+      "track": "Mama's Gun",
+      "artists": "Glass Animals",
+      "durationMs": 266747,
+      "playedAt": "2026-04-03T15:15:45.418Z"
+    },
+    {
+      "track": "Mama's Gun",
+      "artists": "Glass Animals",
+      "durationMs": 266747,
+      "playedAt": "2026-04-03T15:15:45.250Z"
+    },
     {
       "track": "That's My Floor",
       "artists": "Magdalena Bay",
@@ -4722,48 +4800,6 @@
       "artists": "Stray Kids",
       "durationMs": 148051,
       "playedAt": "2026-03-26T17:18:00.637Z"
-    },
-    {
-      "track": "One Night/All Night",
-      "artists": "Justice, Tame Impala",
-      "durationMs": 276066,
-      "playedAt": "2026-03-26T16:39:44.633Z"
-    },
-    {
-      "track": "Crossfaded",
-      "artists": "Don Toliver",
-      "durationMs": 159033,
-      "playedAt": "2026-03-26T16:35:14.644Z"
-    },
-    {
-      "track": "Provider",
-      "artists": "Frank Ocean",
-      "durationMs": 243238,
-      "playedAt": "2026-03-26T16:32:40.973Z"
-    },
-    {
-      "track": "telepatía",
-      "artists": "Kali Uchis",
-      "durationMs": 160191,
-      "playedAt": "2026-03-26T16:28:43.111Z"
-    },
-    {
-      "track": "Fuck The World (Summer in London)",
-      "artists": "Brent Faiyaz",
-      "durationMs": 236703,
-      "playedAt": "2026-03-26T16:26:08.924Z"
-    },
-    {
-      "track": "Natural",
-      "artists": "Shelly",
-      "durationMs": 163764,
-      "playedAt": "2026-03-26T16:22:17.743Z"
-    },
-    {
-      "track": "Blur",
-      "artists": "The Marías",
-      "durationMs": 225106,
-      "playedAt": "2026-03-26T16:19:40.290Z"
     }
   ]
 }
