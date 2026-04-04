@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1775331419706",
+  "lastCursor": "1775341791726",
   "plays": [
+    {
+      "track": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 166321,
+      "playedAt": "2026-04-04T22:29:51.726Z"
+    },
+    {
+      "track": "Run Your Mouth",
+      "artists": "The Marías",
+      "durationMs": 160000,
+      "playedAt": "2026-04-04T22:24:10.309Z"
+    },
     {
       "track": "Why'd You Only Call Me When You're High?",
       "artists": "Arctic Monkeys",
@@ -4344,78 +4356,6 @@
       "artists": "Jordan Ward",
       "durationMs": 158133,
       "playedAt": "2026-03-27T22:48:54.915Z"
-    },
-    {
-      "track": "Sundown Syndrome",
-      "artists": "Tame Impala",
-      "durationMs": 349333,
-      "playedAt": "2026-03-27T22:00:01.335Z"
-    },
-    {
-      "track": "Memories",
-      "artists": "Thutmose",
-      "durationMs": 199146,
-      "playedAt": "2026-03-27T21:54:07.294Z"
-    },
-    {
-      "track": "Sea Gets Hotter",
-      "artists": "Durand Jones & The Indications, Durand Jones, Aaron Frazer",
-      "durationMs": 197226,
-      "playedAt": "2026-03-27T21:48:45.196Z"
-    },
-    {
-      "track": "Mercury",
-      "artists": "Steve Lacy",
-      "durationMs": 295411,
-      "playedAt": "2026-03-27T21:45:33.035Z"
-    },
-    {
-      "track": "90210 (feat. Kacy Hill)",
-      "artists": "Travis Scott, Kacy Hill",
-      "durationMs": 339066,
-      "playedAt": "2026-03-27T21:40:43.208Z"
-    },
-    {
-      "track": "3005",
-      "artists": "Childish Gambino",
-      "durationMs": 234215,
-      "playedAt": "2026-03-27T21:35:09.839Z"
-    },
-    {
-      "track": "intro",
-      "artists": "Orion Sun",
-      "durationMs": 180560,
-      "playedAt": "2026-03-27T21:31:21.222Z"
-    },
-    {
-      "track": "G2g",
-      "artists": "Berhana",
-      "durationMs": 264683,
-      "playedAt": "2026-03-27T21:28:26.666Z"
-    },
-    {
-      "track": "Summer Love",
-      "artists": "bLAck pARty",
-      "durationMs": 74318,
-      "playedAt": "2026-03-27T21:24:07.563Z"
-    },
-    {
-      "track": "No More Lies",
-      "artists": "Thundercat, Tame Impala",
-      "durationMs": 327217,
-      "playedAt": "2026-03-27T21:22:58.921Z"
-    },
-    {
-      "track": "Used (feat. Don Toliver)",
-      "artists": "SZA, Don Toliver",
-      "durationMs": 146950,
-      "playedAt": "2026-03-27T21:17:37.345Z"
-    },
-    {
-      "track": "Took a While",
-      "artists": "NEIL FRANCES",
-      "durationMs": 202909,
-      "playedAt": "2026-03-27T21:15:15.605Z"
     }
   ]
 }
