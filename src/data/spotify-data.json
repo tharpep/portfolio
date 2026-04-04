@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T14:35:26.268706Z",
+  "lastUpdated": "2026-04-04T16:38:43.219003Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
     },
     {
-      "name": "Guilty Conscience - Tame Impala Remix",
-      "artists": "070 Shake, Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dbae99e91239940d1ba97b64",
-      "spotifyUrl": "https://open.spotify.com/track/5i5fCpsnqDJ9AfeObgd0gW"
+      "name": "Do You...",
+      "artists": "Miguel",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27325c5ef1f91a7c42310842be1",
+      "spotifyUrl": "https://open.spotify.com/track/0HDJk7Sz8DpCsiJR1sjhEO"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 95325210,
-    "trackCount": 440
+    "totalMs": 97593563,
+    "trackCount": 449
   },
   "ytdListening": {
-    "totalMs": 554668054,
-    "trackCount": 2591
+    "totalMs": 556936407,
+    "trackCount": 2600
   }
 }
