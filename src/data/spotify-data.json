@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T18:46:26.206802Z",
+  "lastUpdated": "2026-04-04T20:35:10.442392Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
-      "name": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
-      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
-    },
-    {
       "name": "television",
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
@@ -57,6 +51,12 @@
       "artists": "Miguel",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27325c5ef1f91a7c42310842be1",
       "spotifyUrl": "https://open.spotify.com/track/0HDJk7Sz8DpCsiJR1sjhEO"
+    },
+    {
+      "name": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
+      "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 104496936,
-    "trackCount": 478
+    "totalMs": 107531409,
+    "trackCount": 491
   },
   "ytdListening": {
-    "totalMs": 563839780,
-    "trackCount": 2629
+    "totalMs": 566874253,
+    "trackCount": 2642
   }
 }
