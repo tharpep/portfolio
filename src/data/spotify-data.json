@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T22:32:28.035544Z",
+  "lastUpdated": "2026-04-05T02:42:19.329628Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
+      "name": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
+      "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
+    },
+    {
       "name": "television",
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
@@ -51,12 +57,6 @@
       "artists": "Miguel",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27325c5ef1f91a7c42310842be1",
       "spotifyUrl": "https://open.spotify.com/track/0HDJk7Sz8DpCsiJR1sjhEO"
-    },
-    {
-      "name": "Underworld",
-      "artists": "Alice Phoebe Lou",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
-      "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
   },
   "weeklyListening": {
-    "totalMs": 107857730,
-    "trackCount": 493
+    "totalMs": 111897710,
+    "trackCount": 513
   },
   "ytdListening": {
-    "totalMs": 567200574,
-    "trackCount": 2644
+    "totalMs": 571240554,
+    "trackCount": 2664
   }
 }
