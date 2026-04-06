@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T10:59:32.265248Z",
+  "lastUpdated": "2026-04-06T13:16:26.064692Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -22,9 +22,9 @@
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
     },
     {
-      "name": "Daniel Caesar",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe4d94f7cbebb17504c25d419",
-      "spotifyUrl": "https://open.spotify.com/artist/20wkVLutqVOYrc0kxFs7rA"
+      "name": "JPEGMAFIA",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
+      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     }
   ],
   "topTracksWeek": [
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 14732457,
-    "trackCount": 84
+    "totalMs": 15003843,
+    "trackCount": 85
   },
   "ytdListening": {
-    "totalMs": 591158067,
-    "trackCount": 2779
+    "totalMs": 591429453,
+    "trackCount": 2780
   }
 }
