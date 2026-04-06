@@ -1,6 +1,204 @@
 {
-  "lastCursor": "1775494167479",
+  "lastCursor": "1775502231868",
   "plays": [
+    {
+      "track": "Meat Grinder",
+      "artists": "Madvillain, Madlib, MF DOOM",
+      "durationMs": 131866,
+      "playedAt": "2026-04-06T19:03:51.868Z"
+    },
+    {
+      "track": "Compensating (feat. Young Thug)",
+      "artists": "Aminé, Young Thug",
+      "durationMs": 197855,
+      "playedAt": "2026-04-06T19:01:45.167Z"
+    },
+    {
+      "track": "God Loves You",
+      "artists": "JPEGMAFIA, Danny Brown",
+      "durationMs": 148626,
+      "playedAt": "2026-04-06T18:58:35.232Z"
+    },
+    {
+      "track": "Glory",
+      "artists": "JID",
+      "durationMs": 239566,
+      "playedAt": "2026-04-06T18:56:09.916Z"
+    },
+    {
+      "track": "BOBBY BOUCHER (feat. Benji.)",
+      "artists": "EARTHGANG, Spillage Village, Benji.",
+      "durationMs": 195200,
+      "playedAt": "2026-04-06T18:51:56.429Z"
+    },
+    {
+      "track": "Where I Belong",
+      "artists": "Joey Bada$$",
+      "durationMs": 188386,
+      "playedAt": "2026-04-06T18:46:21.968Z"
+    },
+    {
+      "track": "Lauder Too (feat. Ravyn Lenae & Eryn Allen Kane)",
+      "artists": "JID, Ravyn Lenae, Eryn Allen Kane",
+      "durationMs": 233077,
+      "playedAt": "2026-04-06T18:43:19.052Z"
+    },
+    {
+      "track": "N95",
+      "artists": "Kendrick Lamar",
+      "durationMs": 195950,
+      "playedAt": "2026-04-06T18:39:31.778Z"
+    },
+    {
+      "track": "Reborn",
+      "artists": "KIDS SEE GHOSTS",
+      "durationMs": 324674,
+      "playedAt": "2026-04-06T18:36:21.240Z"
+    },
+    {
+      "track": "THANK GOD",
+      "artists": "Travis Scott",
+      "durationMs": 184888,
+      "playedAt": "2026-04-06T18:31:02.330Z"
+    },
+    {
+      "track": "HAZARD DUTY PAY!",
+      "artists": "JPEGMAFIA",
+      "durationMs": 157169,
+      "playedAt": "2026-04-06T18:28:03.264Z"
+    },
+    {
+      "track": "D.M.B.",
+      "artists": "A$AP Rocky",
+      "durationMs": 291611,
+      "playedAt": "2026-04-06T18:25:31.326Z"
+    },
+    {
+      "track": "REEL IT IN",
+      "artists": "Aminé",
+      "durationMs": 121346,
+      "playedAt": "2026-04-06T18:20:45.767Z"
+    },
+    {
+      "track": "Money Trees",
+      "artists": "Kendrick Lamar, Jay Rock",
+      "durationMs": 386906,
+      "playedAt": "2026-04-06T18:15:32.989Z"
+    },
+    {
+      "track": "TORE UP",
+      "artists": "Don Toliver",
+      "durationMs": 126986,
+      "playedAt": "2026-04-06T18:08:43.319Z"
+    },
+    {
+      "track": "Kingdom Hearts Key (ft. redveil)",
+      "artists": "JPEGMAFIA, Danny Brown, redveil",
+      "durationMs": 205320,
+      "playedAt": "2026-04-06T18:06:40.956Z"
+    },
+    {
+      "track": "Bruddanem (feat. Lil Durk)",
+      "artists": "JID, Lil Durk",
+      "durationMs": 235423,
+      "playedAt": "2026-04-06T18:03:21.626Z"
+    },
+    {
+      "track": "Fashion Killa",
+      "artists": "A$AP Rocky",
+      "durationMs": 236280,
+      "playedAt": "2026-04-06T17:45:03.932Z"
+    },
+    {
+      "track": "Grip 3:16",
+      "artists": "GRIP",
+      "durationMs": 163143,
+      "playedAt": "2026-04-06T17:41:13.210Z"
+    },
+    {
+      "track": "Canal St. (feat. Bones)",
+      "artists": "A$AP Rocky, BONES",
+      "durationMs": 227430,
+      "playedAt": "2026-04-06T17:38:35.973Z"
+    },
+    {
+      "track": "Righteous Minds",
+      "artists": "Joey Bada$$",
+      "durationMs": 224042,
+      "playedAt": "2026-04-06T17:34:53.831Z"
+    },
+    {
+      "track": "Doomsday",
+      "artists": "MF DOOM, Pebbles The Invisible Girl",
+      "durationMs": 298053,
+      "playedAt": "2026-04-06T17:31:16.170Z"
+    },
+    {
+      "track": "On McAfee (with Baby Kia)",
+      "artists": "JID, Baby Kia",
+      "durationMs": 170066,
+      "playedAt": "2026-04-06T17:26:23.481Z"
+    },
+    {
+      "track": "Angels",
+      "artists": "A$AP Rocky",
+      "durationMs": 227080,
+      "playedAt": "2026-04-06T17:22:40.549Z"
+    },
+    {
+      "track": "Count Me Out",
+      "artists": "Kendrick Lamar",
+      "durationMs": 283642,
+      "playedAt": "2026-04-06T17:18:44.900Z"
+    },
+    {
+      "track": "Used (feat. Don Toliver)",
+      "artists": "SZA, Don Toliver",
+      "durationMs": 146950,
+      "playedAt": "2026-04-06T17:14:06.709Z"
+    },
+    {
+      "track": "Babushka Boi",
+      "artists": "A$AP Rocky",
+      "durationMs": 187105,
+      "playedAt": "2026-04-06T17:11:45.759Z"
+    },
+    {
+      "track": "Claymore (feat. Smino)",
+      "artists": "Isaiah Rashad, Smino",
+      "durationMs": 186152,
+      "playedAt": "2026-04-06T17:08:43.844Z"
+    },
+    {
+      "track": "King Kunta",
+      "artists": "Kendrick Lamar",
+      "durationMs": 234693,
+      "playedAt": "2026-04-06T17:05:43.734Z"
+    },
+    {
+      "track": "N.Y. State of Mind",
+      "artists": "Nas",
+      "durationMs": 294081,
+      "playedAt": "2026-04-06T17:01:55.146Z"
+    },
+    {
+      "track": "JUGGERNAUT (feat. Lil Uzi Vert & Pharrell Williams)",
+      "artists": "Tyler, The Creator, Lil Uzi Vert, Pharrell Williams",
+      "durationMs": 146419,
+      "playedAt": "2026-04-06T16:57:06.184Z"
+    },
+    {
+      "track": "Thug Till It's Over",
+      "artists": "Cookin Soul, Freddie Gibbs",
+      "durationMs": 129600,
+      "playedAt": "2026-04-06T16:54:45.547Z"
+    },
+    {
+      "track": "Too Many Nights (feat. Don Toliver & with Future)",
+      "artists": "Metro Boomin, Future, Don Toliver",
+      "durationMs": 199920,
+      "playedAt": "2026-04-06T16:52:41.631Z"
+    },
     {
       "track": "Houston Old Head",
       "artists": "A$AP Rocky",
@@ -4128,72 +4326,6 @@
       "artists": "Mac DeMarco",
       "durationMs": 227653,
       "playedAt": "2026-03-29T19:07:40.400Z"
-    },
-    {
-      "track": "Freaking Out the Neighborhood",
-      "artists": "Mac DeMarco",
-      "durationMs": 173888,
-      "playedAt": "2026-03-29T19:03:58.149Z"
-    },
-    {
-      "track": "Chaeri",
-      "artists": "Magdalena Bay",
-      "durationMs": 257130,
-      "playedAt": "2026-03-29T19:01:09.915Z"
-    },
-    {
-      "track": "Motion",
-      "artists": "Khalid",
-      "durationMs": 235891,
-      "playedAt": "2026-03-29T18:56:58.504Z"
-    },
-    {
-      "track": "Please Do Not Lean (feat. BADBADNOTGOOD) - Bonus",
-      "artists": "Daniel Caesar, BADBADNOTGOOD",
-      "durationMs": 240937,
-      "playedAt": "2026-03-29T18:53:08.206Z"
-    },
-    {
-      "track": "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
-      "artists": "A$AP Rocky, Imogen Heap, Clams Casino",
-      "durationMs": 190285,
-      "playedAt": "2026-03-29T18:42:34.288Z"
-    },
-    {
-      "track": "This Is The World (I Made It For You)",
-      "artists": "Magdalena Bay",
-      "durationMs": 281786,
-      "playedAt": "2026-03-29T18:39:30.229Z"
-    },
-    {
-      "track": "Second Sleep",
-      "artists": "Magdalena Bay",
-      "durationMs": 288453,
-      "playedAt": "2026-03-29T18:24:53.765Z"
-    },
-    {
-      "track": "Glue Song",
-      "artists": "beabadoobee",
-      "durationMs": 135066,
-      "playedAt": "2026-03-29T18:14:07.716Z"
-    },
-    {
-      "track": "What You Won't Do for Love",
-      "artists": "Bobby Caldwell",
-      "durationMs": 286493,
-      "playedAt": "2026-03-29T18:11:59.303Z"
-    },
-    {
-      "track": "Something Good",
-      "artists": "alt-J",
-      "durationMs": 217320,
-      "playedAt": "2026-03-29T17:09:05.874Z"
-    },
-    {
-      "track": "HIGHJACK",
-      "artists": "A$AP Rocky, Jessica Pratt",
-      "durationMs": 190074,
-      "playedAt": "2026-03-29T17:05:26.925Z"
     }
   ]
 }
