@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T22:34:28.951477Z",
+  "lastUpdated": "2026-04-06T02:43:39.585783Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
-    },
-    {
       "name": "Pitch the Baby",
       "artists": "Cocteau Twins",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
+    },
+    {
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     },
     {
       "name": "Underworld",
@@ -53,24 +53,24 @@
       "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
     },
     {
-      "name": "Do You...",
-      "artists": "Miguel",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27325c5ef1f91a7c42310842be1",
-      "spotifyUrl": "https://open.spotify.com/track/0HDJk7Sz8DpCsiJR1sjhEO"
+      "name": "Cherry-coloured Funk",
+      "artists": "Cocteau Twins",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+      "spotifyUrl": "https://open.spotify.com/track/37pKTyMwalomKCZjxTc2QZ"
     }
   ],
   "topTrackDay": {
-    "name": "swordsman",
-    "artists": "Night Tapes",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-    "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
+    "name": "Pitch the Baby",
+    "artists": "Cocteau Twins",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 117082766,
-    "trackCount": 544
+    "totalMs": 5031518,
+    "trackCount": 37
   },
   "ytdListening": {
-    "totalMs": 576425610,
-    "trackCount": 2695
+    "totalMs": 581457128,
+    "trackCount": 2732
   }
 }
