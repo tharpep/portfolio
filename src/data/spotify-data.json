@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T14:51:09.122191Z",
+  "lastUpdated": "2026-04-06T16:52:39.555025Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
     },
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
+      "name": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 16220234,
-    "trackCount": 90
+    "totalMs": 21067756,
+    "trackCount": 110
   },
   "ytdListening": {
-    "totalMs": 592645844,
-    "trackCount": 2785
+    "totalMs": 597493366,
+    "trackCount": 2805
   }
 }

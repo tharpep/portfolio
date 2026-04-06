@@ -1,6 +1,126 @@
 {
-  "lastCursor": "1775486992431",
+  "lastCursor": "1775494167479",
   "plays": [
+    {
+      "track": "Houston Old Head",
+      "artists": "A$AP Rocky",
+      "durationMs": 258092,
+      "playedAt": "2026-04-06T16:49:27.479Z"
+    },
+    {
+      "track": "Just What I Am",
+      "artists": "Kid Cudi, King Chip",
+      "durationMs": 228026,
+      "playedAt": "2026-04-06T16:45:15.143Z"
+    },
+    {
+      "track": "Mr. Morale",
+      "artists": "Kendrick Lamar, Tanna Leone",
+      "durationMs": 210841,
+      "playedAt": "2026-04-06T16:41:28.263Z"
+    },
+    {
+      "track": "Burfict!",
+      "artists": "JPEGMAFIA, Danny Brown",
+      "durationMs": 141089,
+      "playedAt": "2026-04-06T16:38:04.962Z"
+    },
+    {
+      "track": "Paper Trail$",
+      "artists": "Joey Bada$$",
+      "durationMs": 194738,
+      "playedAt": "2026-04-06T16:35:49.795Z"
+    },
+    {
+      "track": "Excuse Me",
+      "artists": "A$AP Rocky",
+      "durationMs": 238052,
+      "playedAt": "2026-04-06T16:31:50.606Z"
+    },
+    {
+      "track": "Zatoichi [Feat. slowthai]",
+      "artists": "Denzel Curry, slowthai",
+      "durationMs": 210426,
+      "playedAt": "2026-04-06T16:27:07.728Z"
+    },
+    {
+      "track": "TIL FURTHER NOTICE (feat. James Blake & 21 Savage)",
+      "artists": "Travis Scott, James Blake, 21 Savage",
+      "durationMs": 314836,
+      "playedAt": "2026-04-06T16:23:42.567Z"
+    },
+    {
+      "track": "Backseat Freestyle",
+      "artists": "Kendrick Lamar",
+      "durationMs": 212653,
+      "playedAt": "2026-04-06T16:18:33.556Z"
+    },
+    {
+      "track": "Matinee",
+      "artists": "Smino, Kal Banx",
+      "durationMs": 188658,
+      "playedAt": "2026-04-06T16:15:06.894Z"
+    },
+    {
+      "track": "l e t . g o . m y . h a n d (with Bas & 6LACK)",
+      "artists": "J. Cole, Bas, 6LACK",
+      "durationMs": 266291,
+      "playedAt": "2026-04-06T16:12:04.063Z"
+    },
+    {
+      "track": "The Blacker The Berry",
+      "artists": "Kendrick Lamar",
+      "durationMs": 328826,
+      "playedAt": "2026-04-06T16:07:43.287Z"
+    },
+    {
+      "track": "Cocoa Butter Kisses",
+      "artists": "Chance the Rapper, VIC MENSA, Twista",
+      "durationMs": 307187,
+      "playedAt": "2026-04-06T16:02:20.517Z"
+    },
+    {
+      "track": "Am I Dreaming (Metro Boomin & A$AP Rocky, Roisee)",
+      "artists": "Metro Boomin, A$AP Rocky, Roisee",
+      "durationMs": 256026,
+      "playedAt": "2026-04-06T15:55:30.501Z"
+    },
+    {
+      "track": "Motion",
+      "artists": "Khalid",
+      "durationMs": 235891,
+      "playedAt": "2026-04-06T15:51:20.362Z"
+    },
+    {
+      "track": "Taking What's Not Yours",
+      "artists": "TV Girl",
+      "durationMs": 205650,
+      "playedAt": "2026-04-06T15:47:33.768Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-04-06T15:44:10.152Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-04-06T15:42:03.076Z"
+    },
+    {
+      "track": "untitled 08 | 09.06.2014.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 235506,
+      "playedAt": "2026-04-06T15:24:17.448Z"
+    },
+    {
+      "track": "New Person, Same Old Mistakes",
+      "artists": "Tame Impala",
+      "durationMs": 363240,
+      "playedAt": "2026-04-06T14:56:01.611Z"
+    },
     {
       "track": "Love Is Everywhere",
       "artists": "Magdalena Bay",
@@ -4074,18 +4194,6 @@
       "artists": "A$AP Rocky, Jessica Pratt",
       "durationMs": 190074,
       "playedAt": "2026-03-29T17:05:26.925Z"
-    },
-    {
-      "track": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "durationMs": 206012,
-      "playedAt": "2026-03-29T16:43:42.638Z"
-    },
-    {
-      "track": "The Violence",
-      "artists": "Childish Gambino",
-      "durationMs": 363355,
-      "playedAt": "2026-03-29T16:40:22.254Z"
     }
   ]
 }
