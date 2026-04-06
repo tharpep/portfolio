@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T02:43:39.585783Z",
+  "lastUpdated": "2026-04-06T05:59:57.694173Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
     },
     {
-      "name": "Cherry-coloured Funk",
-      "artists": "Cocteau Twins",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
-      "spotifyUrl": "https://open.spotify.com/track/37pKTyMwalomKCZjxTc2QZ"
+      "name": "My Muse",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 5031518,
-    "trackCount": 37
+    "totalMs": 14732457,
+    "trackCount": 84
   },
   "ytdListening": {
-    "totalMs": 581457128,
-    "trackCount": 2732
+    "totalMs": 591158067,
+    "trackCount": 2779
   }
 }
