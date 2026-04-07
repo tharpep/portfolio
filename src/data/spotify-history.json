@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1775594998062",
+  "lastCursor": "1775596125474",
   "plays": [
+    {
+      "track": "G2g",
+      "artists": "Berhana",
+      "durationMs": 264683,
+      "playedAt": "2026-04-07T21:08:45.474Z"
+    },
+    {
+      "track": "Backseat Freestyle",
+      "artists": "Kendrick Lamar",
+      "durationMs": 212653,
+      "playedAt": "2026-04-07T21:04:26.745Z"
+    },
+    {
+      "track": "The Ways (with Swae Lee)",
+      "artists": "Khalid, Swae Lee",
+      "durationMs": 238893,
+      "playedAt": "2026-04-07T21:00:59.768Z"
+    },
+    {
+      "track": "Dracula",
+      "artists": "Tame Impala",
+      "durationMs": 205308,
+      "playedAt": "2026-04-07T20:56:40.538Z"
+    },
+    {
+      "track": "Landline",
+      "artists": "binki",
+      "durationMs": 160329,
+      "playedAt": "2026-04-07T20:52:32.623Z"
+    },
     {
       "track": "That's My Floor",
       "artists": "Magdalena Bay",
@@ -4920,108 +4950,6 @@
       "artists": "Daniel Caesar",
       "durationMs": 216524,
       "playedAt": "2026-03-30T22:42:22.975Z"
-    },
-    {
-      "track": "Mariella",
-      "artists": "Khruangbin, Leon Bridges",
-      "durationMs": 310553,
-      "playedAt": "2026-03-30T22:38:52.108Z"
-    },
-    {
-      "track": "Hard to Let Go",
-      "artists": "Men I Trust",
-      "durationMs": 247615,
-      "playedAt": "2026-03-30T22:33:47.138Z"
-    },
-    {
-      "track": "Husk",
-      "artists": "Men I Trust",
-      "durationMs": 204651,
-      "playedAt": "2026-03-30T22:29:45.368Z"
-    },
-    {
-      "track": "HIGHEST IN THE ROOM",
-      "artists": "Travis Scott",
-      "durationMs": 175720,
-      "playedAt": "2026-03-30T22:26:26.724Z"
-    },
-    {
-      "track": "Sky2Fall",
-      "artists": "Magdalena Bay",
-      "durationMs": 132563,
-      "playedAt": "2026-03-30T22:23:36.838Z"
-    },
-    {
-      "track": "Just How You Are",
-      "artists": "Leon Thomas",
-      "durationMs": 194247,
-      "playedAt": "2026-03-30T22:21:29.824Z"
-    },
-    {
-      "track": "Desire Be Desire Go",
-      "artists": "Tame Impala",
-      "durationMs": 266306,
-      "playedAt": "2026-03-30T22:18:21.374Z"
-    },
-    {
-      "track": "DON'T BE DUMB / TRIP BABY",
-      "artists": "A$AP Rocky",
-      "durationMs": 285634,
-      "playedAt": "2026-03-30T22:14:00.701Z"
-    },
-    {
-      "track": "IGOR'S THEME",
-      "artists": "Tyler, The Creator",
-      "durationMs": 200684,
-      "playedAt": "2026-03-30T22:09:36.214Z"
-    },
-    {
-      "track": "Saturn",
-      "artists": "SZA",
-      "durationMs": 186191,
-      "playedAt": "2026-03-30T22:06:05.649Z"
-    },
-    {
-      "track": "Dark Red",
-      "artists": "Steve Lacy",
-      "durationMs": 173104,
-      "playedAt": "2026-03-30T22:03:05.561Z"
-    },
-    {
-      "track": "Lauren",
-      "artists": "Men I Trust",
-      "durationMs": 222680,
-      "playedAt": "2026-03-30T22:00:17.631Z"
-    },
-    {
-      "track": "Break It Off - Bonus",
-      "artists": "PinkPantheress",
-      "durationMs": 96133,
-      "playedAt": "2026-03-30T21:56:40.800Z"
-    },
-    {
-      "track": "St. Chroma (feat. Daniel Caesar)",
-      "artists": "Tyler, The Creator, Daniel Caesar",
-      "durationMs": 197019,
-      "playedAt": "2026-03-30T21:03:07.004Z"
-    },
-    {
-      "track": "Radio",
-      "artists": "Freak Slug",
-      "durationMs": 191527,
-      "playedAt": "2026-03-30T20:59:55.650Z"
-    },
-    {
-      "track": "Paint Me A Picture",
-      "artists": "Magdalena Bay",
-      "durationMs": 231720,
-      "playedAt": "2026-03-30T20:56:44.647Z"
-    },
-    {
-      "track": "Nights",
-      "artists": "Frank Ocean",
-      "durationMs": 307151,
-      "playedAt": "2026-03-30T20:52:38.326Z"
     }
   ]
 }
