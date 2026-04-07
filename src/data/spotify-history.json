@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1775529294321",
+  "lastCursor": "1775529933133",
   "plays": [
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-04-07T02:45:33.133Z"
+    },
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-04-07T02:42:43.854Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-04-07T02:41:01.323Z"
+    },
+    {
+      "track": "Days Go By",
+      "artists": "Men I Trust",
+      "durationMs": 197172,
+      "playedAt": "2026-04-07T02:38:10.880Z"
+    },
     {
       "track": "I Must Apologise",
       "artists": "PinkPantheress",
@@ -4590,84 +4614,6 @@
       "artists": "Mac Miller, Kendrick Lamar",
       "durationMs": 500960,
       "playedAt": "2026-03-30T14:57:36.658Z"
-    },
-    {
-      "track": "Static",
-      "artists": "Steve Lacy",
-      "durationMs": 156538,
-      "playedAt": "2026-03-30T03:38:09.398Z"
-    },
-    {
-      "track": "Push Me Away",
-      "artists": "Jordana, Magdalena Bay",
-      "durationMs": 164307,
-      "playedAt": "2026-03-30T03:35:31.046Z"
-    },
-    {
-      "track": "Overdue (with Travis Scott)",
-      "artists": "Metro Boomin, Travis Scott",
-      "durationMs": 166093,
-      "playedAt": "2026-03-30T03:32:58.058Z"
-    },
-    {
-      "track": "telepatía",
-      "artists": "Kali Uchis",
-      "durationMs": 160191,
-      "playedAt": "2026-03-30T03:30:18.246Z"
-    },
-    {
-      "track": "sdp interlude",
-      "artists": "Travis Scott",
-      "durationMs": 191622,
-      "playedAt": "2026-03-30T03:05:46.274Z"
-    },
-    {
-      "track": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "durationMs": 225747,
-      "playedAt": "2026-03-30T03:02:40.304Z"
-    },
-    {
-      "track": "Equal Trouble",
-      "artists": "Blue Material",
-      "durationMs": 242102,
-      "playedAt": "2026-03-30T02:59:00.201Z"
-    },
-    {
-      "track": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "durationMs": 194080,
-      "playedAt": "2026-03-30T02:55:04.327Z"
-    },
-    {
-      "track": "Natural",
-      "artists": "Shelly",
-      "durationMs": 163764,
-      "playedAt": "2026-03-30T02:51:55.521Z"
-    },
-    {
-      "track": "Trade It",
-      "artists": "Slow Pulp",
-      "durationMs": 172319,
-      "playedAt": "2026-03-30T02:49:17.516Z"
-    },
-    {
-      "track": "Somewhere in Between",
-      "artists": "Blood Orange",
-      "durationMs": 203728,
-      "playedAt": "2026-03-30T02:46:31.076Z"
-    },
-    {
-      "track": "the way things go",
-      "artists": "beabadoobee",
-      "durationMs": 187800,
-      "playedAt": "2026-03-30T02:42:57.759Z"
-    },
-    {
-      "track": "This Is The World (I Made It For You)",
-      "artists": "Magdalena Bay",
-      "durationMs": 281786,
-      "playedAt": "2026-03-30T02:39:58.914Z"
     }
   ]
 }
