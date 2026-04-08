@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T02:38:37.056576Z",
+  "lastUpdated": "2026-04-08T05:48:04.334815Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
-    },
-    {
       "name": "Pitch the Baby",
       "artists": "Cocteau Twins",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
+    },
+    {
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     },
     {
       "name": "Underworld",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "swordsman",
-    "artists": "Night Tapes",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-    "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
+    "name": "Pitch the Baby",
+    "artists": "Cocteau Twins",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+    "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 62680214,
-    "trackCount": 356
+    "totalMs": 64804004,
+    "trackCount": 366
   },
   "ytdListening": {
-    "totalMs": 639105824,
-    "trackCount": 3051
+    "totalMs": 641229614,
+    "trackCount": 3061
   }
 }
