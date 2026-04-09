@@ -1,6 +1,96 @@
 {
-  "lastCursor": "1775750884218",
+  "lastCursor": "1775758668097",
   "plays": [
+    {
+      "track": "Palace",
+      "artists": "A$AP Rocky",
+      "durationMs": 162960,
+      "playedAt": "2026-04-09T18:17:48.097Z"
+    },
+    {
+      "track": "New Black History (feat. Vince Staples)",
+      "artists": "JPEGMAFIA, Vince Staples",
+      "durationMs": 136666,
+      "playedAt": "2026-04-09T18:15:10.780Z"
+    },
+    {
+      "track": "Rah Tah Tah",
+      "artists": "Tyler, The Creator",
+      "durationMs": 165412,
+      "playedAt": "2026-04-09T18:13:16.136Z"
+    },
+    {
+      "track": "Dive",
+      "artists": "Kid Cudi",
+      "durationMs": 148706,
+      "playedAt": "2026-04-09T18:07:52.303Z"
+    },
+    {
+      "track": "Eye Know",
+      "artists": "De La Soul, Otis Redding",
+      "durationMs": 252671,
+      "playedAt": "2026-04-09T18:05:24.464Z"
+    },
+    {
+      "track": "Roll One Up",
+      "artists": "A$AP Rocky",
+      "durationMs": 160440,
+      "playedAt": "2026-04-09T18:01:21.279Z"
+    },
+    {
+      "track": "Otis",
+      "artists": "JAŸ-Z, Kanye West, Otis Redding",
+      "durationMs": 178213,
+      "playedAt": "2026-04-09T17:58:46.433Z"
+    },
+    {
+      "track": "Shut Yo Bitch Ass Up / Muddy Waters",
+      "artists": "JPEGMAFIA, Danny Brown",
+      "durationMs": 174454,
+      "playedAt": "2026-04-09T17:55:54.280Z"
+    },
+    {
+      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
+      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
+      "durationMs": 315768,
+      "playedAt": "2026-04-09T17:53:05.501Z"
+    },
+    {
+      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
+      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
+      "durationMs": 315768,
+      "playedAt": "2026-04-09T17:48:24.848Z"
+    },
+    {
+      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
+      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
+      "durationMs": 315768,
+      "playedAt": "2026-04-09T17:47:56.220Z"
+    },
+    {
+      "track": "DNA.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 185946,
+      "playedAt": "2026-04-09T17:45:32.595Z"
+    },
+    {
+      "track": "Kody Blu 31",
+      "artists": "JID",
+      "durationMs": 224629,
+      "playedAt": "2026-04-09T17:42:32.717Z"
+    },
+    {
+      "track": "Don't Put Anything On the Bible (feat. Buzzy Lee)",
+      "artists": "JPEGMAFIA, Buzzy Lee",
+      "durationMs": 244725,
+      "playedAt": "2026-04-09T17:38:53.460Z"
+    },
+    {
+      "track": "Mercy Mercy Me (The Ecology)",
+      "artists": "Marvin Gaye",
+      "durationMs": 193573,
+      "playedAt": "2026-04-09T17:34:07.203Z"
+    },
     {
       "track": "Swishers",
       "artists": "SwuM, [bsd.u]",
@@ -5334,72 +5424,6 @@
       "artists": "Travis Scott",
       "durationMs": 251249,
       "playedAt": "2026-04-01T19:11:49.687Z"
-    },
-    {
-      "track": "Guilty Conscience - Tame Impala Remix",
-      "artists": "070 Shake, Tame Impala",
-      "durationMs": 214986,
-      "playedAt": "2026-04-01T18:24:17.528Z"
-    },
-    {
-      "track": "Fucked Up (feat. Daniel Caesar)",
-      "artists": "Jiin, Daniel Caesar",
-      "durationMs": 223973,
-      "playedAt": "2026-04-01T18:20:26.894Z"
-    },
-    {
-      "track": "Be There For You",
-      "artists": "CARRTOONS",
-      "durationMs": 107189,
-      "playedAt": "2026-04-01T18:16:48.412Z"
-    },
-    {
-      "track": "Save Room",
-      "artists": "John Legend",
-      "durationMs": 235870,
-      "playedAt": "2026-04-01T18:05:08.285Z"
-    },
-    {
-      "track": "Disillusioned (with serpentwithfeet)",
-      "artists": "Daniel Caesar, serpentwithfeet",
-      "durationMs": 241232,
-      "playedAt": "2026-04-01T18:02:22.804Z"
-    },
-    {
-      "track": "Paint Me A Picture",
-      "artists": "Magdalena Bay",
-      "durationMs": 231720,
-      "playedAt": "2026-04-01T18:01:20.107Z"
-    },
-    {
-      "track": "Little Dark Age",
-      "artists": "MGMT",
-      "durationMs": 299933,
-      "playedAt": "2026-04-01T17:53:36.258Z"
-    },
-    {
-      "track": "Lauren",
-      "artists": "Men I Trust",
-      "durationMs": 222680,
-      "playedAt": "2026-04-01T17:48:48.505Z"
-    },
-    {
-      "track": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "durationMs": 178274,
-      "playedAt": "2026-04-01T17:45:05.308Z"
-    },
-    {
-      "track": "Headshots (4r da Locals)",
-      "artists": "Isaiah Rashad",
-      "durationMs": 193208,
-      "playedAt": "2026-04-01T17:42:12.238Z"
-    },
-    {
-      "track": "swordsman",
-      "artists": "Night Tapes",
-      "durationMs": 208075,
-      "playedAt": "2026-04-01T17:38:59.139Z"
     }
   ]
 }
