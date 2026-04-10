@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1775786121370",
+  "lastCursor": "1775849176663",
   "plays": [
+    {
+      "track": "swordsman",
+      "artists": "Night Tapes",
+      "durationMs": 208075,
+      "playedAt": "2026-04-10T19:26:16.663Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-04-10T19:22:54.082Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-04-10T19:20:37.871Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-04-10T19:17:29.504Z"
+    },
+    {
+      "track": "SORRY NOT SORRY",
+      "artists": "Tyler, The Creator",
+      "durationMs": 206049,
+      "playedAt": "2026-04-10T19:14:53.021Z"
+    },
+    {
+      "track": "Black&Blue",
+      "artists": "Vince Staples",
+      "durationMs": 198630,
+      "playedAt": "2026-04-10T19:10:40.550Z"
+    },
     {
       "track": "BANDIT",
       "artists": "Don Toliver",
