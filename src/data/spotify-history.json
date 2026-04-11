@@ -1,6 +1,72 @@
 {
-  "lastCursor": "1775849176663",
+  "lastCursor": "1775872281585",
   "plays": [
+    {
+      "track": "You Can Call Me Al",
+      "artists": "Paul Simon",
+      "durationMs": 280586,
+      "playedAt": "2026-04-11T01:51:21.585Z"
+    },
+    {
+      "track": "50 Ways to Leave Your Lover",
+      "artists": "Paul Simon",
+      "durationMs": 217573,
+      "playedAt": "2026-04-11T01:46:47.379Z"
+    },
+    {
+      "track": "Beat laments the world",
+      "artists": "Nujabes",
+      "durationMs": 263373,
+      "playedAt": "2026-04-11T01:43:19.935Z"
+    },
+    {
+      "track": "Slide (feat. Frank Ocean & Migos)",
+      "artists": "Calvin Harris, Frank Ocean, Migos, Funk Wav",
+      "durationMs": 230813,
+      "playedAt": "2026-04-10T23:16:50.932Z"
+    },
+    {
+      "track": "Crossfaded",
+      "artists": "Don Toliver",
+      "durationMs": 159033,
+      "playedAt": "2026-04-10T23:13:07.421Z"
+    },
+    {
+      "track": "Make Me a Better Man",
+      "artists": "Malcolm Todd",
+      "durationMs": 210026,
+      "playedAt": "2026-04-10T23:10:33.840Z"
+    },
+    {
+      "track": "Ring of Past",
+      "artists": "Men I Trust",
+      "durationMs": 201523,
+      "playedAt": "2026-04-10T23:07:09.799Z"
+    },
+    {
+      "track": "Waltzing Back",
+      "artists": "No Vacation",
+      "durationMs": 192000,
+      "playedAt": "2026-04-10T23:03:54.024Z"
+    },
+    {
+      "track": "The Void",
+      "artists": "Kid Cudi",
+      "durationMs": 325413,
+      "playedAt": "2026-04-10T23:00:47.973Z"
+    },
+    {
+      "track": "Serenade of Water",
+      "artists": "Men I Trust",
+      "durationMs": 185660,
+      "playedAt": "2026-04-10T22:55:27.727Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-04-10T22:52:38.460Z"
+    },
     {
       "track": "swordsman",
       "artists": "Night Tapes",
@@ -4902,42 +4968,6 @@
       "artists": "Magdalena Bay",
       "durationMs": 196173,
       "playedAt": "2026-04-03T03:12:57.114Z"
-    },
-    {
-      "track": "Righteous Minds",
-      "artists": "Joey Bada$$",
-      "durationMs": 224042,
-      "playedAt": "2026-04-03T01:01:53.535Z"
-    },
-    {
-      "track": "Weird Fishes / Arpeggi",
-      "artists": "Radiohead",
-      "durationMs": 318186,
-      "playedAt": "2026-04-03T00:58:18.769Z"
-    },
-    {
-      "track": "WE SAW THE SUN!",
-      "artists": "Lil Yachty",
-      "durationMs": 331428,
-      "playedAt": "2026-04-03T00:20:41.708Z"
-    },
-    {
-      "track": "RIP",
-      "artists": "Miguel",
-      "durationMs": 164692,
-      "playedAt": "2026-04-02T22:50:22.382Z"
-    },
-    {
-      "track": "Lauren",
-      "artists": "Men I Trust",
-      "durationMs": 222680,
-      "playedAt": "2026-04-02T22:47:43.283Z"
-    },
-    {
-      "track": "Lay Me Down",
-      "artists": "Steve Lacy",
-      "durationMs": 183074,
-      "playedAt": "2026-04-02T22:43:37.378Z"
     }
   ]
 }
