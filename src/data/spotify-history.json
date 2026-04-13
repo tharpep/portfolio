@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1776099885260",
+  "lastCursor": "1776100271528",
   "plays": [
+    {
+      "track": "Took a While",
+      "artists": "NEIL FRANCES",
+      "durationMs": 202909,
+      "playedAt": "2026-04-13T17:11:11.528Z"
+    },
+    {
+      "track": "Fauxllennium",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 188533,
+      "playedAt": "2026-04-13T17:07:52.917Z"
+    },
     {
       "track": "BURN",
       "artists": "¥$, Kanye West, Ty Dolla $ign",
@@ -4722,42 +4734,6 @@
       "artists": "Childish Gambino",
       "durationMs": 210673,
       "playedAt": "2026-04-05T20:02:51.151Z"
-    },
-    {
-      "track": "Rollin (feat. Future & Khalid)",
-      "artists": "Calvin Harris, Future, Khalid, Funk Wav",
-      "durationMs": 272653,
-      "playedAt": "2026-04-05T19:16:48.361Z"
-    },
-    {
-      "track": "G2g",
-      "artists": "Berhana",
-      "durationMs": 264683,
-      "playedAt": "2026-04-05T18:08:36.973Z"
-    },
-    {
-      "track": "All Caps",
-      "artists": "Madvillain, Madlib, MF DOOM",
-      "durationMs": 130479,
-      "playedAt": "2026-04-05T18:04:18.071Z"
-    },
-    {
-      "track": "Upset (feat. Tommy Richman & FELIX!)",
-      "artists": "Brent Faiyaz, FELIX!, Tommy Richman",
-      "durationMs": 177899,
-      "playedAt": "2026-04-05T17:19:48.855Z"
-    },
-    {
-      "track": "Little Homies",
-      "artists": "Vince Staples",
-      "durationMs": 224745,
-      "playedAt": "2026-04-05T17:16:56.931Z"
-    },
-    {
-      "track": "TODAY",
-      "artists": "Q",
-      "durationMs": 241666,
-      "playedAt": "2026-04-05T17:13:19.779Z"
     }
   ]
 }
