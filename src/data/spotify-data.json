@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T20:57:44.916996Z",
+  "lastUpdated": "2026-04-13T22:46:55.176459Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 9627359,
-    "trackCount": 44
+    "totalMs": 15821329,
+    "trackCount": 79
   },
   "ytdListening": {
-    "totalMs": 722661331,
-    "trackCount": 3485
+    "totalMs": 728855301,
+    "trackCount": 3520
   }
 }
