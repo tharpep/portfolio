@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T19:17:09.285791Z",
+  "lastUpdated": "2026-04-13T20:57:44.916996Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
     },
     {
-      "name": "television",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
-    },
-    {
       "name": "My Muse",
       "artists": "Leon Thomas",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
       "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
+    },
+    {
+      "name": "television",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 5382417,
-    "trackCount": 24
+    "totalMs": 9627359,
+    "trackCount": 44
   },
   "ytdListening": {
-    "totalMs": 718416389,
-    "trackCount": 3465
+    "totalMs": 722661331,
+    "trackCount": 3485
   }
 }
