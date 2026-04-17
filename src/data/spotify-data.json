@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T06:04:41.480138Z",
+  "lastUpdated": "2026-04-17T09:20:36.494485Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
-    },
-    {
       "name": "Underworld",
       "artists": "Alice Phoebe Lou",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
       "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
+    },
+    {
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     },
     {
       "name": "My Muse",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     },
     {
-      "name": "television",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5m8icy86jKReTnTdoH4zfS"
+      "name": "Trade It",
+      "artists": "Slow Pulp",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27352a17efb55a62f0a7e7f7713",
+      "spotifyUrl": "https://open.spotify.com/track/3ZF9u7enIDyKPiXj4VP1P1"
     }
   ],
   "topTrackDay": {
