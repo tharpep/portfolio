@@ -1,6 +1,156 @@
 {
-  "lastCursor": "1776403824688",
+  "lastCursor": "1776452536322",
   "plays": [
+    {
+      "track": "Rhymes Like Dimes",
+      "artists": "MF DOOM, DJ Cucumber Slice",
+      "durationMs": 258613,
+      "playedAt": "2026-04-17T19:02:16.322Z"
+    },
+    {
+      "track": "Blind",
+      "artists": "SZA",
+      "durationMs": 150720,
+      "playedAt": "2026-04-17T18:57:36.510Z"
+    },
+    {
+      "track": "Found (feat. Brent Faiyaz)",
+      "artists": "Tems, Brent Faiyaz",
+      "durationMs": 209454,
+      "playedAt": "2026-04-17T18:55:10.897Z"
+    },
+    {
+      "track": "Love Me Not",
+      "artists": "Ravyn Lenae",
+      "durationMs": 213466,
+      "playedAt": "2026-04-17T18:51:46.918Z"
+    },
+    {
+      "track": "Hummingbird (Metro Boomin & James Blake)",
+      "artists": "Metro Boomin, James Blake",
+      "durationMs": 319493,
+      "playedAt": "2026-04-17T18:48:18.937Z"
+    },
+    {
+      "track": "Loser",
+      "artists": "Tame Impala",
+      "durationMs": 223069,
+      "playedAt": "2026-04-17T18:43:05.291Z"
+    },
+    {
+      "track": "Pursuit Of Happiness (Nightmare)",
+      "artists": "Kid Cudi, MGMT, Ratatat",
+      "durationMs": 295293,
+      "playedAt": "2026-04-17T18:39:27.958Z"
+    },
+    {
+      "track": "I THINK",
+      "artists": "Tyler, The Creator",
+      "durationMs": 212016,
+      "playedAt": "2026-04-17T18:34:38.539Z"
+    },
+    {
+      "track": "Fluorescent Adolescent",
+      "artists": "Arctic Monkeys",
+      "durationMs": 173493,
+      "playedAt": "2026-04-17T18:31:12.009Z"
+    },
+    {
+      "track": "BUTTERFLY EFFECT",
+      "artists": "Travis Scott",
+      "durationMs": 190557,
+      "playedAt": "2026-04-17T18:28:54.510Z"
+    },
+    {
+      "track": "Sugar On My Tongue",
+      "artists": "Tyler, The Creator",
+      "durationMs": 153332,
+      "playedAt": "2026-04-17T18:25:08.452Z"
+    },
+    {
+      "track": "Lovin’ Me (feat. Phoebe Bridgers)",
+      "artists": "Kid Cudi, Phoebe Bridgers",
+      "durationMs": 165893,
+      "playedAt": "2026-04-17T18:17:40.392Z"
+    },
+    {
+      "track": "Backseat Freestyle",
+      "artists": "Kendrick Lamar",
+      "durationMs": 212653,
+      "playedAt": "2026-04-17T18:14:57.029Z"
+    },
+    {
+      "track": "Basement Jack",
+      "artists": "Steve Lacy",
+      "durationMs": 109818,
+      "playedAt": "2026-04-17T18:11:29.721Z"
+    },
+    {
+      "track": "Mind Fields",
+      "artists": "No Vacation",
+      "durationMs": 272625,
+      "playedAt": "2026-04-17T18:09:45.759Z"
+    },
+    {
+      "track": "Humility (feat. George Benson)",
+      "artists": "Gorillaz, George Benson",
+      "durationMs": 197933,
+      "playedAt": "2026-04-17T18:05:18.763Z"
+    },
+    {
+      "track": "Tequila Shots",
+      "artists": "Kid Cudi",
+      "durationMs": 193293,
+      "playedAt": "2026-04-17T18:02:06.738Z"
+    },
+    {
+      "track": "Spirit 2.0",
+      "artists": "Sampha",
+      "durationMs": 289962,
+      "playedAt": "2026-04-17T17:58:59.171Z"
+    },
+    {
+      "track": "She Stole My Heart",
+      "artists": "Ark Woods",
+      "durationMs": 213499,
+      "playedAt": "2026-04-17T17:54:15.075Z"
+    },
+    {
+      "track": "Dark Red",
+      "artists": "Steve Lacy",
+      "durationMs": 173104,
+      "playedAt": "2026-04-17T17:50:47.123Z"
+    },
+    {
+      "track": "YOU'RE THE ONE",
+      "artists": "KAYTRANADA, Syd",
+      "durationMs": 227706,
+      "playedAt": "2026-04-17T17:47:59.780Z"
+    },
+    {
+      "track": "Palace/Curse (feat. Tyler, The Creator & Steve Lacy)",
+      "artists": "The Internet, Tyler, The Creator, Steve Lacy",
+      "durationMs": 440003,
+      "playedAt": "2026-04-17T17:44:17.643Z"
+    },
+    {
+      "track": "4th Dimension",
+      "artists": "KIDS SEE GHOSTS, Louis Prima",
+      "durationMs": 153351,
+      "playedAt": "2026-04-17T17:37:03.610Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-04-17T17:34:27.078Z"
+    },
+    {
+      "track": "Beaches",
+      "artists": "beabadoobee",
+      "durationMs": 230053,
+      "playedAt": "2026-04-17T17:34:17.003Z"
+    },
     {
       "track": "Vicious Sensitive Robot",
       "artists": "The Marías",
@@ -3360,96 +3510,6 @@
       "artists": "Kendrick Lamar",
       "durationMs": 235506,
       "playedAt": "2026-04-10T00:12:05.065Z"
-    },
-    {
-      "track": "Palace",
-      "artists": "A$AP Rocky",
-      "durationMs": 162960,
-      "playedAt": "2026-04-09T18:17:48.097Z"
-    },
-    {
-      "track": "New Black History (feat. Vince Staples)",
-      "artists": "JPEGMAFIA, Vince Staples",
-      "durationMs": 136666,
-      "playedAt": "2026-04-09T18:15:10.780Z"
-    },
-    {
-      "track": "Rah Tah Tah",
-      "artists": "Tyler, The Creator",
-      "durationMs": 165412,
-      "playedAt": "2026-04-09T18:13:16.136Z"
-    },
-    {
-      "track": "Dive",
-      "artists": "Kid Cudi",
-      "durationMs": 148706,
-      "playedAt": "2026-04-09T18:07:52.303Z"
-    },
-    {
-      "track": "Eye Know",
-      "artists": "De La Soul, Otis Redding",
-      "durationMs": 252671,
-      "playedAt": "2026-04-09T18:05:24.464Z"
-    },
-    {
-      "track": "Roll One Up",
-      "artists": "A$AP Rocky",
-      "durationMs": 160440,
-      "playedAt": "2026-04-09T18:01:21.279Z"
-    },
-    {
-      "track": "Otis",
-      "artists": "JAŸ-Z, Kanye West, Otis Redding",
-      "durationMs": 178213,
-      "playedAt": "2026-04-09T17:58:46.433Z"
-    },
-    {
-      "track": "Shut Yo Bitch Ass Up / Muddy Waters",
-      "artists": "JPEGMAFIA, Danny Brown",
-      "durationMs": 174454,
-      "playedAt": "2026-04-09T17:55:54.280Z"
-    },
-    {
-      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
-      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
-      "durationMs": 315768,
-      "playedAt": "2026-04-09T17:53:05.501Z"
-    },
-    {
-      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
-      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
-      "durationMs": 315768,
-      "playedAt": "2026-04-09T17:48:24.848Z"
-    },
-    {
-      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
-      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
-      "durationMs": 315768,
-      "playedAt": "2026-04-09T17:47:56.220Z"
-    },
-    {
-      "track": "DNA.",
-      "artists": "Kendrick Lamar",
-      "durationMs": 185946,
-      "playedAt": "2026-04-09T17:45:32.595Z"
-    },
-    {
-      "track": "Kody Blu 31",
-      "artists": "JID",
-      "durationMs": 224629,
-      "playedAt": "2026-04-09T17:42:32.717Z"
-    },
-    {
-      "track": "Don't Put Anything On the Bible (feat. Buzzy Lee)",
-      "artists": "JPEGMAFIA, Buzzy Lee",
-      "durationMs": 244725,
-      "playedAt": "2026-04-09T17:38:53.460Z"
-    },
-    {
-      "track": "Mercy Mercy Me (The Ecology)",
-      "artists": "Marvin Gaye",
-      "durationMs": 193573,
-      "playedAt": "2026-04-09T17:34:07.203Z"
     }
   ]
 }
