@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T18:54:57.213948Z",
+  "lastUpdated": "2026-04-18T20:39:37.274278Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/3ZF9u7enIDyKPiXj4VP1P1"
     },
     {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
-      "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
+      "name": "Lovesick",
+      "artists": "Alice Phoebe Lou",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5f4f9f835ade82d83085b07",
+      "spotifyUrl": "https://open.spotify.com/track/1zAhBi1c5qVxK0719Z8fvy"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 115347840,
-    "trackCount": 566
+    "totalMs": 121626649,
+    "trackCount": 598
   },
   "ytdListening": {
-    "totalMs": 828381812,
-    "trackCount": 4007
+    "totalMs": 834660621,
+    "trackCount": 4039
   }
 }
