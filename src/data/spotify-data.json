@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T16:43:31.327822Z",
+  "lastUpdated": "2026-04-18T18:54:57.213948Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
-    },
-    {
       "name": "Underworld",
       "artists": "Alice Phoebe Lou",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
@@ -57,6 +51,12 @@
       "artists": "Slow Pulp",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27352a17efb55a62f0a7e7f7713",
       "spotifyUrl": "https://open.spotify.com/track/3ZF9u7enIDyKPiXj4VP1P1"
+    },
+    {
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
+      "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 108363352,
-    "trackCount": 530
+    "totalMs": 115347840,
+    "trackCount": 566
   },
   "ytdListening": {
-    "totalMs": 821397324,
-    "trackCount": 3971
+    "totalMs": 828381812,
+    "trackCount": 4007
   }
 }
