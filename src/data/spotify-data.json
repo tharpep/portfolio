@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T22:38:00.399870Z",
+  "lastUpdated": "2026-04-19T02:53:31.288211Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1zAhBi1c5qVxK0719Z8fvy"
     },
     {
-      "name": "Natural",
-      "artists": "Shelly",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e6489814285451edf0a73962",
-      "spotifyUrl": "https://open.spotify.com/track/6VLjdregMReJhKp2r32IWo"
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 124821088,
-    "trackCount": 614
+    "totalMs": 128812704,
+    "trackCount": 633
   },
   "ytdListening": {
-    "totalMs": 837855060,
-    "trackCount": 4055
+    "totalMs": 841846676,
+    "trackCount": 4074
   }
 }
