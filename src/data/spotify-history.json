@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1776630979056",
+  "lastCursor": "1776632346940",
   "plays": [
+    {
+      "track": "After Hours",
+      "artists": "The Weeknd",
+      "durationMs": 361026,
+      "playedAt": "2026-04-19T20:59:06.940Z"
+    },
+    {
+      "track": "Fear, Sex",
+      "artists": "Magdalena Bay",
+      "durationMs": 152053,
+      "playedAt": "2026-04-19T20:53:08.649Z"
+    },
+    {
+      "track": "Lost Kids Get Money",
+      "artists": "Brent Faiyaz",
+      "durationMs": 178488,
+      "playedAt": "2026-04-19T20:50:41.999Z"
+    },
+    {
+      "track": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+      "artists": "A$AP Rocky, Brent Faiyaz",
+      "durationMs": 346093,
+      "playedAt": "2026-04-19T20:47:49.105Z"
+    },
+    {
+      "track": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+      "artists": "A$AP Rocky, Brent Faiyaz",
+      "durationMs": 346093,
+      "playedAt": "2026-04-19T20:43:58.442Z"
+    },
     {
       "track": "BITTERSUITE",
       "artists": "Billie Eilish",
