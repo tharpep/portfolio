@@ -1,6 +1,114 @@
 {
-  "lastCursor": "1776624851669",
+  "lastCursor": "1776630979056",
   "plays": [
+    {
+      "track": "BITTERSUITE",
+      "artists": "Billie Eilish",
+      "durationMs": 298440,
+      "playedAt": "2026-04-19T20:36:19.056Z"
+    },
+    {
+      "track": "Mr. Rager",
+      "artists": "Kid Cudi",
+      "durationMs": 294213,
+      "playedAt": "2026-04-19T20:31:26.479Z"
+    },
+    {
+      "track": "Mirage",
+      "artists": "Orion Sun",
+      "durationMs": 57443,
+      "playedAt": "2026-04-19T20:25:26.853Z"
+    },
+    {
+      "track": "12:34 AM",
+      "artists": "Billy Lemos, Omar Apollo, Maxwell Young",
+      "durationMs": 127000,
+      "playedAt": "2026-04-19T20:24:35.232Z"
+    },
+    {
+      "track": "Crack Rock",
+      "artists": "Frank Ocean",
+      "durationMs": 224146,
+      "playedAt": "2026-04-19T20:22:33.692Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-04-19T20:18:55.226Z"
+    },
+    {
+      "track": "Boredom (feat. Rex Orange County & Anna of the North)",
+      "artists": "Tyler, The Creator, Rex Orange County, Anna of the North",
+      "durationMs": 320720,
+      "playedAt": "2026-04-19T20:14:27.190Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-04-19T20:09:12.241Z"
+    },
+    {
+      "track": "Off and On",
+      "artists": "SALES",
+      "durationMs": 250909,
+      "playedAt": "2026-04-19T20:06:28.199Z"
+    },
+    {
+      "track": "Just the Right Song",
+      "artists": "Vansire",
+      "durationMs": 186253,
+      "playedAt": "2026-04-19T20:02:22.888Z"
+    },
+    {
+      "track": "Designer",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 226298,
+      "playedAt": "2026-04-19T19:59:22.403Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-04-19T19:55:48.557Z"
+    },
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-04-19T19:50:28.903Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-04-19T19:48:14.535Z"
+    },
+    {
+      "track": "I Like It",
+      "artists": "Stray Kids",
+      "durationMs": 148632,
+      "playedAt": "2026-04-19T19:10:40.218Z"
+    },
+    {
+      "track": "Have You Considered?",
+      "artists": "Pattie Gonia, Imogen Heap, Boreta",
+      "durationMs": 260506,
+      "playedAt": "2026-04-19T19:08:11.194Z"
+    },
+    {
+      "track": "How Come?",
+      "artists": "Stray Fossa",
+      "durationMs": 300452,
+      "playedAt": "2026-04-19T19:01:10.167Z"
+    },
+    {
+      "track": "blowfish",
+      "artists": "Yot Club",
+      "durationMs": 129414,
+      "playedAt": "2026-04-19T18:56:15.371Z"
+    },
     {
       "track": "All The Rage",
       "artists": "Hotel Decor",
@@ -4482,54 +4590,6 @@
       "artists": "Tame Impala",
       "durationMs": 362466,
       "playedAt": "2026-04-11T23:29:11.739Z"
-    },
-    {
-      "track": "Since I Left You",
-      "artists": "The Avalanches",
-      "durationMs": 262840,
-      "playedAt": "2026-04-11T19:20:47.223Z"
-    },
-    {
-      "track": "Be There For You",
-      "artists": "CARRTOONS",
-      "durationMs": 107189,
-      "playedAt": "2026-04-11T19:16:29.646Z"
-    },
-    {
-      "track": "Disillusioned (with serpentwithfeet)",
-      "artists": "Daniel Caesar, serpentwithfeet",
-      "durationMs": 241232,
-      "playedAt": "2026-04-11T19:14:48.544Z"
-    },
-    {
-      "track": "Dive",
-      "artists": "Kid Cudi",
-      "durationMs": 148706,
-      "playedAt": "2026-04-11T19:11:22.644Z"
-    },
-    {
-      "track": "scars",
-      "artists": "Baby Keem",
-      "durationMs": 266010,
-      "playedAt": "2026-04-11T19:08:30.272Z"
-    },
-    {
-      "track": "Summers Over Interlude",
-      "artists": "Drake, Majid Jordan",
-      "durationMs": 106333,
-      "playedAt": "2026-04-11T19:04:11.783Z"
-    },
-    {
-      "track": "Little Dark Age",
-      "artists": "MGMT",
-      "durationMs": 299933,
-      "playedAt": "2026-04-11T19:02:28.967Z"
-    },
-    {
-      "track": "Sandstorm (feat. JID)",
-      "artists": "Mereba, JID",
-      "durationMs": 179026,
-      "playedAt": "2026-04-11T18:57:35.203Z"
     }
   ]
 }
