@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T13:47:21.325902Z",
+  "lastUpdated": "2026-04-20T15:17:09.277090Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     },
     {
-      "name": "Underworld",
-      "artists": "Alice Phoebe Lou",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
-      "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
-    },
-    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
+    },
+    {
+      "name": "Trade It",
+      "artists": "Slow Pulp",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27352a17efb55a62f0a7e7f7713",
+      "spotifyUrl": "https://open.spotify.com/track/3ZF9u7enIDyKPiXj4VP1P1"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 4258821,
-    "trackCount": 26
+    "totalMs": 6360866,
+    "trackCount": 37
   },
   "ytdListening": {
-    "totalMs": 861214782,
-    "trackCount": 4186
+    "totalMs": 863316827,
+    "trackCount": 4197
   }
 }
