@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T11:37:45.750328Z",
+  "lastUpdated": "2026-04-20T13:47:21.325902Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 3109161,
-    "trackCount": 20
+    "totalMs": 4258821,
+    "trackCount": 26
   },
   "ytdListening": {
-    "totalMs": 860065122,
-    "trackCount": 4180
+    "totalMs": 861214782,
+    "trackCount": 4186
   }
 }
