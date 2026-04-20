@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1776698217921",
+  "lastCursor": "1776704722019",
   "plays": [
+    {
+      "track": "Weird Fishes / Arpeggi",
+      "artists": "Radiohead",
+      "durationMs": 318186,
+      "playedAt": "2026-04-20T17:05:22.019Z"
+    },
+    {
+      "track": "Weird Fishes / Arpeggi",
+      "artists": "Radiohead",
+      "durationMs": 318186,
+      "playedAt": "2026-04-20T17:02:57.921Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-04-20T15:52:05.191Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-04-20T15:49:18.367Z"
+    },
+    {
+      "track": "Cherry-coloured Funk",
+      "artists": "Cocteau Twins",
+      "durationMs": 192466,
+      "playedAt": "2026-04-20T15:46:40.547Z"
+    },
+    {
+      "track": "I Know The End",
+      "artists": "Phoebe Bridgers",
+      "durationMs": 344692,
+      "playedAt": "2026-04-20T15:22:37.351Z"
+    },
     {
       "track": "Metamodernity",
       "artists": "Vansire",
