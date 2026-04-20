@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1776632346940",
+  "lastCursor": "1776648236797",
   "plays": [
+    {
+      "track": "Killing Time",
+      "artists": "Magdalena Bay",
+      "durationMs": 233546,
+      "playedAt": "2026-04-20T01:23:56.797Z"
+    },
+    {
+      "track": "What Once Was",
+      "artists": "Her's",
+      "durationMs": 255067,
+      "playedAt": "2026-04-19T23:31:27.975Z"
+    },
     {
       "track": "After Hours",
       "artists": "The Weeknd",
@@ -4560,66 +4572,6 @@
       "artists": "Saba, Jean Deaux",
       "durationMs": 201732,
       "playedAt": "2026-04-12T03:42:44.648Z"
-    },
-    {
-      "track": "Digital Love",
-      "artists": "Daft Punk",
-      "durationMs": 301373,
-      "playedAt": "2026-04-12T01:29:23.563Z"
-    },
-    {
-      "track": "Humans",
-      "artists": "Night Tapes",
-      "durationMs": 251690,
-      "playedAt": "2026-04-12T01:24:28.116Z"
-    },
-    {
-      "track": "Dangerous",
-      "artists": "Big Data, Joywave",
-      "durationMs": 280426,
-      "playedAt": "2026-04-12T01:20:21.869Z"
-    },
-    {
-      "track": "Dumb Love",
-      "artists": "NEIL FRANCES",
-      "durationMs": 282728,
-      "playedAt": "2026-04-12T01:15:24.822Z"
-    },
-    {
-      "track": "loop it and leave it",
-      "artists": "JPEGMAFIA",
-      "durationMs": 120795,
-      "playedAt": "2026-04-12T01:10:02.512Z"
-    },
-    {
-      "track": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "durationMs": 199831,
-      "playedAt": "2026-04-12T01:08:08.515Z"
-    },
-    {
-      "track": "A$AP Forever REMIX (feat. Moby, T.I. & Kid Cudi)",
-      "artists": "A$AP Rocky, Moby, T.I., Kid Cudi",
-      "durationMs": 315768,
-      "playedAt": "2026-04-12T01:04:52.718Z"
-    },
-    {
-      "track": "1993 (with J. Cole, JID, Cozz & EARTHGANG feat. Smino & Buddy)",
-      "artists": "Dreamville, J. Cole, JID, Cozz, EARTHGANG, Smino, Buddy",
-      "durationMs": 210466,
-      "playedAt": "2026-04-11T23:36:20.468Z"
-    },
-    {
-      "track": "letstalkaboutit",
-      "artists": "KAYTRAMINÉ, Aminé, KAYTRANADA, Freddie Gibbs",
-      "durationMs": 166994,
-      "playedAt": "2026-04-11T23:31:56.609Z"
-    },
-    {
-      "track": "Expectation",
-      "artists": "Tame Impala",
-      "durationMs": 362466,
-      "playedAt": "2026-04-11T23:29:11.739Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T22:38:19.637851Z",
+  "lastUpdated": "2026-04-20T02:54:17.233730Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,10 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
-      "name": "Underworld",
-      "artists": "Alice Phoebe Lou",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273da1a7d20685b27c400376ba1",
-      "spotifyUrl": "https://open.spotify.com/track/31xhXLmwDNd2WDOcol2WAk"
+      "name": "swordsman",
+      "artists": "Night Tapes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
+      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
+    },
+    {
+      "name": "My Muse",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     },
     {
       "name": "Trade It",
@@ -51,12 +57,6 @@
       "artists": "Alice Phoebe Lou",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273b5f4f9f835ade82d83085b07",
       "spotifyUrl": "https://open.spotify.com/track/1zAhBi1c5qVxK0719Z8fvy"
-    },
-    {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 143666922,
-    "trackCount": 718
+    "totalMs": 233546,
+    "trackCount": 1
   },
   "ytdListening": {
-    "totalMs": 856700894,
-    "trackCount": 4159
+    "totalMs": 857189507,
+    "trackCount": 4161
   }
 }
