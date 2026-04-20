@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T19:09:05.122536Z",
+  "lastUpdated": "2026-04-20T20:51:29.492440Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
     },
     {
-      "name": "Trade It",
-      "artists": "Slow Pulp",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27352a17efb55a62f0a7e7f7713",
-      "spotifyUrl": "https://open.spotify.com/track/3ZF9u7enIDyKPiXj4VP1P1"
+      "name": "Natural",
+      "artists": "Shelly",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e6489814285451edf0a73962",
+      "spotifyUrl": "https://open.spotify.com/track/6VLjdregMReJhKp2r32IWo"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 12348344,
-    "trackCount": 65
+    "totalMs": 16905910,
+    "trackCount": 86
   },
   "ytdListening": {
-    "totalMs": 869304305,
-    "trackCount": 4225
+    "totalMs": 873861871,
+    "trackCount": 4246
   }
 }
