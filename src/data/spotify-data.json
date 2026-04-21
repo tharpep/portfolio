@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T15:15:30.124728Z",
+  "lastUpdated": "2026-04-21T17:05:26.433908Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "swordsman",
-      "artists": "Night Tapes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
-      "spotifyUrl": "https://open.spotify.com/track/5hC9vQXqNLn0tkhXUNc7wK"
-    },
-    {
       "name": "My Muse",
       "artists": "Leon Thomas",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
@@ -57,6 +51,12 @@
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
+    },
+    {
+      "name": "Cigarettes out the Window",
+      "artists": "TV Girl",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
+      "spotifyUrl": "https://open.spotify.com/track/6QeYSvYqYUsfBzsApbjDHO"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 44352021,
-    "trackCount": 222
+    "totalMs": 48728066,
+    "trackCount": 242
   },
   "ytdListening": {
-    "totalMs": 901307982,
-    "trackCount": 4382
+    "totalMs": 905684027,
+    "trackCount": 4402
   }
 }
