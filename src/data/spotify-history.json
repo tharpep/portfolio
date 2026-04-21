@@ -1,6 +1,306 @@
 {
-  "lastCursor": "1776725045917",
+  "lastCursor": "1776736203156",
   "plays": [
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-04-21T01:50:03.156Z"
+    },
+    {
+      "track": "White (feat. Frank Ocean)",
+      "artists": "Odd Future, Frank Ocean",
+      "durationMs": 122933,
+      "playedAt": "2026-04-21T01:43:10.961Z"
+    },
+    {
+      "track": "Crossfaded",
+      "artists": "Don Toliver",
+      "durationMs": 159033,
+      "playedAt": "2026-04-21T01:41:13.785Z"
+    },
+    {
+      "track": "Do You Like Me?",
+      "artists": "Daniel Caesar",
+      "durationMs": 227520,
+      "playedAt": "2026-04-21T01:38:40.104Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-04-21T01:34:58.409Z"
+    },
+    {
+      "track": "The Dress",
+      "artists": "Dijon",
+      "durationMs": 184767,
+      "playedAt": "2026-04-21T01:31:30.189Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-04-21T01:28:31.216Z"
+    },
+    {
+      "track": "whoa (mind in awe)",
+      "artists": "XXXTENTACION",
+      "durationMs": 157776,
+      "playedAt": "2026-04-21T01:25:16.514Z"
+    },
+    {
+      "track": "Charge It",
+      "artists": "ENNY",
+      "durationMs": 185715,
+      "playedAt": "2026-04-21T01:22:30.474Z"
+    },
+    {
+      "track": "Nothing Burns Like The Cold",
+      "artists": "Snoh Aalegra, Vince Staples",
+      "durationMs": 209911,
+      "playedAt": "2026-04-21T01:19:30.740Z"
+    },
+    {
+      "track": "Cigarettes out the Window",
+      "artists": "TV Girl",
+      "durationMs": 198960,
+      "playedAt": "2026-04-21T01:16:06.203Z"
+    },
+    {
+      "track": "L.M.F.",
+      "artists": "Smino",
+      "durationMs": 188500,
+      "playedAt": "2026-04-21T01:11:51.492Z"
+    },
+    {
+      "track": "Pink + White",
+      "artists": "Frank Ocean",
+      "durationMs": 184516,
+      "playedAt": "2026-04-21T01:08:48.880Z"
+    },
+    {
+      "track": "Sitting, Waiting, Wishing",
+      "artists": "Jack Johnson",
+      "durationMs": 183720,
+      "playedAt": "2026-04-21T01:05:49.872Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-04-21T01:02:41.034Z"
+    },
+    {
+      "track": "Disciples",
+      "artists": "Tame Impala",
+      "durationMs": 108546,
+      "playedAt": "2026-04-21T00:58:12.689Z"
+    },
+    {
+      "track": "Passionfruit",
+      "artists": "Drake",
+      "durationMs": 298940,
+      "playedAt": "2026-04-21T00:56:29.811Z"
+    },
+    {
+      "track": "IVE OFFICIALLY LOST ViSiON!!!!",
+      "artists": "Lil Yachty",
+      "durationMs": 322444,
+      "playedAt": "2026-04-21T00:51:36.511Z"
+    },
+    {
+      "track": "Headshots (4r da Locals)",
+      "artists": "Isaiah Rashad",
+      "durationMs": 193208,
+      "playedAt": "2026-04-21T00:46:19.849Z"
+    },
+    {
+      "track": "Chanel",
+      "artists": "Frank Ocean",
+      "durationMs": 210285,
+      "playedAt": "2026-04-21T00:43:12.624Z"
+    },
+    {
+      "track": "PRIDE.",
+      "artists": "Kendrick Lamar",
+      "durationMs": 275253,
+      "playedAt": "2026-04-21T00:39:32.413Z"
+    },
+    {
+      "track": "Tequila Shots",
+      "artists": "Kid Cudi",
+      "durationMs": 193293,
+      "playedAt": "2026-04-21T00:35:02.670Z"
+    },
+    {
+      "track": "Bleed (feat. Omar Apollo)",
+      "artists": "Malcolm Todd, Omar Apollo",
+      "durationMs": 179373,
+      "playedAt": "2026-04-21T00:31:55.236Z"
+    },
+    {
+      "track": "Agnes",
+      "artists": "Glass Animals",
+      "durationMs": 271672,
+      "playedAt": "2026-04-21T00:29:01.879Z"
+    },
+    {
+      "track": "Unfold",
+      "artists": "Melody's Echo Chamber",
+      "durationMs": 90127,
+      "playedAt": "2026-04-21T00:24:35.539Z"
+    },
+    {
+      "track": "No One Knows",
+      "artists": "Brent Faiyaz",
+      "durationMs": 271246,
+      "playedAt": "2026-04-21T00:23:11.438Z"
+    },
+    {
+      "track": "It Almost Worked",
+      "artists": "TV Girl",
+      "durationMs": 152000,
+      "playedAt": "2026-04-21T00:18:45.763Z"
+    },
+    {
+      "track": "Out Of Your League",
+      "artists": "Blood Orange, Steve Lacy",
+      "durationMs": 140923,
+      "playedAt": "2026-04-21T00:16:19.359Z"
+    },
+    {
+      "track": "Carried Away",
+      "artists": "Men I Trust",
+      "durationMs": 207500,
+      "playedAt": "2026-04-21T00:14:04.829Z"
+    },
+    {
+      "track": "Coffee For Dinner",
+      "artists": "Orion Sun",
+      "durationMs": 172680,
+      "playedAt": "2026-04-21T00:10:42.814Z"
+    },
+    {
+      "track": "the ride-",
+      "artists": "Lil Yachty",
+      "durationMs": 190581,
+      "playedAt": "2026-04-21T00:07:55.955Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-04-21T00:04:50.809Z"
+    },
+    {
+      "track": "Losing My Religion",
+      "artists": "R.E.M.",
+      "durationMs": 268426,
+      "playedAt": "2026-04-21T00:01:18.392Z"
+    },
+    {
+      "track": "Witches",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 195078,
+      "playedAt": "2026-04-20T23:56:55.392Z"
+    },
+    {
+      "track": "telepatía",
+      "artists": "Kali Uchis",
+      "durationMs": 160191,
+      "playedAt": "2026-04-20T23:53:45.881Z"
+    },
+    {
+      "track": "Beauty & Essex (feat. Daniel Caesar & Unknown Mortal Orchestra)",
+      "artists": "Free Nationals, Daniel Caesar, Unknown Mortal Orchestra",
+      "durationMs": 277046,
+      "playedAt": "2026-04-20T23:51:11.596Z"
+    },
+    {
+      "track": "Normal Today",
+      "artists": "Hannah Jadagu",
+      "durationMs": 193046,
+      "playedAt": "2026-04-20T23:46:40.365Z"
+    },
+    {
+      "track": "Prize Fighter",
+      "artists": "Jean Dawson",
+      "durationMs": 229813,
+      "playedAt": "2026-04-20T23:43:27.651Z"
+    },
+    {
+      "track": "either on or off the drugs",
+      "artists": "JPEGMAFIA",
+      "durationMs": 140593,
+      "playedAt": "2026-04-20T23:39:45.044Z"
+    },
+    {
+      "track": "Unfuckwittable",
+      "artists": "Kid Cudi",
+      "durationMs": 275746,
+      "playedAt": "2026-04-20T23:37:30.114Z"
+    },
+    {
+      "track": "The Bird",
+      "artists": "Anderson .Paak",
+      "durationMs": 217773,
+      "playedAt": "2026-04-20T23:33:00.514Z"
+    },
+    {
+      "track": "Cry for Me",
+      "artists": "Magdalena Bay",
+      "durationMs": 307266,
+      "playedAt": "2026-04-20T23:29:28.196Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-04-20T23:24:26.829Z"
+    },
+    {
+      "track": "Lee & Lovie (with reggie)",
+      "artists": "Smino, reggie",
+      "durationMs": 171676,
+      "playedAt": "2026-04-20T23:21:18.113Z"
+    },
+    {
+      "track": "Yeah - bonus",
+      "artists": "Mac Miller",
+      "durationMs": 304192,
+      "playedAt": "2026-04-20T23:18:32.240Z"
+    },
+    {
+      "track": "It Is Not Meant To Be",
+      "artists": "Tame Impala",
+      "durationMs": 321533,
+      "playedAt": "2026-04-20T23:13:33.749Z"
+    },
+    {
+      "track": "Break from Toronto",
+      "artists": "PARTYNEXTDOOR",
+      "durationMs": 99213,
+      "playedAt": "2026-04-20T23:08:17.740Z"
+    },
+    {
+      "track": "Dark Red",
+      "artists": "Steve Lacy",
+      "durationMs": 173104,
+      "playedAt": "2026-04-20T23:06:44.622Z"
+    },
+    {
+      "track": "Expectation",
+      "artists": "Tame Impala",
+      "durationMs": 362466,
+      "playedAt": "2026-04-20T23:03:52.422Z"
+    },
+    {
+      "track": "Les",
+      "artists": "Childish Gambino",
+      "durationMs": 317293,
+      "playedAt": "2026-04-20T22:55:51.435Z"
+    },
     {
       "track": "C U Girl",
       "artists": "Steve Lacy",

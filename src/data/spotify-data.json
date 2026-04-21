@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T22:47:18.488293Z",
+  "lastUpdated": "2026-04-21T02:47:51.762407Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     },
     {
+      "name": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    },
+    {
       "name": "swordsman",
       "artists": "Night Tapes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273279815f409c0034fc752cdfe",
@@ -51,12 +57,6 @@
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
-    },
-    {
-      "name": "Natural",
-      "artists": "Shelly",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273e6489814285451edf0a73962",
-      "spotifyUrl": "https://open.spotify.com/track/6VLjdregMReJhKp2r32IWo"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
   },
   "weeklyListening": {
-    "totalMs": 22552692,
-    "trackCount": 114
+    "totalMs": 33145571,
+    "trackCount": 164
   },
   "ytdListening": {
-    "totalMs": 879508653,
-    "trackCount": 4274
+    "totalMs": 890101532,
+    "trackCount": 4324
   }
 }
