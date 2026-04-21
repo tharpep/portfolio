@@ -1,6 +1,24 @@
 {
-  "lastCursor": "1776790343785",
+  "lastCursor": "1776798092678",
   "plays": [
+    {
+      "track": "CRAZY (feat. PinkPantheress)",
+      "artists": "LE SSERAFIM, PinkPantheress",
+      "durationMs": 168000,
+      "playedAt": "2026-04-21T19:01:32.678Z"
+    },
+    {
+      "track": "Sure Thing",
+      "artists": "Miguel",
+      "durationMs": 195373,
+      "playedAt": "2026-04-21T17:43:39.196Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-04-21T17:40:31.019Z"
+    },
     {
       "track": "DHL",
       "artists": "Frank Ocean",
@@ -5622,18 +5640,6 @@
       "artists": "TV Girl, George Clanton",
       "durationMs": 242410,
       "playedAt": "2026-04-13T19:50:04.612Z"
-    },
-    {
-      "track": "Took a While",
-      "artists": "NEIL FRANCES",
-      "durationMs": 202909,
-      "playedAt": "2026-04-13T17:11:11.528Z"
-    },
-    {
-      "track": "Fauxllennium",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 188533,
-      "playedAt": "2026-04-13T17:07:52.917Z"
     }
   ]
 }
