@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T19:17:28.303023Z",
+  "lastUpdated": "2026-04-22T20:57:53.539423Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
+      "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
+    },
+    {
       "name": "My Muse",
       "artists": "Leon Thomas",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
@@ -51,12 +57,6 @@
       "artists": "TV Girl",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
       "spotifyUrl": "https://open.spotify.com/track/6QeYSvYqYUsfBzsApbjDHO"
-    },
-    {
-      "name": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
-      "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 58289084,
-    "trackCount": 289
+    "totalMs": 60785284,
+    "trackCount": 302
   },
   "ytdListening": {
-    "totalMs": 915245045,
-    "trackCount": 4449
+    "totalMs": 917741245,
+    "trackCount": 4462
   }
 }
