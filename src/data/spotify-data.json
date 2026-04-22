@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T02:46:26.707458Z",
+  "lastUpdated": "2026-04-22T06:01:36.499540Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,12 +29,6 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
-      "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -57,20 +51,26 @@
       "artists": "TV Girl",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
       "spotifyUrl": "https://open.spotify.com/track/6QeYSvYqYUsfBzsApbjDHO"
+    },
+    {
+      "name": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
+      "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
     }
   ],
   "topTrackDay": {
-    "name": "Pitch the Baby",
-    "artists": "Cocteau Twins",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273fe6211303e796f3d5b7a0e02",
-    "spotifyUrl": "https://open.spotify.com/track/1DXD0wVXXHwUYo9AXbcMMI"
+    "name": "Best to You",
+    "artists": "Blood Orange, Empress Of",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+    "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 55162350,
-    "trackCount": 275
+    "totalMs": 56191476,
+    "trackCount": 279
   },
   "ytdListening": {
-    "totalMs": 912118311,
-    "trackCount": 4435
+    "totalMs": 913147437,
+    "trackCount": 4439
   }
 }
