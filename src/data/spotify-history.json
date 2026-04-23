@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1776917305848",
+  "lastCursor": "1776958104092",
   "plays": [
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-04-23T15:28:24.092Z"
+    },
+    {
+      "track": "Fall Down",
+      "artists": "Crumb",
+      "durationMs": 173000,
+      "playedAt": "2026-04-23T15:23:41.929Z"
+    },
+    {
+      "track": "I'll Take Care of You (feat. Yebba)",
+      "artists": "Tyler, The Creator, Yebba",
+      "durationMs": 200860,
+      "playedAt": "2026-04-23T15:20:54.560Z"
+    },
+    {
+      "track": "Chaeri",
+      "artists": "Magdalena Bay",
+      "durationMs": 257130,
+      "playedAt": "2026-04-23T15:17:37.056Z"
+    },
     {
       "track": "Husk",
       "artists": "Men I Trust",
@@ -5658,30 +5682,6 @@
       "artists": "Kid Cudi",
       "durationMs": 171826,
       "playedAt": "2026-04-15T16:00:13.224Z"
-    },
-    {
-      "track": "ASTROTHUNDER",
-      "artists": "Travis Scott",
-      "durationMs": 142969,
-      "playedAt": "2026-04-15T15:37:04.260Z"
-    },
-    {
-      "track": "Come Over",
-      "artists": "Kowloon",
-      "durationMs": 250543,
-      "playedAt": "2026-04-15T15:36:11.784Z"
-    },
-    {
-      "track": "Suspended",
-      "artists": "Sampha",
-      "durationMs": 185371,
-      "playedAt": "2026-04-15T15:32:48.719Z"
-    },
-    {
-      "track": "Nights",
-      "artists": "Frank Ocean",
-      "durationMs": 307151,
-      "playedAt": "2026-04-15T15:31:34.770Z"
     }
   ]
 }
