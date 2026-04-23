@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T15:55:42.062018Z",
+  "lastUpdated": "2026-04-23T17:23:35.331467Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
     },
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
-    },
-    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
@@ -57,6 +51,12 @@
       "artists": "Unknown Mortal Orchestra",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
       "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
+    },
+    {
+      "name": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2737339f7e95927d4b823189f62",
+      "spotifyUrl": "https://open.spotify.com/track/0NWgLrKVXvg461x0PXq5AC"
     }
   ],
   "topTrackDay": {
