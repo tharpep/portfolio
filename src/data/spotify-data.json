@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T19:14:17.854953Z",
+  "lastUpdated": "2026-04-23T20:55:29.292759Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
-      "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
-    },
-    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
@@ -57,6 +51,12 @@
       "artists": "Magdalena Bay",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2737339f7e95927d4b823189f62",
       "spotifyUrl": "https://open.spotify.com/track/0NWgLrKVXvg461x0PXq5AC"
+    },
+    {
+      "name": "My Muse",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 80558104,
-    "trackCount": 391
+    "totalMs": 82338799,
+    "trackCount": 402
   },
   "ytdListening": {
-    "totalMs": 937514065,
-    "trackCount": 4551
+    "totalMs": 939294760,
+    "trackCount": 4562
   }
 }
