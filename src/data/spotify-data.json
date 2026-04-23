@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T02:49:22.137507Z",
+  "lastUpdated": "2026-04-23T06:07:14.949950Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
-    },
-    {
       "name": "Dramatic Girl (feat. Che Ecru)",
       "artists": "Baby Keem, Che Ecru",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
       "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
+    },
+    {
+      "name": "My Muse",
+      "artists": "Leon Thomas",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
+      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
     },
     {
       "name": "Dangerous",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
     },
     {
-      "name": "Cigarettes out the Window",
-      "artists": "TV Girl",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27332f5fec7a879ed6ef28f0dfd",
-      "spotifyUrl": "https://open.spotify.com/track/6QeYSvYqYUsfBzsApbjDHO"
+      "name": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
+      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 76473243,
-    "trackCount": 371
+    "totalMs": 77221654,
+    "trackCount": 374
   },
   "ytdListening": {
-    "totalMs": 933429204,
-    "trackCount": 4531
+    "totalMs": 934177615,
+    "trackCount": 4534
   }
 }
