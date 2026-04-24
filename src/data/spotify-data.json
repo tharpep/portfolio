@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T13:40:48.753578Z",
+  "lastUpdated": "2026-04-24T15:10:08.197333Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
     },
     {
+      "name": "Another Stone",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
+    },
+    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -51,12 +57,6 @@
       "artists": "Magdalena Bay",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2737339f7e95927d4b823189f62",
       "spotifyUrl": "https://open.spotify.com/track/0NWgLrKVXvg461x0PXq5AC"
-    },
-    {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
   },
   "weeklyListening": {
-    "totalMs": 83316652,
-    "trackCount": 406
+    "totalMs": 85150588,
+    "trackCount": 414
   },
   "ytdListening": {
-    "totalMs": 940272613,
-    "trackCount": 4566
+    "totalMs": 942106549,
+    "trackCount": 4574
   }
 }
