@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T17:00:20.327953Z",
+  "lastUpdated": "2026-04-24T18:56:33.801092Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
+      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
+    },
+    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
@@ -47,12 +53,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Hunnybee",
-      "artists": "Unknown Mortal Orchestra",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
-      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
-    },
-    {
       "name": "That's My Floor",
       "artists": "Magdalena Bay",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2737339f7e95927d4b823189f62",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "Dangerous",
-    "artists": "Big Data, Joywave",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
-    "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
+    "name": "Hunnybee",
+    "artists": "Unknown Mortal Orchestra",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
+    "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
   },
   "weeklyListening": {
-    "totalMs": 87704765,
-    "trackCount": 426
+    "totalMs": 89716318,
+    "trackCount": 435
   },
   "ytdListening": {
-    "totalMs": 944660726,
-    "trackCount": 4586
+    "totalMs": 946672279,
+    "trackCount": 4595
   }
 }
