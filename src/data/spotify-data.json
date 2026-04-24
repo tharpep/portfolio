@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T22:49:56.319684Z",
+  "lastUpdated": "2026-04-24T02:50:26.094468Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
-      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
-    },
-    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
       "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
+    },
+    {
+      "name": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
       "name": "Hunnybee",
@@ -53,24 +53,24 @@
       "spotifyUrl": "https://open.spotify.com/track/0NWgLrKVXvg461x0PXq5AC"
     },
     {
-      "name": "My Muse",
-      "artists": "Leon Thomas",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27329944d1b3d947366cb88f9d7",
-      "spotifyUrl": "https://open.spotify.com/track/22c6Yop5YVEAhw8UG6O1W1"
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
-    "name": "Best to You",
-    "artists": "Blood Orange, Empress Of",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
-    "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    "name": "Dangerous",
+    "artists": "Big Data, Joywave",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
+    "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
   },
   "weeklyListening": {
-    "totalMs": 82584625,
-    "trackCount": 403
+    "totalMs": 83316652,
+    "trackCount": 406
   },
   "ytdListening": {
-    "totalMs": 939540586,
-    "trackCount": 4563
+    "totalMs": 940272613,
+    "trackCount": 4566
   }
 }
