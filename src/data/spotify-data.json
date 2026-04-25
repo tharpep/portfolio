@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T02:38:48.916119Z",
+  "lastUpdated": "2026-04-25T05:49:24.536463Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "That's My Floor",
-      "artists": "Magdalena Bay",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2737339f7e95927d4b823189f62",
-      "spotifyUrl": "https://open.spotify.com/track/0NWgLrKVXvg461x0PXq5AC"
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
   },
   "weeklyListening": {
-    "totalMs": 96214586,
-    "trackCount": 463
+    "totalMs": 97855267,
+    "trackCount": 471
   },
   "ytdListening": {
-    "totalMs": 953170547,
-    "trackCount": 4623
+    "totalMs": 954811228,
+    "trackCount": 4631
   }
 }
