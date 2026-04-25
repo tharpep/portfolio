@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T14:43:32.107239Z",
+  "lastUpdated": "2026-04-25T16:45:44.320942Z",
   "topArtistsYear": [
     {
       "name": "Tame Impala",
@@ -29,6 +29,18 @@
   ],
   "topTracksWeek": [
     {
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
+    },
+    {
+      "name": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
+    },
+    {
       "name": "Hunnybee",
       "artists": "Unknown Mortal Orchestra",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
@@ -45,32 +57,20 @@
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
       "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
-    },
-    {
-      "name": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
-      "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
-    },
-    {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
-    "name": "Hunnybee",
-    "artists": "Unknown Mortal Orchestra",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
-    "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
+    "name": "In My Years",
+    "artists": "Men I Trust",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+    "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
   },
   "weeklyListening": {
-    "totalMs": 100814927,
-    "trackCount": 484
+    "totalMs": 105588614,
+    "trackCount": 506
   },
   "ytdListening": {
-    "totalMs": 957770888,
-    "trackCount": 4644
+    "totalMs": 962544575,
+    "trackCount": 4666
   }
 }
