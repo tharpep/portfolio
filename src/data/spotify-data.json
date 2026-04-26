@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T20:41:13.004262Z",
+  "lastUpdated": "2026-04-26T22:40:56.998152Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Hunnybee",
-      "artists": "Unknown Mortal Orchestra",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
-      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
-    },
-    {
       "name": "Dangerous",
       "artists": "Big Data, Joywave",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
@@ -57,6 +51,12 @@
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
       "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
+    },
+    {
+      "name": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
+      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
   },
   "weeklyListening": {
-    "totalMs": 115021212,
-    "trackCount": 545
+    "totalMs": 116288206,
+    "trackCount": 551
   },
   "ytdListening": {
-    "totalMs": 971977173,
-    "trackCount": 4705
+    "totalMs": 973244167,
+    "trackCount": 4711
   }
 }
