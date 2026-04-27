@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T17:25:08.617547Z",
+  "lastUpdated": "2026-04-27T19:26:25.678275Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
     },
     {
-      "name": "Dangerous",
-      "artists": "Big Data, Joywave",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
-      "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
-    },
-    {
       "name": "Hunnybee",
       "artists": "Unknown Mortal Orchestra",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
       "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
+    },
+    {
+      "name": "Metamodernity",
+      "artists": "Vansire",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
+      "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
   },
   "weeklyListening": {
-    "totalMs": 12323938,
-    "trackCount": 57
+    "totalMs": 13732682,
+    "trackCount": 64
   },
   "ytdListening": {
-    "totalMs": 985809409,
-    "trackCount": 4769
+    "totalMs": 987218153,
+    "trackCount": 4776
   }
 }
