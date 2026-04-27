@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1777259933629",
+  "lastCursor": "1777263278871",
   "plays": [
+    {
+      "track": "coffee",
+      "artists": "Miguel",
+      "durationMs": 286571,
+      "playedAt": "2026-04-27T04:14:38.871Z"
+    },
+    {
+      "track": "THE zone~",
+      "artists": "Lil Yachty",
+      "durationMs": 249685,
+      "playedAt": "2026-04-27T04:09:57.803Z"
+    },
+    {
+      "track": "Sweet Life",
+      "artists": "Frank Ocean",
+      "durationMs": 262680,
+      "playedAt": "2026-04-27T04:06:00.453Z"
+    },
+    {
+      "track": "Musta Been A Ghost",
+      "artists": "Próxima Parada",
+      "durationMs": 220096,
+      "playedAt": "2026-04-27T03:25:44.067Z"
+    },
+    {
+      "track": "Photosynthesis",
+      "artists": "Saba, Jean Deaux",
+      "durationMs": 201732,
+      "playedAt": "2026-04-27T03:22:09.331Z"
+    },
     {
       "track": "Disciples",
       "artists": "Tame Impala",
