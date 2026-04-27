@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T22:40:56.998152Z",
+  "lastUpdated": "2026-04-27T03:20:37.933378Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Dangerous",
-      "artists": "Big Data, Joywave",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
-      "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
-    },
-    {
       "name": "Another Stone",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
       "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
+    },
+    {
+      "name": "Dangerous",
+      "artists": "Big Data, Joywave",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734b6f6994b283fd87d008f701",
+      "spotifyUrl": "https://open.spotify.com/track/2PeKCn8NSGQXAHONaCh3wB"
     },
     {
       "name": "Hunnybee",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
   },
   "weeklyListening": {
-    "totalMs": 116288206,
-    "trackCount": 551
+    "totalMs": 10449679,
+    "trackCount": 49
   },
   "ytdListening": {
-    "totalMs": 973244167,
-    "trackCount": 4711
+    "totalMs": 983935150,
+    "trackCount": 4761
   }
 }
