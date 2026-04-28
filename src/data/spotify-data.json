@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T17:48:19.633172Z",
+  "lastUpdated": "2026-04-28T19:44:11.088700Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+      "name": "Vinta",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381ba6b8313211bef29a4cf6d",
+      "spotifyUrl": "https://open.spotify.com/track/1AFUETeDf0hlMB0Xj7s7Wv"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 19020636,
-    "trackCount": 87
+    "totalMs": 20352563,
+    "trackCount": 94
   },
   "ytdListening": {
-    "totalMs": 992506107,
-    "trackCount": 4799
+    "totalMs": 993838034,
+    "trackCount": 4806
   }
 }
