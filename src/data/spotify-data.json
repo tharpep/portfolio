@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T19:44:11.088700Z",
+  "lastUpdated": "2026-04-28T21:08:42.406552Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,16 +35,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Another Stone",
+      "name": "In My Years",
       "artists": "Men I Trust",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
-    },
-    {
-      "name": "Hunnybee",
-      "artists": "Unknown Mortal Orchestra",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2738b1ea10ca54961e5e5d94244",
-      "spotifyUrl": "https://open.spotify.com/track/6AAYNz8jXvVlgG9IpYi42Z"
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     },
     {
       "name": "Metamodernity",
@@ -53,10 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
-      "name": "Vinta",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381ba6b8313211bef29a4cf6d",
-      "spotifyUrl": "https://open.spotify.com/track/1AFUETeDf0hlMB0Xj7s7Wv"
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+    },
+    {
+      "name": "Dramatic Girl (feat. Che Ecru)",
+      "artists": "Baby Keem, Che Ecru",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
+      "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 20352563,
-    "trackCount": 94
+    "totalMs": 21447751,
+    "trackCount": 99
   },
   "ytdListening": {
-    "totalMs": 993838034,
-    "trackCount": 4806
+    "totalMs": 994933222,
+    "trackCount": 4811
   }
 }

@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1777405138209",
+  "lastCursor": "1777406325000",
   "plays": [
+    {
+      "track": "NEW MAGIC WAND",
+      "artists": "Tyler, The Creator",
+      "durationMs": 195327,
+      "playedAt": "2026-04-28T19:58:45Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 234333,
+      "playedAt": "2026-04-28T19:55:26.748Z"
+    },
+    {
+      "track": "Tequila Shots",
+      "artists": "Kid Cudi",
+      "durationMs": 193293,
+      "playedAt": "2026-04-28T19:51:38.212Z"
+    },
+    {
+      "track": "ROCKMAN",
+      "artists": "Mk.gee",
+      "durationMs": 179370,
+      "playedAt": "2026-04-28T19:48:31.216Z"
+    },
+    {
+      "track": "Apparently",
+      "artists": "J. Cole",
+      "durationMs": 292865,
+      "playedAt": "2026-04-28T19:45:37.142Z"
+    },
     {
       "track": "Antidote",
       "artists": "Orion Sun",
@@ -3360,90 +3390,6 @@
       "artists": "¥$, Kanye West, Ty Dolla $ign",
       "durationMs": 111477,
       "playedAt": "2026-04-20T21:08:46.850Z"
-    },
-    {
-      "track": "Mind Mischief",
-      "artists": "Tame Impala",
-      "durationMs": 271880,
-      "playedAt": "2026-04-20T20:43:03.083Z"
-    },
-    {
-      "track": "Photosynthesis",
-      "artists": "Saba, Jean Deaux",
-      "durationMs": 201732,
-      "playedAt": "2026-04-20T20:38:36.535Z"
-    },
-    {
-      "track": "Electric Relaxation",
-      "artists": "A Tribe Called Quest",
-      "durationMs": 226133,
-      "playedAt": "2026-04-20T20:35:21.053Z"
-    },
-    {
-      "track": "Endors Toi",
-      "artists": "Tame Impala",
-      "durationMs": 186640,
-      "playedAt": "2026-04-20T20:31:40.612Z"
-    },
-    {
-      "track": "Soundtrack 2 My Life",
-      "artists": "Kid Cudi",
-      "durationMs": 235626,
-      "playedAt": "2026-04-20T20:28:39.274Z"
-    },
-    {
-      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
-      "artists": "Metro Boomin, Coi Leray",
-      "durationMs": 189466,
-      "playedAt": "2026-04-20T20:21:52.516Z"
-    },
-    {
-      "track": "Can I Kick It?",
-      "artists": "A Tribe Called Quest",
-      "durationMs": 251790,
-      "playedAt": "2026-04-20T20:18:48.971Z"
-    },
-    {
-      "track": "Cudi Zone",
-      "artists": "Kid Cudi",
-      "durationMs": 259040,
-      "playedAt": "2026-04-20T20:14:43.083Z"
-    },
-    {
-      "track": "Youth",
-      "artists": "Glass Animals",
-      "durationMs": 230693,
-      "playedAt": "2026-04-20T20:10:29.500Z"
-    },
-    {
-      "track": "Simulation Swarm",
-      "artists": "Big Thief",
-      "durationMs": 252733,
-      "playedAt": "2026-04-20T20:05:37.177Z"
-    },
-    {
-      "track": "Radio",
-      "artists": "Bershy",
-      "durationMs": 201853,
-      "playedAt": "2026-04-20T20:01:29.958Z"
-    },
-    {
-      "track": "Go Away",
-      "artists": "Yot Club",
-      "durationMs": 161941,
-      "playedAt": "2026-04-20T19:57:16.133Z"
-    },
-    {
-      "track": "Looking Out for You",
-      "artists": "Joy Again",
-      "durationMs": 179499,
-      "playedAt": "2026-04-20T19:49:27.191Z"
-    },
-    {
-      "track": "Outta My Head (with John Mayer)",
-      "artists": "Khalid, John Mayer",
-      "durationMs": 177106,
-      "playedAt": "2026-04-20T19:46:33.357Z"
     }
   ]
 }
