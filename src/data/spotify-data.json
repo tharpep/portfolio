@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T03:27:35.185511Z",
+  "lastUpdated": "2026-04-28T06:31:06.476291Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,12 +29,6 @@
   ],
   "topTracksWeek": [
     {
-      "name": "In My Years",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -57,20 +51,26 @@
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
+    },
+    {
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
-    "name": "In My Years",
-    "artists": "Men I Trust",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-    "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
+    "name": "Best to You",
+    "artists": "Blood Orange, Empress Of",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
+    "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 14659246,
-    "trackCount": 68
+    "totalMs": 15745596,
+    "trackCount": 72
   },
   "ytdListening": {
-    "totalMs": 988144717,
-    "trackCount": 4780
+    "totalMs": 989231067,
+    "trackCount": 4784
   }
 }
