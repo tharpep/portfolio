@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T21:07:59.479210Z",
+  "lastUpdated": "2026-04-29T22:58:27.890728Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
-      "name": "In My Years",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
-    },
-    {
       "name": "Go Away",
       "artists": "Yot Club",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
@@ -57,6 +51,12 @@
       "artists": "Baby Keem, Che Ecru",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273436ad97bf66dee3b9aded2f2",
       "spotifyUrl": "https://open.spotify.com/track/5x3yh46amE0qXYT9k929Vq"
+    },
+    {
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
   },
   "weeklyListening": {
-    "totalMs": 43854781,
-    "trackCount": 209
+    "totalMs": 45390039,
+    "trackCount": 216
   },
   "ytdListening": {
-    "totalMs": 1017340252,
-    "trackCount": 4921
+    "totalMs": 1018875510,
+    "trackCount": 4928
   }
 }
