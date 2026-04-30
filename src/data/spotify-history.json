@@ -1,6 +1,144 @@
 {
-  "lastCursor": "1777499863255",
+  "lastCursor": "1777516537897",
   "plays": [
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-04-30T02:35:37.897Z"
+    },
+    {
+      "track": "Dead Man Walking",
+      "artists": "Brent Faiyaz",
+      "durationMs": 247079,
+      "playedAt": "2026-04-30T02:31:06.970Z"
+    },
+    {
+      "track": "Show Me the Right",
+      "artists": "NEIL FRANCES",
+      "durationMs": 204000,
+      "playedAt": "2026-04-30T02:26:54.655Z"
+    },
+    {
+      "track": "ASTROTHUNDER",
+      "artists": "Travis Scott",
+      "durationMs": 142969,
+      "playedAt": "2026-04-30T02:08:02.789Z"
+    },
+    {
+      "track": "No More Lies",
+      "artists": "Thundercat, Tame Impala",
+      "durationMs": 327217,
+      "playedAt": "2026-04-30T01:58:21.119Z"
+    },
+    {
+      "track": "No More Parties In LA",
+      "artists": "Kanye West",
+      "durationMs": 374413,
+      "playedAt": "2026-04-30T01:52:59.824Z"
+    },
+    {
+      "track": "4EVER",
+      "artists": "Clairo",
+      "durationMs": 159595,
+      "playedAt": "2026-04-30T01:45:10.860Z"
+    },
+    {
+      "track": "Dracula",
+      "artists": "Tame Impala",
+      "durationMs": 205308,
+      "playedAt": "2026-04-30T01:42:37.056Z"
+    },
+    {
+      "track": "Dracula",
+      "artists": "Tame Impala",
+      "durationMs": 205308,
+      "playedAt": "2026-04-30T01:41:40.836Z"
+    },
+    {
+      "track": "Sugar",
+      "artists": "Men I Trust",
+      "durationMs": 176315,
+      "playedAt": "2026-04-29T23:55:10.387Z"
+    },
+    {
+      "track": "Juice",
+      "artists": "Young Franco, Pell",
+      "durationMs": 211212,
+      "playedAt": "2026-04-29T23:52:19.955Z"
+    },
+    {
+      "track": "Best Time",
+      "artists": "Brent Faiyaz",
+      "durationMs": 82508,
+      "playedAt": "2026-04-29T23:45:40.152Z"
+    },
+    {
+      "track": "Sundress",
+      "artists": "A$AP Rocky",
+      "durationMs": 158205,
+      "playedAt": "2026-04-29T23:42:53.849Z"
+    },
+    {
+      "track": "Some",
+      "artists": "Steve Lacy",
+      "durationMs": 118393,
+      "playedAt": "2026-04-29T23:40:21.260Z"
+    },
+    {
+      "track": "Ensenada",
+      "artists": "Sublime",
+      "durationMs": 154484,
+      "playedAt": "2026-04-29T23:38:28.613Z"
+    },
+    {
+      "track": "16",
+      "artists": "Baby Keem",
+      "durationMs": 156040,
+      "playedAt": "2026-04-29T23:35:48.655Z"
+    },
+    {
+      "track": "WHARF TALK (feat. A$AP Rocky)",
+      "artists": "Tyler, The Creator, A$AP Rocky",
+      "durationMs": 204109,
+      "playedAt": "2026-04-29T23:33:30.805Z"
+    },
+    {
+      "track": "Cudi Zone",
+      "artists": "Kid Cudi",
+      "durationMs": 259040,
+      "playedAt": "2026-04-29T23:30:12.644Z"
+    },
+    {
+      "track": "Used (feat. Don Toliver)",
+      "artists": "SZA, Don Toliver",
+      "durationMs": 146950,
+      "playedAt": "2026-04-29T23:25:59.264Z"
+    },
+    {
+      "track": "Breathe",
+      "artists": "Malcolm Todd",
+      "durationMs": 176413,
+      "playedAt": "2026-04-29T23:23:37.913Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-04-29T23:20:47.151Z"
+    },
+    {
+      "track": "I Saw Your Face",
+      "artists": "Malcolm Todd",
+      "durationMs": 189569,
+      "playedAt": "2026-04-29T23:17:10.214Z"
+    },
+    {
+      "track": "scars",
+      "artists": "Baby Keem",
+      "durationMs": 266010,
+      "playedAt": "2026-04-29T23:11:56.819Z"
+    },
     {
       "track": "Feather (feat. Cise Starr & Akin from CYNE)",
       "artists": "Nujabes, Cise Starr & Akin from CYNE",
@@ -2958,36 +3096,6 @@
       "artists": "Kid Cudi",
       "durationMs": 210586,
       "playedAt": "2026-04-22T04:23:51.231Z"
-    },
-    {
-      "track": "Suspended",
-      "artists": "Sampha",
-      "durationMs": 185371,
-      "playedAt": "2026-04-22T00:31:13.294Z"
-    },
-    {
-      "track": "Wat U Sed (feat. Doechii & Kal Banx)",
-      "artists": "Isaiah Rashad, Doechii, Kal Banx",
-      "durationMs": 176682,
-      "playedAt": "2026-04-22T00:28:13.516Z"
-    },
-    {
-      "track": "NEVER",
-      "artists": "JID",
-      "durationMs": 241682,
-      "playedAt": "2026-04-22T00:24:28.658Z"
-    },
-    {
-      "track": "4th Dimension",
-      "artists": "KIDS SEE GHOSTS, Louis Prima",
-      "durationMs": 153351,
-      "playedAt": "2026-04-22T00:19:54.690Z"
-    },
-    {
-      "track": "Channel 4",
-      "artists": "Yot Club",
-      "durationMs": 171274,
-      "playedAt": "2026-04-22T00:17:26.934Z"
     }
   ]
 }
