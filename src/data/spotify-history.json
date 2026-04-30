@@ -1,6 +1,24 @@
 {
-  "lastCursor": "1777516537897",
+  "lastCursor": "1777523945570",
   "plays": [
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-04-30T04:39:05.570Z"
+    },
+    {
+      "track": "Angel on a Satellite",
+      "artists": "Magdalena Bay",
+      "durationMs": 243426,
+      "playedAt": "2026-04-30T04:36:15.102Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-04-30T04:31:00.207Z"
+    },
     {
       "track": "Heartbeat",
       "artists": "Childish Gambino",
@@ -3072,30 +3090,6 @@
       "artists": "Tokyo Tea Room",
       "durationMs": 226298,
       "playedAt": "2026-04-22T15:24:43.893Z"
-    },
-    {
-      "track": "Time Moves Slow",
-      "artists": "BADBADNOTGOOD, Samuel T. Herring",
-      "durationMs": 273864,
-      "playedAt": "2026-04-22T04:38:39.975Z"
-    },
-    {
-      "track": "Designer",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 226298,
-      "playedAt": "2026-04-22T04:33:40.080Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-04-22T04:29:59.332Z"
-    },
-    {
-      "track": "Mojo So Dope",
-      "artists": "Kid Cudi",
-      "durationMs": 210586,
-      "playedAt": "2026-04-22T04:23:51.231Z"
     }
   ]
 }
