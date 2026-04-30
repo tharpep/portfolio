@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1777523945570",
+  "lastCursor": "1777568532170",
   "plays": [
+    {
+      "track": "Righteous Minds",
+      "artists": "Joey Bada$$",
+      "durationMs": 224042,
+      "playedAt": "2026-04-30T17:02:12.170Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-04-30T16:58:33.733Z"
+    },
     {
       "track": "Vampire in the Corner",
       "artists": "Magdalena Bay",
@@ -3054,42 +3066,6 @@
       "artists": "Mk.gee",
       "durationMs": 169519,
       "playedAt": "2026-04-22T17:32:24.159Z"
-    },
-    {
-      "track": "Headlock",
-      "artists": "Imogen Heap",
-      "durationMs": 215338,
-      "playedAt": "2026-04-22T15:43:31.635Z"
-    },
-    {
-      "track": "Headshots (4r da Locals)",
-      "artists": "Isaiah Rashad",
-      "durationMs": 193208,
-      "playedAt": "2026-04-22T15:40:01.827Z"
-    },
-    {
-      "track": "Lovesick",
-      "artists": "Alice Phoebe Lou",
-      "durationMs": 253983,
-      "playedAt": "2026-04-22T15:36:54.020Z"
-    },
-    {
-      "track": "Righteous Minds",
-      "artists": "Joey Bada$$",
-      "durationMs": 224042,
-      "playedAt": "2026-04-22T15:32:46.074Z"
-    },
-    {
-      "track": "SAME SH!T",
-      "artists": "Isaiah Rashad",
-      "durationMs": 193294,
-      "playedAt": "2026-04-22T15:28:06.272Z"
-    },
-    {
-      "track": "Designer",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 226298,
-      "playedAt": "2026-04-22T15:24:43.893Z"
     }
   ]
 }
