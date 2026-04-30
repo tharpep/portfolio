@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1777568532170",
+  "lastCursor": "1777570870863",
   "plays": [
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-04-30T17:41:10.863Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-04-30T17:37:42.301Z"
+    },
+    {
+      "track": "ASTROTHUNDER",
+      "artists": "Travis Scott",
+      "durationMs": 142969,
+      "playedAt": "2026-04-30T17:32:41.053Z"
+    },
+    {
+      "track": "babygirl",
+      "artists": "JPEGMAFIA",
+      "durationMs": 147491,
+      "playedAt": "2026-04-30T17:30:23.695Z"
+    },
     {
       "track": "Righteous Minds",
       "artists": "Joey Bada$$",
@@ -3042,30 +3066,6 @@
       "artists": "Men I Trust",
       "durationMs": 225263,
       "playedAt": "2026-04-22T19:46:39.730Z"
-    },
-    {
-      "track": "Lady Brown (feat. Cise Starr from CYNE)",
-      "artists": "Nujabes, Cise Starr",
-      "durationMs": 199160,
-      "playedAt": "2026-04-22T17:47:13.213Z"
-    },
-    {
-      "track": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "durationMs": 225747,
-      "playedAt": "2026-04-22T17:38:59.540Z"
-    },
-    {
-      "track": "St. Chroma (feat. Daniel Caesar)",
-      "artists": "Tyler, The Creator, Daniel Caesar",
-      "durationMs": 197019,
-      "playedAt": "2026-04-22T17:35:19.907Z"
-    },
-    {
-      "track": "Dream police",
-      "artists": "Mk.gee",
-      "durationMs": 169519,
-      "playedAt": "2026-04-22T17:32:24.159Z"
     }
   ]
 }
