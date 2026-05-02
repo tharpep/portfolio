@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1777692987665",
+  "lastCursor": "1777745656227",
   "plays": [
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-05-02T18:14:16.227Z"
+    },
+    {
+      "track": "SCARED 2 LOOK DOWN",
+      "artists": "Isaiah Rashad",
+      "durationMs": 216278,
+      "playedAt": "2026-05-02T18:05:14.126Z"
+    },
+    {
+      "track": "NUTHIN 2 HIDE",
+      "artists": "Isaiah Rashad",
+      "durationMs": 230648,
+      "playedAt": "2026-05-02T18:01:42.970Z"
+    },
+    {
+      "track": "A New Kind Of Love - Demo",
+      "artists": "Frou Frou, Imogen Heap, Guy Sigsworth",
+      "durationMs": 259071,
+      "playedAt": "2026-05-02T17:57:47.311Z"
+    },
     {
       "track": "Ninety",
       "artists": "Jaden",
@@ -3018,60 +3042,6 @@
       "artists": "Men I Trust",
       "durationMs": 225263,
       "playedAt": "2026-04-24T20:15:52.878Z"
-    },
-    {
-      "track": "Nadja",
-      "artists": "Unknown Mortal Orchestra",
-      "durationMs": 246720,
-      "playedAt": "2026-04-24T18:01:09.294Z"
-    },
-    {
-      "track": "Just the Right Song",
-      "artists": "Vansire",
-      "durationMs": 186253,
-      "playedAt": "2026-04-24T17:57:08.301Z"
-    },
-    {
-      "track": "Suspended",
-      "artists": "Sampha",
-      "durationMs": 185371,
-      "playedAt": "2026-04-24T17:54:07.794Z"
-    },
-    {
-      "track": "Colors",
-      "artists": "Chenayder, MAVI",
-      "durationMs": 186666,
-      "playedAt": "2026-04-24T17:51:08.213Z"
-    },
-    {
-      "track": "Time Moves Slow",
-      "artists": "BADBADNOTGOOD, Samuel T. Herring",
-      "durationMs": 273864,
-      "playedAt": "2026-04-24T17:48:07.091Z"
-    },
-    {
-      "track": "You Lose!",
-      "artists": "Magdalena Bay",
-      "durationMs": 204391,
-      "playedAt": "2026-04-24T17:43:19.692Z"
-    },
-    {
-      "track": "sdp interlude",
-      "artists": "Travis Scott",
-      "durationMs": 191622,
-      "playedAt": "2026-04-24T17:40:01.344Z"
-    },
-    {
-      "track": "Hunnybee",
-      "artists": "Unknown Mortal Orchestra",
-      "durationMs": 268333,
-      "playedAt": "2026-04-24T17:36:59.439Z"
-    },
-    {
-      "track": "Hunnybee",
-      "artists": "Unknown Mortal Orchestra",
-      "durationMs": 268333,
-      "playedAt": "2026-04-24T17:32:20.286Z"
     }
   ]
 }
