@@ -1,6 +1,54 @@
 {
-  "lastCursor": "1777745656227",
+  "lastCursor": "1777753828768",
   "plays": [
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-05-02T20:30:28.768Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-05-02T20:28:14.842Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-05-02T20:25:38.475Z"
+    },
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-05-02T20:22:21.706Z"
+    },
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-05-02T20:20:44.744Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-05-02T19:35:25.760Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-05-02T19:31:53.469Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-05-02T19:28:45.280Z"
+    },
     {
       "track": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
@@ -2994,54 +3042,6 @@
       "artists": "Weak Moves",
       "durationMs": 198210,
       "playedAt": "2026-04-24T20:48:48.761Z"
-    },
-    {
-      "track": "Chanel",
-      "artists": "Frank Ocean",
-      "durationMs": 210285,
-      "playedAt": "2026-04-24T20:44:03.770Z"
-    },
-    {
-      "track": "cassiopeia",
-      "artists": "GODBY",
-      "durationMs": 262186,
-      "playedAt": "2026-04-24T20:40:27.417Z"
-    },
-    {
-      "track": "Paradise",
-      "artists": "Khalid",
-      "durationMs": 174066,
-      "playedAt": "2026-04-24T20:36:11.741Z"
-    },
-    {
-      "track": "Tadow",
-      "artists": "Masego",
-      "durationMs": 301893,
-      "playedAt": "2026-04-24T20:33:22.016Z"
-    },
-    {
-      "track": "Charge It",
-      "artists": "ENNY",
-      "durationMs": 185715,
-      "playedAt": "2026-04-24T20:28:25.464Z"
-    },
-    {
-      "track": "Althea - 2013 Remaster",
-      "artists": "Grateful Dead",
-      "durationMs": 412595,
-      "playedAt": "2026-04-24T20:25:25.638Z"
-    },
-    {
-      "track": "Lee & Lovie (with reggie)",
-      "artists": "Smino, reggie",
-      "durationMs": 171676,
-      "playedAt": "2026-04-24T20:18:38.473Z"
-    },
-    {
-      "track": "Tailwhip",
-      "artists": "Men I Trust",
-      "durationMs": 225263,
-      "playedAt": "2026-04-24T20:15:52.878Z"
     }
   ]
 }
