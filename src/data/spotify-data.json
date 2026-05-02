@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T22:52:43.803326Z",
+  "lastUpdated": "2026-05-02T02:52:51.449636Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Another Stone",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/5RHhmGMV3FKxRa63AIfIgZ"
-    },
-    {
       "name": "Designer",
       "artists": "Tokyo Tea Room",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27337fc8bfd25d6a6c76972bf0b",
       "spotifyUrl": "https://open.spotify.com/track/373DIor09U5rF1QwbbKLFI"
+    },
+    {
+      "name": "SORRY NOT SORRY",
+      "artists": "Tyler, The Creator",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273aa95a399fd30fbb4f6f59fca",
+      "spotifyUrl": "https://open.spotify.com/track/410ZZP746AQeiywhKvXWCo"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
   },
   "weeklyListening": {
-    "totalMs": 75396427,
-    "trackCount": 359
+    "totalMs": 78662900,
+    "trackCount": 376
   },
   "ytdListening": {
-    "totalMs": 1048881898,
-    "trackCount": 5071
+    "totalMs": 1052148371,
+    "trackCount": 5088
   }
 }
