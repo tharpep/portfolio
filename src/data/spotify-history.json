@@ -1,6 +1,60 @@
 {
-  "lastCursor": "1777753828768",
+  "lastCursor": "1777761728284",
   "plays": [
+    {
+      "track": "Sabbath",
+      "artists": "Meltycanon",
+      "durationMs": 104907,
+      "playedAt": "2026-05-02T22:42:08.284Z"
+    },
+    {
+      "track": "After Hours",
+      "artists": "The Weeknd",
+      "durationMs": 361026,
+      "playedAt": "2026-05-02T22:40:29.222Z"
+    },
+    {
+      "track": "Out of Me Head",
+      "artists": "Steve Lacy",
+      "durationMs": 141055,
+      "playedAt": "2026-05-02T22:34:34.626Z"
+    },
+    {
+      "track": "NUTHIN 2 HIDE",
+      "artists": "Isaiah Rashad",
+      "durationMs": 230648,
+      "playedAt": "2026-05-02T22:32:18.820Z"
+    },
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-05-02T22:22:33.377Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-05-02T21:20:49.778Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-05-02T21:17:33.489Z"
+    },
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-05-02T21:14:56.882Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-05-02T21:12:42.647Z"
+    },
     {
       "track": "Fine Madeline",
       "artists": "Plums",
@@ -2994,54 +3048,6 @@
       "artists": "SZA",
       "durationMs": 201800,
       "playedAt": "2026-04-24T23:03:01.974Z"
-    },
-    {
-      "track": "High",
-      "artists": "Slow Pulp",
-      "durationMs": 152571,
-      "playedAt": "2026-04-24T21:33:46.081Z"
-    },
-    {
-      "track": "GHOST!",
-      "artists": "Kid Cudi",
-      "durationMs": 289066,
-      "playedAt": "2026-04-24T21:31:18.898Z"
-    },
-    {
-      "track": "Antidote",
-      "artists": "Orion Sun",
-      "durationMs": 169822,
-      "playedAt": "2026-04-24T21:26:35.529Z"
-    },
-    {
-      "track": "LVL",
-      "artists": "A$AP Rocky",
-      "durationMs": 220133,
-      "playedAt": "2026-04-24T21:23:51.316Z"
-    },
-    {
-      "track": "Willing To Trust (with Ty Dolla $ign)",
-      "artists": "Kid Cudi, Ty Dolla $ign",
-      "durationMs": 282053,
-      "playedAt": "2026-04-24T21:20:16.844Z"
-    },
-    {
-      "track": "Little Dark Age",
-      "artists": "MGMT",
-      "durationMs": 299933,
-      "playedAt": "2026-04-24T20:57:18.440Z"
-    },
-    {
-      "track": "Lauren",
-      "artists": "Men I Trust",
-      "durationMs": 222680,
-      "playedAt": "2026-04-24T20:52:24.577Z"
-    },
-    {
-      "track": "Dynamic",
-      "artists": "Weak Moves",
-      "durationMs": 198210,
-      "playedAt": "2026-04-24T20:48:48.761Z"
     }
   ]
 }

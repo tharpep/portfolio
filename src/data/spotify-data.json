@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T20:44:22.186966Z",
+  "lastUpdated": "2026-05-02T22:44:33.890363Z",
   "topArtistsYear": [
     {
       "name": "Magdalena Bay",
@@ -29,16 +29,22 @@
   ],
   "topTracksWeek": [
     {
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+    },
+    {
       "name": "Metamodernity",
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     },
     {
       "name": "Best to You",
@@ -51,26 +57,20 @@
       "artists": "Tokyo Tea Room",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27337fc8bfd25d6a6c76972bf0b",
       "spotifyUrl": "https://open.spotify.com/track/373DIor09U5rF1QwbbKLFI"
-    },
-    {
-      "name": "SORRY NOT SORRY",
-      "artists": "Tyler, The Creator",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273aa95a399fd30fbb4f6f59fca",
-      "spotifyUrl": "https://open.spotify.com/track/410ZZP746AQeiywhKvXWCo"
     }
   ],
   "topTrackDay": {
-    "name": "Metamodernity",
-    "artists": "Vansire",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
-    "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
+    "name": "Go Away",
+    "artists": "Yot Club",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+    "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
   },
   "weeklyListening": {
-    "totalMs": 83965821,
-    "trackCount": 398
+    "totalMs": 85839762,
+    "trackCount": 407
   },
   "ytdListening": {
-    "totalMs": 1057451292,
-    "trackCount": 5110
+    "totalMs": 1059325233,
+    "trackCount": 5119
   }
 }
