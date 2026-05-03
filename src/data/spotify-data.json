@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T03:28:48.903543Z",
+  "lastUpdated": "2026-05-03T06:27:08.293098Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
-    },
-    {
       "name": "Metamodernity",
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
+    },
+    {
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     },
     {
       "name": "Locket",
@@ -53,24 +53,24 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "In My Years",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
+      "name": "Designer",
+      "artists": "Tokyo Tea Room",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27337fc8bfd25d6a6c76972bf0b",
+      "spotifyUrl": "https://open.spotify.com/track/373DIor09U5rF1QwbbKLFI"
     }
   ],
   "topTrackDay": {
-    "name": "Go Away",
-    "artists": "Yot Club",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-    "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+    "name": "Metamodernity",
+    "artists": "Vansire",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
+    "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
   },
   "weeklyListening": {
-    "totalMs": 93206120,
-    "trackCount": 443
+    "totalMs": 103504852,
+    "trackCount": 490
   },
   "ytdListening": {
-    "totalMs": 1066691591,
-    "trackCount": 5155
+    "totalMs": 1076990323,
+    "trackCount": 5202
   }
 }
