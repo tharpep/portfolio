@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T16:54:09.461133Z",
+  "lastUpdated": "2026-05-03T19:02:58.742936Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "NUTHIN 2 HIDE",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
+      "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
+    },
+    {
       "name": "Metamodernity",
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
@@ -47,12 +53,6 @@
       "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     },
     {
-      "name": "NUTHIN 2 HIDE",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
-      "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "Metamodernity",
-    "artists": "Vansire",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
-    "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
+    "name": "NUTHIN 2 HIDE",
+    "artists": "Isaiah Rashad",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
+    "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 106492318,
-    "trackCount": 503
+    "totalMs": 114329042,
+    "trackCount": 538
   },
   "ytdListening": {
-    "totalMs": 1079977789,
-    "trackCount": 5215
+    "totalMs": 1087814513,
+    "trackCount": 5250
   }
 }
