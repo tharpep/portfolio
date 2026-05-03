@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-05-02T22:44:33.890363Z",
+  "lastUpdated": "2026-05-03T03:28:48.903543Z",
   "topArtistsYear": [
-    {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
     {
       "name": "Men I Trust",
       "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
       "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
       "name": "Tame Impala",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1p2TWJxUlHE5JR0sE6E1d7"
     },
     {
-      "name": "Designer",
-      "artists": "Tokyo Tea Room",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27337fc8bfd25d6a6c76972bf0b",
-      "spotifyUrl": "https://open.spotify.com/track/373DIor09U5rF1QwbbKLFI"
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
   },
   "weeklyListening": {
-    "totalMs": 85839762,
-    "trackCount": 407
+    "totalMs": 93206120,
+    "trackCount": 443
   },
   "ytdListening": {
-    "totalMs": 1059325233,
-    "trackCount": 5119
+    "totalMs": 1066691591,
+    "trackCount": 5155
   }
 }
