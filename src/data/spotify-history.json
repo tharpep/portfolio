@@ -1,6 +1,174 @@
 {
-  "lastCursor": "1777901001079",
+  "lastCursor": "1777916078470",
   "plays": [
+    {
+      "track": "Quicksand",
+      "artists": "SZA",
+      "durationMs": 242213,
+      "playedAt": "2026-05-04T17:34:38.470Z"
+    },
+    {
+      "track": "Nobody Gets Me",
+      "artists": "SZA",
+      "durationMs": 180853,
+      "playedAt": "2026-05-04T17:30:42.214Z"
+    },
+    {
+      "track": "Diamond Boy (DTM)",
+      "artists": "SZA",
+      "durationMs": 217523,
+      "playedAt": "2026-05-04T17:25:40.800Z"
+    },
+    {
+      "track": "Scorsese Baby Daddy",
+      "artists": "SZA",
+      "durationMs": 153911,
+      "playedAt": "2026-05-04T17:22:09.043Z"
+    },
+    {
+      "track": "Hit Different",
+      "artists": "SZA, The Neptunes, Pharrell Williams, Ty Dolla $ign",
+      "durationMs": 202007,
+      "playedAt": "2026-05-04T17:13:01.677Z"
+    },
+    {
+      "track": "BMF",
+      "artists": "SZA",
+      "durationMs": 180746,
+      "playedAt": "2026-05-04T17:09:45.694Z"
+    },
+    {
+      "track": "I Hate U",
+      "artists": "SZA",
+      "durationMs": 174000,
+      "playedAt": "2026-05-04T17:06:51.257Z"
+    },
+    {
+      "track": "30 For 30 (with Kendrick Lamar)",
+      "artists": "SZA, Kendrick Lamar",
+      "durationMs": 278277,
+      "playedAt": "2026-05-04T17:04:02.604Z"
+    },
+    {
+      "track": "girl, get up. (feat. SZA)",
+      "artists": "Doechii, SZA",
+      "durationMs": 188600,
+      "playedAt": "2026-05-04T16:59:30.177Z"
+    },
+    {
+      "track": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+      "artists": "A$AP Rocky, Brent Faiyaz",
+      "durationMs": 346093,
+      "playedAt": "2026-05-04T16:53:50.522Z"
+    },
+    {
+      "track": "Pressure",
+      "artists": "CARRTOONS, Lo Artiz, Julia Zivic",
+      "durationMs": 104067,
+      "playedAt": "2026-05-04T16:48:09.759Z"
+    },
+    {
+      "track": "It's You",
+      "artists": "Lauren Creviston",
+      "durationMs": 165245,
+      "playedAt": "2026-05-04T16:46:31.659Z"
+    },
+    {
+      "track": "Youth",
+      "artists": "Glass Animals",
+      "durationMs": 230693,
+      "playedAt": "2026-05-04T16:43:52.493Z"
+    },
+    {
+      "track": "I'm God",
+      "artists": "Clams Casino, Imogen Heap",
+      "durationMs": 277710,
+      "playedAt": "2026-05-04T16:40:07.061Z"
+    },
+    {
+      "track": "Both Sides Of The Moon",
+      "artists": "Celeste, Gotts Street Park",
+      "durationMs": 257239,
+      "playedAt": "2026-05-04T16:35:56.766Z"
+    },
+    {
+      "track": "New Martyrs (Ride 4 U)",
+      "artists": "Miguel",
+      "durationMs": 210052,
+      "playedAt": "2026-05-04T16:03:06.354Z"
+    },
+    {
+      "track": "Can I Kick It?",
+      "artists": "A Tribe Called Quest",
+      "durationMs": 251790,
+      "playedAt": "2026-05-04T15:59:41.974Z"
+    },
+    {
+      "track": "End Of Summer",
+      "artists": "Tame Impala",
+      "durationMs": 432566,
+      "playedAt": "2026-05-04T15:56:45.306Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-05-04T15:55:35.597Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-05-04T14:58:48.807Z"
+    },
+    {
+      "track": "Billie Toppy",
+      "artists": "Men I Trust",
+      "durationMs": 195289,
+      "playedAt": "2026-05-04T14:53:55.298Z"
+    },
+    {
+      "track": "White (feat. Frank Ocean)",
+      "artists": "Odd Future, Frank Ocean",
+      "durationMs": 122933,
+      "playedAt": "2026-05-04T14:50:40.439Z"
+    },
+    {
+      "track": "To Ease You",
+      "artists": "Men I Trust",
+      "durationMs": 192798,
+      "playedAt": "2026-05-04T14:48:46.290Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-05-04T14:45:39.111Z"
+    },
+    {
+      "track": "Nothing Burns Like The Cold",
+      "artists": "Snoh Aalegra, Vince Staples",
+      "durationMs": 209911,
+      "playedAt": "2026-05-04T14:41:44.747Z"
+    },
+    {
+      "track": "The Void",
+      "artists": "Kid Cudi",
+      "durationMs": 325413,
+      "playedAt": "2026-05-04T14:38:20.314Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-05-04T14:33:00.589Z"
+    },
+    {
+      "track": "The Violence",
+      "artists": "Childish Gambino",
+      "durationMs": 363355,
+      "playedAt": "2026-05-04T14:29:26.645Z"
+    },
     {
       "track": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
@@ -3390,54 +3558,6 @@
       "artists": "Kid Cudi",
       "durationMs": 260200,
       "playedAt": "2026-04-26T21:09:27.516Z"
-    },
-    {
-      "track": "Tadow",
-      "artists": "Masego",
-      "durationMs": 301893,
-      "playedAt": "2026-04-26T16:51:21.427Z"
-    },
-    {
-      "track": "Mariella",
-      "artists": "Khruangbin, Leon Bridges",
-      "durationMs": 310553,
-      "playedAt": "2026-04-26T16:13:10.745Z"
-    },
-    {
-      "track": "Lemonhaze",
-      "artists": "PawPaw Rod",
-      "durationMs": 156478,
-      "playedAt": "2026-04-26T16:08:06.145Z"
-    },
-    {
-      "track": "New Gold (feat. Tame Impala and Bootie Brown)",
-      "artists": "Gorillaz, Tame Impala, Bootie Brown",
-      "durationMs": 215149,
-      "playedAt": "2026-04-26T16:05:35.401Z"
-    },
-    {
-      "track": "CAN YOU HEAR THE MOON",
-      "artists": "Grady",
-      "durationMs": 182534,
-      "playedAt": "2026-04-26T16:02:02.064Z"
-    },
-    {
-      "track": "Stay For One More Night",
-      "artists": "Goodvibes Sound",
-      "durationMs": 180647,
-      "playedAt": "2026-04-26T15:59:27.380Z"
-    },
-    {
-      "track": "Tailwhip",
-      "artists": "Men I Trust",
-      "durationMs": 225263,
-      "playedAt": "2026-04-26T15:56:01.561Z"
-    },
-    {
-      "track": "Simulation Swarm",
-      "artists": "Big Thief",
-      "durationMs": 252733,
-      "playedAt": "2026-04-26T15:52:22.563Z"
     }
   ]
 }
