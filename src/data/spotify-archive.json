@@ -111,6 +111,22 @@
         "name": "PinkPantheress",
         "plays": 61
       }
+    },
+    {
+      "week": "2026-W18",
+      "weekStart": "2026-04-27",
+      "weekEnd": "2026-05-03",
+      "totalMs": 114329042,
+      "trackCount": 538,
+      "topTrack": {
+        "name": "BOY IN RED",
+        "artists": "Isaiah Rashad, SZA",
+        "plays": 12
+      },
+      "topArtist": {
+        "name": "Isaiah Rashad",
+        "plays": 66
+      }
     }
   ]
 }
