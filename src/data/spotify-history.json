@@ -1,6 +1,54 @@
 {
-  "lastCursor": "1777923734925",
+  "lastCursor": "1777928955755",
   "plays": [
+    {
+      "track": "California",
+      "artists": "beabadoobee",
+      "durationMs": 172293,
+      "playedAt": "2026-05-04T21:09:15.755Z"
+    },
+    {
+      "track": "Heart Of A Lion (Kid Cudi Theme Music)",
+      "artists": "Kid Cudi",
+      "durationMs": 261359,
+      "playedAt": "2026-05-04T21:06:29.367Z"
+    },
+    {
+      "track": "m y . l i f e (with 21 Savage & Morray)",
+      "artists": "J. Cole, 21 Savage, Morray",
+      "durationMs": 218801,
+      "playedAt": "2026-05-04T21:02:13.458Z"
+    },
+    {
+      "track": "Best Time",
+      "artists": "Brent Faiyaz",
+      "durationMs": 82508,
+      "playedAt": "2026-05-04T20:58:40.468Z"
+    },
+    {
+      "track": "What Once Was",
+      "artists": "Her's",
+      "durationMs": 255067,
+      "playedAt": "2026-05-04T20:57:23.757Z"
+    },
+    {
+      "track": "Bobby Boucher",
+      "artists": "EARTHGANG, Spillage Village, Benji.",
+      "durationMs": 195200,
+      "playedAt": "2026-05-04T20:53:14.420Z"
+    },
+    {
+      "track": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "durationMs": 235344,
+      "playedAt": "2026-05-04T20:50:04.893Z"
+    },
+    {
+      "track": "90 Proof (with J. Cole)",
+      "artists": "Smino, J. Cole",
+      "durationMs": 208269,
+      "playedAt": "2026-05-04T20:46:06.785Z"
+    },
     {
       "track": "Bodysnatchers",
       "artists": "Radiohead",
@@ -3648,12 +3696,6 @@
       "artists": "A$AP Rocky, Jessica Pratt",
       "durationMs": 190074,
       "playedAt": "2026-04-26T21:12:39.865Z"
-    },
-    {
-      "track": "Enter Galactic (Love Connection Part I)",
-      "artists": "Kid Cudi",
-      "durationMs": 260200,
-      "playedAt": "2026-04-26T21:09:27.516Z"
     }
   ]
 }
