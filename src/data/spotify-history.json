@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1777954725823",
+  "lastCursor": "1777995603312",
   "plays": [
+    {
+      "track": "Favorite Song",
+      "artists": "Chance the Rapper, Childish Gambino",
+      "durationMs": 185062,
+      "playedAt": "2026-05-05T15:40:03.312Z"
+    },
+    {
+      "track": "cocoa (with Don Toliver)",
+      "artists": "Baby Keem, Don Toliver",
+      "durationMs": 229608,
+      "playedAt": "2026-05-05T15:37:12.123Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-05-05T15:33:19.997Z"
+    },
+    {
+      "track": "Plastic 100°C",
+      "artists": "Sampha",
+      "durationMs": 316187,
+      "playedAt": "2026-05-05T15:30:17.997Z"
+    },
     {
       "track": "MERCEDES",
       "artists": "Brent Faiyaz",
@@ -3480,18 +3504,6 @@
       "artists": "Orion Sun",
       "durationMs": 180560,
       "playedAt": "2026-04-27T16:06:40.496Z"
-    },
-    {
-      "track": "Righteous Minds",
-      "artists": "Joey Bada$$",
-      "durationMs": 224042,
-      "playedAt": "2026-04-27T14:41:39.649Z"
-    },
-    {
-      "track": "Jigsaw Falling Into Place",
-      "artists": "Radiohead",
-      "durationMs": 248893,
-      "playedAt": "2026-04-27T14:38:01.250Z"
     }
   ]
 }
