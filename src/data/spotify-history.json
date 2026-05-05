@@ -1,6 +1,138 @@
 {
-  "lastCursor": "1778000044421",
+  "lastCursor": "1778008969588",
   "plays": [
+    {
+      "track": "Candle Flame",
+      "artists": "Jungle, Erick the Architect",
+      "durationMs": 174020,
+      "playedAt": "2026-05-05T19:22:49.588Z"
+    },
+    {
+      "track": "Instant Crush (feat. Julian Casablancas)",
+      "artists": "Daft Punk, Julian Casablancas",
+      "durationMs": 337560,
+      "playedAt": "2026-05-05T19:20:01.481Z"
+    },
+    {
+      "track": "Love/Paranoia",
+      "artists": "Tame Impala",
+      "durationMs": 185773,
+      "playedAt": "2026-05-05T19:14:29.652Z"
+    },
+    {
+      "track": "Second Sleep",
+      "artists": "Magdalena Bay",
+      "durationMs": 288453,
+      "playedAt": "2026-05-05T19:11:29.530Z"
+    },
+    {
+      "track": "the BLACK seminole.",
+      "artists": "Lil Yachty, Diana Gordon",
+      "durationMs": 411912,
+      "playedAt": "2026-05-05T19:06:46.752Z"
+    },
+    {
+      "track": "Mercurial World",
+      "artists": "Magdalena Bay",
+      "durationMs": 181173,
+      "playedAt": "2026-05-05T18:59:54.509Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-05-05T18:55:43.477Z"
+    },
+    {
+      "track": "SKELETONS",
+      "artists": "Travis Scott",
+      "durationMs": 145588,
+      "playedAt": "2026-05-05T18:53:20.149Z"
+    },
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-05-05T18:50:40.162Z"
+    },
+    {
+      "track": "No One Noticed",
+      "artists": "The Marías",
+      "durationMs": 236906,
+      "playedAt": "2026-05-05T18:47:42.723Z"
+    },
+    {
+      "track": "Duvet",
+      "artists": "bôa",
+      "durationMs": 203600,
+      "playedAt": "2026-05-05T18:43:51.222Z"
+    },
+    {
+      "track": "Visions",
+      "artists": "Loving",
+      "durationMs": 233558,
+      "playedAt": "2026-05-05T18:38:32.496Z"
+    },
+    {
+      "track": "Biking",
+      "artists": "Frank Ocean, JAŸ-Z, Tyler, The Creator",
+      "durationMs": 277520,
+      "playedAt": "2026-05-05T18:34:44.894Z"
+    },
+    {
+      "track": "Chandelier",
+      "artists": "Will Paquin",
+      "durationMs": 127464,
+      "playedAt": "2026-05-05T18:30:13.347Z"
+    },
+    {
+      "track": "White (feat. Frank Ocean)",
+      "artists": "Odd Future, Frank Ocean",
+      "durationMs": 122933,
+      "playedAt": "2026-05-05T18:28:11.381Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-05-05T18:26:13.887Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-05-05T18:21:14.197Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-05-05T18:18:09.747Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-05-05T18:15:30.232Z"
+    },
+    {
+      "track": "Rivet Gun",
+      "artists": "Mother Soki",
+      "durationMs": 137633,
+      "playedAt": "2026-05-05T18:10:41.952Z"
+    },
+    {
+      "track": "NUTHIN 2 HIDE",
+      "artists": "Isaiah Rashad",
+      "durationMs": 230648,
+      "playedAt": "2026-05-05T18:08:33.793Z"
+    },
+    {
+      "track": "Timeless (feat Playboi Carti)",
+      "artists": "The Weeknd, Playboi Carti",
+      "durationMs": 256000,
+      "playedAt": "2026-05-05T18:08:29.872Z"
+    },
     {
       "track": "Like Him (feat. Lola Young)",
       "artists": "Tyler, The Creator, Lola Young",
@@ -3468,48 +3600,6 @@
       "artists": "Orion Sun",
       "durationMs": 221596,
       "playedAt": "2026-04-27T19:48:48.606Z"
-    },
-    {
-      "track": "Blur",
-      "artists": "The Marías",
-      "durationMs": 225106,
-      "playedAt": "2026-04-27T18:23:41.504Z"
-    },
-    {
-      "track": "I Must Apologise",
-      "artists": "PinkPantheress",
-      "durationMs": 108373,
-      "playedAt": "2026-04-27T18:20:05.028Z"
-    },
-    {
-      "track": "Off and On",
-      "artists": "SALES",
-      "durationMs": 250909,
-      "playedAt": "2026-04-27T18:18:22.433Z"
-    },
-    {
-      "track": "PUNK ROCKY",
-      "artists": "A$AP Rocky",
-      "durationMs": 235344,
-      "playedAt": "2026-04-27T18:14:17.117Z"
-    },
-    {
-      "track": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "durationMs": 206012,
-      "playedAt": "2026-04-27T18:06:59.243Z"
-    },
-    {
-      "track": "Vampire in the Corner",
-      "artists": "Magdalena Bay",
-      "durationMs": 202440,
-      "playedAt": "2026-04-27T18:01:58.080Z"
-    },
-    {
-      "track": "intro",
-      "artists": "Orion Sun",
-      "durationMs": 180560,
-      "playedAt": "2026-04-27T17:58:39.445Z"
     }
   ]
 }

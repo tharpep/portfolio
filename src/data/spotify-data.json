@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T17:43:59.387463Z",
+  "lastUpdated": "2026-05-05T19:24:08.735723Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
-    },
-    {
       "name": "Metamodernity",
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     },
     {
       "name": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+    },
+    {
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 22403592,
-    "trackCount": 104
+    "totalMs": 27237804,
+    "trackCount": 126
   },
   "ytdListening": {
-    "totalMs": 1110218105,
-    "trackCount": 5354
+    "totalMs": 1115052317,
+    "trackCount": 5376
   }
 }
