@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T22:57:36.168597Z",
+  "lastUpdated": "2026-05-06T03:24:05.569808Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,10 +47,10 @@
       "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     },
     {
-      "name": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+      "name": "Fine Madeline",
+      "artists": "Plums",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
+      "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
     },
     {
       "name": "Locket",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 32717466,
-    "trackCount": 151
+    "totalMs": 39087159,
+    "trackCount": 179
   },
   "ytdListening": {
-    "totalMs": 1120531979,
-    "trackCount": 5401
+    "totalMs": 1126901672,
+    "trackCount": 5429
   }
 }
