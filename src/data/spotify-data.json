@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T17:42:38.126189Z",
+  "lastUpdated": "2026-05-06T19:48:41.333897Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 55518874,
-    "trackCount": 255
+    "totalMs": 61515542,
+    "trackCount": 281
   },
   "ytdListening": {
-    "totalMs": 1143333387,
-    "trackCount": 5505
+    "totalMs": 1149330055,
+    "trackCount": 5531
   }
 }
