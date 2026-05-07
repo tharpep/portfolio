@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T03:24:59.200579Z",
+  "lastUpdated": "2026-05-07T06:36:57.901838Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
     },
     {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+      "name": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 68045255,
-    "trackCount": 314
+    "totalMs": 72950640,
+    "trackCount": 337
   },
   "ytdListening": {
-    "totalMs": 1155859768,
-    "trackCount": 5564
+    "totalMs": 1160765153,
+    "trackCount": 5587
   }
 }
