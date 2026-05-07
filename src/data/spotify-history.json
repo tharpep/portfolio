@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1778105570360",
+  "lastCursor": "1778121162039",
   "plays": [
+    {
+      "track": "Hun43rd",
+      "artists": "A$AP Rocky",
+      "durationMs": 242742,
+      "playedAt": "2026-05-07T02:32:42.039Z"
+    },
+    {
+      "track": "Side By Side",
+      "artists": "Crumb",
+      "durationMs": 187333,
+      "playedAt": "2026-05-07T02:11:00.822Z"
+    },
     {
       "track": "don't rely on other men",
       "artists": "JPEGMAFIA",
@@ -4278,150 +4290,6 @@
       "artists": "Men I Trust",
       "durationMs": 225394,
       "playedAt": "2026-04-29T04:11:12.866Z"
-    },
-    {
-      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
-      "artists": "SZA, Phoebe Bridgers",
-      "durationMs": 218586,
-      "playedAt": "2026-04-29T03:10:01.491Z"
-    },
-    {
-      "track": "RIP",
-      "artists": "Miguel",
-      "durationMs": 164692,
-      "playedAt": "2026-04-29T03:06:28.600Z"
-    },
-    {
-      "track": "Care",
-      "artists": "Freak Slug",
-      "durationMs": 169847,
-      "playedAt": "2026-04-29T03:03:43.692Z"
-    },
-    {
-      "track": "Suspended",
-      "artists": "Sampha",
-      "durationMs": 185371,
-      "playedAt": "2026-04-29T00:54:45.945Z"
-    },
-    {
-      "track": "Blur",
-      "artists": "The Marías",
-      "durationMs": 225106,
-      "playedAt": "2026-04-29T00:51:46.125Z"
-    },
-    {
-      "track": "Everything Blue",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 222520,
-      "playedAt": "2026-04-29T00:48:06.856Z"
-    },
-    {
-      "track": "the ride-",
-      "artists": "Lil Yachty",
-      "durationMs": 190581,
-      "playedAt": "2026-04-29T00:38:00.968Z"
-    },
-    {
-      "track": "Make Me a Better Man",
-      "artists": "Malcolm Todd",
-      "durationMs": 210026,
-      "playedAt": "2026-04-29T00:34:56.063Z"
-    },
-    {
-      "track": "Call On Me",
-      "artists": "Daniel Caesar",
-      "durationMs": 169004,
-      "playedAt": "2026-04-29T00:30:25.308Z"
-    },
-    {
-      "track": "Santeria",
-      "artists": "Sublime",
-      "durationMs": 182746,
-      "playedAt": "2026-04-29T00:27:41.914Z"
-    },
-    {
-      "track": "Dumb Love",
-      "artists": "NEIL FRANCES",
-      "durationMs": 282728,
-      "playedAt": "2026-04-29T00:24:44.802Z"
-    },
-    {
-      "track": "drifting",
-      "artists": "Night Tapes",
-      "durationMs": 212440,
-      "playedAt": "2026-04-29T00:20:08.178Z"
-    },
-    {
-      "track": "Say, Can You Hear",
-      "artists": "Men I Trust",
-      "durationMs": 189246,
-      "playedAt": "2026-04-29T00:16:23.299Z"
-    },
-    {
-      "track": "THE zone~",
-      "artists": "Lil Yachty",
-      "durationMs": 249685,
-      "playedAt": "2026-04-28T23:55:16.024Z"
-    },
-    {
-      "track": "Man On The Moon",
-      "artists": "Kid Cudi",
-      "durationMs": 210893,
-      "playedAt": "2026-04-28T23:51:04.534Z"
-    },
-    {
-      "track": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "durationMs": 206012,
-      "playedAt": "2026-04-28T23:47:38.653Z"
-    },
-    {
-      "track": "loop it and leave it",
-      "artists": "JPEGMAFIA",
-      "durationMs": 120795,
-      "playedAt": "2026-04-28T23:44:18.396Z"
-    },
-    {
-      "track": "Stereo Colour Cloud (Shaman's Dream)",
-      "artists": "Sampha",
-      "durationMs": 177949,
-      "playedAt": "2026-04-28T23:19:11.355Z"
-    },
-    {
-      "track": "One Night/All Night",
-      "artists": "Justice, Tame Impala",
-      "durationMs": 276066,
-      "playedAt": "2026-04-28T23:16:18.834Z"
-    },
-    {
-      "track": "A$AP Forever (feat. Moby)",
-      "artists": "A$AP Rocky, Moby",
-      "durationMs": 233061,
-      "playedAt": "2026-04-28T23:09:20.253Z"
-    },
-    {
-      "track": "Dead Man Walking",
-      "artists": "Brent Faiyaz",
-      "durationMs": 247079,
-      "playedAt": "2026-04-28T23:05:32.669Z"
-    },
-    {
-      "track": "Just for Now",
-      "artists": "Imogen Heap",
-      "durationMs": 180303,
-      "playedAt": "2026-04-28T23:01:31.313Z"
-    },
-    {
-      "track": "Her",
-      "artists": "The American Dawn",
-      "durationMs": 214086,
-      "playedAt": "2026-04-28T22:58:36.517Z"
-    },
-    {
-      "track": "Superpowers",
-      "artists": "Daniel Caesar",
-      "durationMs": 174512,
-      "playedAt": "2026-04-28T22:55:08.052Z"
     }
   ]
 }
