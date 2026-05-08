@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T11:18:46.877131Z",
+  "lastUpdated": "2026-05-08T13:54:14.034235Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
+      "name": "Fine Madeline",
+      "artists": "Plums",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
+      "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
+    },
+    {
       "name": "Metamodernity",
       "artists": "Vansire",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
@@ -45,12 +51,6 @@
       "artists": "Yot Club",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
       "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
-    },
-    {
-      "name": "Fine Madeline",
-      "artists": "Plums",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
-      "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
     },
     {
       "name": "M.O.M.",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 110604759,
-    "trackCount": 507
+    "totalMs": 113315736,
+    "trackCount": 520
   },
   "ytdListening": {
-    "totalMs": 1198419272,
-    "trackCount": 5757
+    "totalMs": 1201130249,
+    "trackCount": 5770
   }
 }
