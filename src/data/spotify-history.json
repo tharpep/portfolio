@@ -1,6 +1,72 @@
 {
-  "lastCursor": "1778200388918",
+  "lastCursor": "1778213462811",
   "plays": [
+    {
+      "track": "Plastic 100°C",
+      "artists": "Sampha",
+      "durationMs": 316187,
+      "playedAt": "2026-05-08T04:11:02.811Z"
+    },
+    {
+      "track": "Let's Go",
+      "artists": "Khalid",
+      "durationMs": 204545,
+      "playedAt": "2026-05-08T04:05:52.185Z"
+    },
+    {
+      "track": "Luv (sic)",
+      "artists": "Nujabes",
+      "durationMs": 289026,
+      "playedAt": "2026-05-08T04:02:34.110Z"
+    },
+    {
+      "track": "Obsolete",
+      "artists": "Tame Impala",
+      "durationMs": 263640,
+      "playedAt": "2026-05-08T03:57:50.073Z"
+    },
+    {
+      "track": "Mercurial World",
+      "artists": "Magdalena Bay",
+      "durationMs": 181173,
+      "playedAt": "2026-05-08T03:53:32.185Z"
+    },
+    {
+      "track": "The Boat I Row",
+      "artists": "Tame Impala",
+      "durationMs": 238320,
+      "playedAt": "2026-05-08T03:50:07.945Z"
+    },
+    {
+      "track": "Nothing Burns Like The Cold",
+      "artists": "Snoh Aalegra, Vince Staples",
+      "durationMs": 209911,
+      "playedAt": "2026-05-08T03:46:15.386Z"
+    },
+    {
+      "track": "Purity (feat. Frank Ocean)",
+      "artists": "A$AP Rocky, Frank Ocean",
+      "durationMs": 262356,
+      "playedAt": "2026-05-08T03:42:54.747Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-05-08T03:38:34.118Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-05-08T03:32:00.246Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-05-08T03:28:38.378Z"
+    },
     {
       "track": "Angel on a Satellite",
       "artists": "Magdalena Bay",
@@ -4752,24 +4818,6 @@
       "artists": "KAYTRANADA, Shay Lia",
       "durationMs": 218187,
       "playedAt": "2026-04-30T16:58:33.733Z"
-    },
-    {
-      "track": "Vampire in the Corner",
-      "artists": "Magdalena Bay",
-      "durationMs": 202440,
-      "playedAt": "2026-04-30T04:39:05.570Z"
-    },
-    {
-      "track": "Angel on a Satellite",
-      "artists": "Magdalena Bay",
-      "durationMs": 243426,
-      "playedAt": "2026-04-30T04:36:15.102Z"
-    },
-    {
-      "track": "Tunnel Vision",
-      "artists": "Magdalena Bay",
-      "durationMs": 305520,
-      "playedAt": "2026-04-30T04:31:00.207Z"
     }
   ]
 }
