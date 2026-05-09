@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1778353435337",
+  "lastCursor": "1778358505147",
   "plays": [
+    {
+      "track": "Nearsight [SID]",
+      "artists": "Miguel",
+      "durationMs": 258801,
+      "playedAt": "2026-05-09T20:28:25.147Z"
+    },
+    {
+      "track": "God Is Fair, Sexy Nasty (feat. Kendrick Lamar)",
+      "artists": "Mac Miller, Kendrick Lamar",
+      "durationMs": 500960,
+      "playedAt": "2026-05-09T20:24:12.176Z"
+    },
+    {
+      "track": "Sitting, Waiting, Wishing",
+      "artists": "Jack Johnson",
+      "durationMs": 183720,
+      "playedAt": "2026-05-09T19:13:55.222Z"
+    },
+    {
+      "track": "Do You...",
+      "artists": "Miguel",
+      "durationMs": 207920,
+      "playedAt": "2026-05-09T19:12:03.268Z"
+    },
+    {
+      "track": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 221240,
+      "playedAt": "2026-05-09T19:07:30.929Z"
+    },
     {
       "track": "Lovesick",
       "artists": "Alice Phoebe Lou",
@@ -4518,48 +4548,6 @@
       "artists": "Isaiah Rashad",
       "durationMs": 165576,
       "playedAt": "2026-05-01T22:32:05.372Z"
-    },
-    {
-      "track": "Chronic Sunshine",
-      "artists": "Cosmo Pyke",
-      "durationMs": 270926,
-      "playedAt": "2026-05-01T19:33:08.349Z"
-    },
-    {
-      "track": "Great Dane",
-      "artists": "Cosmo Pyke",
-      "durationMs": 478037,
-      "playedAt": "2026-05-01T19:28:43.886Z"
-    },
-    {
-      "track": "Tunnel Vision",
-      "artists": "Magdalena Bay",
-      "durationMs": 305520,
-      "playedAt": "2026-05-01T19:20:50.258Z"
-    },
-    {
-      "track": "babygirl",
-      "artists": "JPEGMAFIA",
-      "durationMs": 147491,
-      "playedAt": "2026-05-01T19:15:50.714Z"
-    },
-    {
-      "track": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "durationMs": 165576,
-      "playedAt": "2026-05-01T19:13:28.773Z"
-    },
-    {
-      "track": "SAME SH!T",
-      "artists": "Isaiah Rashad",
-      "durationMs": 193294,
-      "playedAt": "2026-05-01T19:10:48.759Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-01T19:07:43.008Z"
     }
   ]
 }
