@@ -1,6 +1,90 @@
 {
-  "lastCursor": "1778304736519",
+  "lastCursor": "1778353435337",
   "plays": [
+    {
+      "track": "Lovesick",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 253983,
+      "playedAt": "2026-05-09T19:03:55.337Z"
+    },
+    {
+      "track": "The Void",
+      "artists": "Kid Cudi",
+      "durationMs": 325413,
+      "playedAt": "2026-05-09T18:59:54.533Z"
+    },
+    {
+      "track": "Disillusioned (with serpentwithfeet)",
+      "artists": "Daniel Caesar, serpentwithfeet",
+      "durationMs": 241232,
+      "playedAt": "2026-05-09T18:54:28.064Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-05-09T18:50:31.684Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-05-09T18:47:10.280Z"
+    },
+    {
+      "track": "Sign Of The Times",
+      "artists": "Daniel Caesar",
+      "durationMs": 231800,
+      "playedAt": "2026-05-09T18:39:18.711Z"
+    },
+    {
+      "track": "Chanel",
+      "artists": "Frank Ocean",
+      "durationMs": 210285,
+      "playedAt": "2026-05-09T18:35:32.967Z"
+    },
+    {
+      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
+      "artists": "SZA, Phoebe Bridgers",
+      "durationMs": 218586,
+      "playedAt": "2026-05-09T18:32:19.938Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-05-09T18:28:35.482Z"
+    },
+    {
+      "track": "Breezeblocks",
+      "artists": "alt-J",
+      "durationMs": 227080,
+      "playedAt": "2026-05-09T18:25:49.085Z"
+    },
+    {
+      "track": "Human Happens",
+      "artists": "Magdalena Bay",
+      "durationMs": 243053,
+      "playedAt": "2026-05-09T18:22:07.220Z"
+    },
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-05-09T18:18:10.117Z"
+    },
+    {
+      "track": "Banana Pancakes",
+      "artists": "Jack Johnson",
+      "durationMs": 191906,
+      "playedAt": "2026-05-09T18:14:41.928Z"
+    },
+    {
+      "track": "Afterthought",
+      "artists": "Tame Impala",
+      "durationMs": 241783,
+      "playedAt": "2026-05-09T18:11:35.776Z"
+    },
     {
       "track": "Fuck The World (Summer in London)",
       "artists": "Brent Faiyaz",
@@ -4476,96 +4560,6 @@
       "artists": "Isaiah Rashad, SZA",
       "durationMs": 189964,
       "playedAt": "2026-05-01T19:07:43.008Z"
-    },
-    {
-      "track": "SUPAFICIAL",
-      "artists": "Isaiah Rashad",
-      "durationMs": 284813,
-      "playedAt": "2026-05-01T19:04:37.121Z"
-    },
-    {
-      "track": "SCARED 2 LOOK DOWN",
-      "artists": "Isaiah Rashad",
-      "durationMs": 216278,
-      "playedAt": "2026-05-01T19:00:02.739Z"
-    },
-    {
-      "track": "AIN'T GIVIN' UP",
-      "artists": "Isaiah Rashad",
-      "durationMs": 236875,
-      "playedAt": "2026-05-01T18:56:27.652Z"
-    },
-    {
-      "track": "CAMERAS",
-      "artists": "Isaiah Rashad, Dominic Fike",
-      "durationMs": 228872,
-      "playedAt": "2026-05-01T18:52:36.313Z"
-    },
-    {
-      "track": "ACT NORMAL",
-      "artists": "Isaiah Rashad",
-      "durationMs": 252592,
-      "playedAt": "2026-05-01T18:48:53.166Z"
-    },
-    {
-      "track": "NUTHIN 2 HIDE",
-      "artists": "Isaiah Rashad",
-      "durationMs": 230648,
-      "playedAt": "2026-05-01T18:44:46.305Z"
-    },
-    {
-      "track": "SUPERPWRS",
-      "artists": "Isaiah Rashad",
-      "durationMs": 212688,
-      "playedAt": "2026-05-01T18:41:01.657Z"
-    },
-    {
-      "track": "719 FREESTYLE",
-      "artists": "Isaiah Rashad",
-      "durationMs": 143317,
-      "playedAt": "2026-05-01T18:37:34.470Z"
-    },
-    {
-      "track": "GTKY",
-      "artists": "Isaiah Rashad",
-      "durationMs": 152868,
-      "playedAt": "2026-05-01T18:08:45.253Z"
-    },
-    {
-      "track": "AIN'T GIVIN' UP",
-      "artists": "Isaiah Rashad",
-      "durationMs": 236875,
-      "playedAt": "2026-05-01T18:06:12.629Z"
-    },
-    {
-      "track": "DO I LOOK HIGH?",
-      "artists": "Isaiah Rashad, Julian Sintonia",
-      "durationMs": 182718,
-      "playedAt": "2026-05-01T18:02:15.384Z"
-    },
-    {
-      "track": "HAPPY HOUR",
-      "artists": "Isaiah Rashad",
-      "durationMs": 247894,
-      "playedAt": "2026-05-01T17:13:33.581Z"
-    },
-    {
-      "track": "SCARED 2 LOOK DOWN",
-      "artists": "Isaiah Rashad",
-      "durationMs": 216278,
-      "playedAt": "2026-05-01T17:09:25.750Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-01T17:01:46.350Z"
-    },
-    {
-      "track": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "durationMs": 165576,
-      "playedAt": "2026-05-01T16:58:34.752Z"
     }
   ]
 }
