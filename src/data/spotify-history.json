@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1778358505147",
+  "lastCursor": "1778373655903",
   "plays": [
+    {
+      "track": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+      "artists": "A$AP Rocky, Brent Faiyaz",
+      "durationMs": 346093,
+      "playedAt": "2026-05-10T00:40:55.903Z"
+    },
     {
       "track": "Nearsight [SID]",
       "artists": "Miguel",
@@ -4368,162 +4374,6 @@
       "artists": "Jaden",
       "durationMs": 468168,
       "playedAt": "2026-05-02T03:36:27.665Z"
-    },
-    {
-      "track": "Cariño",
-      "artists": "The Marías",
-      "durationMs": 258713,
-      "playedAt": "2026-05-02T03:28:51.169Z"
-    },
-    {
-      "track": "Garden Shed (feat. Estelle)",
-      "artists": "Tyler, The Creator, Estelle",
-      "durationMs": 223946,
-      "playedAt": "2026-05-02T03:24:32.151Z"
-    },
-    {
-      "track": "waves - Tame Impala Remix",
-      "artists": "Miguel, Tame Impala",
-      "durationMs": 253346,
-      "playedAt": "2026-05-02T03:20:53.729Z"
-    },
-    {
-      "track": "Fine Madeline",
-      "artists": "Plums",
-      "durationMs": 139749,
-      "playedAt": "2026-05-02T03:16:35.331Z"
-    },
-    {
-      "track": "Tunnel Vision",
-      "artists": "Magdalena Bay",
-      "durationMs": 305520,
-      "playedAt": "2026-05-02T03:14:21.395Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-02T03:09:21.568Z"
-    },
-    {
-      "track": "Care",
-      "artists": "Freak Slug",
-      "durationMs": 169847,
-      "playedAt": "2026-05-02T03:06:17.358Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-05-02T03:03:33.120Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-05-02T03:02:52.192Z"
-    },
-    {
-      "track": "Designer",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 226298,
-      "playedAt": "2026-05-02T02:39:51.601Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-02T00:45:00.963Z"
-    },
-    {
-      "track": "ME&U",
-      "artists": "Zeke Bleu, Midnight Moon.",
-      "durationMs": 138834,
-      "playedAt": "2026-05-02T00:41:26.621Z"
-    },
-    {
-      "track": "ME&U",
-      "artists": "Zeke Bleu, Midnight Moon.",
-      "durationMs": 138834,
-      "playedAt": "2026-05-02T00:40:00.848Z"
-    },
-    {
-      "track": "Charge It",
-      "artists": "ENNY",
-      "durationMs": 185715,
-      "playedAt": "2026-05-02T00:22:23.144Z"
-    },
-    {
-      "track": "Daydreaming",
-      "artists": "NxWorries, Anderson .Paak, Knxwledge",
-      "durationMs": 186967,
-      "playedAt": "2026-05-02T00:19:23.144Z"
-    },
-    {
-      "track": "Always",
-      "artists": "Daniel Caesar",
-      "durationMs": 225312,
-      "playedAt": "2026-05-02T00:16:22.064Z"
-    },
-    {
-      "track": "Normal Today",
-      "artists": "Hannah Jadagu",
-      "durationMs": 193046,
-      "playedAt": "2026-05-02T00:12:42.089Z"
-    },
-    {
-      "track": "Fauxllennium",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 188533,
-      "playedAt": "2026-05-02T00:09:35.064Z"
-    },
-    {
-      "track": "Fauxllennium",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 188533,
-      "playedAt": "2026-05-02T00:06:43.422Z"
-    },
-    {
-      "track": "Alesis",
-      "artists": "Mk.gee",
-      "durationMs": 198295,
-      "playedAt": "2026-05-01T23:13:38.534Z"
-    },
-    {
-      "track": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "durationMs": 165576,
-      "playedAt": "2026-05-01T23:10:25.891Z"
-    },
-    {
-      "track": "Normal Today",
-      "artists": "Hannah Jadagu",
-      "durationMs": 193046,
-      "playedAt": "2026-05-01T23:07:45.922Z"
-    },
-    {
-      "track": "NUTHIN 2 HIDE",
-      "artists": "Isaiah Rashad",
-      "durationMs": 230648,
-      "playedAt": "2026-05-01T23:04:38.809Z"
-    },
-    {
-      "track": "Uncle ACE",
-      "artists": "Blood Orange",
-      "durationMs": 256693,
-      "playedAt": "2026-05-01T23:00:53.643Z"
-    },
-    {
-      "track": "SUPERPWRS",
-      "artists": "Isaiah Rashad",
-      "durationMs": 212688,
-      "playedAt": "2026-05-01T22:56:42.648Z"
-    },
-    {
-      "track": "babygirl",
-      "artists": "JPEGMAFIA",
-      "durationMs": 147491,
-      "playedAt": "2026-05-01T22:53:15.728Z"
     }
   ]
 }
