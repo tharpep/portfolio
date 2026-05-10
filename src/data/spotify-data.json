@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T16:58:07.154120Z",
+  "lastUpdated": "2026-05-10T19:07:18.476801Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
     },
     {
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+    },
+    {
       "name": "Go Away",
       "artists": "Yot Club",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
       "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
-    },
-    {
-      "name": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 131398701,
-    "trackCount": 602
+    "totalMs": 138774240,
+    "trackCount": 634
   },
   "ytdListening": {
-    "totalMs": 1219213214,
-    "trackCount": 5852
+    "totalMs": 1226588753,
+    "trackCount": 5884
   }
 }
