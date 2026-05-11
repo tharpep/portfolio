@@ -127,6 +127,22 @@
         "name": "Isaiah Rashad",
         "plays": 66
       }
+    },
+    {
+      "week": "2026-W19",
+      "weekStart": "2026-05-04",
+      "weekEnd": "2026-05-10",
+      "totalMs": 155245859,
+      "trackCount": 710,
+      "topTrack": {
+        "name": "2 Wheel Drive",
+        "artists": "Magdalena Bay",
+        "plays": 6
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 49
+      }
     }
   ]
 }
