@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:19:29.280378Z",
+  "lastUpdated": "2026-05-11T22:56:35.229922Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
+      "name": "Go Away",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
+      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+    },
+    {
       "name": "Fine Madeline",
       "artists": "Plums",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
@@ -51,12 +57,6 @@
       "artists": "Crumb",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
       "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
-    },
-    {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 7275056,
-    "trackCount": 31
+    "totalMs": 8674002,
+    "trackCount": 39
   },
   "ytdListening": {
-    "totalMs": 1250335428,
-    "trackCount": 5991
+    "totalMs": 1251734374,
+    "trackCount": 5999
   }
 }
