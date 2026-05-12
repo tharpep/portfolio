@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1778536521116",
+  "lastCursor": "1778548816112",
   "plays": [
+    {
+      "track": "Domino",
+      "artists": "Magdalena Bay",
+      "durationMs": 222521,
+      "playedAt": "2026-05-12T01:20:16.112Z"
+    },
     {
       "track": "Go Away",
       "artists": "Yot Club",
@@ -4410,90 +4416,6 @@
       "artists": "Mother Soki",
       "durationMs": 137633,
       "playedAt": "2026-05-04T04:59:46.048Z"
-    },
-    {
-      "track": "‘87 Stingray",
-      "artists": "Tory Lanez",
-      "durationMs": 141333,
-      "playedAt": "2026-05-04T01:45:58.005Z"
-    },
-    {
-      "track": "Dangerous",
-      "artists": "Big Data, Joywave",
-      "durationMs": 280426,
-      "playedAt": "2026-05-04T01:42:34.587Z"
-    },
-    {
-      "track": "Metamodernity",
-      "artists": "Vansire",
-      "durationMs": 162663,
-      "playedAt": "2026-05-04T01:37:59.815Z"
-    },
-    {
-      "track": "4th Dimension",
-      "artists": "KIDS SEE GHOSTS, Louis Prima",
-      "durationMs": 153351,
-      "playedAt": "2026-05-04T01:35:22.928Z"
-    },
-    {
-      "track": "I Should Have Kissed You",
-      "artists": "One Direction",
-      "durationMs": 215933,
-      "playedAt": "2026-05-04T01:28:18.700Z"
-    },
-    {
-      "track": "Niagara Falls",
-      "artists": "The Weeknd",
-      "durationMs": 277274,
-      "playedAt": "2026-05-04T01:24:48.410Z"
-    },
-    {
-      "track": "Dancing In The Flames",
-      "artists": "The Weeknd",
-      "durationMs": 220036,
-      "playedAt": "2026-05-04T01:19:57.040Z"
-    },
-    {
-      "track": "Out of Time",
-      "artists": "The Weeknd",
-      "durationMs": 214193,
-      "playedAt": "2026-05-04T01:16:22.619Z"
-    },
-    {
-      "track": "Strategy (from the Netflix film KPop Demon Hunters)",
-      "artists": "TWICE",
-      "durationMs": 166773,
-      "playedAt": "2026-05-04T01:12:54.522Z"
-    },
-    {
-      "track": "One Last Time",
-      "artists": "Ariana Grande",
-      "durationMs": 197266,
-      "playedAt": "2026-05-04T01:09:21.604Z"
-    },
-    {
-      "track": "She Stole My Heart",
-      "artists": "Ark Woods",
-      "durationMs": 213499,
-      "playedAt": "2026-05-04T01:05:45.380Z"
-    },
-    {
-      "track": "Disillusioned (with serpentwithfeet)",
-      "artists": "Daniel Caesar, serpentwithfeet",
-      "durationMs": 241232,
-      "playedAt": "2026-05-04T01:02:20.231Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-04T00:58:24.768Z"
-    },
-    {
-      "track": "Buttons",
-      "artists": "Steve Lacy",
-      "durationMs": 184972,
-      "playedAt": "2026-05-04T00:55:23.738Z"
     }
   ]
 }

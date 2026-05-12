@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T22:56:35.229922Z",
+  "lastUpdated": "2026-05-12T03:29:58.832346Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
     },
     {
-      "name": "Metamodernity",
-      "artists": "Vansire",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27334a91a2fad5a628c55811518",
-      "spotifyUrl": "https://open.spotify.com/track/4RGWHfQeJftd5XrP8JUgFj"
-    },
-    {
       "name": "Locket",
       "artists": "Crumb",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
       "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+    },
+    {
+      "name": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 8674002,
-    "trackCount": 39
+    "totalMs": 8896523,
+    "trackCount": 40
   },
   "ytdListening": {
-    "totalMs": 1251734374,
-    "trackCount": 5999
+    "totalMs": 1251956895,
+    "trackCount": 6000
   }
 }
