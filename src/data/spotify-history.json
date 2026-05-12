@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1778567692602",
+  "lastCursor": "1778570101629",
   "plays": [
+    {
+      "track": "Champagne Coast",
+      "artists": "Blood Orange",
+      "durationMs": 292373,
+      "playedAt": "2026-05-12T07:15:01.629Z"
+    },
+    {
+      "track": "Passing Out Pieces",
+      "artists": "Mac DeMarco",
+      "durationMs": 167090,
+      "playedAt": "2026-05-12T07:10:14.409Z"
+    },
+    {
+      "track": "Unfold",
+      "artists": "Melody's Echo Chamber",
+      "durationMs": 90127,
+      "playedAt": "2026-05-12T07:07:34.038Z"
+    },
+    {
+      "track": "Beat laments the world",
+      "artists": "Nujabes",
+      "durationMs": 263826,
+      "playedAt": "2026-05-12T07:06:08.790Z"
+    },
+    {
+      "track": "ROCKMAN",
+      "artists": "Mk.gee",
+      "durationMs": 179370,
+      "playedAt": "2026-05-12T07:01:50.765Z"
+    },
+    {
+      "track": "I'm God",
+      "artists": "Clams Casino, Imogen Heap",
+      "durationMs": 277710,
+      "playedAt": "2026-05-12T06:39:24.347Z"
+    },
     {
       "track": "You Lose!",
       "artists": "Magdalena Bay",
