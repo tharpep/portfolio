@@ -1,6 +1,60 @@
 {
-  "lastCursor": "1778644443997",
+  "lastCursor": "1778675766573",
   "plays": [
+    {
+      "track": "Killing Time",
+      "artists": "Magdalena Bay",
+      "durationMs": 233546,
+      "playedAt": "2026-05-13T12:36:06.573Z"
+    },
+    {
+      "track": "2 Wheel Drive",
+      "artists": "Magdalena Bay",
+      "durationMs": 144354,
+      "playedAt": "2026-05-13T12:32:05.589Z"
+    },
+    {
+      "track": "I Want",
+      "artists": "Mk.gee",
+      "durationMs": 218766,
+      "playedAt": "2026-05-13T12:29:42.393Z"
+    },
+    {
+      "track": "coffee",
+      "artists": "Miguel",
+      "durationMs": 286571,
+      "playedAt": "2026-05-13T12:26:15.752Z"
+    },
+    {
+      "track": "Ivy",
+      "artists": "Frank Ocean",
+      "durationMs": 249191,
+      "playedAt": "2026-05-13T12:21:22.860Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-05-13T12:17:19.212Z"
+    },
+    {
+      "track": "Off The Ground",
+      "artists": "Anderson .Paak",
+      "durationMs": 288052,
+      "playedAt": "2026-05-13T12:13:54.608Z"
+    },
+    {
+      "track": "Love/Paranoia",
+      "artists": "Tame Impala",
+      "durationMs": 185773,
+      "playedAt": "2026-05-13T12:09:01.039Z"
+    },
+    {
+      "track": "Love/Paranoia",
+      "artists": "Tame Impala",
+      "durationMs": 185773,
+      "playedAt": "2026-05-13T12:07:42.488Z"
+    },
     {
       "track": "5 Dollar Pony Rides",
       "artists": "Mac Miller",
