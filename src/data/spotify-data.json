@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T06:49:24.718325Z",
+  "lastUpdated": "2026-05-13T10:30:02.759425Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+    },
+    {
       "name": "Go Away",
       "artists": "Yot Club",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
@@ -45,12 +51,6 @@
       "artists": "Plums",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
       "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
-    },
-    {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     },
     {
       "name": "M.O.M.",
