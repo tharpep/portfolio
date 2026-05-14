@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T23:06:11.923533Z",
+  "lastUpdated": "2026-05-14T03:36:59.912600Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
-    },
-    {
       "name": "Go Away",
       "artists": "Yot Club",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
       "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+    },
+    {
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     },
     {
       "name": "Fine Madeline",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
     },
     {
-      "name": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
+      "name": "Care",
+      "artists": "Freak Slug",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27338354a3607204ae665a08a02",
+      "spotifyUrl": "https://open.spotify.com/track/3MklLppNRhuAupVGO3uNW2"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 40472629,
-    "trackCount": 183
+    "totalMs": 49354648,
+    "trackCount": 226
   },
   "ytdListening": {
-    "totalMs": 1283533001,
-    "trackCount": 6143
+    "totalMs": 1292415020,
+    "trackCount": 6186
   }
 }
