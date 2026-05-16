@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T17:00:05.315038Z",
+  "lastUpdated": "2026-05-16T19:07:51.453733Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
     },
     {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
-    },
-    {
       "name": "Fine Madeline",
       "artists": "Plums",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
       "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
+    },
+    {
+      "name": "Locket",
+      "artists": "Crumb",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
+      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
     },
     {
       "name": "Care",
