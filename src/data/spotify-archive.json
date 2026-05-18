@@ -143,6 +143,22 @@
         "name": "Magdalena Bay",
         "plays": 49
       }
+    },
+    {
+      "week": "2026-W20",
+      "weekStart": "2026-05-11",
+      "weekEnd": "2026-05-17",
+      "totalMs": 78010630,
+      "trackCount": 358,
+      "topTrack": {
+        "name": "Paint Me A Picture",
+        "artists": "Magdalena Bay",
+        "plays": 5
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 25
+      }
     }
   ]
 }
