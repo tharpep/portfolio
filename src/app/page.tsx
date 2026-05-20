@@ -13,7 +13,7 @@ export default function Home() {
               Hi, I&apos;m Pryce Tharpe <span className="text-cyan-400">👋</span>
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              Computer Engineering senior at Purdue. Interested in full-stack development, cloud automation, and AI integration.
+              AI Acceleration Fellow at Eli Lilly. Computer Engineering grad from Purdue. Building at the intersection of AI, cloud, and full-stack engineering.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-2xl mx-auto">
               <Link
@@ -117,19 +117,15 @@ export default function Home() {
                 <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Software Engineering Intern at Mesh Systems</span>
+                    <span>AI Acceleration Fellow at Eli Lilly</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Graduating May 2026, B.S. Computer Engineering from Purdue University</span>
+                    <span>B.S. Computer Engineering, Purdue University — May 2026</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
                     <span>Building Sazed, a personal AI agent with MCP integration</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <span className="text-cyan-400 mt-1.5 text-xs">●</span>
-                    <span>Exploring full-time opportunities in AI/cloud/full-stack engineering</span>
                   </li>
                 </ul>
               </div>

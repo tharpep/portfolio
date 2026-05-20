@@ -3,7 +3,7 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 
 export const metadata: Metadata = {
   title: "Resume – Pryce Tharpe",
-  description: "Resume for Pryce Tharpe - Software Engineer Intern at Mesh Systems and Computer Engineering student at Purdue University.",
+  description: "Resume for Pryce Tharpe — AI Acceleration Fellow at Eli Lilly. Computer Engineering graduate, Purdue University.",
 };
 
 export default function Resume() {
@@ -34,10 +34,24 @@ export default function Resume() {
               <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
+                    <h3 className="text-xl font-bold text-white">Eli Lilly</h3>
+                    <p className="text-neutral-400 text-sm">Indianapolis, IN</p>
+                  </div>
+                  <span className="text-cyan-400 font-mono text-sm mt-1 sm:mt-0">Jun 2026 -- Present</span>
+                </div>
+                <p className="text-neutral-300 italic mb-4">AI Acceleration Fellow</p>
+                <p className="text-neutral-300 mb-6 leading-relaxed">
+                  AI acceleration initiatives across Lilly&apos;s technology organization.
+                </p>
+              </div>
+
+              <div>
+                <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
+                  <div>
                     <h3 className="text-xl font-bold text-white">Mesh Systems</h3>
                     <p className="text-neutral-400 text-sm">Carmel, IN</p>
                   </div>
-                  <span className="text-cyan-400 font-mono text-sm mt-1 sm:mt-0">May 2025 -- Present</span>
+                  <span className="text-cyan-400 font-mono text-sm mt-1 sm:mt-0">May 2025 -- May 2026</span>
                 </div>
                 <p className="text-neutral-300 italic mb-4">Software Engineer Intern</p>
                 <p className="text-neutral-300 mb-6 leading-relaxed">
@@ -193,7 +207,7 @@ export default function Resume() {
                     <h3 className="text-lg font-semibold text-white">Purdue Rack and Roll</h3>
                     <p className="text-neutral-400 text-sm">West Lafayette, IN</p>
                   </div>
-                  <span className="text-cyan-400 font-mono text-sm">Aug 2023 -- Present</span>
+                  <span className="text-cyan-400 font-mono text-sm">Aug 2023 -- May 2026</span>
                 </div>
                 <p className="text-neutral-300 leading-relaxed">
                   Managed daily operations and customer experience in a high-responsibility, two-person setting.
