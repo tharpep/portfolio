@@ -19,8 +19,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Pryce Tharpe - Software Engineer",
-  description: "Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.",
-  keywords: ["Pryce Tharpe", "Software Engineer", "Computer Engineering", "Purdue University", "AI", "Azure", "React", "Python", "Full Stack Developer", "DevOps", "Cloud Engineering"],
+  description: "AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.",
+  keywords: ["Pryce Tharpe", "Software Engineer", "Computer Engineering", "Purdue University", "Eli Lilly", "AI", "Azure", "React", "Python", "Full Stack Developer", "DevOps", "Cloud Engineering"],
   authors: [{ name: "Pryce Tharpe" }],
   creator: "Pryce Tharpe",
   publisher: "Pryce Tharpe",
@@ -37,12 +37,12 @@ export const metadata: Metadata = {
     url: '/',
     siteName: 'Pryce Tharpe Portfolio',
     title: 'Pryce Tharpe - Software Engineer',
-    description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
+    description: 'AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Pryce Tharpe - Software Engineer',
-    description: 'Computer engineering student and software engineer specializing in AI, cloud systems, and full-stack development.',
+    description: 'AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.',
   },
   robots: {
     index: true,
@@ -100,17 +100,17 @@ export default function RootLayout({
                 "https://github.com/tharpep",
                 "https://www.instagram.com/pryce_tharpe/"
               ],
-              "jobTitle": "Computer Engineering Student",
+              "jobTitle": "AI Acceleration Fellow",
               "worksFor": {
                 "@type": "Organization",
-                "name": "Mesh Systems"
+                "name": "Eli Lilly"
               },
               "alumniOf": {
                 "@type": "Organization",
                 "name": "Purdue University"
               },
               "knowsAbout": ["Software Engineering", "AI", "Cloud Computing", "Full Stack Development", "DevOps", "Python", "React", "Azure"],
-              "description": "Senior Computer Engineering student at Purdue University specializing in AI, cloud systems, and full-stack development."
+              "description": "AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development."
             })
           }}
         />
