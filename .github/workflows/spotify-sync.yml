@@ -9,6 +9,8 @@ on:
 jobs:
   update-spotify-data:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     
     steps:
       - name: Checkout repository
