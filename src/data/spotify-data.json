@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T22:54:47.386068Z",
+  "lastUpdated": "2026-05-24T03:50:36.496796Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
-      "name": "Go Away",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273af43786ca483d20a62a451df",
-      "spotifyUrl": "https://open.spotify.com/track/2tRHXwg78abOCIRJeTwpbQ"
+      "name": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "Fine Madeline",
-      "artists": "Plums",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273821fbaeabbb78cdcb652567d",
-      "spotifyUrl": "https://open.spotify.com/track/2khjSwh01eCWBstZo9rDGn"
+      "name": "Playground",
+      "artists": "Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
+      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
     },
     {
-      "name": "Locket",
-      "artists": "Crumb",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734909d4c4d0043ce7f5840829",
-      "spotifyUrl": "https://open.spotify.com/track/2vfPsGhqMbqmhjMGQ52dYf"
+      "name": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
     },
     {
-      "name": "Care",
-      "artists": "Freak Slug",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27338354a3607204ae665a08a02",
-      "spotifyUrl": "https://open.spotify.com/track/3MklLppNRhuAupVGO3uNW2"
+      "name": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273ca1e1b7343e502862a5090ec",
+      "spotifyUrl": "https://open.spotify.com/track/0XEhhANHRAqXM9c3JSvLfX"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 0,
-    "trackCount": 0
+    "totalMs": 11639341,
+    "trackCount": 50
   },
   "ytdListening": {
-    "totalMs": 1321071002,
-    "trackCount": 6318
+    "totalMs": 1332710343,
+    "trackCount": 6368
   }
 }
