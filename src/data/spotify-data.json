@@ -1,10 +1,15 @@
 {
-  "lastUpdated": "2026-05-24T07:21:59.063377Z",
+  "lastUpdated": "2026-05-24T09:56:29.984417Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
       "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
       "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
+    },
+    {
+      "name": "JPEGMAFIA",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
+      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     },
     {
       "name": "Magdalena Bay",
@@ -20,11 +25,6 @@
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
-    },
-    {
-      "name": "JPEGMAFIA",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
-      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     }
   ],
   "topTracksWeek": [
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "Playground",
-      "artists": "Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
-      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
-    },
-    {
       "name": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+    },
+    {
+      "name": "Playground",
+      "artists": "Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
+      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
     },
     {
       "name": "CHANCES",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 13120502,
-    "trackCount": 61
+    "totalMs": 17743621,
+    "trackCount": 96
   },
   "ytdListening": {
-    "totalMs": 1334191504,
-    "trackCount": 6379
+    "totalMs": 1338814623,
+    "trackCount": 6414
   }
 }
