@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T23:19:07.487397Z",
+  "lastUpdated": "2026-05-29T03:51:50.920058Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "Playground",
-      "artists": "Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
-      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
-    },
-    {
       "name": "SUPAFICIAL",
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/1WLEBdSUPHhdDOHXqC5dK4"
+    },
+    {
+      "name": "Playground",
+      "artists": "Steve Lacy",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
+      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
     }
   ],
   "topTrackDay": {
