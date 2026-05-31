@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1780252326282",
+  "lastCursor": "1780258637519",
   "plays": [
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-05-31T20:17:17.519Z"
+    },
+    {
+      "track": "Vinta",
+      "artists": "Crumb",
+      "durationMs": 299970,
+      "playedAt": "2026-05-31T20:12:23.229Z"
+    },
+    {
+      "track": "Call On Me",
+      "artists": "Daniel Caesar",
+      "durationMs": 169004,
+      "playedAt": "2026-05-31T20:07:29.038Z"
+    },
+    {
+      "track": "Say, Can You Hear",
+      "artists": "Men I Trust",
+      "durationMs": 189246,
+      "playedAt": "2026-05-31T20:04:29.490Z"
+    },
     {
       "track": "Better Together",
       "artists": "Jack Johnson",
