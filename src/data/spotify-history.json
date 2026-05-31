@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1780212747332",
+  "lastCursor": "1780252326282",
   "plays": [
+    {
+      "track": "Better Together",
+      "artists": "Jack Johnson",
+      "durationMs": 207680,
+      "playedAt": "2026-05-31T18:32:06.282Z"
+    },
+    {
+      "track": "Sign Of The Times",
+      "artists": "Daniel Caesar",
+      "durationMs": 231800,
+      "playedAt": "2026-05-31T18:28:44.290Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-05-31T18:24:58.255Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-05-31T18:21:53.993Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-05-31T18:15:21.244Z"
+    },
     {
       "track": "Chronic Sunshine",
       "artists": "Cosmo Pyke",

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T17:08:38.953353Z",
+  "lastUpdated": "2026-05-31T19:19:45.955686Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,12 +41,6 @@
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
     },
     {
-      "name": "SUPAFICIAL",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/1WLEBdSUPHhdDOHXqC5dK4"
-    },
-    {
       "name": "M.O.M.",
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
@@ -57,6 +51,12 @@
       "artists": "Nujabes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27310c73c3476e60630df210053",
       "spotifyUrl": "https://open.spotify.com/track/4i6sVhxVeX5Amtdme6Nedk"
+    },
+    {
+      "name": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/1WLEBdSUPHhdDOHXqC5dK4"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 44712826,
-    "trackCount": 208
+    "totalMs": 45726033,
+    "trackCount": 213
   },
   "ytdListening": {
-    "totalMs": 1383527449,
-    "trackCount": 6622
+    "totalMs": 1384540656,
+    "trackCount": 6627
   }
 }
