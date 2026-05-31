@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T04:03:03.044407Z",
+  "lastUpdated": "2026-05-31T08:48:10.680387Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "Playground",
-      "artists": "Steve Lacy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273962ff78ff496c98e5fed40d8",
-      "spotifyUrl": "https://open.spotify.com/track/6v23dkIy9AHxk8MAcOHBLu"
+      "name": "Beat laments the world",
+      "artists": "Nujabes",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27310c73c3476e60630df210053",
+      "spotifyUrl": "https://open.spotify.com/track/4i6sVhxVeX5Amtdme6Nedk"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
   },
   "weeklyListening": {
-    "totalMs": 34487463,
-    "trackCount": 158
+    "totalMs": 44712826,
+    "trackCount": 208
   },
   "ytdListening": {
-    "totalMs": 1373302086,
-    "trackCount": 6572
+    "totalMs": 1383527449,
+    "trackCount": 6622
   }
 }
