@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T11:38:48.786432Z",
+  "lastUpdated": "2026-06-01T17:44:06.909583Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,6 +41,12 @@
       "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     },
     {
+      "name": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+    },
+    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -51,12 +57,6 @@
       "artists": "Nujabes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27310c73c3476e60630df210053",
       "spotifyUrl": "https://open.spotify.com/track/4i6sVhxVeX5Amtdme6Nedk"
-    },
-    {
-      "name": "SUPAFICIAL",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/1WLEBdSUPHhdDOHXqC5dK4"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
   },
   "weeklyListening": {
-    "totalMs": 11052362,
-    "trackCount": 51
+    "totalMs": 12710137,
+    "trackCount": 59
   },
   "ytdListening": {
-    "totalMs": 1398685874,
-    "trackCount": 6693
+    "totalMs": 1400343649,
+    "trackCount": 6701
   }
 }
