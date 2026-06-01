@@ -175,6 +175,22 @@
         "name": "JPEGMAFIA",
         "plays": 44
       }
+    },
+    {
+      "week": "2026-W22",
+      "weekStart": "2026-05-25",
+      "weekEnd": "2026-05-31",
+      "totalMs": 48818889,
+      "trackCount": 228,
+      "topTrack": {
+        "name": "Rodrick Rules",
+        "artists": "Malcolm Todd",
+        "plays": 4
+      },
+      "topArtist": {
+        "name": "JPEGMAFIA",
+        "plays": 20
+      }
     }
   ]
 }
