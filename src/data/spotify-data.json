@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T21:35:04.106355Z",
+  "lastUpdated": "2026-06-01T23:27:54.583075Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,18 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "NUTHIN 2 HIDE",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
-      "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
-    },
-    {
-      "name": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
-    },
-    {
       "name": "Best to You",
       "artists": "Blood Orange, Empress Of",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273706a733634175d413dedfe54",
@@ -57,6 +45,18 @@
       "artists": "Nujabes",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b27310c73c3476e60630df210053",
       "spotifyUrl": "https://open.spotify.com/track/4i6sVhxVeX5Amtdme6Nedk"
+    },
+    {
+      "name": "投影の芸術",
+      "artists": "JPEGMAFIA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
+      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
+    },
+    {
+      "name": "NUTHIN 2 HIDE",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
+      "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
     }
   ],
   "topTrackDay": {
