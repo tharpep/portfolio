@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1780348349300",
+  "lastCursor": "1780367576235",
   "plays": [
+    {
+      "track": "93 'Til Infinity",
+      "artists": "Souls Of Mischief",
+      "durationMs": 286440,
+      "playedAt": "2026-06-02T02:32:56.235Z"
+    },
     {
       "track": "OUTTA MY MIND",
       "artists": "Monsune",
@@ -1770,12 +1776,6 @@
       "artists": "JPEGMAFIA",
       "durationMs": 57320,
       "playedAt": "2026-05-27T08:13:53.483Z"
-    },
-    {
-      "track": "Ox Tales",
-      "artists": "Makaya McCraven, Theon Cross, Joe Armon-Jones, Nubya Garcia",
-      "durationMs": 382320,
-      "playedAt": "2026-05-25T02:15:03.973Z"
     }
   ]
 }
