@@ -1,6 +1,24 @@
 {
-  "lastCursor": "1780433366710",
+  "lastCursor": "1780433977018",
   "plays": [
+    {
+      "track": "Billie Toppy",
+      "artists": "Men I Trust",
+      "durationMs": 195289,
+      "playedAt": "2026-06-02T20:59:37.018Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-06-02T20:56:27.347Z"
+    },
+    {
+      "track": "Static",
+      "artists": "Steve Lacy",
+      "durationMs": 156538,
+      "playedAt": "2026-06-02T20:52:33.049Z"
+    },
     {
       "track": "Crack Rock",
       "artists": "Frank Ocean",

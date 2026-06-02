@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T20:51:24.309620Z",
+  "lastUpdated": "2026-06-02T23:47:12.335668Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
     },
     {
-      "name": "NUTHIN 2 HIDE",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731baf4bcb4fc8180d7a3ef3ad",
-      "spotifyUrl": "https://open.spotify.com/track/4KaSaDtmut7Q75LtPrKYKS"
+      "name": "I Must Apologise",
+      "artists": "PinkPantheress",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2730348d174bc1253a02bcb4ca2",
+      "spotifyUrl": "https://open.spotify.com/track/2rrq3SGYxk90xLx5fMmPhZ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
   },
   "weeklyListening": {
-    "totalMs": 17300686,
-    "trackCount": 80
+    "totalMs": 17892513,
+    "trackCount": 83
   },
   "ytdListening": {
-    "totalMs": 1404934198,
-    "trackCount": 6722
+    "totalMs": 1405526025,
+    "trackCount": 6725
   }
 }
