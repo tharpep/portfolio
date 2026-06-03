@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1780467329096",
+  "lastCursor": "1780487838314",
   "plays": [
+    {
+      "track": "Way Bigger",
+      "artists": "Don Toliver",
+      "durationMs": 196011,
+      "playedAt": "2026-06-03T11:57:18.314Z"
+    },
+    {
+      "track": "4EVA (feat. Pharrell Williams)",
+      "artists": "KAYTRAMINÉ, Aminé, KAYTRANADA, Pharrell Williams",
+      "durationMs": 190373,
+      "playedAt": "2026-06-03T11:54:08.001Z"
+    },
+    {
+      "track": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "durationMs": 178274,
+      "playedAt": "2026-06-03T11:50:57.568Z"
+    },
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-06-03T11:48:05.818Z"
+    },
+    {
+      "track": "Music To Walk Home By",
+      "artists": "Tame Impala",
+      "durationMs": 312213,
+      "playedAt": "2026-06-03T11:43:37.021Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-06-03T11:38:30.531Z"
+    },
     {
       "track": "Parking Lot",
       "artists": "Anderson .Paak",
