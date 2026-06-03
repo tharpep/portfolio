@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1780520098626",
+  "lastCursor": "1780521570155",
   "plays": [
+    {
+      "track": "Tieduprightnow",
+      "artists": "Parcels",
+      "durationMs": 249956,
+      "playedAt": "2026-06-03T21:19:30.155Z"
+    },
+    {
+      "track": "Death & Romance",
+      "artists": "Magdalena Bay",
+      "durationMs": 314733,
+      "playedAt": "2026-06-03T21:15:25.900Z"
+    },
+    {
+      "track": "R U Mine?",
+      "artists": "Arctic Monkeys",
+      "durationMs": 201726,
+      "playedAt": "2026-06-03T21:10:11.056Z"
+    },
+    {
+      "track": "II. Shadows",
+      "artists": "Childish Gambino",
+      "durationMs": 231746,
+      "playedAt": "2026-06-03T21:06:58.587Z"
+    },
+    {
+      "track": "Passin' Me By",
+      "artists": "The Pharcyde",
+      "durationMs": 303493,
+      "playedAt": "2026-06-03T21:03:12.588Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-06-03T20:58:14.787Z"
+    },
     {
       "track": "Best to You",
       "artists": "Blood Orange, Empress Of",
