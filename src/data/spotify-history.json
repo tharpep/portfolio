@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1780608070952",
+  "lastCursor": "1780662083017",
   "plays": [
+    {
+      "track": "drifting",
+      "artists": "Night Tapes",
+      "durationMs": 212440,
+      "playedAt": "2026-06-05T12:21:23.017Z"
+    },
+    {
+      "track": "Summer's Over",
+      "artists": "Jordana, TV Girl",
+      "durationMs": 173000,
+      "playedAt": "2026-06-05T12:17:38.417Z"
+    },
+    {
+      "track": "Pink + White",
+      "artists": "Frank Ocean",
+      "durationMs": 184516,
+      "playedAt": "2026-06-05T12:14:21.181Z"
+    },
+    {
+      "track": "Too Many Nights (feat. Don Toliver & with Future)",
+      "artists": "Metro Boomin, Future, Don Toliver",
+      "durationMs": 199920,
+      "playedAt": "2026-06-05T12:11:22.274Z"
+    },
+    {
+      "track": "151 Rum",
+      "artists": "JID",
+      "durationMs": 156780,
+      "playedAt": "2026-06-05T12:08:08.148Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-06-05T12:05:37.108Z"
+    },
     {
       "track": "Gasoline",
       "artists": "The Weeknd",
@@ -1644,48 +1680,6 @@
       "artists": "Jungle",
       "durationMs": 209482,
       "playedAt": "2026-05-28T15:08:23.014Z"
-    },
-    {
-      "track": "Stoned",
-      "artists": "Mac Miller",
-      "durationMs": 243522,
-      "playedAt": "2026-05-28T09:03:29.949Z"
-    },
-    {
-      "track": "No One Knows",
-      "artists": "Brent Faiyaz",
-      "durationMs": 271246,
-      "playedAt": "2026-05-28T08:59:32.193Z"
-    },
-    {
-      "track": "Strangers",
-      "artists": "Kenya Grace",
-      "durationMs": 172964,
-      "playedAt": "2026-05-28T08:55:06.599Z"
-    },
-    {
-      "track": "GONE, GONE / THANK YOU",
-      "artists": "Tyler, The Creator",
-      "durationMs": 375386,
-      "playedAt": "2026-05-28T08:52:19.375Z"
-    },
-    {
-      "track": "I Can See",
-      "artists": "Mac Miller",
-      "durationMs": 220853,
-      "playedAt": "2026-05-28T08:46:09.715Z"
-    },
-    {
-      "track": "WHEN SPARKS FLY",
-      "artists": "Vince Staples",
-      "durationMs": 227873,
-      "playedAt": "2026-05-28T08:42:34.587Z"
-    },
-    {
-      "track": "Fall Down",
-      "artists": "Crumb",
-      "durationMs": 173000,
-      "playedAt": "2026-05-28T08:38:52.393Z"
     }
   ]
 }
