@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T12:39:49.870541Z",
+  "lastUpdated": "2026-06-05T16:30:02.930704Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
     },
     {
-      "name": "Beat laments the world",
-      "artists": "Nujabes",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27310c73c3476e60630df210053",
-      "spotifyUrl": "https://open.spotify.com/track/4i6sVhxVeX5Amtdme6Nedk"
-    },
-    {
-      "name": "Alter Ego",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273176e82d09ac75d62810f0056",
-      "spotifyUrl": "https://open.spotify.com/track/6SmV1Oo24nCZBPzIYkL4HZ"
-    },
-    {
       "name": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+    },
+    {
+      "name": "Call On Me",
+      "artists": "Daniel Caesar",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732bad6e56e77d5bef0aa3f2dc",
+      "spotifyUrl": "https://open.spotify.com/track/7ctROU9Cit8yXawvYQgkIh"
+    },
+    {
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
