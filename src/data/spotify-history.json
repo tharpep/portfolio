@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1780662083017",
+  "lastCursor": "1780689403520",
   "plays": [
+    {
+      "track": "The Running Man",
+      "artists": "Vince Staples",
+      "durationMs": 202266,
+      "playedAt": "2026-06-05T19:56:43.520Z"
+    },
+    {
+      "track": "The Running Man",
+      "artists": "Vince Staples",
+      "durationMs": 202266,
+      "playedAt": "2026-06-05T19:52:47.468Z"
+    },
+    {
+      "track": "White Flag",
+      "artists": "Vince Staples",
+      "durationMs": 154480,
+      "playedAt": "2026-06-05T19:32:17.697Z"
+    },
+    {
+      "track": "Go! Go! Gorilla",
+      "artists": "Vince Staples",
+      "durationMs": 211026,
+      "playedAt": "2026-06-05T19:29:43.204Z"
+    },
+    {
+      "track": "Blackberry Marmalade",
+      "artists": "Vince Staples",
+      "durationMs": 232933,
+      "playedAt": "2026-06-05T19:26:12.209Z"
+    },
+    {
+      "track": "Mind Fields",
+      "artists": "No Vacation",
+      "durationMs": 272625,
+      "playedAt": "2026-06-05T17:20:17.012Z"
+    },
     {
       "track": "drifting",
       "artists": "Night Tapes",
@@ -1440,102 +1476,6 @@
       "artists": "Tame Impala",
       "durationMs": 192960,
       "playedAt": "2026-05-28T19:58:06.342Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-05-28T19:54:59.137Z"
-    },
-    {
-      "track": "G2g",
-      "artists": "Berhana",
-      "durationMs": 264683,
-      "playedAt": "2026-05-28T19:48:59.350Z"
-    },
-    {
-      "track": "These Days",
-      "artists": "NEIL FRANCES",
-      "durationMs": 233454,
-      "playedAt": "2026-05-28T19:43:26.457Z"
-    },
-    {
-      "track": "Underworld",
-      "artists": "Alice Phoebe Lou",
-      "durationMs": 166321,
-      "playedAt": "2026-05-28T19:39:38.463Z"
-    },
-    {
-      "track": "GHOST!",
-      "artists": "Kid Cudi",
-      "durationMs": 289066,
-      "playedAt": "2026-05-28T19:36:57.866Z"
-    },
-    {
-      "track": "Candle Flame",
-      "artists": "Jungle, Erick the Architect",
-      "durationMs": 174020,
-      "playedAt": "2026-05-28T19:30:30.398Z"
-    },
-    {
-      "track": "Ghost Town",
-      "artists": "Kanye West, PARTYNEXTDOOR",
-      "durationMs": 271386,
-      "playedAt": "2026-05-28T19:27:41.969Z"
-    },
-    {
-      "track": "Ryd",
-      "artists": "Steve Lacy",
-      "durationMs": 140182,
-      "playedAt": "2026-05-28T19:22:51.908Z"
-    },
-    {
-      "track": "Pursuit Of Happiness (Nightmare)",
-      "artists": "Kid Cudi, MGMT, Ratatat",
-      "durationMs": 295293,
-      "playedAt": "2026-05-28T19:20:37.408Z"
-    },
-    {
-      "track": "DHL",
-      "artists": "Frank Ocean",
-      "durationMs": 268893,
-      "playedAt": "2026-05-28T19:15:38.581Z"
-    },
-    {
-      "track": "Days Go By",
-      "artists": "Men I Trust",
-      "durationMs": 197172,
-      "playedAt": "2026-05-28T19:11:15.422Z"
-    },
-    {
-      "track": "Show Me",
-      "artists": "Joey Bada$$",
-      "durationMs": 220386,
-      "playedAt": "2026-05-28T19:08:03.969Z"
-    },
-    {
-      "track": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "durationMs": 225747,
-      "playedAt": "2026-05-28T19:04:29.359Z"
-    },
-    {
-      "track": "Tessellate",
-      "artists": "alt-J",
-      "durationMs": 181400,
-      "playedAt": "2026-05-28T16:35:17.760Z"
-    },
-    {
-      "track": "Lucy",
-      "artists": "Still Woozy, ODIE",
-      "durationMs": 142500,
-      "playedAt": "2026-05-28T16:32:22.115Z"
-    },
-    {
-      "track": "Vampire in the Corner",
-      "artists": "Magdalena Bay",
-      "durationMs": 202440,
-      "playedAt": "2026-05-28T16:30:05.263Z"
     }
   ]
 }
