@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T15:17:40.626656Z",
+  "lastUpdated": "2026-06-06T17:17:02.163810Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "The Running Man",
+      "artists": "Vince Staples",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
+    },
+    {
       "name": "M.O.M.",
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
@@ -51,26 +57,20 @@
       "artists": "Daniel Caesar",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732bad6e56e77d5bef0aa3f2dc",
       "spotifyUrl": "https://open.spotify.com/track/7ctROU9Cit8yXawvYQgkIh"
-    },
-    {
-      "name": "In My Years",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
-    "name": "M.O.M.",
-    "artists": "Isaiah Rashad",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-    "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
+    "name": "The Running Man",
+    "artists": "Vince Staples",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+    "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 32398709,
-    "trackCount": 155
+    "totalMs": 33999512,
+    "trackCount": 164
   },
   "ytdListening": {
-    "totalMs": 1420032221,
-    "trackCount": 6797
+    "totalMs": 1421633024,
+    "trackCount": 6806
   }
 }
