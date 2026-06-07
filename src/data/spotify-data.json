@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:19:16.286089Z",
+  "lastUpdated": "2026-06-07T19:25:42.072516Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
     },
     {
-      "name": "Call On Me",
-      "artists": "Daniel Caesar",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732bad6e56e77d5bef0aa3f2dc",
-      "spotifyUrl": "https://open.spotify.com/track/7ctROU9Cit8yXawvYQgkIh"
+      "name": "In My Years",
+      "artists": "Men I Trust",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
+      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 43010833,
-    "trackCount": 213
+    "totalMs": 47404473,
+    "trackCount": 237
   },
   "ytdListening": {
-    "totalMs": 1430644345,
-    "trackCount": 6855
+    "totalMs": 1435037985,
+    "trackCount": 6879
   }
 }
