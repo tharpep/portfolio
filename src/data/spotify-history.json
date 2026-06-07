@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1780782405196",
+  "lastCursor": "1780801773016",
   "plays": [
+    {
+      "track": "The Running Man",
+      "artists": "Vince Staples",
+      "durationMs": 202266,
+      "playedAt": "2026-06-07T03:09:33.016Z"
+    },
+    {
+      "track": "White Flag",
+      "artists": "Vince Staples",
+      "durationMs": 154480,
+      "playedAt": "2026-06-07T02:22:11.304Z"
+    },
+    {
+      "track": "Do You Know The Devil",
+      "artists": "Vince Staples",
+      "durationMs": 189453,
+      "playedAt": "2026-06-07T02:19:42.544Z"
+    },
+    {
+      "track": "Lee & Lovie (with reggie)",
+      "artists": "Smino, reggie",
+      "durationMs": 171676,
+      "playedAt": "2026-06-07T02:16:19.996Z"
+    },
     {
       "track": "Lonely Song",
       "artists": "Malcolm Todd",
