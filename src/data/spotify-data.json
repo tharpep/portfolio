@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T23:07:07.304403Z",
+  "lastUpdated": "2026-06-08T04:13:03.895841Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "投影の芸術",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
-      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
-    },
-    {
       "name": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
     },
     {
-      "name": "In My Years",
-      "artists": "Men I Trust",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dcfa162250c7d0feed61d638",
-      "spotifyUrl": "https://open.spotify.com/track/01V9eIxh3ctGIuRxcS7Ppg"
+      "name": "投影の芸術",
+      "artists": "JPEGMAFIA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
+      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
+    },
+    {
+      "name": "Bags",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 51888893,
-    "trackCount": 261
+    "totalMs": 4355496,
+    "trackCount": 23
   },
   "ytdListening": {
-    "totalMs": 1439522405,
-    "trackCount": 6903
+    "totalMs": 1445112300,
+    "trackCount": 6933
   }
 }

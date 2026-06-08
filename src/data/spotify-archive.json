@@ -191,6 +191,22 @@
         "name": "JPEGMAFIA",
         "plays": 20
       }
+    },
+    {
+      "week": "2026-W23",
+      "weekStart": "2026-06-01",
+      "weekEnd": "2026-06-07",
+      "totalMs": 53123292,
+      "trackCount": 268,
+      "topTrack": {
+        "name": "The Running Man",
+        "artists": "Vince Staples",
+        "plays": 8
+      },
+      "topArtist": {
+        "name": "Vince Staples",
+        "plays": 41
+      }
     }
   ]
 }
