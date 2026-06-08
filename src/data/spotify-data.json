@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T18:28:24.550757Z",
+  "lastUpdated": "2026-06-08T21:51:02.148121Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
-    },
-    {
       "name": "Bags",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
-      "name": "投影の芸術",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
-      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
+      "name": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
+    },
+    {
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 6015374,
-    "trackCount": 32
+    "totalMs": 7488999,
+    "trackCount": 40
   },
   "ytdListening": {
-    "totalMs": 1446772178,
-    "trackCount": 6942
+    "totalMs": 1448245803,
+    "trackCount": 6950
   }
 }

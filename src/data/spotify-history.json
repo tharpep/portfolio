@@ -1,6 +1,54 @@
 {
-  "lastCursor": "1780920796171",
+  "lastCursor": "1780951001878",
   "plays": [
+    {
+      "track": "The Running Man",
+      "artists": "Vince Staples",
+      "durationMs": 202266,
+      "playedAt": "2026-06-08T20:36:41.878Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-06-08T20:31:35.381Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-06-08T20:29:22.762Z"
+    },
+    {
+      "track": "The Big Bad Wolf",
+      "artists": "Vince Staples",
+      "durationMs": 132413,
+      "playedAt": "2026-06-08T20:25:44.685Z"
+    },
+    {
+      "track": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "durationMs": 184761,
+      "playedAt": "2026-06-08T20:23:37.976Z"
+    },
+    {
+      "track": "Girl Like Me",
+      "artists": "PinkPantheress",
+      "durationMs": 145520,
+      "playedAt": "2026-06-08T20:20:38.931Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-08T20:18:19.048Z"
+    },
+    {
+      "track": "Eyes Off You",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 182480,
+      "playedAt": "2026-06-08T20:14:04.298Z"
+    },
     {
       "track": "The Running Man",
       "artists": "Vince Staples",
@@ -1824,84 +1872,6 @@
       "artists": "Malcolm Todd",
       "durationMs": 183529,
       "playedAt": "2026-05-31T22:47:12.409Z"
-    },
-    {
-      "track": "Accutane",
-      "artists": "Malcolm Todd",
-      "durationMs": 193213,
-      "playedAt": "2026-05-31T21:33:32.145Z"
-    },
-    {
-      "track": "Concrete",
-      "artists": "Malcolm Todd",
-      "durationMs": 173200,
-      "playedAt": "2026-05-31T21:30:08.274Z"
-    },
-    {
-      "track": "Florence",
-      "artists": "Malcolm Todd",
-      "durationMs": 185173,
-      "playedAt": "2026-05-31T21:27:15.164Z"
-    },
-    {
-      "track": "Nemo",
-      "artists": "Malcolm Todd",
-      "durationMs": 219720,
-      "playedAt": "2026-05-31T21:24:15.678Z"
-    },
-    {
-      "track": "Attention",
-      "artists": "Malcolm Todd",
-      "durationMs": 113413,
-      "playedAt": "2026-05-31T21:18:02.478Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-05-31T21:15:50.091Z"
-    },
-    {
-      "track": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "durationMs": 165576,
-      "playedAt": "2026-05-31T21:12:45.882Z"
-    },
-    {
-      "track": "Little Dark Age",
-      "artists": "MGMT",
-      "durationMs": 299933,
-      "playedAt": "2026-05-31T20:17:17.519Z"
-    },
-    {
-      "track": "Vinta",
-      "artists": "Crumb",
-      "durationMs": 299970,
-      "playedAt": "2026-05-31T20:12:23.229Z"
-    },
-    {
-      "track": "Call On Me",
-      "artists": "Daniel Caesar",
-      "durationMs": 169004,
-      "playedAt": "2026-05-31T20:07:29.038Z"
-    },
-    {
-      "track": "Say, Can You Hear",
-      "artists": "Men I Trust",
-      "durationMs": 189246,
-      "playedAt": "2026-05-31T20:04:29.490Z"
-    },
-    {
-      "track": "Better Together",
-      "artists": "Jack Johnson",
-      "durationMs": 207680,
-      "playedAt": "2026-05-31T18:32:06.282Z"
-    },
-    {
-      "track": "Sign Of The Times",
-      "artists": "Daniel Caesar",
-      "durationMs": 231800,
-      "playedAt": "2026-05-31T18:28:44.290Z"
     }
   ]
 }
