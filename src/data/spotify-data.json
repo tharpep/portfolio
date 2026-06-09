@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T18:07:29.278277Z",
+  "lastUpdated": "2026-06-09T21:48:44.254237Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "投影の芸術",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
-      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
-    },
-    {
       "name": "Stateside + Zara Larsson",
       "artists": "PinkPantheress, Zara Larsson",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
       "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+    },
+    {
+      "name": "投影の芸術",
+      "artists": "JPEGMAFIA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
+      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
     },
     {
       "name": "Bags",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 15176578,
-    "trackCount": 84
+    "totalMs": 16972822,
+    "trackCount": 94
   },
   "ytdListening": {
-    "totalMs": 1455933382,
-    "trackCount": 6994
+    "totalMs": 1457729626,
+    "trackCount": 7004
   }
 }
