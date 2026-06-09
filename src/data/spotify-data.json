@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T23:12:05.196560Z",
+  "lastUpdated": "2026-06-09T03:41:31.342824Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
     },
     {
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+    },
+    {
       "name": "Bags",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
-    },
-    {
-      "name": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/7B2ygRXyWZulEpO4G1CHZf"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 10462582,
-    "trackCount": 60
+    "totalMs": 12092518,
+    "trackCount": 68
   },
   "ytdListening": {
-    "totalMs": 1451219386,
-    "trackCount": 6970
+    "totalMs": 1452849322,
+    "trackCount": 6978
   }
 }
