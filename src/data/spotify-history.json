@@ -1,6 +1,78 @@
 {
-  "lastCursor": "1780968544758",
+  "lastCursor": "1781008295839",
   "plays": [
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-06-09T12:31:35.839Z"
+    },
+    {
+      "track": "Cannock Chase",
+      "artists": "Labi Siffre",
+      "durationMs": 246866,
+      "playedAt": "2026-06-09T12:29:13.783Z"
+    },
+    {
+      "track": "Witches",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 195078,
+      "playedAt": "2026-06-09T12:25:13.639Z"
+    },
+    {
+      "track": "Glow",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 165412,
+      "playedAt": "2026-06-09T12:22:04.236Z"
+    },
+    {
+      "track": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 166321,
+      "playedAt": "2026-06-09T12:19:24.538Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-06-09T12:16:44.017Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-06-09T12:14:05.956Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-09T12:11:28.945Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-09T12:07:14.159Z"
+    },
+    {
+      "track": "Still Beating",
+      "artists": "Mac DeMarco",
+      "durationMs": 181586,
+      "playedAt": "2026-06-09T10:20:42.327Z"
+    },
+    {
+      "track": "The Bug",
+      "artists": "Crumb",
+      "durationMs": 244180,
+      "playedAt": "2026-06-09T10:20:42.327Z"
+    },
+    {
+      "track": "Trophy",
+      "artists": "Crumb",
+      "durationMs": 217600,
+      "playedAt": "2026-06-09T10:20:42.327Z"
+    },
     {
       "track": "Balloon",
       "artists": "Crumb",
@@ -1662,54 +1734,6 @@
       "artists": "Jordana, Magdalena Bay",
       "durationMs": 164307,
       "playedAt": "2026-06-01T20:42:58.762Z"
-    },
-    {
-      "track": "Mr. Rager",
-      "artists": "Kid Cudi",
-      "durationMs": 294213,
-      "playedAt": "2026-06-01T12:33:58.832Z"
-    },
-    {
-      "track": "Wrong Places",
-      "artists": "Lauren Creviston, Brynn Elise",
-      "durationMs": 207428,
-      "playedAt": "2026-06-01T12:29:10.291Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-06-01T12:25:48.621Z"
-    },
-    {
-      "track": "IGOR'S THEME",
-      "artists": "Tyler, The Creator",
-      "durationMs": 200684,
-      "playedAt": "2026-06-01T12:22:44.332Z"
-    },
-    {
-      "track": "That Life",
-      "artists": "Unknown Mortal Orchestra",
-      "durationMs": 215866,
-      "playedAt": "2026-06-01T12:19:29.419Z"
-    },
-    {
-      "track": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "durationMs": 194080,
-      "playedAt": "2026-06-01T12:15:59.233Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-06-01T12:12:50.841Z"
-    },
-    {
-      "track": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "durationMs": 165576,
-      "playedAt": "2026-06-01T12:09:46.648Z"
     }
   ]
 }
