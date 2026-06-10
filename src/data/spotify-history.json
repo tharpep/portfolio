@@ -1,6 +1,24 @@
 {
-  "lastCursor": "1781123310528",
+  "lastCursor": "1781127608933",
   "plays": [
+    {
+      "track": "Frequency",
+      "artists": "Kid Cudi",
+      "durationMs": 298240,
+      "playedAt": "2026-06-10T21:40:08.933Z"
+    },
+    {
+      "track": "93 'Til Infinity",
+      "artists": "Souls Of Mischief",
+      "durationMs": 286440,
+      "playedAt": "2026-06-10T20:48:16.804Z"
+    },
+    {
+      "track": "93 'Til Infinity",
+      "artists": "Souls Of Mischief",
+      "durationMs": 286440,
+      "playedAt": "2026-06-10T20:33:11.199Z"
+    },
     {
       "track": "Award Tour (feat. Trugoy The Dove)",
       "artists": "A Tribe Called Quest, Trugoy The Dove",
@@ -1962,48 +1980,6 @@
       "artists": "Anderson .Paak",
       "durationMs": 234333,
       "playedAt": "2026-06-03T06:15:29.096Z"
-    },
-    {
-      "track": "Billie Toppy",
-      "artists": "Men I Trust",
-      "durationMs": 195289,
-      "playedAt": "2026-06-02T20:59:37.018Z"
-    },
-    {
-      "track": "The Ballad of Matt & Mica",
-      "artists": "Magdalena Bay",
-      "durationMs": 240000,
-      "playedAt": "2026-06-02T20:56:27.347Z"
-    },
-    {
-      "track": "Static",
-      "artists": "Steve Lacy",
-      "durationMs": 156538,
-      "playedAt": "2026-06-02T20:52:33.049Z"
-    },
-    {
-      "track": "Crack Rock",
-      "artists": "Frank Ocean",
-      "durationMs": 224146,
-      "playedAt": "2026-06-02T20:49:26.710Z"
-    },
-    {
-      "track": "In My Years",
-      "artists": "Men I Trust",
-      "durationMs": 197086,
-      "playedAt": "2026-06-02T20:45:48.262Z"
-    },
-    {
-      "track": "My Old Ways",
-      "artists": "Tame Impala",
-      "durationMs": 298783,
-      "playedAt": "2026-06-02T20:42:36.851Z"
-    },
-    {
-      "track": "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
-      "artists": "A$AP Rocky, Imogen Heap, Clams Casino",
-      "durationMs": 190285,
-      "playedAt": "2026-06-02T20:35:24.750Z"
     }
   ]
 }
