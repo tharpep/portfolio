@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781095048134",
+  "lastCursor": "1781123310528",
   "plays": [
+    {
+      "track": "Award Tour (feat. Trugoy The Dove)",
+      "artists": "A Tribe Called Quest, Trugoy The Dove",
+      "durationMs": 226440,
+      "playedAt": "2026-06-10T20:28:30.528Z"
+    },
+    {
+      "track": "Bobby Boucher",
+      "artists": "EARTHGANG, Spillage Village, Benji.",
+      "durationMs": 195200,
+      "playedAt": "2026-06-10T20:24:42.902Z"
+    },
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-06-10T20:21:22.615Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-06-10T20:18:33.998Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-06-10T20:15:54.100Z"
+    },
+    {
+      "track": "Target On My Chest",
+      "artists": "Brent Faiyaz",
+      "durationMs": 188274,
+      "playedAt": "2026-06-10T20:12:14.313Z"
+    },
     {
       "track": "Life Itself",
       "artists": "Glass Animals",
@@ -1968,12 +2004,6 @@
       "artists": "A$AP Rocky, Imogen Heap, Clams Casino",
       "durationMs": 190285,
       "playedAt": "2026-06-02T20:35:24.750Z"
-    },
-    {
-      "track": "Sabbath",
-      "artists": "Meltycanon",
-      "durationMs": 104907,
-      "playedAt": "2026-06-02T20:32:20.160Z"
     }
   ]
 }
