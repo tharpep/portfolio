@@ -1,6 +1,102 @@
 {
-  "lastCursor": "1781045690774",
+  "lastCursor": "1781059943724",
   "plays": [
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-06-10T02:52:23.724Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-06-10T02:49:34.930Z"
+    },
+    {
+      "track": "50 Ways to Leave Your Lover",
+      "artists": "Paul Simon",
+      "durationMs": 217573,
+      "playedAt": "2026-06-10T02:46:58.024Z"
+    },
+    {
+      "track": "SORRY NOT SORRY",
+      "artists": "Tyler, The Creator",
+      "durationMs": 206049,
+      "playedAt": "2026-06-10T02:43:26.130Z"
+    },
+    {
+      "track": "Mirage",
+      "artists": "Orion Sun",
+      "durationMs": 57443,
+      "playedAt": "2026-06-10T02:40:06.064Z"
+    },
+    {
+      "track": "12:34 AM",
+      "artists": "Billy Lemos, Omar Apollo, Maxwell Young",
+      "durationMs": 127000,
+      "playedAt": "2026-06-10T02:39:14.334Z"
+    },
+    {
+      "track": "Crack Rock",
+      "artists": "Frank Ocean",
+      "durationMs": 224146,
+      "playedAt": "2026-06-10T02:37:13.031Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-06-10T02:33:34.535Z"
+    },
+    {
+      "track": "Boredom (feat. Rex Orange County & Anna of the North)",
+      "artists": "Tyler, The Creator, Rex Orange County, Anna of the North",
+      "durationMs": 320720,
+      "playedAt": "2026-06-10T02:29:06.430Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-10T02:23:51.435Z"
+    },
+    {
+      "track": "Off and On",
+      "artists": "SALES",
+      "durationMs": 250909,
+      "playedAt": "2026-06-10T02:21:07.311Z"
+    },
+    {
+      "track": "Just the Right Song",
+      "artists": "Vansire",
+      "durationMs": 186253,
+      "playedAt": "2026-06-10T02:17:02.047Z"
+    },
+    {
+      "track": "Designer",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 226298,
+      "playedAt": "2026-06-10T02:14:01.480Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-10T02:06:20.535Z"
+    },
+    {
+      "track": "Just the Right Song",
+      "artists": "Vansire",
+      "durationMs": 186253,
+      "playedAt": "2026-06-10T02:02:05.638Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-06-10T01:59:05.144Z"
+    },
     {
       "track": "Fauxllennium",
       "artists": "TV Girl, George Clanton",
@@ -1860,12 +1956,6 @@
       "artists": "BADBADNOTGOOD, Samuel T. Herring",
       "durationMs": 273864,
       "playedAt": "2026-06-02T11:30:48.632Z"
-    },
-    {
-      "track": "93 'Til Infinity",
-      "artists": "Souls Of Mischief",
-      "durationMs": 286440,
-      "playedAt": "2026-06-02T02:32:56.235Z"
     }
   ]
 }
