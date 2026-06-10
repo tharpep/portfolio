@@ -1,6 +1,60 @@
 {
-  "lastCursor": "1781059943724",
+  "lastCursor": "1781095048134",
   "plays": [
+    {
+      "track": "Life Itself",
+      "artists": "Glass Animals",
+      "durationMs": 281406,
+      "playedAt": "2026-06-10T12:37:28.134Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-06-10T12:32:52.514Z"
+    },
+    {
+      "track": "X-Wing - Cold Blooded Soul Version",
+      "artists": "Denzel Curry",
+      "durationMs": 186280,
+      "playedAt": "2026-06-10T12:28:55.551Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-06-10T12:25:54.953Z"
+    },
+    {
+      "track": "Paint Me A Picture",
+      "artists": "Magdalena Bay",
+      "durationMs": 231720,
+      "playedAt": "2026-06-10T12:21:01.852Z"
+    },
+    {
+      "track": "Simulation Swarm",
+      "artists": "Big Thief",
+      "durationMs": 252733,
+      "playedAt": "2026-06-10T12:17:15.858Z"
+    },
+    {
+      "track": "Gospel For A New Century",
+      "artists": "Yves Tumor",
+      "durationMs": 198626,
+      "playedAt": "2026-06-10T12:13:08.850Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-06-10T12:09:55.971Z"
+    },
+    {
+      "track": "Trade It",
+      "artists": "Slow Pulp",
+      "durationMs": 172319,
+      "playedAt": "2026-06-10T12:06:10.751Z"
+    },
     {
       "track": "Natural",
       "artists": "Shelly",
@@ -1920,42 +1974,6 @@
       "artists": "Meltycanon",
       "durationMs": 104907,
       "playedAt": "2026-06-02T20:32:20.160Z"
-    },
-    {
-      "track": "Mind Mischief",
-      "artists": "Tame Impala",
-      "durationMs": 271880,
-      "playedAt": "2026-06-02T11:48:28.522Z"
-    },
-    {
-      "track": "MY EYES",
-      "artists": "Travis Scott",
-      "durationMs": 251249,
-      "playedAt": "2026-06-02T11:43:48.622Z"
-    },
-    {
-      "track": "NIGHTS LIKE THIS",
-      "artists": "The Kid LAROI",
-      "durationMs": 86983,
-      "playedAt": "2026-06-02T11:39:02.858Z"
-    },
-    {
-      "track": "Kingdom Hearts Key (ft. redveil)",
-      "artists": "JPEGMAFIA, Danny Brown, redveil",
-      "durationMs": 205320,
-      "playedAt": "2026-06-02T11:37:41.568Z"
-    },
-    {
-      "track": "Location",
-      "artists": "Khalid",
-      "durationMs": 219080,
-      "playedAt": "2026-06-02T11:34:21.977Z"
-    },
-    {
-      "track": "Time Moves Slow",
-      "artists": "BADBADNOTGOOD, Samuel T. Herring",
-      "durationMs": 273864,
-      "playedAt": "2026-06-02T11:30:48.632Z"
     }
   ]
 }
