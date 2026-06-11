@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T20:24:18.777374Z",
+  "lastUpdated": "2026-06-11T23:24:29.549155Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,28 +29,28 @@
   ],
   "topTracksWeek": [
     {
-      "name": "The Running Man",
-      "artists": "Vince Staples",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
-    },
-    {
       "name": "M.O.M.",
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
-      "name": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+      "name": "The Running Man",
+      "artists": "Vince Staples",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
     },
     {
       "name": "Bags",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+    },
+    {
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     },
     {
       "name": "Eyes Off You",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "The Running Man",
-    "artists": "Vince Staples",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-    "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
+    "name": "M.O.M.",
+    "artists": "Isaiah Rashad",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+    "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
   },
   "weeklyListening": {
-    "totalMs": 29792614,
-    "trackCount": 155
+    "totalMs": 32195226,
+    "trackCount": 166
   },
   "ytdListening": {
-    "totalMs": 1470549418,
-    "trackCount": 7065
+    "totalMs": 1472952030,
+    "trackCount": 7076
   }
 }
