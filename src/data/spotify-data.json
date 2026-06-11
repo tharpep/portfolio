@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T10:39:20.743419Z",
+  "lastUpdated": "2026-06-11T16:05:27.608414Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
-      "name": "投影の芸術",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27373fe8f78133608dee4f3a5bd",
-      "spotifyUrl": "https://open.spotify.com/track/3zV8BUkLyVvahUQpKKsM2I"
+      "name": "Eyes Off You",
+      "artists": "Tokyo Tea Room",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27316826efe06d6ee121808f6ed",
+      "spotifyUrl": "https://open.spotify.com/track/6tnqBTSp8YM622LKgdvxSJ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 27573348,
-    "trackCount": 145
+    "totalMs": 29053821,
+    "trackCount": 151
   },
   "ytdListening": {
-    "totalMs": 1468330152,
-    "trackCount": 7055
+    "totalMs": 1469810625,
+    "trackCount": 7061
   }
 }
