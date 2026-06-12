@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781267410289",
+  "lastCursor": "1781297370703",
   "plays": [
+    {
+      "track": "Just How You Are",
+      "artists": "Leon Thomas",
+      "durationMs": 194247,
+      "playedAt": "2026-06-12T20:49:30.703Z"
+    },
+    {
+      "track": "HIGHEST IN THE ROOM",
+      "artists": "Travis Scott",
+      "durationMs": 175720,
+      "playedAt": "2026-06-12T20:46:17.081Z"
+    },
+    {
+      "track": "Coffee For Dinner",
+      "artists": "Orion Sun",
+      "durationMs": 172680,
+      "playedAt": "2026-06-12T20:43:31.095Z"
+    },
+    {
+      "track": "Apocalypse Dreams",
+      "artists": "Tame Impala",
+      "durationMs": 356946,
+      "playedAt": "2026-06-12T20:40:44.090Z"
+    },
+    {
+      "track": "Weird Fishes / Arpeggi",
+      "artists": "Radiohead",
+      "durationMs": 318186,
+      "playedAt": "2026-06-12T20:33:55.538Z"
+    },
+    {
+      "track": "Weird Fishes / Arpeggi",
+      "artists": "Radiohead",
+      "durationMs": 318186,
+      "playedAt": "2026-06-12T19:32:10.748Z"
+    },
     {
       "track": "You Lose!",
       "artists": "Magdalena Bay",
@@ -2088,54 +2124,6 @@
       "artists": "A$AP Rocky, Jessica Pratt",
       "durationMs": 190074,
       "playedAt": "2026-06-05T12:05:37.108Z"
-    },
-    {
-      "track": "Gasoline",
-      "artists": "The Weeknd",
-      "durationMs": 212165,
-      "playedAt": "2026-06-04T21:21:10.952Z"
-    },
-    {
-      "track": "My Muse",
-      "artists": "Leon Thomas",
-      "durationMs": 165599,
-      "playedAt": "2026-06-04T21:17:44.547Z"
-    },
-    {
-      "track": "Everything Blue",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 222520,
-      "playedAt": "2026-06-04T21:15:04.652Z"
-    },
-    {
-      "track": "Superpowers",
-      "artists": "Daniel Caesar",
-      "durationMs": 174512,
-      "playedAt": "2026-06-04T21:11:27.850Z"
-    },
-    {
-      "track": "Headlock",
-      "artists": "Imogen Heap",
-      "durationMs": 215338,
-      "playedAt": "2026-06-04T21:08:33.211Z"
-    },
-    {
-      "track": "Livin' My Truth",
-      "artists": "Kid Cudi",
-      "durationMs": 133506,
-      "playedAt": "2026-06-04T21:05:08.148Z"
-    },
-    {
-      "track": "Essex_Honey.mp3",
-      "artists": "Blood Orange",
-      "durationMs": 289075,
-      "playedAt": "2026-06-04T21:03:00.350Z"
-    },
-    {
-      "track": "FEEL SOMETHING DIFFERENT",
-      "artists": "Bea Miller, Aminé",
-      "durationMs": 207327,
-      "playedAt": "2026-06-04T20:58:01.350Z"
     }
   ]
 }
