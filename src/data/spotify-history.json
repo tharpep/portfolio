@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781235324638",
+  "lastCursor": "1781267410289",
   "plays": [
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-06-12T12:30:10.289Z"
+    },
+    {
+      "track": "LVL",
+      "artists": "A$AP Rocky",
+      "durationMs": 220133,
+      "playedAt": "2026-06-12T12:26:45.123Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-12T12:22:51.731Z"
+    },
+    {
+      "track": "Eyes Off You",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 182480,
+      "playedAt": "2026-06-12T12:18:37.774Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-06-12T12:15:40.929Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-06-12T12:12:06.841Z"
+    },
     {
       "track": "That's My Floor",
       "artists": "Magdalena Bay",
@@ -2100,48 +2136,6 @@
       "artists": "Bea Miller, Aminé",
       "durationMs": 207327,
       "playedAt": "2026-06-04T20:58:01.350Z"
-    },
-    {
-      "track": "Basement Jack",
-      "artists": "Steve Lacy",
-      "durationMs": 109818,
-      "playedAt": "2026-06-04T12:20:09.535Z"
-    },
-    {
-      "track": "SKELETONS",
-      "artists": "Travis Scott",
-      "durationMs": 145588,
-      "playedAt": "2026-06-04T12:14:57.293Z"
-    },
-    {
-      "track": "Got To Be Good",
-      "artists": "Gotts Street Park, Pip Millett",
-      "durationMs": 159933,
-      "playedAt": "2026-06-04T12:12:39.619Z"
-    },
-    {
-      "track": "RIP",
-      "artists": "Miguel",
-      "durationMs": 164692,
-      "playedAt": "2026-06-04T12:10:05.310Z"
-    },
-    {
-      "track": "We'll Be In Love",
-      "artists": "Anonymuz",
-      "durationMs": 201935,
-      "playedAt": "2026-06-04T12:07:26.395Z"
-    },
-    {
-      "track": "COFFEE BEAN",
-      "artists": "Travis Scott",
-      "durationMs": 209115,
-      "playedAt": "2026-06-04T12:04:10.117Z"
-    },
-    {
-      "track": "Eleven",
-      "artists": "Khalid",
-      "durationMs": 206360,
-      "playedAt": "2026-06-04T12:00:46.725Z"
     }
   ]
 }

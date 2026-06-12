@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T10:16:34.808624Z",
+  "lastUpdated": "2026-06-12T15:19:18.425766Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,10 +47,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
-      "name": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+      "name": "Stars",
+      "artists": "PinkPantheress",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
+      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
       "name": "Eyes Off You",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
   },
   "weeklyListening": {
-    "totalMs": 36557418,
-    "trackCount": 189
+    "totalMs": 37790607,
+    "trackCount": 195
   },
   "ytdListening": {
-    "totalMs": 1477314222,
-    "trackCount": 7099
+    "totalMs": 1478547411,
+    "trackCount": 7105
   }
 }
