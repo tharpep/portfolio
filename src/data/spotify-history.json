@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1781234801697",
+  "lastCursor": "1781235324638",
   "plays": [
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-06-12T03:35:24.638Z"
+    },
     {
       "track": "Stars",
       "artists": "PinkPantheress",
@@ -2136,12 +2142,6 @@
       "artists": "Khalid",
       "durationMs": 206360,
       "playedAt": "2026-06-04T12:00:46.725Z"
-    },
-    {
-      "track": "Eleven",
-      "artists": "Khalid",
-      "durationMs": 206360,
-      "playedAt": "2026-06-04T09:38:03.793Z"
     }
   ]
 }
