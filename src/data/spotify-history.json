@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781369723973",
+  "lastCursor": "1781377065800",
   "plays": [
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-06-13T18:57:45.800Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-06-13T18:55:09.512Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-06-13T18:12:45.539Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-06-13T18:09:41.243Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-06-13T18:07:01.440Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-06-13T18:04:20.694Z"
+    },
     {
       "track": "SCARED 2 LOOK DOWN",
       "artists": "Isaiah Rashad",
@@ -2208,24 +2244,6 @@
       "artists": "Vince Staples",
       "durationMs": 202266,
       "playedAt": "2026-06-05T19:52:47.468Z"
-    },
-    {
-      "track": "White Flag",
-      "artists": "Vince Staples",
-      "durationMs": 154480,
-      "playedAt": "2026-06-05T19:32:17.697Z"
-    },
-    {
-      "track": "Go! Go! Gorilla",
-      "artists": "Vince Staples",
-      "durationMs": 211026,
-      "playedAt": "2026-06-05T19:29:43.204Z"
-    },
-    {
-      "track": "Blackberry Marmalade",
-      "artists": "Vince Staples",
-      "durationMs": 232933,
-      "playedAt": "2026-06-05T19:26:12.209Z"
     }
   ]
 }
