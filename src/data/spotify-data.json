@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T14:03:21.155447Z",
+  "lastUpdated": "2026-06-13T17:24:50.409132Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,16 +29,16 @@
   ],
   "topTracksWeek": [
     {
-      "name": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
-    },
-    {
       "name": "The Running Man",
       "artists": "Vince Staples",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
       "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
+    },
+    {
+      "name": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
+      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
     },
     {
       "name": "Bags",
@@ -60,17 +60,17 @@
     }
   ],
   "topTrackDay": {
-    "name": "M.O.M.",
-    "artists": "Isaiah Rashad",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-    "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
+    "name": "The Running Man",
+    "artists": "Vince Staples",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+    "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
   },
   "weeklyListening": {
-    "totalMs": 41152061,
-    "trackCount": 212
+    "totalMs": 43614909,
+    "trackCount": 225
   },
   "ytdListening": {
-    "totalMs": 1481908865,
-    "trackCount": 7122
+    "totalMs": 1484371713,
+    "trackCount": 7135
   }
 }
