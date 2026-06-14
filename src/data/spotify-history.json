@@ -1,6 +1,162 @@
 {
-  "lastCursor": "1781465709958",
+  "lastCursor": "1781471253029",
   "plays": [
+    {
+      "track": "Bleed (feat. Omar Apollo)",
+      "artists": "Malcolm Todd, Omar Apollo",
+      "durationMs": 179373,
+      "playedAt": "2026-06-14T21:07:33.029Z"
+    },
+    {
+      "track": "World Domination",
+      "artists": "Joey Bada$$",
+      "durationMs": 162761,
+      "playedAt": "2026-06-14T21:04:39.335Z"
+    },
+    {
+      "track": "Found (feat. Brent Faiyaz)",
+      "artists": "Tems, Brent Faiyaz",
+      "durationMs": 209454,
+      "playedAt": "2026-06-14T21:01:37.877Z"
+    },
+    {
+      "track": "Got To Be Good",
+      "artists": "Gotts Street Park, Pip Millett",
+      "durationMs": 159933,
+      "playedAt": "2026-06-14T20:58:13.432Z"
+    },
+    {
+      "track": "Check the Rhime",
+      "artists": "A Tribe Called Quest",
+      "durationMs": 216693,
+      "playedAt": "2026-06-14T20:55:38.503Z"
+    },
+    {
+      "track": "Are You Bored Yet? (feat. Clairo)",
+      "artists": "Wallows, Clairo",
+      "durationMs": 178000,
+      "playedAt": "2026-06-14T20:52:06.806Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-06-14T20:49:13.800Z"
+    },
+    {
+      "track": "MERCEDES",
+      "artists": "Brent Faiyaz",
+      "durationMs": 233069,
+      "playedAt": "2026-06-14T20:46:12.185Z"
+    },
+    {
+      "track": "m y . l i f e (with 21 Savage & Morray)",
+      "artists": "J. Cole, 21 Savage, Morray",
+      "durationMs": 218801,
+      "playedAt": "2026-06-14T20:42:24.116Z"
+    },
+    {
+      "track": "On My Own",
+      "artists": "Jaden, Kid Cudi",
+      "durationMs": 244720,
+      "playedAt": "2026-06-14T20:38:50.327Z"
+    },
+    {
+      "track": "Stumble",
+      "artists": "Kraak & Smaak, Parcels",
+      "durationMs": 270720,
+      "playedAt": "2026-06-14T20:34:50.597Z"
+    },
+    {
+      "track": "Call On Me",
+      "artists": "Daniel Caesar",
+      "durationMs": 169004,
+      "playedAt": "2026-06-14T20:30:24.893Z"
+    },
+    {
+      "track": "No Idea",
+      "artists": "Don Toliver",
+      "durationMs": 154424,
+      "playedAt": "2026-06-14T20:27:40.881Z"
+    },
+    {
+      "track": "Trust",
+      "artists": "Brent Faiyaz",
+      "durationMs": 158420,
+      "playedAt": "2026-06-14T20:25:11.462Z"
+    },
+    {
+      "track": "Homecoming",
+      "artists": "Kanye West, Chris Martin",
+      "durationMs": 203493,
+      "playedAt": "2026-06-14T20:22:38.046Z"
+    },
+    {
+      "track": "All Caps",
+      "artists": "Madvillain, Madlib, MF DOOM",
+      "durationMs": 130479,
+      "playedAt": "2026-06-14T20:19:19.565Z"
+    },
+    {
+      "track": "Tieduprightnow",
+      "artists": "Parcels",
+      "durationMs": 249956,
+      "playedAt": "2026-06-14T20:17:14.072Z"
+    },
+    {
+      "track": "Outta My Head (with John Mayer)",
+      "artists": "Khalid, John Mayer",
+      "durationMs": 177106,
+      "playedAt": "2026-06-14T20:13:09.138Z"
+    },
+    {
+      "track": "Nonviolent Communication (Metro Boomin & James Blake, A$AP Rocky, 21 Savage)",
+      "artists": "Metro Boomin, James Blake, A$AP Rocky, 21 Savage",
+      "durationMs": 209533,
+      "playedAt": "2026-06-14T20:10:17.031Z"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artists": "Travis Scott, Kacy Hill",
+      "durationMs": 339066,
+      "playedAt": "2026-06-14T20:06:52.506Z"
+    },
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-06-14T20:01:18.440Z"
+    },
+    {
+      "track": "My Bad",
+      "artists": "Khalid",
+      "durationMs": 166101,
+      "playedAt": "2026-06-14T19:56:53.604Z"
+    },
+    {
+      "track": "Honeymoon",
+      "artists": "Don Toliver",
+      "durationMs": 184853,
+      "playedAt": "2026-06-14T19:54:12.512Z"
+    },
+    {
+      "track": "Lost In Yesterday",
+      "artists": "Tame Impala",
+      "durationMs": 249586,
+      "playedAt": "2026-06-14T19:51:12.677Z"
+    },
+    {
+      "track": "Black&Blue",
+      "artists": "Vince Staples",
+      "durationMs": 198630,
+      "playedAt": "2026-06-14T19:47:08.088Z"
+    },
+    {
+      "track": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 221240,
+      "playedAt": "2026-06-14T19:43:54.468Z"
+    },
     {
       "track": "Summer's Over",
       "artists": "Jordana, TV Girl",
@@ -2598,54 +2754,6 @@
       "artists": "Stray Kids",
       "durationMs": 148632,
       "playedAt": "2026-06-06T21:16:57.389Z"
-    },
-    {
-      "track": "Coming Back (feat. SZA)",
-      "artists": "James Blake, SZA",
-      "durationMs": 195905,
-      "playedAt": "2026-06-06T21:14:34.403Z"
-    },
-    {
-      "track": "St. Chroma (feat. Daniel Caesar)",
-      "artists": "Tyler, The Creator, Daniel Caesar",
-      "durationMs": 197019,
-      "playedAt": "2026-06-06T21:11:24.224Z"
-    },
-    {
-      "track": "Dominoes",
-      "artists": "Jungle",
-      "durationMs": 177520,
-      "playedAt": "2026-06-06T21:08:12.905Z"
-    },
-    {
-      "track": "Mr. Rager",
-      "artists": "Kid Cudi",
-      "durationMs": 294226,
-      "playedAt": "2026-06-06T21:05:21.157Z"
-    },
-    {
-      "track": "Breathe",
-      "artists": "Malcolm Todd",
-      "durationMs": 175880,
-      "playedAt": "2026-06-06T21:00:15.535Z"
-    },
-    {
-      "track": "I Saw Your Face",
-      "artists": "Malcolm Todd",
-      "durationMs": 189019,
-      "playedAt": "2026-06-06T20:57:25.307Z"
-    },
-    {
-      "track": "Ain't That The Truth",
-      "artists": "Malcolm Todd",
-      "durationMs": 122399,
-      "playedAt": "2026-06-06T20:54:22.006Z"
-    },
-    {
-      "track": "Ain't That The Truth",
-      "artists": "Malcolm Todd",
-      "durationMs": 122399,
-      "playedAt": "2026-06-06T20:53:53.940Z"
     }
   ]
 }
