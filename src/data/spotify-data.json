@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T17:21:50.642194Z",
+  "lastUpdated": "2026-06-14T19:39:20.256438Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
-      "name": "Tame Impala",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
-      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
-    },
-    {
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     }
   ],
   "topTracksWeek": [
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 64211028,
-    "trackCount": 318
+    "totalMs": 68126510,
+    "trackCount": 337
   },
   "ytdListening": {
-    "totalMs": 1504967832,
-    "trackCount": 7228
+    "totalMs": 1508883314,
+    "trackCount": 7247
   }
 }
