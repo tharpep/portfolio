@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T23:07:28.596238Z",
+  "lastUpdated": "2026-06-14T04:17:49.418932Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -29,6 +29,12 @@
   ],
   "topTracksWeek": [
     {
+      "name": "Bags",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+    },
+    {
       "name": "M.O.M.",
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
@@ -41,36 +47,30 @@
       "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
     },
     {
-      "name": "Bags",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
-      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
-    },
-    {
       "name": "Stars",
       "artists": "PinkPantheress",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
-      "name": "Eyes Off You",
-      "artists": "Tokyo Tea Room",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27316826efe06d6ee121808f6ed",
-      "spotifyUrl": "https://open.spotify.com/track/6tnqBTSp8YM622LKgdvxSJ"
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     }
   ],
   "topTrackDay": {
-    "name": "M.O.M.",
-    "artists": "Isaiah Rashad",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-    "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
+    "name": "Bags",
+    "artists": "Clairo",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+    "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 50388966,
-    "trackCount": 258
+    "totalMs": 61323656,
+    "trackCount": 306
   },
   "ytdListening": {
-    "totalMs": 1491145770,
-    "trackCount": 7168
+    "totalMs": 1502080460,
+    "trackCount": 7216
   }
 }
