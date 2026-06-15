@@ -1,6 +1,108 @@
 {
-  "lastCursor": "1781471253029",
+  "lastCursor": "1781487728744",
   "plays": [
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-06-15T01:42:08.744Z"
+    },
+    {
+      "track": "The Running Man",
+      "artists": "Vince Staples",
+      "durationMs": 202266,
+      "playedAt": "2026-06-15T01:38:59.665Z"
+    },
+    {
+      "track": "Just the Right Song",
+      "artists": "Vansire",
+      "durationMs": 186253,
+      "playedAt": "2026-06-15T01:35:42.390Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-06-15T01:32:41.151Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-06-15T01:30:24.273Z"
+    },
+    {
+      "track": "The Big Bad Wolf",
+      "artists": "Vince Staples",
+      "durationMs": 132413,
+      "playedAt": "2026-06-15T01:26:45.478Z"
+    },
+    {
+      "track": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "durationMs": 184761,
+      "playedAt": "2026-06-15T01:24:38.067Z"
+    },
+    {
+      "track": "Girl Like Me",
+      "artists": "PinkPantheress",
+      "durationMs": 145520,
+      "playedAt": "2026-06-15T01:21:38.310Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-15T01:19:17.792Z"
+    },
+    {
+      "track": "Eyes Off You",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 182480,
+      "playedAt": "2026-06-15T01:15:02.277Z"
+    },
+    {
+      "track": "Alive",
+      "artists": "Empire Of The Sun",
+      "durationMs": 204546,
+      "playedAt": "2026-06-15T01:12:04.806Z"
+    },
+    {
+      "track": "FAMJAM4000",
+      "artists": "Jordan Ward",
+      "durationMs": 158133,
+      "playedAt": "2026-06-15T01:07:29.322Z"
+    },
+    {
+      "track": "4th Dimension",
+      "artists": "KIDS SEE GHOSTS, Louis Prima",
+      "durationMs": 153351,
+      "playedAt": "2026-06-15T01:04:56.202Z"
+    },
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-06-15T01:02:27.858Z"
+    },
+    {
+      "track": "The Big Bad Wolf",
+      "artists": "Vince Staples",
+      "durationMs": 132413,
+      "playedAt": "2026-06-15T00:57:30.100Z"
+    },
+    {
+      "track": "Alive",
+      "artists": "Empire Of The Sun",
+      "durationMs": 204546,
+      "playedAt": "2026-06-15T00:55:22.716Z"
+    },
+    {
+      "track": "Only",
+      "artists": "Sampha",
+      "durationMs": 169590,
+      "playedAt": "2026-06-15T00:52:25.014Z"
+    },
     {
       "track": "Bleed (feat. Omar Apollo)",
       "artists": "Malcolm Todd, Omar Apollo",
@@ -2664,30 +2766,6 @@
       "artists": "The Marías",
       "durationMs": 160000,
       "playedAt": "2026-06-07T15:38:23.257Z"
-    },
-    {
-      "track": "The Running Man",
-      "artists": "Vince Staples",
-      "durationMs": 202266,
-      "playedAt": "2026-06-07T03:09:33.016Z"
-    },
-    {
-      "track": "White Flag",
-      "artists": "Vince Staples",
-      "durationMs": 154480,
-      "playedAt": "2026-06-07T02:22:11.304Z"
-    },
-    {
-      "track": "Do You Know The Devil",
-      "artists": "Vince Staples",
-      "durationMs": 189453,
-      "playedAt": "2026-06-07T02:19:42.544Z"
-    },
-    {
-      "track": "Lee & Lovie (with reggie)",
-      "artists": "Smino, reggie",
-      "durationMs": 171676,
-      "playedAt": "2026-06-07T02:16:19.996Z"
     }
   ]
 }

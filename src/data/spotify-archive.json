@@ -207,6 +207,22 @@
         "name": "Vince Staples",
         "plays": 41
       }
+    },
+    {
+      "week": "2026-W24",
+      "weekStart": "2026-06-08",
+      "weekEnd": "2026-06-14",
+      "totalMs": 73468389,
+      "trackCount": 363,
+      "topTrack": {
+        "name": "Bags",
+        "artists": "Clairo",
+        "plays": 19
+      },
+      "topArtist": {
+        "name": "PinkPantheress",
+        "plays": 28
+      }
     }
   ]
 }
