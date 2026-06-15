@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781487728744",
+  "lastCursor": "1781525750180",
   "plays": [
+    {
+      "track": "Each Day Gets Better",
+      "artists": "John Legend",
+      "durationMs": 228004,
+      "playedAt": "2026-06-15T12:15:50.180Z"
+    },
+    {
+      "track": "Husk",
+      "artists": "Men I Trust",
+      "durationMs": 204651,
+      "playedAt": "2026-06-15T12:12:07.941Z"
+    },
+    {
+      "track": "4th Dimension",
+      "artists": "KIDS SEE GHOSTS, Louis Prima",
+      "durationMs": 153351,
+      "playedAt": "2026-06-15T12:08:43.143Z"
+    },
+    {
+      "track": "That's My Floor",
+      "artists": "Magdalena Bay",
+      "durationMs": 209800,
+      "playedAt": "2026-06-15T12:05:31.388Z"
+    },
+    {
+      "track": "The Big Bad Wolf",
+      "artists": "Vince Staples",
+      "durationMs": 132413,
+      "playedAt": "2026-06-15T12:02:07.296Z"
+    },
+    {
+      "track": "Only",
+      "artists": "Sampha",
+      "durationMs": 169590,
+      "playedAt": "2026-06-15T12:00:00.594Z"
+    },
     {
       "track": "Pitch the Baby",
       "artists": "Cocteau Twins",
