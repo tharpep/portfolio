@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T11:13:46.316459Z",
+  "lastUpdated": "2026-06-16T16:57:32.140999Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,6 +35,12 @@
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+    },
+    {
       "name": "The Running Man",
       "artists": "Vince Staples",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
@@ -51,12 +57,6 @@
       "artists": "Isaiah Rashad",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
       "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
-    },
-    {
-      "name": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 6613451,
-    "trackCount": 35
+    "totalMs": 8594551,
+    "trackCount": 44
   },
   "ytdListening": {
-    "totalMs": 1520838644,
-    "trackCount": 7308
+    "totalMs": 1522819744,
+    "trackCount": 7317
   }
 }
