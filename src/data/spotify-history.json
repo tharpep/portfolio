@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1781643056147",
+  "lastCursor": "1781644697223",
   "plays": [
+    {
+      "track": "ASTROTHUNDER",
+      "artists": "Travis Scott",
+      "durationMs": 142969,
+      "playedAt": "2026-06-16T21:18:17.223Z"
+    },
+    {
+      "track": "Cherry Blossom",
+      "artists": "Empire Of The Sun",
+      "durationMs": 207587,
+      "playedAt": "2026-06-16T21:06:01.424Z"
+    },
+    {
+      "track": "California",
+      "artists": "beabadoobee",
+      "durationMs": 172293,
+      "playedAt": "2026-06-16T21:02:39.626Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-16T20:59:38.266Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-06-16T20:56:57.725Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-06-16T20:54:20.712Z"
+    },
     {
       "track": "The Complete Knock",
       "artists": "Blood Orange",
@@ -2088,126 +2124,6 @@
       "artists": "JPEGMAFIA",
       "durationMs": 182702,
       "playedAt": "2026-06-09T00:18:22.649Z"
-    },
-    {
-      "track": "His Will",
-      "artists": "JPEGMAFIA",
-      "durationMs": 67047,
-      "playedAt": "2026-06-08T22:50:54.353Z"
-    },
-    {
-      "track": "Mask On",
-      "artists": "JPEGMAFIA",
-      "durationMs": 153888,
-      "playedAt": "2026-06-08T22:49:47.318Z"
-    },
-    {
-      "track": "TSAR BOMBA",
-      "artists": "JPEGMAFIA",
-      "durationMs": 106573,
-      "playedAt": "2026-06-08T22:45:33.825Z"
-    },
-    {
-      "track": "Essex_Honey.mp3",
-      "artists": "Blood Orange",
-      "durationMs": 289075,
-      "playedAt": "2026-06-08T22:43:53.142Z"
-    },
-    {
-      "track": "GYBB",
-      "artists": "JPEGMAFIA",
-      "durationMs": 119764,
-      "playedAt": "2026-06-08T22:39:05.853Z"
-    },
-    {
-      "track": "¥ (Yen)",
-      "artists": "JPEGMAFIA",
-      "durationMs": 120570,
-      "playedAt": "2026-06-08T22:37:06.334Z"
-    },
-    {
-      "track": "Since I Met Ye",
-      "artists": "JPEGMAFIA",
-      "durationMs": 118663,
-      "playedAt": "2026-06-08T22:35:05.730Z"
-    },
-    {
-      "track": "The Ghost Of Emmett Till",
-      "artists": "JPEGMAFIA",
-      "durationMs": 116342,
-      "playedAt": "2026-06-08T22:33:06.937Z"
-    },
-    {
-      "track": "Degenerates Prayer",
-      "artists": "JPEGMAFIA",
-      "durationMs": 133041,
-      "playedAt": "2026-06-08T22:31:10.554Z"
-    },
-    {
-      "track": "head",
-      "artists": "JPEGMAFIA",
-      "durationMs": 103470,
-      "playedAt": "2026-06-08T22:28:57.539Z"
-    },
-    {
-      "track": "Meet the Dealers",
-      "artists": "JPEGMAFIA",
-      "durationMs": 161557,
-      "playedAt": "2026-06-08T22:26:31.463Z"
-    },
-    {
-      "track": "Pop this Heat",
-      "artists": "JPEGMAFIA",
-      "durationMs": 116089,
-      "playedAt": "2026-06-08T22:23:50.087Z"
-    },
-    {
-      "track": "$ (Money)",
-      "artists": "JPEGMAFIA",
-      "durationMs": 135324,
-      "playedAt": "2026-06-08T22:21:54.025Z"
-    },
-    {
-      "track": "Burning Hammer",
-      "artists": "JPEGMAFIA",
-      "durationMs": 193691,
-      "playedAt": "2026-06-08T22:19:38.512Z"
-    },
-    {
-      "track": "babygirl",
-      "artists": "JPEGMAFIA",
-      "durationMs": 147491,
-      "playedAt": "2026-06-08T22:16:24.958Z"
-    },
-    {
-      "track": "投影の芸術",
-      "artists": "JPEGMAFIA",
-      "durationMs": 57320,
-      "playedAt": "2026-06-08T22:13:57.332Z"
-    },
-    {
-      "track": "Halls",
-      "artists": "Makaya McCraven, Theon Cross, Joe Armon-Jones, Nubya Garcia",
-      "durationMs": 229240,
-      "playedAt": "2026-06-08T22:10:13.428Z"
-    },
-    {
-      "track": "SCARED 2 LOOK DOWN",
-      "artists": "Isaiah Rashad",
-      "durationMs": 216278,
-      "playedAt": "2026-06-08T22:01:07.556Z"
-    },
-    {
-      "track": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "durationMs": 194080,
-      "playedAt": "2026-06-08T21:57:37.065Z"
-    },
-    {
-      "track": "Pitch the Baby",
-      "artists": "Cocteau Twins",
-      "durationMs": 194080,
-      "playedAt": "2026-06-08T21:54:59.968Z"
     }
   ]
 }
