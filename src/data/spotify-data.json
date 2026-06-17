@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T10:59:49.846026Z",
+  "lastUpdated": "2026-06-17T15:36:46.200738Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
-      "name": "M.O.M.",
-      "artists": "Isaiah Rashad",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273f595e5f39c4050805de5caf5",
-      "spotifyUrl": "https://open.spotify.com/track/6iIpGsEuUIuapBssJ8sFC2"
+      "name": "Eyes Off You",
+      "artists": "Tokyo Tea Room",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27316826efe06d6ee121808f6ed",
+      "spotifyUrl": "https://open.spotify.com/track/6tnqBTSp8YM622LKgdvxSJ"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 11411573,
-    "trackCount": 58
+    "totalMs": 12961996,
+    "trackCount": 66
   },
   "ytdListening": {
-    "totalMs": 1525636766,
-    "trackCount": 7331
+    "totalMs": 1527187189,
+    "trackCount": 7339
   }
 }
