@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T18:20:40.033671Z",
+  "lastUpdated": "2026-06-17T22:01:31.601451Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     },
     {
-      "name": "The Running Man",
-      "artists": "Vince Staples",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
-    },
-    {
       "name": "Stars",
       "artists": "PinkPantheress",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
+    },
+    {
+      "name": "The Running Man",
+      "artists": "Vince Staples",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
     },
     {
       "name": "Eyes Off You",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 13993930,
-    "trackCount": 71
+    "totalMs": 18504109,
+    "trackCount": 95
   },
   "ytdListening": {
-    "totalMs": 1528219123,
-    "trackCount": 7344
+    "totalMs": 1532729302,
+    "trackCount": 7368
   }
 }
