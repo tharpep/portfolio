@@ -1,6 +1,162 @@
 {
-  "lastCursor": "1781731680330",
+  "lastCursor": "1781752882076",
   "plays": [
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-06-18T03:21:22.076Z"
+    },
+    {
+      "track": "Static",
+      "artists": "Steve Lacy",
+      "durationMs": 156538,
+      "playedAt": "2026-06-18T03:18:10.698Z"
+    },
+    {
+      "track": "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
+      "artists": "A$AP Rocky, Imogen Heap, Clams Casino",
+      "durationMs": 190285,
+      "playedAt": "2026-06-18T03:15:39.854Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 234333,
+      "playedAt": "2026-06-18T03:03:33.747Z"
+    },
+    {
+      "track": "Righteous Minds",
+      "artists": "Joey Bada$$",
+      "durationMs": 224042,
+      "playedAt": "2026-06-18T02:59:45.159Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Bershy",
+      "durationMs": 201853,
+      "playedAt": "2026-06-18T02:56:06.755Z"
+    },
+    {
+      "track": "Husk",
+      "artists": "Men I Trust",
+      "durationMs": 204651,
+      "playedAt": "2026-06-18T02:52:48.145Z"
+    },
+    {
+      "track": "Garden Shed (feat. Estelle)",
+      "artists": "Tyler, The Creator, Estelle",
+      "durationMs": 223946,
+      "playedAt": "2026-06-18T02:48:33.151Z"
+    },
+    {
+      "track": "Unfuckwittable",
+      "artists": "Kid Cudi",
+      "durationMs": 275746,
+      "playedAt": "2026-06-18T02:44:54.865Z"
+    },
+    {
+      "track": "WE SAW THE SUN!",
+      "artists": "Lil Yachty",
+      "durationMs": 331428,
+      "playedAt": "2026-06-18T02:40:24.858Z"
+    },
+    {
+      "track": "Taking What's Not Yours",
+      "artists": "TV Girl",
+      "durationMs": 205650,
+      "playedAt": "2026-06-18T02:34:59.159Z"
+    },
+    {
+      "track": "don't rely on other men",
+      "artists": "JPEGMAFIA",
+      "durationMs": 171906,
+      "playedAt": "2026-06-18T02:31:39.164Z"
+    },
+    {
+      "track": "Suspended",
+      "artists": "Sampha",
+      "durationMs": 185371,
+      "playedAt": "2026-06-18T02:28:52.966Z"
+    },
+    {
+      "track": "Glow",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 165412,
+      "playedAt": "2026-06-18T02:25:53.399Z"
+    },
+    {
+      "track": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 166321,
+      "playedAt": "2026-06-18T02:23:13.618Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-18T02:17:43.179Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-06-18T02:13:28.360Z"
+    },
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-06-18T02:09:50.306Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-06-18T02:07:36.347Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-06-18T02:00:18.039Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-06-18T01:57:41.040Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-06-18T01:54:41.843Z"
+    },
+    {
+      "track": "Equal Trouble",
+      "artists": "Blue Material",
+      "durationMs": 242102,
+      "playedAt": "2026-06-18T01:51:01.743Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-18T01:47:05.339Z"
+    },
+    {
+      "track": "12:34 AM",
+      "artists": "Billy Lemos, Omar Apollo, Maxwell Young",
+      "durationMs": 127000,
+      "playedAt": "2026-06-18T01:44:21.177Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-06-18T01:41:48.993Z"
+    },
     {
       "track": "CHANCES",
       "artists": "KAYTRANADA, Shay Lia",
@@ -1986,204 +2142,6 @@
       "artists": "Slow Pulp",
       "durationMs": 172319,
       "playedAt": "2026-06-10T12:06:10.751Z"
-    },
-    {
-      "track": "Natural",
-      "artists": "Shelly",
-      "durationMs": 163764,
-      "playedAt": "2026-06-10T02:52:23.724Z"
-    },
-    {
-      "track": "Metamodernity",
-      "artists": "Vansire",
-      "durationMs": 162663,
-      "playedAt": "2026-06-10T02:49:34.930Z"
-    },
-    {
-      "track": "50 Ways to Leave Your Lover",
-      "artists": "Paul Simon",
-      "durationMs": 217573,
-      "playedAt": "2026-06-10T02:46:58.024Z"
-    },
-    {
-      "track": "SORRY NOT SORRY",
-      "artists": "Tyler, The Creator",
-      "durationMs": 206049,
-      "playedAt": "2026-06-10T02:43:26.130Z"
-    },
-    {
-      "track": "Mirage",
-      "artists": "Orion Sun",
-      "durationMs": 57443,
-      "playedAt": "2026-06-10T02:40:06.064Z"
-    },
-    {
-      "track": "12:34 AM",
-      "artists": "Billy Lemos, Omar Apollo, Maxwell Young",
-      "durationMs": 127000,
-      "playedAt": "2026-06-10T02:39:14.334Z"
-    },
-    {
-      "track": "Crack Rock",
-      "artists": "Frank Ocean",
-      "durationMs": 224146,
-      "playedAt": "2026-06-10T02:37:13.031Z"
-    },
-    {
-      "track": "Time Moves Slow",
-      "artists": "BADBADNOTGOOD, Samuel T. Herring",
-      "durationMs": 273864,
-      "playedAt": "2026-06-10T02:33:34.535Z"
-    },
-    {
-      "track": "Boredom (feat. Rex Orange County & Anna of the North)",
-      "artists": "Tyler, The Creator, Rex Orange County, Anna of the North",
-      "durationMs": 320720,
-      "playedAt": "2026-06-10T02:29:06.430Z"
-    },
-    {
-      "track": "Care",
-      "artists": "Freak Slug",
-      "durationMs": 169847,
-      "playedAt": "2026-06-10T02:23:51.435Z"
-    },
-    {
-      "track": "Off and On",
-      "artists": "SALES",
-      "durationMs": 250909,
-      "playedAt": "2026-06-10T02:21:07.311Z"
-    },
-    {
-      "track": "Just the Right Song",
-      "artists": "Vansire",
-      "durationMs": 186253,
-      "playedAt": "2026-06-10T02:17:02.047Z"
-    },
-    {
-      "track": "Designer",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 226298,
-      "playedAt": "2026-06-10T02:14:01.480Z"
-    },
-    {
-      "track": "Bags",
-      "artists": "Clairo",
-      "durationMs": 260519,
-      "playedAt": "2026-06-10T02:06:20.535Z"
-    },
-    {
-      "track": "Just the Right Song",
-      "artists": "Vansire",
-      "durationMs": 186253,
-      "playedAt": "2026-06-10T02:02:05.638Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-06-10T01:59:05.144Z"
-    },
-    {
-      "track": "Fauxllennium",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 188533,
-      "playedAt": "2026-06-09T22:54:50.774Z"
-    },
-    {
-      "track": "trademark usa",
-      "artists": "Baby Keem",
-      "durationMs": 270670,
-      "playedAt": "2026-06-09T22:51:01.526Z"
-    },
-    {
-      "track": "Chrome Hearts [Feat. Zacari]",
-      "artists": "Denzel Curry, Zacari",
-      "durationMs": 201705,
-      "playedAt": "2026-06-09T22:46:36.529Z"
-    },
-    {
-      "track": "Overdue (with Travis Scott)",
-      "artists": "Metro Boomin, Travis Scott",
-      "durationMs": 166093,
-      "playedAt": "2026-06-09T22:43:20.530Z"
-    },
-    {
-      "track": "ASTROTHUNDER",
-      "artists": "Travis Scott",
-      "durationMs": 142969,
-      "playedAt": "2026-06-09T22:40:40.402Z"
-    },
-    {
-      "track": "Romeo",
-      "artists": "Jungle, Bas",
-      "durationMs": 166200,
-      "playedAt": "2026-06-09T22:38:23.027Z"
-    },
-    {
-      "track": "1st Time",
-      "artists": "Bakar",
-      "durationMs": 181746,
-      "playedAt": "2026-06-09T22:35:42.132Z"
-    },
-    {
-      "track": "Ensenada",
-      "artists": "Sublime",
-      "durationMs": 154484,
-      "playedAt": "2026-06-09T22:32:46.067Z"
-    },
-    {
-      "track": "Afterthought",
-      "artists": "Tame Impala",
-      "durationMs": 241783,
-      "playedAt": "2026-06-09T22:30:17.300Z"
-    },
-    {
-      "track": "Die Hard",
-      "artists": "Kendrick Lamar, Blxst, Amanda Reifer",
-      "durationMs": 239026,
-      "playedAt": "2026-06-09T22:26:21.328Z"
-    },
-    {
-      "track": "The Big Bad Wolf",
-      "artists": "Vince Staples",
-      "durationMs": 132413,
-      "playedAt": "2026-06-09T22:22:28.031Z"
-    },
-    {
-      "track": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "durationMs": 184761,
-      "playedAt": "2026-06-09T22:20:12.913Z"
-    },
-    {
-      "track": "Girl Like Me",
-      "artists": "PinkPantheress",
-      "durationMs": 145520,
-      "playedAt": "2026-06-09T22:17:13.708Z"
-    },
-    {
-      "track": "Bags",
-      "artists": "Clairo",
-      "durationMs": 260519,
-      "playedAt": "2026-06-09T22:14:53.977Z"
-    },
-    {
-      "track": "Eyes Off You",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 182480,
-      "playedAt": "2026-06-09T22:10:39.373Z"
-    },
-    {
-      "track": "4th Dimension",
-      "artists": "KIDS SEE GHOSTS, Louis Prima",
-      "durationMs": 153351,
-      "playedAt": "2026-06-09T22:05:38.323Z"
-    },
-    {
-      "track": "Channel 4",
-      "artists": "Yot Club",
-      "durationMs": 171274,
-      "playedAt": "2026-06-09T22:03:10.733Z"
     }
   ]
 }
