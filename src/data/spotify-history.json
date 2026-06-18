@@ -1,6 +1,48 @@
 {
-  "lastCursor": "1781752882076",
+  "lastCursor": "1781785679488",
   "plays": [
+    {
+      "track": "All My Time Is Wasted",
+      "artists": "Hannah Jadagu",
+      "durationMs": 200853,
+      "playedAt": "2026-06-18T12:27:59.488Z"
+    },
+    {
+      "track": "The Moment",
+      "artists": "Tame Impala",
+      "durationMs": 255413,
+      "playedAt": "2026-06-18T12:24:37.275Z"
+    },
+    {
+      "track": "Hold It Together",
+      "artists": "The Marías",
+      "durationMs": 222021,
+      "playedAt": "2026-06-18T12:20:17.272Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-06-18T12:16:41.021Z"
+    },
+    {
+      "track": "Ghost Town",
+      "artists": "Kanye West, PARTYNEXTDOOR",
+      "durationMs": 271386,
+      "playedAt": "2026-06-18T12:13:36.579Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-06-18T12:09:10.983Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-06-18T10:33:57.946Z"
+    },
     {
       "track": "In My Years",
       "artists": "Men I Trust",
@@ -2088,60 +2130,6 @@
       "artists": "Brent Faiyaz",
       "durationMs": 188274,
       "playedAt": "2026-06-10T20:12:14.313Z"
-    },
-    {
-      "track": "Life Itself",
-      "artists": "Glass Animals",
-      "durationMs": 281406,
-      "playedAt": "2026-06-10T12:37:28.134Z"
-    },
-    {
-      "track": "Changes",
-      "artists": "Empire Of The Sun",
-      "durationMs": 218179,
-      "playedAt": "2026-06-10T12:32:52.514Z"
-    },
-    {
-      "track": "X-Wing - Cold Blooded Soul Version",
-      "artists": "Denzel Curry",
-      "durationMs": 186280,
-      "playedAt": "2026-06-10T12:28:55.551Z"
-    },
-    {
-      "track": "My Old Ways",
-      "artists": "Tame Impala",
-      "durationMs": 298783,
-      "playedAt": "2026-06-10T12:25:54.953Z"
-    },
-    {
-      "track": "Paint Me A Picture",
-      "artists": "Magdalena Bay",
-      "durationMs": 231720,
-      "playedAt": "2026-06-10T12:21:01.852Z"
-    },
-    {
-      "track": "Simulation Swarm",
-      "artists": "Big Thief",
-      "durationMs": 252733,
-      "playedAt": "2026-06-10T12:17:15.858Z"
-    },
-    {
-      "track": "Gospel For A New Century",
-      "artists": "Yves Tumor",
-      "durationMs": 198626,
-      "playedAt": "2026-06-10T12:13:08.850Z"
-    },
-    {
-      "track": "Radio",
-      "artists": "Bershy",
-      "durationMs": 201853,
-      "playedAt": "2026-06-10T12:09:55.971Z"
-    },
-    {
-      "track": "Trade It",
-      "artists": "Slow Pulp",
-      "durationMs": 172319,
-      "playedAt": "2026-06-10T12:06:10.751Z"
     }
   ]
 }
