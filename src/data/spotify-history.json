@@ -1,6 +1,84 @@
 {
-  "lastCursor": "1781785679488",
+  "lastCursor": "1781817958535",
   "plays": [
+    {
+      "track": "The Big Bad Wolf",
+      "artists": "Vince Staples",
+      "durationMs": 132413,
+      "playedAt": "2026-06-18T21:25:58.535Z"
+    },
+    {
+      "track": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "durationMs": 184761,
+      "playedAt": "2026-06-18T21:23:51.848Z"
+    },
+    {
+      "track": "Girl Like Me",
+      "artists": "PinkPantheress",
+      "durationMs": 145520,
+      "playedAt": "2026-06-18T21:20:52.801Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-06-18T21:18:33.049Z"
+    },
+    {
+      "track": "Alive",
+      "artists": "Empire Of The Sun",
+      "durationMs": 204546,
+      "playedAt": "2026-06-18T21:14:11.152Z"
+    },
+    {
+      "track": "Tek It",
+      "artists": "Cafuné",
+      "durationMs": 191823,
+      "playedAt": "2026-06-18T21:10:52.248Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-06-18T21:07:08.544Z"
+    },
+    {
+      "track": "Badfish",
+      "artists": "Sublime",
+      "durationMs": 188085,
+      "playedAt": "2026-06-18T21:02:14.355Z"
+    },
+    {
+      "track": "Dream police",
+      "artists": "Mk.gee",
+      "durationMs": 169519,
+      "playedAt": "2026-06-18T20:59:11.960Z"
+    },
+    {
+      "track": "The Prayer",
+      "artists": "Kid Cudi",
+      "durationMs": 219093,
+      "playedAt": "2026-06-18T20:56:28.113Z"
+    },
+    {
+      "track": "That Life",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 215866,
+      "playedAt": "2026-06-18T20:52:54.799Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-06-18T20:49:24.665Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-06-18T20:48:25.828Z"
+    },
     {
       "track": "All My Time Is Wasted",
       "artists": "Hannah Jadagu",
@@ -2076,60 +2154,6 @@
       "artists": "Tokyo Tea Room",
       "durationMs": 182480,
       "playedAt": "2026-06-11T11:49:21.669Z"
-    },
-    {
-      "track": "Frequency",
-      "artists": "Kid Cudi",
-      "durationMs": 298240,
-      "playedAt": "2026-06-10T21:40:08.933Z"
-    },
-    {
-      "track": "93 'Til Infinity",
-      "artists": "Souls Of Mischief",
-      "durationMs": 286440,
-      "playedAt": "2026-06-10T20:48:16.804Z"
-    },
-    {
-      "track": "93 'Til Infinity",
-      "artists": "Souls Of Mischief",
-      "durationMs": 286440,
-      "playedAt": "2026-06-10T20:33:11.199Z"
-    },
-    {
-      "track": "Award Tour (feat. Trugoy The Dove)",
-      "artists": "A Tribe Called Quest, Trugoy The Dove",
-      "durationMs": 226440,
-      "playedAt": "2026-06-10T20:28:30.528Z"
-    },
-    {
-      "track": "Bobby Boucher",
-      "artists": "EARTHGANG, Spillage Village, Benji.",
-      "durationMs": 195200,
-      "playedAt": "2026-06-10T20:24:42.902Z"
-    },
-    {
-      "track": "japan",
-      "artists": "Yot Club",
-      "durationMs": 174935,
-      "playedAt": "2026-06-10T20:21:22.615Z"
-    },
-    {
-      "track": "My Muse",
-      "artists": "Leon Thomas",
-      "durationMs": 165599,
-      "playedAt": "2026-06-10T20:18:33.998Z"
-    },
-    {
-      "track": "Radio",
-      "artists": "Bershy",
-      "durationMs": 201853,
-      "playedAt": "2026-06-10T20:15:54.100Z"
-    },
-    {
-      "track": "Target On My Chest",
-      "artists": "Brent Faiyaz",
-      "durationMs": 188274,
-      "playedAt": "2026-06-10T20:12:14.313Z"
     }
   ]
 }
