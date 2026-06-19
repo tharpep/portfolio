@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1781839856732",
+  "lastCursor": "1781872072224",
   "plays": [
+    {
+      "track": "The Beginning",
+      "artists": "Magdalena Bay",
+      "durationMs": 241304,
+      "playedAt": "2026-06-19T12:27:52.224Z"
+    },
+    {
+      "track": "Many Times",
+      "artists": "Dijon",
+      "durationMs": 126905,
+      "playedAt": "2026-06-19T12:23:46.179Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-06-19T12:21:45.028Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-06-19T12:15:51.082Z"
+    },
+    {
+      "track": "Tek It",
+      "artists": "Cafuné",
+      "durationMs": 191823,
+      "playedAt": "2026-06-19T12:12:34.533Z"
+    },
     {
       "track": "Some",
       "artists": "Steve Lacy",
@@ -2160,42 +2190,6 @@
       "artists": "PinkPantheress",
       "durationMs": 141866,
       "playedAt": "2026-06-11T20:09:25.413Z"
-    },
-    {
-      "track": "Tieduprightnow",
-      "artists": "Parcels",
-      "durationMs": 249956,
-      "playedAt": "2026-06-11T12:10:43.754Z"
-    },
-    {
-      "track": "4EVER",
-      "artists": "Clairo",
-      "durationMs": 159595,
-      "playedAt": "2026-06-11T12:06:39.557Z"
-    },
-    {
-      "track": "G2g",
-      "artists": "Berhana",
-      "durationMs": 264683,
-      "playedAt": "2026-06-11T12:04:05.663Z"
-    },
-    {
-      "track": "New Person, Same Old Mistakes",
-      "artists": "Tame Impala",
-      "durationMs": 363240,
-      "playedAt": "2026-06-11T11:59:40.838Z"
-    },
-    {
-      "track": "Bags",
-      "artists": "Clairo",
-      "durationMs": 260519,
-      "playedAt": "2026-06-11T11:53:36.342Z"
-    },
-    {
-      "track": "Eyes Off You",
-      "artists": "Tokyo Tea Room",
-      "durationMs": 182480,
-      "playedAt": "2026-06-11T11:49:21.669Z"
     }
   ]
 }
