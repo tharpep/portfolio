@@ -1,6 +1,96 @@
 {
-  "lastCursor": "1781895538610",
+  "lastCursor": "1781909944790",
   "plays": [
+    {
+      "track": "the perfect pair",
+      "artists": "beabadoobee",
+      "durationMs": 177533,
+      "playedAt": "2026-06-19T22:59:04.790Z"
+    },
+    {
+      "track": "RIP",
+      "artists": "Miguel",
+      "durationMs": 164692,
+      "playedAt": "2026-06-19T22:56:12.930Z"
+    },
+    {
+      "track": "Cigarettes out the Window",
+      "artists": "TV Girl",
+      "durationMs": 198960,
+      "playedAt": "2026-06-19T22:52:56.584Z"
+    },
+    {
+      "track": "The Complete Knock",
+      "artists": "Blood Orange",
+      "durationMs": 303533,
+      "playedAt": "2026-06-19T22:49:43.413Z"
+    },
+    {
+      "track": "Babydoll",
+      "artists": "Dominic Fike",
+      "durationMs": 97960,
+      "playedAt": "2026-06-19T22:44:45.586Z"
+    },
+    {
+      "track": "‘87 Stingray",
+      "artists": "Tory Lanez",
+      "durationMs": 141333,
+      "playedAt": "2026-06-19T22:43:13.279Z"
+    },
+    {
+      "track": "Memories",
+      "artists": "Thutmose",
+      "durationMs": 199146,
+      "playedAt": "2026-06-19T22:40:34.945Z"
+    },
+    {
+      "track": "Helmet",
+      "artists": "Steve Lacy",
+      "durationMs": 201510,
+      "playedAt": "2026-06-19T22:37:21.434Z"
+    },
+    {
+      "track": "Landline",
+      "artists": "binki",
+      "durationMs": 160329,
+      "playedAt": "2026-06-19T22:34:05.615Z"
+    },
+    {
+      "track": "Un Millón",
+      "artists": "The Marías",
+      "durationMs": 167386,
+      "playedAt": "2026-06-19T22:31:04.481Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-06-19T22:28:07.183Z"
+    },
+    {
+      "track": "Outta My Head (with John Mayer)",
+      "artists": "Khalid, John Mayer",
+      "durationMs": 177106,
+      "playedAt": "2026-06-19T22:24:42.287Z"
+    },
+    {
+      "track": "Image",
+      "artists": "Magdalena Bay",
+      "durationMs": 212866,
+      "playedAt": "2026-06-19T22:21:29.587Z"
+    },
+    {
+      "track": "Simulation Swarm",
+      "artists": "Big Thief",
+      "durationMs": 252733,
+      "playedAt": "2026-06-19T22:18:02.468Z"
+    },
+    {
+      "track": "booman",
+      "artists": "Baby Keem",
+      "durationMs": 155153,
+      "playedAt": "2026-06-19T22:13:13.190Z"
+    },
     {
       "track": "Low",
       "artists": "SZA",
@@ -2166,30 +2256,6 @@
       "artists": "Tame Impala",
       "durationMs": 108546,
       "playedAt": "2026-06-11T23:16:40.563Z"
-    },
-    {
-      "track": "Lay Me Down",
-      "artists": "Steve Lacy",
-      "durationMs": 183074,
-      "playedAt": "2026-06-11T21:55:50.361Z"
-    },
-    {
-      "track": "CHANCES",
-      "artists": "KAYTRANADA, Shay Lia",
-      "durationMs": 218187,
-      "playedAt": "2026-06-11T21:48:23.363Z"
-    },
-    {
-      "track": "Tunnel Vision",
-      "artists": "Magdalena Bay",
-      "durationMs": 305520,
-      "playedAt": "2026-06-11T21:44:50.971Z"
-    },
-    {
-      "track": "Tunnel Vision",
-      "artists": "Magdalena Bay",
-      "durationMs": 305520,
-      "playedAt": "2026-06-11T21:42:01.633Z"
     }
   ]
 }
