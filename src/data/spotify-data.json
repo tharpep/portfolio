@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T22:10:51.749629Z",
+  "lastUpdated": "2026-06-19T04:40:07.929958Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
     },
     {
-      "name": "The Big Bad Wolf",
+      "name": "Cotton",
       "artists": "Vince Staples",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-      "spotifyUrl": "https://open.spotify.com/track/6VFgu6AiIutvLazcRQTs14"
+      "spotifyUrl": "https://open.spotify.com/track/2rBesRD5DkpI0dyjmXV7lf"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 28367706,
-    "trackCount": 141
+    "totalMs": 29757715,
+    "trackCount": 148
   },
   "ytdListening": {
-    "totalMs": 1542592899,
-    "trackCount": 7414
+    "totalMs": 1543982908,
+    "trackCount": 7421
   }
 }

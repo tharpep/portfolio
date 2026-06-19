@@ -1,6 +1,48 @@
 {
-  "lastCursor": "1781817958535",
+  "lastCursor": "1781839856732",
   "plays": [
+    {
+      "track": "Some",
+      "artists": "Steve Lacy",
+      "durationMs": 118393,
+      "playedAt": "2026-06-19T03:30:56.732Z"
+    },
+    {
+      "track": "Fantasy (feat. Don Toliver)",
+      "artists": "Kali Uchis, Don Toliver",
+      "durationMs": 178274,
+      "playedAt": "2026-06-19T01:38:48.194Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-06-19T01:35:55.558Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-06-19T01:31:02.500Z"
+    },
+    {
+      "track": "A New Kind Of Love - Demo",
+      "artists": "Frou Frou, Imogen Heap, Guy Sigsworth",
+      "durationMs": 259071,
+      "playedAt": "2026-06-19T01:28:18.405Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-06-19T01:23:50.299Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-06-18T23:40:08.468Z"
+    },
     {
       "track": "The Big Bad Wolf",
       "artists": "Vince Staples",
