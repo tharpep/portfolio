@@ -1,6 +1,114 @@
 {
-  "lastCursor": "1781995213519",
+  "lastCursor": "1782009540237",
   "plays": [
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-06-21T02:39:00.237Z"
+    },
+    {
+      "track": "Better in the Dark",
+      "artists": "Jordana, TV Girl",
+      "durationMs": 155500,
+      "playedAt": "2026-06-21T02:35:14.090Z"
+    },
+    {
+      "track": "Top Dog",
+      "artists": "Magdalena Bay",
+      "durationMs": 137187,
+      "playedAt": "2026-06-21T02:32:29.689Z"
+    },
+    {
+      "track": "DHL",
+      "artists": "Frank Ocean",
+      "durationMs": 268893,
+      "playedAt": "2026-06-21T02:30:06.488Z"
+    },
+    {
+      "track": "X-Wing - Cold Blooded Soul Version",
+      "artists": "Denzel Curry",
+      "durationMs": 186280,
+      "playedAt": "2026-06-21T02:25:43.391Z"
+    },
+    {
+      "track": "SKELETONS",
+      "artists": "Travis Scott",
+      "durationMs": 145588,
+      "playedAt": "2026-06-21T02:22:42.792Z"
+    },
+    {
+      "track": "Like Him (feat. Lola Young)",
+      "artists": "Tyler, The Creator, Lola Young",
+      "durationMs": 278014,
+      "playedAt": "2026-06-21T02:20:22.882Z"
+    },
+    {
+      "track": "Electioneering",
+      "artists": "Radiohead",
+      "durationMs": 230626,
+      "playedAt": "2026-06-21T02:15:50.637Z"
+    },
+    {
+      "track": "The Divine Chord",
+      "artists": "The Avalanches, MGMT, Johnny Marr",
+      "durationMs": 187586,
+      "playedAt": "2026-06-21T02:12:05.725Z"
+    },
+    {
+      "track": "Mercury",
+      "artists": "Steve Lacy",
+      "durationMs": 295411,
+      "playedAt": "2026-06-21T02:09:03.850Z"
+    },
+    {
+      "track": "Chanel",
+      "artists": "Frank Ocean",
+      "durationMs": 210285,
+      "playedAt": "2026-06-21T02:04:06.014Z"
+    },
+    {
+      "track": "HIGHEST IN THE ROOM",
+      "artists": "Travis Scott",
+      "durationMs": 175720,
+      "playedAt": "2026-06-21T02:00:41.508Z"
+    },
+    {
+      "track": "Rigamortus",
+      "artists": "Kendrick Lamar",
+      "durationMs": 168591,
+      "playedAt": "2026-06-21T01:57:51.507Z"
+    },
+    {
+      "track": "Save Room",
+      "artists": "John Legend",
+      "durationMs": 235870,
+      "playedAt": "2026-06-21T01:55:08.615Z"
+    },
+    {
+      "track": "ROLE MODEL",
+      "artists": "Brent Faiyaz",
+      "durationMs": 194009,
+      "playedAt": "2026-06-21T01:51:18.414Z"
+    },
+    {
+      "track": "COFFEE BEAN",
+      "artists": "Travis Scott",
+      "durationMs": 209115,
+      "playedAt": "2026-06-21T01:48:10.163Z"
+    },
+    {
+      "track": "Dance",
+      "artists": "Jay Safari",
+      "durationMs": 165485,
+      "playedAt": "2026-06-21T01:44:46.688Z"
+    },
+    {
+      "track": "the BLACK seminole.",
+      "artists": "Lil Yachty, Diana Gordon",
+      "durationMs": 411912,
+      "playedAt": "2026-06-21T01:41:55.924Z"
+    },
     {
       "track": "Tek It",
       "artists": "Cafuné",
@@ -2370,72 +2478,6 @@
       "artists": "Sublime",
       "durationMs": 188066,
       "playedAt": "2026-06-13T14:37:41.809Z"
-    },
-    {
-      "track": "Trey’s Song (feat. H.R.)",
-      "artists": "Sublime, H.R.",
-      "durationMs": 214653,
-      "playedAt": "2026-06-13T03:33:10.854Z"
-    },
-    {
-      "track": "Evil Men",
-      "artists": "Sublime",
-      "durationMs": 190400,
-      "playedAt": "2026-06-13T03:26:11.980Z"
-    },
-    {
-      "track": "F.T.R.",
-      "artists": "Sublime",
-      "durationMs": 184973,
-      "playedAt": "2026-06-13T03:24:43.017Z"
-    },
-    {
-      "track": "Personal Hell",
-      "artists": "Sublime",
-      "durationMs": 124373,
-      "playedAt": "2026-06-13T03:21:38.021Z"
-    },
-    {
-      "track": "Favorite Song (feat. Skegss)",
-      "artists": "Sublime, Skegss",
-      "durationMs": 171226,
-      "playedAt": "2026-06-13T03:19:33.628Z"
-    },
-    {
-      "track": "Maybe Partying Will Help…Pt. 1",
-      "artists": "Sublime",
-      "durationMs": 110013,
-      "playedAt": "2026-06-13T03:16:42.421Z"
-    },
-    {
-      "track": "Backwards (feat. Zac Carper)",
-      "artists": "Sublime, Zac Carper",
-      "durationMs": 204253,
-      "playedAt": "2026-06-13T03:14:52.431Z"
-    },
-    {
-      "track": "Can’t Miss You",
-      "artists": "Sublime",
-      "durationMs": 152826,
-      "playedAt": "2026-06-13T03:11:28.135Z"
-    },
-    {
-      "track": "Wizard",
-      "artists": "Sublime",
-      "durationMs": 119653,
-      "playedAt": "2026-06-13T03:08:55.315Z"
-    },
-    {
-      "track": "Ensenada",
-      "artists": "Sublime",
-      "durationMs": 154493,
-      "playedAt": "2026-06-13T03:06:55.692Z"
-    },
-    {
-      "track": "Gospel For A New Century",
-      "artists": "Yves Tumor",
-      "durationMs": 198626,
-      "playedAt": "2026-06-13T01:17:33.466Z"
     }
   ]
 }
