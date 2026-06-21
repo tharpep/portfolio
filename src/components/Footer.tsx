@@ -1,45 +1,65 @@
+import Link from "next/link";
+
+const links = [
+  { label: "GitHub", href: "https://github.com/tharpep", external: true },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/pryce-tharpe", external: true },
+  { label: "Email", href: "mailto:tharpep_pro@outlook.com", external: false },
+  { label: "Photography", href: "/photography", external: false },
+];
+
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
-
+  const year = new Date().getFullYear();
   return (
-    <footer className="w-full border-t border-neutral-800/50 bg-neutral-900 mt-auto">
-      <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-6">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-400">
-
-          {/* Left: Copyright */}
-          <p className="text-center sm:text-left">
-            © {currentYear} Pryce Tharpe
-          </p>
-
-          {/* Right: Links */}
-          <div className="flex items-center gap-6">
-            <a
-              href="https://github.com/tharpep"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-cyan-400 transition-colors"
-              aria-label="GitHub"
-            >
-              GitHub
-            </a>
-            <a
-              href="https://www.linkedin.com/in/pryce-tharpe"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-cyan-400 transition-colors"
-              aria-label="LinkedIn"
-            >
-              LinkedIn
-            </a>
-            <a
-              href="mailto:tharpep_pro@outlook.com"
-              className="hover:text-cyan-400 transition-colors"
-              aria-label="Email"
-            >
-              Email
-            </a>
+    <footer className="mt-auto border-t border-line">
+      <div className="mx-auto max-w-[80rem] px-5 sm:px-8 lg:px-12 py-10">
+        <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <div className="flex items-baseline gap-2">
+              <span className="font-semibold tracking-tight text-ink text-lg">Pryce Tharpe</span>
+              <span className="h-1.5 w-1.5 rounded-full bg-accent" aria-hidden />
+            </div>
+            <p className="label mt-2 normal-case tracking-[0.04em]">
+              Software engineer · West Lafayette / Indianapolis, IN
+            </p>
           </div>
+
+          <nav aria-label="Footer" className="flex flex-wrap gap-x-6 gap-y-2">
+            {links.map((l) =>
+              l.external ? (
+                <a
+                  key={l.label}
+                  href={l.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-mono text-xs uppercase tracking-[0.14em] text-ink-2 link-underline hover:text-ink"
+                >
+                  {l.label}
+                </a>
+              ) : (
+                <Link
+                  key={l.label}
+                  href={l.href}
+                  className="font-mono text-xs uppercase tracking-[0.14em] text-ink-2 link-underline hover:text-ink"
+                >
+                  {l.label}
+                </Link>
+              )
+            )}
+          </nav>
         </div>
+
+        <p className="mt-8 font-mono text-xs text-ink-3">
+          © {year} — Built with Next.js. Source on{" "}
+          <a
+            href="https://github.com/tharpep/portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link-underline hover:text-ink-2"
+          >
+            GitHub
+          </a>
+          .
+        </p>
       </div>
     </footer>
   );

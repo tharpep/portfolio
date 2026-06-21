@@ -6,8 +6,8 @@ import Footer from './Footer';
 export default function ConditionalFooter() {
   const pathname = usePathname();
 
-  // Don't show footer on homepage
-  if (pathname === '/') {
+  // Photography has its own footer and aesthetic world.
+  if (pathname.startsWith('/photography')) {
     return null;
   }
 

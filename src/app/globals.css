@@ -1,52 +1,224 @@
 @import "tailwindcss";
 
-/* ─────────── Professional Polish Styles ─────────── */
+/* ───────────────────────── Engineered-light design system ─────────────────────────
+   Swiss-precision monochrome on a true cool off-white, one draftsman-red signature.
+   Photography (/photography/*) opts out of this system and keeps its own world.
+*/
 
-:root {
-  --color-cyan: #06b6d4; /* cyan-500 */
-  --color-cyan-400: #22d3ee; /* cyan-400 */
-  --color-blue: #3b82f6; /* blue-500 */
-  --color-amber: #f59e0b; /* amber-500 */
-  --color-amber-300: #fcd34d; /* amber-300 */
+@theme {
+  /* Surfaces — true cool off-white, never cream */
+  --color-paper: oklch(0.985 0.003 250);
+  --color-paper-2: oklch(0.965 0.004 250);
+  --color-paper-3: oklch(0.93 0.005 250);
+
+  /* Ink */
+  --color-ink: oklch(0.2 0.012 260);
+  --color-ink-2: oklch(0.4 0.012 260);
+  --color-ink-3: oklch(0.5 0.01 260);
+
+  /* Lines */
+  --color-line: oklch(0.88 0.006 260);
+  --color-line-2: oklch(0.8 0.008 260);
+
+  /* Draftsman red */
+  --color-accent: oklch(0.57 0.205 27);
+  --color-accent-ink: oklch(0.515 0.19 27);
+  --color-accent-wash: oklch(0.95 0.03 27);
+
+  /* Type — Archivo carries everything; JetBrains Mono is technical metadata only */
+  --font-sans: var(--font-archivo), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-jb-mono), ui-monospace, "SF Mono", monospace;
+
+  /* Easing */
+  --ease-out-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Semantic z-index scale */
+  --z-dropdown: 30;
+  --z-sticky: 40;
+  --z-modal: 60;
+  --z-toast: 80;
 }
 
-/* Smooth scrolling for entire page */
+/* ── Base ── */
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
-/* Enhanced focus states for accessibility */
-:focus-visible {
-  outline: 2px solid var(--color-cyan);
-  outline-offset: 2px;
-  border-radius: 4px;
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv01";
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* Professional polish for selection */
 ::selection {
-  background: var(--color-cyan);
-  color: #171717;
+  background: var(--color-accent);
+  color: var(--color-paper);
 }
 
-/* Custom scrollbar for modern browsers */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 11px;
+  height: 11px;
 }
-
 ::-webkit-scrollbar-track {
-  background: #171717;
+  background: var(--color-paper);
 }
-
 ::-webkit-scrollbar-thumb {
-  background: #404040;
-  border-radius: 4px;
+  background: var(--color-line-2);
+  border: 3px solid var(--color-paper);
+  border-radius: 99px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
-  background: #525252;
+  background: var(--color-ink-3);
 }
 
-/* Respect user preference for reduced motion */
+/* ── Typographic helpers ── */
+.text-balance {
+  text-wrap: balance;
+}
+.text-pretty {
+  text-wrap: pretty;
+}
+
+.prose-read p {
+  line-height: 1.72;
+  max-width: 68ch;
+}
+
+/* Display lockup: heavy expanded Archivo, tight tracking */
+.display {
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+  font-stretch: 115%;
+  text-wrap: balance;
+}
+
+/* Mono metadata label */
+.label {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-ink-3);
+}
+
+/* Animated link underline — wipes in from left */
+.link-underline {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.4s var(--ease-out-quint);
+}
+.link-underline:hover,
+.link-underline:focus-visible {
+  background-size: 100% 1.5px;
+}
+
+/* Magnetic primary action lift */
+.btn-lift {
+  transition: transform 0.45s var(--ease-out-quint),
+    box-shadow 0.45s var(--ease-out-quint), background-color 0.25s ease;
+}
+.btn-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -12px oklch(0.2 0.012 260 / 0.45);
+}
+
+/* ── Hero entrance choreography ── */
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(1.1em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise {
+  animation: rise-in 0.9s var(--ease-out-expo) both;
+}
+
+@keyframes draw-rule {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+.draw-rule {
+  transform-origin: left;
+  animation: draw-rule 1s var(--ease-out-expo) 0.5s both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 0.8s ease-out both;
+}
+
+/* ── Scroll reveal — enhances an already-visible default ──
+   Elements render fully without JS. When JS marks the root [data-reveal-ready],
+   not-yet-seen items are offset and ease into place on intersection. */
+[data-reveal-ready] .reveal:not(.is-visible) {
+  opacity: 0;
+  transform: translateY(20px);
+}
+.reveal {
+  transition: opacity 0.7s var(--ease-out-quint),
+    transform 0.7s var(--ease-out-quint);
+  transition-delay: var(--reveal-delay, 0ms);
+}
+
+/* ── View transitions ── */
+@keyframes vt-fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+@keyframes vt-fade-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+::view-transition-old(root) {
+  animation: vt-fade-out 0.18s ease-in forwards;
+}
+::view-transition-new(root) {
+  animation: vt-fade-in 0.28s ease-out forwards;
+}
+::view-transition-old(photo-nav),
+::view-transition-new(photo-nav) {
+  animation: none;
+}
+
+/* ── Lightbox (photography) ── */
+@keyframes lightbox-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+.animate-lightbox-in {
+  animation: lightbox-in 0.2s ease-out forwards;
+}
+
+/* ── Reduced motion ── */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -56,164 +228,8 @@ html {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
-}
-
-/* Typographic rhythm for long-form content */
-.prose-relaxed p {
-  line-height: 1.8;
-  max-width: 65ch;
-}
-
-/* Fade-in animation for scroll indicator */
-@keyframes fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
+  [data-reveal-ready] .reveal:not(.is-visible) {
     opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in {
-  animation: fade-in 0.4s ease-out 1.2s both;
-}
-
-/* Respect reduced motion for fade-in */
-@media (prefers-reduced-motion: reduce) {
-  .animate-fade-in {
-    animation: none;
-    opacity: 1;
-  }
-}
-
-
-/* Scroll-triggered fade-in animations */
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fade-in-up 0.6s ease-out forwards;
-  opacity: 0;
-}
-
-/* Stagger delays for grid items */
-.delay-100 { animation-delay: 0.1s; }
-.delay-200 { animation-delay: 0.2s; }
-.delay-300 { animation-delay: 0.3s; }
-.delay-400 { animation-delay: 0.4s; }
-
-/* Pulse animation for status badges */
-@keyframes pulse-glow {
-  0%, 100% {
-    opacity: 1;
-    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
-  }
-  50% {
-    opacity: 0.9;
-    box-shadow: 0 0 0 4px rgba(16, 185, 129, 0);
-  }
-}
-
-.animate-pulse-glow {
-  animation: pulse-glow 2s ease-in-out infinite;
-}
-
-/* Subtle hover lift for cards */
-.card-lift {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.card-lift:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 10px 25px -5px rgba(6, 182, 212, 0.2);
-}
-
-/* Section header accent line animation */
-@keyframes slide-in-left {
-  from {
-    width: 0;
-    opacity: 0;
-  }
-  to {
-    width: 100%;
-    opacity: 1;
-  }
-}
-
-.section-header-accent {
-  position: relative;
-  padding-bottom: 0.5rem;
-}
-
-.section-header-accent::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  background: linear-gradient(to right, rgba(6, 182, 212, 0.5), transparent);
-  animation: slide-in-left 0.8s ease-out forwards;
-  width: 0;
-}
-
-/* ─────────── View Transitions ─────────── */
-
-@keyframes vt-fade-out {
-  from { opacity: 1; }
-  to   { opacity: 0; }
-}
-
-@keyframes vt-fade-in {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
-}
-
-::view-transition-old(root) {
-  animation: vt-fade-out 0.18s ease-in forwards;
-}
-
-::view-transition-new(root) {
-  animation: vt-fade-in 0.28s ease-out forwards;
-}
-
-/* Nav stays anchored — no crossfade on the nav element itself */
-::view-transition-old(photo-nav),
-::view-transition-new(photo-nav) {
-  animation: none;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  ::view-transition-old(root),
-  ::view-transition-new(root),
-  ::view-transition-old(photo-nav),
-  ::view-transition-new(photo-nav) {
-    animation: none;
-  }
-}
-
-/* ─────────── Lightbox ─────────── */
-
-@keyframes lightbox-in {
-  from { opacity: 0; }
-  to   { opacity: 1; }
-}
-
-.animate-lightbox-in {
-  animation: lightbox-in 0.2s ease-out forwards;
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .animate-lightbox-in {
-    animation: none;
+    transform: none;
   }
 }

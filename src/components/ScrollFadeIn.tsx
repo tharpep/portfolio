@@ -8,83 +8,63 @@ interface ScrollFadeInProps {
   className?: string;
 }
 
-// Shared IntersectionObserver singleton to reduce overhead
+// Shared IntersectionObserver so many reveals share one observer instance.
 class ScrollObserverManager {
   private observer: IntersectionObserver | null = null;
-  private callbacks: Map<Element, () => void> = new Map();
+  private callbacks = new Map<Element, () => void>();
 
-  private createObserver(): IntersectionObserver {
+  private create(): IntersectionObserver {
     return new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            const callback = this.callbacks.get(entry.target);
-            if (callback) {
-              callback();
-              this.callbacks.delete(entry.target);
-              if (this.observer) {
-                this.observer.unobserve(entry.target);
-              }
-            }
+            this.callbacks.get(entry.target)?.();
+            this.callbacks.delete(entry.target);
+            this.observer?.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.05, rootMargin: '0px 0px -100px 0px' }
+      { threshold: 0.06, rootMargin: '0px 0px -80px 0px' }
     );
   }
 
-  getObserver(): IntersectionObserver {
-    if (!this.observer) {
-      this.observer = this.createObserver();
-    }
-    return this.observer;
+  observe(el: Element, cb: () => void) {
+    if (!this.observer) this.observer = this.create();
+    this.callbacks.set(el, cb);
+    this.observer.observe(el);
   }
 
-  observe(element: Element, callback: () => void): void {
-    this.callbacks.set(element, callback);
-    this.getObserver().observe(element);
-  }
-
-  unobserve(element: Element): void {
-    this.callbacks.delete(element);
-    if (this.observer) {
-      this.observer.unobserve(element);
-    }
+  unobserve(el: Element) {
+    this.callbacks.delete(el);
+    this.observer?.unobserve(el);
   }
 }
 
-// Global singleton instance
-const observerManager = new ScrollObserverManager();
+const manager = new ScrollObserverManager();
 
-export default function ScrollFadeIn({
-  children,
-  delay = 0,
-  className = ''
-}: ScrollFadeInProps) {
-  const [isVisible, setIsVisible] = useState(false);
+/**
+ * Scroll reveal that enhances an already-visible default.
+ * Content is fully rendered server-side; the offset/fade only applies once JS has
+ * marked the document [data-reveal-ready] (see layout). Without JS, or with reduced
+ * motion, the element is simply visible.
+ */
+export default function ScrollFadeIn({ children, delay = 0, className = '' }: ScrollFadeInProps) {
   const ref = useRef<HTMLDivElement>(null);
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const element = ref.current;
-    if (!element) return;
-
-    // Immediate observation for faster fade-in
-    observerManager.observe(element, () => setIsVisible(true));
-
-    return () => {
-      if (element) {
-        observerManager.unobserve(element);
-      }
-    };
+    const el = ref.current;
+    if (!el) return;
+    // Already in view on mount? reveal immediately to avoid a flash on long pages.
+    manager.observe(el, () => setVisible(true));
+    return () => manager.unobserve(el);
   }, []);
 
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
-      } ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
+      className={`reveal ${visible ? 'is-visible' : ''} ${className}`}
+      style={{ '--reveal-delay': `${delay}ms` } as React.CSSProperties}
     >
       {children}
     </div>
