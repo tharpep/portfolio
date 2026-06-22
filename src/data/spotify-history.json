@@ -1,6 +1,30 @@
 {
-  "lastCursor": "1782130029993",
+  "lastCursor": "1782130942187",
   "plays": [
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-06-22T12:22:22.187Z"
+    },
+    {
+      "track": "In Your Eyes",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 247054,
+      "playedAt": "2026-06-22T12:18:23.585Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-06-22T12:14:22.291Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-22T12:09:54.092Z"
+    },
     {
       "track": "Seigfried",
       "artists": "Frank Ocean",
@@ -2304,90 +2328,6 @@
       "artists": "Empire Of The Sun",
       "durationMs": 204546,
       "playedAt": "2026-06-14T19:03:42.671Z"
-    },
-    {
-      "track": "The Ways (with Swae Lee)",
-      "artists": "Khalid, Swae Lee",
-      "durationMs": 238893,
-      "playedAt": "2026-06-14T17:51:03.605Z"
-    },
-    {
-      "track": "Vinta",
-      "artists": "Crumb",
-      "durationMs": 299970,
-      "playedAt": "2026-06-14T17:47:02.340Z"
-    },
-    {
-      "track": "Go Away",
-      "artists": "Yot Club",
-      "durationMs": 161941,
-      "playedAt": "2026-06-14T17:42:11.463Z"
-    },
-    {
-      "track": "Alive",
-      "artists": "Empire Of The Sun",
-      "durationMs": 204546,
-      "playedAt": "2026-06-14T17:39:35.277Z"
-    },
-    {
-      "track": "Channel 4",
-      "artists": "Yot Club",
-      "durationMs": 171274,
-      "playedAt": "2026-06-14T17:36:16.375Z"
-    },
-    {
-      "track": "BOY IN RED",
-      "artists": "Isaiah Rashad, SZA",
-      "durationMs": 189964,
-      "playedAt": "2026-06-14T17:32:42.360Z"
-    },
-    {
-      "track": "Stars",
-      "artists": "PinkPantheress",
-      "durationMs": 141866,
-      "playedAt": "2026-06-14T17:29:38.163Z"
-    },
-    {
-      "track": "Cotton",
-      "artists": "Vince Staples",
-      "durationMs": 223800,
-      "playedAt": "2026-06-14T17:27:21.977Z"
-    },
-    {
-      "track": "Cotton",
-      "artists": "Vince Staples",
-      "durationMs": 223800,
-      "playedAt": "2026-06-14T17:25:02.857Z"
-    },
-    {
-      "track": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "durationMs": 184761,
-      "playedAt": "2026-06-14T14:31:33.113Z"
-    },
-    {
-      "track": "Bags",
-      "artists": "Clairo",
-      "durationMs": 260519,
-      "playedAt": "2026-06-14T14:28:34.071Z"
-    },
-    {
-      "track": "Alive",
-      "artists": "Empire Of The Sun",
-      "durationMs": 204546,
-      "playedAt": "2026-06-14T14:24:19.240Z"
-    },
-    {
-      "track": "the perfect pair",
-      "artists": "beabadoobee",
-      "durationMs": 177533,
-      "playedAt": "2026-06-14T14:21:00.413Z"
-    },
-    {
-      "track": "Bags",
-      "artists": "Clairo",
-      "durationMs": 260519,
-      "playedAt": "2026-06-14T14:18:08.499Z"
     }
   ]
 }
