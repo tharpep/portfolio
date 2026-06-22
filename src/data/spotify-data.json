@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T23:16:10.338306Z",
+  "lastUpdated": "2026-06-22T04:27:07.318765Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -12,14 +12,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     },
     {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
-    {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
       "name": "A$AP Rocky",
@@ -35,16 +35,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
-      "name": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
-    },
-    {
       "name": "Stars",
       "artists": "PinkPantheress",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
+    },
+    {
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     },
     {
       "name": "The Running Man",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 65629375,
-    "trackCount": 323
+    "totalMs": 4270826,
+    "trackCount": 17
   },
   "ytdListening": {
-    "totalMs": 1579854568,
-    "trackCount": 7596
+    "totalMs": 1585273644,
+    "trackCount": 7619
   }
 }

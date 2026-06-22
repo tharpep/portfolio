@@ -223,6 +223,22 @@
         "name": "PinkPantheress",
         "plays": 28
       }
+    },
+    {
+      "week": "2026-W25",
+      "weekStart": "2026-06-15",
+      "weekEnd": "2026-06-21",
+      "totalMs": 66777625,
+      "trackCount": 329,
+      "topTrack": {
+        "name": "Stars",
+        "artists": "PinkPantheress",
+        "plays": 8
+      },
+      "topArtist": {
+        "name": "Vince Staples",
+        "plays": 19
+      }
     }
   ]
 }
