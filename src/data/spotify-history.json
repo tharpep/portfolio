@@ -1,6 +1,66 @@
 {
-  "lastCursor": "1782218557038",
+  "lastCursor": "1782251190108",
   "plays": [
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-06-23T21:46:30.108Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-06-23T21:41:28.912Z"
+    },
+    {
+      "track": "Balloon (feat. Doechii)",
+      "artists": "Tyler, The Creator, Doechii",
+      "durationMs": 154261,
+      "playedAt": "2026-06-23T21:38:12.512Z"
+    },
+    {
+      "track": "Long Live A$AP",
+      "artists": "A$AP Rocky",
+      "durationMs": 289586,
+      "playedAt": "2026-06-23T21:35:44.018Z"
+    },
+    {
+      "track": "Fuck Tha World",
+      "artists": "Dreamer Isioma",
+      "durationMs": 141538,
+      "playedAt": "2026-06-23T21:30:48.469Z"
+    },
+    {
+      "track": "To Ease You",
+      "artists": "Men I Trust",
+      "durationMs": 192798,
+      "playedAt": "2026-06-23T21:28:32.712Z"
+    },
+    {
+      "track": "The Ballad of Matt & Mica",
+      "artists": "Magdalena Bay",
+      "durationMs": 240000,
+      "playedAt": "2026-06-23T21:25:19.317Z"
+    },
+    {
+      "track": "Hummer",
+      "artists": "Tame Impala",
+      "durationMs": 361631,
+      "playedAt": "2026-06-23T21:21:25.022Z"
+    },
+    {
+      "track": "New Era",
+      "artists": "JPEGMAFIA",
+      "durationMs": 147135,
+      "playedAt": "2026-06-23T21:15:29.127Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-06-23T21:12:54.859Z"
+    },
     {
       "track": "Veridis Quo",
       "artists": "Daft Punk",
@@ -2142,18 +2202,6 @@
       "artists": "Kid Cudi",
       "durationMs": 259040,
       "playedAt": "2026-06-15T23:43:08.591Z"
-    },
-    {
-      "track": "Balloon (feat. Doechii)",
-      "artists": "Tyler, The Creator, Doechii",
-      "durationMs": 154261,
-      "playedAt": "2026-06-15T20:56:48.418Z"
-    },
-    {
-      "track": "Balloon (feat. Doechii)",
-      "artists": "Tyler, The Creator, Doechii",
-      "durationMs": 154261,
-      "playedAt": "2026-06-15T20:52:56.570Z"
     }
   ]
 }
