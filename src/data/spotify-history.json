@@ -1,6 +1,54 @@
 {
-  "lastCursor": "1782187505832",
+  "lastCursor": "1782218557038",
   "plays": [
+    {
+      "track": "Veridis Quo",
+      "artists": "Daft Punk",
+      "durationMs": 345186,
+      "playedAt": "2026-06-23T12:42:37.038Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-06-23T12:36:57.561Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-06-23T12:33:55.447Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-06-23T12:29:01.297Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-06-23T12:25:21.257Z"
+    },
+    {
+      "track": "Hummer",
+      "artists": "Tame Impala",
+      "durationMs": 361631,
+      "playedAt": "2026-06-23T12:22:37.065Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-06-23T12:16:41.167Z"
+    },
+    {
+      "track": "Metamodernity",
+      "artists": "Vansire",
+      "durationMs": 162663,
+      "playedAt": "2026-06-23T12:14:03.169Z"
+    },
     {
       "track": "Metamodernity",
       "artists": "Vansire",
@@ -2106,54 +2154,6 @@
       "artists": "Tyler, The Creator, Doechii",
       "durationMs": 154261,
       "playedAt": "2026-06-15T20:52:56.570Z"
-    },
-    {
-      "track": "LOVE. FEAT. ZACARI.",
-      "artists": "Kendrick Lamar, Zacari",
-      "durationMs": 213400,
-      "playedAt": "2026-06-15T12:23:52.287Z"
-    },
-    {
-      "track": "By Design",
-      "artists": "Kid Cudi, André Benjamin",
-      "durationMs": 257053,
-      "playedAt": "2026-06-15T12:20:24.599Z"
-    },
-    {
-      "track": "Each Day Gets Better",
-      "artists": "John Legend",
-      "durationMs": 228004,
-      "playedAt": "2026-06-15T12:15:50.180Z"
-    },
-    {
-      "track": "Husk",
-      "artists": "Men I Trust",
-      "durationMs": 204651,
-      "playedAt": "2026-06-15T12:12:07.941Z"
-    },
-    {
-      "track": "4th Dimension",
-      "artists": "KIDS SEE GHOSTS, Louis Prima",
-      "durationMs": 153351,
-      "playedAt": "2026-06-15T12:08:43.143Z"
-    },
-    {
-      "track": "That's My Floor",
-      "artists": "Magdalena Bay",
-      "durationMs": 209800,
-      "playedAt": "2026-06-15T12:05:31.388Z"
-    },
-    {
-      "track": "The Big Bad Wolf",
-      "artists": "Vince Staples",
-      "durationMs": 132413,
-      "playedAt": "2026-06-15T12:02:07.296Z"
-    },
-    {
-      "track": "Only",
-      "artists": "Sampha",
-      "durationMs": 169590,
-      "playedAt": "2026-06-15T12:00:00.594Z"
     }
   ]
 }
