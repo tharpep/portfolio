@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1782579949929",
+  "lastCursor": "1782581813022",
   "plays": [
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-06-27T17:36:53.022Z"
+    },
     {
       "track": "Cranekiss",
       "artists": "Tamaryn",
@@ -2286,54 +2292,6 @@
       "artists": "Baby Keem",
       "durationMs": 155153,
       "playedAt": "2026-06-19T22:13:13.190Z"
-    },
-    {
-      "track": "Low",
-      "artists": "SZA",
-      "durationMs": 181080,
-      "playedAt": "2026-06-19T18:58:58.610Z"
-    },
-    {
-      "track": "Hurts Me",
-      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
-      "durationMs": 140800,
-      "playedAt": "2026-06-19T18:52:19.207Z"
-    },
-    {
-      "track": "Sweet Life",
-      "artists": "Frank Ocean",
-      "durationMs": 262680,
-      "playedAt": "2026-06-19T18:50:07.011Z"
-    },
-    {
-      "track": "Basement Jack",
-      "artists": "Steve Lacy",
-      "durationMs": 109818,
-      "playedAt": "2026-06-19T18:45:50.044Z"
-    },
-    {
-      "track": "Looking Out for You",
-      "artists": "Joy Again",
-      "durationMs": 179499,
-      "playedAt": "2026-06-19T18:44:06.014Z"
-    },
-    {
-      "track": "Mind Fields",
-      "artists": "No Vacation",
-      "durationMs": 272625,
-      "playedAt": "2026-06-19T18:41:06.382Z"
-    },
-    {
-      "track": "Wake Up",
-      "artists": "Kowloon",
-      "durationMs": 239351,
-      "playedAt": "2026-06-19T18:36:42.118Z"
-    },
-    {
-      "track": "Wake Up",
-      "artists": "Kowloon",
-      "durationMs": 239351,
-      "playedAt": "2026-06-19T18:35:08.853Z"
     }
   ]
 }
