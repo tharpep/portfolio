@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T08:54:57.735336Z",
+  "lastUpdated": "2026-06-28T11:47:29.331068Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -12,14 +12,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     },
     {
-      "name": "Tame Impala",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
-      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
-    },
-    {
       "name": "Magdalena Bay",
       "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     },
     {
       "name": "A$AP Rocky",
