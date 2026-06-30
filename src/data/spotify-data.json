@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:56:49.888015Z",
+  "lastUpdated": "2026-06-30T20:06:09.471648Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
     },
     {
-      "name": "Cotton",
-      "artists": "Vince Staples",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-      "spotifyUrl": "https://open.spotify.com/track/2rBesRD5DkpI0dyjmXV7lf"
+      "name": "Alive",
+      "artists": "Empire Of The Sun",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
+      "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 4230319,
-    "trackCount": 21
+    "totalMs": 4456066,
+    "trackCount": 22
   },
   "ytdListening": {
-    "totalMs": 1646972723,
-    "trackCount": 7905
+    "totalMs": 1647198470,
+    "trackCount": 7906
   }
 }
