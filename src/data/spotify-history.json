@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1782858746813",
+  "lastCursor": "1782881674940",
   "plays": [
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-01T04:54:34.940Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-01T04:38:50.541Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-01T04:31:47.186Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-01T04:28:04.091Z"
+    },
+    {
+      "track": "Tonight",
+      "artists": "PinkPantheress",
+      "durationMs": 174880,
+      "playedAt": "2026-07-01T04:22:36.807Z"
+    },
     {
       "track": "Radio",
       "artists": "Bershy",
@@ -1548,12 +1578,6 @@
       "artists": "Vansire",
       "durationMs": 162663,
       "playedAt": "2026-06-23T12:14:03.169Z"
-    },
-    {
-      "track": "Metamodernity",
-      "artists": "Vansire",
-      "durationMs": 162663,
-      "playedAt": "2026-06-23T04:05:05.832Z"
     }
   ]
 }
