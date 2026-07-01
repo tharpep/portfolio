@@ -1,6 +1,12 @@
 {
-  "lastCursor": "1782923802242",
+  "lastCursor": "1782942272436",
   "plays": [
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-01T21:44:32.436Z"
+    },
     {
       "track": "Tonight",
       "artists": "PinkPantheress",
@@ -1488,12 +1494,6 @@
       "artists": "Leon Thomas",
       "durationMs": 194247,
       "playedAt": "2026-06-23T23:33:33.373Z"
-    },
-    {
-      "track": "The Look",
-      "artists": "Metronomy",
-      "durationMs": 277653,
-      "playedAt": "2026-06-23T21:46:30.108Z"
     }
   ]
 }
