@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T19:25:19.257326Z",
+  "lastUpdated": "2026-07-03T21:08:51.665422Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,16 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
     },
     {
-      "name": "The Running Man",
-      "artists": "Vince Staples",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
-      "spotifyUrl": "https://open.spotify.com/track/1ahEKwjsXeVxsiTtbzdlkh"
-    },
-    {
       "name": "Alive",
       "artists": "Empire Of The Sun",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
       "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
+    },
+    {
+      "name": "Cotton",
+      "artists": "Vince Staples",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273dd168c97fdd98891f1f5ca26",
+      "spotifyUrl": "https://open.spotify.com/track/2rBesRD5DkpI0dyjmXV7lf"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 15477941,
-    "trackCount": 75
+    "totalMs": 18497067,
+    "trackCount": 89
   },
   "ytdListening": {
-    "totalMs": 1658220345,
-    "trackCount": 7959
+    "totalMs": 1661239471,
+    "trackCount": 7973
   }
 }
