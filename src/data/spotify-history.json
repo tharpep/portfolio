@@ -1,6 +1,72 @@
 {
-  "lastCursor": "1783264352228",
+  "lastCursor": "1783266904040",
   "plays": [
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-05T15:55:04.040Z"
+    },
+    {
+      "track": "Tonight",
+      "artists": "PinkPantheress",
+      "durationMs": 174880,
+      "playedAt": "2026-07-05T15:51:13.397Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-05T15:48:24.137Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-05T15:45:08.478Z"
+    },
+    {
+      "track": "Love That You Try",
+      "artists": "Vansire, BERÜ",
+      "durationMs": 168292,
+      "playedAt": "2026-07-05T15:42:52.423Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-05T15:40:09.839Z"
+    },
+    {
+      "track": "swim",
+      "artists": "Night Tapes",
+      "durationMs": 371887,
+      "playedAt": "2026-07-05T15:37:22.038Z"
+    },
+    {
+      "track": "Eleven Weeks",
+      "artists": "Vansire",
+      "durationMs": 185682,
+      "playedAt": "2026-07-05T15:31:15.839Z"
+    },
+    {
+      "track": "Cozy",
+      "artists": "Operelly",
+      "durationMs": 191000,
+      "playedAt": "2026-07-05T15:28:15.793Z"
+    },
+    {
+      "track": "Everybody Wants To Rule The World",
+      "artists": "Tears For Fears",
+      "durationMs": 251488,
+      "playedAt": "2026-07-05T15:21:41.539Z"
+    },
+    {
+      "track": "Head Over Heels - Dave Bascombe 7\" N.Mix",
+      "artists": "Tears For Fears, Dave Bascombe",
+      "durationMs": 257315,
+      "playedAt": "2026-07-05T15:17:35.843Z"
+    },
     {
       "track": "See You in Everyone",
       "artists": "Acopia",
@@ -1644,48 +1710,6 @@
       "artists": "Shelly",
       "durationMs": 228692,
       "playedAt": "2026-06-27T17:36:53.022Z"
-    },
-    {
-      "track": "Cranekiss",
-      "artists": "Tamaryn",
-      "durationMs": 230408,
-      "playedAt": "2026-06-27T17:05:49.929Z"
-    },
-    {
-      "track": "Steeeam",
-      "artists": "Shelly",
-      "durationMs": 170892,
-      "playedAt": "2026-06-27T17:02:05.236Z"
-    },
-    {
-      "track": "Lucky",
-      "artists": "Tyzo Bloom, Freak Slug",
-      "durationMs": 171111,
-      "playedAt": "2026-06-27T16:59:20.102Z"
-    },
-    {
-      "track": "Cross Your Mind",
-      "artists": "Shelly",
-      "durationMs": 228692,
-      "playedAt": "2026-06-27T16:34:59.958Z"
-    },
-    {
-      "track": "Runner",
-      "artists": "Tennis",
-      "durationMs": 216960,
-      "playedAt": "2026-06-27T16:31:16.866Z"
-    },
-    {
-      "track": "Drive",
-      "artists": "Fousheé",
-      "durationMs": 179026,
-      "playedAt": "2026-06-27T15:32:26.556Z"
-    },
-    {
-      "track": "Fall In Love",
-      "artists": "Phantogram",
-      "durationMs": 223226,
-      "playedAt": "2026-06-27T15:29:33.297Z"
     }
   ]
 }
