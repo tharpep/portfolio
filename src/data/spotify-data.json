@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T21:02:20.433379Z",
+  "lastUpdated": "2026-07-05T23:02:15.970074Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,22 +41,22 @@
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
-      "name": "Stateside + Zara Larsson",
-      "artists": "PinkPantheress, Zara Larsson",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
-      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
-    },
-    {
       "name": "Alive",
       "artists": "Empire Of The Sun",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
       "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
     },
     {
-      "name": "Eyes Off You",
-      "artists": "Tokyo Tea Room",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27316826efe06d6ee121808f6ed",
-      "spotifyUrl": "https://open.spotify.com/track/6tnqBTSp8YM622LKgdvxSJ"
+      "name": "Stateside + Zara Larsson",
+      "artists": "PinkPantheress, Zara Larsson",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273684ecc5bc1b724d0106ad694",
+      "spotifyUrl": "https://open.spotify.com/track/1DwscornXpj8fmOmYVlqZt"
+    },
+    {
+      "name": "Fall In Love",
+      "artists": "Phantogram",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732b9ba6e48a59fedf157ce0f0",
+      "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
   },
   "weeklyListening": {
-    "totalMs": 47336574,
-    "trackCount": 227
+    "totalMs": 49144156,
+    "trackCount": 236
   },
   "ytdListening": {
-    "totalMs": 1690078978,
-    "trackCount": 8111
+    "totalMs": 1691886560,
+    "trackCount": 8120
   }
 }
