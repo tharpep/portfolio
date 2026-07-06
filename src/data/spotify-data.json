@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T08:22:05.693559Z",
+  "lastUpdated": "2026-07-06T13:47:09.896923Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
-      "name": "Bags",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
-      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
-    },
-    {
       "name": "Alive",
       "artists": "Empire Of The Sun",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
@@ -53,10 +47,16 @@
       "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     },
     {
-      "name": "Eyes Off You",
-      "artists": "Tokyo Tea Room",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27316826efe06d6ee121808f6ed",
-      "spotifyUrl": "https://open.spotify.com/track/6tnqBTSp8YM622LKgdvxSJ"
+      "name": "Bags",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+    },
+    {
+      "name": "Runner",
+      "artists": "Tennis",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734d92121bb9cdcf786a8b6df9",
+      "spotifyUrl": "https://open.spotify.com/track/4jqRdSypASxBTvuAs4g7KI"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
   },
   "weeklyListening": {
-    "totalMs": 273864,
-    "trackCount": 1
+    "totalMs": 1776323,
+    "trackCount": 8
   },
   "ytdListening": {
-    "totalMs": 1692594663,
-    "trackCount": 8123
+    "totalMs": 1694097122,
+    "trackCount": 8130
   }
 }
