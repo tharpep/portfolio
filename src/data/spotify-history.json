@@ -1,6 +1,54 @@
 {
-  "lastCursor": "1783342066910",
+  "lastCursor": "1783355383432",
   "plays": [
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-06T16:29:43.432Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-06T16:26:15.766Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-06T16:23:22.467Z"
+    },
+    {
+      "track": "Love That You Try",
+      "artists": "Vansire, BERÜ",
+      "durationMs": 168292,
+      "playedAt": "2026-07-06T16:19:44.901Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-06T16:17:02.368Z"
+    },
+    {
+      "track": "Mindflower",
+      "artists": "Now Always Fades",
+      "durationMs": 254535,
+      "playedAt": "2026-07-06T16:14:14.472Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-06T16:10:05.649Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-06T16:06:22.684Z"
+    },
     {
       "track": "Snap My Finger (feat. PinkPantheress)",
       "artists": "KAYTRANADA, PinkPantheress",
@@ -1476,42 +1524,6 @@
       "artists": "Phantogram",
       "durationMs": 223226,
       "playedAt": "2026-06-29T05:27:29.140Z"
-    },
-    {
-      "track": "The Complete Knock",
-      "artists": "Blood Orange",
-      "durationMs": 303533,
-      "playedAt": "2026-06-28T15:20:00.133Z"
-    },
-    {
-      "track": "The Complete Knock",
-      "artists": "Blood Orange",
-      "durationMs": 303533,
-      "playedAt": "2026-06-28T15:03:16.043Z"
-    },
-    {
-      "track": "Warning Sign",
-      "artists": "Hannah Jadagu",
-      "durationMs": 206012,
-      "playedAt": "2026-06-28T14:28:08.662Z"
-    },
-    {
-      "track": "My Love",
-      "artists": "Hannah Jadagu",
-      "durationMs": 164956,
-      "playedAt": "2026-06-28T14:24:48.294Z"
-    },
-    {
-      "track": "Killshot",
-      "artists": "Magdalena Bay",
-      "durationMs": 236363,
-      "playedAt": "2026-06-28T14:22:09.070Z"
-    },
-    {
-      "track": "Steeeam",
-      "artists": "Shelly",
-      "durationMs": 170892,
-      "playedAt": "2026-06-28T14:01:06.337Z"
     }
   ]
 }
