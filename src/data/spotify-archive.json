@@ -255,6 +255,22 @@
         "name": "Shelly",
         "plays": 14
       }
+    },
+    {
+      "week": "2026-W27",
+      "weekStart": "2026-06-29",
+      "weekEnd": "2026-07-05",
+      "totalMs": 49578395,
+      "trackCount": 238,
+      "topTrack": {
+        "name": "Drive",
+        "artists": "Fousheé",
+        "plays": 11
+      },
+      "topArtist": {
+        "name": "PinkPantheress",
+        "plays": 15
+      }
     }
   ]
 }
