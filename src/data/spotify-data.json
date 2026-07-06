@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T16:52:20.835179Z",
+  "lastUpdated": "2026-07-06T20:00:04.505439Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,12 +35,6 @@
       "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
-      "name": "Alive",
-      "artists": "Empire Of The Sun",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
-      "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
-    },
-    {
       "name": "Fall In Love",
       "artists": "Phantogram",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2732b9ba6e48a59fedf157ce0f0",
@@ -51,6 +45,12 @@
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+    },
+    {
+      "name": "Alive",
+      "artists": "Empire Of The Sun",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
+      "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
     },
     {
       "name": "Runner",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
   },
   "weeklyListening": {
-    "totalMs": 3456987,
-    "trackCount": 16
+    "totalMs": 6854897,
+    "trackCount": 33
   },
   "ytdListening": {
-    "totalMs": 1695777786,
-    "trackCount": 8138
+    "totalMs": 1699175696,
+    "trackCount": 8155
   }
 }
