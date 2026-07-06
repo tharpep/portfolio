@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T21:43:54.715150Z",
+  "lastUpdated": "2026-07-06T23:09:43.238910Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     },
     {
-      "name": "Bags",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
-      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
-    },
-    {
       "name": "Alive",
       "artists": "Empire Of The Sun",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
       "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
+    },
+    {
+      "name": "Bags",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
       "name": "Runner",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
   },
   "weeklyListening": {
-    "totalMs": 8474363,
-    "trackCount": 40
+    "totalMs": 9859725,
+    "trackCount": 47
   },
   "ytdListening": {
-    "totalMs": 1700795162,
-    "trackCount": 8162
+    "totalMs": 1702180524,
+    "trackCount": 8169
   }
 }
