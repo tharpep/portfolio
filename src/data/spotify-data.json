@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T21:25:41.040834Z",
+  "lastUpdated": "2026-07-07T23:03:30.558932Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -17,23 +17,17 @@
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
-      "name": "Tame Impala",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
-      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
-    },
-    {
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
+    },
+    {
+      "name": "Tame Impala",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
+      "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
     }
   ],
   "topTracksWeek": [
-    {
-      "name": "Stars",
-      "artists": "PinkPantheress",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
-      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
-    },
     {
       "name": "Fall In Love",
       "artists": "Phantogram",
@@ -41,10 +35,10 @@
       "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     },
     {
-      "name": "Bags",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
-      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+      "name": "Stars",
+      "artists": "PinkPantheress",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
+      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     },
     {
       "name": "Runner",
@@ -57,20 +51,26 @@
       "artists": "Fousheé",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
       "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
+    },
+    {
+      "name": "Bags",
+      "artists": "Clairo",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
+      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     }
   ],
   "topTrackDay": {
-    "name": "Stars",
-    "artists": "PinkPantheress",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
-    "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
+    "name": "Fall In Love",
+    "artists": "Phantogram",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732b9ba6e48a59fedf157ce0f0",
+    "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 27201259,
-    "trackCount": 133
+    "totalMs": 28842138,
+    "trackCount": 140
   },
   "ytdListening": {
-    "totalMs": 1719522058,
-    "trackCount": 8255
+    "totalMs": 1721162937,
+    "trackCount": 8262
   }
 }
