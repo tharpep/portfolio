@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T18:01:08.258635Z",
+  "lastUpdated": "2026-07-07T21:25:41.040834Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/4jqRdSypASxBTvuAs4g7KI"
     },
     {
-      "name": "Alive",
-      "artists": "Empire Of The Sun",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273cf06b7a58c6bf3e90102bf05",
-      "spotifyUrl": "https://open.spotify.com/track/2O9O26335YYVckmRgPKY3s"
+      "name": "Drive",
+      "artists": "Fousheé",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
+      "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
   },
   "weeklyListening": {
-    "totalMs": 23112168,
-    "trackCount": 112
+    "totalMs": 27201259,
+    "trackCount": 133
   },
   "ytdListening": {
-    "totalMs": 1715432967,
-    "trackCount": 8234
+    "totalMs": 1719522058,
+    "trackCount": 8255
   }
 }
