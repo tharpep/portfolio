@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T17:57:23.051113Z",
+  "lastUpdated": "2026-07-09T19:57:13.772499Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -12,14 +12,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
     },
     {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
-    {
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
       "name": "Tame Impala",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 61386993,
-    "trackCount": 304
+    "totalMs": 66815964,
+    "trackCount": 330
   },
   "ytdListening": {
-    "totalMs": 1753707792,
-    "trackCount": 8426
+    "totalMs": 1759136763,
+    "trackCount": 8452
   }
 }
