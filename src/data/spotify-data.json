@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T21:06:48.197385Z",
+  "lastUpdated": "2026-07-10T22:59:46.090361Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -35,28 +35,28 @@
       "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     },
     {
-      "name": "Drive",
-      "artists": "Fousheé",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
-      "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
-    },
-    {
       "name": "Runner",
       "artists": "Tennis",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2734d92121bb9cdcf786a8b6df9",
       "spotifyUrl": "https://open.spotify.com/track/4jqRdSypASxBTvuAs4g7KI"
     },
     {
-      "name": "Stars",
-      "artists": "PinkPantheress",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
-      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
+      "name": "Drive",
+      "artists": "Fousheé",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
+      "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
     },
     {
       "name": "Bags",
       "artists": "Clairo",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+    },
+    {
+      "name": "Stars",
+      "artists": "PinkPantheress",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
+      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 78339734,
-    "trackCount": 387
+    "totalMs": 81546626,
+    "trackCount": 403
   },
   "ytdListening": {
-    "totalMs": 1770660533,
-    "trackCount": 8509
+    "totalMs": 1773867425,
+    "trackCount": 8525
   }
 }
