@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T03:30:45.058937Z",
+  "lastUpdated": "2026-07-10T07:37:24.180194Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -17,14 +17,14 @@
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
     },
     {
-      "name": "Magdalena Bay",
-      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
-      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
-    },
-    {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
       "spotifyUrl": "https://open.spotify.com/artist/5INjqkS1o8h1imAzPqGZBb"
+    },
+    {
+      "name": "Magdalena Bay",
+      "image": "https://i.scdn.co/image/ab6761610000e5eb8257ff04aaf62d848030efeb",
+      "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     }
   ],
   "topTracksWeek": [
