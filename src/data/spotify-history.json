@@ -1,6 +1,42 @@
 {
-  "lastCursor": "1783866893144",
+  "lastCursor": "1783885390715",
   "plays": [
+    {
+      "track": "You Look Well",
+      "artists": "SALES",
+      "durationMs": 193972,
+      "playedAt": "2026-07-12T19:43:10.715Z"
+    },
+    {
+      "track": "Spiral",
+      "artists": "SALES",
+      "durationMs": 251400,
+      "playedAt": "2026-07-12T19:39:56.781Z"
+    },
+    {
+      "track": "All I Did Was Dream of You (feat. The Marías)",
+      "artists": "beabadoobee, The Marías",
+      "durationMs": 223788,
+      "playedAt": "2026-07-12T19:33:18.377Z"
+    },
+    {
+      "track": "Care",
+      "artists": "beabadoobee",
+      "durationMs": 194994,
+      "playedAt": "2026-07-12T19:23:58.642Z"
+    },
+    {
+      "track": "Need Your Love",
+      "artists": "Tennis",
+      "durationMs": 231080,
+      "playedAt": "2026-07-12T19:18:39.945Z"
+    },
+    {
+      "track": "Always The Same",
+      "artists": "Tennis",
+      "durationMs": 197155,
+      "playedAt": "2026-07-12T19:14:37.442Z"
+    },
     {
       "track": "Care",
       "artists": "Freak Slug",
