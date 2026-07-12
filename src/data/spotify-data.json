@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T22:50:47.728694Z",
+  "lastUpdated": "2026-07-12T02:55:16.265524Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
     },
     {
-      "name": "Stars",
-      "artists": "PinkPantheress",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732a6a5bd7ec690d91a384245d",
-      "spotifyUrl": "https://open.spotify.com/track/0ZzHRRPxUmNVr4vWNnlDAe"
+      "name": "New Era",
+      "artists": "JPEGMAFIA",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731733a57968880caab654ce27",
+      "spotifyUrl": "https://open.spotify.com/track/5eQkRSI6Nrgt0NOCEAifMT"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 87425931,
-    "trackCount": 433
+    "totalMs": 89636798,
+    "trackCount": 445
   },
   "ytdListening": {
-    "totalMs": 1779746730,
-    "trackCount": 8555
+    "totalMs": 1781957597,
+    "trackCount": 8567
   }
 }
