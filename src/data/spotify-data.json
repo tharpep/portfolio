@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T13:23:21.481944Z",
+  "lastUpdated": "2026-07-12T14:57:58.994502Z",
   "topArtistsYear": [
     {
       "name": "Men I Trust",
@@ -47,10 +47,10 @@
       "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
     },
     {
-      "name": "Bags",
-      "artists": "Clairo",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2733e4fc846c2b52b9cb6ff2e1f",
-      "spotifyUrl": "https://open.spotify.com/track/1wicceeNVtcnym2YjiOmyj"
+      "name": "Spiral Stairs",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27379277920da40e1c07da8f811",
+      "spotifyUrl": "https://open.spotify.com/track/6ODsBcPNsjqHzxrhmsPWLD"
     },
     {
       "name": "New Era",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 90016726,
-    "trackCount": 447
+    "totalMs": 94375419,
+    "trackCount": 468
   },
   "ytdListening": {
-    "totalMs": 1782337525,
-    "trackCount": 8569
+    "totalMs": 1786696218,
+    "trackCount": 8590
   }
 }

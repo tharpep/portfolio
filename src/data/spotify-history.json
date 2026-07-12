@@ -1,6 +1,132 @@
 {
-  "lastCursor": "1783862520015",
+  "lastCursor": "1783866893144",
   "plays": [
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-07-12T14:34:53.144Z"
+    },
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-07-12T14:31:19.050Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-07-12T14:29:04.973Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-07-12T14:23:52.364Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-12T14:20:35.565Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-07-12T14:15:56.464Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-12T14:13:16.651Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-07-12T14:10:12.369Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-07-12T14:05:57.559Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-12T14:02:19.486Z"
+    },
+    {
+      "track": "Steeeam",
+      "artists": "Shelly",
+      "durationMs": 170892,
+      "playedAt": "2026-07-12T13:58:34.768Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-12T13:55:49.564Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-12T13:52:18.311Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-12T13:49:25.065Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-12T13:45:34.364Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-12T13:41:51.370Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-12T13:38:13.916Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-12T13:35:57.767Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-12T13:33:06.671Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-12T13:30:32.466Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-12T13:26:58.859Z"
+    },
     {
       "track": "BOY IN RED",
       "artists": "Isaiah Rashad, SZA",
@@ -3570,12 +3696,6 @@
       "artists": "Metric, Brie Larson",
       "durationMs": 294065,
       "playedAt": "2026-07-04T15:38:03.355Z"
-    },
-    {
-      "track": "Come On (Let the Good Times Roll)",
-      "artists": "Jimi Hendrix",
-      "durationMs": 249373,
-      "playedAt": "2026-07-04T14:56:00.254Z"
     }
   ]
 }
