@@ -271,6 +271,22 @@
         "name": "PinkPantheress",
         "plays": 15
       }
+    },
+    {
+      "week": "2026-W28",
+      "weekStart": "2026-07-06",
+      "weekEnd": "2026-07-12",
+      "totalMs": 95667808,
+      "trackCount": 474,
+      "topTrack": {
+        "name": "Runner",
+        "artists": "Tennis",
+        "plays": 16
+      },
+      "topArtist": {
+        "name": "SALES",
+        "plays": 51
+      }
     }
   ]
 }
