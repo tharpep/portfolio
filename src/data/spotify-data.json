@@ -1,15 +1,15 @@
 {
-  "lastUpdated": "2026-07-14T21:01:31.383883Z",
+  "lastUpdated": "2026-07-14T22:57:15.384565Z",
   "topArtistsYear": [
-    {
-      "name": "Men I Trust",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
-      "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
-    },
     {
       "name": "JPEGMAFIA",
       "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
       "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+    },
+    {
+      "name": "Men I Trust",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
+      "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
     },
     {
       "name": "A$AP Rocky",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 31817118,
-    "trackCount": 144
+    "totalMs": 33077913,
+    "trackCount": 150
   },
   "ytdListening": {
-    "totalMs": 1819805725,
-    "trackCount": 8740
+    "totalMs": 1821066520,
+    "trackCount": 8746
   }
 }
