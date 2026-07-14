@@ -1,6 +1,102 @@
 {
-  "lastCursor": "1783986968460",
+  "lastCursor": "1784033732567",
   "plays": [
+    {
+      "track": "TODAY",
+      "artists": "Q",
+      "durationMs": 241666,
+      "playedAt": "2026-07-14T12:55:32.567Z"
+    },
+    {
+      "track": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+      "artists": "A$AP Rocky, Joe Fox, Kanye West",
+      "durationMs": 323962,
+      "playedAt": "2026-07-14T12:51:36.469Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-07-14T12:46:18.269Z"
+    },
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-07-14T12:38:51.481Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-14T12:37:20.520Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-07-14T12:33:19.389Z"
+    },
+    {
+      "track": "Fear, Sex",
+      "artists": "Magdalena Bay",
+      "durationMs": 152053,
+      "playedAt": "2026-07-14T12:30:04.976Z"
+    },
+    {
+      "track": "Like Him (feat. Lola Young)",
+      "artists": "Tyler, The Creator, Lola Young",
+      "durationMs": 278014,
+      "playedAt": "2026-07-14T12:27:38.694Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-14T12:22:52.401Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-14T12:21:15.689Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-14T12:19:13.485Z"
+    },
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-07-14T12:16:20.400Z"
+    },
+    {
+      "track": "Golden",
+      "artists": "Berhana",
+      "durationMs": 119652,
+      "playedAt": "2026-07-14T12:11:43.660Z"
+    },
+    {
+      "track": "The Dress",
+      "artists": "Dijon",
+      "durationMs": 184767,
+      "playedAt": "2026-07-14T12:09:40.962Z"
+    },
+    {
+      "track": "Obscenery",
+      "artists": "Queens of the Stone Age",
+      "durationMs": 263209,
+      "playedAt": "2026-07-14T03:27:00.343Z"
+    },
+    {
+      "track": "Head Like A Haunted House",
+      "artists": "Queens of the Stone Age",
+      "durationMs": 200810,
+      "playedAt": "2026-07-14T03:27:00.343Z"
+    },
     {
       "track": "Drive",
       "artists": "Fousheé",
@@ -3018,48 +3114,6 @@
       "artists": "Magdalena Bay",
       "durationMs": 236363,
       "playedAt": "2026-07-06T16:06:22.684Z"
-    },
-    {
-      "track": "Snap My Finger (feat. PinkPantheress)",
-      "artists": "KAYTRANADA, PinkPantheress",
-      "durationMs": 201371,
-      "playedAt": "2026-07-06T12:47:46.910Z"
-    },
-    {
-      "track": "Sun Has Set",
-      "artists": "beabadoobee",
-      "durationMs": 141804,
-      "playedAt": "2026-07-06T12:44:31.209Z"
-    },
-    {
-      "track": "Love That You Try",
-      "artists": "Vansire, BERÜ",
-      "durationMs": 168292,
-      "playedAt": "2026-07-06T12:42:15.113Z"
-    },
-    {
-      "track": "hey there [i have a compulsive complex]",
-      "artists": "Q",
-      "durationMs": 173570,
-      "playedAt": "2026-07-06T12:39:32.613Z"
-    },
-    {
-      "track": "swim",
-      "artists": "Night Tapes",
-      "durationMs": 371887,
-      "playedAt": "2026-07-06T12:36:44.720Z"
-    },
-    {
-      "track": "Cozy",
-      "artists": "Operelly",
-      "durationMs": 191000,
-      "playedAt": "2026-07-06T12:30:38.567Z"
-    },
-    {
-      "track": "Mindflower",
-      "artists": "Now Always Fades",
-      "durationMs": 254535,
-      "playedAt": "2026-07-06T12:27:33.296Z"
     }
   ]
 }
