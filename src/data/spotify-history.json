@@ -1,6 +1,102 @@
 {
-  "lastCursor": "1784131287630",
+  "lastCursor": "1784139815832",
   "plays": [
+    {
+      "track": "Vicious Sensitive Robot",
+      "artists": "The Marías",
+      "durationMs": 194160,
+      "playedAt": "2026-07-15T18:23:35.832Z"
+    },
+    {
+      "track": "Coming Back (feat. SZA)",
+      "artists": "James Blake, SZA",
+      "durationMs": 195905,
+      "playedAt": "2026-07-15T18:19:41.131Z"
+    },
+    {
+      "track": "What If You Hypnotise Me?",
+      "artists": "Sampha, Léa Sen",
+      "durationMs": 218397,
+      "playedAt": "2026-07-15T18:16:31.013Z"
+    },
+    {
+      "track": "intro",
+      "artists": "Orion Sun",
+      "durationMs": 180560,
+      "playedAt": "2026-07-15T18:12:45.140Z"
+    },
+    {
+      "track": "Mr. Rager",
+      "artists": "Kid Cudi",
+      "durationMs": 294213,
+      "playedAt": "2026-07-15T18:09:55.133Z"
+    },
+    {
+      "track": "She Looked Like Me!",
+      "artists": "Magdalena Bay",
+      "durationMs": 193186,
+      "playedAt": "2026-07-15T18:04:59.446Z"
+    },
+    {
+      "track": "Dancing Circles",
+      "artists": "Sampha",
+      "durationMs": 233640,
+      "playedAt": "2026-07-15T18:01:52.732Z"
+    },
+    {
+      "track": "Bones",
+      "artists": "Crumb",
+      "durationMs": 193981,
+      "playedAt": "2026-07-15T17:57:15.487Z"
+    },
+    {
+      "track": "Dive",
+      "artists": "Kid Cudi",
+      "durationMs": 148706,
+      "playedAt": "2026-07-15T17:54:07.146Z"
+    },
+    {
+      "track": "Ghost Town",
+      "artists": "Kanye West, PARTYNEXTDOOR",
+      "durationMs": 271386,
+      "playedAt": "2026-07-15T17:51:44.145Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-15T17:47:18.549Z"
+    },
+    {
+      "track": "Equal Trouble",
+      "artists": "Blue Material",
+      "durationMs": 242102,
+      "playedAt": "2026-07-15T17:40:44.799Z"
+    },
+    {
+      "track": "Coffee For Dinner",
+      "artists": "Orion Sun",
+      "durationMs": 172680,
+      "playedAt": "2026-07-15T17:36:48.482Z"
+    },
+    {
+      "track": "Headshots (4r da Locals)",
+      "artists": "Isaiah Rashad",
+      "durationMs": 193208,
+      "playedAt": "2026-07-15T17:34:01.510Z"
+    },
+    {
+      "track": "Super Stars",
+      "artists": "Yves Tumor",
+      "durationMs": 185560,
+      "playedAt": "2026-07-15T17:30:53.928Z"
+    },
+    {
+      "track": "Super Stars",
+      "artists": "Yves Tumor",
+      "durationMs": 185560,
+      "playedAt": "2026-07-15T17:29:07.062Z"
+    },
     {
       "track": "Crack Rock",
       "artists": "Frank Ocean",
@@ -3366,168 +3462,6 @@
       "artists": "Vince Staples",
       "durationMs": 223800,
       "playedAt": "2026-07-07T19:15:15.631Z"
-    },
-    {
-      "track": "Stars",
-      "artists": "PinkPantheress",
-      "durationMs": 141866,
-      "playedAt": "2026-07-07T19:11:37.544Z"
-    },
-    {
-      "track": "New Era",
-      "artists": "JPEGMAFIA",
-      "durationMs": 147135,
-      "playedAt": "2026-07-07T19:09:21.439Z"
-    },
-    {
-      "track": "Cranekiss",
-      "artists": "Tamaryn",
-      "durationMs": 230408,
-      "playedAt": "2026-07-07T19:06:59.972Z"
-    },
-    {
-      "track": "Steeeam",
-      "artists": "Shelly",
-      "durationMs": 170892,
-      "playedAt": "2026-07-07T19:03:14.881Z"
-    },
-    {
-      "track": "Lucky",
-      "artists": "Tyzo Bloom, Freak Slug",
-      "durationMs": 171111,
-      "playedAt": "2026-07-07T19:00:29.585Z"
-    },
-    {
-      "track": "Runner",
-      "artists": "Tennis",
-      "durationMs": 216960,
-      "playedAt": "2026-07-07T18:57:44.373Z"
-    },
-    {
-      "track": "Drive",
-      "artists": "Fousheé",
-      "durationMs": 179026,
-      "playedAt": "2026-07-07T18:54:13.025Z"
-    },
-    {
-      "track": "Fall In Love",
-      "artists": "Phantogram",
-      "durationMs": 223226,
-      "playedAt": "2026-07-07T18:51:19.694Z"
-    },
-    {
-      "track": "Cross Your Mind",
-      "artists": "Shelly",
-      "durationMs": 228692,
-      "playedAt": "2026-07-07T18:47:42.176Z"
-    },
-    {
-      "track": "Killshot",
-      "artists": "Magdalena Bay",
-      "durationMs": 236363,
-      "playedAt": "2026-07-07T18:43:59.355Z"
-    },
-    {
-      "track": "Tonight",
-      "artists": "PinkPantheress",
-      "durationMs": 174880,
-      "playedAt": "2026-07-07T18:12:09.821Z"
-    },
-    {
-      "track": "Snap My Finger (feat. PinkPantheress)",
-      "artists": "KAYTRANADA, PinkPantheress",
-      "durationMs": 201371,
-      "playedAt": "2026-07-07T18:09:20.674Z"
-    },
-    {
-      "track": "Sun Has Set",
-      "artists": "beabadoobee",
-      "durationMs": 141804,
-      "playedAt": "2026-07-07T18:06:05.076Z"
-    },
-    {
-      "track": "Love That You Try",
-      "artists": "Vansire, BERÜ",
-      "durationMs": 168292,
-      "playedAt": "2026-07-07T18:03:48.979Z"
-    },
-    {
-      "track": "hey there [i have a compulsive complex]",
-      "artists": "Q",
-      "durationMs": 173570,
-      "playedAt": "2026-07-07T18:01:06.312Z"
-    },
-    {
-      "track": "swim",
-      "artists": "Night Tapes",
-      "durationMs": 371887,
-      "playedAt": "2026-07-07T17:58:18.681Z"
-    },
-    {
-      "track": "Cozy",
-      "artists": "Operelly",
-      "durationMs": 191000,
-      "playedAt": "2026-07-07T17:52:12.288Z"
-    },
-    {
-      "track": "Mindflower",
-      "artists": "Now Always Fades",
-      "durationMs": 254535,
-      "playedAt": "2026-07-07T17:49:07.073Z"
-    },
-    {
-      "track": "Cologne",
-      "artists": "beabadoobee",
-      "durationMs": 164690,
-      "playedAt": "2026-07-07T17:44:58.381Z"
-    },
-    {
-      "track": "the feeling",
-      "artists": "Steve Lacy",
-      "durationMs": 275936,
-      "playedAt": "2026-07-07T17:42:19.400Z"
-    },
-    {
-      "track": "Lost Kids Get Money",
-      "artists": "Brent Faiyaz",
-      "durationMs": 178488,
-      "playedAt": "2026-07-07T17:37:32.375Z"
-    },
-    {
-      "track": "Burning",
-      "artists": "The Whitest Boy Alive",
-      "durationMs": 191173,
-      "playedAt": "2026-07-07T17:34:45.602Z"
-    },
-    {
-      "track": "Saint Ivy",
-      "artists": "Beach Fossils",
-      "durationMs": 224410,
-      "playedAt": "2026-07-07T17:31:39.906Z"
-    },
-    {
-      "track": "Break from Toronto",
-      "artists": "PARTYNEXTDOOR",
-      "durationMs": 99213,
-      "playedAt": "2026-07-07T17:28:01.241Z"
-    },
-    {
-      "track": "Hurts Me",
-      "artists": "Tory Lanez, Trippie Redd, Yoko Gold",
-      "durationMs": 140800,
-      "playedAt": "2026-07-07T17:26:27.886Z"
-    },
-    {
-      "track": "Sweet Disposition",
-      "artists": "The Temper Trap",
-      "durationMs": 236466,
-      "playedAt": "2026-07-07T17:24:12.612Z"
-    },
-    {
-      "track": "Fauxllennium",
-      "artists": "TV Girl, George Clanton",
-      "durationMs": 188533,
-      "playedAt": "2026-07-07T17:20:21.821Z"
     }
   ]
 }
