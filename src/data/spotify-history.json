@@ -1,6 +1,192 @@
 {
-  "lastCursor": "1784139815832",
+  "lastCursor": "1784165794595",
   "plays": [
+    {
+      "track": "Pursuit Of Happiness (Nightmare)",
+      "artists": "Kid Cudi, MGMT, Ratatat",
+      "durationMs": 295293,
+      "playedAt": "2026-07-16T01:36:34.595Z"
+    },
+    {
+      "track": "Make Her Say",
+      "artists": "Kid Cudi, Kanye West, Common",
+      "durationMs": 216413,
+      "playedAt": "2026-07-16T01:31:39.308Z"
+    },
+    {
+      "track": "Cudi Zone",
+      "artists": "Kid Cudi",
+      "durationMs": 259040,
+      "playedAt": "2026-07-16T01:28:02.880Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-16T01:23:43.855Z"
+    },
+    {
+      "track": "Enter Galactic (Love Connection Part I)",
+      "artists": "Kid Cudi",
+      "durationMs": 260200,
+      "playedAt": "2026-07-16T01:19:37.095Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T01:15:16.893Z"
+    },
+    {
+      "track": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 221240,
+      "playedAt": "2026-07-16T01:11:35.999Z"
+    },
+    {
+      "track": "My World",
+      "artists": "Kid Cudi, Billy Craven",
+      "durationMs": 243026,
+      "playedAt": "2026-07-16T01:07:54.762Z"
+    },
+    {
+      "track": "Heart Of A Lion (Kid Cudi Theme Music)",
+      "artists": "Kid Cudi",
+      "durationMs": 261359,
+      "playedAt": "2026-07-16T01:03:51.734Z"
+    },
+    {
+      "track": "Solo Dolo (Nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 266306,
+      "playedAt": "2026-07-16T00:59:30.375Z"
+    },
+    {
+      "track": "Simple As...",
+      "artists": "Kid Cudi",
+      "durationMs": 151333,
+      "playedAt": "2026-07-16T00:55:04.512Z"
+    },
+    {
+      "track": "Soundtrack 2 My Life",
+      "artists": "Kid Cudi",
+      "durationMs": 235626,
+      "playedAt": "2026-07-16T00:52:33.119Z"
+    },
+    {
+      "track": "In My Dreams (Cudder Anthem)",
+      "artists": "Kid Cudi",
+      "durationMs": 199000,
+      "playedAt": "2026-07-16T00:48:37.294Z"
+    },
+    {
+      "track": "Godspeed",
+      "artists": "Frank Ocean",
+      "durationMs": 177922,
+      "playedAt": "2026-07-16T00:42:15.654Z"
+    },
+    {
+      "track": "Seigfried",
+      "artists": "Frank Ocean",
+      "durationMs": 334570,
+      "playedAt": "2026-07-16T00:39:17.756Z"
+    },
+    {
+      "track": "White Ferrari",
+      "artists": "Frank Ocean",
+      "durationMs": 248807,
+      "playedAt": "2026-07-16T00:33:43.665Z"
+    },
+    {
+      "track": "Close To You",
+      "artists": "Frank Ocean",
+      "durationMs": 85754,
+      "playedAt": "2026-07-16T00:29:34.621Z"
+    },
+    {
+      "track": "Facebook Story",
+      "artists": "Frank Ocean",
+      "durationMs": 68588,
+      "playedAt": "2026-07-16T00:28:08.692Z"
+    },
+    {
+      "track": "Pretty Sweet",
+      "artists": "Frank Ocean",
+      "durationMs": 158478,
+      "playedAt": "2026-07-16T00:27:00.221Z"
+    },
+    {
+      "track": "Solo (Reprise)",
+      "artists": "Frank Ocean",
+      "durationMs": 78742,
+      "playedAt": "2026-07-16T00:24:21.443Z"
+    },
+    {
+      "track": "Nights",
+      "artists": "Frank Ocean",
+      "durationMs": 307151,
+      "playedAt": "2026-07-16T00:23:03.687Z"
+    },
+    {
+      "track": "Good Guy",
+      "artists": "Frank Ocean",
+      "durationMs": 66786,
+      "playedAt": "2026-07-16T00:17:55.552Z"
+    },
+    {
+      "track": "Self Control",
+      "artists": "Frank Ocean",
+      "durationMs": 249667,
+      "playedAt": "2026-07-16T00:16:48.772Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-07-16T00:12:51.224Z"
+    },
+    {
+      "track": "Skyline To",
+      "artists": "Frank Ocean",
+      "durationMs": 184600,
+      "playedAt": "2026-07-16T00:12:39.096Z"
+    },
+    {
+      "track": "Solo",
+      "artists": "Frank Ocean",
+      "durationMs": 257380,
+      "playedAt": "2026-07-16T00:09:34.504Z"
+    },
+    {
+      "track": "Be Yourself",
+      "artists": "Frank Ocean",
+      "durationMs": 86943,
+      "playedAt": "2026-07-16T00:04:29.433Z"
+    },
+    {
+      "track": "Pink + White",
+      "artists": "Frank Ocean",
+      "durationMs": 184516,
+      "playedAt": "2026-07-16T00:03:02.490Z"
+    },
+    {
+      "track": "Ivy",
+      "artists": "Frank Ocean",
+      "durationMs": 249191,
+      "playedAt": "2026-07-15T23:59:57.985Z"
+    },
+    {
+      "track": "Nikes",
+      "artists": "Frank Ocean",
+      "durationMs": 314075,
+      "playedAt": "2026-07-15T23:55:48.797Z"
+    },
+    {
+      "track": "Nikes",
+      "artists": "Frank Ocean",
+      "durationMs": 314075,
+      "playedAt": "2026-07-15T22:52:05.674Z"
+    },
     {
       "track": "Vicious Sensitive Robot",
       "artists": "The Marías",
