@@ -127,14 +127,24 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
     }
   }, [lightboxIndex]);
 
-  // Lock body scroll when lightbox open
+  // Lock body scroll when lightbox open. `overflow: hidden` alone doesn't
+  // reliably stop touch scrolling/rubber-banding on iOS Safari, which is what
+  // makes the page feel like it's jumping around behind the lightbox — pin
+  // the body in place instead and restore the scroll position on close.
   useEffect(() => {
-    if (lightboxIndex !== null) {
-      document.body.style.overflow = 'hidden';
-    } else {
-      document.body.style.overflow = '';
-    }
-    return () => { document.body.style.overflow = ''; };
+    if (lightboxIndex === null) return;
+    const scrollY = window.scrollY;
+    const { body } = document;
+    const prev = { position: body.style.position, top: body.style.top, width: body.style.width };
+    body.style.position = 'fixed';
+    body.style.top = `-${scrollY}px`;
+    body.style.width = '100%';
+    return () => {
+      body.style.position = prev.position;
+      body.style.top = prev.top;
+      body.style.width = prev.width;
+      window.scrollTo(0, scrollY);
+    };
   }, [lightboxIndex]);
 
   if (photos.length === 0) {
@@ -242,27 +252,32 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
             </button>
           )}
 
-          {/* Image */}
-          <div className="w-full px-10 md:px-14 max-h-[92vh] flex flex-col items-center">
+          {/* Image — drag/swipe is bound to this whole column, not just the
+              tight image box, so a portrait photo (narrow, lots of backdrop
+              on either side) still gives you a full-width swipe target
+              instead of the surrounding tap-to-close backdrop stealing it. */}
+          <motion.div
+            className="w-full px-10 md:px-14 max-h-[92vh] flex flex-col items-center touch-pan-y"
+            onClick={(e) => e.stopPropagation()}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={0.12}
+            dragMomentum={false}
+            onDragEnd={(_e, info) => {
+              const swiped = Math.abs(info.offset.x) > 60 || Math.abs(info.velocity.x) > 500;
+              if (!swiped) return;
+              if (info.offset.x < 0 && lightboxIndex < photos.length - 1) {
+                goTo(lightboxIndex + 1);
+              } else if (info.offset.x > 0 && lightboxIndex > 0) {
+                goTo(lightboxIndex - 1);
+              }
+            }}
+          >
             {(() => {
               const photo = photos[lightboxIndex];
               return (
                 <>
-                  <motion.div
-                    className="relative touch-pan-y"
-                    style={{ viewTransitionName: photoTransitionName(photo.id) }}
-                    onClick={(e) => e.stopPropagation()}
-                    drag="x"
-                    dragConstraints={{ left: 0, right: 0 }}
-                    dragElastic={0.6}
-                    onDragEnd={(_e, info) => {
-                      if (info.offset.x < -80 && lightboxIndex < photos.length - 1) {
-                        goTo(lightboxIndex + 1);
-                      } else if (info.offset.x > 80 && lightboxIndex > 0) {
-                        goTo(lightboxIndex - 1);
-                      }
-                    }}
-                  >
+                  <div className="relative" style={{ viewTransitionName: photoTransitionName(photo.id) }}>
                     {/* Transparent overlay — prevents right-click save */}
                     <div
                       className="absolute inset-0 z-10"
@@ -277,7 +292,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                       sizes="(max-width: 768px) 100vw, 88vw"
                       priority
                     />
-                  </motion.div>
+                  </div>
                   <p className="mt-4 text-white/25 text-xs font-mono tracking-wider text-center">
                     {photo.title}
                   </p>
@@ -285,7 +300,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                 </>
               );
             })()}
-          </div>
+          </motion.div>
         </div>
       )}
     </>
