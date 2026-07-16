@@ -1,9 +1,11 @@
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import PhotoNav from '@/components/PhotoNav';
 import BalancedMasonry, { type PreviewPhoto } from '@/components/BalancedMasonry';
+import RevealOnScroll from '@/components/photography/RevealOnScroll';
 import { getAllCollections, type Collection } from '@/lib/collections';
 import { getFeaturedPhotos, getCollectionPreviewPhotos, getCollectionCoverUrl } from '@/lib/cloudinary';
+import { heroTransitionName } from '@/lib/photoTransitionName';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
@@ -70,20 +72,22 @@ export default async function Photography() {
         {/* Full-bleed Hero */}
         {heroPhoto ? (
           <section className="relative h-[100svh] min-h-[600px] flex flex-col items-center justify-center overflow-hidden">
-            <Image
-              src={heroPhoto.url}
-              alt="Photography by Pryce Tharpe"
-              fill
-              className={heroIsPortrait ? 'object-contain' : 'object-cover'}
-              priority
-              sizes="100vw"
-            />
+            <div
+              className="absolute inset-0"
+              style={{ viewTransitionName: heroTransitionName(heroPhoto.id) }}
+            >
+              <Image
+                src={heroPhoto.url}
+                alt="Photography by Pryce Tharpe"
+                fill
+                className={heroIsPortrait ? 'object-contain' : 'object-cover'}
+                priority
+                sizes="100vw"
+              />
+            </div>
             <div className="absolute inset-0 bg-black/55" />
             <div className="relative z-10 text-center px-6">
-              <p className="text-xs tracking-[0.3em] uppercase text-white/50 mb-4 font-light">
-                Photography
-              </p>
-              <h1 className="font-[family-name:var(--font-playfair)] text-5xl md:text-7xl font-medium text-white leading-tight">
+              <h1 className="font-[family-name:var(--font-display)] text-5xl md:text-7xl font-semibold text-white leading-tight">
                 Pryce Tharpe
               </h1>
             </div>
@@ -95,10 +99,7 @@ export default async function Photography() {
           </section>
         ) : (
           <header className="px-6 md:px-12 lg:px-16 pt-16 pb-10">
-            <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
-              Photography
-            </p>
-            <h1 className="font-[family-name:var(--font-playfair)] text-4xl md:text-5xl font-medium text-gray-900 leading-tight">
+            <h1 className="font-[family-name:var(--font-display)] text-4xl md:text-5xl font-semibold text-gray-900 leading-tight">
               Pryce Tharpe
             </h1>
             <div className="border-t border-gray-150 mt-8" />
@@ -107,12 +108,14 @@ export default async function Photography() {
 
         {/* Collections masonry */}
         <div className="bg-white">
-          <header className="px-6 md:px-12 lg:px-16 pt-16 pb-8">
-            <p className="text-xs tracking-widest uppercase text-gray-400 mb-3 font-light">
-              Collections
-            </p>
-            <div className="border-t border-gray-100 mt-4" />
-          </header>
+          <RevealOnScroll>
+            <header className="px-6 md:px-12 lg:px-16 pt-16 pb-8">
+              <p className="text-sm text-gray-400 mb-3">
+                Collections
+              </p>
+              <div className="border-t border-gray-100 mt-4" />
+            </header>
+          </RevealOnScroll>
 
           {previewPhotos.length > 0 ? (
             <section className="px-6 md:px-12 lg:px-16 pb-20">
@@ -158,9 +161,9 @@ function CollectionLinks({ collections }: { collections: Collection[] }) {
         <Link
           key={c.slug}
           href={`/photography/${c.slug}`}
-          className="text-sm font-mono font-medium tracking-widest uppercase text-gray-600 hover:text-gray-900 transition-colors duration-200"
+          className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors duration-200"
         >
-          {c.title}{c.year && <span className="text-gray-400 ml-2">{c.year}</span>}
+          {c.title}{c.year && <span className="text-gray-400 ml-2 font-mono text-xs">{c.year}</span>}
         </Link>
       ))}
     </div>

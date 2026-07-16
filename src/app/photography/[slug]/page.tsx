@@ -1,8 +1,9 @@
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import Script from 'next/script';
 import { notFound } from 'next/navigation';
 import PhotoNav from '@/components/PhotoNav';
 import PhotoGallery from '@/components/PhotoGallery';
+import RevealOnScroll from '@/components/photography/RevealOnScroll';
 import { getCollection } from '@/lib/collections';
 import { getCollectionPhotos, getDiscoveredCollectionSlugs, getCollectionCoverUrl } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
@@ -91,29 +92,31 @@ export default async function CollectionPage({
       <main style={{ viewTransitionName: 'photo-main' }} className={`min-h-screen ${bg}`}>
 
         {/* Collection Header */}
-        <section className="px-6 md:px-12 lg:px-16 pt-14 pb-10">
-          <Link
-            href="/photography"
-            className={`inline-flex items-center gap-2 text-xs tracking-widest uppercase ${textSecondary} ${isDark ? 'hover:text-gray-100' : 'hover:text-gray-900'} transition-colors duration-200 mb-10 block`}
-          >
-            <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
-            </svg>
-            All Collections
-          </Link>
+        <RevealOnScroll>
+          <section className="px-6 md:px-12 lg:px-16 pt-14 pb-10">
+            <Link
+              href="/photography"
+              className={`inline-flex items-center gap-2 text-sm ${textSecondary} ${isDark ? 'hover:text-gray-100' : 'hover:text-gray-900'} transition-colors duration-200 mb-10`}
+            >
+              <svg className="w-3 h-3" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5L3 12m0 0l7.5-7.5M3 12h18" />
+              </svg>
+              All Collections
+            </Link>
 
-          <p className={`text-xs font-mono tracking-widest uppercase ${textSecondary} mb-2`}>
-            {collection.year}
-          </p>
-          <h1
-            className={`font-[family-name:var(--font-playfair)] text-5xl md:text-7xl font-medium ${textPrimary} leading-tight mb-5`}
-          >
-            {collection.title}
-          </h1>
-          <p className={`text-base ${textSecondary} max-w-xl leading-relaxed`}>
-            {collection.description}
-          </p>
-        </section>
+            <p className={`text-sm font-mono ${textSecondary} mb-2`}>
+              {collection.year}
+            </p>
+            <h1
+              className={`font-[family-name:var(--font-display)] text-5xl md:text-7xl font-semibold ${textPrimary} leading-tight mb-5`}
+            >
+              {collection.title}
+            </h1>
+            <p className={`text-base ${textSecondary} max-w-xl leading-relaxed`}>
+              {collection.description}
+            </p>
+          </section>
+        </RevealOnScroll>
 
         {/* Masonry Grid */}
         <section className="px-6 md:px-12 lg:px-16 pb-20">

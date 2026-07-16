@@ -2,7 +2,11 @@
 
 import Image from 'next/image';
 import { useState, useEffect, useRef, KeyboardEvent } from 'react';
+import { flushSync } from 'react-dom';
+import { motion } from 'motion/react';
 import type { CloudinaryPhoto, ExifData } from '@/lib/cloudinary';
+import { photoTransitionName } from '@/lib/photoTransitionName';
+import { RevealGroup, RevealItem } from '@/components/photography/RevealOnScroll';
 
 function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): CloudinaryPhoto[][] {
   const columns: Array<{ photos: CloudinaryPhoto[]; height: number }> =
@@ -47,24 +51,61 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const lightboxRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement | null>(null);
+  // Guards against overlapping document.startViewTransition calls: firing a
+  // second one before the first's callback has resolved (e.g. an arrow-key
+  // press right after opening) can silently drop the flushSync'd state update.
+  const transitionActiveRef = useRef(false);
+
+  // The View Transitions API temporarily toggles visibility on participating
+  // elements (photo-main/photo-nav/photo-*) while it captures before/after
+  // snapshots, which can knock focus off the dialog mid-transition. A single
+  // focus() call right after the state update isn't enough — re-assert once
+  // the transition has fully settled, too.
+  const withViewTransition = (fn: () => void, onSettled?: () => void) => {
+    const supportsVT = typeof document !== 'undefined' && 'startViewTransition' in document;
+    if (!supportsVT || transitionActiveRef.current) {
+      fn();
+      onSettled?.();
+      return;
+    }
+    transitionActiveRef.current = true;
+    const transition = (
+      document as unknown as { startViewTransition: (cb: () => void) => { finished: Promise<void> } }
+    ).startViewTransition(() => flushSync(fn));
+    transition.finished.catch(() => {}).finally(() => {
+      transitionActiveRef.current = false;
+      onSettled?.();
+    });
+  };
 
   const openLightbox = (index: number, trigger: HTMLButtonElement) => {
     openerRef.current = trigger;
-    setLightboxIndex(index);
+    withViewTransition(
+      () => setLightboxIndex(index),
+      () => lightboxRef.current?.focus()
+    );
   };
 
   const closeLightbox = () => {
-    setLightboxIndex(null);
-    openerRef.current?.focus();
+    withViewTransition(
+      () => setLightboxIndex(null),
+      () => openerRef.current?.focus()
+    );
   };
+
+  const goTo = (index: number) =>
+    withViewTransition(
+      () => setLightboxIndex(index),
+      () => lightboxRef.current?.focus()
+    );
 
   const handleKeyDown = (e: KeyboardEvent<HTMLDivElement>) => {
     if (lightboxIndex === null) return;
     if (e.key === 'Escape') closeLightbox();
     if (e.key === 'ArrowRight')
-      setLightboxIndex((i) => Math.min((i ?? 0) + 1, photos.length - 1));
+      goTo(Math.min(lightboxIndex + 1, photos.length - 1));
     if (e.key === 'ArrowLeft')
-      setLightboxIndex((i) => Math.max((i ?? 0) - 1, 0));
+      goTo(Math.max(lightboxIndex - 1, 0));
   };
 
   useEffect(() => {
@@ -107,38 +148,43 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
   }
 
   const columns = splitIntoColumns(photos, numCols);
+  const focusRing = isDark ? 'focus-visible:ring-gray-200' : 'focus-visible:ring-gray-900';
 
   return (
     <>
-      <div className="flex gap-2 lg:gap-3">
+      <RevealGroup className="flex gap-2 lg:gap-3">
         {columns.map((colPhotos, colIdx) => (
           <div key={colIdx} className="flex-1 flex flex-col gap-2 lg:gap-3">
             {colPhotos.map((photo) => {
               const globalIndex = photos.indexOf(photo);
+              const isOpenInLightbox = lightboxIndex === globalIndex;
               return (
-                <button
-                  key={photo.id}
-                  onClick={(e) => openLightbox(globalIndex, e.currentTarget)}
-                  className="block w-full overflow-hidden group cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-400"
-                  aria-label={`View ${photo.title}`}
-                >
-                  <Image
-                    src={photo.url}
-                    alt={photo.title}
-                    width={photo.width}
-                    height={photo.height}
-                    className="w-full h-auto transition-opacity duration-300 group-hover:opacity-85"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                    loading={globalIndex < 6 ? 'eager' : 'lazy'}
-                    placeholder={photo.blurDataURL ? 'blur' : 'empty'}
-                    blurDataURL={photo.blurDataURL}
-                  />
-                </button>
+                <RevealItem key={photo.id}>
+                  <button
+                    onClick={(e) => openLightbox(globalIndex, e.currentTarget)}
+                    className={`group block w-full overflow-hidden cursor-zoom-in focus:outline-none focus-visible:ring-2 ${focusRing}`}
+                    aria-label={`View ${photo.title}`}
+                  >
+                    <div style={{ viewTransitionName: isOpenInLightbox ? undefined : photoTransitionName(photo.id) }}>
+                      <Image
+                        src={photo.url}
+                        alt={photo.title}
+                        width={photo.width}
+                        height={photo.height}
+                        className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+                        loading={globalIndex < 6 ? 'eager' : 'lazy'}
+                        placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+                        blurDataURL={photo.blurDataURL}
+                      />
+                    </div>
+                  </button>
+                </RevealItem>
               );
             })}
           </div>
         ))}
-      </div>
+      </RevealGroup>
 
       {/* Lightbox */}
       {lightboxIndex !== null && (
@@ -173,7 +219,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                setLightboxIndex((i) => Math.max((i ?? 0) - 1, 0));
+                goTo(Math.max(lightboxIndex - 1, 0));
               }}
               className="absolute left-4 md:left-6 text-white/40 hover:text-white transition-colors text-2xl leading-none select-none p-2"
               aria-label="Previous photo"
@@ -187,7 +233,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                setLightboxIndex((i) => Math.min((i ?? 0) + 1, photos.length - 1));
+                goTo(Math.min(lightboxIndex + 1, photos.length - 1));
               }}
               className="absolute right-4 md:right-6 text-white/40 hover:text-white transition-colors text-2xl leading-none select-none p-2"
               aria-label="Next photo"
@@ -202,7 +248,21 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
               const photo = photos[lightboxIndex];
               return (
                 <>
-                  <div className="relative" onClick={(e) => e.stopPropagation()}>
+                  <motion.div
+                    className="relative touch-pan-y"
+                    style={{ viewTransitionName: photoTransitionName(photo.id) }}
+                    onClick={(e) => e.stopPropagation()}
+                    drag="x"
+                    dragConstraints={{ left: 0, right: 0 }}
+                    dragElastic={0.6}
+                    onDragEnd={(_e, info) => {
+                      if (info.offset.x < -80 && lightboxIndex < photos.length - 1) {
+                        goTo(lightboxIndex + 1);
+                      } else if (info.offset.x > 80 && lightboxIndex > 0) {
+                        goTo(lightboxIndex - 1);
+                      }
+                    }}
+                  >
                     {/* Transparent overlay — prevents right-click save */}
                     <div
                       className="absolute inset-0 z-10"
@@ -217,7 +277,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
                       sizes="(max-width: 768px) 100vw, 88vw"
                       priority
                     />
-                  </div>
+                  </motion.div>
                   <p className="mt-4 text-white/25 text-xs font-mono tracking-wider text-center">
                     {photo.title}
                   </p>

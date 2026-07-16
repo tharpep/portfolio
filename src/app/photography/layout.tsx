@@ -1,12 +1,19 @@
-import { Playfair_Display } from 'next/font/google';
+import { Bricolage_Grotesque } from 'next/font/google';
+import { ViewTransitions } from 'next-view-transitions';
+import MotionProvider from '@/components/photography/MotionProvider';
 
-const playfair = Playfair_Display({
-  variable: '--font-playfair',
+const display = Bricolage_Grotesque({
+  variable: '--font-display',
   subsets: ['latin'],
-  weight: ['400', '500'],
-  style: ['normal', 'italic'],
+  weight: ['500', '600', '700'],
 });
 
 export default function PhotographyLayout({ children }: { children: React.ReactNode }) {
-  return <div className={playfair.variable}>{children}</div>;
+  return (
+    <ViewTransitions>
+      <div className={display.variable}>
+        <MotionProvider>{children}</MotionProvider>
+      </div>
+    </ViewTransitions>
+  );
 }

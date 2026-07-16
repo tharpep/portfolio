@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import PhotoNav from '@/components/PhotoNav';
 import { getAboutPhoto, getCollectionCoverUrl } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
@@ -64,7 +64,7 @@ export default async function PhotographyAbout() {
 
               {/* Right: text */}
               <div className="mt-10 md:mt-0 md:flex-1">
-                <h1 className="font-[family-name:var(--font-playfair)] text-5xl font-medium text-gray-900 mb-8 leading-tight">
+                <h1 className="font-[family-name:var(--font-display)] text-5xl font-semibold text-gray-900 mb-8 leading-tight">
                   About
                 </h1>
                 <div className="border-t border-gray-200 mb-10" />
@@ -74,7 +74,7 @@ export default async function PhotographyAbout() {
           ) : (
             /* Single-column fallback */
             <div className="max-w-2xl">
-              <h1 className="font-[family-name:var(--font-playfair)] text-5xl font-medium text-gray-900 mb-8 leading-tight">
+              <h1 className="font-[family-name:var(--font-display)] text-5xl font-semibold text-gray-900 mb-8 leading-tight">
                 About
               </h1>
               <div className="border-t border-gray-200 mb-10" />

@@ -199,6 +199,16 @@ html {
   ::view-transition-new(photo-nav) {
     animation: none;
   }
+
+  /* Named per-photo transitions (photo-${id}/photo-hero-${id}) are dynamic and
+     can't be enumerated, so flatten every group via the wildcard selector —
+     safe here specifically because reduced-motion wants everything flattened
+     uniformly anyway, unlike the custom per-group timing used outside this block. */
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
 }
 
 /* ─────────── Lightbox ─────────── */

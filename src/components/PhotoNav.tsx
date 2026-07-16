@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import { useState, useEffect } from 'react';
 
 export default function PhotoNav({ transparent = false, isDark = false }: { transparent?: boolean; isDark?: boolean }) {
@@ -67,13 +67,13 @@ export default function PhotoNav({ transparent = false, isDark = false }: { tran
           <div className="hidden md:flex items-center gap-8">
             <Link
               href="/photography"
-              className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
+              className={`text-sm font-medium transition-colors duration-300 ${linkColor}`}
             >
               Portfolio
             </Link>
             <Link
               href="/photography/about"
-              className={`text-xs tracking-widest uppercase transition-colors duration-300 ${linkColor}`}
+              className={`text-sm font-medium transition-colors duration-300 ${linkColor}`}
             >
               About
             </Link>
@@ -112,14 +112,14 @@ export default function PhotoNav({ transparent = false, isDark = false }: { tran
         <div className={`md:hidden border-t px-6 py-5 space-y-4 ${isDark ? 'bg-neutral-900 border-neutral-800' : 'bg-white border-gray-100'}`}>
           <Link
             href="/photography"
-            className={`block text-xs tracking-widest uppercase transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
+            className={`block text-sm font-medium transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
             onClick={() => setMenuOpen(false)}
           >
             Portfolio
           </Link>
           <Link
             href="/photography/about"
-            className={`block text-xs tracking-widest uppercase transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
+            className={`block text-sm font-medium transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
             onClick={() => setMenuOpen(false)}
           >
             About
@@ -128,7 +128,7 @@ export default function PhotoNav({ transparent = false, isDark = false }: { tran
             href="https://www.instagram.com/pryce_tharpe/"
             target="_blank"
             rel="noopener noreferrer"
-            className={`block text-xs tracking-widest uppercase transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
+            className={`block text-sm font-medium transition-colors ${isDark ? 'text-gray-400 hover:text-gray-100' : 'text-gray-500 hover:text-gray-900'}`}
             onClick={() => setMenuOpen(false)}
           >
             Instagram
