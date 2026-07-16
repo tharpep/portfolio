@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T10:10:09.089534Z",
+  "lastUpdated": "2026-07-16T13:55:48.661500Z",
   "topArtistsYear": [
     {
       "name": "JPEGMAFIA",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 57542130,
-    "trackCount": 261
+    "totalMs": 63072503,
+    "trackCount": 286
   },
   "ytdListening": {
-    "totalMs": 1845530737,
-    "trackCount": 8857
+    "totalMs": 1851061110,
+    "trackCount": 8882
   }
 }
