@@ -1,6 +1,18 @@
 {
-  "lastCursor": "1784233930052",
+  "lastCursor": "1784242609063",
   "plays": [
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-07-16T22:56:49.063Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T22:49:35.516Z"
+    },
     {
       "track": "Dynamic",
       "artists": "Weak Moves",
