@@ -1,6 +1,96 @@
 {
-  "lastCursor": "1784242609063",
+  "lastCursor": "1784256063216",
   "plays": [
+    {
+      "track": "What You Won't Do for Love",
+      "artists": "Bobby Caldwell",
+      "durationMs": 286493,
+      "playedAt": "2026-07-17T02:41:03.216Z"
+    },
+    {
+      "track": "Run Your Mouth",
+      "artists": "The Marías",
+      "durationMs": 160000,
+      "playedAt": "2026-07-17T02:36:22.367Z"
+    },
+    {
+      "track": "Doin' Time",
+      "artists": "Sublime",
+      "durationMs": 253840,
+      "playedAt": "2026-07-17T02:33:48.112Z"
+    },
+    {
+      "track": "Relax",
+      "artists": "Vacations",
+      "durationMs": 158573,
+      "playedAt": "2026-07-17T02:29:40.016Z"
+    },
+    {
+      "track": "television",
+      "artists": "Night Tapes",
+      "durationMs": 211047,
+      "playedAt": "2026-07-17T02:27:07.116Z"
+    },
+    {
+      "track": "Good Days",
+      "artists": "SZA",
+      "durationMs": 279203,
+      "playedAt": "2026-07-17T02:23:41.815Z"
+    },
+    {
+      "track": "Better Together",
+      "artists": "Jack Johnson",
+      "durationMs": 207680,
+      "playedAt": "2026-07-17T02:19:08.266Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-17T02:15:46.312Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-17T02:12:08.813Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-07-17T02:08:24.085Z"
+    },
+    {
+      "track": "Neverender",
+      "artists": "Justice, Tame Impala",
+      "durationMs": 266493,
+      "playedAt": "2026-07-16T23:21:16.161Z"
+    },
+    {
+      "track": "Tadow",
+      "artists": "Masego, FKJ",
+      "durationMs": 301893,
+      "playedAt": "2026-07-16T23:16:55.378Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-16T23:11:59.169Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-07-16T23:06:11.219Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-07-16T22:59:40.969Z"
+    },
     {
       "track": "Heartbeat",
       "artists": "Childish Gambino",
@@ -3390,78 +3480,6 @@
       "artists": "Paul Simon",
       "durationMs": 217573,
       "playedAt": "2026-07-09T03:54:15.598Z"
-    },
-    {
-      "track": "if you wanna party, come over to my house",
-      "artists": "Fcukers",
-      "durationMs": 171613,
-      "playedAt": "2026-07-09T02:23:25.116Z"
-    },
-    {
-      "track": "Doves",
-      "artists": "MAVI",
-      "durationMs": 155742,
-      "playedAt": "2026-07-09T02:16:14.078Z"
-    },
-    {
-      "track": "Runner",
-      "artists": "Tennis",
-      "durationMs": 216960,
-      "playedAt": "2026-07-09T01:43:01.280Z"
-    },
-    {
-      "track": "Drive",
-      "artists": "Fousheé",
-      "durationMs": 179026,
-      "playedAt": "2026-07-09T00:08:06.864Z"
-    },
-    {
-      "track": "Fall In Love",
-      "artists": "Phantogram",
-      "durationMs": 223226,
-      "playedAt": "2026-07-09T00:05:13.528Z"
-    },
-    {
-      "track": "Cross Your Mind",
-      "artists": "Shelly",
-      "durationMs": 228692,
-      "playedAt": "2026-07-08T23:57:46.851Z"
-    },
-    {
-      "track": "Cologne",
-      "artists": "beabadoobee",
-      "durationMs": 164690,
-      "playedAt": "2026-07-08T23:53:27.650Z"
-    },
-    {
-      "track": "the feeling",
-      "artists": "Steve Lacy",
-      "durationMs": 275936,
-      "playedAt": "2026-07-08T23:50:48.712Z"
-    },
-    {
-      "track": "Getting It On",
-      "artists": "SALES",
-      "durationMs": 180437,
-      "playedAt": "2026-07-08T23:46:18.447Z"
-    },
-    {
-      "track": "Chinese New Year",
-      "artists": "SALES",
-      "durationMs": 160000,
-      "playedAt": "2026-07-08T23:43:23.794Z"
-    },
-    {
-      "track": "Spiral Stairs",
-      "artists": "Yot Club",
-      "durationMs": 146026,
-      "playedAt": "2026-07-08T23:40:49.511Z"
-    },
-    {
-      "track": "Cotton",
-      "artists": "Vince Staples",
-      "durationMs": 223800,
-      "playedAt": "2026-07-08T23:38:07.202Z"
     }
   ]
 }
