@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T19:07:03.793288Z",
+  "lastUpdated": "2026-07-18T20:51:18.385916Z",
   "topArtistsYear": [
     {
       "name": "JPEGMAFIA",
@@ -41,16 +41,16 @@
       "spotifyUrl": "https://open.spotify.com/track/4jqRdSypASxBTvuAs4g7KI"
     },
     {
-      "name": "Spiral Stairs",
-      "artists": "Yot Club",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27379277920da40e1c07da8f811",
-      "spotifyUrl": "https://open.spotify.com/track/6ODsBcPNsjqHzxrhmsPWLD"
-    },
-    {
       "name": "Drive",
       "artists": "Fousheé",
       "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
       "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
+    },
+    {
+      "name": "Spiral Stairs",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27379277920da40e1c07da8f811",
+      "spotifyUrl": "https://open.spotify.com/track/6ODsBcPNsjqHzxrhmsPWLD"
     },
     {
       "name": "Sun Has Set",
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 91681574,
-    "trackCount": 422
+    "totalMs": 96702010,
+    "trackCount": 445
   },
   "ytdListening": {
-    "totalMs": 1879670181,
-    "trackCount": 9018
+    "totalMs": 1884690617,
+    "trackCount": 9041
   }
 }
