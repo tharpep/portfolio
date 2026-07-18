@@ -1,6 +1,36 @@
 {
-  "lastCursor": "1784327662848",
+  "lastCursor": "1784333759764",
   "plays": [
+    {
+      "track": "It Almost Worked",
+      "artists": "TV Girl",
+      "durationMs": 152000,
+      "playedAt": "2026-07-18T00:15:59.764Z"
+    },
+    {
+      "track": "That Life",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 215866,
+      "playedAt": "2026-07-18T00:13:37.361Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-18T00:09:21.939Z"
+    },
+    {
+      "track": "loop it and leave it",
+      "artists": "JPEGMAFIA",
+      "durationMs": 120795,
+      "playedAt": "2026-07-17T23:24:39.619Z"
+    },
+    {
+      "track": "Fauxllennium",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 188533,
+      "playedAt": "2026-07-17T23:22:44.550Z"
+    },
     {
       "track": "My Old Ways",
       "artists": "Tame Impala",
@@ -2862,84 +2892,6 @@
       "artists": "Yves Tumor",
       "durationMs": 305506,
       "playedAt": "2026-07-10T04:16:50.777Z"
-    },
-    {
-      "track": "New Era",
-      "artists": "JPEGMAFIA",
-      "durationMs": 147135,
-      "playedAt": "2026-07-10T01:48:46.573Z"
-    },
-    {
-      "track": "Cranekiss",
-      "artists": "Tamaryn",
-      "durationMs": 230408,
-      "playedAt": "2026-07-10T01:46:24.919Z"
-    },
-    {
-      "track": "Steeeam",
-      "artists": "Shelly",
-      "durationMs": 170892,
-      "playedAt": "2026-07-10T01:42:40.221Z"
-    },
-    {
-      "track": "Runner",
-      "artists": "Tennis",
-      "durationMs": 216960,
-      "playedAt": "2026-07-10T01:39:55.130Z"
-    },
-    {
-      "track": "Drive",
-      "artists": "Fousheé",
-      "durationMs": 179026,
-      "playedAt": "2026-07-10T01:36:23.928Z"
-    },
-    {
-      "track": "Fall In Love",
-      "artists": "Phantogram",
-      "durationMs": 223226,
-      "playedAt": "2026-07-10T01:33:30.634Z"
-    },
-    {
-      "track": "Sun Has Set",
-      "artists": "beabadoobee",
-      "durationMs": 141804,
-      "playedAt": "2026-07-10T01:29:36.930Z"
-    },
-    {
-      "track": "Cologne",
-      "artists": "beabadoobee",
-      "durationMs": 164690,
-      "playedAt": "2026-07-10T01:26:42.271Z"
-    },
-    {
-      "track": "the feeling",
-      "artists": "Steve Lacy",
-      "durationMs": 275936,
-      "playedAt": "2026-07-10T01:24:03.234Z"
-    },
-    {
-      "track": "Getting It On",
-      "artists": "SALES",
-      "durationMs": 180437,
-      "playedAt": "2026-07-10T01:19:33.039Z"
-    },
-    {
-      "track": "Chinese New Year",
-      "artists": "SALES",
-      "durationMs": 160000,
-      "playedAt": "2026-07-10T01:16:38.341Z"
-    },
-    {
-      "track": "Spiral Stairs",
-      "artists": "Yot Club",
-      "durationMs": 146026,
-      "playedAt": "2026-07-10T01:14:04.142Z"
-    },
-    {
-      "track": "Locket",
-      "artists": "Crumb",
-      "durationMs": 318378,
-      "playedAt": "2026-07-09T23:57:06.506Z"
     }
   ]
 }
