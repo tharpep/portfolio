@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T02:37:51.859758Z",
+  "lastUpdated": "2026-07-18T06:06:22.673715Z",
   "topArtistsYear": [
     {
       "name": "JPEGMAFIA",
@@ -53,10 +53,10 @@
       "spotifyUrl": "https://open.spotify.com/track/6ODsBcPNsjqHzxrhmsPWLD"
     },
     {
-      "name": "New Era",
-      "artists": "JPEGMAFIA",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2731733a57968880caab654ce27",
-      "spotifyUrl": "https://open.spotify.com/track/5eQkRSI6Nrgt0NOCEAifMT"
+      "name": "Sun Has Set",
+      "artists": "beabadoobee",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f3307b2ee6c3131410efdc7",
+      "spotifyUrl": "https://open.spotify.com/track/3CnEw0mRAXVlLw36iL0mbe"
     }
   ],
   "topTrackDay": {
@@ -66,11 +66,11 @@
     "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 84545122,
-    "trackCount": 385
+    "totalMs": 85480547,
+    "trackCount": 390
   },
   "ytdListening": {
-    "totalMs": 1872533729,
-    "trackCount": 8981
+    "totalMs": 1873469154,
+    "trackCount": 8986
   }
 }
