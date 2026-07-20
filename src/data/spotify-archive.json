@@ -287,6 +287,22 @@
         "name": "SALES",
         "plays": 51
       }
+    },
+    {
+      "week": "2026-W29",
+      "weekStart": "2026-07-13",
+      "weekEnd": "2026-07-19",
+      "totalMs": 104335331,
+      "trackCount": 480,
+      "topTrack": {
+        "name": "Cranekiss",
+        "artists": "Tamaryn",
+        "plays": 7
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 42
+      }
     }
   ]
 }
