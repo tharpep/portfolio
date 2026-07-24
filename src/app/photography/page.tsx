@@ -1,9 +1,9 @@
 import { Link } from 'next-view-transitions';
 import Image from 'next/image';
 import PhotoNav from '@/components/PhotoNav';
-import BalancedMasonry, { type PreviewPhoto } from '@/components/BalancedMasonry';
+import CollectionRows, { type CollectionPreviewRow } from '@/components/photography/CollectionRows';
 import RevealOnScroll from '@/components/photography/RevealOnScroll';
-import { getAllCollections, type Collection } from '@/lib/collections';
+import { getAllCollections } from '@/lib/collections';
 import { getFeaturedPhotos, getCollectionPreviewPhotos, getCollectionCoverUrl } from '@/lib/cloudinary';
 import { heroTransitionName } from '@/lib/photoTransitionName';
 import type { Metadata } from 'next';
@@ -49,20 +49,14 @@ export default async function Photography() {
   const heroIsPortrait = heroPhoto ? heroPhoto.aspectRatio < 1 : false;
 
   // Fetch preview photos for each collection in parallel
-  const previewData = await Promise.all(
+  const previewRows: CollectionPreviewRow[] = await Promise.all(
     allCollections.map(async (c) => ({
       collection: c,
       photos: await getCollectionPreviewPhotos(c.folder, PREVIEW_COUNT),
     }))
   );
 
-  const previewPhotos: PreviewPhoto[] = previewData.flatMap(({ collection, photos }) =>
-    photos.map((p) => ({
-      ...p,
-      collectionSlug: collection.slug,
-      collectionTitle: collection.title,
-    }))
-  );
+  const hasPreviewPhotos = previewRows.some((row) => row.photos.length > 0);
 
   return (
     <>
@@ -106,7 +100,7 @@ export default async function Photography() {
           </header>
         )}
 
-        {/* Collections masonry */}
+        {/* Collections */}
         <div className="bg-white">
           <RevealOnScroll>
             <header className="px-6 md:px-12 lg:px-16 pt-16 pb-8">
@@ -117,10 +111,9 @@ export default async function Photography() {
             </header>
           </RevealOnScroll>
 
-          {previewPhotos.length > 0 ? (
+          {hasPreviewPhotos ? (
             <section className="px-6 md:px-12 lg:px-16 pb-20">
-              <CollectionLinks collections={allCollections} />
-              <BalancedMasonry photos={previewPhotos} />
+              <CollectionRows rows={previewRows} />
             </section>
           ) : (
             <div className="px-6 md:px-12 lg:px-16 pb-20 text-sm text-gray-400 font-light">
@@ -150,22 +143,5 @@ export default async function Photography() {
         </div>
       </main>
     </>
-  );
-}
-
-/* ─── Collection index links ─── */
-function CollectionLinks({ collections }: { collections: Collection[] }) {
-  return (
-    <div className="flex flex-wrap gap-x-6 gap-y-2 mb-8">
-      {collections.map((c) => (
-        <Link
-          key={c.slug}
-          href={`/photography/${c.slug}`}
-          className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors duration-200"
-        >
-          {c.title}{c.year && <span className="text-gray-400 ml-2 font-mono text-xs">{c.year}</span>}
-        </Link>
-      ))}
-    </div>
   );
 }

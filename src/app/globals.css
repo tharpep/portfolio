@@ -211,6 +211,12 @@ html {
   }
 }
 
+/* ─────────── Horizontal photo gallery track ─────────── */
+
+.photo-track {
+  scroll-padding-inline: max(1.5rem, env(safe-area-inset-left)) max(1.5rem, env(safe-area-inset-right));
+}
+
 /* ─────────── Lightbox ─────────── */
 
 @keyframes lightbox-in {

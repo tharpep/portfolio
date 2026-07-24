@@ -3,21 +3,17 @@
 import Image from 'next/image';
 import { useState, useEffect, useRef, KeyboardEvent } from 'react';
 import { flushSync } from 'react-dom';
-import { motion, AnimatePresence, type Variants } from 'motion/react';
+import {
+  motion,
+  AnimatePresence,
+  useScroll,
+  useTransform,
+  useSpring,
+  useReducedMotion,
+  type Variants,
+} from 'motion/react';
 import type { CloudinaryPhoto, ExifData } from '@/lib/cloudinary';
 import { photoTransitionName } from '@/lib/photoTransitionName';
-import { RevealGroup, RevealItem } from '@/components/photography/RevealOnScroll';
-
-function splitIntoColumns(photos: CloudinaryPhoto[], numColumns: number): CloudinaryPhoto[][] {
-  const columns: Array<{ photos: CloudinaryPhoto[]; height: number }> =
-    Array.from({ length: numColumns }, () => ({ photos: [], height: 0 }));
-  for (const photo of photos) {
-    const shortest = columns.reduce((min, col) => col.height < min.height ? col : min);
-    shortest.photos.push(photo);
-    shortest.height += 1 / photo.aspectRatio;
-  }
-  return columns.map((col) => col.photos);
-}
 
 // Direction-aware slide for navigating between two *different* photos while
 // the lightbox is already open. Deliberately not run through
@@ -55,17 +51,91 @@ function ExifLine({ exif }: { exif: ExifData }) {
   );
 }
 
+// One tile in the horizontal track. Owns its own scroll-linked parallax
+// progress (via motion's useScroll targeting this tile within the shared
+// scrollable track) so each photo drifts at a slightly different depth as it
+// passes through the visible area. The parallax transform lives on this
+// *outer* motion.div — the inner div carrying view-transition-name stays
+// transform-free, since a lingering transform/will-change on a VT-named
+// element is a known source of incorrect view-transition snapshot sizing.
+function GalleryTile({
+  photo,
+  index,
+  trackRef,
+  isOpenInLightbox,
+  reducedMotion,
+  focusRing,
+  onOpen,
+}: {
+  photo: CloudinaryPhoto;
+  index: number;
+  trackRef: React.RefObject<HTMLDivElement | null>;
+  isOpenInLightbox: boolean;
+  reducedMotion: boolean;
+  focusRing: string;
+  onOpen: (index: number, trigger: HTMLButtonElement) => void;
+}) {
+  const tileRef = useRef<HTMLDivElement>(null);
+  const { scrollXProgress } = useScroll({
+    target: tileRef,
+    container: trackRef,
+    axis: 'x',
+    offset: ['start end', 'end start'],
+  });
+  const depth = reducedMotion ? 0 : 22;
+  const rawY = useTransform(scrollXProgress, [0, 0.5, 1], [depth, 0, -depth]);
+  const y = useSpring(rawY, { damping: 28, stiffness: 320, mass: 0.4 });
+
+  // useScroll can't measure anything server-side (no DOM), but motion still
+  // computes rawY's initial value and applies it imperatively to the DOM node
+  // once mounted — bypassing React's own render output. That mismatches
+  // whatever plain (transform-less) markup SSR produced, which is a real
+  // hydration-mismatch warning, not just a style. Withhold the transform
+  // entirely until after mount so SSR and the first client paint agree.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
+  return (
+    <motion.div
+      ref={tileRef}
+      style={mounted ? { y } : undefined}
+      className="shrink-0 snap-start w-[75vw] sm:w-[50vw] md:w-[38vw] lg:w-[30vw]"
+    >
+      <button
+        onClick={(e) => onOpen(index, e.currentTarget)}
+        className={`group block w-full overflow-hidden cursor-zoom-in focus:outline-none focus-visible:ring-2 ${focusRing}`}
+        aria-label={`View ${photo.title}`}
+      >
+        <div style={{ viewTransitionName: isOpenInLightbox ? undefined : photoTransitionName(photo.id) }}>
+          <Image
+            src={photo.url}
+            alt={photo.title}
+            width={photo.width}
+            height={photo.height}
+            className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+            sizes="(max-width: 640px) 75vw, (max-width: 768px) 50vw, (max-width: 1024px) 38vw, 30vw"
+            loading={index < 4 ? 'eager' : 'lazy'}
+            placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+            blurDataURL={photo.blurDataURL}
+          />
+        </div>
+      </button>
+    </motion.div>
+  );
+}
+
 interface PhotoGalleryProps {
   photos: CloudinaryPhoto[];
   isDark?: boolean;
 }
 
 export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryProps) {
-  const [numCols, setNumCols] = useState(3);
+  const trackRef = useRef<HTMLDivElement>(null);
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const [direction, setDirection] = useState<1 | -1>(1);
   const lightboxRef = useRef<HTMLDivElement>(null);
   const openerRef = useRef<HTMLButtonElement | null>(null);
+  const reducedMotion = useReducedMotion();
   // Guards against overlapping document.startViewTransition calls: firing a
   // second one before the first's callback has resolved (e.g. an arrow-key
   // press right after opening) can silently drop the flushSync'd state update.
@@ -126,19 +196,6 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
   };
 
   useEffect(() => {
-    const update = () => {
-      const w = window.innerWidth;
-      if (w < 640) setNumCols(1);
-      else if (w < 1024) setNumCols(2);
-      else if (w < 1280) setNumCols(3);
-      else setNumCols(4);
-    };
-    update();
-    window.addEventListener('resize', update, { passive: true });
-    return () => window.removeEventListener('resize', update);
-  }, []);
-
-  useEffect(() => {
     if (lightboxIndex !== null) {
       lightboxRef.current?.focus();
     }
@@ -164,6 +221,41 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
     };
   }, [lightboxIndex]);
 
+  // Redirect vertical wheel/trackpad intent into horizontal scroll — attached
+  // manually (not via the JSX onWheel prop) because React registers its root
+  // wheel listener as passive; calling preventDefault() from a JSX handler
+  // silently fails to stop the page's native vertical scroll. Releases
+  // control at the track's scroll boundaries so the page can keep scrolling
+  // past the gallery instead of getting trapped inside it.
+  useEffect(() => {
+    const el = trackRef.current;
+    if (!el) return;
+    const onWheel = (e: WheelEvent) => {
+      const horizontalIntent = Math.abs(e.deltaY) > Math.abs(e.deltaX);
+      if (!horizontalIntent) return;
+      const atStart = el.scrollLeft <= 0;
+      const atEnd = el.scrollLeft + el.clientWidth >= el.scrollWidth - 1;
+      const leavingBounds = (atStart && e.deltaY < 0) || (atEnd && e.deltaY > 0);
+      if (leavingBounds) return;
+      e.preventDefault();
+      el.scrollLeft += e.deltaY;
+    };
+    el.addEventListener('wheel', onWheel, { passive: false });
+    return () => el.removeEventListener('wheel', onWheel);
+  }, []);
+
+  // Native arrow-key-scrolls-a-focused-overflow-container behavior is
+  // heuristic, not a spec guarantee — handle it explicitly rather than
+  // depending on it.
+  const onTrackKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    const el = trackRef.current;
+    if (!el) return;
+    const amount = el.clientWidth * 0.8;
+    const behavior = reducedMotion ? 'auto' : 'smooth';
+    if (e.key === 'ArrowRight') el.scrollBy({ left: amount, behavior });
+    if (e.key === 'ArrowLeft') el.scrollBy({ left: -amount, behavior });
+  };
+
   if (photos.length === 0) {
     return (
       <div className="py-16 text-center">
@@ -174,44 +266,31 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
     );
   }
 
-  const columns = splitIntoColumns(photos, numCols);
   const focusRing = isDark ? 'focus-visible:ring-gray-200' : 'focus-visible:ring-gray-900';
 
   return (
     <>
-      <RevealGroup className="flex gap-2 lg:gap-3">
-        {columns.map((colPhotos, colIdx) => (
-          <div key={colIdx} className="flex-1 flex flex-col gap-2 lg:gap-3">
-            {colPhotos.map((photo) => {
-              const globalIndex = photos.indexOf(photo);
-              const isOpenInLightbox = lightboxIndex === globalIndex;
-              return (
-                <RevealItem key={photo.id}>
-                  <button
-                    onClick={(e) => openLightbox(globalIndex, e.currentTarget)}
-                    className={`group block w-full overflow-hidden cursor-zoom-in focus:outline-none focus-visible:ring-2 ${focusRing}`}
-                    aria-label={`View ${photo.title}`}
-                  >
-                    <div style={{ viewTransitionName: isOpenInLightbox ? undefined : photoTransitionName(photo.id) }}>
-                      <Image
-                        src={photo.url}
-                        alt={photo.title}
-                        width={photo.width}
-                        height={photo.height}
-                        className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.04]"
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                        loading={globalIndex < 6 ? 'eager' : 'lazy'}
-                        placeholder={photo.blurDataURL ? 'blur' : 'empty'}
-                        blurDataURL={photo.blurDataURL}
-                      />
-                    </div>
-                  </button>
-                </RevealItem>
-              );
-            })}
-          </div>
+      <div
+        ref={trackRef}
+        role="region"
+        aria-label="Photo gallery — scroll or use arrow keys to browse"
+        tabIndex={0}
+        onKeyDown={onTrackKeyDown}
+        className="photo-track relative flex gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity pb-4 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16 focus:outline-none"
+      >
+        {photos.map((photo, index) => (
+          <GalleryTile
+            key={photo.id}
+            photo={photo}
+            index={index}
+            trackRef={trackRef}
+            isOpenInLightbox={lightboxIndex === index}
+            reducedMotion={!!reducedMotion}
+            focusRing={focusRing}
+            onOpen={openLightbox}
+          />
         ))}
-      </RevealGroup>
+      </div>
 
       {/* Lightbox */}
       {lightboxIndex !== null && (
