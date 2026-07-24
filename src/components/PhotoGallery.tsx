@@ -95,18 +95,29 @@ function GalleryTile({
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
+  // Equal-area sizing, not equal-height: a shared fixed height (with width
+  // left to fall out of each photo's raw aspect ratio) has no bound on how
+  // wide a landscape gets or how narrow a portrait gets, so two adjacent
+  // extremes can differ 2-3x in width — that's what reads as "stair steps"
+  // when scrolling past them, and as portraits/landscapes feeling like they
+  // got sized on completely different rules. Scaling by 1/sqrt(aspectRatio)
+  // instead keeps every tile's on-screen *area* roughly constant — width and
+  // height both move, but by a square-root factor instead of linearly — so
+  // a 2:1 panorama only gets ~1.4x wider rather than 2x, and a 1:2 portrait
+  // only gets ~1.4x taller rather than the full swing. No cropping: the box
+  // still matches each photo's exact native aspect ratio, only its overall
+  // scale changes.
+  const areaScale = 1 / Math.sqrt(photo.aspectRatio);
+
   return (
     <motion.div
       ref={tileRef}
-      style={mounted ? { y } : undefined}
-      className="shrink-0 snap-start h-[46vh] sm:h-[52vh] md:h-[58vh] lg:h-[64vh]"
+      style={{
+        height: `calc(clamp(320px, 58vh, 680px) * ${areaScale})`,
+        ...(mounted ? { y } : {}),
+      }}
+      className="shrink-0 snap-start"
     >
-      {/* Fixed row height, auto width via aspect-ratio (not the reverse) —
-          a fixed-width/auto-height tile leaves mixed-orientation photos with
-          ragged bottoms and dead whitespace under the shorter ones in the
-          same row, which is the same "not clean" look this redesign set out
-          to fix in the first place, just relocated. Every tile's top and
-          bottom now align; width is what varies per photo. */}
       <button
         onClick={(e) => onOpen(index, e.currentTarget)}
         style={{ aspectRatio: photo.aspectRatio }}
@@ -285,7 +296,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
         aria-label="Photo gallery — scroll or use arrow keys to browse"
         tabIndex={0}
         onKeyDown={onTrackKeyDown}
-        className="photo-track relative flex items-start gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity pb-4 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16 focus:outline-none"
+        className="photo-track relative flex items-center gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity pb-4 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16 focus:outline-none"
       >
         {photos.map((photo, index) => (
           <GalleryTile

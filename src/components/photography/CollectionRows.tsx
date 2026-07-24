@@ -33,20 +33,29 @@ function PreviewTile({
 }) {
   const [hovering, setHovering] = useState(false);
 
+  // Equal-area sizing, not equal-height — see the matching comment in
+  // PhotoGallery.tsx's GalleryTile. A shared fixed height with width left to
+  // fall out of raw aspect ratio has no bound on the spread between a wide
+  // landscape and a narrow portrait; scaling by 1/sqrt(aspectRatio) keeps
+  // every tile's on-screen area roughly constant instead, which is what
+  // keeps the row feeling like one rhythm rather than a staircase. No
+  // cropping — the box still matches the photo's exact native ratio, only
+  // its overall scale changes.
+  const areaScale = 1 / Math.sqrt(photo.aspectRatio);
+
   return (
     <Link
       href={`/photography/${collectionSlug}`}
-      // Fixed row height + aspect-ratio-driven auto width (not fixed width
-      // with auto height) — every tile's top/bottom line up and only width
-      // varies per photo, avoiding the ragged-bottom/dead-whitespace look a
-      // fixed-width row produces when it mixes portrait and landscape shots.
       // The aspect-ratio also still gives the absolutely-positioned canvas
       // overlay below a *definite* size to resolve its inset/percentage
       // sizing against — without it, an "auto" height falls back to the
       // canvas's intrinsic 300x150 default (the "two images in separate
       // bands" bug this was originally added to fix).
-      style={{ aspectRatio: photo.aspectRatio }}
-      className="group relative shrink-0 snap-start block h-[30vh] sm:h-[34vh] md:h-[38vh] overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
+      style={{
+        aspectRatio: photo.aspectRatio,
+        height: `calc(clamp(220px, 34vh, 420px) * ${areaScale})`,
+      }}
+      className="group relative shrink-0 snap-start block overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
       aria-label={`View ${collectionTitle} collection`}
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
@@ -104,12 +113,17 @@ function CollectionRow({
         </Link>
       </RevealOnScroll>
 
-      {/* items-start: flex's default align-items:stretch would otherwise force
-          every tile to the row's tallest sibling's height, overriding each
-          tile's own aspect-ratio box (and, worse, stretching the fill-mode
-          Image's positioned parent into a size that doesn't match its actual
-          content). */}
-      <div className="photo-track flex items-start gap-3 md:gap-4 overflow-x-auto snap-x snap-proximity pb-2 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16">
+      {/* items-center, not items-start: flex's default align-items:stretch
+          would force every tile to the row's tallest sibling's height,
+          overriding each tile's own aspect-ratio box (and, worse, stretching
+          the fill-mode Image's positioned parent into a size that doesn't
+          match its actual content) — so stretch is out. But since tile
+          heights now genuinely vary by design (equal-area sizing means
+          portraits render taller than landscapes), top-aligning them would
+          just trade the old ragged-bottom look for a ragged-bottom look on
+          the other edge. Centering reads as one deliberate row instead of
+          either edge fraying. */}
+      <div className="photo-track flex items-center gap-3 md:gap-4 overflow-x-auto snap-x snap-proximity pb-2 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16">
         {photos.map((photo, i) => (
           <PreviewTile
             key={photo.id}
