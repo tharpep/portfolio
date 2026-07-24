@@ -155,10 +155,24 @@ export default async function CollectionPage({
             )
           }
         >
-          {/* Horizontal gallery */}
-          <section className="pt-10 pb-20">
-            <PhotoGallery photos={stripPhotos} isDark={isDark} />
-          </section>
+          {/* Horizontal gallery — only rendered when there's anything left
+              after the hero. A collection with exactly one photo has that
+              photo already shown as the hero, so an empty strip here isn't
+              "no photos" (PhotoGallery's own empty state) — it's correctly
+              zero, and showing that message would contradict the hero photo
+              the visitor just saw. */}
+          {stripPhotos.length > 0 && (
+            <section className="pt-10 pb-20">
+              <PhotoGallery photos={stripPhotos} isDark={isDark} />
+            </section>
+          )}
+          {photos.length === 0 && (
+            <div className="px-6 md:px-12 lg:px-16 pb-20">
+              <p className={`text-sm ${textSecondary} font-light`}>
+                No photos in this collection yet.
+              </p>
+            </div>
+          )}
 
           {/* Collection meta footer */}
           <div className={`border-t ${borderColor} py-8 px-6 md:px-12 lg:px-16`}>

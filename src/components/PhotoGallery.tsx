@@ -99,21 +99,30 @@ function GalleryTile({
     <motion.div
       ref={tileRef}
       style={mounted ? { y } : undefined}
-      className="shrink-0 snap-start w-[75vw] sm:w-[50vw] md:w-[38vw] lg:w-[30vw]"
+      className="shrink-0 snap-start h-[46vh] sm:h-[52vh] md:h-[58vh] lg:h-[64vh]"
     >
+      {/* Fixed row height, auto width via aspect-ratio (not the reverse) —
+          a fixed-width/auto-height tile leaves mixed-orientation photos with
+          ragged bottoms and dead whitespace under the shorter ones in the
+          same row, which is the same "not clean" look this redesign set out
+          to fix in the first place, just relocated. Every tile's top and
+          bottom now align; width is what varies per photo. */}
       <button
         onClick={(e) => onOpen(index, e.currentTarget)}
-        className={`group block w-full overflow-hidden cursor-zoom-in focus:outline-none focus-visible:ring-2 ${focusRing}`}
+        style={{ aspectRatio: photo.aspectRatio }}
+        className={`group relative block h-full overflow-hidden cursor-zoom-in focus:outline-none focus-visible:ring-2 ${focusRing}`}
         aria-label={`View ${photo.title}`}
       >
-        <div style={{ viewTransitionName: isOpenInLightbox ? undefined : photoTransitionName(photo.id) }}>
+        <div
+          className="absolute inset-0"
+          style={{ viewTransitionName: isOpenInLightbox ? undefined : photoTransitionName(photo.id) }}
+        >
           <Image
             src={photo.url}
             alt={photo.title}
-            width={photo.width}
-            height={photo.height}
-            className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-            sizes="(max-width: 640px) 75vw, (max-width: 768px) 50vw, (max-width: 1024px) 38vw, 30vw"
+            fill
+            className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+            sizes="90vw"
             loading={index < 4 ? 'eager' : 'lazy'}
             placeholder={photo.blurDataURL ? 'blur' : 'empty'}
             blurDataURL={photo.blurDataURL}
@@ -276,7 +285,7 @@ export default function PhotoGallery({ photos, isDark = false }: PhotoGalleryPro
         aria-label="Photo gallery — scroll or use arrow keys to browse"
         tabIndex={0}
         onKeyDown={onTrackKeyDown}
-        className="photo-track relative flex gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity pb-4 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16 focus:outline-none"
+        className="photo-track relative flex items-start gap-4 md:gap-6 overflow-x-auto snap-x snap-proximity pb-4 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16 focus:outline-none"
       >
         {photos.map((photo, index) => (
           <GalleryTile

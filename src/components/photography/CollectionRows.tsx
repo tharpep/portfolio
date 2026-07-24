@@ -36,7 +36,17 @@ function PreviewTile({
   return (
     <Link
       href={`/photography/${collectionSlug}`}
-      className="group relative shrink-0 snap-start block w-[60vw] sm:w-[38vw] md:w-[26vw] lg:w-[20vw] overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
+      // Fixed row height + aspect-ratio-driven auto width (not fixed width
+      // with auto height) — every tile's top/bottom line up and only width
+      // varies per photo, avoiding the ragged-bottom/dead-whitespace look a
+      // fixed-width row produces when it mixes portrait and landscape shots.
+      // The aspect-ratio also still gives the absolutely-positioned canvas
+      // overlay below a *definite* size to resolve its inset/percentage
+      // sizing against — without it, an "auto" height falls back to the
+      // canvas's intrinsic 300x150 default (the "two images in separate
+      // bands" bug this was originally added to fix).
+      style={{ aspectRatio: photo.aspectRatio }}
+      className="group relative shrink-0 snap-start block h-[30vh] sm:h-[34vh] md:h-[38vh] overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
       aria-label={`View ${collectionTitle} collection`}
       onMouseEnter={() => setHovering(true)}
       onMouseLeave={() => setHovering(false)}
@@ -46,6 +56,7 @@ function PreviewTile({
           fetch), so it needs the hero namespace, not the strip namespace —
           the actual strip on the collection page excludes that photo. */}
       <div
+        className="absolute inset-0"
         style={{
           viewTransitionName: isHeroPhoto
             ? heroTransitionName(photo.id)
@@ -55,10 +66,9 @@ function PreviewTile({
         <Image
           src={photo.url}
           alt={photo.title}
-          width={photo.width}
-          height={photo.height}
-          className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.03]"
-          sizes="(max-width: 640px) 60vw, (max-width: 768px) 38vw, (max-width: 1024px) 26vw, 20vw"
+          fill
+          className="object-cover transition-transform duration-500 ease-out group-hover:scale-[1.03]"
+          sizes="60vw"
           placeholder={photo.blurDataURL ? 'blur' : 'empty'}
           blurDataURL={photo.blurDataURL}
         />
@@ -94,7 +104,12 @@ function CollectionRow({
         </Link>
       </RevealOnScroll>
 
-      <div className="photo-track flex gap-3 md:gap-4 overflow-x-auto snap-x snap-proximity pb-2 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16">
+      {/* items-start: flex's default align-items:stretch would otherwise force
+          every tile to the row's tallest sibling's height, overriding each
+          tile's own aspect-ratio box (and, worse, stretching the fill-mode
+          Image's positioned parent into a size that doesn't match its actual
+          content). */}
+      <div className="photo-track flex items-start gap-3 md:gap-4 overflow-x-auto snap-x snap-proximity pb-2 -mx-6 px-6 md:-mx-12 md:px-12 lg:-mx-16 lg:px-16">
         {photos.map((photo, i) => (
           <PreviewTile
             key={photo.id}
