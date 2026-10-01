@@ -17,6 +17,7 @@ const SpotifyWidget = dynamic(() => import("@/components/SpotifyWidget"), {
 export const metadata: Metadata = {
   title: "About – Pryce Tharpe",
   description: "About Pryce Tharpe: AI Acceleration Fellow at Eli Lilly and Computer Engineering graduate of Purdue.",
+  alternates: { canonical: '/about' },
 };
 
 // DEV PORTFOLIO ABOUT PAGE

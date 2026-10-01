@@ -8,7 +8,7 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const inter = Inter({
-  variable: "--font-geist-sans",
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -25,16 +25,12 @@ export const metadata: Metadata = {
   creator: "Pryce Tharpe",
   publisher: "Pryce Tharpe",
   metadataBase: new URL('https://pryce-tharpe.dev'),
-  alternates: {
-    canonical: '/',
-  },
   icons: {
     icon: '/favicon.ico',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: '/',
     siteName: 'Pryce Tharpe Portfolio',
     title: 'Pryce Tharpe - Software Engineer',
     description: 'AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.',
@@ -71,9 +67,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
       <body
-        className={`${inter.variable} ${geistMono.variable} antialiased min-h-screen flex flex-col bg-neutral-900 relative`}
+        className="antialiased min-h-screen flex flex-col bg-neutral-900 relative"
         suppressHydrationWarning={true}
       >
         {/* Site-wide gradient background - consistent across all pages */}

@@ -20,7 +20,7 @@ export interface Project {
   challenge?: string;
   solution?: string[];
   result?: string;
-  architectureDiagram?: { type: 'component'; name: 'sazed' } | { type: 'mermaid'; chart: string };
+  architectureDiagram?: { type: 'component'; name: 'sazed' };
 }
 
 export interface ProjectCategory {
@@ -38,7 +38,7 @@ const projects: Project[] = [
     description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices — the backbone of the Sazed personal AI ecosystem.",
     category: "devops-cloud",
     technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
-    timeline: "January 2025 - Present",
+    timeline: "January 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "Managing authentication and API calls across multiple services (Google Calendar, Gmail, Tasks, AI providers) was becoming repetitive across projects, with scattered credentials and inconsistent patterns.",
@@ -57,7 +57,7 @@ const projects: Project[] = [
     description: "Automation platform organized by trigger type (scheduled, event-driven, manual) with YAML-driven configuration and deployment to GCP Cloud Run Jobs and Cloud Functions.",
     category: "devops-cloud",
     technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Cloud Functions", "Docker", "Pushover", "Prompt Engineering"],
-    timeline: "January 2025 - Present",
+    timeline: "January 2025 – Present",
     status: "in-progress",
     highlights: [],
     challenge: "I wanted a simple way to deploy personal automations without repeating infrastructure setup for each new task. It should write the logic and let the platform handle scheduling and deployment.",
@@ -76,7 +76,7 @@ const projects: Project[] = [
     description: "Automated Azure financial cost analysis pipeline using Microsoft Fabric and SQL.",
     category: "data-analytics",
     technologies: ["Microsoft Fabric", "Azure Data Factory", "SQL", "Azure Functions", "Python", "Power BI"],
-    timeline: "May 2025 - Present",
+    timeline: "May 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "A 13-step monthly Azure cost analysis process took managers 2-3 hours of manual work, with risk of errors and inconsistent results.",
@@ -93,7 +93,7 @@ const projects: Project[] = [
     description: "Azure DevOps extension providing sprint health and status visibility.",
     category: "data-analytics",
     technologies: ["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"],
-    timeline: "June 2025 - Present",
+    timeline: "June 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "Stakeholders lacked real-time visibility into sprint health and status within Azure DevOps, requiring manual status updates.",
@@ -110,7 +110,7 @@ const projects: Project[] = [
     description: "Python-based tools for Spotify data manipulation and visualization using RESTful API integration.",
     category: "data-analytics",
     technologies: ["Python", "Spotify API", "Pandas", "RESTful APIs", "OAuth", "Data Visualization", "JSON"],
-    timeline: "January 2024 - Present",
+    timeline: "January 2024 – Present",
     status: "in-progress",
     highlights: [
       "Built API integration with Spotify's OAuth authentication system",
@@ -145,7 +145,7 @@ const projects: Project[] = [
     description: "IDE prompt that aims to standardize AI-assisted coding workflows across engineering teams.",
     category: "ai-ml",
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
-    timeline: "August 2025 - Present",
+    timeline: "August 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "Engineering teams needed consistent AI-assisted coding workflows across multiple IDEs, with varying levels of AI experience among developers.",
@@ -162,7 +162,7 @@ const projects: Project[] = [
     description: "Custom GPTs for enterprise and personal use, including a system prompt builder and student career archivist.",
     category: "ai-ml",
     technologies: ["OpenAI GPT", "Custom GPT Development", "Prompt Engineering", "API Integration", "Workflow Automation"],
-    timeline: "January 2024 - Present",
+    timeline: "January 2024 – Present",
     status: "completed",
     highlights: [
       "Built system prompt builder for all skill levels",
@@ -195,7 +195,7 @@ const projects: Project[] = [
     description: "Cloud-hosted knowledge base with hybrid retrieval, Google Drive sync, and Voyage AI embeddings for personal document search.",
     category: "ai-ml",
     technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Google Drive API", "GCP Cloud Run", "Docker", "Poetry"],
-    timeline: "August 2025 - Present",
+    timeline: "August 2025 – Present",
     status: "in-progress",
     highlights: [],
     challenge: "I wanted a private, searchable knowledge base backed by my own documents — Google Docs, PDFs, spreadsheets — with retrieval quality beyond basic keyword or single-vector search.",
@@ -215,7 +215,7 @@ const projects: Project[] = [
     description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
-    timeline: "January 2025 - Present",
+    timeline: "January 2025 – Present",
     status: "in-progress",
     highlights: [],
     challenge: "I wanted an AI agent that knew my personal context and could act on it, with memory that persisted across sessions, accessible from multiple clients.",
@@ -236,7 +236,7 @@ const projects: Project[] = [
     description: "Modern portfolio website with Next.js 15 App Router.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
-    timeline: "May 2025 - Present",
+    timeline: "May 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "Needed a portfolio site to showcase my work. Used it as a chance to learn Next.js 15 and set up some automation.",
@@ -255,7 +255,7 @@ const projects: Project[] = [
     description: "Photography portfolio with auto-discovered collections from Cloudinary, AI-generated metadata, EXIF extraction, and mood-aware theming.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Cloudinary", "Anthropic SDK", "View Transitions API"],
-    timeline: "May 2025 - Present",
+    timeline: "May 2025 – Present",
     status: "completed",
     highlights: [],
     challenge: "Wanted a photography site that required zero code changes to add new content — just upload a folder to Cloudinary and it appears automatically with proper titles, descriptions, and theming.",
@@ -276,7 +276,7 @@ const projects: Project[] = [
     description: "Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware.",
     category: "ai-ml",
     technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
-    timeline: "August 2025 - December 2025",
+    timeline: "August 2025 – December 2025",
     status: "completed",
     highlights: [],
     challenge: "Reproduce and understand the SimRAG paper's similarity-based RAG techniques, implementing on consumer hardware to learn RAG fundamentals.",
@@ -295,7 +295,7 @@ const projects: Project[] = [
     description: "Group project building a model registry with AWS deployment.",
     category: "devops-cloud",
     technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
-    timeline: "August 2025 - December 2025",
+    timeline: "August 2025 – December 2025",
     status: "completed",
     highlights: [],
     challenge: "For ECE 46100 (Software Engineering), my team built a model registry. I led the AWS infrastructure and implemented the trustworthiness metrics.",
@@ -314,7 +314,7 @@ const projects: Project[] = [
     description: "Built the generative AI subsystem for a multi-platform cognitive coaching application.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
-    timeline: "August 2025 - December 2025",
+    timeline: "August 2025 – December 2025",
     status: "completed",
     highlights: [],
     challenge: "For Senior Design, I built the GenAI subsystem for a cognitive coaching app. My part handled artifact generation and the RAG-powered chat.",
@@ -333,7 +333,7 @@ const projects: Project[] = [
     description: "Full-stack web application for managing trading card collections with multi-user authentication.",
     category: "full-stack",
     technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
-    timeline: "August 2025 - December 2025",
+    timeline: "August 2025 – December 2025",
     status: "in-progress",
     highlights: [],
     challenge: "Side project to learn authentication and database security. Building a multi-user app with Supabase.",
@@ -388,10 +388,13 @@ export const projectCategories: ProjectCategory[] = [
   }
 ];
 
-// Helper function to get featured projects for home page
+// Featured projects for the home page, in display order
+const featuredSlugs = ["ai-system-prompt", "sazed", "simrag-reproduction", "devops-scorecard"];
+
 export const getFeaturedProjects = (): Project[] => {
-  const featuredSlugs = ["ai-system-prompt", "sazed", "simrag-reproduction", "devops-scorecard"];
-  return projects.filter(p => featuredSlugs.includes(p.slug));
+  return featuredSlugs
+    .map(slug => visibleProjects.find(p => p.slug === slug))
+    .filter((p): p is Project => p !== undefined);
 };
 
 export const getAllProjects = (): Project[] => {
