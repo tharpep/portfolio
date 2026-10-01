@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import { getAllProjects, getFeaturedProjects, type Project } from "@/lib/getProjects";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
+  const featuredProjects = getFeaturedProjects();
+  const projectCount = getAllProjects().length;
+
   return (
     <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
@@ -64,41 +73,16 @@ export default function Home() {
               Featured Projects
             </h2>
             <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto">
-              <FeaturedProjectCard
-                title="AI System Prompt Framework"
-                href="/projects/ai-system-prompt"
-                desc="Developed master IDE prompt standardizing AI-assisted coding across engineering teams. Led company-wide training sessions and established AI standards."
-                technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
-                timeline="August 2025 - Present"
-              />
-              <FeaturedProjectCard
-                title="Sazed - Personal AI Agent"
-                href="/projects/sazed"
-                desc="End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP."
-                technologies={["Python", "FastAPI", "Anthropic SDK", "React 19", "Tauri", "TypeScript", "FastMCP", "PostgreSQL"]}
-                timeline="January 2025 - Present"
-              />
-              <FeaturedProjectCard
-                title="SimRAG Reproduction"
-                href="/projects/simrag-reproduction"
-                desc="Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware."
-                technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
-                timeline="August 2025 - December 2025"
-              />
-              <FeaturedProjectCard
-                title="Azure DevOps Scorecard"
-                href="/projects/devops-scorecard"
-                desc="Azure DevOps extension providing sprint health and status visibility."
-                technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
-                timeline="June 2025 - Present"
-              />
+              {featuredProjects.map((project) => (
+                <FeaturedProjectCard key={project.slug} project={project} />
+              ))}
             </div>
             <div className="text-center mt-10">
               <Link
                 href="/projects"
                 className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
               >
-                View all 15 projects
+                View all {projectCount} projects
                 <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
               </Link>
             </div>
@@ -193,24 +177,13 @@ export default function Home() {
 }
 
 /* ─────────── Components ─────────── */
-function FeaturedProjectCard({
-  title,
-  href,
-  desc,
-  technologies,
-  timeline,
-}: {
-  title: string;
-  href: string;
-  desc: string;
-  technologies: string[];
-  timeline: string;
-}) {
+function FeaturedProjectCard({ project }: { project: Project }) {
+  const { slug, title, description, technologies, timeline } = project;
   const top3Tech = technologies.slice(0, 3);
 
   return (
     <Link
-      href={href}
+      href={`/projects/${slug}`}
       className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
     >
       <div className="flex justify-between items-start mb-4">
@@ -234,7 +207,7 @@ function FeaturedProjectCard({
         <span className="text-xs text-neutral-400 font-mono">{timeline}</span>
       </div>
       <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
-        {desc}
+        {description}
       </p>
       <div className="flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
         View Details

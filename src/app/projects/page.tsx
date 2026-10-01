@@ -6,6 +6,7 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 export const metadata: Metadata = {
   title: "Projects – Pryce Tharpe",
   description: "Portfolio projects across data, AI, creative tech, and research.",
+  alternates: { canonical: '/projects' },
 };
 
 // Enable static generation for better performance
