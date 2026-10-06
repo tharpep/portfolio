@@ -23,7 +23,7 @@ export default function Home() {
               Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. On my own time, I build platforms like{" "}
+              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. I build platforms like{" "}
               <Link href="/projects/sazed" className="text-cyan-300 hover:text-cyan-200 underline underline-offset-4 decoration-cyan-300/40 hover:decoration-cyan-200">
                 Sazed
               </Link>{" "}
