@@ -1,6 +1,16 @@
 {
-  "lastUpdated": "2026-03-09T20:37:51.222214Z",
+  "lastUpdated": "2026-07-20T06:48:15.749299Z",
   "topArtistsYear": [
+    {
+      "name": "JPEGMAFIA",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
+      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
+    },
+    {
+      "name": "Men I Trust",
+      "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
+      "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
+    },
     {
       "name": "Tame Impala",
       "image": "https://i.scdn.co/image/ab6761610000e5ebe412a782245eb20d9626c601",
@@ -12,16 +22,6 @@
       "spotifyUrl": "https://open.spotify.com/artist/1oPRcJUkloHaRLYx0olBLJ"
     },
     {
-      "name": "Men I Trust",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebfd30ebd7e80dad6b2383aab0",
-      "spotifyUrl": "https://open.spotify.com/artist/3zmfs9cQwzJl575W1ZYXeT"
-    },
-    {
-      "name": "JPEGMAFIA",
-      "image": "https://i.scdn.co/image/ab6761610000e5ebb37aa35eec6d83fe18e48e73",
-      "spotifyUrl": "https://open.spotify.com/artist/6yJ6QQ3Y5l0s0tn7b0arrO"
-    },
-    {
       "name": "A$AP Rocky",
       "image": "https://i.scdn.co/image/ab6761610000e5ebad160b333f9a240f84aff7d7",
       "spotifyUrl": "https://open.spotify.com/artist/13ubrt8QOOCPljQ2FL1Kca"
@@ -29,48 +29,48 @@
   ],
   "topTracksWeek": [
     {
-      "name": "Radio",
-      "artists": "Bershy",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-      "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+      "name": "Fall In Love",
+      "artists": "Phantogram",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2732b9ba6e48a59fedf157ce0f0",
+      "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
     },
     {
-      "name": "Fantasy (feat. Don Toliver)",
-      "artists": "Kali Uchis, Don Toliver",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27381fccd758776d16b87721b17",
-      "spotifyUrl": "https://open.spotify.com/track/1dvqHhLNccePPBHq11TW7v"
+      "name": "Runner",
+      "artists": "Tennis",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2734d92121bb9cdcf786a8b6df9",
+      "spotifyUrl": "https://open.spotify.com/track/4jqRdSypASxBTvuAs4g7KI"
     },
     {
-      "name": "Dramatic Girl (feat. Che Ecru)",
-      "artists": "Baby Keem, Che Ecru",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b27308a27a15cf37664f0dab6ab7",
-      "spotifyUrl": "https://open.spotify.com/track/05gychGDaYtqT3sWQhZydb"
+      "name": "Drive",
+      "artists": "Fousheé",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b273c590133fa5a8a922563ebe69",
+      "spotifyUrl": "https://open.spotify.com/track/6zARylhJ2oHDw0x7V6W32N"
     },
     {
-      "name": "Lovin’ Me (feat. Phoebe Bridgers)",
-      "artists": "Kid Cudi, Phoebe Bridgers",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736ff25c2481eeaf6e7284d461",
-      "spotifyUrl": "https://open.spotify.com/track/3JdwGk8j7lHN5qdzJZklam"
+      "name": "Spiral Stairs",
+      "artists": "Yot Club",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b27379277920da40e1c07da8f811",
+      "spotifyUrl": "https://open.spotify.com/track/6ODsBcPNsjqHzxrhmsPWLD"
     },
     {
-      "name": "Apocalypse Dreams",
-      "artists": "Tame Impala",
-      "albumImage": "https://i.scdn.co/image/ab67616d0000b273370c12f82872c9cfaee80193",
-      "spotifyUrl": "https://open.spotify.com/track/7qU7vhCPKhkDiJYGoboISc"
+      "name": "Sun Has Set",
+      "artists": "beabadoobee",
+      "albumImage": "https://i.scdn.co/image/ab67616d0000b2736f3307b2ee6c3131410efdc7",
+      "spotifyUrl": "https://open.spotify.com/track/3CnEw0mRAXVlLw36iL0mbe"
     }
   ],
   "topTrackDay": {
-    "name": "Radio",
-    "artists": "Bershy",
-    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732aef91fce9cd746ad92e69de",
-    "spotifyUrl": "https://open.spotify.com/track/6jppHdy8EW9ghHlOCpGBEr"
+    "name": "Fall In Love",
+    "artists": "Phantogram",
+    "albumImage": "https://i.scdn.co/image/ab67616d0000b2732b9ba6e48a59fedf157ce0f0",
+    "spotifyUrl": "https://open.spotify.com/track/5UKj2UGT4AMc1GMLk5S5sw"
   },
   "weeklyListening": {
-    "totalMs": 16276638,
-    "trackCount": 73
+    "totalMs": 400255,
+    "trackCount": 2
   },
   "ytdListening": {
-    "totalMs": 16276638,
-    "trackCount": 73
+    "totalMs": 1892724193,
+    "trackCount": 9078
   }
 }

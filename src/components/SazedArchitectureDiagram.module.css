@@ -13,7 +13,7 @@
   --border:   rgba(255, 255, 255, 0.07);
   --text:     #e2e8f0;
   --muted:    #64748b;
-  --dim:      #94a3b8;
+  --dim:      #9aa8bc;
 
   --r: 10px;
 
@@ -72,32 +72,32 @@
 
 /* per-variant */
 .nClient {
-  background: linear-gradient(145deg, #15092c 0%, #0e0620 100%);
+  background: #110726;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
 }
 .nClient::before { background: var(--purple); }
 
 .nAgent {
-  background: linear-gradient(145deg, #0a1533 0%, #060d1f 100%);
+  background: #081129;
   border-color: rgba(37, 99, 235, 0.22);
   box-shadow: 0 0 56px rgba(37, 99, 235, 0.1), 0 2px 24px rgba(0, 0, 0, 0.55);
 }
 .nAgent::before { background: var(--blue); }
 
 .nGateway {
-  background: linear-gradient(145deg, #051820 0%, #031018 100%);
+  background: #04141c;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
 }
 .nGateway::before { background: var(--cyan); }
 
 .nKb {
-  background: linear-gradient(145deg, #04160c 0%, #030d07 100%);
+  background: #031109;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
 }
 .nKb::before { background: var(--green); }
 
 .nDb {
-  background: linear-gradient(145deg, #1a0f04 0%, #110a03 100%);
+  background: #150c03;
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.5);
 }
 .nDb::before { background: var(--amber); }

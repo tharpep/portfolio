@@ -8,7 +8,7 @@ import ScrollFadeIn from "@/components/ScrollFadeIn";
 const SpotifyWidget = dynamic(() => import("@/components/SpotifyWidget"), {
   ssr: true,
   loading: () => (
-    <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-5 md:p-6 animate-pulse">
+    <div className="rounded-xl bg-neutral-800 border border-neutral-700 p-4 sm:p-5 md:p-6 animate-pulse">
       <div className="h-32 bg-neutral-700 rounded-lg"></div>
     </div>
   ),
@@ -17,6 +17,7 @@ const SpotifyWidget = dynamic(() => import("@/components/SpotifyWidget"), {
 export const metadata: Metadata = {
   title: "About – Pryce Tharpe",
   description: "About Pryce Tharpe: AI Acceleration Fellow at Eli Lilly and Computer Engineering graduate of Purdue.",
+  alternates: { canonical: '/about' },
 };
 
 // DEV PORTFOLIO ABOUT PAGE
@@ -31,7 +32,7 @@ export default async function About() {
       <ScrollFadeIn>
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-white leading-tight">
             About Me
           </h1>
 

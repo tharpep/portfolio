@@ -31,38 +31,33 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 }
 
 // Accent color configurations per category
-const categoryAccents: Record<string, { primary: string; gradient: string; badge: string; hover: string; border: string }> = {
+const categoryAccents: Record<string, { primary: string; badge: string; hover: string; border: string }> = {
     "ai-ml": {
         primary: "text-emerald-300",
-        gradient: "from-emerald-400/90 via-teal-400/90 to-cyan-400/90",
         badge: "bg-emerald-900/30 text-emerald-300 border-emerald-700/50 hover:shadow-emerald-500/20",
         hover: "hover:text-emerald-300 hover:shadow-emerald-500/10",
         border: "border-emerald-700/50",
     },
     "data-analytics": {
         primary: "text-cyan-300",
-        gradient: "from-cyan-400/90 via-teal-400/90 to-emerald-400/90",
         badge: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50 hover:shadow-cyan-500/20",
         hover: "hover:text-cyan-300 hover:shadow-cyan-500/10",
         border: "border-cyan-700/50",
     },
     "devops-cloud": {
         primary: "text-purple-300",
-        gradient: "from-purple-400/90 via-indigo-400/90 to-blue-400/90",
         badge: "bg-purple-900/30 text-purple-300 border-purple-700/50 hover:shadow-purple-500/20",
         hover: "hover:text-purple-300 hover:shadow-purple-500/10",
         border: "border-purple-700/50",
     },
     "full-stack": {
         primary: "text-blue-300",
-        gradient: "from-blue-400/90 via-indigo-400/90 to-purple-400/90",
         badge: "bg-blue-900/30 text-blue-300 border-blue-700/50 hover:shadow-blue-500/20",
         hover: "hover:text-blue-300 hover:shadow-blue-500/10",
         border: "border-blue-700/50",
     },
     "hardware-embedded": {
         primary: "text-orange-300",
-        gradient: "from-orange-400/90 via-amber-400/90 to-yellow-400/90",
         badge: "bg-orange-900/30 text-orange-300 border-orange-700/50 hover:shadow-orange-500/20",
         hover: "hover:text-orange-300 hover:shadow-orange-500/10",
         border: "border-orange-700/50",
@@ -82,9 +77,6 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     const accent = categoryAccents[project.category] || categoryAccents["ai-ml"];
 
     const statusLabel = project.status === "completed" ? "Completed" : "In Progress";
-    const statusColor = project.status === "completed"
-        ? "bg-emerald-900/30 text-emerald-300 border-emerald-700/50"
-        : "bg-orange-900/30 text-orange-300 border-orange-700/50";
 
     // Check if project uses new challenge/solution/result format
     const hasNewFormat = project.challenge && project.solution && project.result;
@@ -108,16 +100,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                 {/* Hero Section */}
                 <header className="mb-10">
-                    <div className="flex items-center gap-3 mb-4">
-                        <span className={`px-3 py-1 text-xs font-medium rounded-full border ${statusColor}`}>
-                            {statusLabel}
-                        </span>
-                        <span className="text-sm text-neutral-400 font-mono">{project.timeline}</span>
-                    </div>
-
-                    <h1 className={`text-3xl sm:text-4xl md:text-5xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r ${accent.gradient}`}>
+                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-mono tracking-tight mb-3 text-white">
                         {project.title}
                     </h1>
+
+                    <p className="text-sm text-neutral-300 font-mono mb-5">
+                        {project.timeline} · {statusLabel}
+                    </p>
 
                     <p className="text-lg text-neutral-300 leading-relaxed mb-6">
                         {project.description}
@@ -180,7 +169,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 </header>
 
                 {/* Divider */}
-                <div className="h-px bg-gradient-to-r from-transparent via-neutral-700 to-transparent mb-10"></div>
+                <div className="h-px bg-neutral-800 mb-10"></div>
 
                 {/* Hero Image */}
                 {project.images && project.images.length > 0 && (

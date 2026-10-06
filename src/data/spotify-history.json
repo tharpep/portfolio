@@ -1,443 +1,3071 @@
 {
-  "lastCursor": "1773088636276",
+  "lastCursor": "1784514689067",
   "plays": [
     {
-      "track": "BLUE SKY",
-      "artists": "Kid Cudi",
-      "durationMs": 221293,
-      "playedAt": "2026-03-09T20:37:16.276Z"
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-20T02:31:29.067Z"
     },
     {
-      "track": "Summer's Over",
-      "artists": "Jordana, TV Girl",
-      "durationMs": 173000,
-      "playedAt": "2026-03-09T20:33:40.671Z"
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-07-20T01:50:57.291Z"
     },
     {
-      "track": "93 'Til Infinity",
-      "artists": "Souls Of Mischief",
-      "durationMs": 286440,
-      "playedAt": "2026-03-09T20:30:53.104Z"
-    },
-    {
-      "track": "Too Many Nights (feat. Don Toliver & with Future)",
-      "artists": "Metro Boomin, Future, Don Toliver",
-      "durationMs": 199920,
-      "playedAt": "2026-03-09T20:26:12.260Z"
-    },
-    {
-      "track": "She Knows This",
-      "artists": "Kid Cudi",
-      "durationMs": 216560,
-      "playedAt": "2026-03-09T20:22:58.449Z"
-    },
-    {
-      "track": "Elephant",
-      "artists": "Tame Impala",
-      "durationMs": 211226,
-      "playedAt": "2026-03-09T20:19:27.128Z"
-    },
-    {
-      "track": "Bleed (feat. Omar Apollo)",
-      "artists": "Malcolm Todd, Omar Apollo",
-      "durationMs": 179373,
-      "playedAt": "2026-03-09T20:14:59.314Z"
-    },
-    {
-      "track": "FAMJAM4000",
-      "artists": "Jordan Ward",
-      "durationMs": 158133,
-      "playedAt": "2026-03-09T20:12:05.805Z"
-    },
-    {
-      "track": "drifting",
-      "artists": "Night Tapes",
-      "durationMs": 212440,
-      "playedAt": "2026-03-09T20:09:34.250Z"
-    },
-    {
-      "track": "Lost In Yesterday",
-      "artists": "Tame Impala",
-      "durationMs": 249586,
-      "playedAt": "2026-03-09T20:06:06.620Z"
-    },
-    {
-      "track": "Death & Romance",
-      "artists": "Magdalena Bay",
-      "durationMs": 314733,
-      "playedAt": "2026-03-09T20:02:02.524Z"
-    },
-    {
-      "track": "Chanel",
-      "artists": "Frank Ocean",
-      "durationMs": 210285,
-      "playedAt": "2026-03-09T19:56:36.597Z"
-    },
-    {
-      "track": "Upset (feat. Tommy Richman & FELIX!)",
-      "artists": "Brent Faiyaz, FELIX!, Tommy Richman",
-      "durationMs": 177899,
-      "playedAt": "2026-03-09T19:53:12.094Z"
-    },
-    {
-      "track": "Picture in My Mind",
-      "artists": "PinkPantheress, Sam Gellaitry",
-      "durationMs": 176930,
-      "playedAt": "2026-03-09T19:40:34.296Z"
-    },
-    {
-      "track": "I KNOW ?",
-      "artists": "Travis Scott",
-      "durationMs": 211582,
-      "playedAt": "2026-03-09T19:37:43.068Z"
-    },
-    {
-      "track": "Cheesin’ (with Cautious Clay, Remi Wolf, Still Woozy, Sophie Meiers, Claud, Melanie Faye, & HXNS)",
-      "artists": "Cautious Clay, Remi Wolf, sophie meiers, Still Woozy, Claud, Melanie Faye, HXNS",
-      "durationMs": 138000,
-      "playedAt": "2026-03-09T19:34:17.458Z"
-    },
-    {
-      "track": "Loser",
-      "artists": "Tame Impala",
-      "durationMs": 223069,
-      "playedAt": "2026-03-09T19:32:03.656Z"
-    },
-    {
-      "track": "Forever Yours",
-      "artists": "Brent Faiyaz",
-      "durationMs": 96368,
-      "playedAt": "2026-03-09T19:28:26.357Z"
-    },
-    {
-      "track": "Surround Sound (feat. 21 Savage & Baby Tate)",
-      "artists": "JID, 21 Savage, Baby Tate",
-      "durationMs": 229938,
-      "playedAt": "2026-03-09T19:26:55.791Z"
-    },
-    {
-      "track": "On My Own",
-      "artists": "Jaden, Kid Cudi",
-      "durationMs": 244720,
-      "playedAt": "2026-03-09T19:23:11.613Z"
-    },
-    {
-      "track": "Vinta",
-      "artists": "Crumb",
-      "durationMs": 299970,
-      "playedAt": "2026-03-09T19:19:12.973Z"
-    },
-    {
-      "track": "Pursuit Of Happiness (Nightmare)",
-      "artists": "Kid Cudi, MGMT, Ratatat",
-      "durationMs": 295293,
-      "playedAt": "2026-03-09T19:14:16.961Z"
-    },
-    {
-      "track": "Landline",
-      "artists": "binki",
-      "durationMs": 160329,
-      "playedAt": "2026-03-09T19:11:01.789Z"
-    },
-    {
-      "track": "Bodysnatchers",
-      "artists": "Radiohead",
-      "durationMs": 242293,
-      "playedAt": "2026-03-09T19:10:27.173Z"
-    },
-    {
-      "track": "Since I Left You",
-      "artists": "The Avalanches",
-      "durationMs": 262840,
-      "playedAt": "2026-03-09T19:02:56.554Z"
-    },
-    {
-      "track": "Heaven",
-      "artists": "John Legend",
-      "durationMs": 215675,
-      "playedAt": "2026-03-09T18:58:20.036Z"
-    },
-    {
-      "track": "Triple Double",
-      "artists": "Jean Dawson, A$AP Rocky",
-      "durationMs": 222621,
-      "playedAt": "2026-03-09T18:54:50.005Z"
-    },
-    {
-      "track": "The Ballad of Matt & Mica",
-      "artists": "Magdalena Bay",
-      "durationMs": 240000,
-      "playedAt": "2026-03-09T18:51:13.244Z"
-    },
-    {
-      "track": "Kilby Girl",
-      "artists": "The Backseat Lovers",
-      "durationMs": 282205,
-      "playedAt": "2026-03-09T18:47:18.815Z"
-    },
-    {
-      "track": "The Divine Chord",
-      "artists": "The Avalanches, MGMT, Johnny Marr",
-      "durationMs": 187586,
-      "playedAt": "2026-03-09T18:42:42.226Z"
-    },
-    {
-      "track": "California",
-      "artists": "beabadoobee",
-      "durationMs": 172293,
-      "playedAt": "2026-03-09T18:39:40.571Z"
-    },
-    {
-      "track": "All Along the Watchtower",
-      "artists": "Jimi Hendrix",
-      "durationMs": 240800,
-      "playedAt": "2026-03-09T18:36:52.275Z"
-    },
-    {
-      "track": "No More Lies",
-      "artists": "Thundercat, Tame Impala",
-      "durationMs": 327217,
-      "playedAt": "2026-03-09T18:32:56.102Z"
-    },
-    {
-      "track": "Took a While",
-      "artists": "NEIL FRANCES",
-      "durationMs": 202909,
-      "playedAt": "2026-03-09T18:27:34.994Z"
-    },
-    {
-      "track": "Stereo",
-      "artists": "John Legend",
-      "durationMs": 251302,
-      "playedAt": "2026-03-09T18:24:17.348Z"
-    },
-    {
-      "track": "Wat's Wrong (feat. Zacari & Kendrick Lamar)",
-      "artists": "Isaiah Rashad, Zacari, Kendrick Lamar",
-      "durationMs": 330783,
-      "playedAt": "2026-03-09T18:20:11.597Z"
-    },
-    {
-      "track": "15 Step",
-      "artists": "Radiohead",
-      "durationMs": 237293,
-      "playedAt": "2026-03-09T18:14:47.242Z"
-    },
-    {
-      "track": "GRAVITY (FEAT. TYLER, THE CREATOR)",
-      "artists": "Brent Faiyaz, Dahi, Tyler, The Creator",
-      "durationMs": 214692,
-      "playedAt": "2026-03-09T18:10:55.504Z"
-    },
-    {
-      "track": "Rhymes Like Dimes",
-      "artists": "MF DOOM, DJ Cucumber Slice",
-      "durationMs": 258613,
-      "playedAt": "2026-03-09T18:07:26.025Z"
-    },
-    {
-      "track": "Replay",
-      "artists": "Tems",
-      "durationMs": 179999,
-      "playedAt": "2026-03-09T18:03:13.590Z"
-    },
-    {
-      "track": "Dancing in My Room",
-      "artists": "347aidan",
-      "durationMs": 180138,
-      "playedAt": "2026-03-09T18:00:19.124Z"
-    },
-    {
-      "track": "Charge It",
-      "artists": "ENNY",
-      "durationMs": 185715,
-      "playedAt": "2026-03-09T17:57:24.629Z"
-    },
-    {
-      "track": "What Once Was",
-      "artists": "Her's",
-      "durationMs": 255067,
-      "playedAt": "2026-03-09T17:54:16.214Z"
-    },
-    {
-      "track": "Music To Walk Home By",
-      "artists": "Tame Impala",
-      "durationMs": 312213,
-      "playedAt": "2026-03-09T17:50:06.664Z"
-    },
-    {
-      "track": "In My Years",
-      "artists": "Men I Trust",
-      "durationMs": 197086,
-      "playedAt": "2026-03-09T17:45:00.519Z"
-    },
-    {
-      "track": "Die Hard",
-      "artists": "Kendrick Lamar, Blxst, Amanda Reifer",
-      "durationMs": 239026,
-      "playedAt": "2026-03-09T17:41:48.908Z"
-    },
-    {
-      "track": "CAN YOU HEAR THE MOON",
-      "artists": "Grady",
-      "durationMs": 182534,
-      "playedAt": "2026-03-09T17:37:55.795Z"
-    },
-    {
-      "track": "Dive",
-      "artists": "Kid Cudi",
-      "durationMs": 148706,
-      "playedAt": "2026-03-09T17:35:00.244Z"
-    },
-    {
-      "track": "Dang! (feat. Anderson .Paak)",
-      "artists": "Mac Miller, Anderson .Paak",
-      "durationMs": 305350,
-      "playedAt": "2026-03-09T17:32:35.939Z"
-    },
-    {
-      "track": "Lee & Lovie (with reggie)",
-      "artists": "Smino, reggie",
-      "durationMs": 171676,
-      "playedAt": "2026-03-09T17:27:36.446Z"
-    },
-    {
-      "track": "Sober",
-      "artists": "Childish Gambino",
-      "durationMs": 252026,
-      "playedAt": "2026-03-09T17:24:50.122Z"
-    },
-    {
-      "track": "DARE (feat. Shaun Ryder & Roses Gabor)",
-      "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
-      "durationMs": 244999,
-      "playedAt": "2026-03-09T17:20:44.294Z"
-    },
-    {
-      "track": "The Boat I Row",
-      "artists": "Tame Impala",
-      "durationMs": 238320,
-      "playedAt": "2026-03-09T17:16:44.809Z"
-    },
-    {
-      "track": "Seek & Destroy",
-      "artists": "SZA",
-      "durationMs": 203733,
-      "playedAt": "2026-03-09T17:12:52.117Z"
-    },
-    {
-      "track": "Higher",
-      "artists": "Tems",
-      "durationMs": 196204,
-      "playedAt": "2026-03-09T17:09:45.855Z"
-    },
-    {
-      "track": "japan",
+      "track": "Go Away",
       "artists": "Yot Club",
-      "durationMs": 174935,
-      "playedAt": "2026-03-09T17:06:23.613Z"
+      "durationMs": 161941,
+      "playedAt": "2026-07-19T23:18:00.684Z"
     },
     {
-      "track": "Willing To Trust (with Ty Dolla $ign)",
-      "artists": "Kid Cudi, Ty Dolla $ign",
-      "durationMs": 282053,
-      "playedAt": "2026-03-09T17:03:34.099Z"
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-07-19T23:15:24.383Z"
     },
     {
-      "track": "Everyday (feat. Rod Stewart, Miguel & Mark Ronson)",
-      "artists": "A$AP Rocky, Rod Stewart, Miguel, Mark Ronson",
-      "durationMs": 260990,
-      "playedAt": "2026-03-09T16:58:57.868Z"
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-19T23:13:10.419Z"
     },
     {
-      "track": "Run Your Mouth",
-      "artists": "The Marías",
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-19T23:08:10.587Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-07-19T23:05:06.286Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-19T23:02:26.486Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-07-19T22:57:47.389Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-07-19T22:53:32.489Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-19T22:49:54.486Z"
+    },
+    {
+      "track": "Steeeam",
+      "artists": "Shelly",
+      "durationMs": 170892,
+      "playedAt": "2026-07-19T22:46:09.790Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-19T22:43:24.590Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-19T22:39:53.391Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-19T22:37:00.042Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-19T22:33:22.493Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-19T22:29:39.490Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-19T22:26:23.894Z"
+    },
+    {
+      "track": "Mindflower",
+      "artists": "Now Always Fades",
+      "durationMs": 254535,
+      "playedAt": "2026-07-19T22:24:07.791Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-19T22:19:58.992Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
       "durationMs": 160000,
-      "playedAt": "2026-03-09T16:55:40.354Z"
+      "playedAt": "2026-07-19T22:17:19.993Z"
     },
     {
-      "track": "Stumble",
-      "artists": "Kraak & Smaak, Parcels",
-      "durationMs": 270720,
-      "playedAt": "2026-03-09T16:55:28.181Z"
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-19T22:14:45.636Z"
     },
     {
-      "track": "Balloon (feat. Doechii)",
-      "artists": "Tyler, The Creator, Doechii",
-      "durationMs": 154261,
-      "playedAt": "2026-03-09T16:47:45.356Z"
-    },
-    {
-      "track": "III. Telegraph Ave. (\"Oakland\" by Lloyd)",
-      "artists": "Childish Gambino",
-      "durationMs": 210673,
-      "playedAt": "2026-03-09T16:45:14.532Z"
-    },
-    {
-      "track": "What I Got",
-      "artists": "Sublime",
-      "durationMs": 170906,
-      "playedAt": "2026-03-09T16:41:49.836Z"
-    },
-    {
-      "track": "Ivy",
-      "artists": "Frank Ocean",
-      "durationMs": 249191,
-      "playedAt": "2026-03-09T16:39:04.551Z"
-    },
-    {
-      "track": "A$AP Forever (feat. Moby)",
-      "artists": "A$AP Rocky, Moby",
-      "durationMs": 233061,
-      "playedAt": "2026-03-09T16:35:00.948Z"
-    },
-    {
-      "track": "‘87 Stingray",
-      "artists": "Tory Lanez",
-      "durationMs": 141333,
-      "playedAt": "2026-03-09T16:31:13.990Z"
-    },
-    {
-      "track": "Heart Of A Lion (Kid Cudi Theme Music)",
+      "track": "Sky Might Fall",
       "artists": "Kid Cudi",
-      "durationMs": 261359,
-      "playedAt": "2026-03-09T16:28:58.390Z"
+      "durationMs": 220906,
+      "playedAt": "2026-07-19T22:12:25.388Z"
     },
     {
-      "track": "Life Itself",
-      "artists": "Glass Animals",
-      "durationMs": 281406,
-      "playedAt": "2026-03-09T16:24:42.193Z"
+      "track": "Genie",
+      "artists": "Crumb",
+      "durationMs": 348706,
+      "playedAt": "2026-07-19T22:08:50.123Z"
     },
     {
-      "track": "NEVER",
-      "artists": "JID",
-      "durationMs": 241682,
-      "playedAt": "2026-03-09T16:20:06.804Z"
+      "track": "Angel",
+      "artists": "Massive Attack, Horace Andy",
+      "durationMs": 379533,
+      "playedAt": "2026-07-19T17:17:39.122Z"
     },
     {
-      "track": "All Caps",
-      "artists": "Madvillain, Madlib, MF DOOM",
-      "durationMs": 130479,
-      "playedAt": "2026-03-09T16:16:10.791Z"
+      "track": "The Beginning",
+      "artists": "Magdalena Bay",
+      "durationMs": 241304,
+      "playedAt": "2026-07-19T00:15:52.657Z"
+    },
+    {
+      "track": "II. Shadows",
+      "artists": "Childish Gambino",
+      "durationMs": 231746,
+      "playedAt": "2026-07-19T00:11:57.131Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-07-18T23:59:55.912Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-07-18T23:56:28.337Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-18T23:54:02.815Z"
+    },
+    {
+      "track": "Swangin’ On Westheimer",
+      "artists": "Don Toliver",
+      "durationMs": 288852,
+      "playedAt": "2026-07-18T23:51:53.904Z"
+    },
+    {
+      "track": "DHL",
+      "artists": "Frank Ocean",
+      "durationMs": 268893,
+      "playedAt": "2026-07-18T23:22:58.084Z"
+    },
+    {
+      "track": "Air",
+      "artists": "Men I Trust",
+      "durationMs": 194363,
+      "playedAt": "2026-07-18T23:18:28.955Z"
     },
     {
       "track": "Humans",
       "artists": "Night Tapes",
       "durationMs": 251690,
-      "playedAt": "2026-03-09T16:14:07.678Z"
+      "playedAt": "2026-07-18T23:02:12.145Z"
     },
     {
-      "track": "Best to You",
-      "artists": "Blood Orange, Empress Of",
-      "durationMs": 225747,
-      "playedAt": "2026-03-09T16:10:00.052Z"
+      "track": "Summers Over Interlude",
+      "artists": "Drake, Majid Jordan",
+      "durationMs": 106333,
+      "playedAt": "2026-07-18T22:58:06.138Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-18T22:56:25.542Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-18T21:06:49.987Z"
+    },
+    {
+      "track": "Still Beating",
+      "artists": "Mac DeMarco",
+      "durationMs": 181586,
+      "playedAt": "2026-07-18T20:45:41.281Z"
+    },
+    {
+      "track": "Overdue (with Travis Scott)",
+      "artists": "Metro Boomin, Travis Scott",
+      "durationMs": 166093,
+      "playedAt": "2026-07-18T20:42:38.937Z"
+    },
+    {
+      "track": "whoa (mind in awe)",
+      "artists": "XXXTENTACION",
+      "durationMs": 157776,
+      "playedAt": "2026-07-18T20:39:52.006Z"
+    },
+    {
+      "track": "That Life",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 215866,
+      "playedAt": "2026-07-18T20:37:13.375Z"
+    },
+    {
+      "track": "Rollin (feat. Future & Khalid)",
+      "artists": "Calvin Harris, Future, Khalid, Funk Wav",
+      "durationMs": 272653,
+      "playedAt": "2026-07-18T20:33:36.631Z"
+    },
+    {
+      "track": "Taking What's Not Yours",
+      "artists": "TV Girl",
+      "durationMs": 205650,
+      "playedAt": "2026-07-18T20:29:03.159Z"
+    },
+    {
+      "track": "Carried Away",
+      "artists": "Men I Trust",
+      "durationMs": 207500,
+      "playedAt": "2026-07-18T20:25:36.711Z"
+    },
+    {
+      "track": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "durationMs": 235344,
+      "playedAt": "2026-07-18T20:22:08.453Z"
+    },
+    {
+      "track": "Apocalypse Dreams",
+      "artists": "Tame Impala",
+      "durationMs": 356946,
+      "playedAt": "2026-07-18T20:18:02.551Z"
+    },
+    {
+      "track": "Air",
+      "artists": "Men I Trust",
+      "durationMs": 194363,
+      "playedAt": "2026-07-18T20:12:04.836Z"
+    },
+    {
+      "track": "Humans",
+      "artists": "Night Tapes",
+      "durationMs": 251690,
+      "playedAt": "2026-07-18T20:08:49.662Z"
+    },
+    {
+      "track": "Dynamic",
+      "artists": "Weak Moves",
+      "durationMs": 198210,
+      "playedAt": "2026-07-18T20:02:11.562Z"
+    },
+    {
+      "track": "Dynamic",
+      "artists": "Weak Moves",
+      "durationMs": 198210,
+      "playedAt": "2026-07-18T20:00:32.433Z"
+    },
+    {
+      "track": "Somewhere in Between",
+      "artists": "Blood Orange",
+      "durationMs": 203728,
+      "playedAt": "2026-07-18T19:52:28.831Z"
+    },
+    {
+      "track": "Eventually",
+      "artists": "Tame Impala",
+      "durationMs": 318591,
+      "playedAt": "2026-07-18T19:49:10.835Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-07-18T19:36:48.867Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-07-18T19:31:58.219Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-07-18T19:30:52.278Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-07-18T19:24:26.347Z"
+    },
+    {
+      "track": "Playground",
+      "artists": "Steve Lacy",
+      "durationMs": 213797,
+      "playedAt": "2026-07-18T19:21:02.979Z"
+    },
+    {
+      "track": "CHANCES",
+      "artists": "KAYTRANADA, Shay Lia",
+      "durationMs": 218187,
+      "playedAt": "2026-07-18T19:17:28.329Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-18T19:13:49.357Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-18T19:08:42.984Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-07-18T19:05:32.146Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-18T19:02:45.719Z"
+    },
+    {
+      "track": "Rinkside",
+      "artists": "Vansire",
+      "durationMs": 158823,
+      "playedAt": "2026-07-18T18:58:00.067Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-07-18T18:55:20.442Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-07-18T18:50:59.126Z"
+    },
+    {
+      "track": "Stars",
+      "artists": "PinkPantheress",
+      "durationMs": 141866,
+      "playedAt": "2026-07-18T18:47:14.472Z"
+    },
+    {
+      "track": "New Era",
+      "artists": "JPEGMAFIA",
+      "durationMs": 147135,
+      "playedAt": "2026-07-18T18:44:51.790Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-18T18:42:23.795Z"
+    },
+    {
+      "track": "Steeeam",
+      "artists": "Shelly",
+      "durationMs": 170892,
+      "playedAt": "2026-07-18T18:38:32.547Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-18T18:35:40.869Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-18T18:32:03.068Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-18T18:29:03.228Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-18T18:25:19.219Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-18T18:21:29.657Z"
+    },
+    {
+      "track": "Tonight",
+      "artists": "PinkPantheress",
+      "durationMs": 174880,
+      "playedAt": "2026-07-18T18:17:32.234Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-18T18:14:36.324Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-18T18:11:14.190Z"
+    },
+    {
+      "track": "Love That You Try",
+      "artists": "Vansire, BERÜ",
+      "durationMs": 168292,
+      "playedAt": "2026-07-18T18:08:51.583Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-18T18:06:02.395Z"
+    },
+    {
+      "track": "Cozy",
+      "artists": "Operelly",
+      "durationMs": 191000,
+      "playedAt": "2026-07-18T18:03:07.991Z"
+    },
+    {
+      "track": "Getting It On",
+      "artists": "SALES",
+      "durationMs": 180437,
+      "playedAt": "2026-07-18T17:59:56.201Z"
+    },
+    {
+      "track": "Renee",
+      "artists": "SALES",
+      "durationMs": 179125,
+      "playedAt": "2026-07-18T17:56:54.953Z"
+    },
+    {
+      "track": "Mindflower",
+      "artists": "Now Always Fades",
+      "durationMs": 254535,
+      "playedAt": "2026-07-18T17:53:55.038Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-18T17:49:39.699Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-18T17:46:02.928Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-18T17:43:22.086Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-07-18T17:40:48.364Z"
+    },
+    {
+      "track": "Sure Thing",
+      "artists": "Miguel",
+      "durationMs": 195373,
+      "playedAt": "2026-07-18T17:11:44.701Z"
+    },
+    {
+      "track": "Unfold",
+      "artists": "Melody's Echo Chamber",
+      "durationMs": 90127,
+      "playedAt": "2026-07-18T17:08:34.969Z"
+    },
+    {
+      "track": "She Stole My Heart",
+      "artists": "Ark Woods",
+      "durationMs": 213499,
+      "playedAt": "2026-07-18T17:06:58.547Z"
+    },
+    {
+      "track": "Breezeblocks",
+      "artists": "alt-J",
+      "durationMs": 227080,
+      "playedAt": "2026-07-18T16:42:14.831Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-18T15:56:05.004Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-18T03:39:55.469Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-18T03:36:10.836Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-18T03:24:08.391Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-18T03:21:34.092Z"
+    },
+    {
+      "track": "Just the Right Song",
+      "artists": "Vansire",
+      "durationMs": 186253,
+      "playedAt": "2026-07-18T03:17:43.607Z"
+    },
+    {
+      "track": "It Almost Worked",
+      "artists": "TV Girl",
+      "durationMs": 152000,
+      "playedAt": "2026-07-18T00:15:59.764Z"
+    },
+    {
+      "track": "That Life",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 215866,
+      "playedAt": "2026-07-18T00:13:37.361Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-18T00:09:21.939Z"
+    },
+    {
+      "track": "loop it and leave it",
+      "artists": "JPEGMAFIA",
+      "durationMs": 120795,
+      "playedAt": "2026-07-17T23:24:39.619Z"
+    },
+    {
+      "track": "Fauxllennium",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 188533,
+      "playedAt": "2026-07-17T23:22:44.550Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-07-17T22:34:22.848Z"
+    },
+    {
+      "track": "Shalala",
+      "artists": "Moses Gunn Collective",
+      "durationMs": 228015,
+      "playedAt": "2026-07-17T22:29:18.798Z"
+    },
+    {
+      "track": "Another Stone",
+      "artists": "Men I Trust",
+      "durationMs": 190280,
+      "playedAt": "2026-07-17T22:25:30.043Z"
+    },
+    {
+      "track": "GHOST!",
+      "artists": "Kid Cudi",
+      "durationMs": 289066,
+      "playedAt": "2026-07-17T22:22:10.048Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-17T22:17:18.788Z"
+    },
+    {
+      "track": "Dark Red",
+      "artists": "Steve Lacy",
+      "durationMs": 173104,
+      "playedAt": "2026-07-17T22:15:11.852Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-17T22:12:16.601Z"
+    },
+    {
+      "track": "CONFUSED!",
+      "artists": "Kid Cudi",
+      "durationMs": 236120,
+      "playedAt": "2026-07-17T22:08:41.298Z"
+    },
+    {
+      "track": "Unfuckwittable",
+      "artists": "Kid Cudi",
+      "durationMs": 275746,
+      "playedAt": "2026-07-17T22:04:50.949Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-07-17T22:00:20.944Z"
+    },
+    {
+      "track": "PUNK ROCKY",
+      "artists": "A$AP Rocky",
+      "durationMs": 235344,
+      "playedAt": "2026-07-17T21:57:42.832Z"
+    },
+    {
+      "track": "Mercurial World",
+      "artists": "Magdalena Bay",
+      "durationMs": 181173,
+      "playedAt": "2026-07-17T21:53:53.248Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-07-17T21:50:57.743Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-07-17T21:47:54.045Z"
+    },
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-07-17T21:44:29.090Z"
+    },
+    {
+      "track": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 221240,
+      "playedAt": "2026-07-17T21:41:17.796Z"
+    },
+    {
+      "track": "the BLACK seminole.",
+      "artists": "Lil Yachty, Diana Gordon",
+      "durationMs": 411912,
+      "playedAt": "2026-07-17T21:37:42.242Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-17T21:30:56.080Z"
+    },
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-07-17T21:27:37.340Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-07-17T21:26:06.296Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-17T21:22:37.023Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-07-17T21:18:36.040Z"
+    },
+    {
+      "track": "Space Jam - An Odyssey",
+      "artists": "Orion Sun",
+      "durationMs": 221596,
+      "playedAt": "2026-07-17T03:30:03.687Z"
+    },
+    {
+      "track": "In Your Eyes",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 247054,
+      "playedAt": "2026-07-17T03:20:47.460Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-17T03:16:46.158Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-17T03:13:08.661Z"
+    },
+    {
+      "track": "The Beginning",
+      "artists": "Magdalena Bay",
+      "durationMs": 241304,
+      "playedAt": "2026-07-17T03:09:23.996Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-17T03:05:28.325Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-07-17T03:03:21.471Z"
+    },
+    {
+      "track": "Fear, Sex",
+      "artists": "Magdalena Bay",
+      "durationMs": 152053,
+      "playedAt": "2026-07-17T02:58:49.522Z"
+    },
+    {
+      "track": "What You Won't Do for Love",
+      "artists": "Bobby Caldwell",
+      "durationMs": 286493,
+      "playedAt": "2026-07-17T02:41:03.216Z"
+    },
+    {
+      "track": "Run Your Mouth",
+      "artists": "The Marías",
+      "durationMs": 160000,
+      "playedAt": "2026-07-17T02:36:22.367Z"
+    },
+    {
+      "track": "Doin' Time",
+      "artists": "Sublime",
+      "durationMs": 253840,
+      "playedAt": "2026-07-17T02:33:48.112Z"
+    },
+    {
+      "track": "Relax",
+      "artists": "Vacations",
+      "durationMs": 158573,
+      "playedAt": "2026-07-17T02:29:40.016Z"
+    },
+    {
+      "track": "television",
+      "artists": "Night Tapes",
+      "durationMs": 211047,
+      "playedAt": "2026-07-17T02:27:07.116Z"
+    },
+    {
+      "track": "Good Days",
+      "artists": "SZA",
+      "durationMs": 279203,
+      "playedAt": "2026-07-17T02:23:41.815Z"
+    },
+    {
+      "track": "Better Together",
+      "artists": "Jack Johnson",
+      "durationMs": 207680,
+      "playedAt": "2026-07-17T02:19:08.266Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-17T02:15:46.312Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-17T02:12:08.813Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-07-17T02:08:24.085Z"
+    },
+    {
+      "track": "Neverender",
+      "artists": "Justice, Tame Impala",
+      "durationMs": 266493,
+      "playedAt": "2026-07-16T23:21:16.161Z"
+    },
+    {
+      "track": "Tadow",
+      "artists": "Masego, FKJ",
+      "durationMs": 301893,
+      "playedAt": "2026-07-16T23:16:55.378Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-16T23:11:59.169Z"
+    },
+    {
+      "track": "Pitch the Baby",
+      "artists": "Cocteau Twins",
+      "durationMs": 194080,
+      "playedAt": "2026-07-16T23:06:11.219Z"
+    },
+    {
+      "track": "Natural",
+      "artists": "Shelly",
+      "durationMs": 163764,
+      "playedAt": "2026-07-16T22:59:40.969Z"
+    },
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-07-16T22:56:49.063Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T22:49:35.516Z"
+    },
+    {
+      "track": "Dynamic",
+      "artists": "Weak Moves",
+      "durationMs": 198210,
+      "playedAt": "2026-07-16T20:32:10.052Z"
+    },
+    {
+      "track": "Simulation Swarm",
+      "artists": "Big Thief",
+      "durationMs": 252733,
+      "playedAt": "2026-07-16T20:26:39.975Z"
+    },
+    {
+      "track": "Taking What's Not Yours",
+      "artists": "TV Girl",
+      "durationMs": 205650,
+      "playedAt": "2026-07-16T20:22:32.874Z"
+    },
+    {
+      "track": "Where This Flower Blooms (feat. Frank Ocean)",
+      "artists": "Tyler, The Creator, Frank Ocean",
+      "durationMs": 194933,
+      "playedAt": "2026-07-16T20:19:12.978Z"
+    },
+    {
+      "track": "Think Too Much",
+      "artists": "Hannah Jadagu",
+      "durationMs": 170839,
+      "playedAt": "2026-07-16T20:15:35.178Z"
+    },
+    {
+      "track": "Say It Now",
+      "artists": "Hannah Jadagu",
+      "durationMs": 220488,
+      "playedAt": "2026-07-16T20:12:50.029Z"
+    },
+    {
+      "track": "Lose",
+      "artists": "Hannah Jadagu",
+      "durationMs": 196739,
+      "playedAt": "2026-07-16T20:09:15.172Z"
+    },
+    {
+      "track": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "durationMs": 206012,
+      "playedAt": "2026-07-16T20:04:24.684Z"
+    },
+    {
+      "track": "All My Time Is Wasted",
+      "artists": "Hannah Jadagu",
+      "durationMs": 200853,
+      "playedAt": "2026-07-16T20:00:55.187Z"
+    },
+    {
+      "track": "Tailwhip",
+      "artists": "Men I Trust",
+      "durationMs": 225263,
+      "playedAt": "2026-07-16T19:57:39.988Z"
+    },
+    {
+      "track": "Pain",
+      "artists": "PinkPantheress",
+      "durationMs": 98544,
+      "playedAt": "2026-07-16T19:54:00.490Z"
+    },
+    {
+      "track": "Kerosene!",
+      "artists": "Yves Tumor",
+      "durationMs": 305506,
+      "playedAt": "2026-07-16T19:52:27.589Z"
+    },
+    {
+      "track": "Underworld",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 166321,
+      "playedAt": "2026-07-16T19:47:28.035Z"
+    },
+    {
+      "track": "HEAL YOUR HEART (INTERLUDE)",
+      "artists": "Brent Faiyaz",
+      "durationMs": 75043,
+      "playedAt": "2026-07-16T17:55:04.620Z"
+    },
+    {
+      "track": "Hard to Let Go",
+      "artists": "Men I Trust",
+      "durationMs": 247615,
+      "playedAt": "2026-07-16T17:53:55.326Z"
+    },
+    {
+      "track": "This Is The World (I Made It For You)",
+      "artists": "Magdalena Bay",
+      "durationMs": 281786,
+      "playedAt": "2026-07-16T17:49:53.430Z"
+    },
+    {
+      "track": "MERCEDES",
+      "artists": "Brent Faiyaz",
+      "durationMs": 233069,
+      "playedAt": "2026-07-16T17:45:07.733Z"
+    },
+    {
+      "track": "RIP",
+      "artists": "Miguel",
+      "durationMs": 164692,
+      "playedAt": "2026-07-16T17:41:20.373Z"
+    },
+    {
+      "track": "Chanel",
+      "artists": "Frank Ocean",
+      "durationMs": 210285,
+      "playedAt": "2026-07-16T17:38:31.440Z"
+    },
+    {
+      "track": "Let It Happen",
+      "artists": "Tame Impala",
+      "durationMs": 467586,
+      "playedAt": "2026-07-16T17:35:06.943Z"
+    },
+    {
+      "track": "Patience",
+      "artists": "Tame Impala",
+      "durationMs": 292267,
+      "playedAt": "2026-07-16T17:27:24.797Z"
+    },
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-07-16T15:52:26.807Z"
+    },
+    {
+      "track": "Ryd",
+      "artists": "Steve Lacy",
+      "durationMs": 140182,
+      "playedAt": "2026-07-16T15:49:15.464Z"
+    },
+    {
+      "track": "Just How You Are",
+      "artists": "Leon Thomas",
+      "durationMs": 194247,
+      "playedAt": "2026-07-16T15:47:01.005Z"
+    },
+    {
+      "track": "Breezeblocks",
+      "artists": "alt-J",
+      "durationMs": 227080,
+      "playedAt": "2026-07-16T15:43:52.560Z"
+    },
+    {
+      "track": "waves - Tame Impala Remix",
+      "artists": "Miguel, Tame Impala",
+      "durationMs": 253346,
+      "playedAt": "2026-07-16T15:40:11.200Z"
+    },
+    {
+      "track": "Real Life",
+      "artists": "The Marías",
+      "durationMs": 206973,
+      "playedAt": "2026-07-16T15:36:03.636Z"
+    },
+    {
+      "track": "Vinta",
+      "artists": "Crumb",
+      "durationMs": 299970,
+      "playedAt": "2026-07-16T15:32:42.277Z"
+    },
+    {
+      "track": "AMBER",
+      "artists": "Unusual Demont",
+      "durationMs": 211865,
+      "playedAt": "2026-07-16T15:27:47.923Z"
+    },
+    {
+      "track": "Sleeper",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 244271,
+      "playedAt": "2026-07-16T15:24:21.827Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-16T15:20:23.227Z"
+    },
+    {
+      "track": "Go Away",
+      "artists": "Yot Club",
+      "durationMs": 161941,
+      "playedAt": "2026-07-16T15:16:32.526Z"
+    },
+    {
+      "track": "I Really Want to Stay at Your House",
+      "artists": "Rosa Walton, Hallie Coggins",
+      "durationMs": 246652,
+      "playedAt": "2026-07-16T15:13:56.329Z"
+    },
+    {
+      "track": "tony soprano.",
+      "artists": "Brent Faiyaz",
+      "durationMs": 182304,
+      "playedAt": "2026-07-16T15:09:55.329Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-07-16T15:06:58.631Z"
+    },
+    {
+      "track": "Humans",
+      "artists": "Night Tapes",
+      "durationMs": 251690,
+      "playedAt": "2026-07-16T15:03:45.652Z"
+    },
+    {
+      "track": "Earth (feat. Future)",
+      "artists": "Mac Miller, Future",
+      "durationMs": 256773,
+      "playedAt": "2026-07-16T14:59:39.656Z"
+    },
+    {
+      "track": "Golden",
+      "artists": "Berhana",
+      "durationMs": 119652,
+      "playedAt": "2026-07-16T14:55:28.653Z"
+    },
+    {
+      "track": "A New Kind Of Love - Demo",
+      "artists": "Frou Frou, Imogen Heap, Guy Sigsworth",
+      "durationMs": 259071,
+      "playedAt": "2026-07-16T14:53:34.757Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-07-16T14:49:21.256Z"
+    },
+    {
+      "track": "Dreamcatcher (feat. Swae Lee & Travis Scott)",
+      "artists": "Metro Boomin, Swae Lee, Travis Scott",
+      "durationMs": 211920,
+      "playedAt": "2026-07-16T14:40:46.865Z"
+    },
+    {
+      "track": "Cry for Me",
+      "artists": "Magdalena Bay",
+      "durationMs": 307266,
+      "playedAt": "2026-07-16T14:37:20.571Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-16T14:31:58.065Z"
+    },
+    {
+      "track": "Luv (sic)",
+      "artists": "Nujabes",
+      "durationMs": 289026,
+      "playedAt": "2026-07-16T14:29:06.974Z"
+    },
+    {
+      "track": "Fuck The World (Summer in London)",
+      "artists": "Brent Faiyaz",
+      "durationMs": 236703,
+      "playedAt": "2026-07-16T14:07:11.817Z"
+    },
+    {
+      "track": "Colors",
+      "artists": "Chenayder, MAVI",
+      "durationMs": 186666,
+      "playedAt": "2026-07-16T14:03:20.820Z"
+    },
+    {
+      "track": "Chandelier",
+      "artists": "Will Paquin",
+      "durationMs": 127464,
+      "playedAt": "2026-07-16T13:56:34.871Z"
+    },
+    {
+      "track": "Genie",
+      "artists": "Crumb",
+      "durationMs": 348706,
+      "playedAt": "2026-07-16T13:54:33.130Z"
+    },
+    {
+      "track": "Static",
+      "artists": "Steve Lacy",
+      "durationMs": 156538,
+      "playedAt": "2026-07-16T13:48:50Z"
+    },
+    {
+      "track": "Changes",
+      "artists": "Empire Of The Sun",
+      "durationMs": 218179,
+      "playedAt": "2026-07-16T13:46:19.198Z"
+    },
+    {
+      "track": "Motion",
+      "artists": "Khalid",
+      "durationMs": 235891,
+      "playedAt": "2026-07-16T13:42:06.682Z"
+    },
+    {
+      "track": "Charge It",
+      "artists": "ENNY",
+      "durationMs": 185715,
+      "playedAt": "2026-07-16T13:38:16.586Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-16T13:35:16.491Z"
+    },
+    {
+      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
+      "artists": "SZA, Phoebe Bridgers",
+      "durationMs": 218586,
+      "playedAt": "2026-07-16T13:31:39.001Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T13:27:59.839Z"
+    },
+    {
+      "track": "Sea Gets Hotter",
+      "artists": "Durand Jones & The Indications, Durand Jones, Aaron Frazer",
+      "durationMs": 197226,
+      "playedAt": "2026-07-16T13:24:24.667Z"
+    },
+    {
+      "track": "hmu",
+      "artists": "greek",
+      "durationMs": 235801,
+      "playedAt": "2026-07-16T13:21:13.144Z"
+    },
+    {
+      "track": "Husk",
+      "artists": "Men I Trust",
+      "durationMs": 204651,
+      "playedAt": "2026-07-16T13:17:23.011Z"
+    },
+    {
+      "track": "Dracula",
+      "artists": "Tame Impala",
+      "durationMs": 205308,
+      "playedAt": "2026-07-16T13:14:04.099Z"
+    },
+    {
+      "track": "Everything Blue",
+      "artists": "TV Girl, George Clanton",
+      "durationMs": 222520,
+      "playedAt": "2026-07-16T13:10:44.445Z"
+    },
+    {
+      "track": "I Smoked Away My Brain (I'm God x Demons Mashup) (feat. Imogen Heap & Clams Casino)",
+      "artists": "A$AP Rocky, Imogen Heap, Clams Casino",
+      "durationMs": 190285,
+      "playedAt": "2026-07-16T13:06:18.847Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-07-16T13:03:14.279Z"
+    },
+    {
+      "track": "Butterflies",
+      "artists": "TV Girl, George Clanton, Jordana",
+      "durationMs": 250624,
+      "playedAt": "2026-07-16T12:59:45.151Z"
+    },
+    {
+      "track": "This Is The World (I Made It For You)",
+      "artists": "Magdalena Bay",
+      "durationMs": 281786,
+      "playedAt": "2026-07-16T12:54:19.861Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-16T12:49:37.980Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-07-16T12:47:15.303Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-16T12:43:29.251Z"
+    },
+    {
+      "track": "Unfuckwittable",
+      "artists": "Kid Cudi",
+      "durationMs": 275746,
+      "playedAt": "2026-07-16T12:39:28.283Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-16T12:34:58.181Z"
+    },
+    {
+      "track": "Man On The Moon",
+      "artists": "Kid Cudi",
+      "durationMs": 210893,
+      "playedAt": "2026-07-16T12:31:13.577Z"
+    },
+    {
+      "track": "Up Up & Away",
+      "artists": "Kid Cudi",
+      "durationMs": 227346,
+      "playedAt": "2026-07-16T12:27:42.617Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T12:24:01.037Z"
+    },
+    {
+      "track": "Pursuit Of Happiness (Nightmare)",
+      "artists": "Kid Cudi, MGMT, Ratatat",
+      "durationMs": 295293,
+      "playedAt": "2026-07-16T01:36:34.595Z"
+    },
+    {
+      "track": "Make Her Say",
+      "artists": "Kid Cudi, Kanye West, Common",
+      "durationMs": 216413,
+      "playedAt": "2026-07-16T01:31:39.308Z"
+    },
+    {
+      "track": "Cudi Zone",
+      "artists": "Kid Cudi",
+      "durationMs": 259040,
+      "playedAt": "2026-07-16T01:28:02.880Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-16T01:23:43.855Z"
+    },
+    {
+      "track": "Enter Galactic (Love Connection Part I)",
+      "artists": "Kid Cudi",
+      "durationMs": 260200,
+      "playedAt": "2026-07-16T01:19:37.095Z"
+    },
+    {
+      "track": "Sky Might Fall",
+      "artists": "Kid Cudi",
+      "durationMs": 220906,
+      "playedAt": "2026-07-16T01:15:16.893Z"
+    },
+    {
+      "track": "Day 'N' Nite (nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 221240,
+      "playedAt": "2026-07-16T01:11:35.999Z"
+    },
+    {
+      "track": "My World",
+      "artists": "Kid Cudi, Billy Craven",
+      "durationMs": 243026,
+      "playedAt": "2026-07-16T01:07:54.762Z"
+    },
+    {
+      "track": "Heart Of A Lion (Kid Cudi Theme Music)",
+      "artists": "Kid Cudi",
+      "durationMs": 261359,
+      "playedAt": "2026-07-16T01:03:51.734Z"
+    },
+    {
+      "track": "Solo Dolo (Nightmare)",
+      "artists": "Kid Cudi",
+      "durationMs": 266306,
+      "playedAt": "2026-07-16T00:59:30.375Z"
+    },
+    {
+      "track": "Simple As...",
+      "artists": "Kid Cudi",
+      "durationMs": 151333,
+      "playedAt": "2026-07-16T00:55:04.512Z"
+    },
+    {
+      "track": "Soundtrack 2 My Life",
+      "artists": "Kid Cudi",
+      "durationMs": 235626,
+      "playedAt": "2026-07-16T00:52:33.119Z"
+    },
+    {
+      "track": "In My Dreams (Cudder Anthem)",
+      "artists": "Kid Cudi",
+      "durationMs": 199000,
+      "playedAt": "2026-07-16T00:48:37.294Z"
+    },
+    {
+      "track": "Godspeed",
+      "artists": "Frank Ocean",
+      "durationMs": 177922,
+      "playedAt": "2026-07-16T00:42:15.654Z"
+    },
+    {
+      "track": "Seigfried",
+      "artists": "Frank Ocean",
+      "durationMs": 334570,
+      "playedAt": "2026-07-16T00:39:17.756Z"
+    },
+    {
+      "track": "White Ferrari",
+      "artists": "Frank Ocean",
+      "durationMs": 248807,
+      "playedAt": "2026-07-16T00:33:43.665Z"
+    },
+    {
+      "track": "Close To You",
+      "artists": "Frank Ocean",
+      "durationMs": 85754,
+      "playedAt": "2026-07-16T00:29:34.621Z"
+    },
+    {
+      "track": "Facebook Story",
+      "artists": "Frank Ocean",
+      "durationMs": 68588,
+      "playedAt": "2026-07-16T00:28:08.692Z"
+    },
+    {
+      "track": "Pretty Sweet",
+      "artists": "Frank Ocean",
+      "durationMs": 158478,
+      "playedAt": "2026-07-16T00:27:00.221Z"
+    },
+    {
+      "track": "Solo (Reprise)",
+      "artists": "Frank Ocean",
+      "durationMs": 78742,
+      "playedAt": "2026-07-16T00:24:21.443Z"
     },
     {
       "track": "Nights",
       "artists": "Frank Ocean",
       "durationMs": 307151,
-      "playedAt": "2026-03-09T16:01:45.427Z"
+      "playedAt": "2026-07-16T00:23:03.687Z"
+    },
+    {
+      "track": "Good Guy",
+      "artists": "Frank Ocean",
+      "durationMs": 66786,
+      "playedAt": "2026-07-16T00:17:55.552Z"
+    },
+    {
+      "track": "Self Control",
+      "artists": "Frank Ocean",
+      "durationMs": 249667,
+      "playedAt": "2026-07-16T00:16:48.772Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-07-16T00:12:51.224Z"
+    },
+    {
+      "track": "Skyline To",
+      "artists": "Frank Ocean",
+      "durationMs": 184600,
+      "playedAt": "2026-07-16T00:12:39.096Z"
+    },
+    {
+      "track": "Solo",
+      "artists": "Frank Ocean",
+      "durationMs": 257380,
+      "playedAt": "2026-07-16T00:09:34.504Z"
+    },
+    {
+      "track": "Be Yourself",
+      "artists": "Frank Ocean",
+      "durationMs": 86943,
+      "playedAt": "2026-07-16T00:04:29.433Z"
+    },
+    {
+      "track": "Pink + White",
+      "artists": "Frank Ocean",
+      "durationMs": 184516,
+      "playedAt": "2026-07-16T00:03:02.490Z"
+    },
+    {
+      "track": "Ivy",
+      "artists": "Frank Ocean",
+      "durationMs": 249191,
+      "playedAt": "2026-07-15T23:59:57.985Z"
+    },
+    {
+      "track": "Nikes",
+      "artists": "Frank Ocean",
+      "durationMs": 314075,
+      "playedAt": "2026-07-15T23:55:48.797Z"
+    },
+    {
+      "track": "Nikes",
+      "artists": "Frank Ocean",
+      "durationMs": 314075,
+      "playedAt": "2026-07-15T22:52:05.674Z"
+    },
+    {
+      "track": "Vicious Sensitive Robot",
+      "artists": "The Marías",
+      "durationMs": 194160,
+      "playedAt": "2026-07-15T18:23:35.832Z"
+    },
+    {
+      "track": "Coming Back (feat. SZA)",
+      "artists": "James Blake, SZA",
+      "durationMs": 195905,
+      "playedAt": "2026-07-15T18:19:41.131Z"
+    },
+    {
+      "track": "What If You Hypnotise Me?",
+      "artists": "Sampha, Léa Sen",
+      "durationMs": 218397,
+      "playedAt": "2026-07-15T18:16:31.013Z"
+    },
+    {
+      "track": "intro",
+      "artists": "Orion Sun",
+      "durationMs": 180560,
+      "playedAt": "2026-07-15T18:12:45.140Z"
+    },
+    {
+      "track": "Mr. Rager",
+      "artists": "Kid Cudi",
+      "durationMs": 294213,
+      "playedAt": "2026-07-15T18:09:55.133Z"
+    },
+    {
+      "track": "She Looked Like Me!",
+      "artists": "Magdalena Bay",
+      "durationMs": 193186,
+      "playedAt": "2026-07-15T18:04:59.446Z"
+    },
+    {
+      "track": "Dancing Circles",
+      "artists": "Sampha",
+      "durationMs": 233640,
+      "playedAt": "2026-07-15T18:01:52.732Z"
+    },
+    {
+      "track": "Bones",
+      "artists": "Crumb",
+      "durationMs": 193981,
+      "playedAt": "2026-07-15T17:57:15.487Z"
+    },
+    {
+      "track": "Dive",
+      "artists": "Kid Cudi",
+      "durationMs": 148706,
+      "playedAt": "2026-07-15T17:54:07.146Z"
+    },
+    {
+      "track": "Ghost Town",
+      "artists": "Kanye West, PARTYNEXTDOOR",
+      "durationMs": 271386,
+      "playedAt": "2026-07-15T17:51:44.145Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-15T17:47:18.549Z"
+    },
+    {
+      "track": "Equal Trouble",
+      "artists": "Blue Material",
+      "durationMs": 242102,
+      "playedAt": "2026-07-15T17:40:44.799Z"
+    },
+    {
+      "track": "Coffee For Dinner",
+      "artists": "Orion Sun",
+      "durationMs": 172680,
+      "playedAt": "2026-07-15T17:36:48.482Z"
+    },
+    {
+      "track": "Headshots (4r da Locals)",
+      "artists": "Isaiah Rashad",
+      "durationMs": 193208,
+      "playedAt": "2026-07-15T17:34:01.510Z"
+    },
+    {
+      "track": "Super Stars",
+      "artists": "Yves Tumor",
+      "durationMs": 185560,
+      "playedAt": "2026-07-15T17:30:53.928Z"
+    },
+    {
+      "track": "Super Stars",
+      "artists": "Yves Tumor",
+      "durationMs": 185560,
+      "playedAt": "2026-07-15T17:29:07.062Z"
+    },
+    {
+      "track": "Crack Rock",
+      "artists": "Frank Ocean",
+      "durationMs": 224146,
+      "playedAt": "2026-07-15T16:01:27.630Z"
+    },
+    {
+      "track": "In Your Eyes",
+      "artists": "BADBADNOTGOOD, Charlotte Day Wilson",
+      "durationMs": 247054,
+      "playedAt": "2026-07-15T15:57:38.228Z"
+    },
+    {
+      "track": "MERCEDES",
+      "artists": "Brent Faiyaz",
+      "durationMs": 233069,
+      "playedAt": "2026-07-15T15:53:36.962Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-15T15:49:49.534Z"
+    },
+    {
+      "track": "Off The Ground",
+      "artists": "Anderson .Paak",
+      "durationMs": 288052,
+      "playedAt": "2026-07-15T15:47:29.231Z"
+    },
+    {
+      "track": "Beat laments the world",
+      "artists": "Nujabes",
+      "durationMs": 263826,
+      "playedAt": "2026-07-15T15:42:46.736Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-15T15:38:28.839Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-15T15:34:27.681Z"
+    },
+    {
+      "track": "BLUE",
+      "artists": "Billie Eilish",
+      "durationMs": 343120,
+      "playedAt": "2026-07-15T15:30:50.846Z"
+    },
+    {
+      "track": "Champagne Coast",
+      "artists": "Blood Orange",
+      "durationMs": 292373,
+      "playedAt": "2026-07-15T15:25:13.442Z"
+    },
+    {
+      "track": "The Void",
+      "artists": "Kid Cudi",
+      "durationMs": 325413,
+      "playedAt": "2026-07-15T15:20:26.847Z"
+    },
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-07-15T15:15:07.149Z"
+    },
+    {
+      "track": "Drugs You Should Try It",
+      "artists": "Travis Scott",
+      "durationMs": 208487,
+      "playedAt": "2026-07-15T15:10:42.850Z"
+    },
+    {
+      "track": "Suspended",
+      "artists": "Sampha",
+      "durationMs": 185371,
+      "playedAt": "2026-07-15T15:07:20.149Z"
+    },
+    {
+      "track": "Magic City Thrill",
+      "artists": "James Tillman",
+      "durationMs": 120491,
+      "playedAt": "2026-07-15T15:04:20.451Z"
+    },
+    {
+      "track": "No Church In The Wild",
+      "artists": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM",
+      "durationMs": 272506,
+      "playedAt": "2026-07-15T15:02:25.656Z"
+    },
+    {
+      "track": "drifting",
+      "artists": "Night Tapes",
+      "durationMs": 212440,
+      "playedAt": "2026-07-15T14:57:58.853Z"
+    },
+    {
+      "track": "E. Coli (feat. Earl Sweatshirt)",
+      "artists": "The Alchemist, Earl Sweatshirt",
+      "durationMs": 132147,
+      "playedAt": "2026-07-15T14:54:32.148Z"
+    },
+    {
+      "track": "I'm God",
+      "artists": "Clams Casino, Imogen Heap",
+      "durationMs": 277710,
+      "playedAt": "2026-07-15T14:52:25.662Z"
+    },
+    {
+      "track": "The Color Violet",
+      "artists": "Tory Lanez",
+      "durationMs": 226466,
+      "playedAt": "2026-07-15T14:47:53.664Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-07-15T14:44:03.709Z"
+    },
+    {
+      "track": "2 Wheel Drive",
+      "artists": "Magdalena Bay",
+      "durationMs": 144354,
+      "playedAt": "2026-07-15T14:40:31.932Z"
+    },
+    {
+      "track": "I am not a Lyricist",
+      "artists": "Baby Keem",
+      "durationMs": 205176,
+      "playedAt": "2026-07-15T14:38:13.172Z"
+    },
+    {
+      "track": "Radio",
+      "artists": "Freak Slug",
+      "durationMs": 191527,
+      "playedAt": "2026-07-15T14:34:53.901Z"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artists": "Travis Scott, Kacy Hill",
+      "durationMs": 339066,
+      "playedAt": "2026-07-15T14:31:47.774Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-07-15T14:26:14.516Z"
+    },
+    {
+      "track": "Let's Go Get Stoned",
+      "artists": "Sublime",
+      "durationMs": 213128,
+      "playedAt": "2026-07-15T14:21:01.879Z"
+    },
+    {
+      "track": "Fall Down",
+      "artists": "Crumb",
+      "durationMs": 173000,
+      "playedAt": "2026-07-15T14:12:05.585Z"
+    },
+    {
+      "track": "Unfuckwittable",
+      "artists": "Kid Cudi",
+      "durationMs": 275746,
+      "playedAt": "2026-07-15T14:09:18.226Z"
+    },
+    {
+      "track": "SORRY NOT SORRY",
+      "artists": "Tyler, The Creator",
+      "durationMs": 206049,
+      "playedAt": "2026-07-15T14:04:48.192Z"
+    },
+    {
+      "track": "Little Bit More",
+      "artists": "Mk.gee",
+      "durationMs": 139397,
+      "playedAt": "2026-07-15T14:01:27.828Z"
+    },
+    {
+      "track": "Dream police",
+      "artists": "Mk.gee",
+      "durationMs": 169519,
+      "playedAt": "2026-07-15T13:55:49.558Z"
+    },
+    {
+      "track": "How many miles",
+      "artists": "Mk.gee",
+      "durationMs": 141236,
+      "playedAt": "2026-07-15T13:53:05.799Z"
+    },
+    {
+      "track": "Police Scanner",
+      "artists": "Chanel Beads",
+      "durationMs": 142456,
+      "playedAt": "2026-07-15T13:50:50.299Z"
+    },
+    {
+      "track": "The Edge",
+      "artists": "The American Dawn",
+      "durationMs": 278000,
+      "playedAt": "2026-07-15T13:48:33.561Z"
+    },
+    {
+      "track": "Her",
+      "artists": "The American Dawn",
+      "durationMs": 214086,
+      "playedAt": "2026-07-15T13:44:01.206Z"
+    },
+    {
+      "track": "Then Came the Last Days of May",
+      "artists": "Blue Öyster Cult",
+      "durationMs": 210551,
+      "playedAt": "2026-07-15T13:40:25.064Z"
+    },
+    {
+      "track": "DARE (feat. Shaun Ryder & Roses Gabor)",
+      "artists": "Gorillaz, Shaun Ryder, Roses Gabor",
+      "durationMs": 244999,
+      "playedAt": "2026-07-15T13:37:00.851Z"
+    },
+    {
+      "track": "Nikes",
+      "artists": "Frank Ocean",
+      "durationMs": 314075,
+      "playedAt": "2026-07-15T13:33:01.616Z"
+    },
+    {
+      "track": "LVL",
+      "artists": "A$AP Rocky",
+      "durationMs": 220133,
+      "playedAt": "2026-07-15T13:27:53.314Z"
+    },
+    {
+      "track": "Sure Thing",
+      "artists": "Miguel",
+      "durationMs": 195373,
+      "playedAt": "2026-07-15T13:24:18.687Z"
+    },
+    {
+      "track": "Love Is Everywhere",
+      "artists": "Magdalena Bay",
+      "durationMs": 194413,
+      "playedAt": "2026-07-15T13:21:09.118Z"
+    },
+    {
+      "track": "It's You",
+      "artists": "Lauren Creviston",
+      "durationMs": 165245,
+      "playedAt": "2026-07-15T13:18:00.381Z"
+    },
+    {
+      "track": "Keep On Lying",
+      "artists": "Tame Impala",
+      "durationMs": 353933,
+      "playedAt": "2026-07-15T13:15:20.830Z"
+    },
+    {
+      "track": "VIBES DON'T LIE",
+      "artists": "Leon Thomas",
+      "durationMs": 201567,
+      "playedAt": "2026-07-15T13:09:32.332Z"
+    },
+    {
+      "track": "In My Years",
+      "artists": "Men I Trust",
+      "durationMs": 197086,
+      "playedAt": "2026-07-15T13:06:16.311Z"
+    },
+    {
+      "track": "Wrong Places",
+      "artists": "Lauren Creviston, Brynn Elise",
+      "durationMs": 207428,
+      "playedAt": "2026-07-15T13:02:56.936Z"
+    },
+    {
+      "track": "feel away (feat. James Blake & Mount Kimbie)",
+      "artists": "slowthai, James Blake, Mount Kimbie",
+      "durationMs": 200933,
+      "playedAt": "2026-07-15T12:59:35.240Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-07-15T12:56:20.042Z"
+    },
+    {
+      "track": "Time Moves Slow",
+      "artists": "BADBADNOTGOOD, Samuel T. Herring",
+      "durationMs": 273864,
+      "playedAt": "2026-07-15T12:51:20.567Z"
+    },
+    {
+      "track": "Nangs",
+      "artists": "Tame Impala",
+      "durationMs": 107533,
+      "playedAt": "2026-07-15T12:45:53.643Z"
+    },
+    {
+      "track": "Heaven",
+      "artists": "John Legend",
+      "durationMs": 215675,
+      "playedAt": "2026-07-15T12:44:11.828Z"
+    },
+    {
+      "track": "Call On Me",
+      "artists": "Daniel Caesar",
+      "durationMs": 169004,
+      "playedAt": "2026-07-15T12:40:41.920Z"
+    },
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-07-15T12:37:43.549Z"
+    },
+    {
+      "track": "Alter Ego",
+      "artists": "Tame Impala",
+      "durationMs": 287906,
+      "playedAt": "2026-07-15T12:36:13.034Z"
+    },
+    {
+      "track": "Headlock",
+      "artists": "Imogen Heap",
+      "durationMs": 215338,
+      "playedAt": "2026-07-15T12:29:02.137Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-15T12:25:32.559Z"
+    },
+    {
+      "track": "Dangerous",
+      "artists": "Big Data, Joywave",
+      "durationMs": 280426,
+      "playedAt": "2026-07-15T12:19:57.705Z"
+    },
+    {
+      "track": "Designer",
+      "artists": "Tokyo Tea Room",
+      "durationMs": 226298,
+      "playedAt": "2026-07-15T04:17:54.308Z"
+    },
+    {
+      "track": "Dancing Circles 2.0",
+      "artists": "Sampha",
+      "durationMs": 226495,
+      "playedAt": "2026-07-15T00:07:21.063Z"
+    },
+    {
+      "track": "The Divine Chord",
+      "artists": "The Avalanches, MGMT, Johnny Marr",
+      "durationMs": 187586,
+      "playedAt": "2026-07-15T00:03:40.264Z"
+    },
+    {
+      "track": "Blur",
+      "artists": "The Marías",
+      "durationMs": 225106,
+      "playedAt": "2026-07-14T23:56:55.517Z"
+    },
+    {
+      "track": "Apocalypse Dreams",
+      "artists": "Tame Impala",
+      "durationMs": 356946,
+      "playedAt": "2026-07-14T23:53:16.160Z"
+    },
+    {
+      "track": "One Night/All Night",
+      "artists": "Justice, Tame Impala",
+      "durationMs": 276066,
+      "playedAt": "2026-07-14T23:47:08.135Z"
+    },
+    {
+      "track": "E. Coli (feat. Earl Sweatshirt)",
+      "artists": "The Alchemist, Earl Sweatshirt",
+      "durationMs": 132147,
+      "playedAt": "2026-07-14T22:06:14.027Z"
+    },
+    {
+      "track": "Long Live A$AP",
+      "artists": "A$AP Rocky",
+      "durationMs": 289586,
+      "playedAt": "2026-07-14T22:04:07.623Z"
+    },
+    {
+      "track": "A$AP Forever (feat. Moby)",
+      "artists": "A$AP Rocky, Moby",
+      "durationMs": 233061,
+      "playedAt": "2026-07-14T21:59:23.693Z"
+    },
+    {
+      "track": "Les",
+      "artists": "Childish Gambino",
+      "durationMs": 317293,
+      "playedAt": "2026-07-14T21:55:36.426Z"
+    },
+    {
+      "track": "2 Wheel Drive",
+      "artists": "Magdalena Bay",
+      "durationMs": 144354,
+      "playedAt": "2026-07-14T21:50:02.223Z"
+    },
+    {
+      "track": "2 Wheel Drive",
+      "artists": "Magdalena Bay",
+      "durationMs": 144354,
+      "playedAt": "2026-07-14T21:49:12.941Z"
+    },
+    {
+      "track": "Alesis",
+      "artists": "Mk.gee",
+      "durationMs": 198295,
+      "playedAt": "2026-07-14T20:56:29.601Z"
+    },
+    {
+      "track": "Serenade of Water",
+      "artists": "Men I Trust",
+      "durationMs": 185660,
+      "playedAt": "2026-07-14T20:52:53.606Z"
+    },
+    {
+      "track": "Ring of Past",
+      "artists": "Men I Trust",
+      "durationMs": 201523,
+      "playedAt": "2026-07-14T20:46:52.803Z"
+    },
+    {
+      "track": "Music To Walk Home By",
+      "artists": "Tame Impala",
+      "durationMs": 312213,
+      "playedAt": "2026-07-14T20:43:37.049Z"
+    },
+    {
+      "track": "Pain",
+      "artists": "PinkPantheress",
+      "durationMs": 98544,
+      "playedAt": "2026-07-14T20:38:30.502Z"
+    },
+    {
+      "track": "THE zone~",
+      "artists": "Lil Yachty",
+      "durationMs": 249685,
+      "playedAt": "2026-07-14T20:36:57.694Z"
+    },
+    {
+      "track": "Warning Sign",
+      "artists": "Hannah Jadagu",
+      "durationMs": 206012,
+      "playedAt": "2026-07-14T20:32:53.734Z"
+    },
+    {
+      "track": "Buttons",
+      "artists": "Steve Lacy",
+      "durationMs": 184972,
+      "playedAt": "2026-07-14T20:29:33.374Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-14T20:18:49.879Z"
+    },
+    {
+      "track": "Simulation Swarm",
+      "artists": "Big Thief",
+      "durationMs": 252733,
+      "playedAt": "2026-07-14T20:16:10.809Z"
+    },
+    {
+      "track": "Swing Lynn",
+      "artists": "Harmless",
+      "durationMs": 321438,
+      "playedAt": "2026-07-14T20:12:03.944Z"
+    },
+    {
+      "track": "Woods",
+      "artists": "Mac Miller",
+      "durationMs": 286386,
+      "playedAt": "2026-07-14T20:06:48.085Z"
+    },
+    {
+      "track": "Push Me Away",
+      "artists": "Jordana, Magdalena Bay",
+      "durationMs": 164307,
+      "playedAt": "2026-07-14T20:02:07.490Z"
+    },
+    {
+      "track": "Prototype",
+      "artists": "Outkast",
+      "durationMs": 326240,
+      "playedAt": "2026-07-14T19:59:22.270Z"
+    },
+    {
+      "track": "16",
+      "artists": "Baby Keem",
+      "durationMs": 156040,
+      "playedAt": "2026-07-14T19:54:01.796Z"
+    },
+    {
+      "track": "Ghost in the Machine (feat. Phoebe Bridgers)",
+      "artists": "SZA, Phoebe Bridgers",
+      "durationMs": 218586,
+      "playedAt": "2026-07-14T19:51:31.238Z"
+    },
+    {
+      "track": "Freaking Out the Neighborhood",
+      "artists": "Mac DeMarco",
+      "durationMs": 173888,
+      "playedAt": "2026-07-14T19:47:41.841Z"
+    },
+    {
+      "track": "Lost",
+      "artists": "Frank Ocean",
+      "durationMs": 234093,
+      "playedAt": "2026-07-14T19:44:53.597Z"
+    },
+    {
+      "track": "Uncle ACE",
+      "artists": "Blood Orange",
+      "durationMs": 256693,
+      "playedAt": "2026-07-14T19:41:05.347Z"
+    },
+    {
+      "track": "Show Me",
+      "artists": "Joey Bada$$",
+      "durationMs": 220386,
+      "playedAt": "2026-07-14T19:36:54.449Z"
+    },
+    {
+      "track": "The Prayer",
+      "artists": "Kid Cudi",
+      "durationMs": 219093,
+      "playedAt": "2026-07-14T19:33:19.678Z"
+    },
+    {
+      "track": "Self Love (Spider-Man: Across the Spider-Verse) (Metro Boomin & Coi Leray)",
+      "artists": "Metro Boomin, Coi Leray",
+      "durationMs": 189466,
+      "playedAt": "2026-07-14T19:29:46.308Z"
+    },
+    {
+      "track": "STAY HERE 4 LIFE (feat. Brent Faiyaz)",
+      "artists": "A$AP Rocky, Brent Faiyaz",
+      "durationMs": 346093,
+      "playedAt": "2026-07-14T19:26:42.615Z"
+    },
+    {
+      "track": "New Person, Same Old Mistakes",
+      "artists": "Tame Impala",
+      "durationMs": 363240,
+      "playedAt": "2026-07-14T19:21:02.154Z"
+    },
+    {
+      "track": "After Hours",
+      "artists": "The Weeknd",
+      "durationMs": 361026,
+      "playedAt": "2026-07-14T19:15:04.617Z"
+    },
+    {
+      "track": "Guilty Conscience - Tame Impala Remix",
+      "artists": "070 Shake, Tame Impala",
+      "durationMs": 214986,
+      "playedAt": "2026-07-14T19:09:09.217Z"
+    },
+    {
+      "track": "japan",
+      "artists": "Yot Club",
+      "durationMs": 174935,
+      "playedAt": "2026-07-14T19:05:28.460Z"
+    },
+    {
+      "track": "Hummingbird (Metro Boomin & James Blake)",
+      "artists": "Metro Boomin, James Blake",
+      "durationMs": 319493,
+      "playedAt": "2026-07-14T19:02:39.223Z"
+    },
+    {
+      "track": "United In Grief",
+      "artists": "Kendrick Lamar",
+      "durationMs": 255377,
+      "playedAt": "2026-07-14T18:57:25.475Z"
+    },
+    {
+      "track": "Off The Ground",
+      "artists": "Anderson .Paak",
+      "durationMs": 288052,
+      "playedAt": "2026-07-14T18:53:15.877Z"
+    },
+    {
+      "track": "HIGHJACK",
+      "artists": "A$AP Rocky, Jessica Pratt",
+      "durationMs": 190074,
+      "playedAt": "2026-07-14T18:48:33.429Z"
+    },
+    {
+      "track": "I'll Take Care of You (feat. Yebba)",
+      "artists": "Tyler, The Creator, Yebba",
+      "durationMs": 200860,
+      "playedAt": "2026-07-14T18:45:28.912Z"
+    },
+    {
+      "track": "90210 (feat. Kacy Hill)",
+      "artists": "Travis Scott, Kacy Hill",
+      "durationMs": 339066,
+      "playedAt": "2026-07-14T18:42:13.893Z"
+    },
+    {
+      "track": "Sign Of The Times",
+      "artists": "Daniel Caesar",
+      "durationMs": 231800,
+      "playedAt": "2026-07-14T18:36:34.660Z"
+    },
+    {
+      "track": "Dancing Circles",
+      "artists": "Sampha",
+      "durationMs": 233640,
+      "playedAt": "2026-07-14T18:32:51.439Z"
+    },
+    {
+      "track": "Chandelier",
+      "artists": "Will Paquin",
+      "durationMs": 127464,
+      "playedAt": "2026-07-14T18:29:03.447Z"
+    },
+    {
+      "track": "In My Room",
+      "artists": "Frank Ocean",
+      "durationMs": 133680,
+      "playedAt": "2026-07-14T18:27:01.710Z"
+    },
+    {
+      "track": "Carried Away",
+      "artists": "Men I Trust",
+      "durationMs": 207500,
+      "playedAt": "2026-07-14T18:24:53.718Z"
+    },
+    {
+      "track": "Mojo So Dope",
+      "artists": "Kid Cudi",
+      "durationMs": 210586,
+      "playedAt": "2026-07-14T18:21:31.902Z"
+    },
+    {
+      "track": "That Life",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 215866,
+      "playedAt": "2026-07-14T18:18:07.007Z"
+    },
+    {
+      "track": "Stereo Colour Cloud (Shaman's Dream)",
+      "artists": "Sampha",
+      "durationMs": 177949,
+      "playedAt": "2026-07-14T18:14:37.121Z"
+    },
+    {
+      "track": "Parking Lot",
+      "artists": "Anderson .Paak",
+      "durationMs": 234333,
+      "playedAt": "2026-07-14T18:11:44.789Z"
+    },
+    {
+      "track": "Ninety",
+      "artists": "Jaden",
+      "durationMs": 468168,
+      "playedAt": "2026-07-14T18:07:56.265Z"
+    },
+    {
+      "track": "Dream police",
+      "artists": "Mk.gee",
+      "durationMs": 169519,
+      "playedAt": "2026-07-14T18:00:13.681Z"
+    },
+    {
+      "track": "Side By Side",
+      "artists": "Crumb",
+      "durationMs": 187333,
+      "playedAt": "2026-07-14T17:57:29.706Z"
+    },
+    {
+      "track": "Crack Rock",
+      "artists": "Frank Ocean",
+      "durationMs": 224146,
+      "playedAt": "2026-07-14T17:54:28.168Z"
+    },
+    {
+      "track": "Angel on a Satellite",
+      "artists": "Magdalena Bay",
+      "durationMs": 243426,
+      "playedAt": "2026-07-14T17:50:49.734Z"
+    },
+    {
+      "track": "West",
+      "artists": "River Tiber, Daniel Caesar",
+      "durationMs": 152250,
+      "playedAt": "2026-07-14T17:41:14.637Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-07-14T17:38:50.744Z"
+    },
+    {
+      "track": "The Look",
+      "artists": "Metronomy",
+      "durationMs": 277653,
+      "playedAt": "2026-07-14T17:35:51.471Z"
+    },
+    {
+      "track": "Eternal Light",
+      "artists": "Free Nationals, Chronixx",
+      "durationMs": 193740,
+      "playedAt": "2026-07-14T16:11:50.210Z"
+    },
+    {
+      "track": "Easier Said Than Done",
+      "artists": "Thee Sacred Souls",
+      "durationMs": 174706,
+      "playedAt": "2026-07-14T16:08:42.180Z"
+    },
+    {
+      "track": "ALL MINE",
+      "artists": "Brent Faiyaz",
+      "durationMs": 216062,
+      "playedAt": "2026-07-14T16:05:53.073Z"
+    },
+    {
+      "track": "My Old Ways",
+      "artists": "Tame Impala",
+      "durationMs": 298783,
+      "playedAt": "2026-07-14T16:02:22.781Z"
+    },
+    {
+      "track": "Colors",
+      "artists": "Chenayder, MAVI",
+      "durationMs": 186666,
+      "playedAt": "2026-07-14T15:57:29.685Z"
+    },
+    {
+      "track": "Dead Man Walking",
+      "artists": "Brent Faiyaz",
+      "durationMs": 247079,
+      "playedAt": "2026-07-14T15:54:08.690Z"
+    },
+    {
+      "track": "My Muse",
+      "artists": "Leon Thomas",
+      "durationMs": 165599,
+      "playedAt": "2026-07-14T15:50:12.839Z"
+    },
+    {
+      "track": "The Complete Knock",
+      "artists": "Blood Orange",
+      "durationMs": 303533,
+      "playedAt": "2026-07-14T15:47:32.823Z"
+    },
+    {
+      "track": "sdp interlude",
+      "artists": "Travis Scott",
+      "durationMs": 191622,
+      "playedAt": "2026-07-14T15:42:35.138Z"
+    },
+    {
+      "track": "Image",
+      "artists": "Magdalena Bay",
+      "durationMs": 212866,
+      "playedAt": "2026-07-14T15:39:29.045Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-07-14T15:36:01.847Z"
+    },
+    {
+      "track": "Headlock",
+      "artists": "Imogen Heap",
+      "durationMs": 215338,
+      "playedAt": "2026-07-14T15:33:17.751Z"
+    },
+    {
+      "track": "L.M.F.",
+      "artists": "Smino",
+      "durationMs": 188500,
+      "playedAt": "2026-07-14T15:29:48.149Z"
+    },
+    {
+      "track": "IVE OFFICIALLY LOST ViSiON!!!!",
+      "artists": "Lil Yachty",
+      "durationMs": 322444,
+      "playedAt": "2026-07-14T15:26:45.252Z"
+    },
+    {
+      "track": "Venice",
+      "artists": "Magdalena Bay",
+      "durationMs": 196173,
+      "playedAt": "2026-07-14T15:21:28.560Z"
+    },
+    {
+      "track": "Best to You",
+      "artists": "Blood Orange, Empress Of",
+      "durationMs": 225747,
+      "playedAt": "2026-07-14T15:18:18.047Z"
+    },
+    {
+      "track": "Witches",
+      "artists": "Alice Phoebe Lou",
+      "durationMs": 195078,
+      "playedAt": "2026-07-14T15:14:38.064Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-14T15:11:28.664Z"
+    },
+    {
+      "track": "Talk",
+      "artists": "beabadoobee",
+      "durationMs": 158293,
+      "playedAt": "2026-07-14T15:09:21.768Z"
+    },
+    {
+      "track": "U Wanna Dance?",
+      "artists": "Magdalena Bay",
+      "durationMs": 143000,
+      "playedAt": "2026-07-14T15:06:49.167Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-14T15:04:31.872Z"
+    },
+    {
+      "track": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 268333,
+      "playedAt": "2026-07-14T15:00:35.593Z"
+    },
+    {
+      "track": "COFFEE BEAN",
+      "artists": "Travis Scott",
+      "durationMs": 209115,
+      "playedAt": "2026-07-14T14:56:14.039Z"
+    },
+    {
+      "track": "Gospel For A New Century",
+      "artists": "Yves Tumor",
+      "durationMs": 198626,
+      "playedAt": "2026-07-14T14:52:50.574Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-14T14:49:37.718Z"
+    },
+    {
+      "track": "Nothing Burns Like The Cold",
+      "artists": "Snoh Aalegra, Vince Staples",
+      "durationMs": 209911,
+      "playedAt": "2026-07-14T14:47:17.385Z"
+    },
+    {
+      "track": "Drugs You Should Try It",
+      "artists": "Travis Scott",
+      "durationMs": 208487,
+      "playedAt": "2026-07-14T14:43:53.165Z"
+    },
+    {
+      "track": "the BLACK seminole.",
+      "artists": "Lil Yachty, Diana Gordon",
+      "durationMs": 411912,
+      "playedAt": "2026-07-14T14:40:30.442Z"
+    },
+    {
+      "track": "Saturn",
+      "artists": "SZA",
+      "durationMs": 186191,
+      "playedAt": "2026-07-14T14:33:44.291Z"
+    },
+    {
+      "track": "DHL",
+      "artists": "Frank Ocean",
+      "durationMs": 268893,
+      "playedAt": "2026-07-14T14:30:43.695Z"
+    },
+    {
+      "track": "Banana Pancakes",
+      "artists": "Jack Johnson",
+      "durationMs": 191906,
+      "playedAt": "2026-07-14T14:26:20.371Z"
+    },
+    {
+      "track": "The Path Less Travelled",
+      "artists": "Vegyn",
+      "durationMs": 224303,
+      "playedAt": "2026-07-14T14:23:14.205Z"
+    },
+    {
+      "track": "White Ferrari",
+      "artists": "Frank Ocean",
+      "durationMs": 248807,
+      "playedAt": "2026-07-14T14:19:35.646Z"
+    },
+    {
+      "track": "Steeeam",
+      "artists": "Shelly",
+      "durationMs": 170892,
+      "playedAt": "2026-07-14T14:15:32.506Z"
+    },
+    {
+      "track": "Little Dark Age",
+      "artists": "MGMT",
+      "durationMs": 299933,
+      "playedAt": "2026-07-14T14:12:47.309Z"
+    },
+    {
+      "track": "Mystery Lady",
+      "artists": "Masego, Don Toliver",
+      "durationMs": 228453,
+      "playedAt": "2026-07-14T14:07:53.113Z"
+    },
+    {
+      "track": "Again?",
+      "artists": "PawPaw Rod",
+      "durationMs": 172360,
+      "playedAt": "2026-07-14T14:04:10.417Z"
+    },
+    {
+      "track": "Novacane",
+      "artists": "Frank Ocean",
+      "durationMs": 302346,
+      "playedAt": "2026-07-14T14:01:23.704Z"
+    },
+    {
+      "track": "Do You...",
+      "artists": "Miguel",
+      "durationMs": 207920,
+      "playedAt": "2026-07-14T13:56:27.124Z"
+    },
+    {
+      "track": "Visions",
+      "artists": "Loving",
+      "durationMs": 233558,
+      "playedAt": "2026-07-14T13:53:05.001Z"
+    },
+    {
+      "track": "The Dream Time Machine",
+      "artists": "WZRD",
+      "durationMs": 287306,
+      "playedAt": "2026-07-14T13:49:17.082Z"
+    },
+    {
+      "track": "TODAY",
+      "artists": "Q",
+      "durationMs": 241666,
+      "playedAt": "2026-07-14T12:55:32.567Z"
+    },
+    {
+      "track": "Jukebox Joints (feat. Joe Fox & Kanye West)",
+      "artists": "A$AP Rocky, Joe Fox, Kanye West",
+      "durationMs": 323962,
+      "playedAt": "2026-07-14T12:51:36.469Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-07-14T12:46:18.269Z"
+    },
+    {
+      "track": "Turning off the Rain",
+      "artists": "Magdalena Bay",
+      "durationMs": 96750,
+      "playedAt": "2026-07-14T12:38:51.481Z"
+    },
+    {
+      "track": "Alive (Nightmare)",
+      "artists": "Kid Cudi, Ratatat",
+      "durationMs": 246760,
+      "playedAt": "2026-07-14T12:37:20.520Z"
+    },
+    {
+      "track": "Sandman",
+      "artists": "A$AP Rocky",
+      "durationMs": 200160,
+      "playedAt": "2026-07-14T12:33:19.389Z"
+    },
+    {
+      "track": "Fear, Sex",
+      "artists": "Magdalena Bay",
+      "durationMs": 152053,
+      "playedAt": "2026-07-14T12:30:04.976Z"
+    },
+    {
+      "track": "Like Him (feat. Lola Young)",
+      "artists": "Tyler, The Creator, Lola Young",
+      "durationMs": 278014,
+      "playedAt": "2026-07-14T12:27:38.694Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-14T12:22:52.401Z"
+    },
+    {
+      "track": "You Lose!",
+      "artists": "Magdalena Bay",
+      "durationMs": 204391,
+      "playedAt": "2026-07-14T12:21:15.689Z"
+    },
+    {
+      "track": "Sky2Fall",
+      "artists": "Magdalena Bay",
+      "durationMs": 132563,
+      "playedAt": "2026-07-14T12:19:13.485Z"
+    },
+    {
+      "track": "Heartbeat",
+      "artists": "Childish Gambino",
+      "durationMs": 269840,
+      "playedAt": "2026-07-14T12:16:20.400Z"
+    },
+    {
+      "track": "Golden",
+      "artists": "Berhana",
+      "durationMs": 119652,
+      "playedAt": "2026-07-14T12:11:43.660Z"
+    },
+    {
+      "track": "The Dress",
+      "artists": "Dijon",
+      "durationMs": 184767,
+      "playedAt": "2026-07-14T12:09:40.962Z"
+    },
+    {
+      "track": "Obscenery",
+      "artists": "Queens of the Stone Age",
+      "durationMs": 263209,
+      "playedAt": "2026-07-14T03:27:00.343Z"
+    },
+    {
+      "track": "Head Like A Haunted House",
+      "artists": "Queens of the Stone Age",
+      "durationMs": 200810,
+      "playedAt": "2026-07-14T03:27:00.343Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-13T23:56:08.460Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-13T23:53:15.224Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-13T23:49:37.626Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-13T23:45:54.726Z"
+    },
+    {
+      "track": "Snap My Finger (feat. PinkPantheress)",
+      "artists": "KAYTRANADA, PinkPantheress",
+      "durationMs": 201371,
+      "playedAt": "2026-07-13T23:41:53.320Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-13T23:38:37.605Z"
+    },
+    {
+      "track": "Love That You Try",
+      "artists": "Vansire, BERÜ",
+      "durationMs": 168292,
+      "playedAt": "2026-07-13T23:36:21.524Z"
+    },
+    {
+      "track": "hey there [i have a compulsive complex]",
+      "artists": "Q",
+      "durationMs": 173570,
+      "playedAt": "2026-07-13T23:33:38.926Z"
+    },
+    {
+      "track": "Mindflower",
+      "artists": "Now Always Fades",
+      "durationMs": 254535,
+      "playedAt": "2026-07-13T23:30:42.643Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-13T23:26:33.825Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-13T23:23:21.427Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-13T23:20:47.079Z"
+    },
+    {
+      "track": "Can I Kick It?",
+      "artists": "A Tribe Called Quest",
+      "durationMs": 251790,
+      "playedAt": "2026-07-13T23:14:52.727Z"
+    },
+    {
+      "track": "Image",
+      "artists": "Magdalena Bay",
+      "durationMs": 212866,
+      "playedAt": "2026-07-13T23:10:40.866Z"
+    },
+    {
+      "track": "Husk (2025)",
+      "artists": "Men I Trust",
+      "durationMs": 201860,
+      "playedAt": "2026-07-13T22:13:20.196Z"
+    },
+    {
+      "track": "Althea - 2013 Remaster",
+      "artists": "Grateful Dead",
+      "durationMs": 412595,
+      "playedAt": "2026-07-13T22:10:03.990Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-07-13T22:03:17.188Z"
+    },
+    {
+      "track": "Talk 2 Me",
+      "artists": "54 Ultra",
+      "durationMs": 186624,
+      "playedAt": "2026-07-13T21:52:10.932Z"
+    },
+    {
+      "track": "Antidote",
+      "artists": "Orion Sun",
+      "durationMs": 169822,
+      "playedAt": "2026-07-13T21:10:04.726Z"
+    },
+    {
+      "track": "Another Stone",
+      "artists": "Men I Trust",
+      "durationMs": 190280,
+      "playedAt": "2026-07-13T21:07:20.627Z"
+    },
+    {
+      "track": "Cry for Me",
+      "artists": "Magdalena Bay",
+      "durationMs": 307266,
+      "playedAt": "2026-07-13T21:04:16.030Z"
+    },
+    {
+      "track": "Hunnybee",
+      "artists": "Unknown Mortal Orchestra",
+      "durationMs": 268333,
+      "playedAt": "2026-07-13T20:59:14.568Z"
+    },
+    {
+      "track": "Lady Brown",
+      "artists": "Nujabes, Cise Starr",
+      "durationMs": 199160,
+      "playedAt": "2026-07-13T20:21:16.216Z"
+    },
+    {
+      "track": "5 Dollar Pony Rides",
+      "artists": "Mac Miller",
+      "durationMs": 222119,
+      "playedAt": "2026-07-13T20:18:02.823Z"
+    },
+    {
+      "track": "Just How You Are",
+      "artists": "Leon Thomas",
+      "durationMs": 194247,
+      "playedAt": "2026-07-13T20:14:20.583Z"
+    },
+    {
+      "track": "Mind Mischief",
+      "artists": "Tame Impala",
+      "durationMs": 271880,
+      "playedAt": "2026-07-13T20:11:12.222Z"
+    },
+    {
+      "track": "Cariño",
+      "artists": "The Marías",
+      "durationMs": 258713,
+      "playedAt": "2026-07-13T20:06:46.001Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-07-13T20:02:22.275Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-13T19:59:38.722Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-13T19:55:54.025Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-13T19:52:22.697Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-13T19:49:29.422Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-13T19:45:51.920Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-13T19:42:08.892Z"
+    },
+    {
+      "track": "Moving by Backwards",
+      "artists": "SALES",
+      "durationMs": 200264,
+      "playedAt": "2026-07-13T19:38:15.576Z"
+    },
+    {
+      "track": "Upside Down",
+      "artists": "Jack Johnson",
+      "durationMs": 208653,
+      "playedAt": "2026-07-13T03:07:30.827Z"
+    },
+    {
+      "track": "Moving by Backwards",
+      "artists": "SALES",
+      "durationMs": 200264,
+      "playedAt": "2026-07-13T01:37:29.772Z"
+    },
+    {
+      "track": "You Look Well",
+      "artists": "SALES",
+      "durationMs": 193972,
+      "playedAt": "2026-07-12T19:43:10.715Z"
+    },
+    {
+      "track": "Spiral",
+      "artists": "SALES",
+      "durationMs": 251400,
+      "playedAt": "2026-07-12T19:39:56.781Z"
+    },
+    {
+      "track": "All I Did Was Dream of You (feat. The Marías)",
+      "artists": "beabadoobee, The Marías",
+      "durationMs": 223788,
+      "playedAt": "2026-07-12T19:33:18.377Z"
+    },
+    {
+      "track": "Care",
+      "artists": "beabadoobee",
+      "durationMs": 194994,
+      "playedAt": "2026-07-12T19:23:58.642Z"
+    },
+    {
+      "track": "Need Your Love",
+      "artists": "Tennis",
+      "durationMs": 231080,
+      "playedAt": "2026-07-12T19:18:39.945Z"
+    },
+    {
+      "track": "Always The Same",
+      "artists": "Tennis",
+      "durationMs": 197155,
+      "playedAt": "2026-07-12T19:14:37.442Z"
+    },
+    {
+      "track": "Care",
+      "artists": "Freak Slug",
+      "durationMs": 169847,
+      "playedAt": "2026-07-12T14:34:53.144Z"
+    },
+    {
+      "track": "Fine Madeline",
+      "artists": "Plums",
+      "durationMs": 139749,
+      "playedAt": "2026-07-12T14:31:19.050Z"
+    },
+    {
+      "track": "Locket",
+      "artists": "Crumb",
+      "durationMs": 318378,
+      "playedAt": "2026-07-12T14:29:04.973Z"
+    },
+    {
+      "track": "Vampire in the Corner",
+      "artists": "Magdalena Bay",
+      "durationMs": 202440,
+      "playedAt": "2026-07-12T14:23:52.364Z"
+    },
+    {
+      "track": "SUPAFICIAL",
+      "artists": "Isaiah Rashad",
+      "durationMs": 284813,
+      "playedAt": "2026-07-12T14:20:35.565Z"
+    },
+    {
+      "track": "M.O.M.",
+      "artists": "Isaiah Rashad",
+      "durationMs": 165576,
+      "playedAt": "2026-07-12T14:15:56.464Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-12T14:13:16.651Z"
+    },
+    {
+      "track": "Bags",
+      "artists": "Clairo",
+      "durationMs": 260519,
+      "playedAt": "2026-07-12T14:10:12.369Z"
+    },
+    {
+      "track": "Cotton",
+      "artists": "Vince Staples",
+      "durationMs": 223800,
+      "playedAt": "2026-07-12T14:05:57.559Z"
+    },
+    {
+      "track": "Cranekiss",
+      "artists": "Tamaryn",
+      "durationMs": 230408,
+      "playedAt": "2026-07-12T14:02:19.486Z"
+    },
+    {
+      "track": "Steeeam",
+      "artists": "Shelly",
+      "durationMs": 170892,
+      "playedAt": "2026-07-12T13:58:34.768Z"
+    },
+    {
+      "track": "Runner",
+      "artists": "Tennis",
+      "durationMs": 216960,
+      "playedAt": "2026-07-12T13:55:49.564Z"
+    },
+    {
+      "track": "Drive",
+      "artists": "Fousheé",
+      "durationMs": 179026,
+      "playedAt": "2026-07-12T13:52:18.311Z"
+    },
+    {
+      "track": "Killshot",
+      "artists": "Magdalena Bay",
+      "durationMs": 236363,
+      "playedAt": "2026-07-12T13:49:25.065Z"
+    },
+    {
+      "track": "Cross Your Mind",
+      "artists": "Shelly",
+      "durationMs": 228692,
+      "playedAt": "2026-07-12T13:45:34.364Z"
+    },
+    {
+      "track": "Fall In Love",
+      "artists": "Phantogram",
+      "durationMs": 223226,
+      "playedAt": "2026-07-12T13:41:51.370Z"
+    },
+    {
+      "track": "Sun Has Set",
+      "artists": "beabadoobee",
+      "durationMs": 141804,
+      "playedAt": "2026-07-12T13:38:13.916Z"
+    },
+    {
+      "track": "Cologne",
+      "artists": "beabadoobee",
+      "durationMs": 164690,
+      "playedAt": "2026-07-12T13:35:57.767Z"
+    },
+    {
+      "track": "Chinese New Year",
+      "artists": "SALES",
+      "durationMs": 160000,
+      "playedAt": "2026-07-12T13:33:06.671Z"
+    },
+    {
+      "track": "Spiral Stairs",
+      "artists": "Yot Club",
+      "durationMs": 146026,
+      "playedAt": "2026-07-12T13:30:32.466Z"
+    },
+    {
+      "track": "Tunnel Vision",
+      "artists": "Magdalena Bay",
+      "durationMs": 305520,
+      "playedAt": "2026-07-12T13:26:58.859Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-12T13:22:00.015Z"
+    },
+    {
+      "track": "BOY IN RED",
+      "artists": "Isaiah Rashad, SZA",
+      "durationMs": 189964,
+      "playedAt": "2026-07-12T11:02:00.895Z"
     }
   ]
 }

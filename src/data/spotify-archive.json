@@ -1,3 +1,308 @@
 {
-  "weeks": []
+  "weeks": [
+    {
+      "week": "2026-W11",
+      "weekStart": "2026-03-09",
+      "weekEnd": "2026-03-15",
+      "totalMs": 159303993,
+      "trackCount": 720,
+      "topTrack": {
+        "name": "Elephant",
+        "artists": "Tame Impala",
+        "plays": 5
+      },
+      "topArtist": {
+        "name": "Tame Impala",
+        "plays": 55
+      }
+    },
+    {
+      "week": "2026-W12",
+      "weekStart": "2026-03-16",
+      "weekEnd": "2026-03-22",
+      "totalMs": 102942581,
+      "trackCount": 493,
+      "topTrack": {
+        "name": "One More Night",
+        "artists": "BTS",
+        "plays": 4
+      },
+      "topArtist": {
+        "name": "BTS",
+        "plays": 31
+      }
+    },
+    {
+      "week": "2026-W13",
+      "weekStart": "2026-03-23",
+      "weekEnd": "2026-03-29",
+      "totalMs": 197096270,
+      "trackCount": 938,
+      "topTrack": {
+        "name": "Pitch the Baby",
+        "artists": "Cocteau Twins",
+        "plays": 15
+      },
+      "topArtist": {
+        "name": "Alice Phoebe Lou",
+        "plays": 44
+      }
+    },
+    {
+      "week": "2026-W14",
+      "weekStart": "2026-03-30",
+      "weekEnd": "2026-04-05",
+      "totalMs": 117082766,
+      "trackCount": 544,
+      "topTrack": {
+        "name": "Dangerous",
+        "artists": "Big Data, Joywave",
+        "plays": 6
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 31
+      }
+    },
+    {
+      "week": "2026-W15",
+      "weekStart": "2026-04-06",
+      "weekEnd": "2026-04-12",
+      "totalMs": 136608362,
+      "trackCount": 746,
+      "topTrack": {
+        "name": "Metamodernity",
+        "artists": "Vansire",
+        "plays": 7
+      },
+      "topArtist": {
+        "name": "A$AP Rocky",
+        "plays": 29
+      }
+    },
+    {
+      "week": "2026-W16",
+      "weekStart": "2026-04-13",
+      "weekEnd": "2026-04-19",
+      "totalMs": 143921989,
+      "trackCount": 719,
+      "topTrack": {
+        "name": "Mirage",
+        "artists": "Orion Sun",
+        "plays": 6
+      },
+      "topArtist": {
+        "name": "Tame Impala",
+        "plays": 43
+      }
+    },
+    {
+      "week": "2026-W17",
+      "weekStart": "2026-04-20",
+      "weekEnd": "2026-04-26",
+      "totalMs": 116529510,
+      "trackCount": 552,
+      "topTrack": {
+        "name": "Best to You",
+        "artists": "Blood Orange, Empress Of",
+        "plays": 6
+      },
+      "topArtist": {
+        "name": "PinkPantheress",
+        "plays": 61
+      }
+    },
+    {
+      "week": "2026-W18",
+      "weekStart": "2026-04-27",
+      "weekEnd": "2026-05-03",
+      "totalMs": 114329042,
+      "trackCount": 538,
+      "topTrack": {
+        "name": "BOY IN RED",
+        "artists": "Isaiah Rashad, SZA",
+        "plays": 12
+      },
+      "topArtist": {
+        "name": "Isaiah Rashad",
+        "plays": 66
+      }
+    },
+    {
+      "week": "2026-W19",
+      "weekStart": "2026-05-04",
+      "weekEnd": "2026-05-10",
+      "totalMs": 155245859,
+      "trackCount": 710,
+      "topTrack": {
+        "name": "2 Wheel Drive",
+        "artists": "Magdalena Bay",
+        "plays": 6
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 49
+      }
+    },
+    {
+      "week": "2026-W20",
+      "weekStart": "2026-05-11",
+      "weekEnd": "2026-05-17",
+      "totalMs": 78010630,
+      "trackCount": 358,
+      "topTrack": {
+        "name": "Paint Me A Picture",
+        "artists": "Magdalena Bay",
+        "plays": 5
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 25
+      }
+    },
+    {
+      "week": "2026-W21",
+      "weekStart": "2026-05-18",
+      "weekEnd": "2026-05-24",
+      "totalMs": 17743621,
+      "trackCount": 96,
+      "topTrack": {
+        "name": "$ (Money)",
+        "artists": "JPEGMAFIA",
+        "plays": 3
+      },
+      "topArtist": {
+        "name": "JPEGMAFIA",
+        "plays": 44
+      }
+    },
+    {
+      "week": "2026-W22",
+      "weekStart": "2026-05-25",
+      "weekEnd": "2026-05-31",
+      "totalMs": 48818889,
+      "trackCount": 228,
+      "topTrack": {
+        "name": "Rodrick Rules",
+        "artists": "Malcolm Todd",
+        "plays": 4
+      },
+      "topArtist": {
+        "name": "JPEGMAFIA",
+        "plays": 20
+      }
+    },
+    {
+      "week": "2026-W23",
+      "weekStart": "2026-06-01",
+      "weekEnd": "2026-06-07",
+      "totalMs": 53123292,
+      "trackCount": 268,
+      "topTrack": {
+        "name": "The Running Man",
+        "artists": "Vince Staples",
+        "plays": 8
+      },
+      "topArtist": {
+        "name": "Vince Staples",
+        "plays": 41
+      }
+    },
+    {
+      "week": "2026-W24",
+      "weekStart": "2026-06-08",
+      "weekEnd": "2026-06-14",
+      "totalMs": 73468389,
+      "trackCount": 363,
+      "topTrack": {
+        "name": "Bags",
+        "artists": "Clairo",
+        "plays": 19
+      },
+      "topArtist": {
+        "name": "PinkPantheress",
+        "plays": 28
+      }
+    },
+    {
+      "week": "2026-W25",
+      "weekStart": "2026-06-15",
+      "weekEnd": "2026-06-21",
+      "totalMs": 66777625,
+      "trackCount": 329,
+      "topTrack": {
+        "name": "Stars",
+        "artists": "PinkPantheress",
+        "plays": 8
+      },
+      "topArtist": {
+        "name": "Vince Staples",
+        "plays": 19
+      }
+    },
+    {
+      "week": "2026-W26",
+      "weekStart": "2026-06-22",
+      "weekEnd": "2026-06-28",
+      "totalMs": 61739586,
+      "trackCount": 282,
+      "topTrack": {
+        "name": "Runner",
+        "artists": "Tennis",
+        "plays": 9
+      },
+      "topArtist": {
+        "name": "Shelly",
+        "plays": 14
+      }
+    },
+    {
+      "week": "2026-W27",
+      "weekStart": "2026-06-29",
+      "weekEnd": "2026-07-05",
+      "totalMs": 49578395,
+      "trackCount": 238,
+      "topTrack": {
+        "name": "Drive",
+        "artists": "Fousheé",
+        "plays": 11
+      },
+      "topArtist": {
+        "name": "PinkPantheress",
+        "plays": 15
+      }
+    },
+    {
+      "week": "2026-W28",
+      "weekStart": "2026-07-06",
+      "weekEnd": "2026-07-12",
+      "totalMs": 95667808,
+      "trackCount": 474,
+      "topTrack": {
+        "name": "Runner",
+        "artists": "Tennis",
+        "plays": 16
+      },
+      "topArtist": {
+        "name": "SALES",
+        "plays": 51
+      }
+    },
+    {
+      "week": "2026-W29",
+      "weekStart": "2026-07-13",
+      "weekEnd": "2026-07-19",
+      "totalMs": 104335331,
+      "trackCount": 480,
+      "topTrack": {
+        "name": "Cranekiss",
+        "artists": "Tamaryn",
+        "plays": 7
+      },
+      "topArtist": {
+        "name": "Magdalena Bay",
+        "plays": 42
+      }
+    }
+  ]
 }

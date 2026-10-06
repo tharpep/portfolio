@@ -1,14 +1,40 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import type { CloudinaryPhoto } from '@/lib/cloudinary';
+import { photoTransitionName } from '@/lib/photoTransitionName';
+import { RevealGroup, RevealItem } from '@/components/photography/RevealOnScroll';
+import CursorCaption, { useHoverCapable } from '@/components/photography/CursorCaption';
 
 export type PreviewPhoto = CloudinaryPhoto & {
   collectionSlug: string;
   collectionTitle: string;
 };
+
+// Break up the grid rhythm with an occasional full-width photo rather than
+// retrofitting span-awareness into the column-balancing algorithm below.
+const FEATURE_EVERY = 9;
+
+function buildSections(photos: PreviewPhoto[]): { type: 'grid' | 'feature'; photos: PreviewPhoto[] }[] {
+  const sections: { type: 'grid' | 'feature'; photos: PreviewPhoto[] }[] = [];
+  let bucket: PreviewPhoto[] = [];
+
+  photos.forEach((photo, i) => {
+    bucket.push(photo);
+    const isLast = i === photos.length - 1;
+    if (bucket.length === FEATURE_EVERY && !isLast) {
+      const feature = bucket.pop()!;
+      sections.push({ type: 'grid', photos: bucket });
+      sections.push({ type: 'feature', photos: [feature] });
+      bucket = [];
+    }
+  });
+  if (bucket.length) sections.push({ type: 'grid', photos: bucket });
+
+  return sections;
+}
 
 function splitIntoBalancedColumns(photos: PreviewPhoto[], numColumns: number): PreviewPhoto[][] {
   const columns: Array<{ photos: PreviewPhoto[]; height: number }> =
@@ -24,7 +50,55 @@ function splitIntoBalancedColumns(photos: PreviewPhoto[], numColumns: number): P
   return columns.map((col) => col.photos);
 }
 
-export default function BalancedMasonry({ photos }: { photos: PreviewPhoto[] }) {
+function PhotoTile({
+  photo,
+  onHover,
+  hoverCaptionActive,
+}: {
+  photo: PreviewPhoto;
+  onHover: (label: string | null) => void;
+  hoverCaptionActive: boolean;
+}) {
+  return (
+    <Link
+      href={`/photography/${photo.collectionSlug}`}
+      className="group relative block w-full overflow-hidden rounded-sm focus:outline-none focus-visible:ring-2 focus-visible:ring-gray-900"
+      aria-label={`View ${photo.collectionTitle} collection`}
+      onMouseEnter={() => onHover(photo.collectionTitle)}
+      onMouseLeave={() => onHover(null)}
+    >
+      <div style={{ viewTransitionName: photoTransitionName(photo.id) }}>
+        <Image
+          src={photo.url}
+          alt={photo.title}
+          width={photo.width}
+          height={photo.height}
+          className="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-[1.04]"
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+          placeholder={photo.blurDataURL ? 'blur' : 'empty'}
+          blurDataURL={photo.blurDataURL}
+        />
+      </div>
+      {!hoverCaptionActive && (
+        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent px-3 pt-6 pb-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100">
+          <p className="truncate text-xs font-medium text-white">
+            {photo.collectionTitle}
+          </p>
+        </div>
+      )}
+    </Link>
+  );
+}
+
+function MasonryColumns({
+  photos,
+  onHover,
+  hoverCaptionActive,
+}: {
+  photos: PreviewPhoto[];
+  onHover: (label: string | null) => void;
+  hoverCaptionActive: boolean;
+}) {
   const [numCols, setNumCols] = useState(3); // SSR default
 
   useEffect(() => {
@@ -43,35 +117,53 @@ export default function BalancedMasonry({ photos }: { photos: PreviewPhoto[] }) 
   const columns = splitIntoBalancedColumns(photos, numCols);
 
   return (
-    <div className="flex gap-2 lg:gap-3">
+    <RevealGroup className="flex gap-2 lg:gap-3">
       {columns.map((colPhotos, i) => (
         <div key={i} className="flex-1 flex flex-col gap-2 lg:gap-3">
           {colPhotos.map((photo) => (
-            <Link
-              key={photo.id}
-              href={`/photography/${photo.collectionSlug}`}
-              className="block w-full overflow-hidden group relative"
-              aria-label={`View ${photo.collectionTitle} collection`}
-            >
-              <Image
-                src={photo.url}
-                alt={photo.title}
-                width={photo.width}
-                height={photo.height}
-                className="w-full h-auto transition-opacity duration-300 group-hover:opacity-80"
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-                placeholder={photo.blurDataURL ? 'blur' : 'empty'}
-                blurDataURL={photo.blurDataURL}
-              />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent px-3 pt-6 pb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                <p className="text-white text-xs font-mono tracking-widest uppercase truncate">
-                  {photo.collectionTitle}
-                </p>
-              </div>
-            </Link>
+            <RevealItem key={photo.id}>
+              <PhotoTile photo={photo} onHover={onHover} hoverCaptionActive={hoverCaptionActive} />
+            </RevealItem>
           ))}
         </div>
       ))}
+    </RevealGroup>
+  );
+}
+
+export default function BalancedMasonry({ photos }: { photos: PreviewPhoto[] }) {
+  const containerRef = useRef<HTMLDivElement>(null);
+  const hoverCapable = useHoverCapable();
+  const [hoverLabel, setHoverLabel] = useState<string | null>(null);
+
+  const sections = buildSections(photos);
+
+  return (
+    <div ref={containerRef} className="relative">
+      {sections.map((section, i) =>
+        section.type === 'feature' ? (
+          <RevealGroup key={`feature-${i}`} className="my-2 lg:my-3">
+            <RevealItem>
+              <PhotoTile
+                photo={section.photos[0]}
+                onHover={setHoverLabel}
+                hoverCaptionActive={hoverCapable}
+              />
+            </RevealItem>
+          </RevealGroup>
+        ) : (
+          <div key={`grid-${i}`} className="my-2 lg:my-3 first:mt-0">
+            <MasonryColumns
+              photos={section.photos}
+              onHover={setHoverLabel}
+              hoverCaptionActive={hoverCapable}
+            />
+          </div>
+        )
+      )}
+      {hoverCapable && (
+        <CursorCaption label={hoverLabel} containerRef={containerRef} />
+      )}
     </div>
   );
 }

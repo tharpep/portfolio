@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useLayoutEffect, useRef, useState } from 'react';
 
 interface ScrollFadeInProps {
   children: React.ReactNode;
@@ -56,35 +56,44 @@ class ScrollObserverManager {
 // Global singleton instance
 const observerManager = new ScrollObserverManager();
 
+// 'static' is what the server renders: fully visible, so content never waits on
+// JS to appear. After hydration, only wrappers still below the fold switch to
+// 'hidden' (off-screen, so no flash) and fade in once scrolled into view.
+type Phase = 'static' | 'hidden' | 'shown';
+
 export default function ScrollFadeIn({
   children,
   delay = 0,
   className = ''
 }: ScrollFadeInProps) {
-  const [isVisible, setIsVisible] = useState(false);
+  const [phase, setPhase] = useState<Phase>('static');
   const ref = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     const element = ref.current;
     if (!element) return;
 
-    // Immediate observation for faster fade-in
-    observerManager.observe(element, () => setIsVisible(true));
+    // Already on screen (or scrolled past): leave it visible, no animation.
+    if (element.getBoundingClientRect().top < window.innerHeight) return;
+
+    setPhase('hidden');
+    observerManager.observe(element, () => setPhase('shown'));
 
     return () => {
-      if (element) {
-        observerManager.unobserve(element);
-      }
+      observerManager.unobserve(element);
     };
   }, []);
+
+  const animated = phase !== 'static';
 
   return (
     <div
       ref={ref}
-      className={`transition-all duration-700 ease-out ${
-        isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
+      className={`${animated
+        ? `transition-all duration-700 ease-out ${phase === 'shown' ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`
+        : ''
       } ${className}`}
-      style={{ transitionDelay: `${delay}ms` }}
+      style={animated ? { transitionDelay: `${delay}ms` } : undefined}
     >
       {children}
     </div>

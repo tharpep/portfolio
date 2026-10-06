@@ -1,7 +1,17 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import ProjectLinks from "@/components/ProjectLinks";
+import { getAllProjects, getFeaturedProjects, type Project } from "@/lib/getProjects";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 export default function Home() {
+  const featuredProjects = getFeaturedProjects();
+  const projectCount = getAllProjects().length;
+
   return (
     <main id="main" className="text-neutral-100 relative z-10">
       {/* ─────────── Hero Intro ─────────── */}
@@ -9,11 +19,15 @@ export default function Home() {
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
-              Hi, I&apos;m Pryce Tharpe <span className="text-cyan-400">👋</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-white leading-tight">
+              Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              AI Acceleration Fellow at Eli Lilly. Computer Engineering grad from Purdue. Building at the intersection of AI, cloud, and full-stack engineering.
+              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. I build platforms like{" "}
+              <Link href="/projects/sazed" className="text-cyan-300 hover:text-cyan-200 underline underline-offset-4 decoration-cyan-300/40 hover:decoration-cyan-200">
+                Sazed
+              </Link>{" "}
+              and experiment with ways to innovate my workflow. I also love to teach and discuss: AI enablement for colleagues, mentoring a high school intern, and helping friends and family get familiar with AI.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-2xl mx-auto">
               <Link
@@ -64,41 +78,16 @@ export default function Home() {
               Featured Projects
             </h2>
             <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto">
-              <FeaturedProjectCard
-                title="AI System Prompt Framework"
-                href="/projects/ai-system-prompt"
-                desc="Developed master IDE prompt standardizing AI-assisted coding across engineering teams. Led company-wide training sessions and established AI standards."
-                technologies={["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"]}
-                timeline="August 2025 - Present"
-              />
-              <FeaturedProjectCard
-                title="Sazed - Personal AI Agent"
-                href="/projects/sazed"
-                desc="End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP."
-                technologies={["Python", "FastAPI", "Anthropic SDK", "React 19", "Tauri", "TypeScript", "FastMCP", "PostgreSQL"]}
-                timeline="January 2025 - Present"
-              />
-              <FeaturedProjectCard
-                title="SimRAG Reproduction"
-                href="/projects/simrag-reproduction"
-                desc="Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware."
-                technologies={["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"]}
-                timeline="August 2025 - December 2025"
-              />
-              <FeaturedProjectCard
-                title="Azure DevOps Scorecard"
-                href="/projects/devops-scorecard"
-                desc="Azure DevOps extension providing sprint health and status visibility."
-                technologies={["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"]}
-                timeline="June 2025 - Present"
-              />
+              {featuredProjects.map((project) => (
+                <FeaturedProjectCard key={project.slug} project={project} />
+              ))}
             </div>
             <div className="text-center mt-10">
               <Link
                 href="/projects"
                 className="text-cyan-400 hover:text-cyan-300 font-medium transition-colors text-lg group"
               >
-                View all 15 projects
+                View all {projectCount} projects
                 <span className="inline-block group-hover:translate-x-1 transition-transform duration-300 ease-out ml-1">→</span>
               </Link>
             </div>
@@ -113,7 +102,7 @@ export default function Home() {
               Currently
             </h2>
             <div className="max-w-3xl mx-auto">
-              <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 md:p-6">
+              <div className="rounded-2xl border border-neutral-700 bg-neutral-800/30 p-4 md:p-6">
                 <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
@@ -193,29 +182,18 @@ export default function Home() {
 }
 
 /* ─────────── Components ─────────── */
-function FeaturedProjectCard({
-  title,
-  href,
-  desc,
-  technologies,
-  timeline,
-}: {
-  title: string;
-  href: string;
-  desc: string;
-  technologies: string[];
-  timeline: string;
-}) {
+function FeaturedProjectCard({ project }: { project: Project }) {
+  const { slug, title, description, technologies, timeline } = project;
   const top3Tech = technologies.slice(0, 3);
 
   return (
-    <Link
-      href={href}
-      className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
-    >
+    <article className="group relative rounded-2xl border border-cyan-500/50 hover:border-cyan-400/70 focus-within:border-cyan-400/70 bg-neutral-800/40 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out">
       <div className="flex justify-between items-start mb-4">
         <h3 className="font-bold text-lg md:text-xl text-white group-hover:text-cyan-300 transition-colors">
-          {title}
+          {/* Stretched link: the ::after covers the whole card */}
+          <Link href={`/projects/${slug}`} className="after:absolute after:inset-0 after:rounded-2xl after:content-['']">
+            {title}
+          </Link>
         </h3>
         <span className="hidden md:block px-3 py-1 text-sm font-medium rounded-lg border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
           {technologies[0]}
@@ -231,18 +209,13 @@ function FeaturedProjectCard({
       </div>
       {/* Mobile: Timeline */}
       <div className="md:hidden mb-3">
-        <span className="text-xs text-neutral-400 font-mono">{timeline}</span>
+        <span className="text-xs text-neutral-300 font-mono">{timeline}</span>
       </div>
       <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
-        {desc}
+        {description}
       </p>
-      <div className="flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
-        View Details
-        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-          <path d="M7 17l10-10M17 7H7v10" />
-        </svg>
-      </div>
-    </Link>
+      <ProjectLinks project={project} />
+    </article>
   );
 }
 

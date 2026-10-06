@@ -210,19 +210,6 @@ export async function getCollectionCoverUrl(slug: string): Promise<CollectionCov
   }
 }
 
-export async function collectionExists(slug: string): Promise<boolean> {
-  if (!process.env.CLOUDINARY_API_KEY) return false;
-  try {
-    const result = await cloudinary.api.resources_by_asset_folder(`photography/${slug}`, {
-      max_results: 1,
-      resource_type: 'image',
-    });
-    return (result.resources as CloudinaryResource[]).length > 0;
-  } catch {
-    return false;
-  }
-}
-
 function slugify(name: string): string {
   return name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
 }

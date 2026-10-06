@@ -1,16 +1,37 @@
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from 'next-view-transitions';
 import PhotoNav from '@/components/PhotoNav';
-import { getAboutPhoto } from '@/lib/cloudinary';
+import { getAboutPhoto, getCollectionCoverUrl } from '@/lib/cloudinary';
 import type { Metadata } from 'next';
 
 export const revalidate = 3600;
 
-export const metadata: Metadata = {
-  title: 'About – Pryce Tharpe',
-  description: 'About the photography of Pryce Tharpe.',
-  alternates: { canonical: '/photography/about' },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const cover = await getCollectionCoverUrl('about');
+
+  const ogImages = cover
+    ? [{ url: cover.url, width: 1600, height: Math.round(1600 / cover.aspectRatio), alt: 'Pryce Tharpe' }]
+    : [];
+
+  return {
+    title: 'About – Pryce Tharpe Photography',
+    description: 'Photographer based in the midwest. Travel, street, and everyday life — shot on Sony A7C.',
+    alternates: { canonical: '/photography/about' },
+    openGraph: {
+      type: 'website',
+      title: 'About – Pryce Tharpe Photography',
+      description: 'Photographer based in the midwest. Travel, street, and everyday life — shot on Sony A7C.',
+      url: '/photography/about',
+      images: ogImages,
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: 'About – Pryce Tharpe Photography',
+      description: 'Photographer based in the midwest. Travel, street, and everyday life — shot on Sony A7C.',
+      images: ogImages.map((img) => img.url),
+    },
+  };
+}
 
 export default async function PhotographyAbout() {
   const photo = await getAboutPhoto();
@@ -43,7 +64,7 @@ export default async function PhotographyAbout() {
 
               {/* Right: text */}
               <div className="mt-10 md:mt-0 md:flex-1">
-                <h1 className="font-[family-name:var(--font-playfair)] text-5xl font-medium text-gray-900 mb-8 leading-tight">
+                <h1 className="font-[family-name:var(--font-display)] text-5xl font-semibold text-gray-900 mb-8 leading-tight">
                   About
                 </h1>
                 <div className="border-t border-gray-200 mb-10" />
@@ -53,7 +74,7 @@ export default async function PhotographyAbout() {
           ) : (
             /* Single-column fallback */
             <div className="max-w-2xl">
-              <h1 className="font-[family-name:var(--font-playfair)] text-5xl font-medium text-gray-900 mb-8 leading-tight">
+              <h1 className="font-[family-name:var(--font-display)] text-5xl font-semibold text-gray-900 mb-8 leading-tight">
                 About
               </h1>
               <div className="border-t border-gray-200 mb-10" />

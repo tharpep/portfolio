@@ -6,7 +6,7 @@ export default function NotFound() {
       <div className="max-w-4xl mx-auto">
         {/* 404 Section */}
         <section className="text-center mb-12 sm:mb-16 md:mb-20">
-          <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold font-mono tracking-tight mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90">
+          <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold font-mono tracking-tight mb-6 text-white">
             404
           </h1>
           <p className="text-xl sm:text-2xl text-neutral-300 mb-4">
@@ -35,7 +35,7 @@ export default function NotFound() {
 
         {/* ─────────── Let's Connect ─────────── */}
         <section className="mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400 mb-8 text-center">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-white mb-8 text-center">
             Let&apos;s Connect
           </h2>
           <div className="max-w-3xl mx-auto text-center">
