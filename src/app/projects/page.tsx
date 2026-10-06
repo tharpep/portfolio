@@ -2,6 +2,7 @@ import Link from "next/link";
 import { getProjectsByCategory, type Project, type ProjectCategory } from "@/lib/getProjects";
 import type { Metadata } from "next";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import ProjectLinks from "@/components/ProjectLinks";
 
 export const metadata: Metadata = {
   title: "Projects – Pryce Tharpe",
@@ -22,14 +23,17 @@ function TechBadge({ tech }: { tech: string }) {
 
 function ProjectCard({ project }: { project: Project }) {
   return (
-    <Link
-      href={`/projects/${project.slug}`}
-      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 bg-neutral-800/50 p-4 md:p-6 hover:shadow-xl hover:border-cyan-500/50 transition-[box-shadow,border-color] duration-300 ease-out`}
-      prefetch={false}
-    >
+    <article className="group relative h-full flex flex-col rounded-xl border border-neutral-700 bg-neutral-800/50 p-4 md:p-6 hover:shadow-xl hover:border-cyan-500/50 focus-within:border-cyan-500/50 transition-[box-shadow,border-color] duration-300 ease-out">
       <div className="flex items-start justify-between mb-4">
         <h3 className="font-bold text-lg md:text-xl font-mono tracking-wide text-white group-hover:text-cyan-300 transition-colors">
-          {project.title}
+          {/* Stretched link: the ::after covers the whole card */}
+          <Link
+            href={`/projects/${project.slug}`}
+            prefetch={false}
+            className="after:absolute after:inset-0 after:rounded-xl after:content-['']"
+          >
+            {project.title}
+          </Link>
         </h3>
         <div className="hidden md:flex items-center gap-1 text-xs text-emerald-400 font-medium flex-shrink-0 ml-2">
           <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></div>
@@ -52,16 +56,11 @@ function ProjectCard({ project }: { project: Project }) {
         )}
       </div>
 
-      <div className="flex items-center justify-between mt-auto">
+      <div className="flex flex-wrap items-center justify-between gap-2 mt-auto">
         <span className="text-xs md:text-sm text-neutral-300 font-mono">{project.timeline}</span>
-        <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300 ease-out">
-          View Details
-          <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-            <path d="M7 17l10-10M17 7H7v10"/>
-          </svg>
-        </div>
+        <ProjectLinks project={project} />
       </div>
-    </Link>
+    </article>
   );
 }
 
