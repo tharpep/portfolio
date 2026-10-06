@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { text } from "@/lib/typography";
 
 export default function NotFound() {
   return (
@@ -35,7 +36,7 @@ export default function NotFound() {
 
         {/* ─────────── Let's Connect ─────────── */}
         <section className="mb-12 sm:mb-16 md:mb-20">
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold font-mono tracking-wide text-white mb-8 text-center">
+          <h2 className={`${text.sectionTitle} mb-8 text-center`}>
             Let&apos;s Connect
           </h2>
           <div className="max-w-3xl mx-auto text-center">

@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
-import ProjectLinks from "@/components/ProjectLinks";
-import { getAllProjects, getFeaturedProjects, type Project } from "@/lib/getProjects";
+import ProjectCard from "@/components/ProjectCard";
+import { getAllProjects, getFeaturedProjects } from "@/lib/getProjects";
+import { text } from "@/lib/typography";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
@@ -19,7 +20,7 @@ export default function Home() {
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-white leading-tight">
+            <h1 className={`${text.heroTitle} mb-4`}>
               Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
@@ -74,12 +75,12 @@ export default function Home() {
         {/* ─────────── Featured Projects ─────────── */}
         <ScrollFadeIn delay={100}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
+            <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Featured Projects
             </h2>
             <div className="grid gap-4 md:gap-6 md:grid-cols-2 max-w-6xl mx-auto">
               {featuredProjects.map((project) => (
-                <FeaturedProjectCard key={project.slug} project={project} />
+                <ProjectCard key={project.slug} project={project} />
               ))}
             </div>
             <div className="text-center mt-10">
@@ -98,7 +99,7 @@ export default function Home() {
         {/* ─────────── Current Work ─────────── */}
         <ScrollFadeIn delay={200}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
+            <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Currently
             </h2>
             <div className="max-w-3xl mx-auto">
@@ -126,7 +127,7 @@ export default function Home() {
         {/* ─────────── Let's Connect ─────────── */}
         <ScrollFadeIn delay={300}>
           <section className="mb-12 md:mb-16">
-            <h2 className="text-xl sm:text-2xl md:text-4xl font-bold font-mono tracking-wide text-white mb-6 md:mb-8 text-center">
+            <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Let&apos;s Connect
             </h2>
             <div className="max-w-3xl mx-auto text-center">
@@ -180,42 +181,3 @@ export default function Home() {
     </main>
   );
 }
-
-/* ─────────── Components ─────────── */
-function FeaturedProjectCard({ project }: { project: Project }) {
-  const { slug, title, description, technologies, timeline } = project;
-  const top3Tech = technologies.slice(0, 3);
-
-  return (
-    <article className="group relative rounded-2xl border border-cyan-500/50 hover:border-cyan-400/70 focus-within:border-cyan-400/70 bg-neutral-800/40 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out">
-      <div className="flex justify-between items-start mb-4">
-        <h3 className="font-bold text-lg md:text-xl text-white group-hover:text-cyan-300 transition-colors">
-          {/* Stretched link: the ::after covers the whole card */}
-          <Link href={`/projects/${slug}`} className="after:absolute after:inset-0 after:rounded-2xl after:content-['']">
-            {title}
-          </Link>
-        </h3>
-        <span className="hidden md:block px-3 py-1 text-sm font-medium rounded-lg border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
-          {technologies[0]}
-        </span>
-      </div>
-      {/* Mobile: Top 3 tech stack */}
-      <div className="flex flex-wrap gap-2 mb-3 md:hidden">
-        {top3Tech.map((tech) => (
-          <span key={tech} className="px-2 py-1 text-xs font-medium rounded-xl border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
-            {tech}
-          </span>
-        ))}
-      </div>
-      {/* Mobile: Timeline */}
-      <div className="md:hidden mb-3">
-        <span className="text-xs text-neutral-300 font-mono">{timeline}</span>
-      </div>
-      <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
-        {description}
-      </p>
-      <ProjectLinks project={project} />
-    </article>
-  );
-}
-

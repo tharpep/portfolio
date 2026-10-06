@@ -1,3 +1,5 @@
+import { isYearMonth, type DateRange } from "./dates";
+
 export interface ProjectImage {
   path: string;
   caption?: string;
@@ -9,7 +11,7 @@ export interface Project {
   description: string;
   category: string;
   technologies: string[];
-  timeline: string;
+  dates: DateRange;
   status: 'completed' | 'in-progress' | 'planned';
   highlights: string[];
   demoUrl?: string;
@@ -38,7 +40,7 @@ const projects: Project[] = [
     description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices — the backbone of the Sazed personal AI ecosystem.",
     category: "devops-cloud",
     technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
-    timeline: "January 2025 – Present",
+    dates: { start: "2025-01", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "Managing authentication and API calls across multiple services (Google Calendar, Gmail, Tasks, AI providers) was becoming repetitive across projects, with scattered credentials and inconsistent patterns.",
@@ -57,7 +59,7 @@ const projects: Project[] = [
     description: "Automation platform organized by trigger type (scheduled, event-driven, manual) with YAML-driven configuration and deployment to GCP Cloud Run Jobs and Cloud Functions.",
     category: "devops-cloud",
     technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Cloud Functions", "Docker", "Pushover", "Prompt Engineering"],
-    timeline: "January 2025 – Present",
+    dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
     challenge: "I wanted a simple way to deploy personal automations without repeating infrastructure setup for each new task. It should write the logic and let the platform handle scheduling and deployment.",
@@ -76,7 +78,7 @@ const projects: Project[] = [
     description: "Automated Azure financial cost analysis pipeline using Microsoft Fabric and SQL.",
     category: "data-analytics",
     technologies: ["Microsoft Fabric", "Azure Data Factory", "SQL", "Azure Functions", "Python", "Power BI"],
-    timeline: "May 2025 – Present",
+    dates: { start: "2025-05", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "A 13-step monthly Azure cost analysis process took managers 2-3 hours of manual work, with risk of errors and inconsistent results.",
@@ -93,7 +95,7 @@ const projects: Project[] = [
     description: "Azure DevOps extension providing sprint health and status visibility.",
     category: "data-analytics",
     technologies: ["React", "Next.js", "Node.js", "Azure DevOps Extension SDK", "VSIX", "Vite", "TypeScript"],
-    timeline: "June 2025 – Present",
+    dates: { start: "2025-06", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "Stakeholders lacked real-time visibility into sprint health and status within Azure DevOps, requiring manual status updates.",
@@ -110,7 +112,7 @@ const projects: Project[] = [
     description: "Python-based tools for Spotify data manipulation and visualization using RESTful API integration.",
     category: "data-analytics",
     technologies: ["Python", "Spotify API", "Pandas", "RESTful APIs", "OAuth", "Data Visualization", "JSON"],
-    timeline: "January 2024 – Present",
+    dates: { start: "2024-01", end: "present" },
     status: "in-progress",
     highlights: [
       "Built API integration with Spotify's OAuth authentication system",
@@ -126,7 +128,7 @@ const projects: Project[] = [
     description: "Embedded firmware with a STM32 microcontroller for interactive music production.",
     category: "hardware-embedded",
     technologies: ["STM32", "C", "I2C", "DMA", "DAC", "SPI", "Adafruit NeoTrellis", "Embedded Systems"],
-    timeline: "2024",
+    dates: { start: "2024" },
     status: "completed",
     highlights: [],
     challenge: "For the Purdue Spark Challenge, I wanted to build something that combined my embedded systems coursework with music production.",
@@ -145,7 +147,7 @@ const projects: Project[] = [
     description: "IDE prompt that aims to standardize AI-assisted coding workflows across engineering teams.",
     category: "ai-ml",
     technologies: ["OpenAI API", "Prompt Engineering", "Cursor IDE", "Windsurf IDE", "Python", "Custom GPTs"],
-    timeline: "August 2025 – Present",
+    dates: { start: "2025-08", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "Engineering teams needed consistent AI-assisted coding workflows across multiple IDEs, with varying levels of AI experience among developers.",
@@ -162,7 +164,7 @@ const projects: Project[] = [
     description: "Custom GPTs for enterprise and personal use, including a system prompt builder and student career archivist.",
     category: "ai-ml",
     technologies: ["OpenAI GPT", "Custom GPT Development", "Prompt Engineering", "API Integration", "Workflow Automation"],
-    timeline: "January 2024 – Present",
+    dates: { start: "2024-01", end: "present" },
     status: "completed",
     highlights: [
       "Built system prompt builder for all skill levels",
@@ -178,7 +180,7 @@ const projects: Project[] = [
     description: "Research project engineering automated FM radio signal detection using USRP software-defined radio and GNU Radio.",
     category: "hardware-embedded",
     technologies: ["USRP", "GNU Radio", "Signal Processing", "Python", "Software-Defined Radio", "RF Engineering"],
-    timeline: "2024",
+    dates: { start: "2024" },
     status: "completed",
     highlights: [],
     challenge: "For an ECE research project, I worked on automating FM signal detection using software-defined radio.",
@@ -195,7 +197,7 @@ const projects: Project[] = [
     description: "Cloud-hosted knowledge base with hybrid retrieval, Google Drive sync, and Voyage AI embeddings for personal document search.",
     category: "ai-ml",
     technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Google Drive API", "GCP Cloud Run", "Docker", "Poetry"],
-    timeline: "August 2025 – Present",
+    dates: { start: "2025-08", end: "present" },
     status: "in-progress",
     highlights: [],
     challenge: "I wanted a private, searchable knowledge base backed by my own documents — Google Docs, PDFs, spreadsheets — with retrieval quality beyond basic keyword or single-vector search.",
@@ -215,7 +217,7 @@ const projects: Project[] = [
     description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
-    timeline: "January 2025 – Present",
+    dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
     challenge: "I wanted an AI agent that knew my personal context and could act on it, with memory that persisted across sessions, accessible from multiple clients.",
@@ -236,7 +238,7 @@ const projects: Project[] = [
     description: "Modern portfolio website with Next.js 15 App Router.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
-    timeline: "May 2025 – Present",
+    dates: { start: "2025-05", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "Needed a portfolio site to showcase my work. Used it as a chance to learn Next.js 15 and set up some automation.",
@@ -255,7 +257,7 @@ const projects: Project[] = [
     description: "Photography portfolio with auto-discovered collections from Cloudinary, AI-generated metadata, EXIF extraction, and mood-aware theming.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Cloudinary", "Anthropic SDK", "View Transitions API"],
-    timeline: "May 2025 – Present",
+    dates: { start: "2025-05", end: "present" },
     status: "completed",
     highlights: [],
     challenge: "Wanted a photography site that required zero code changes to add new content — just upload a folder to Cloudinary and it appears automatically with proper titles, descriptions, and theming.",
@@ -276,7 +278,7 @@ const projects: Project[] = [
     description: "Reproduction study of a paper implementing similarity-based RAG with two-stage fine-tuning on consumer hardware.",
     category: "ai-ml",
     technologies: ["Python", "RAG", "Qdrant", "Sentence Transformers", "Ollama", "Purdue GenAI API", "PyTorch", "Docker", "Poetry"],
-    timeline: "August 2025 – December 2025",
+    dates: { start: "2025-08", end: "2025-12" },
     status: "completed",
     highlights: [],
     challenge: "Reproduce and understand the SimRAG paper's similarity-based RAG techniques, implementing on consumer hardware to learn RAG fundamentals.",
@@ -295,7 +297,7 @@ const projects: Project[] = [
     description: "Group project building a model registry with AWS deployment.",
     category: "devops-cloud",
     technologies: ["AWS ECS", "AWS Fargate", "Python", "FastAPI", "React", "Next.js", "Docker", "GitHub Actions"],
-    timeline: "August 2025 – December 2025",
+    dates: { start: "2025-08", end: "2025-12" },
     status: "completed",
     highlights: [],
     challenge: "For ECE 46100 (Software Engineering), my team built a model registry. I led the AWS infrastructure and implemented the trustworthiness metrics.",
@@ -314,7 +316,7 @@ const projects: Project[] = [
     description: "Built the generative AI subsystem for a multi-platform cognitive coaching application.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "RAG", "Qdrant", "Ollama", "Purdue GenAI API", "Typer CLI", "Docker"],
-    timeline: "August 2025 – December 2025",
+    dates: { start: "2025-08", end: "2025-12" },
     status: "completed",
     highlights: [],
     challenge: "For Senior Design, I built the GenAI subsystem for a cognitive coaching app. My part handled artifact generation and the RAG-powered chat.",
@@ -333,7 +335,7 @@ const projects: Project[] = [
     description: "Full-stack web application for managing trading card collections with multi-user authentication.",
     category: "full-stack",
     technologies: ["React", "TypeScript", "FastAPI", "Supabase", "PostgreSQL", "Row Level Security", "Shadcn UI", "Vite"],
-    timeline: "August 2025 – December 2025",
+    dates: { start: "2025-08", end: "2025-12" },
     status: "in-progress",
     highlights: [],
     challenge: "Side project to learn authentication and database security. Building a multi-user app with Supabase.",
@@ -349,6 +351,22 @@ const projects: Project[] = [
 
 // Helper to get visible projects only
 const visibleProjects = projects.filter(p => !p.hidden);
+
+export const projectStatusLabel = (status: Project["status"]) =>
+  status === "completed" ? "Completed" : status === "in-progress" ? "In Progress" : "Planned";
+
+// Content checks. Cards reserve three lines for the description (about 140
+// characters at every screen width), so longer text gets cut off. These warn in
+// the dev server and build logs rather than failing the build.
+const DESCRIPTION_MAX = 140;
+for (const p of visibleProjects) {
+  if (p.description.length > DESCRIPTION_MAX) {
+    console.warn(`[projects] "${p.slug}" description is ${p.description.length} characters; cards show about ${DESCRIPTION_MAX}.`);
+  }
+  if (!isYearMonth(p.dates.start) || (p.dates.end && p.dates.end !== "present" && !isYearMonth(p.dates.end))) {
+    console.warn(`[projects] "${p.slug}" dates must be "YYYY-MM" or "YYYY" (end may be "present").`);
+  }
+}
 
 export const projectCategories: ProjectCategory[] = [
   {

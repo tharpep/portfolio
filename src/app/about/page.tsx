@@ -3,6 +3,7 @@ import dynamic from "next/dynamic";
 import Link from "next/link";
 import { getSpotifyData } from "@/lib/spotify-data";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import { text } from "@/lib/typography";
 
 // Lazy load SpotifyWidget to reduce initial bundle size
 const SpotifyWidget = dynamic(() => import("@/components/SpotifyWidget"), {
@@ -32,7 +33,7 @@ export default async function About() {
       <ScrollFadeIn>
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-white leading-tight">
+          <h1 className={`${text.pageTitle} mb-6`}>
             About Me
           </h1>
 
@@ -76,7 +77,7 @@ export default async function About() {
         {/* Personal Interests */}
         <ScrollFadeIn delay={100}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6">
+            <h2 className={`${text.sectionTitle} mb-6`}>
               Beyond Code
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
