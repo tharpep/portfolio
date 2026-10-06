@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { aiSetupIntro, aiSetupSections, aiSetupUpdated, type SetupItem } from "@/lib/aiSetup";
+import { text } from "@/lib/typography";
 
 export const metadata: Metadata = {
   title: "AI Setup – Pryce Tharpe",
@@ -28,15 +29,15 @@ export default function AiSetup() {
     <main id="main" className="text-neutral-100 px-4 sm:px-8 md:px-16 lg:px-32 py-8 sm:py-10 md:py-12 min-h-screen">
       <div className="max-w-3xl mx-auto">
         <header className="mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-tight text-white mb-3">AI Setup</h1>
-          <p className="text-sm text-neutral-300 font-mono mb-6">Updated {aiSetupUpdated}</p>
+          <h1 className={`${text.pageTitle} mb-3`}>AI Setup</h1>
+          <p className={`${text.meta} mb-6`}>Updated {aiSetupUpdated}</p>
           <p className="text-lg text-neutral-300 leading-relaxed">{aiSetupIntro}</p>
         </header>
 
         <div className="space-y-12">
           {sections.map((section) => (
             <section key={section.id} aria-labelledby={`ai-${section.id}`}>
-              <h2 id={`ai-${section.id}`} className="text-2xl font-bold font-mono text-white mb-2">
+              <h2 id={`ai-${section.id}`} className={`${text.sectionTitle} mb-2`}>
                 {section.title}
               </h2>
               {section.intro && <p className="text-neutral-300 mb-4">{section.intro}</p>}
