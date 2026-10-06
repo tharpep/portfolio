@@ -14,7 +14,7 @@ export default function Resume() {
       <ScrollFadeIn>
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-tight">
+          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-white leading-tight">
             Pryce Tharpe
           </h1>
         </section>
@@ -36,7 +36,7 @@ export default function Resume() {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
                     <h3 className="text-xl font-bold text-white">Eli Lilly</h3>
-                    <p className="text-neutral-400 text-sm">Indianapolis, IN</p>
+                    <p className="text-neutral-300 text-sm">Indianapolis, IN</p>
                   </div>
                   <span className="text-cyan-400 font-mono text-sm mt-1 sm:mt-0">Jun 2026 – Present</span>
                 </div>
@@ -50,7 +50,7 @@ export default function Resume() {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
                     <h3 className="text-xl font-bold text-white">Mesh Systems</h3>
-                    <p className="text-neutral-400 text-sm">Carmel, IN</p>
+                    <p className="text-neutral-300 text-sm">Carmel, IN</p>
                   </div>
                   <span className="text-cyan-400 font-mono text-sm mt-1 sm:mt-0">May 2025 – May 2026</span>
                 </div>
@@ -60,10 +60,10 @@ export default function Resume() {
                 </p>
 
                 {/* AI System Prompt */}
-                <div className="mb-6 pl-4 border-l-2 border-cyan-500/30">
+                <div className="mb-6 pl-4">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                     <h4 className="text-lg font-semibold text-white">AI System Prompt & Internal Enablement Platform</h4>
-                    <span className="text-neutral-400 font-mono text-sm">Jun – Aug 2025</span>
+                    <span className="text-neutral-300 font-mono text-sm">Jun – Aug 2025</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                     <li>Developed a master IDE prompt that standardized AI-assisted coding workflows across the company.</li>
@@ -72,10 +72,10 @@ export default function Resume() {
                 </div>
 
                 {/* Azure DevOps Scorecard */}
-                <div className="mb-6 pl-4 border-l-2 border-cyan-500/30">
+                <div className="mb-6 pl-4">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                     <h4 className="text-lg font-semibold text-white">Azure DevOps Sprint Scorecard Extension</h4>
-                    <span className="text-neutral-400 font-mono text-sm">Jun – Aug 2025</span>
+                    <span className="text-neutral-300 font-mono text-sm">Jun – Aug 2025</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                     <li>Designed and delivered an Azure DevOps extension with real-time sprint dashboards for project tracking.</li>
@@ -84,10 +84,10 @@ export default function Resume() {
                 </div>
 
                 {/* Financial Report Automation */}
-                <div className="pl-4 border-l-2 border-cyan-500/30">
+                <div className="pl-4">
                   <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                     <h4 className="text-lg font-semibold text-white">Financial Report Automation</h4>
-                    <span className="text-neutral-400 font-mono text-sm">May – Jun 2025</span>
+                    <span className="text-neutral-300 font-mono text-sm">May – Jun 2025</span>
                   </div>
                   <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                     <li>Designed and launched an automated ETL pipeline with Microsoft Fabric and SQL, cutting monthly Azure reporting from 3 hours to under 10 minutes.</li>
@@ -108,10 +108,10 @@ export default function Resume() {
 
             <div className="space-y-6">
               {/* ECE 46100 */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">ECE 46100 - Software Engineering — Package Registry System</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Aug – Dec 2025</span>
+                  <span className="text-neutral-300 font-mono text-sm">Aug – Dec 2025</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Designed complete AWS deployment infrastructure (ECS/Fargate, ECR, S3, CloudWatch) with CI/CD pipeline using GitHub Actions and OIDC authentication.</li>
@@ -120,10 +120,10 @@ export default function Resume() {
               </div>
 
               {/* Senior Design */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">Senior Design — Smart Glasses GenAI Subsystem</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Aug – Dec 2025</span>
+                  <span className="text-neutral-300 font-mono text-sm">Aug – Dec 2025</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Built FastAPI microservice with retrieval-augmented generation (RAG) pipeline using Qdrant vector store, multi-provider LLM abstraction (Ollama/GenAI API), and three-layer context system.</li>
@@ -132,10 +132,10 @@ export default function Resume() {
               </div>
 
               {/* SimRAG Reproduction */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">SimRAG Reproduction — RAG Fine-Tuning Study</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Aug – Dec 2025</span>
+                  <span className="text-neutral-300 font-mono text-sm">Aug – Dec 2025</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Reproduced NAACL 2025 SimRAG methodology on consumer hardware; implemented two-stage QLoRA fine-tuning with 4-bit quantization and built evaluation framework establishing model capacity lower bounds for RAG effectiveness.</li>
@@ -143,10 +143,10 @@ export default function Resume() {
               </div>
 
               {/* Sazed */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">Sazed — Personal AI Agent</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Jan 2025 – Present</span>
+                  <span className="text-neutral-300 font-mono text-sm">Jan 2025 – Present</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Built a multi-turn agentic loop with the Anthropic SDK — 20+ tools spanning Google Workspace, GitHub, knowledge base search, and push notifications, all routed through a personal API gateway.</li>
@@ -156,10 +156,10 @@ export default function Resume() {
               </div>
 
               {/* Knowledge Base */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">Personal Knowledge Base</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Aug 2025 – Present</span>
+                  <span className="text-neutral-300 font-mono text-sm">Aug 2025 – Present</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Built a hybrid retrieval pipeline combining pgvector dense search with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF) and re-ranked with Voyage AI rerank-2.5.</li>
@@ -168,10 +168,10 @@ export default function Resume() {
               </div>
 
               {/* API Gateway */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">Personal API Gateway</h3>
-                  <span className="text-neutral-400 font-mono text-sm">Jan 2025 – Present</span>
+                  <span className="text-neutral-300 font-mono text-sm">Jan 2025 – Present</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Centralized FastAPI gateway unifying Google Workspace (Calendar, Gmail, Tasks, Drive, Sheets), GitHub, AI providers, and internal services behind a single API key.</li>
@@ -180,10 +180,10 @@ export default function Resume() {
               </div>
 
               {/* Portfolio */}
-              <div className="pl-4 border-l-2 border-blue-500/30">
+              <div>
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <h3 className="text-lg font-semibold text-white">Portfolio Website</h3>
-                  <span className="text-neutral-400 font-mono text-sm">May 2025 – Present</span>
+                  <span className="text-neutral-300 font-mono text-sm">May 2025 – Present</span>
                 </div>
                 <ul className="list-disc list-inside space-y-2 text-neutral-300 ml-2">
                   <li>Built with Next.js 15, React 19 Server Components, and TypeScript with live Spotify integration via Python scripts and GitHub Actions.</li>
@@ -206,7 +206,7 @@ export default function Resume() {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
                     <h3 className="text-lg font-semibold text-white">Purdue Rack and Roll</h3>
-                    <p className="text-neutral-400 text-sm">West Lafayette, IN</p>
+                    <p className="text-neutral-300 text-sm">West Lafayette, IN</p>
                   </div>
                   <span className="text-cyan-400 font-mono text-sm">Aug 2023 – May 2026</span>
                 </div>
@@ -219,7 +219,7 @@ export default function Resume() {
                 <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                   <div>
                     <h3 className="text-lg font-semibold text-white">Royal Pin Woodland</h3>
-                    <p className="text-neutral-400 text-sm">Indianapolis, IN</p>
+                    <p className="text-neutral-300 text-sm">Indianapolis, IN</p>
                   </div>
                   <span className="text-cyan-400 font-mono text-sm">Aug 2021 – Aug 2024</span>
                 </div>
@@ -243,7 +243,7 @@ export default function Resume() {
               <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between mb-2">
                 <div>
                   <h3 className="text-lg font-semibold text-white">Purdue University</h3>
-                  <p className="text-neutral-400 text-sm">West Lafayette, IN</p>
+                  <p className="text-neutral-300 text-sm">West Lafayette, IN</p>
                 </div>
                 <span className="text-cyan-400 font-mono text-sm">Aug 2022 – May 2026</span>
               </div>
@@ -260,7 +260,7 @@ export default function Resume() {
               Skills
             </h2>
 
-            <div className="rounded-xl bg-gradient-to-br from-neutral-800 to-neutral-900 border border-neutral-700 p-4 sm:p-6">
+            <div className="rounded-xl bg-neutral-800/60 border border-neutral-700 p-4 sm:p-6">
               <p className="text-neutral-300 leading-relaxed">
                 <span className="font-semibold text-white">Technical:</span> Python, C/C++/C#, React, Next.js, TypeScript, AWS, GCP, Azure, Docker, CI/CD, Linux/Bash, MSFT Fabric, SQL, RESTful APIs, RAG, Agentic Systems, LLM Integration, Prompt Engineering, Git/GitHub/Azure DevOps
               </p>
@@ -275,7 +275,7 @@ export default function Resume() {
               href="/Pryce_Tharpe___No_PII.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-xl transition-colors duration-300"
+              className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold rounded-xl transition-colors duration-300"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />

@@ -10,7 +10,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
   return (
     <section className="mb-20 px-4 md:px-0">
       <div className="mb-8">
-        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-transparent bg-clip-text bg-gradient-to-r from-green-300 to-emerald-400">
+        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-white">
           My Music
         </h2>
         {data.weeklyListening && (
@@ -21,16 +21,16 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             <span className="text-green-300 font-mono font-semibold">
               {formatListeningTime(data.weeklyListening.totalMs)}
             </span>
-            <span className="text-neutral-400 text-sm">this week</span>
+            <span className="text-neutral-300 text-sm">this week</span>
             <span className="text-neutral-600">·</span>
-            <span className="text-neutral-400 text-sm font-mono">{data.weeklyListening.trackCount} plays</span>
+            <span className="text-neutral-300 text-sm font-mono">{data.weeklyListening.trackCount} plays</span>
             {data.ytdListening && data.ytdListening.totalMs > 0 && (
               <>
                 <span className="text-neutral-600">·</span>
                 <span className="text-green-300/70 font-mono font-semibold">
                   {formatListeningTime(data.ytdListening.totalMs)}
                 </span>
-                <span className="text-neutral-400 text-sm">this year</span>
+                <span className="text-neutral-300 text-sm">this year</span>
               </>
             )}
           </div>
@@ -45,7 +45,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             <span className="text-green-400">#1</span>
             Today&apos;s Top Song
           </h3>
-          <div className="rounded-xl border border-green-500/30 bg-gradient-to-br from-green-900/20 to-emerald-900/20 p-6 hover:border-green-400/50 transition-all duration-300 group flex-1 flex flex-col justify-center">
+          <div className="rounded-xl border border-green-500/30 bg-green-950/30 p-6 hover:border-green-400/50 transition-all duration-300 group flex-1 flex flex-col justify-center">
             <div className="flex flex-col items-center text-center gap-6">
               <Image 
                 src={data.topTrackDay.albumImage} 
@@ -87,7 +87,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             {data.topTracksWeek.map((track, index) => (
               <div 
                 key={index}
-                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/70 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
+                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-neutral-800/50 hover:border-green-500/30 hover:bg-green-950/30 transition-all duration-300 group"
               >
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}
@@ -103,7 +103,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
                   <h4 className="font-medium text-white text-sm truncate group-hover:text-green-300 transition-colors">
                     {track.name}
                   </h4>
-                  <p className="text-xs text-neutral-400 truncate">
+                  <p className="text-xs text-neutral-300 truncate">
                     {track.artists}
                   </p>
                 </div>
@@ -132,7 +132,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
             {data.topArtistsYear.map((artist, index) => (
               <div 
                 key={index}
-                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-gradient-to-r from-neutral-800/70 to-neutral-900/30 hover:border-green-500/30 hover:from-green-900/20 hover:to-emerald-900/20 transition-all duration-300 group"
+                className="flex items-center gap-3 p-3 rounded-lg border border-neutral-700 bg-neutral-800/50 hover:border-green-500/30 hover:bg-green-950/30 transition-all duration-300 group"
               >
                 <span className="text-sm font-mono text-green-400 w-6 text-center">
                   {index + 1}

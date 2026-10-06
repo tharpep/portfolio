@@ -31,7 +31,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
     return (
       <div className="relative" ref={dropdownRef}>
         <button
-          className="relative px-6 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
+          className="relative px-6 py-2 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
           disabled
         >
           <span className="absolute inset-0 rounded-lg bg-cyan-400 opacity-0 group-hover:opacity-20 group-hover:animate-ping"></span>
@@ -54,7 +54,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
     <div className="relative" ref={dropdownRef}>
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="relative px-6 py-2 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
+        className="relative px-6 py-2 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
       >
         {/* Pulse ring effect */}
         <span className="absolute inset-0 rounded-lg bg-cyan-400 opacity-0 group-hover:opacity-20 group-hover:animate-ping"></span>
@@ -87,7 +87,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
               </svg>
               <div>
                 <div className="font-medium">Email</div>
-                <div className="text-sm text-neutral-400">tharpep_pro@outlook.com</div>
+                <div className="text-sm text-neutral-300">tharpep_pro@outlook.com</div>
               </div>
             </a>
             
@@ -106,7 +106,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
               </svg>
               <div>
                 <div className="font-medium">LinkedIn</div>
-                <div className="text-sm text-neutral-400">Connect professionally</div>
+                <div className="text-sm text-neutral-300">Connect professionally</div>
               </div>
             </a>
           </div>
