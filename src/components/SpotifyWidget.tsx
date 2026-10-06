@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { SpotifyDisplayData } from '@/lib/spotify-types';
 import { formatListeningTime } from '@/lib/spotify-data';
+import { text } from "@/lib/typography";
 
 interface SpotifyWidgetProps {
   data: SpotifyDisplayData;
@@ -10,7 +11,7 @@ export default function SpotifyWidget({ data }: SpotifyWidgetProps) {
   return (
     <section className="mb-20 px-4 md:px-0">
       <div className="mb-8">
-        <h2 className="text-3xl md:text-4xl font-bold font-mono tracking-wide text-white">
+        <h2 className={text.sectionTitle}>
           My Music
         </h2>
         {data.weeklyListening && (

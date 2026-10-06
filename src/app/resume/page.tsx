@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import { text } from "@/lib/typography";
 
 export const metadata: Metadata = {
   title: "Resume – Pryce Tharpe",
@@ -14,7 +15,7 @@ export default function Resume() {
       <ScrollFadeIn>
         {/* Hero Section */}
         <section className="text-center mb-12 sm:mb-16">
-          <h1 className="text-4xl sm:text-5xl font-bold font-mono tracking-wider mb-6 text-white leading-tight">
+          <h1 className={`${text.pageTitle} mb-6`}>
             Pryce Tharpe
           </h1>
         </section>
@@ -27,7 +28,7 @@ export default function Resume() {
         {/* Professional Experience */}
         <ScrollFadeIn>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Professional Experience
             </h2>
 
@@ -102,7 +103,7 @@ export default function Resume() {
         {/* Academic & Personal Projects */}
         <ScrollFadeIn delay={100}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Academic & Personal Projects
             </h2>
 
@@ -197,7 +198,7 @@ export default function Resume() {
         {/* Additional Experience */}
         <ScrollFadeIn delay={200}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Additional Experience
             </h2>
 
@@ -235,7 +236,7 @@ export default function Resume() {
         {/* Education */}
         <ScrollFadeIn delay={300}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Education
             </h2>
 
@@ -256,7 +257,7 @@ export default function Resume() {
         {/* Skills */}
         <ScrollFadeIn delay={400}>
           <section>
-            <h2 className="text-2xl sm:text-3xl font-bold font-mono tracking-wider text-white mb-6 border-b border-cyan-500/30 pb-2">
+            <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Skills
             </h2>
 
