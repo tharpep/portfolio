@@ -23,7 +23,11 @@ export default function Home() {
               Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              AI Acceleration Fellow at Eli Lilly. Computer Engineering grad from Purdue. Building at the intersection of AI, cloud, and full-stack engineering.
+              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. On my own time, I build platforms like{" "}
+              <Link href="/projects/sazed" className="text-cyan-300 hover:text-cyan-200 underline underline-offset-4 decoration-cyan-300/40 hover:decoration-cyan-200">
+                Sazed
+              </Link>{" "}
+              and experiment with ways to innovate my workflow. I also love to teach and discuss: AI enablement for colleagues, mentoring a high school intern, and helping friends and family get familiar with AI.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-2xl mx-auto">
               <Link

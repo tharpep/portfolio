@@ -1,5 +1,4 @@
-// Content for /ai — my personal AI setup. Work tools at Lilly stay off this page.
-// Sections with no items are skipped when rendering, so an empty section is a safe placeholder.
+// Content for /ai. Sections with no items are skipped when rendering.
 
 export interface SetupItem {
   name: string;
@@ -18,7 +17,7 @@ export interface SetupSection {
 export const aiSetupUpdated = "October 2026";
 
 export const aiSetupIntro =
-  "How I use AI day to day: the tools, the systems I built around them, and where I keep learning. This is my personal setup; the tools I use at Lilly stay internal. It changes often, so it's dated.";
+  "How I use AI day to day: the tools, the systems I built around them, and where I keep learning.";
 
 export const aiSetupSections: SetupSection[] = [
   {
@@ -63,14 +62,13 @@ export const aiSetupSections: SetupSection[] = [
   },
   {
     id: "connectors",
-    title: "Connectors",
-    intro: "What each one is for, not just that it's installed.",
+    title: "Connectors and tools",
     items: [
       { name: "Google Workspace", note: "Gmail, Calendar, and Drive, for pulling my own mail, schedule, and documents into a conversation." },
       { name: "GitHub", note: "Reviewing pull requests and CI without leaving the session." },
       { name: "Vercel", note: "Deploys and logs for this site." },
       { name: "Context7", note: "Current library docs, so answers match the version I'm actually on." },
-      { name: "Exa", note: "Web search and page reading when I want sources, not the model's memory." },
+      { name: "Playwright", note: "Browser automation, through the CLI and a Claude skill." },
     ],
   },
   {
@@ -88,12 +86,6 @@ export const aiSetupSections: SetupSection[] = [
     ],
   },
   {
-    id: "notes",
-    title: "Notes",
-    // TODO(Pryce): how Obsidian fits in (vault structure, what Claude reads or writes there).
-    items: [],
-  },
-  {
     id: "learning",
     title: "Where I learn",
     items: [
@@ -104,7 +96,7 @@ export const aiSetupSections: SetupSection[] = [
   {
     id: "teaching",
     title: "Teaching",
-    intro: "Teaching is the best way to learn, so I do a lot of it.",
+    intro: "Teaching is the best way to learn.",
     items: [
       { name: "Colleagues", note: "At Mesh Systems I ran 17 short AI sessions for 20+ engineers and helped standardize how the team used AI in their IDEs." },
       { name: "Students", note: "Mentored a high school intern through backend work on an Azure DevOps extension." },
