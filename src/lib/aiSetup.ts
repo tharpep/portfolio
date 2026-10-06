@@ -68,21 +68,7 @@ export const aiSetupSections: SetupSection[] = [
       { name: "GitHub", note: "Reading code, reviewing pull requests, and checking build results." },
       { name: "Vercel", note: "Deployments and logs for this site." },
       { name: "Context7", note: "Up-to-date documentation for the libraries I'm using." },
-      { name: "Playwright", note: "Browser automation, from the command line or through a Claude skill." },
-    ],
-  },
-  {
-    id: "instructions",
-    title: "Instructions",
-    items: [
-      {
-        name: "CLAUDE.md files",
-        note: "Each project has one. It covers how to run the project, how it's structured, and where its data comes from, and Claude reads it at the start of every session.",
-      },
-      {
-        name: "Adding rules",
-        note: "When something goes wrong, I add a rule so it doesn't happen again. This site's file has a rule about scroll animations because one hid the homepage until its JavaScript loaded.",
-      },
+      { name: "Playwright", note: "Browser automation, using the CLI through a Claude skill." },
     ],
   },
   {
