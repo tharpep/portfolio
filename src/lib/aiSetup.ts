@@ -26,11 +26,11 @@ export const aiSetupSections: SetupSection[] = [
     items: [
       {
         name: "Claude Code",
-        note: "Anything that lives in a repo. Each project has a CLAUDE.md with its commands, architecture, and conventions, so a new session starts with context instead of guesses. I also run cloud sessions from my phone.",
+        note: "For work in code repositories, including cloud sessions from my phone.",
       },
       {
         name: "Claude Desktop",
-        note: "Conversations that need my personal context. Sazed is connected as a single ask_sazed tool, so Desktop can reach my calendar, email, and documents through it.",
+        note: "For conversations that need my own information. Sazed is connected to it, so Claude can check my calendar, email, and documents.",
       },
     ],
   },
@@ -41,22 +41,22 @@ export const aiSetupSections: SetupSection[] = [
       {
         name: "Sazed",
         href: "/projects/sazed",
-        note: "My personal agent: 20+ tools, memory that persists across sessions, and a desktop app. I use it every day.",
+        note: "A personal AI agent with 20+ tools, including my calendar, email, and documents. It keeps memory across conversations and runs as a desktop and web app. I use it daily.",
       },
       {
         name: "API Gateway",
         href: "/projects/personal-api-gateway",
-        note: "One authenticated entry point to Google Workspace, GitHub, and model providers, so no other service holds those credentials.",
+        note: "A single service that handles access to Google Workspace, GitHub, and AI model providers. My other projects call it rather than storing their own credentials.",
       },
       {
         name: "Knowledge Base",
         href: "/projects/knowledge-base",
-        note: "Hybrid search over my Google Drive documents (pgvector plus full-text, then reranked). Sazed uses it for anything it needs to look up.",
+        note: "Searches my Google Drive documents using both keyword and semantic search. Sazed uses it to look things up.",
       },
       {
         name: "Automations",
         href: "/projects/personal-automations",
-        note: "Scheduled jobs, starting with daily and weekly AI briefings on what's coming up.",
+        note: "Scheduled jobs. Right now they generate daily and weekly briefings on what's coming up.",
       },
     ],
   },
@@ -64,24 +64,24 @@ export const aiSetupSections: SetupSection[] = [
     id: "connectors",
     title: "Connectors and tools",
     items: [
-      { name: "Google Workspace", note: "Gmail, Calendar, and Drive, for pulling my own mail, schedule, and documents into a conversation." },
-      { name: "GitHub", note: "Reviewing pull requests and CI without leaving the session." },
-      { name: "Vercel", note: "Deploys and logs for this site." },
-      { name: "Context7", note: "Current library docs, so answers match the version I'm actually on." },
-      { name: "Playwright", note: "Browser automation, through the CLI and a Claude skill." },
+      { name: "Google Workspace", note: "Gmail, Calendar, and Drive, so Claude can read my email, schedule, and documents when I ask." },
+      { name: "GitHub", note: "Reading code, reviewing pull requests, and checking build results." },
+      { name: "Vercel", note: "Deployments and logs for this site." },
+      { name: "Context7", note: "Up-to-date documentation for the libraries I'm using." },
+      { name: "Playwright", note: "Browser automation, from the command line or through a Claude skill." },
     ],
   },
   {
-    id: "config",
-    title: "Config and instructions",
+    id: "instructions",
+    title: "Instructions",
     items: [
       {
-        name: "Facts over vibes",
-        note: "My CLAUDE.md files describe the project: commands, architecture, where data lives. Not personality prompts.",
+        name: "CLAUDE.md files",
+        note: "Each project has one. It covers how to run the project, how it's structured, and where its data comes from, and Claude reads it at the start of every session.",
       },
       {
-        name: "Rules come from mistakes",
-        note: "When something breaks, the fix becomes a rule. This site's CLAUDE.md has a note about scroll animations because one once hid the homepage until JavaScript loaded.",
+        name: "Adding rules",
+        note: "When something goes wrong, I add a rule so it doesn't happen again. This site's file has a rule about scroll animations because one hid the homepage until its JavaScript loaded.",
       },
     ],
   },
@@ -90,7 +90,7 @@ export const aiSetupSections: SetupSection[] = [
     title: "Where I learn",
     items: [
       { name: "Claude Academy", href: "https://academy.claude.com/", note: "Anthropic's free courses on Claude Code, MCP, and the API." },
-      { name: "Hello Interview", href: "https://www.hellointerview.com/", note: "System design and interview practice, including the newer AI-assisted coding round." },
+      { name: "Hello Interview", href: "https://www.hellointerview.com/", note: "System design and interview practice, including AI-assisted coding interviews." },
     ],
   },
   {
@@ -98,9 +98,9 @@ export const aiSetupSections: SetupSection[] = [
     title: "Teaching",
     intro: "Teaching is the best way to learn.",
     items: [
-      { name: "Colleagues", note: "At Mesh Systems I ran 17 short AI sessions for 20+ engineers and helped standardize how the team used AI in their IDEs." },
-      { name: "Students", note: "Mentored a high school intern through backend work on an Azure DevOps extension." },
-      { name: "Friends and family", note: "Getting people started with AI tools they'll actually keep using." },
+      { name: "Colleagues", note: "At Mesh Systems, I ran 17 short AI training sessions for more than 20 engineers and helped standardize how the team used AI coding tools." },
+      { name: "Students", note: "Mentored a high school intern on backend work for an Azure DevOps extension." },
+      { name: "Friends and family", note: "Helping them get familiar with AI tools for everyday use." },
     ],
   },
 ];
