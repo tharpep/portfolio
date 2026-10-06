@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects } from "@/lib/getProjects";
+import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects, projectStatusLabel } from "@/lib/getProjects";
+import { formatDateRange } from "@/lib/dates";
+import { text } from "@/lib/typography";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import SazedArchitectureDiagramWrapper from "@/components/SazedArchitectureDiagramWrapper";
 
@@ -30,40 +32,6 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     };
 }
 
-// Accent color configurations per category
-const categoryAccents: Record<string, { primary: string; badge: string; hover: string; border: string }> = {
-    "ai-ml": {
-        primary: "text-emerald-300",
-        badge: "bg-emerald-900/30 text-emerald-300 border-emerald-700/50 hover:shadow-emerald-500/20",
-        hover: "hover:text-emerald-300 hover:shadow-emerald-500/10",
-        border: "border-emerald-700/50",
-    },
-    "data-analytics": {
-        primary: "text-cyan-300",
-        badge: "bg-cyan-900/30 text-cyan-300 border-cyan-700/50 hover:shadow-cyan-500/20",
-        hover: "hover:text-cyan-300 hover:shadow-cyan-500/10",
-        border: "border-cyan-700/50",
-    },
-    "devops-cloud": {
-        primary: "text-purple-300",
-        badge: "bg-purple-900/30 text-purple-300 border-purple-700/50 hover:shadow-purple-500/20",
-        hover: "hover:text-purple-300 hover:shadow-purple-500/10",
-        border: "border-purple-700/50",
-    },
-    "full-stack": {
-        primary: "text-blue-300",
-        badge: "bg-blue-900/30 text-blue-300 border-blue-700/50 hover:shadow-blue-500/20",
-        hover: "hover:text-blue-300 hover:shadow-blue-500/10",
-        border: "border-blue-700/50",
-    },
-    "hardware-embedded": {
-        primary: "text-orange-300",
-        badge: "bg-orange-900/30 text-orange-300 border-orange-700/50 hover:shadow-orange-500/20",
-        hover: "hover:text-orange-300 hover:shadow-orange-500/10",
-        border: "border-orange-700/50",
-    },
-};
-
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
     const { slug } = await params;
     const project = getProjectBySlug(slug);
@@ -74,9 +42,6 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
     const nextProject = getNextProject(slug);
     const prevProject = getPreviousProject(slug);
-    const accent = categoryAccents[project.category] || categoryAccents["ai-ml"];
-
-    const statusLabel = project.status === "completed" ? "Completed" : "In Progress";
 
     // Check if project uses new challenge/solution/result format
     const hasNewFormat = project.challenge && project.solution && project.result;
@@ -89,7 +54,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 <nav className="mb-8">
                     <Link
                         href="/projects"
-                        className={`inline-flex items-center ${accent.primary} ${accent.hover} transition-colors text-sm`}
+                        className="inline-flex items-center text-cyan-300 hover:text-cyan-200 transition-colors text-sm"
                     >
                         <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                             <path d="M19 12H5m7-7l-7 7 7 7" />
@@ -100,12 +65,12 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                 {/* Hero Section */}
                 <header className="mb-10">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold font-mono tracking-tight mb-3 text-white">
+                    <h1 className={`${text.pageTitle} mb-3`}>
                         {project.title}
                     </h1>
 
-                    <p className="text-sm text-neutral-300 font-mono mb-5">
-                        {project.timeline} · {statusLabel}
+                    <p className={`${text.meta} mb-5`}>
+                        {formatDateRange(project.dates)} · {projectStatusLabel(project.status)}
                     </p>
 
                     <p className="text-lg text-neutral-300 leading-relaxed mb-6">
@@ -117,7 +82,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         {project.technologies.map((tech) => (
                             <span
                                 key={tech}
-                                className={`px-3 py-1 text-sm font-medium rounded-full border ${accent.badge}`}
+                                className={text.tag}
                             >
                                 {tech}
                             </span>
@@ -175,7 +140,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 {project.images && project.images.length > 0 && (
                     <ScrollFadeIn>
                         <figure className="mb-10">
-                            <div className={`overflow-hidden rounded-lg border ${accent.border} bg-neutral-900/50`}>
+                            <div className={`overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/50`}>
                                 <Image
                                     src={`/images/${project.images[0].path}`}
                                     alt={project.images[0].caption || `${project.title}`}
@@ -199,18 +164,18 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     <>
                         <ScrollFadeIn>
                             <section className="mb-8">
-                                <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-3`}>Challenge</h2>
+                                <h2 className={`${text.subTitle} mb-3`}>Challenge</h2>
                                 <p className="text-neutral-300 leading-relaxed">{project.challenge}</p>
                             </section>
                         </ScrollFadeIn>
 
                         <ScrollFadeIn delay={100}>
                             <section className="mb-8">
-                                <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-3`}>Solution</h2>
+                                <h2 className={`${text.subTitle} mb-3`}>Solution</h2>
                                 <div className="space-y-2">
                                     {project.solution?.map((point, index) => (
                                         <div key={index} className="flex items-start gap-3">
-                                            <span className={`${accent.primary} mt-1`}>•</span>
+                                            <span className="text-cyan-300 mt-1">•</span>
                                             <p className="text-neutral-300 leading-relaxed">{point}</p>
                                         </div>
                                     ))}
@@ -220,7 +185,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                         <ScrollFadeIn delay={200}>
                             <section className="mb-10">
-                                <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-3`}>Result</h2>
+                                <h2 className={`${text.subTitle} mb-3`}>Result</h2>
                                 <p className="text-neutral-300 leading-relaxed">{project.result}</p>
                             </section>
                         </ScrollFadeIn>
@@ -231,11 +196,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                         {project.highlights.length > 0 && (
                             <ScrollFadeIn>
                                 <section className="mb-10">
-                                    <h2 className={`text-xl font-bold font-mono ${accent.primary} mb-4`}>Key Achievements</h2>
+                                    <h2 className={`${text.subTitle} mb-4`}>Key Achievements</h2>
                                     <div className="space-y-3">
                                         {project.highlights.map((highlight, index) => (
                                             <div key={index} className="flex items-start gap-3">
-                                                <span className={`${accent.primary} mt-1`}>•</span>
+                                                <span className="text-cyan-300 mt-1">•</span>
                                                 <p className="text-neutral-300 leading-relaxed">{highlight}</p>
                                             </div>
                                         ))}
@@ -250,7 +215,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 {project.architectureDiagram && (
                     <ScrollFadeIn delay={250}>
                         <section className="mb-10 pt-8 border-t border-neutral-800">
-                            <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-4`}>
+                            <h2 className={`${text.subTitle} mb-4`}>
                                 Architecture
                             </h2>
                             {project.architectureDiagram.type === 'component' &&
@@ -265,11 +230,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 {project.images && project.images.length > 1 && (
                     <ScrollFadeIn delay={200}>
                         <section className="mt-10 pt-8 border-t border-neutral-800">
-                            <h2 className={`text-lg font-bold font-mono ${accent.primary} mb-4`}>Additional Screenshots</h2>
+                            <h2 className={`${text.subTitle} mb-4`}>Additional Screenshots</h2>
                             <div className="space-y-6">
                                 {project.images.slice(1).map((image, index) => (
                                     <figure key={index}>
-                                        <div className={`overflow-hidden rounded-lg border ${accent.border} bg-neutral-900/50`}>
+                                        <div className={`overflow-hidden rounded-lg border border-neutral-800 bg-neutral-900/50`}>
                                             <Image
                                                 src={`/images/${image.path}`}
                                                 alt={image.caption || `${project.title} screenshot`}
@@ -297,7 +262,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             {prevProject ? (
                                 <Link
                                     href={`/projects/${prevProject.slug}`}
-                                    className={`group flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all ${accent.hover} flex-1`}
+                                    className={`group flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all hover:text-cyan-300 flex-1`}
                                 >
                                     <svg className="w-5 h-5 text-neutral-400 group-hover:text-current flex-shrink-0 transition-transform group-hover:-translate-x-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                                         <path d="M19 12H5m7-7l-7 7 7 7" />
@@ -313,7 +278,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                             <Link
                                 href="/projects"
-                                className={`group flex items-center justify-center gap-2 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all ${accent.hover}`}
+                                className={`group flex items-center justify-center gap-2 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all hover:text-cyan-300`}
                             >
                                 <svg className="w-5 h-5 text-neutral-400 group-hover:text-current" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                                     <path d="M4 6h16M4 12h16M4 18h16" />
@@ -324,7 +289,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             {nextProject ? (
                                 <Link
                                     href={`/projects/${nextProject.slug}`}
-                                    className={`group flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all ${accent.hover} flex-1 justify-end text-right`}
+                                    className={`group flex items-center gap-3 px-4 py-3 rounded-lg hover:bg-neutral-800/50 transition-all hover:text-cyan-300 flex-1 justify-end text-right`}
                                 >
                                     <div className="min-w-0">
                                         <div className="text-xs text-neutral-500 font-mono">Next</div>
