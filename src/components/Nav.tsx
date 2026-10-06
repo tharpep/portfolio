@@ -7,6 +7,7 @@ import ContactDropdownHeader from "./ContactDropdownHeader";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/projects", label: "Projects" },
+  { href: "/ai", label: "AI" },
   { href: "/about", label: "About" },
   { href: "/resume", label: "Resume" },
 ];

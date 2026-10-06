@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
+import ProjectLinks from "@/components/ProjectLinks";
 import { getAllProjects, getFeaturedProjects, type Project } from "@/lib/getProjects";
 
 export const metadata: Metadata = {
@@ -182,13 +183,13 @@ function FeaturedProjectCard({ project }: { project: Project }) {
   const top3Tech = technologies.slice(0, 3);
 
   return (
-    <Link
-      href={`/projects/${slug}`}
-      className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-neutral-800/40 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
-    >
+    <article className="group relative rounded-2xl border border-cyan-500/50 hover:border-cyan-400/70 focus-within:border-cyan-400/70 bg-neutral-800/40 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out">
       <div className="flex justify-between items-start mb-4">
         <h3 className="font-bold text-lg md:text-xl text-white group-hover:text-cyan-300 transition-colors">
-          {title}
+          {/* Stretched link: the ::after covers the whole card */}
+          <Link href={`/projects/${slug}`} className="after:absolute after:inset-0 after:rounded-2xl after:content-['']">
+            {title}
+          </Link>
         </h3>
         <span className="hidden md:block px-3 py-1 text-sm font-medium rounded-lg border bg-cyan-900/30 text-cyan-300 border-cyan-700/50">
           {technologies[0]}
@@ -209,13 +210,8 @@ function FeaturedProjectCard({ project }: { project: Project }) {
       <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
         {description}
       </p>
-      <div className="flex items-center text-sm font-medium text-cyan-300 group-hover:translate-x-1 transition-transform duration-300 ease-out">
-        View Details
-        <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-          <path d="M7 17l10-10M17 7H7v10" />
-        </svg>
-      </div>
-    </Link>
+      <ProjectLinks project={project} />
+    </article>
   );
 }
 
