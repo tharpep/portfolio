@@ -37,7 +37,7 @@ const projects: Project[] = [
   {
     slug: "personal-api-gateway",
     title: "Personal API Gateway",
-    description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices — the backbone of the Sazed personal AI ecosystem.",
+    description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices.",
     category: "devops-cloud",
     technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
     dates: { start: "2025-01", end: "present" },
@@ -56,7 +56,7 @@ const projects: Project[] = [
   {
     slug: "personal-automations",
     title: "Personal Automations Platform",
-    description: "Automation platform organized by trigger type (scheduled, event-driven, manual) with YAML-driven configuration and deployment to GCP Cloud Run Jobs and Cloud Functions.",
+    description: "Automation platform organized by trigger type with YAML-driven configuration and deployment to GCP Cloud Run Jobs and Cloud Functions.",
     category: "devops-cloud",
     technologies: ["Python", "Cloud Run Jobs", "Cloud Scheduler", "Cloud Functions", "Docker", "Pushover", "Prompt Engineering"],
     dates: { start: "2025-01", end: "present" },
@@ -235,7 +235,7 @@ const projects: Project[] = [
   {
     slug: "portfolio",
     title: "Portfolio Website",
-    description: "Modern portfolio website with Next.js 15 App Router.",
+    description: "Portfolio website with Next.js 15 App Router.",
     category: "full-stack",
     technologies: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS", "Vercel", "GitHub Actions", "Python", "Spotify API"],
     dates: { start: "2025-05", end: "present" },
