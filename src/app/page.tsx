@@ -18,8 +18,8 @@ export default function Home() {
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/80 to-blue-400/80 leading-tight">
-              Hi, I&apos;m Pryce Tharpe <span className="text-cyan-400">👋</span>
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold font-mono tracking-tight mb-4 text-white leading-tight">
+              Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
               AI Acceleration Fellow at Eli Lilly. Computer Engineering grad from Purdue. Building at the intersection of AI, cloud, and full-stack engineering.
@@ -97,7 +97,7 @@ export default function Home() {
               Currently
             </h2>
             <div className="max-w-3xl mx-auto">
-              <div className="rounded-2xl border border-neutral-700 bg-gradient-to-br from-neutral-800/30 to-neutral-900/30 p-4 md:p-6">
+              <div className="rounded-2xl border border-neutral-700 bg-neutral-800/30 p-4 md:p-6">
                 <ul className="space-y-3 md:space-y-4 text-neutral-300 text-sm md:text-lg">
                   <li className="flex items-start gap-3">
                     <span className="text-cyan-400 mt-1.5 text-xs">●</span>
@@ -184,7 +184,7 @@ function FeaturedProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={`/projects/${slug}`}
-      className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-gradient-to-br from-neutral-800/50 to-neutral-900/50 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
+      className="group block rounded-2xl border border-cyan-500/50 group-hover:border-cyan-400/70 bg-neutral-800/40 p-4 md:p-6 hover:shadow-xl transition-[box-shadow,border-color] duration-300 ease-out"
     >
       <div className="flex justify-between items-start mb-4">
         <h3 className="font-bold text-lg md:text-xl text-white group-hover:text-cyan-300 transition-colors">
@@ -204,7 +204,7 @@ function FeaturedProjectCard({ project }: { project: Project }) {
       </div>
       {/* Mobile: Timeline */}
       <div className="md:hidden mb-3">
-        <span className="text-xs text-neutral-400 font-mono">{timeline}</span>
+        <span className="text-xs text-neutral-300 font-mono">{timeline}</span>
       </div>
       <p className="block text-neutral-300 leading-relaxed mb-4 line-clamp-2 md:line-clamp-none md:mb-6">
         {description}

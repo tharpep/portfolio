@@ -20,16 +20,11 @@ function TechBadge({ tech }: { tech: string }) {
   );
 }
 
-function ProjectCard({ project, index }: { project: Project; index: number }) {
-  // Subtle alternating background patterns
-  const bgPattern = index % 2 === 0
-    ? 'bg-gradient-to-br from-neutral-800/90 to-neutral-900/50'
-    : 'bg-gradient-to-br from-neutral-900/50 to-neutral-800/90';
-
+function ProjectCard({ project }: { project: Project }) {
   return (
     <Link
       href={`/projects/${project.slug}`}
-      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 ${bgPattern} p-4 md:p-6 hover:shadow-xl hover:border-cyan-500/50 transition-[box-shadow,border-color] duration-300 ease-out`}
+      className={`group block h-full flex flex-col rounded-xl border border-neutral-700 bg-neutral-800/50 p-4 md:p-6 hover:shadow-xl hover:border-cyan-500/50 transition-[box-shadow,border-color] duration-300 ease-out`}
       prefetch={false}
     >
       <div className="flex items-start justify-between mb-4">
@@ -51,14 +46,14 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
           <TechBadge key={tech} tech={tech} />
         ))}
         {project.technologies.length > 3 && (
-          <span className="px-2 py-1 text-xs font-medium text-neutral-400">
+          <span className="px-2 py-1 text-xs font-medium text-neutral-300">
             +{project.technologies.length - 3} more
           </span>
         )}
       </div>
 
       <div className="flex items-center justify-between mt-auto">
-        <span className="text-xs md:text-sm text-neutral-400 font-mono">{project.timeline}</span>
+        <span className="text-xs md:text-sm text-neutral-300 font-mono">{project.timeline}</span>
         <div className="flex items-center text-cyan-400 text-sm font-medium group-hover:translate-x-1 transition-transform duration-300 ease-out">
           View Details
           <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -71,46 +66,26 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
 }
 
 function CategorySection({ category }: { category: ProjectCategory }) {
-  // Category-specific accent colors
-  const accentColors: Record<string, { border: string; text: string; bg: string }> = {
-    'ai-ml': {
-      border: 'border-l-cyan-500',
-      text: 'text-cyan-300',
-      bg: 'bg-gradient-to-r from-cyan-500/5 to-transparent'
-    },
-    'data-analytics': {
-      border: 'border-l-blue-500',
-      text: 'text-blue-300',
-      bg: 'bg-gradient-to-r from-blue-500/5 to-transparent'
-    },
-    'devops-cloud': {
-      border: 'border-l-purple-500',
-      text: 'text-purple-300',
-      bg: 'bg-gradient-to-r from-purple-500/5 to-transparent'
-    },
-    'full-stack': {
-      border: 'border-l-emerald-500',
-      text: 'text-emerald-300',
-      bg: 'bg-gradient-to-r from-emerald-500/5 to-transparent'
-    },
-    'hardware-embedded': {
-      border: 'border-l-orange-500',
-      text: 'text-orange-300',
-      bg: 'bg-gradient-to-r from-orange-500/5 to-transparent'
-    }
+  // Category-specific heading colors
+  const headingColors: Record<string, string> = {
+    'ai-ml': 'text-cyan-300',
+    'data-analytics': 'text-blue-300',
+    'devops-cloud': 'text-purple-300',
+    'full-stack': 'text-emerald-300',
+    'hardware-embedded': 'text-orange-300',
   };
 
-  const colors = accentColors[category.id] || accentColors['ai-ml'];
+  const headingColor = headingColors[category.id] || headingColors['ai-ml'];
 
   return (
     <section className="mb-20">
       <ScrollFadeIn>
-        <div className={`max-w-6xl mx-auto pt-6 pb-8 border-l-4 pl-6 ${colors.border} ${colors.bg}`}>
+        <div className="max-w-6xl mx-auto">
           <div className="mb-8">
-            <h2 className={`text-3xl font-bold font-mono tracking-wider mb-3 ${colors.text}`}>
+            <h2 className={`text-3xl font-bold font-mono tracking-wider mb-3 ${headingColor}`}>
               {category.name}
             </h2>
-            <p className="text-neutral-400 text-lg leading-relaxed max-w-3xl">
+            <p className="text-neutral-300 text-lg leading-relaxed max-w-3xl">
               {category.description}
             </p>
           </div>
@@ -118,7 +93,7 @@ function CategorySection({ category }: { category: ProjectCategory }) {
           <div className="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-2 items-stretch">
             {category.projects.map((project, index) => (
               <ScrollFadeIn key={project.slug} delay={index * 100} className="h-full">
-                <ProjectCard project={project} index={index} />
+                <ProjectCard project={project} />
               </ScrollFadeIn>
             ))}
           </div>
@@ -139,7 +114,7 @@ export default function Projects() {
         {/* Hero Section */}
         <section className="text-center mb-16 overflow-visible">
           <div className="inline-block py-3 overflow-visible">
-            <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400/90 to-blue-400/90 leading-[1.2]">
+            <h1 className="text-5xl font-bold font-mono tracking-wider mb-6 text-white leading-[1.2]">
               Projects
             </h1>
           </div>

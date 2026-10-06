@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="w-full border-t border-neutral-800/50 bg-neutral-900 mt-auto">
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 py-6">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-400">
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-300">
 
           {/* Left: Copyright */}
           <p className="text-center sm:text-left">
