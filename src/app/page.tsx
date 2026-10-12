@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import ProjectCard from "@/components/ProjectCard";
@@ -20,7 +21,19 @@ export default function Home() {
         {/* Content */}
         <ScrollFadeIn>
           <div className="relative z-10">
-            <h1 className={`${text.heroTitle} mb-4`}>
+            {/* Portrait: its bottom quarter fades into the page and sits under the heading */}
+            <div className="mx-auto size-60 md:size-[300px] overflow-hidden rounded-full border border-neutral-700 [mask-image:linear-gradient(to_bottom,#000_58%,transparent_92%)]">
+              <Image
+                src="/images/pryce-tharpe.jpg"
+                alt="Portrait of Pryce Tharpe"
+                width={800}
+                height={800}
+                priority
+                sizes="(min-width: 768px) 300px, 240px"
+                className="h-full w-full object-cover"
+              />
+            </div>
+            <h1 className={`${text.heroTitle} relative -mt-[60px] md:-mt-[75px] mb-4`}>
               Hi, I&apos;m Pryce Tharpe
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
@@ -46,27 +59,6 @@ export default function Home() {
           </div>
         </ScrollFadeIn>
 
-        {/* Animated Scroll Indicator - positioned at bottom with mobile spacing */}
-        <div className="absolute bottom-8 sm:bottom-[12%] left-1/2 -translate-x-1/2 z-10">
-          <div className="animate-fade-in">
-            <a
-              href="#content"
-              className="flex flex-col items-center gap-2 text-cyan-400/60 hover:text-cyan-400 transition-colors group"
-              aria-label="Scroll to content"
-            >
-              <span className="text-xs font-mono tracking-wider">Scroll</span>
-              <svg
-                className="w-6 h-6 animate-bounce"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-              >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-              </svg>
-            </a>
-          </div>
-        </div>
       </section>
 
       {/* Main Content Section */}
