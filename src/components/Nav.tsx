@@ -1,5 +1,5 @@
 "use client";
-import { Link } from "next-view-transitions";
+import { Link } from "@/components/PageTransitions";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import ContactDropdownHeader from "./ContactDropdownHeader";

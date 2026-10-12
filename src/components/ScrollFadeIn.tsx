@@ -4,7 +4,6 @@ import { useLayoutEffect, useRef, useState } from 'react';
 
 interface ScrollFadeInProps {
   children: React.ReactNode;
-  delay?: number;
   className?: string;
 }
 
@@ -63,7 +62,6 @@ type Phase = 'static' | 'hidden' | 'shown';
 
 export default function ScrollFadeIn({
   children,
-  delay = 0,
   className = ''
 }: ScrollFadeInProps) {
   const [phase, setPhase] = useState<Phase>('static');
@@ -90,10 +88,9 @@ export default function ScrollFadeIn({
     <div
       ref={ref}
       className={`${animated
-        ? `transition-all duration-700 ease-out ${phase === 'shown' ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'}`
+        ? `transition-[opacity,translate] duration-300 ease-out ${phase === 'shown' ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'}`
         : ''
       } ${className}`}
-      style={animated ? { transitionDelay: `${delay}ms` } : undefined}
     >
       {children}
     </div>

@@ -158,7 +158,7 @@ const projects: Project[] = [
       "Shows what each branch still needs (commit, push, PR) from plain git",
       "Bash script with a faster Go path; CI runs the test suite on Linux and macOS on every push"
     ],
-    result: "v0.9, MIT licensed, in daily use on three machines.",
+    result: "Still in progress at v0.9. The status bar, the jump key, the dashboard and the board all work.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
@@ -427,7 +427,7 @@ export const projectCategories: ProjectCategory[] = [
 ];
 
 // Featured projects for the home page, in display order
-const featuredSlugs = ["ai-system-prompt", "sazed", "simrag-reproduction", "devops-scorecard"];
+const featuredSlugs = ["ai-system-prompt", "sazed", "simrag-reproduction", "kelsier"];
 
 export const getFeaturedProjects = (): Project[] => {
   return featuredSlugs

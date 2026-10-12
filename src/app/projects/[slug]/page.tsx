@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Link } from "next-view-transitions";
+import { Link } from "@/components/PageTransitions";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects, projectStatusLabel } from "@/lib/getProjects";
@@ -169,7 +169,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             </section>
                         </ScrollFadeIn>
 
-                        <ScrollFadeIn delay={100}>
+                        <ScrollFadeIn>
                             <section className="mb-8">
                                 <h2 className={`${text.subTitle} mb-3`}>Solution</h2>
                                 <div className="space-y-2">
@@ -183,7 +183,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                             </section>
                         </ScrollFadeIn>
 
-                        <ScrollFadeIn delay={200}>
+                        <ScrollFadeIn>
                             <section className="mb-10">
                                 <h2 className={`${text.subTitle} mb-3`}>Result</h2>
                                 <p className="text-neutral-300 leading-relaxed">{project.result}</p>
@@ -213,7 +213,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                 {/* Architecture Diagram */}
                 {project.architectureDiagram && (
-                    <ScrollFadeIn delay={250}>
+                    <ScrollFadeIn>
                         <section className="mb-10 pt-8 border-t border-neutral-800">
                             <h2 className={`${text.subTitle} mb-4`}>
                                 Architecture
@@ -228,7 +228,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                 {/* Secondary Images (if more than 1 image) */}
                 {project.images && project.images.length > 1 && (
-                    <ScrollFadeIn delay={200}>
+                    <ScrollFadeIn>
                         <section className="mt-10 pt-8 border-t border-neutral-800">
                             <h2 className={`${text.subTitle} mb-4`}>Additional Screenshots</h2>
                             <div className="space-y-6">
@@ -256,7 +256,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 )}
 
                 {/* Bottom Navigation */}
-                <ScrollFadeIn delay={200}>
+                <ScrollFadeIn>
                     <nav className="mt-12 pt-8 border-t border-neutral-700">
                         <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4">
                             {prevProject ? (
