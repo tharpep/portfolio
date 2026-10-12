@@ -142,6 +142,26 @@ const projects: Project[] = [
     githubUrl: "https://github.com/tharpep/ECE362-Project"
   },
   {
+    slug: "kelsier",
+    title: "Kelsier",
+    description: "Terminal workspace for running several coding agents at once, tracking each one's task, branch, and whether it's waiting on me.",
+    category: "ai-ml",
+    technologies: ["Bash", "Go", "tmux", "Claude Code hooks", "fzf", "jq", "GitHub Actions"],
+    dates: { start: "2026-08", end: "present" },
+    status: "in-progress",
+    highlights: [],
+    challenge: "Running several coding agents at once is easy to start and hard to keep track of: which terminal holds which task, which branch it's on, and which one is waiting on me.",
+    solution: [
+      "Kept the agent untouched: tmux runs Claude Code in its own terminal, and kel only does the bookkeeping",
+      "Used Claude Code's hooks and status line to report each agent's state, context use and cost, with no polling or background process",
+      "Built a status-bar fleet view, a dashboard and a searchable board, plus one key that jumps to whichever agent is waiting on me",
+      "Shows what each branch still needs (commit, push, PR) from plain git",
+      "Bash script with a faster Go path; CI runs the test suite on Linux and macOS on every push"
+    ],
+    result: "v0.9, MIT licensed, in daily use on three machines.",
+    githubUrl: "https://github.com/tharpep/kelsier"
+  },
+  {
     slug: "ai-system-prompt",
     title: "AI System Prompt Framework",
     description: "IDE prompt that aims to standardize AI-assisted coding workflows across engineering teams.",
