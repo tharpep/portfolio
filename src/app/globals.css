@@ -79,17 +79,29 @@ html {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* The new page starts after a short delay so the two pages barely overlap
+   (a plain crossfade shows both pages' text on top of each other). */
 ::view-transition-old(root) {
-  animation: vt-fade-out 0.18s ease-in forwards;
+  animation: vt-fade-out 0.15s ease-in forwards;
 }
 
 ::view-transition-new(root) {
-  animation: vt-fade-in 0.28s ease-out forwards;
+  animation: vt-fade-in 0.25s ease-out 0.09s both;
 }
 
 /* Nav stays anchored — no crossfade on the nav element itself */
 ::view-transition-old(photo-nav),
 ::view-transition-new(photo-nav) {
+  animation: none;
+}
+
+/* Site nav: swap straight to the new state. The nav is transparent at the
+   top of the page, so the old snapshot is hidden rather than left underneath
+   (it would show the previous page's active-link underline). */
+::view-transition-old(site-nav) {
+  display: none;
+}
+::view-transition-new(site-nav) {
   animation: none;
 }
 

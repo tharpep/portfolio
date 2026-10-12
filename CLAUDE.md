@@ -57,7 +57,9 @@ No test suite is configured.
 
 ### Navigation / Layout
 
-The root layout (`src/app/layout.tsx`) renders `<ConditionalNav>` and `<ConditionalFooter>`, which suppress themselves on any `/photography` route. The photography section has its own `<PhotoNav>` component and its own layout at `src/app/photography/layout.tsx`. `<PhotoNav>` shows a camera icon (not the name) as the brand/home link to avoid name repetition across sub-pages.
+The root layout (`src/app/layout.tsx`) is wrapped in `<ViewTransitions>` (from `next-view-transitions`), which fades between pages on client-side navigation and on back/forward; the timing and the anchored nav (`site-nav`, `photo-nav`) are the `::view-transition` rules in `globals.css`. Internal links must use `import { Link } from "next-view-transitions"`, not `next/link`, or that navigation jumps without the fade. Keep a single `<ViewTransitions>`: a second one starts a competing transition on back/forward.
+
+The root layout renders `<ConditionalNav>` and `<ConditionalFooter>`, which suppress themselves on any `/photography` route. The photography section has its own `<PhotoNav>` component and its own layout at `src/app/photography/layout.tsx`. `<PhotoNav>` shows a camera icon (not the name) as the brand/home link to avoid name repetition across sub-pages.
 
 ### Environment variables
 

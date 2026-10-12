@@ -1,7 +1,7 @@
 "use client";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { usePathname } from "next/navigation";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import ContactDropdownHeader from "./ContactDropdownHeader";
 
 const navLinks = [
@@ -17,6 +17,7 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [mounted, setMounted] = useState(false);
+  const menuButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -36,6 +37,18 @@ export default function Nav() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (!mobileMenuOpen) return;
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        setMobileMenuOpen(false);
+        menuButtonRef.current?.focus();
+      }
+    };
+    document.addEventListener('keydown', handleKeyDown);
+    return () => document.removeEventListener('keydown', handleKeyDown);
+  }, [mobileMenuOpen]);
+
   const toggleMobileMenu = () => {
     setMobileMenuOpen(!mobileMenuOpen);
   };
@@ -51,6 +64,7 @@ export default function Nav() {
           : ''
         }`}
       role="navigation"
+      style={{ viewTransitionName: "site-nav" }}
       aria-label="Primary"
     >
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 relative">
@@ -95,10 +109,12 @@ export default function Nav() {
 
             {/* Mobile Menu Button */}
             <button
+              ref={menuButtonRef}
               onClick={toggleMobileMenu}
               className="md:hidden p-2 text-neutral-400 hover:text-white rounded-lg hover:bg-neutral-800/40 transition-colors"
               aria-label="Toggle mobile menu"
               aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {mobileMenuOpen ? (
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
@@ -113,8 +129,10 @@ export default function Nav() {
           </div>
         </div>
 
-        {/* Mobile Menu Dropdown - Always rendered with smooth transitions */}
+        {/* Mobile Menu Dropdown - Always rendered with smooth transitions; inert while closed so its links aren't tabbable */}
         <div
+          id="mobile-menu"
+          inert={!mobileMenuOpen}
           className={`md:hidden absolute top-full left-0 right-0 bg-neutral-900 border-t border-neutral-800/50 overflow-hidden transition-all duration-300 ease-out ${mobileMenuOpen
               ? 'opacity-100 max-h-[600px]'
               : 'opacity-0 max-h-0 pointer-events-none'

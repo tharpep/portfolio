@@ -6,6 +6,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
+  const buttonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     setMounted(true);
@@ -18,12 +19,21 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
       }
     }
 
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
+        buttonRef.current?.focus();
+      }
+    }
+
     if (isOpen) {
       document.addEventListener('mousedown', handleClickOutside);
+      document.addEventListener('keydown', handleKeyDown);
     }
 
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, [isOpen]);
 
@@ -51,9 +61,19 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
   }
 
   return (
-    <div className="relative" ref={dropdownRef}>
+    <div
+      className="relative"
+      ref={dropdownRef}
+      onBlur={(event) => {
+        // Close when keyboard focus leaves the button and its links
+        if (!dropdownRef.current?.contains(event.relatedTarget as Node | null)) setIsOpen(false);
+      }}
+    >
       <button
+        ref={buttonRef}
         onClick={() => setIsOpen(!isOpen)}
+        aria-expanded={isOpen}
+        aria-controls="contact-menu"
         className="relative px-6 py-2 bg-cyan-700 hover:bg-cyan-600 text-white font-semibold rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group"
       >
         {/* Pulse ring effect */}
@@ -72,7 +92,7 @@ export default function ContactDropdownHeader({ onItemClick }: { onItemClick?: (
       </button>
       
       {isOpen && (
-        <div className="absolute top-full mt-2 right-0 w-64 bg-neutral-800 border border-neutral-700 rounded-lg shadow-xl z-50">
+        <div id="contact-menu" className="absolute top-full mt-2 right-0 w-64 bg-neutral-800 border border-neutral-700 rounded-lg shadow-xl z-50">
           <div className="py-2">
             <a
               href="mailto:tharpep_pro@outlook.com"
