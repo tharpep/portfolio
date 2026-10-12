@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { text } from "@/lib/typography";
 
 export default function NotFound() {

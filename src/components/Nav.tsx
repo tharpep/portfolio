@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { usePathname } from "next/navigation";
 import { useState, useEffect, useRef } from "react";
 import ContactDropdownHeader from "./ContactDropdownHeader";
@@ -63,6 +63,7 @@ export default function Nav() {
           : ''
         }`}
       role="navigation"
+      style={{ viewTransitionName: "site-nav" }}
       aria-label="Primary"
     >
       <div className="w-full px-6 sm:px-8 md:px-12 lg:px-16 xl:px-20 relative">

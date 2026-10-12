@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects, projectStatusLabel } from "@/lib/getProjects";

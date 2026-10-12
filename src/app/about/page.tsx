@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { getSpotifyData } from "@/lib/spotify-data";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import { text } from "@/lib/typography";
