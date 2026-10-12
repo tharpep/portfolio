@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "next-view-transitions";
 import { projectStatusLabel, type Project } from "@/lib/getProjects";
 import { formatDateRange } from "@/lib/dates";
 import { text } from "@/lib/typography";
