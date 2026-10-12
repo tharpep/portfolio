@@ -64,10 +64,11 @@ export default async function About() {
                 I follow my curiosity. I started college wanting to be an electrical engineer, but once I got into software, I knew that was where I wanted to be. I switched to computer engineering and haven&apos;t looked back.
               </p>
               <p>
-                That same instinct shapes how I work now. I gravitate toward problems that feel interesting; full-stack development, AI systems, cloud infrastructure. Not because they&apos;re trendy, but because they&apos;re where I find the most engaging challenges. When something clicks, I go deeper. When it doesn&apos;t, I find what does.
+                That same instinct shapes how I work now. I gravitate toward problems that feel interesting: full-stack development, AI systems, cloud infrastructure.
               </p>
               <p>
-                I think the best work comes from genuine interest. Forcing yourself through topics you don&apos;t care about leads to mediocre results. Following what pulls your attention leads to better code, better ideas, and work you actually want to finish.
+                Right now I&apos;m focused on my fellowship at Eli Lilly, studying software architecture, and working on how to use AI effectively in software, like{" "}
+                <Link href="/projects/kelsier" className="text-cyan-400 hover:text-cyan-300 transition-colors">Kelsier</Link>, a terminal workspace for running several coding agents at once.
               </p>
             </div>
           </section>
@@ -82,7 +83,7 @@ export default async function About() {
             </h2>
             <div className="space-y-4 text-neutral-300 leading-relaxed mb-8">
               <p>
-                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I also built a <Link href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors">photography portfolio</Link> alongside this site. These hobbies keep me balanced and give me different ways to create and problem-solve.
+                Outside of software, I shoot photography, build custom PCs, and play guitar and bass. I also built a <Link href="/photography" className="text-cyan-400 hover:text-cyan-300 transition-colors">photography portfolio</Link> alongside this site.
               </p>
             </div>
 
@@ -91,7 +92,7 @@ export default async function About() {
             {spotifyData && (
               <div className="mb-8">
                 <p className="text-neutral-300 text-center mb-6 max-w-2xl mx-auto">
-                  Music drives my creativity and focus during development. Here&apos;s what I&apos;ve been listening to.
+                  Here&apos;s what I&apos;ve been listening to.
                 </p>
                 <SpotifyWidget data={spotifyData} />
               </div>
