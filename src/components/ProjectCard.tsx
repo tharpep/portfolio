@@ -1,4 +1,4 @@
-import { Link } from "next-view-transitions";
+import { Link } from "@/components/PageTransitions";
 import { projectStatusLabel, type Project } from "@/lib/getProjects";
 import { formatDateRange } from "@/lib/dates";
 import { text } from "@/lib/typography";
@@ -19,7 +19,6 @@ export default function ProjectCard({ project }: { project: Project }) {
         {/* Stretched link: the ::after covers the whole card */}
         <Link
           href={`/projects/${project.slug}`}
-          prefetch={false}
           className="after:absolute after:inset-0 after:rounded-xl after:content-['']"
         >
           {project.title}

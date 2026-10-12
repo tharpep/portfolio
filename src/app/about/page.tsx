@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import dynamic from "next/dynamic";
-import { Link } from "next-view-transitions";
+import { Link } from "@/components/PageTransitions";
 import { getSpotifyData } from "@/lib/spotify-data";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import { text } from "@/lib/typography";
@@ -76,7 +76,7 @@ export default async function About() {
 
 
         {/* Personal Interests */}
-        <ScrollFadeIn delay={100}>
+        <ScrollFadeIn>
           <section>
             <h2 className={`${text.sectionTitle} mb-6`}>
               Beyond Code

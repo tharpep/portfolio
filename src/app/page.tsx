@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { Link } from "next-view-transitions";
+import { Link } from "@/components/PageTransitions";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
 import ProjectCard from "@/components/ProjectCard";
 import { getAllProjects, getFeaturedProjects } from "@/lib/getProjects";
@@ -65,7 +65,7 @@ export default function Home() {
       <div id="content" className="relative px-4 sm:px-8 md:px-16 lg:px-32 pb-16 scroll-mt-28">
 
         {/* ─────────── Featured Projects ─────────── */}
-        <ScrollFadeIn delay={100}>
+        <ScrollFadeIn>
           <section className="mb-12 md:mb-16">
             <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Featured Projects
@@ -89,7 +89,7 @@ export default function Home() {
 
 
         {/* ─────────── Current Work ─────────── */}
-        <ScrollFadeIn delay={200}>
+        <ScrollFadeIn>
           <section className="mb-12 md:mb-16">
             <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Currently
@@ -117,7 +117,7 @@ export default function Home() {
 
 
         {/* ─────────── Let's Connect ─────────── */}
-        <ScrollFadeIn delay={300}>
+        <ScrollFadeIn>
           <section className="mb-12 md:mb-16">
             <h2 className={`${text.sectionTitle} mb-6 md:mb-8 text-center`}>
               Let&apos;s Connect
