@@ -34,7 +34,7 @@ export default function Home() {
               />
             </div>
             <h1 className={`${text.heroTitle} relative -mt-[60px] md:-mt-[75px] mb-4`}>
-              Hi, I&apos;m Pryce Tharpe
+              Hi, I&apos;m Pryce
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
               I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. I build platforms like{" "}
