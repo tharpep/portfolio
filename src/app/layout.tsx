@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Pryce Tharpe - Software Engineer",
+  title: "Pryce Tharpe – Software Engineer",
   description: "AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.",
   keywords: ["Pryce Tharpe", "Software Engineer", "Computer Engineering", "Purdue University", "Eli Lilly", "AI", "Azure", "React", "Python", "Full Stack Developer", "DevOps", "Cloud Engineering"],
   authors: [{ name: "Pryce Tharpe" }],
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: 'Pryce Tharpe Portfolio',
-    title: 'Pryce Tharpe - Software Engineer',
+    title: 'Pryce Tharpe – Software Engineer',
     description: 'AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pryce Tharpe - Software Engineer',
+    title: 'Pryce Tharpe – Software Engineer',
     description: 'AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development.',
   },
   robots: {

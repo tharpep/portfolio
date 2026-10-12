@@ -213,7 +213,7 @@ const projects: Project[] = [
   },
   {
     slug: "sazed",
-    title: "Sazed - Personal AI Agent",
+    title: "Sazed – Personal AI Agent",
     description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
     category: "ai-ml",
     technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
