@@ -13,11 +13,6 @@
   --color-cyan: #06b6d4; /* cyan-500 */
 }
 
-/* Smooth scrolling for entire page */
-html {
-  scroll-behavior: smooth;
-}
-
 /* Enhanced focus states for accessibility */
 :focus-visible {
   outline: 2px solid var(--color-cyan);
@@ -75,18 +70,19 @@ html {
 }
 
 @keyframes vt-fade-in {
-  from { opacity: 0; transform: translateY(8px); }
-  to   { opacity: 1; transform: translateY(0); }
+  from { opacity: 0; }
+  to   { opacity: 1; }
 }
 
-/* The new page starts after a short delay so the two pages barely overlap
-   (a plain crossfade shows both pages' text on top of each other). */
+/* Page change: opacity only, about a quarter second end to end. The new page
+   starts slightly after the old one so their text barely overlaps. Keep this
+   close to <ScrollFadeIn>'s 300ms so all motion on the site feels the same. */
 ::view-transition-old(root) {
-  animation: vt-fade-out 0.15s ease-in forwards;
+  animation: vt-fade-out 0.12s ease-in forwards;
 }
 
 ::view-transition-new(root) {
-  animation: vt-fade-in 0.25s ease-out 0.09s both;
+  animation: vt-fade-in 0.2s ease-out 0.06s both;
 }
 
 /* Nav stays anchored — no crossfade on the nav element itself */

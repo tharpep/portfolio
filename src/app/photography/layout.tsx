@@ -1,4 +1,5 @@
 import { Bricolage_Grotesque } from 'next/font/google';
+import { ViewTransitions } from 'next-view-transitions';
 import MotionProvider from '@/components/photography/MotionProvider';
 
 const display = Bricolage_Grotesque({
@@ -9,8 +10,10 @@ const display = Bricolage_Grotesque({
 
 export default function PhotographyLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div className={display.variable}>
-      <MotionProvider>{children}</MotionProvider>
-    </div>
+    <ViewTransitions>
+      <div className={display.variable}>
+        <MotionProvider>{children}</MotionProvider>
+      </div>
+    </ViewTransitions>
   );
 }

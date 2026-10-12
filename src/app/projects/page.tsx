@@ -28,8 +28,8 @@ function CategorySection({ category }: { category: ProjectCategory }) {
           </div>
 
           <div className="grid gap-4 md:gap-6 md:grid-cols-2 lg:grid-cols-2 items-stretch">
-            {category.projects.map((project, index) => (
-              <ScrollFadeIn key={project.slug} delay={index * 100} className="h-full">
+            {category.projects.map((project) => (
+              <ScrollFadeIn key={project.slug} className="h-full">
                 <ProjectCard project={project} />
               </ScrollFadeIn>
             ))}

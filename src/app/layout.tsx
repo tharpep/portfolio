@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Geist_Mono } from "next/font/google";
 import Script from "next/script";
-import { ViewTransitions } from "next-view-transitions";
+import { PageTransitions } from "@/components/PageTransitions";
 import ConditionalNav from "@/components/ConditionalNav";
 import ConditionalFooter from "@/components/ConditionalFooter";
 import { Analytics } from '@vercel/analytics/react';
@@ -67,54 +67,51 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  // ViewTransitions animates client-side route changes site-wide (see
-  // ::view-transition rules in globals.css). It lives here once: a second
-  // provider would start a competing transition on back/forward.
   return (
-    <ViewTransitions>
-      <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
-        <body
-          className="antialiased min-h-screen flex flex-col bg-neutral-900 relative"
-          suppressHydrationWarning={true}
-        >
-          <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
-            Skip to content
-          </a>
-          <Script
-            id="schema-org"
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Person",
-                "name": "Pryce Tharpe",
-                "url": "https://pryce-tharpe.dev",
-                "sameAs": [
-                  "https://www.linkedin.com/in/pryce-tharpe",
-                  "https://github.com/tharpep",
-                  "https://www.instagram.com/pryce_tharpe/"
-                ],
-                "jobTitle": "AI Acceleration Fellow",
-                "worksFor": {
-                  "@type": "Organization",
-                  "name": "Eli Lilly"
-                },
-                "alumniOf": {
-                  "@type": "Organization",
-                  "name": "Purdue University"
-                },
-                "knowsAbout": ["Software Engineering", "AI", "Cloud Computing", "Full Stack Development", "DevOps", "Python", "React", "Azure"],
-                "description": "AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development."
-              })
-            }}
-          />
+    <html lang="en" className={`${inter.variable} ${geistMono.variable}`}>
+      <body
+        className="antialiased min-h-screen flex flex-col bg-neutral-900 relative"
+        suppressHydrationWarning={true}
+      >
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-neutral-900 text-white px-3 py-2 rounded">
+          Skip to content
+        </a>
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Pryce Tharpe",
+              "url": "https://pryce-tharpe.dev",
+              "sameAs": [
+                "https://www.linkedin.com/in/pryce-tharpe",
+                "https://github.com/tharpep",
+                "https://www.instagram.com/pryce_tharpe/"
+              ],
+              "jobTitle": "AI Acceleration Fellow",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Eli Lilly"
+              },
+              "alumniOf": {
+                "@type": "Organization",
+                "name": "Purdue University"
+              },
+              "knowsAbout": ["Software Engineering", "AI", "Cloud Computing", "Full Stack Development", "DevOps", "Python", "React", "Azure"],
+              "description": "AI Acceleration Fellow at Eli Lilly specializing in AI, cloud systems, and full-stack development."
+            })
+          }}
+        />
+        <PageTransitions>
           <ConditionalNav />
           {children}
           <ConditionalFooter />
-          <Analytics />
-          <SpeedInsights />
-        </body>
-      </html>
-    </ViewTransitions>
+        </PageTransitions>
+        <Analytics />
+        <SpeedInsights />
+      </body>
+    </html>
   );
 }

@@ -54,7 +54,7 @@ No test suite is configured.
 
 ### Navigation / Layout
 
-The root layout (`src/app/layout.tsx`) is wrapped in `<ViewTransitions>` (from `next-view-transitions`), which fades between pages on client-side navigation and on back/forward; the timing and the anchored nav (`site-nav`, `photo-nav`) are the `::view-transition` rules in `globals.css`. Internal links must use `import { Link } from "next-view-transitions"`, not `next/link`, or that navigation jumps without the fade. Keep a single `<ViewTransitions>`: a second one starts a competing transition on back/forward.
+Page fades: the root layout wraps the site in `<PageTransitions>` (`src/components/PageTransitions.tsx`), which uses the View Transitions API to fade between pages when a link is clicked; timing and the anchored nav (`site-nav`) are the `::view-transition` rules in `globals.css`. Internal links on the main site must use `import { Link } from "@/components/PageTransitions"`, not `next/link`, or that click jumps without the fade. Back/forward are intentionally not animated so the browser's scroll restoration and iOS swipe-back work. The photography section keeps its own `<ViewTransitions>` provider from `next-view-transitions` (its layout) for its photo morphs, and its pages use that package's `Link`. Don't set `scroll-behavior: smooth` on `html`: it animates scroll restoration on back/forward.
 
 The root layout renders `<ConditionalNav>` and `<ConditionalFooter>`, which suppress themselves on any `/photography` route. The photography section has its own `<PhotoNav>` component and its own layout at `src/app/photography/layout.tsx`. `<PhotoNav>` shows a camera icon (not the name) as the brand/home link to avoid name repetition across sub-pages.
 

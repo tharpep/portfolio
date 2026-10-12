@@ -101,7 +101,7 @@ export default function Resume() {
 
 
         {/* Academic & Personal Projects */}
-        <ScrollFadeIn delay={100}>
+        <ScrollFadeIn>
           <section>
             <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Academic & Personal Projects
@@ -196,7 +196,7 @@ export default function Resume() {
 
 
         {/* Additional Experience */}
-        <ScrollFadeIn delay={200}>
+        <ScrollFadeIn>
           <section>
             <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Additional Experience
@@ -234,7 +234,7 @@ export default function Resume() {
 
 
         {/* Education */}
-        <ScrollFadeIn delay={300}>
+        <ScrollFadeIn>
           <section>
             <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Education
@@ -255,7 +255,7 @@ export default function Resume() {
 
 
         {/* Skills */}
-        <ScrollFadeIn delay={400}>
+        <ScrollFadeIn>
           <section>
             <h2 className={`${text.sectionTitle} mb-6 border-b border-cyan-500/30 pb-2`}>
               Skills
@@ -270,7 +270,7 @@ export default function Resume() {
         </ScrollFadeIn>
 
         {/* PDF Download Link */}
-        <ScrollFadeIn delay={500}>
+        <ScrollFadeIn>
           <div className="text-center pt-8">
             <a
               href="/Pryce_Tharpe___No_PII.pdf"
