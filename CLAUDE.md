@@ -52,6 +52,7 @@ No test suite is configured.
 - **Fonts** — Inter and Geist Mono are loaded with `next/font` in the root layout; their CSS variables are set on `<html>` and mapped to Tailwind's `font-sans` / `font-mono` in the `@theme inline` block in `globals.css`. The photography section adds Bricolage Grotesque via `--font-display`.
 - **Text styles** — `src/lib/typography.ts` defines one class string per role (`heroTitle`, `pageTitle`, `sectionTitle`, `subTitle`, `cardTitle`, `meta`, `tag`). Use these for headings, dates and tech chips instead of per-page size classes; add only layout classes (margins, alignment) alongside them. Monospace is for page/section headings and data (dates, tech names); card titles and body text are sans.
 - **Project cards** — `src/components/ProjectCard.tsx` is the only card, used on home and `/projects`. Its slots are fixed at every width: title → dates · status → description (3 lines, clamped and reserved) → stack (1 line) → links. Don't add `block`/`flex` display classes next to `line-clamp-*`; they cancel the clamp.
+- **Home hero portrait** — `public/images/pryce-tharpe.jpg` is an 800×800 square crop (no metadata), shown as a circle whose bottom quarter fades out (`mask-image`) under the H1. Replace the file with another square crop to change the photo.
 - **`<ScrollFadeIn>`** renders fully visible on the server; only content that is below the fold after hydration fades in on scroll. Don't reintroduce SSR `opacity-0` wrappers, since they hide above-the-fold content until JS runs.
 
 ### Navigation / Layout
