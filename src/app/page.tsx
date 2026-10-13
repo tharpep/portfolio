@@ -37,7 +37,7 @@ export default function Home() {
               Hi, I&apos;m Pryce
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-neutral-300 leading-relaxed max-w-3xl mx-auto mb-8 prose-relaxed">
-              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. I build full-stack software and explore ways to use AI effectively and responsibly. I love to learn, discuss, and teach what I know to enable those around me.
+              I&apos;m an AI Acceleration Fellow at Eli Lilly and a 2026 Purdue Computer Engineering grad. I build full-stack software and explore ways to use AI effectively and responsibly. I love to learn, discuss, and then to teach what I know to enable those around me.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center items-center max-w-2xl mx-auto">
               <Link
