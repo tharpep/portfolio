@@ -144,21 +144,22 @@ const projects: Project[] = [
   {
     slug: "kelsier",
     title: "Kelsier",
-    description: "Terminal workspace for running several coding agents at once, tracking each one's task, branch, and whether it's waiting on me.",
+    description: "Terminal workspace for running many coding agents at once, with a tmux sidebar showing each one's state, branch, and whether it needs me.",
     category: "ai-ml",
-    technologies: ["Bash", "Go", "tmux", "Claude Code hooks", "fzf", "jq", "GitHub Actions"],
-    dates: { start: "2026-08", end: "present" },
-    status: "in-progress",
+    technologies: ["Go", "Bubble Tea", "Bash", "tmux", "Claude Code hooks", "lazygit", "yazi", "GitHub Actions"],
+    dates: { start: "2026-08", end: "2026-10" },
+    status: "completed",
     highlights: [],
-    challenge: "Running several coding agents at once is easy to start and hard to keep track of: which terminal holds which task, which branch it's on, and which one is waiting on me.",
+    challenge: "Moving from the IDE to the terminal made each Claude Code session simple and fast, but running several at once meant a pile of tabs: which holds which task, which branch it's on, and which one is waiting on me.",
     solution: [
-      "Kept the agent untouched: tmux runs Claude Code in its own terminal, and kel only does the bookkeeping",
-      "Used Claude Code's hooks and status line to report each agent's state, context use and cost, with no polling or background process",
-      "Built a status-bar fleet view, a dashboard and a searchable board, plus one key that jumps to whichever agent is waiting on me",
-      "Shows what each branch still needs (commit, push, PR) from plain git",
-      "Bash script with a faster Go path; CI runs the test suite on Linux and macOS on every push"
+      "Kept the agent untouched: tmux runs Claude Code in its own pane, and kel builds its view from Claude Code's hooks and status line, with no daemon",
+      "Rebuilt the interface after Orca and herdr as a Go sidebar in every window: repos, worktrees and dev servers above, each agent's state, context and cost below",
+      "A finished agent stays highlighted until I've looked at it, and one key jumps to whichever agent is blocked on me",
+      "Opens yazi, lazygit, diffs, Neovim and the browser in popups at the right directory instead of reimplementing them, and shows each agent's plan and task list",
+      "Refuses to close a worktree with uncommitted or unpushed work, and restores the whole workspace after a reboot",
+      "Bash for the hooks, Go for everything that reads or renders; an integration suite against a real tmux server and golden-frame tests for the sidebar run on Linux and macOS in CI"
     ],
-    result: "Still in progress at v0.9. The status bar, the jump key, the dashboard and the board all work.",
+    result: "v0.10 replaced the old fzf board with the sidebar and is my daily setup on Linux, WSL2 and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
