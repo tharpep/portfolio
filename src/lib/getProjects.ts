@@ -147,19 +147,19 @@ const projects: Project[] = [
     description: "Terminal workspace for running many coding agents at once, with a tmux sidebar showing each one's state, branch, and whether it needs me.",
     category: "ai-ml",
     technologies: ["Go", "Bubble Tea", "Bash", "tmux", "Claude Code hooks", "lazygit", "yazi", "GitHub Actions"],
-    dates: { start: "2026-08", end: "2026-10" },
-    status: "completed",
+    dates: { start: "2026-08", end: "present" },
+    status: "in-progress",
     highlights: [],
-    challenge: "Moving from the IDE to the terminal made each Claude Code session simple and fast, but running several at once meant a pile of tabs: which holds which task, which branch it's on, and which one is waiting on me.",
+    challenge: "Moving from the IDE to the terminal made each Claude Code session simple and fast, but running several at once meant a pile of tabs: which holds which task, which branch it's on, and which one is waiting on me. The agent workspaces available online fix this by moving you into their own app.",
     solution: [
-      "Kept the agent untouched: tmux runs Claude Code in its own pane, and kel builds its view from Claude Code's hooks and status line, with no daemon",
-      "Rebuilt the interface after Orca and herdr as a Go sidebar in every window: repos, worktrees and dev servers above, each agent's state, context and cost below",
-      "A finished agent stays highlighted until I've looked at it, and one key jumps to whichever agent is blocked on me",
-      "Opens yazi, lazygit, diffs, Neovim and the browser in popups at the right directory instead of reimplementing them, and shows each agent's plan and task list",
+      "Designed a workspace that stays in the terminal: a sidebar in every tmux window shows repos, worktrees and dev servers, plus each agent's state, context and cost, and one key jumps to whichever agent needs me",
+      "Kept the agent untouched: Claude Code runs exactly as it would in a bare terminal, and kel builds its view from Claude Code's own hooks and status line",
+      "No app, daemon or account: it's tmux plus files on disk, so agents keep running when I detach, and the same setup works on Linux, WSL2 and macOS",
+      "Opens the tools I already use (yazi, lazygit, Neovim, my browser) in popups at the right directory instead of shipping its own file tree and diff viewer, and shows each agent's plan and task list",
       "Refuses to close a worktree with uncommitted or unpushed work, and restores the whole workspace after a reboot",
-      "Bash for the hooks, Go for everything that reads or renders; an integration suite against a real tmux server and golden-frame tests for the sidebar run on Linux and macOS in CI"
+      "Bash for the hooks, Go for everything that reads or renders; integration tests against a real tmux server and golden-frame tests for the sidebar run in CI on Linux and macOS"
     ],
-    result: "v0.10 replaced the old fzf board with the sidebar and is my daily setup on Linux, WSL2 and macOS.",
+    result: "In progress at v0.10: the sidebar has replaced the old fzf board, and I'm testing it as my daily setup.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
