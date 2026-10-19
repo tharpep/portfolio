@@ -167,7 +167,7 @@ const projects: Project[] = [
       "The tmux status bar shows each agent's state, and a key binding jumps to the agent that's waiting on me.",
       "kel top lists the agents along with what each branch still needs (commit, push or a pull request), read from git."
     ],
-    result: "I use the status bar, the jump key and kel top to run several agents at once without losing track of them. CI runs the tests on Linux and macOS.",
+    result: "The status bar, the jump key and kel top are working, and CI runs the tests on Linux and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
@@ -235,7 +235,7 @@ const projects: Project[] = [
       "I rerank the merged results with Voyage AI before returning them, since Sazed reads the top few results.",
       "Documents come in as uploads (PDF, Word, Markdown) or URLs from the dashboard or chat, and re-uploading a file replaces it instead of duplicating it."
     ],
-    result: "Sazed uses it for document and journal search. It started out syncing from Google Drive; I replaced that with direct uploads, which made ingestion simpler and easier to debug.",
+    result: "Sazed uses it for document and journal search.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
     partOf: "homelab",
   },
@@ -255,7 +255,7 @@ const projects: Project[] = [
       "I added scheduled automations and a background worker for longer jobs, so research or code tasks don't hold up a chat.",
       "For code changes, the worker opens pull requests from a separate GitHub App account, so I review every change before it's merged."
     ],
-    result: "I use it daily from my phone and desktop. Moving it from Google Cloud onto my homelab taught me a lot about running and monitoring my own services.",
+    result: "I use it daily from my phone and desktop.",
     githubUrl: "https://github.com/tharpep/sazed",
     homelabMap: true,
     partOf: "homelab",
@@ -276,7 +276,7 @@ const projects: Project[] = [
       "Each container has a self-hosted GitHub Actions runner, so pushing to main deploys that service the same way Google Cloud did.",
       "The services are described in a YAML registry that the gateway uses for health checks and phone alerts, and that also generates the map on this page."
     ],
-    result: "What ran on Google Cloud now runs at home, and I'm shutting down the cloud copies. I learned that monitoring needs as much attention as deploying: a deploy once left the dashboard blank with no alert, so the health checks now test the dashboard itself.",
+    result: "Sazed, the API gateway, the knowledge base and the agent worker all run on it now.",
     homelabMap: true,
     homelabStats: true,
     relatedSlugs: ["sazed", "personal-api-gateway", "knowledge-base"],
