@@ -6,7 +6,12 @@ import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects, p
 import { formatDateRange } from "@/lib/dates";
 import { text } from "@/lib/typography";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
-import SazedArchitectureDiagramWrapper from "@/components/SazedArchitectureDiagramWrapper";
+import HomelabMap from "@/components/homelab/HomelabMap";
+import HomelabStats from "@/components/homelab/HomelabStats";
+import { readSnapshot } from "@/lib/homelab";
+
+// Pages with the live homelab map pick up a fresh snapshot at most once a minute.
+export const revalidate = 60;
 
 // Generate static params for all visible projects
 export async function generateStaticParams() {
@@ -40,6 +45,11 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         notFound();
     }
 
+    const homelab = project.homelabMap ? await readSnapshot() : null;
+    const partOf = project.partOf ? getProjectBySlug(project.partOf) : undefined;
+    const related = (project.relatedSlugs ?? [])
+        .map((s) => getProjectBySlug(s))
+        .filter((p): p is NonNullable<typeof p> => p !== undefined && !p.hidden);
     const nextProject = getNextProject(slug);
     const prevProject = getPreviousProject(slug);
 
@@ -76,6 +86,25 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                     <p className="text-lg text-neutral-300 leading-relaxed mb-6">
                         {project.description}
                     </p>
+
+                    {(partOf || related.length > 0) && (
+                        <p className={`${text.meta} mb-6 flex flex-wrap items-center gap-x-3 gap-y-1`}>
+                            {partOf && (
+                                <>
+                                    <span className="text-neutral-500">Part of</span>
+                                    <Link href={`/projects/${partOf.slug}`} className="text-cyan-300 hover:text-cyan-200">
+                                        {partOf.title} →
+                                    </Link>
+                                </>
+                            )}
+                            {related.length > 0 && <span className="text-neutral-500">Includes</span>}
+                            {related.map((r) => (
+                                <Link key={r.slug} href={`/projects/${r.slug}`} className="text-cyan-300 hover:text-cyan-200">
+                                    {r.title}
+                                </Link>
+                            ))}
+                        </p>
+                    )}
 
                     {/* Tech Stack */}
                     <div className="flex flex-wrap gap-2 mb-6">
@@ -135,6 +164,14 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
 
                 {/* Divider */}
                 <div className="h-px bg-neutral-800 mb-10"></div>
+
+                {/* Live homelab map, first thing after the header */}
+                {homelab && (
+                    <section aria-label="Live architecture map" className="mb-12">
+                        {project.homelabStats && <HomelabStats stats={homelab.stats_24h} />}
+                        <HomelabMap initial={homelab} />
+                    </section>
+                )}
 
                 {/* Hero Image */}
                 {project.images && project.images.length > 0 && (
@@ -212,19 +249,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 )}
 
                 {/* Architecture Diagram */}
-                {project.architectureDiagram && (
-                    <ScrollFadeIn>
-                        <section className="mb-10 pt-8 border-t border-neutral-800">
-                            <h2 className={`${text.subTitle} mb-4`}>
-                                Architecture
-                            </h2>
-                            {project.architectureDiagram.type === 'component' &&
-                             project.architectureDiagram.name === 'sazed' && (
-                                <SazedArchitectureDiagramWrapper />
-                            )}
-                        </section>
-                    </ScrollFadeIn>
-                )}
+
 
                 {/* Secondary Images (if more than 1 image) */}
                 {project.images && project.images.length > 1 && (

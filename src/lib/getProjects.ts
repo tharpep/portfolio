@@ -22,7 +22,14 @@ export interface Project {
   challenge?: string;
   solution?: string[];
   result?: string;
-  architectureDiagram?: { type: 'component'; name: 'sazed' };
+  /** Show the live homelab architecture map at the top of the page. */
+  homelabMap?: boolean;
+  /** Also show the homelab's last-24-hours counts above the map. */
+  homelabStats?: boolean;
+  /** Slug of the project this one is part of (shown as a link under the description). */
+  partOf?: string;
+  /** Slugs of projects that are part of this one (shown as links). */
+  relatedSlugs?: string[];
 }
 
 export interface ProjectCategory {
@@ -37,21 +44,22 @@ const projects: Project[] = [
   {
     slug: "personal-api-gateway",
     title: "Personal API Gateway",
-    description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices.",
+    description: "API gateway that handles Google, GitHub and AI provider access for my other services.",
     category: "devops-cloud",
-    technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
+    technologies: ["FastAPI", "Python", "Google OAuth", "GitHub Apps", "MCP", "PostgreSQL"],
     dates: { start: "2025-01", end: "present" },
-    status: "completed",
+    status: "in-progress",
     highlights: [],
-    challenge: "Managing authentication and API calls across multiple services (Google Calendar, Gmail, Tasks, AI providers) was becoming repetitive across projects, with scattered credentials and inconsistent patterns.",
+    challenge: "Each service kept a copy of the Google, GitHub and AI credentials and the code to call them. Adding an integration meant repeating that work, and rotating a token meant updating several places.",
     solution: [
-      "Built a centralized FastAPI gateway with unified authentication via API keys",
-      "Implemented Google OAuth 2.0 with automatic token refresh for all Google services",
-      "Created OpenAI-compatible AI routing supporting Claude and OpenRouter providers",
-      "Deployed to GCP Cloud Run with secrets managed via Secret Manager"
+      "I built a FastAPI gateway that the other services call for Google Workspace, GitHub, web search and AI providers, so the credentials and OAuth token refresh live there.",
+      "When the services moved to my homelab, I added a service registry that runs health checks every minute and sends outage and disk alerts to my phone.",
+      "I set up a GitHub App account for automated changes, so code from Sazed's worker comes in as pull requests instead of pushes to main.",
+      "I added an MCP server so Claude Code and Claude Desktop can check on the homelab and hand tasks to Sazed."
     ],
-    result: "Single endpoint powers the Sazed agent, automations platform, and knowledge base service. Clean separation of auth logic from application code, with consistent rate limiting and error handling across all consumers.",
+    result: "Adding an integration is now a router in the gateway instead of a change to each service, and rotating a credential means updating it in the gateway.",
     githubUrl: "https://github.com/tharpep/api-gateway",
+    partOf: "homelab",
   },
   {
     slug: "personal-automations",
@@ -71,6 +79,8 @@ const projects: Project[] = [
     ],
     result: "A personal automation framework where new scheduled tasks can be deployed by writing a single Python file. Currently powers AI-generated briefings, with more automations planned.",
     githubUrl: "https://github.com/tharpep/automations",
+    // Superseded: automations now run inside Sazed as data.
+    hidden: true,
   },
   {
     slug: "azure-etl-pipeline",
@@ -150,15 +160,14 @@ const projects: Project[] = [
     dates: { start: "2026-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "Running several coding agents at once is easy to start and hard to keep track of: which terminal holds which task, which branch it's on, and which one is waiting on me.",
+    challenge: "Once I started running several Claude Code sessions at once, I kept losing track of them: which terminal had which task, which branch it was on, and which one was waiting for me. I like working in the terminal, so I wanted to keep track of them there instead of switching to a separate app.",
     solution: [
-      "Kept the agent untouched: tmux runs Claude Code in its own terminal, and kel only does the bookkeeping",
-      "Used Claude Code's hooks and status line to report each agent's state, context use and cost, with no polling or background process",
-      "Built a status-bar fleet view, a dashboard and a searchable board, plus one key that jumps to whichever agent is waiting on me",
-      "Shows what each branch still needs (commit, push, PR) from plain git",
-      "Bash script with a faster Go path; CI runs the test suite on Linux and macOS on every push"
+      "I built it on tmux so everything stays in the terminal, and Claude Code runs unchanged in a tmux window while kel does the bookkeeping.",
+      "I used Claude Code's hooks and status line to report each agent's state, context use and cost, so nothing has to poll in the background.",
+      "The tmux status bar shows each agent's state, and a key binding jumps to the agent that's waiting on me.",
+      "A sidebar lists the agents along with what each branch still needs (commit, push or a pull request), read from git."
     ],
-    result: "Still in progress at v0.9. The status bar, the jump key, the dashboard and the board all work.",
+    result: "The status bar and the jump key are working, and CI runs the tests on Linux and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
@@ -214,43 +223,63 @@ const projects: Project[] = [
   {
     slug: "knowledge-base",
     title: "Personal Knowledge Base",
-    description: "Cloud-hosted knowledge base with hybrid retrieval, Google Drive sync, and Voyage AI embeddings for personal document search.",
+    description: "Document search service for Sazed using vector and full-text search.",
     category: "ai-ml",
-    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Google Drive API", "GCP Cloud Run", "Docker", "Poetry"],
+    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI"],
     dates: { start: "2025-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted a private, searchable knowledge base backed by my own documents — Google Docs, PDFs, spreadsheets — with retrieval quality beyond basic keyword or single-vector search.",
+    challenge: "I wanted Sazed to look things up in my own documents and notes. Keyword search missed anything worded differently, and vector search on its own missed exact names and terms.",
     solution: [
-      "Built hybrid retrieval pipeline combining dense vector search (pgvector) with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF)",
-      "Applied Voyage AI reranking as a final stage to maximize result relevance",
-      "Implemented incremental Google Drive sync with folder change detection and category-based document filtering",
-      "Exposed an OpenAI-compatible chat completions endpoint with RAG injection",
-      "Deployed to GCP Cloud Run with a Neon PostgreSQL database as the vector store"
+      "I combined pgvector similarity search with PostgreSQL full-text search and merged the two rankings with Reciprocal Rank Fusion, so it catches both meaning and exact matches.",
+      "I rerank the merged results with Voyage AI before returning them, since Sazed reads the top few results.",
+      "Documents come in as uploads (PDF, Word, Markdown) or URLs from the dashboard or chat, and re-uploading a file replaces it instead of duplicating it."
     ],
-    result: "Deployed and in active use. Powers document retrieval for the Sazed agent.",
+    result: "Sazed uses it for document and journal search.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
+    partOf: "homelab",
   },
   {
     slug: "sazed",
     title: "Sazed – Personal AI Agent",
-    description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
+    description: "Personal AI agent that works with my calendar, email, tasks and documents, hosted on my homelab.",
     category: "ai-ml",
-    technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
+    technologies: ["Python", "FastAPI", "Anthropic SDK", "Claude Code", "PostgreSQL", "React 19", "TypeScript", "MCP"],
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted an AI agent that knew my personal context and could act on it, with memory that persisted across sessions, accessible from multiple clients.",
+    challenge: "My calendar, email, tasks and notes were spread across different apps, and the AI assistants I used couldn't see any of it or do anything with it. I wanted my own agent that knew that context and that I could reach from my phone or desktop.",
     solution: [
-      "Built a FastAPI agent service using the Anthropic SDK with a multi-turn agentic loop",
-      "Implemented 20+ tools covering Google Calendar, Tasks, Gmail, Drive, knowledge base search, and Pushover notifications — all routed through the Personal API Gateway",
-      "Designed persistent agent memory with post-session fact extraction and summarization using Claude Haiku",
-      "Built a cross-platform desktop and web frontend with React 19, Vite, and Tauri featuring real-time SSE streaming and tool call visualization",
-      "Created a FastMCP bridge exposing Sazed to Claude Desktop via stdio MCP transport as a single ask_sazed tool"
+      "I built the agent loop on the Anthropic SDK and routed its outside calls through my API gateway, so credentials and API code live in the gateway instead of the agent.",
+      "I gave it memory by pulling facts out of each conversation and summarizing older context, which keeps long chats usable without resending everything.",
+      "I added scheduled automations and a background worker for longer jobs, so research or code tasks don't hold up a chat.",
+      "For code changes, the worker opens pull requests from a separate GitHub App account, so I review every change before it's merged."
     ],
-    result: "Fully operational personal AI agent in daily use. All backend services deployed to GCP Cloud Run; desktop app available cross-platform via Tauri.",
+    result: "I use it daily from my phone and desktop.",
     githubUrl: "https://github.com/tharpep/sazed",
-    architectureDiagram: { type: 'component', name: 'sazed' },
+    homelabMap: true,
+    partOf: "homelab",
+  },
+  {
+    slug: "homelab",
+    title: "Homelab",
+    description: "Proxmox server at home that runs Sazed and its related services.",
+    category: "devops-cloud",
+    technologies: ["Proxmox", "LXC", "Tailscale", "Caddy", "PostgreSQL", "GitHub Actions"],
+    dates: { start: "2026-05", end: "present" },
+    status: "in-progress",
+    highlights: [],
+    challenge: "Sazed and its services were spread across Google Cloud, Neon and Vercel, while I already had a Proxmox server at home. I wanted to run all of it myself on that server, without opening it up to the internet.",
+    solution: [
+      "I run each service in a separate LXC container on Proxmox, so I can restart or rebuild one without affecting the rest.",
+      "It's only reachable over Tailscale, and Caddy adds the API keys to requests, so the apps on my phone and laptop don't hold any.",
+      "Each container has a self-hosted GitHub Actions runner, so pushing to main deploys that service the same way Google Cloud did.",
+      "The services are described in a YAML registry that the gateway uses for health checks and phone alerts, and that also generates the map on this page."
+    ],
+    result: "Sazed, the API gateway, the knowledge base and the agent worker all run on it now.",
+    homelabMap: true,
+    homelabStats: true,
+    relatedSlugs: ["sazed", "personal-api-gateway", "knowledge-base"],
   },
   {
     slug: "portfolio",

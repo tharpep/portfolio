@@ -1,0 +1,364 @@
+{
+ "version": 1,
+ "generated_at": "2026-10-19T19:58:52.695228+00:00",
+ "map": {
+  "layout": {
+   "columns": [
+    {
+     "x": 4.0,
+     "w": 118.0
+    },
+    {
+     "x": 136.0,
+     "w": 104.0
+    },
+    {
+     "x": 266.0,
+     "w": 116.0
+    },
+    {
+     "x": 408.0,
+     "w": 112.0
+    },
+    {
+     "x": 552.0,
+     "w": 116.0
+    }
+   ],
+   "row_height": 65.0,
+   "top": 40.0,
+   "unplaced_col": 3
+  },
+  "nodes": [
+   {
+    "id": "phone",
+    "label": "iPhone",
+    "sub": "Console app",
+    "about": "The dashboard on my phone, over Tailscale",
+    "kind": "client",
+    "col": 0,
+    "row": 1.0,
+    "status": null,
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "desktop",
+    "label": "Desktop",
+    "sub": "Browser",
+    "about": "The dashboard in a desktop browser",
+    "kind": "client",
+    "col": 0,
+    "row": 2.0,
+    "status": null,
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "claude-code",
+    "label": "Claude Code",
+    "sub": "MCP client",
+    "about": "Claude Code and Claude Desktop connect through the gateway's MCP server",
+    "kind": "client",
+    "col": 0,
+    "row": 4.0,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "console",
+    "label": "Console",
+    "sub": "Caddy",
+    "about": "Web dashboard served by Caddy, which adds the API keys",
+    "kind": "homelab",
+    "col": 1,
+    "row": 2.0,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "proxmox",
+    "label": "Proxmox",
+    "sub": "Host",
+    "about": "The Proxmox host the containers run on",
+    "kind": "homelab",
+    "col": 1,
+    "row": 6.0,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "sazed",
+    "label": "Sazed",
+    "sub": "Agent",
+    "about": "The agent: tools, memory, automations and background jobs",
+    "kind": "homelab",
+    "col": 2,
+    "row": 0.5,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "gateway",
+    "label": "Gateway",
+    "sub": "APIs, MCP",
+    "about": "Handles outside API calls, health checks, alerts and the MCP server",
+    "kind": "homelab",
+    "col": 2,
+    "row": 2.5,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "knowledge",
+    "label": "Knowledge",
+    "sub": "RAG",
+    "about": "Document search with pgvector and full-text search",
+    "kind": "homelab",
+    "col": 2,
+    "row": 4.5,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "worker",
+    "label": "Worker",
+    "sub": "Agents",
+    "about": "Runs Claude Code and Gemini jobs in a sandboxed container",
+    "kind": "homelab",
+    "col": 3,
+    "row": 0.5,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "postgres",
+    "label": "Postgres",
+    "sub": "pgvector",
+    "about": "Databases for the services, with pgvector",
+    "kind": "homelab",
+    "col": 3,
+    "row": 4.5,
+    "status": "up",
+    "services_up": 1,
+    "services_total": 1
+   },
+   {
+    "id": "anthropic",
+    "label": "Anthropic",
+    "sub": "Claude models",
+    "about": "Claude models for Sazed and for Claude Code jobs",
+    "kind": "external",
+    "col": 4,
+    "row": 0.0,
+    "status": "up",
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "gemini",
+    "label": "Gemini",
+    "sub": "via Antigravity",
+    "about": "Research and second opinions, using Google Search",
+    "kind": "external",
+    "col": 4,
+    "row": 1.0,
+    "status": null,
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "github",
+    "label": "GitHub",
+    "sub": "Repos, PRs, CI",
+    "about": "Repos, CI, deploys and the worker's pull requests",
+    "kind": "external",
+    "col": 4,
+    "row": 2.0,
+    "status": "up",
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "google",
+    "label": "Google",
+    "sub": "Calendar, Gmail",
+    "about": "Calendar, Tasks, Gmail and Drive",
+    "kind": "external",
+    "col": 4,
+    "row": 3.0,
+    "status": "up",
+    "services_up": 0,
+    "services_total": 0
+   },
+   {
+    "id": "pushover",
+    "label": "Pushover",
+    "sub": "Phone alerts",
+    "about": "Notifications to my phone",
+    "kind": "external",
+    "col": 4,
+    "row": 4.0,
+    "status": "up",
+    "services_up": 0,
+    "services_total": 0
+   }
+  ],
+  "edges": [
+   {
+    "from": "phone",
+    "to": "console",
+    "quiet": true,
+    "route": null
+   },
+   {
+    "from": "desktop",
+    "to": "console",
+    "quiet": true,
+    "route": null
+   },
+   {
+    "from": "claude-code",
+    "to": "gateway",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "console",
+    "to": "sazed",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "console",
+    "to": "gateway",
+    "quiet": true,
+    "route": null
+   },
+   {
+    "from": "sazed",
+    "to": "worker",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "sazed",
+    "to": "gateway",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "sazed",
+    "to": "anthropic",
+    "quiet": false,
+    "route": "over"
+   },
+   {
+    "from": "sazed",
+    "to": "postgres",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "knowledge",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "knowledge",
+    "to": "postgres",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "postgres",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "proxmox",
+    "quiet": true,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "github",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "google",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "gateway",
+    "to": "pushover",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "worker",
+    "to": "anthropic",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "worker",
+    "to": "gemini",
+    "quiet": false,
+    "route": null
+   },
+   {
+    "from": "worker",
+    "to": "github",
+    "quiet": false,
+    "route": null
+   }
+  ],
+  "uptime_7d": 100.0,
+  "generated_at": "2026-10-19T19:58:52.501085+00:00"
+ },
+ "traffic_15m": {
+  "gateway>proxmox": 0,
+  "gateway>google": 0,
+  "worker>github": 0,
+  "worker>anthropic": 0,
+  "console>gateway": 0,
+  "gateway>postgres": 0,
+  "gateway>github": 0,
+  "desktop>console": 0,
+  "knowledge>postgres": 0,
+  "sazed>gateway": 0,
+  "worker>gemini": 0,
+  "phone>console": 0,
+  "sazed>worker": 0,
+  "sazed>anthropic": 0,
+  "gateway>knowledge": 0,
+  "console>sazed": 0,
+  "gateway>pushover": 0,
+  "claude-code>gateway": 0,
+  "sazed>postgres": 0
+ },
+ "stats_24h": {
+  "messages": 3,
+  "model_calls": 11,
+  "tool_calls": 21,
+  "prs": 0,
+  "automation_runs": 5,
+  "notifications": 7,
+  "jobs": 10
+ },
+ "sample": true
+}
