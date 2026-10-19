@@ -25,7 +25,7 @@ No test suite is configured.
 | `/` | `src/app/page.tsx` |
 | `/about` | `src/app/about/page.tsx` |
 | `/projects` + `/projects/[slug]` | `src/app/projects/` |
-| `/homelab` | `src/app/homelab/page.tsx` |
+| `/homelab` | redirects to `/projects/homelab` (`next.config.ts`) |
 | `/api/homelab` | `src/app/api/homelab/route.ts` (the live map's data) |
 | `/resume` | `src/app/resume/page.tsx` |
 | `/photography` + `/photography/[slug]` | `src/app/photography/` |
@@ -38,7 +38,7 @@ No test suite is configured.
 
 **Spotify** — `src/data/spotify-data.json` is a static file updated daily by the GitHub Actions workflow (`.github/workflows/spotify-sync.yml`), which runs `spotify-scripts/fetch_spotify_data_github.py`. The Next.js app reads this file directly via `src/lib/spotify-data.ts`.
 
-**Homelab map** — The live architecture map on `/homelab`, also embedded on project pages with `homelabMap: true` (Sazed), is drawn entirely from a snapshot the homelab publishes:
+**Homelab map** — Project pages with `homelabMap: true` (Homelab, Sazed) show the live architecture map right under the header (`homelabStats: true` adds the 24-hour counts line). `partOf` and `relatedSlugs` link the Homelab project and the projects it includes. The map is drawn entirely from a snapshot the homelab publishes:
 - **Where it comes from:** Sazed (`app/activity/public_map.py`) pushes a public-safe snapshot to Upstash Redis every minute under the key `homelab:map`. The homelab is never reachable from the internet.
 - **What's in it:** layout, nodes and lines from `api-gateway/registry/map.yaml`, node statuses, 7-day uptime, traffic per line for the last 15 minutes, and 24-hour counts. There are no event text, hosts or container numbers; nodes with `public: false` (the media apps) are left out.
 - **How it's read:**

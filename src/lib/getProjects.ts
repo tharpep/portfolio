@@ -22,8 +22,14 @@ export interface Project {
   challenge?: string;
   solution?: string[];
   result?: string;
-  /** Show the live homelab architecture map (same one as /homelab). */
+  /** Show the live homelab architecture map at the top of the page. */
   homelabMap?: boolean;
+  /** Also show the homelab's last-24-hours counts above the map. */
+  homelabStats?: boolean;
+  /** Slug of the project this one is part of (shown as a link under the description). */
+  partOf?: string;
+  /** Slugs of projects that are part of this one (shown as links). */
+  relatedSlugs?: string[];
 }
 
 export interface ProjectCategory {
@@ -38,21 +44,22 @@ const projects: Project[] = [
   {
     slug: "personal-api-gateway",
     title: "Personal API Gateway",
-    description: "One gateway between my agent and every outside API, plus the homelab's service registry, health alerts and MCP server.",
+    description: "One API for Google, GitHub and AI providers, plus the homelab's health checks, alerts and MCP server.",
     category: "devops-cloud",
-    technologies: ["FastAPI", "Python", "Google OAuth", "GitHub Apps", "MCP", "PostgreSQL", "Proxmox API", "Pushover"],
+    technologies: ["FastAPI", "Python", "Google OAuth", "GitHub Apps", "MCP", "PostgreSQL"],
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "Every project was repeating the same authentication and API plumbing for Google, GitHub and AI providers, with credentials scattered across services. Once everything moved to my homelab, it also needed one place that knew what was running and whether it was healthy.",
+    challenge: "Every service needed the same Google, GitHub and AI plumbing, and its own copy of the credentials.",
     solution: [
-      "A key-authenticated API over Google Calendar, Tasks, Gmail, Drive and Sheets, GitHub, web search and AI providers, with one shared OAuth token cache",
-      "A service registry in YAML that drives health checks every minute; outage, disk and failed-deploy alerts to my phone; and the live architecture map",
-      "A GitHub App bot that commits through the Git Data API and opens pull requests, so automated changes never push to main",
-      "An MCP server so Claude Code and Claude Desktop can check on the homelab and hand work to Sazed's worker"
+      "One authenticated API over Google Workspace, GitHub, search and AI providers",
+      "YAML service registry with health checks and phone alerts",
+      "GitHub App bot that opens pull requests instead of pushing",
+      "MCP server for Claude Code and Claude Desktop"
     ],
-    result: "Every service in the homelab reaches the outside world through it, so credentials live in one place and a new integration is one router away.",
+    result: "All homelab services use it for outside APIs, so credentials live in one place.",
     githubUrl: "https://github.com/tharpep/api-gateway",
+    partOf: "homelab",
   },
   {
     slug: "personal-automations",
@@ -217,42 +224,64 @@ const projects: Project[] = [
   {
     slug: "knowledge-base",
     title: "Personal Knowledge Base",
-    description: "Hybrid-retrieval knowledge base (pgvector, full-text search and reranking) that Sazed searches across my documents and notes.",
+    description: "Document search for Sazed: vector and full-text search combined, then reranked.",
     category: "ai-ml",
-    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Hybrid search"],
+    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI"],
     dates: { start: "2025-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted a private, searchable home for my own documents and notes, with retrieval quality beyond basic keyword or single-vector search, that my agent could use as memory.",
+    challenge: "I wanted Sazed to search my own documents with better results than keyword or single-vector search.",
     solution: [
-      "Hybrid retrieval: dense vector search (pgvector HNSW with iterative scans for filtered queries) plus PostgreSQL full-text search, fused with Reciprocal Rank Fusion and reranked with Voyage AI",
-      "Ingest from uploads (PDF, DOCX, Markdown, text) and URLs through the console or Sazed's tools, with stable source IDs so re-ingesting replaces instead of duplicating",
-      "Runs on the homelab's Postgres, one database per service"
+      "pgvector and full-text search merged with Reciprocal Rank Fusion",
+      "Voyage AI reranking on the final results",
+      "Upload PDFs, Word docs, Markdown or URLs from the dashboard or chat"
     ],
-    result: "Powers Sazed's document search and journal recall.",
+    result: "Powers Sazed's document and journal search.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
+    partOf: "homelab",
   },
   {
     slug: "sazed",
     title: "Sazed – Personal AI Agent",
-    description: "Personal AI agent on my homelab: 117 tools, persistent memory, automations as data, and a worker that opens its own PRs.",
+    description: "Personal AI agent with 117 tools, persistent memory, scheduled automations, and a worker that opens its own pull requests.",
     category: "ai-ml",
-    technologies: ["Python", "FastAPI", "Anthropic SDK", "Claude Code", "PostgreSQL", "React 19", "TypeScript", "MCP", "Proxmox", "Tailscale"],
+    technologies: ["Python", "FastAPI", "Anthropic SDK", "Claude Code", "PostgreSQL", "React 19", "TypeScript", "MCP"],
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted an AI agent that knew my context and could act on it from anywhere. It kept growing until it needed real infrastructure: scheduled work, long-running jobs, and a safe way to change its own code without me babysitting it.",
+    challenge: "I wanted an assistant that knows my context and can act on it from my phone or desktop.",
     solution: [
-      "Agent loop on the Anthropic SDK with 117 tools across Google Workspace, GitHub, the knowledge base, finance and the homelab itself; sensitive actions pause for my approval",
-      "Persistent memory with post-session fact extraction, rolling context compression, and prompt caching across the tool loop",
-      "Automations stored as data with cron triggers (replacing my earlier automations platform), including a daily scout that researches improvements and files them to a prioritized backlog",
-      "A sandboxed worker runs Claude Code and Gemini jobs; approved backlog items come back as pull requests from a GitHub App bot, with CI and an automatic fix loop",
-      "An activity timeline built from Postgres triggers, streamed live to a React console with a flow view of every chat turn, job and alert",
-      "Reachable from Claude Code and Claude Desktop through an MCP server on the gateway"
+      "Claude tool loop with 117 tools; sensitive actions wait for my approval",
+      "Memory from past conversations, with context compression and prompt caching",
+      "Scheduled automations, including a daily scout that files ideas to a backlog",
+      "Worker that runs Claude Code and Gemini jobs and opens PRs from a bot account",
+      "Live activity log and dashboard in React"
     ],
-    result: "In daily use from my phone and desktop. It runs entirely on my homelab, deploys itself on every push, and has shipped its first improvements that it proposed, built and opened as pull requests itself.",
+    result: "Used daily from my phone and desktop. Two changes it suggested were built by its worker and merged.",
     githubUrl: "https://github.com/tharpep/sazed",
     homelabMap: true,
+    partOf: "homelab",
+  },
+  {
+    slug: "homelab",
+    title: "Homelab",
+    description: "Proxmox server at home running Sazed and its services. The map on this page is live.",
+    category: "devops-cloud",
+    technologies: ["Proxmox", "LXC", "Tailscale", "Caddy", "PostgreSQL", "GitHub Actions"],
+    dates: { start: "2026-05", end: "present" },
+    status: "in-progress",
+    highlights: [],
+    challenge: "I moved Sazed and its services off Google Cloud onto my own hardware.",
+    solution: [
+      "One Proxmox host, one LXC container per service",
+      "Reachable only over Tailscale; Caddy adds the API keys",
+      "Push-to-deploy through a self-hosted GitHub runner per container",
+      "Health checks, phone alerts and this map all come from one YAML registry"
+    ],
+    result: "Runs everything behind Sazed. The map updates every minute from the live system.",
+    homelabMap: true,
+    homelabStats: true,
+    relatedSlugs: ["sazed", "personal-api-gateway", "knowledge-base"],
   },
   {
     slug: "portfolio",

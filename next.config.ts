@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    // Short link for the homelab, which lives as a project page.
+    return [{ source: '/homelab', destination: '/projects/homelab', permanent: false }];
+  },
   images: {
     remotePatterns: [
       {
