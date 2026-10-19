@@ -57,7 +57,7 @@ const projects: Project[] = [
       "I set up a GitHub App account for automated changes, so code from Sazed's worker comes in as pull requests instead of pushes to main.",
       "I added an MCP server so Claude Code and Claude Desktop can check on the homelab and hand tasks to Sazed."
     ],
-    result: "A new integration is now a router in the gateway instead of a change to every service, and rotating a credential means updating it in the gateway. It ended up being where most of the homelab's monitoring lives, too.",
+    result: "Adding an integration is now a router in the gateway instead of a change to each service, and rotating a credential means updating it in the gateway.",
     githubUrl: "https://github.com/tharpep/api-gateway",
     partOf: "homelab",
   },
@@ -160,14 +160,14 @@ const projects: Project[] = [
     dates: { start: "2026-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "Once I started running several Claude Code sessions at once, I kept losing track of them: which terminal had which task, which branch it was on, and which one was waiting for me to answer. I wanted to see all of them at a glance without changing how the agents themselves work.",
+    challenge: "Once I started running several Claude Code sessions at once, I kept losing track of them: which terminal had which task, which branch it was on, and which one was waiting for me. I like working in the terminal, so I wanted to keep track of them there instead of switching to a separate app.",
     solution: [
-      "I left the agent alone: tmux runs Claude Code in a normal terminal and kel only does the bookkeeping, so it behaves the same as Claude Code on its own.",
+      "I built it on tmux so everything stays in the terminal, and Claude Code runs unchanged in a tmux window while kel does the bookkeeping.",
       "I used Claude Code's hooks and status line to report each agent's state, context use and cost, so nothing has to poll in the background.",
       "The tmux status bar shows each agent's state, and a key binding jumps to the agent that's waiting on me.",
-      "kel top lists the agents along with what each branch still needs (commit, push or a pull request), read straight from git."
+      "kel top lists the agents along with what each branch still needs (commit, push or a pull request), read from git."
     ],
-    result: "v0.9 shipped with a board and menus; in v0.10 I removed them and I'm designing a sidebar to replace them. The status bar, the jump key and kel top work today, and CI runs the tests on Linux and macOS.",
+    result: "I use the status bar, the jump key and kel top to run several agents at once without losing track of them. CI runs the tests on Linux and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
@@ -232,10 +232,10 @@ const projects: Project[] = [
     challenge: "I wanted Sazed to look things up in my own documents and notes. Keyword search missed anything worded differently, and vector search on its own missed exact names and terms.",
     solution: [
       "I combined pgvector similarity search with PostgreSQL full-text search and merged the two rankings with Reciprocal Rank Fusion, so it catches both meaning and exact matches.",
-      "I rerank the merged results with Voyage AI before returning them, since the top few results are what Sazed actually reads.",
+      "I rerank the merged results with Voyage AI before returning them, since Sazed reads the top few results.",
       "Documents come in as uploads (PDF, Word, Markdown) or URLs from the dashboard or chat, and re-uploading a file replaces it instead of duplicating it."
     ],
-    result: "Sazed uses it for document and journal search. It started out syncing from Google Drive; I replaced that with direct uploads, which made ingestion simpler and much easier to debug.",
+    result: "Sazed uses it for document and journal search. It started out syncing from Google Drive; I replaced that with direct uploads, which made ingestion simpler and easier to debug.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
     partOf: "homelab",
   },
@@ -253,9 +253,9 @@ const projects: Project[] = [
       "I built the agent loop on the Anthropic SDK and routed its outside calls through my API gateway, so credentials and API code live in the gateway instead of the agent.",
       "I gave it memory by pulling facts out of each conversation and summarizing older context, which keeps long chats usable without resending everything.",
       "I added scheduled automations and a background worker for longer jobs, so research or code tasks don't hold up a chat.",
-      "For code changes, the worker opens pull requests from a separate GitHub App account, so nothing reaches main without my review."
+      "For code changes, the worker opens pull requests from a separate GitHub App account, so I review every change before it's merged."
     ],
-    result: "I use it daily from my phone and desktop. Moving it from Google Cloud onto my homelab taught me a lot about running and monitoring my own services, and it's still growing.",
+    result: "I use it daily from my phone and desktop. Moving it from Google Cloud onto my homelab taught me a lot about running and monitoring my own services.",
     githubUrl: "https://github.com/tharpep/sazed",
     homelabMap: true,
     partOf: "homelab",
@@ -276,7 +276,7 @@ const projects: Project[] = [
       "Each container has a self-hosted GitHub Actions runner, so pushing to main deploys that service the same way Google Cloud did.",
       "The services are described in a YAML registry that the gateway uses for health checks and phone alerts, and that also generates the map on this page."
     ],
-    result: "What ran on Google Cloud now runs at home, and I'm shutting down the cloud copies. The biggest lesson was that monitoring needs as much attention as deploying: a deploy once left the dashboard blank with no alert, so the health checks now test the dashboard itself.",
+    result: "What ran on Google Cloud now runs at home, and I'm shutting down the cloud copies. I learned that monitoring needs as much attention as deploying: a deploy once left the dashboard blank with no alert, so the health checks now test the dashboard itself.",
     homelabMap: true,
     homelabStats: true,
     relatedSlugs: ["sazed", "personal-api-gateway", "knowledge-base"],
