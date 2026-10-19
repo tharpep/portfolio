@@ -50,15 +50,14 @@ const projects: Project[] = [
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "Each service kept a copy of the Google, GitHub and AI credentials and API code it needed.",
+    challenge: "Each service kept a copy of the Google, GitHub and AI credentials and the code to call them. Adding an integration meant repeating that work, and rotating a token meant updating several places.",
     solution: [
-      "Built a FastAPI gateway for Google Workspace, GitHub, web search and AI providers",
-      "Implemented Google OAuth with shared token refresh",
-      "Added a service registry with health checks and phone alerts for the homelab",
-      "Set up a GitHub App so automated code changes go through pull requests",
-      "Added an MCP server for Claude Code and Claude Desktop"
+      "I built a FastAPI gateway that the other services call for Google Workspace, GitHub, web search and AI providers, so the credentials and OAuth token refresh live there.",
+      "When the services moved to my homelab, I added a service registry that runs health checks every minute and sends outage and disk alerts to my phone.",
+      "I set up a GitHub App account for automated changes, so code from Sazed's worker comes in as pull requests instead of pushes to main.",
+      "I added an MCP server so Claude Code and Claude Desktop can check on the homelab and hand tasks to Sazed."
     ],
-    result: "My homelab services use it for outside API calls.",
+    result: "A new integration is now a router in the gateway instead of a change to every service, and rotating a credential means updating it in the gateway. It ended up being where most of the homelab's monitoring lives, too.",
     githubUrl: "https://github.com/tharpep/api-gateway",
     partOf: "homelab",
   },
@@ -161,15 +160,14 @@ const projects: Project[] = [
     dates: { start: "2026-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "Running several coding agents at once is easy to start and hard to keep track of: which terminal holds which task, which branch it's on, and which one is waiting on me.",
+    challenge: "Once I started running several Claude Code sessions at once, I kept losing track of them: which terminal had which task, which branch it was on, and which one was waiting for me to answer. I wanted to see all of them at a glance without changing how the agents themselves work.",
     solution: [
-      "Kept the agent untouched: tmux runs Claude Code in its own terminal, and kel only does the bookkeeping",
-      "Used Claude Code's hooks and status line to report each agent's state, context use and cost, with no polling or background process",
-      "Built a status-bar fleet view, a dashboard and a searchable board, plus one key that jumps to whichever agent is waiting on me",
-      "Shows what each branch still needs (commit, push, PR) from plain git",
-      "Bash script with a faster Go path; CI runs the test suite on Linux and macOS on every push"
+      "I left the agent alone: tmux runs Claude Code in a normal terminal and kel only does the bookkeeping, so it behaves the same as Claude Code on its own.",
+      "I used Claude Code's hooks and status line to report each agent's state, context use and cost, so nothing has to poll in the background.",
+      "The tmux status bar shows each agent's state, and a key binding jumps to the agent that's waiting on me.",
+      "kel top lists the agents along with what each branch still needs (commit, push or a pull request), read straight from git."
     ],
-    result: "Still in progress at v0.9. The status bar, the jump key, the dashboard and the board all work.",
+    result: "v0.9 shipped with a board and menus; in v0.10 I removed them and I'm designing a sidebar to replace them. The status bar, the jump key and kel top work today, and CI runs the tests on Linux and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
@@ -231,13 +229,13 @@ const projects: Project[] = [
     dates: { start: "2025-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted Sazed to search my documents with better results than keyword search.",
+    challenge: "I wanted Sazed to look things up in my own documents and notes. Keyword search missed anything worded differently, and vector search on its own missed exact names and terms.",
     solution: [
-      "Built hybrid search with pgvector and PostgreSQL full-text search, merged with Reciprocal Rank Fusion",
-      "Added Voyage AI reranking for the final results",
-      "Implemented ingestion for PDFs, Word documents, Markdown and URLs"
+      "I combined pgvector similarity search with PostgreSQL full-text search and merged the two rankings with Reciprocal Rank Fusion, so it catches both meaning and exact matches.",
+      "I rerank the merged results with Voyage AI before returning them, since the top few results are what Sazed actually reads.",
+      "Documents come in as uploads (PDF, Word, Markdown) or URLs from the dashboard or chat, and re-uploading a file replaces it instead of duplicating it."
     ],
-    result: "Sazed uses it for document and journal search.",
+    result: "Sazed uses it for document and journal search. It started out syncing from Google Drive; I replaced that with direct uploads, which made ingestion simpler and much easier to debug.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
     partOf: "homelab",
   },
@@ -250,16 +248,14 @@ const projects: Project[] = [
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted an assistant that knew my context and could take actions for me from my phone or desktop.",
+    challenge: "My calendar, email, tasks and notes were spread across different apps, and the AI assistants I used couldn't see any of it or do anything with it. I wanted my own agent that knew that context and that I could reach from my phone or desktop.",
     solution: [
-      "Built an agent loop with the Anthropic SDK and tools for Google Workspace, GitHub, documents and the homelab",
-      "Added an approval step before sensitive actions like sending email",
-      "Implemented memory across conversations, context compression and prompt caching",
-      "Built scheduled automations and a background worker that runs Claude Code and Gemini jobs",
-      "Set up the worker to open pull requests from a GitHub App account for me to review",
-      "Built a React dashboard with an activity log"
+      "I built the agent loop on the Anthropic SDK and routed its outside calls through my API gateway, so credentials and API code live in the gateway instead of the agent.",
+      "I gave it memory by pulling facts out of each conversation and summarizing older context, which keeps long chats usable without resending everything.",
+      "I added scheduled automations and a background worker for longer jobs, so research or code tasks don't hold up a chat.",
+      "For code changes, the worker opens pull requests from a separate GitHub App account, so nothing reaches main without my review."
     ],
-    result: "I use it daily from my phone and desktop. Still in progress.",
+    result: "I use it daily from my phone and desktop. Moving it from Google Cloud onto my homelab taught me a lot about running and monitoring my own services, and it's still growing.",
     githubUrl: "https://github.com/tharpep/sazed",
     homelabMap: true,
     partOf: "homelab",
@@ -273,14 +269,14 @@ const projects: Project[] = [
     dates: { start: "2026-05", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I moved Sazed and its services from Google Cloud to my own hardware.",
+    challenge: "Sazed and its services were spread across Google Cloud, Neon and Vercel, while I already had a Proxmox server at home. I wanted to run all of it myself on that server, without opening it up to the internet.",
     solution: [
-      "Set up Proxmox with an LXC container for each service",
-      "Limited access to my Tailscale network, with Caddy adding API keys to requests",
-      "Set up deploys from GitHub using self-hosted runners",
-      "Built health checks, phone alerts and the architecture map from a YAML service registry"
+      "I run each service in a separate LXC container on Proxmox, so I can restart or rebuild one without affecting the rest.",
+      "It's only reachable over Tailscale, and Caddy adds the API keys to requests, so the apps on my phone and laptop don't hold any.",
+      "Each container has a self-hosted GitHub Actions runner, so pushing to main deploys that service the same way Google Cloud did.",
+      "The services are described in a YAML registry that the gateway uses for health checks and phone alerts, and that also generates the map on this page."
     ],
-    result: "Runs Sazed, the API gateway, the knowledge base, Postgres and the agent worker.",
+    result: "What ran on Google Cloud now runs at home, and I'm shutting down the cloud copies. The biggest lesson was that monitoring needs as much attention as deploying: a deploy once left the dashboard blank with no alert, so the health checks now test the dashboard itself.",
     homelabMap: true,
     homelabStats: true,
     relatedSlugs: ["sazed", "personal-api-gateway", "knowledge-base"],
