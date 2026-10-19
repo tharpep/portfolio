@@ -6,7 +6,11 @@ import { getProjectBySlug, getNextProject, getPreviousProject, getAllProjects, p
 import { formatDateRange } from "@/lib/dates";
 import { text } from "@/lib/typography";
 import ScrollFadeIn from "@/components/ScrollFadeIn";
-import SazedArchitectureDiagramWrapper from "@/components/SazedArchitectureDiagramWrapper";
+import HomelabMap from "@/components/homelab/HomelabMap";
+import { readSnapshot } from "@/lib/homelab";
+
+// Pages with the live homelab map pick up a fresh snapshot at most once a minute.
+export const revalidate = 60;
 
 // Generate static params for all visible projects
 export async function generateStaticParams() {
@@ -40,6 +44,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
         notFound();
     }
 
+    const homelab = project.homelabMap ? await readSnapshot() : null;
     const nextProject = getNextProject(slug);
     const prevProject = getPreviousProject(slug);
 
@@ -212,16 +217,16 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
                 )}
 
                 {/* Architecture Diagram */}
-                {project.architectureDiagram && (
+                {homelab && (
                     <ScrollFadeIn>
                         <section className="mb-10 pt-8 border-t border-neutral-800">
-                            <h2 className={`${text.subTitle} mb-4`}>
-                                Architecture
-                            </h2>
-                            {project.architectureDiagram.type === 'component' &&
-                             project.architectureDiagram.name === 'sazed' && (
-                                <SazedArchitectureDiagramWrapper />
-                            )}
+                            <div className="mb-4 flex flex-wrap items-baseline justify-between gap-2">
+                                <h2 className={text.subTitle}>Architecture, live</h2>
+                                <Link href="/homelab" className="font-mono text-sm text-cyan-300 hover:text-cyan-200">
+                                    More on the homelab →
+                                </Link>
+                            </div>
+                            <HomelabMap initial={homelab} />
                         </section>
                     </ScrollFadeIn>
                 )}

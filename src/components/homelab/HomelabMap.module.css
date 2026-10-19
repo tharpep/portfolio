@@ -1,0 +1,24 @@
+/* Live homelab map. Node colors follow the portfolio palette: cyan for what runs on the
+   homelab, neutral for clients and outside services. */
+.node rect { stroke-width: 0.75px; transition: stroke-width 0.15s, opacity 0.3s; }
+.node { cursor: pointer; outline: none; }
+.node:hover rect, .node:focus-visible rect, .selected rect { stroke-width: 1.6px; }
+.title { font-size: 14px; font-weight: 600; }
+.sub { font-size: 12px; }
+
+.homelab rect { fill: rgba(6, 182, 212, 0.1); stroke: rgba(34, 211, 238, 0.6); }
+.homelab .title { fill: #ecfeff; }
+.homelab .sub { fill: rgba(165, 243, 252, 0.75); }
+.plain rect { fill: #262626; stroke: #525252; }
+.plain .title { fill: #f5f5f5; }
+.plain .sub { fill: #a3a3a3; }
+
+.flow { fill: none; stroke-dasharray: 4 6; stroke-linecap: round; transition: opacity 0.4s; }
+.offline { filter: grayscale(1); opacity: 0.55; }
+
+@media (prefers-reduced-motion: no-preference) {
+  .flow { animation: dash var(--dur, 2s) linear infinite; }
+  .pulse { animation: pulse 2s ease-in-out infinite; }
+}
+@keyframes dash { to { stroke-dashoffset: -20; } }
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }

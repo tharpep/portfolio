@@ -22,7 +22,8 @@ export interface Project {
   challenge?: string;
   solution?: string[];
   result?: string;
-  architectureDiagram?: { type: 'component'; name: 'sazed' };
+  /** Show the live homelab architecture map (same one as /homelab). */
+  homelabMap?: boolean;
 }
 
 export interface ProjectCategory {
@@ -37,20 +38,20 @@ const projects: Project[] = [
   {
     slug: "personal-api-gateway",
     title: "Personal API Gateway",
-    description: "Centralized API gateway providing unified access to Google services, AI providers, and internal microservices.",
+    description: "One gateway between my agent and every outside API, plus the homelab's service registry, health alerts and MCP server.",
     category: "devops-cloud",
-    technologies: ["FastAPI", "Python", "Google OAuth", "Cloud Run", "Docker", "Secret Manager", "Anthropic API", "OpenRouter"],
+    technologies: ["FastAPI", "Python", "Google OAuth", "GitHub Apps", "MCP", "PostgreSQL", "Proxmox API", "Pushover"],
     dates: { start: "2025-01", end: "present" },
-    status: "completed",
+    status: "in-progress",
     highlights: [],
-    challenge: "Managing authentication and API calls across multiple services (Google Calendar, Gmail, Tasks, AI providers) was becoming repetitive across projects, with scattered credentials and inconsistent patterns.",
+    challenge: "Every project was repeating the same authentication and API plumbing for Google, GitHub and AI providers, with credentials scattered across services. Once everything moved to my homelab, it also needed one place that knew what was running and whether it was healthy.",
     solution: [
-      "Built a centralized FastAPI gateway with unified authentication via API keys",
-      "Implemented Google OAuth 2.0 with automatic token refresh for all Google services",
-      "Created OpenAI-compatible AI routing supporting Claude and OpenRouter providers",
-      "Deployed to GCP Cloud Run with secrets managed via Secret Manager"
+      "A key-authenticated API over Google Calendar, Tasks, Gmail, Drive and Sheets, GitHub, web search and AI providers, with one shared OAuth token cache",
+      "A service registry in YAML that drives health checks every minute; outage, disk and failed-deploy alerts to my phone; and the live architecture map",
+      "A GitHub App bot that commits through the Git Data API and opens pull requests, so automated changes never push to main",
+      "An MCP server so Claude Code and Claude Desktop can check on the homelab and hand work to Sazed's worker"
     ],
-    result: "Single endpoint powers the Sazed agent, automations platform, and knowledge base service. Clean separation of auth logic from application code, with consistent rate limiting and error handling across all consumers.",
+    result: "Every service in the homelab reaches the outside world through it, so credentials live in one place and a new integration is one router away.",
     githubUrl: "https://github.com/tharpep/api-gateway",
   },
   {
@@ -71,6 +72,8 @@ const projects: Project[] = [
     ],
     result: "A personal automation framework where new scheduled tasks can be deployed by writing a single Python file. Currently powers AI-generated briefings, with more automations planned.",
     githubUrl: "https://github.com/tharpep/automations",
+    // Superseded: automations now run inside Sazed as data.
+    hidden: true,
   },
   {
     slug: "azure-etl-pipeline",
@@ -214,43 +217,42 @@ const projects: Project[] = [
   {
     slug: "knowledge-base",
     title: "Personal Knowledge Base",
-    description: "Cloud-hosted knowledge base with hybrid retrieval, Google Drive sync, and Voyage AI embeddings for personal document search.",
+    description: "Hybrid-retrieval knowledge base (pgvector, full-text search and reranking) that Sazed searches across my documents and notes.",
     category: "ai-ml",
-    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Google Drive API", "GCP Cloud Run", "Docker", "Poetry"],
+    technologies: ["FastAPI", "Python", "PostgreSQL", "pgvector", "Voyage AI", "Hybrid search"],
     dates: { start: "2025-08", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted a private, searchable knowledge base backed by my own documents — Google Docs, PDFs, spreadsheets — with retrieval quality beyond basic keyword or single-vector search.",
+    challenge: "I wanted a private, searchable home for my own documents and notes, with retrieval quality beyond basic keyword or single-vector search, that my agent could use as memory.",
     solution: [
-      "Built hybrid retrieval pipeline combining dense vector search (pgvector) with PostgreSQL full-text search, fused via Reciprocal Rank Fusion (RRF)",
-      "Applied Voyage AI reranking as a final stage to maximize result relevance",
-      "Implemented incremental Google Drive sync with folder change detection and category-based document filtering",
-      "Exposed an OpenAI-compatible chat completions endpoint with RAG injection",
-      "Deployed to GCP Cloud Run with a Neon PostgreSQL database as the vector store"
+      "Hybrid retrieval: dense vector search (pgvector HNSW with iterative scans for filtered queries) plus PostgreSQL full-text search, fused with Reciprocal Rank Fusion and reranked with Voyage AI",
+      "Ingest from uploads (PDF, DOCX, Markdown, text) and URLs through the console or Sazed's tools, with stable source IDs so re-ingesting replaces instead of duplicating",
+      "Runs on the homelab's Postgres, one database per service"
     ],
-    result: "Deployed and in active use. Powers document retrieval for the Sazed agent.",
+    result: "Powers Sazed's document search and journal recall.",
     githubUrl: "https://github.com/tharpep/knowledge-base",
   },
   {
     slug: "sazed",
     title: "Sazed – Personal AI Agent",
-    description: "End-to-end personal AI agent with agentic tool use, persistent memory, streaming chat, and Claude Desktop integration via MCP.",
+    description: "Personal AI agent on my homelab: 117 tools, persistent memory, automations as data, and a worker that opens its own PRs.",
     category: "ai-ml",
-    technologies: ["Python", "FastAPI", "Anthropic SDK", "React 19", "TypeScript", "Tauri", "Vite", "Zustand", "FastMCP", "PostgreSQL", "GCP Cloud Run", "Docker", "Poetry"],
+    technologies: ["Python", "FastAPI", "Anthropic SDK", "Claude Code", "PostgreSQL", "React 19", "TypeScript", "MCP", "Proxmox", "Tailscale"],
     dates: { start: "2025-01", end: "present" },
     status: "in-progress",
     highlights: [],
-    challenge: "I wanted an AI agent that knew my personal context and could act on it, with memory that persisted across sessions, accessible from multiple clients.",
+    challenge: "I wanted an AI agent that knew my context and could act on it from anywhere. It kept growing until it needed real infrastructure: scheduled work, long-running jobs, and a safe way to change its own code without me babysitting it.",
     solution: [
-      "Built a FastAPI agent service using the Anthropic SDK with a multi-turn agentic loop",
-      "Implemented 20+ tools covering Google Calendar, Tasks, Gmail, Drive, knowledge base search, and Pushover notifications — all routed through the Personal API Gateway",
-      "Designed persistent agent memory with post-session fact extraction and summarization using Claude Haiku",
-      "Built a cross-platform desktop and web frontend with React 19, Vite, and Tauri featuring real-time SSE streaming and tool call visualization",
-      "Created a FastMCP bridge exposing Sazed to Claude Desktop via stdio MCP transport as a single ask_sazed tool"
+      "Agent loop on the Anthropic SDK with 117 tools across Google Workspace, GitHub, the knowledge base, finance and the homelab itself; sensitive actions pause for my approval",
+      "Persistent memory with post-session fact extraction, rolling context compression, and prompt caching across the tool loop",
+      "Automations stored as data with cron triggers (replacing my earlier automations platform), including a daily scout that researches improvements and files them to a prioritized backlog",
+      "A sandboxed worker runs Claude Code and Gemini jobs; approved backlog items come back as pull requests from a GitHub App bot, with CI and an automatic fix loop",
+      "An activity timeline built from Postgres triggers, streamed live to a React console with a flow view of every chat turn, job and alert",
+      "Reachable from Claude Code and Claude Desktop through an MCP server on the gateway"
     ],
-    result: "Fully operational personal AI agent in daily use. All backend services deployed to GCP Cloud Run; desktop app available cross-platform via Tauri.",
+    result: "In daily use from my phone and desktop. It runs entirely on my homelab, deploys itself on every push, and has shipped its first improvements that it proposed, built and opened as pull requests itself.",
     githubUrl: "https://github.com/tharpep/sazed",
-    architectureDiagram: { type: 'component', name: 'sazed' },
+    homelabMap: true,
   },
   {
     slug: "portfolio",
