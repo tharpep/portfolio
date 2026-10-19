@@ -165,9 +165,9 @@ const projects: Project[] = [
       "I built it on tmux so everything stays in the terminal, and Claude Code runs unchanged in a tmux window while kel does the bookkeeping.",
       "I used Claude Code's hooks and status line to report each agent's state, context use and cost, so nothing has to poll in the background.",
       "The tmux status bar shows each agent's state, and a key binding jumps to the agent that's waiting on me.",
-      "kel top lists the agents along with what each branch still needs (commit, push or a pull request), read from git."
+      "A sidebar lists the agents along with what each branch still needs (commit, push or a pull request), read from git."
     ],
-    result: "The status bar, the jump key and kel top are working, and CI runs the tests on Linux and macOS.",
+    result: "The status bar and the jump key are working, and CI runs the tests on Linux and macOS.",
     githubUrl: "https://github.com/tharpep/kelsier"
   },
   {
