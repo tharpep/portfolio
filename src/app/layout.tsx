@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import Script from "next/script";
 import { PageTransitions } from "@/components/PageTransitions";
 import ConditionalNav from "@/components/ConditionalNav";
@@ -8,14 +8,19 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
-const inter = Inter({
+// Self-hosted (latin, variable weight; from Fontsource, OFL licenses beside the files) so builds
+// never fetch from Google Fonts: on some Vercel build machines Google returns font addresses that
+// next/font/google can't parse, and the build fails.
+const inter = localFont({
+  src: "../fonts/inter-latin-wght.woff2",
   variable: "--font-inter",
-  subsets: ["latin"],
+  weight: "100 900",
 });
 
-const geistMono = Geist_Mono({
+const geistMono = localFont({
+  src: "../fonts/geist-mono-latin-wght.woff2",
   variable: "--font-geist-mono",
-  subsets: ["latin"],
+  weight: "100 900",
 });
 
 export const metadata: Metadata = {

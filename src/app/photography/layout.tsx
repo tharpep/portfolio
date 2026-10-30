@@ -1,11 +1,12 @@
-import { Bricolage_Grotesque } from 'next/font/google';
+import localFont from 'next/font/local';
 import { ViewTransitions } from 'next-view-transitions';
 import MotionProvider from '@/components/photography/MotionProvider';
 
-const display = Bricolage_Grotesque({
+// Self-hosted for the same reason as the root layout's fonts (see there).
+const display = localFont({
+  src: '../../fonts/bricolage-grotesque-latin-wght.woff2',
   variable: '--font-display',
-  subsets: ['latin'],
-  weight: ['500', '600', '700'],
+  weight: '200 800',
 });
 
 export default function PhotographyLayout({ children }: { children: React.ReactNode }) {
