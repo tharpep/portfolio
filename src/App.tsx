@@ -6,6 +6,7 @@ import { Navbar } from "./components/Navbar";
 import { PhotoModal } from "./components/PhotoModal";
 import { AmbientAura } from "./components/AmbientAura";
 import { FilmGrain } from "./components/FilmGrain";
+import { ExifHud } from "./components/ExifHud";
 import { playShutterSound, playDialClick } from "./components/audioFoley";
 
 export function App() {
@@ -13,6 +14,7 @@ export function App() {
   const [activeModeId, setActiveModeId] = useState<string>(() => modes[0]?.id || "vertical-cascade");
   const [activeCollection, setActiveCollection] = useState<string | null>(null);
   const [selectedPhoto, setSelectedPhoto] = useState<PhotoItem | null>(null);
+  const [modalPhoto, setModalPhoto] = useState<PhotoItem | null>(null);
 
   const filteredPhotos = useMemo(() => {
     if (!activeCollection) return SAMPLE_PHOTOS;
@@ -44,7 +46,7 @@ export function App() {
 
   return (
     <div className="min-h-screen bg-[#09090b] text-zinc-100 flex flex-col selection:bg-white selection:text-black relative overflow-x-hidden">
-      <AmbientAura activePhoto={selectedPhoto} />
+      <AmbientAura activePhoto={selectedPhoto || modalPhoto} />
       <FilmGrain filmStock="iso400" />
 
       <Navbar
@@ -74,12 +76,20 @@ export function App() {
         )}
       </main>
 
-      <PhotoModal
-        isOpen={!!selectedPhoto}
-        photo={selectedPhoto}
-        photos={filteredPhotos}
+      {/* Sony Viewfinder HUD */}
+      <ExifHud
+        selectedPhoto={selectedPhoto}
         onClose={() => setSelectedPhoto(null)}
-        onSelectPhoto={handleSelectPhoto}
+        onSelectPhoto={setSelectedPhoto}
+      />
+
+      {/* Cinematic Modal */}
+      <PhotoModal
+        isOpen={!!modalPhoto}
+        photo={modalPhoto}
+        photos={filteredPhotos}
+        onClose={() => setModalPhoto(null)}
+        onSelectPhoto={setModalPhoto}
       />
 
       <footer className="border-t border-zinc-900 py-6 px-6 text-center text-xs font-mono text-zinc-600 z-10">
