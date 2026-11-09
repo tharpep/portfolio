@@ -12,7 +12,7 @@ interface RunwayCardProps {
   viewportWidth: number;
 }
 
-const RunwayCard: React.FC<RunwayCardProps> = ({
+const RunwayCard: React.FC<RunwayCardProps> = React.memo(({
   photo,
   index,
   total,
@@ -22,15 +22,21 @@ const RunwayCard: React.FC<RunwayCardProps> = ({
   viewportWidth,
 }) => {
   const cardRef = useRef<HTMLDivElement | null>(null);
-  const [imageOffset, setImageOffset] = useState(0);
+  const imgRef = useRef<HTMLImageElement | null>(null);
+  const [aspectRatio, setAspectRatio] = useState<number>(photo.aspectRatio || 1.5);
 
   useEffect(() => {
-    if (!cardRef.current) return;
+    setAspectRatio(photo.aspectRatio || 1.5);
+  }, [photo.aspectRatio]);
+
+  useEffect(() => {
+    if (!cardRef.current || !imgRef.current) return;
     const cardCenter = cardRef.current.offsetLeft + cardRef.current.offsetWidth / 2;
     const viewCenter = scrollX + viewportWidth / 2;
+    if (Math.abs(cardCenter - viewCenter) > viewportWidth * 1.5) return;
     const delta = (cardCenter - viewCenter) * 0.06;
     const clamped = Math.max(-24, Math.min(24, delta));
-    setImageOffset(clamped);
+    imgRef.current.style.transform = `translateX(${clamped}px)`;
   }, [scrollX, viewportWidth]);
 
   const verticalOffset = useMemo(() => {
@@ -53,19 +59,23 @@ const RunwayCard: React.FC<RunwayCardProps> = ({
         height: "60vh",
         maxHeight: "680px",
         minHeight: "420px",
-        aspectRatio: `${photo.aspectRatio || 1.5}`,
+        aspectRatio: `${aspectRatio}`,
       }}
     >
       <div className="absolute inset-0 overflow-hidden bg-zinc-950">
         <img
-          src={photo.url}
+          ref={imgRef}
+          src={photo.thumbnailUrl || photo.url}
           alt={photo.title}
           loading="lazy"
           draggable={false}
-          className="w-full h-full object-cover transition-transform duration-75 ease-out select-none"
-          style={{
-            transform: `scale(1.1) translateX(${imageOffset}px)`,
+          onLoad={(e) => {
+            const img = e.currentTarget;
+            if (img.naturalWidth && img.naturalHeight) {
+              setAspectRatio(+(img.naturalWidth / img.naturalHeight).toFixed(2));
+            }
           }}
+          className="w-full h-full object-cover transition-transform duration-75 ease-out select-none"
         />
       </div>
 
@@ -108,7 +118,7 @@ const RunwayCard: React.FC<RunwayCardProps> = ({
       </div>
     </div>
   );
-};
+});
 
 const HorizontalRunwayMode: React.FC<ModeProps> = ({
   photos,
@@ -162,15 +172,28 @@ const HorizontalRunwayMode: React.FC<ModeProps> = ({
     return result;
   }, [photos, collections]);
 
+  const rafId = useRef<number | null>(null);
   const handleScroll = useCallback(() => {
-    if (!containerRef.current) return;
-    const sLeft = containerRef.current.scrollLeft;
-    const sWidth = containerRef.current.scrollWidth;
-    const cWidth = containerRef.current.clientWidth;
-    setScrollX(sLeft);
-    const maxScroll = sWidth - cWidth;
-    const progress = maxScroll > 0 ? (sLeft / maxScroll) * 100 : 0;
-    setScrollProgress(Math.min(100, Math.max(0, progress)));
+    if (rafId.current !== null) return;
+    rafId.current = requestAnimationFrame(() => {
+      rafId.current = null;
+      if (!containerRef.current) return;
+      const sLeft = containerRef.current.scrollLeft;
+      const sWidth = containerRef.current.scrollWidth;
+      const cWidth = containerRef.current.clientWidth;
+      setScrollX(sLeft);
+      const maxScroll = sWidth - cWidth;
+      const progress = maxScroll > 0 ? (sLeft / maxScroll) * 100 : 0;
+      setScrollProgress(Math.min(100, Math.max(0, progress)));
+    });
+  }, []);
+
+  useEffect(() => {
+    return () => {
+      if (rafId.current !== null) {
+        cancelAnimationFrame(rafId.current);
+      }
+    };
   }, []);
 
   const handleMouseDown = (e: React.MouseEvent) => {

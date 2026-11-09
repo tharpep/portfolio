@@ -22,7 +22,7 @@ const VerticalCascadeMode: React.FC<ModeProps> = ({
               }`}
             >
               <img
-                src={photo.url}
+                src={photo.thumbnailUrl || photo.url}
                 alt={photo.title}
                 loading="lazy"
                 className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-105"
