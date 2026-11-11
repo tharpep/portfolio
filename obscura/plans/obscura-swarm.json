@@ -1,0 +1,83 @@
+{
+  "id": "obscura-swarm",
+  "project": "agent-stack",
+  "board_plan": "plans/obscura-swarm",
+  "check": "./check.sh",
+  "interfaces": [
+    "src/core/types.ts",
+    "src/core/fixtures.ts",
+    "src/core/mode_registry.ts"
+  ],
+  "tasks": [
+    {
+      "id": "mode-light-table",
+      "profile": "flash",
+      "goal": "Implement the Infinite Spatial Light Table mode in src/modes/light_table.tsx. Photos are placed organically on a 2D spatial canvas with drag panning, zoom controls (+ / - buttons and wheel), and subtle random rotational tilt (-3deg to 3deg). Clicking a photo calls onSelectPhoto. Export 'mode' of type GalleryModeModule (id: 'light-table', label: 'Light Table', icon: 'Maximize2', order: 2) as named and default export.",
+      "done": "src/modes/light_table.tsx exists, implements 2D spatial canvas with pan/zoom and organic photo cards, exports mode with id 'light-table', and passes ./check.sh",
+      "owns": ["src/modes/light_table.tsx"]
+    },
+    {
+      "id": "mode-horizontal-runway",
+      "profile": "flash",
+      "goal": "Implement the Horizontal Inertia Runway gallery mode in src/modes/horizontal_runway.tsx. Renders an expansive horizontal filmstrip where photos glide horizontally with smooth mouse/wheel scrolling, parallax depth layers, and oversized editorial typography for collection titles. Clicking a photo calls onSelectPhoto. Export 'mode' of type GalleryModeModule (id: 'horizontal-runway', label: 'Runway', icon: 'MoveHorizontal', order: 3) as named and default export.",
+      "done": "src/modes/horizontal_runway.tsx exists, implements horizontal filmstrip with collection headers, exports mode with id 'horizontal-runway', and passes ./check.sh",
+      "owns": ["src/modes/horizontal_runway.tsx"]
+    },
+    {
+      "id": "mode-contact-sheet",
+      "profile": "flash",
+      "goal": "Implement the 35mm Analog Contact Sheet mode in src/modes/contact_sheet.tsx. Renders photographs formatted like classic 35mm film negative strips with sprocket holes, frame numbers (e.g., 01A, 02A), Kodak/Fuji film stock borders, and an Invert/Negative color toggle button. Clicking a photo calls onSelectPhoto. Export 'mode' of type GalleryModeModule (id: 'contact-sheet', label: 'Contact Sheet', icon: 'Film', order: 4) as named and default export.",
+      "done": "src/modes/contact_sheet.tsx exists, renders negative filmstrips with sprockets and frame numbers, exports mode with id 'contact-sheet', and passes ./check.sh",
+      "owns": ["src/modes/contact_sheet.tsx"]
+    },
+    {
+      "id": "mode-split-editorial",
+      "profile": "flash",
+      "goal": "Implement the Split Editorial Story mode in src/modes/split_editorial.tsx. A 50/50 split-screen magazine layout: left column displays collection narrative, camera specs (Sony A7C), location coordinates, and year; right column showcases large photo spreads with editorial captions and smooth photo selection. Export 'mode' of type GalleryModeModule (id: 'split-editorial', label: 'Editorial', icon: 'BookOpen', order: 5) as named and default export.",
+      "done": "src/modes/split_editorial.tsx exists, implements 50/50 split magazine layout with narrative and photo view, exports mode with id 'split-editorial', and passes ./check.sh",
+      "owns": ["src/modes/split_editorial.tsx"]
+    },
+    {
+      "id": "component-exif-hud",
+      "profile": "flash",
+      "goal": "Implement the floating camera telemetry HUD component in src/components/ExifHud.tsx. When a photo is selected, it displays a sleek technical overlay styled like a Sony Alpha viewfinder (shutter speed, aperture, ISO, focal length, lens, camera body, aspect ratio, and location coordinates). Provide a close button.",
+      "done": "src/components/ExifHud.tsx exists, renders camera telemetry specs with Sony Alpha viewfinder styling, and passes ./check.sh",
+      "owns": ["src/components/ExifHud.tsx"]
+    },
+    {
+      "id": "component-optical-loupe",
+      "profile": "flash",
+      "goal": "Implement an interactive magnifying loupe component in src/components/OpticalLoupe.tsx. When active, it creates a circular optical magnifying glass (2.5x zoom) following cursor coordinates with a metallic bezel and edge chromatic aberration.",
+      "done": "src/components/OpticalLoupe.tsx exists, renders interactive cursor loupe magnifying target image coordinates, and passes ./check.sh",
+      "owns": ["src/components/OpticalLoupe.tsx"]
+    },
+    {
+      "id": "component-ambient-aura",
+      "profile": "flash",
+      "goal": "Implement the dynamic ambient backdrop glow component in src/components/AmbientAura.tsx. Takes dominantColor or active photo info and casts an animated, atmospheric color glow with CSS blur in the background.",
+      "done": "src/components/AmbientAura.tsx exists, renders responsive atmospheric ambient gradient blur, and passes ./check.sh",
+      "owns": ["src/components/AmbientAura.tsx"]
+    },
+    {
+      "id": "component-audio-foley",
+      "profile": "flash",
+      "goal": "Implement a zero-dependency Web Audio API tactile sound synthesizer in src/components/audioFoley.ts. Exports functions playShutterSound(), playDialClick(), and toggleMute() using Web Audio oscillators and white noise buffers to simulate mechanical SLR camera shutters.",
+      "done": "src/components/audioFoley.ts exists, synthesizes mechanical shutter clicks via Web Audio API oscillators/noise buffers, and passes ./check.sh",
+      "owns": ["src/components/audioFoley.ts"]
+    },
+    {
+      "id": "component-photo-modal",
+      "profile": "flash",
+      "goal": "Implement a cinematic full-screen photo detail modal in src/components/PhotoModal.tsx. Features smooth backdrop blur, keyboard navigation (left/right arrows, ESC to close), full-res image zoom, and photo title/exif display.",
+      "done": "src/components/PhotoModal.tsx exists, handles full-screen photo view with keyboard navigation and dismiss controls, and passes ./check.sh",
+      "owns": ["src/components/PhotoModal.tsx"]
+    },
+    {
+      "id": "component-film-grain",
+      "profile": "flash",
+      "goal": "Implement a procedural analog film grain overlay component in src/components/FilmGrain.tsx using SVG feTurbulence / feColorMatrix filters or CSS noise that gives photos an organic 35mm film character without blocking clicks (pointer-events-none).",
+      "done": "src/components/FilmGrain.tsx exists, renders subtle analog film grain overlay with pointer-events-none, and passes ./check.sh",
+      "owns": ["src/components/FilmGrain.tsx"]
+    }
+  ]
+}
