@@ -12,6 +12,7 @@ export interface ExifData {
 export interface PhotoItem {
   id: string;
   url: string;
+  thumbnailUrl?: string;
   width: number;
   height: number;
   title: string;
@@ -26,6 +27,7 @@ export interface PhotoItem {
 }
 
 export interface Collection {
+  id?: string;
   slug: string;
   title: string;
   year: string;
@@ -43,6 +45,19 @@ export interface ModeProps {
   onSelectPhoto: (photo: PhotoItem | null) => void;
   activeCollection?: string | null;
   onFilterCollection?: (slug: string | null) => void;
+}
+
+export interface BioData {
+  name: string;
+  portraitUrl: string;
+  tagline: string;
+  location: string;
+  camera: string;
+  bioParagraphs: string[];
+  socials: {
+    label: string;
+    url: string;
+  }[];
 }
 
 export interface GalleryModeModule {
